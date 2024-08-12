@@ -107,9 +107,8 @@
             "outbounds": [
                 "URL-TEST",
                 "🇨🇦CA | 🔴 | vless | @EliV2ray | 10",
-                "🇨🇦CA | 🔴 | vless | @EliV2ray | 11",
                 "🇨🇦CA | 🔴 | vless | @Parsashonam | 8",
-                "🇫🇷FR | 🔴 | vless | @VlessConfig | 17",
+                "🇬🇧GB | 🔴 | vless | @VlessConfig | 17",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 18",
                 "🇨🇦CA | 🔴 | vless | @ipV2Ray | 14",
                 "🇨🇦CA | 🔴 | vless | @ipV2Ray | 15",
@@ -135,7 +134,7 @@
                 "🇩🇪DE | 🔴 | vless | @DarkTeam_VPN | 3",
                 "🇨🇦CA | 🔴 | vless | @proxy_kafee | 4",
                 "🇨🇦CA | 🔴 | vless | @proxy_kafee | 5",
-                "❔XX | 🔴 | vless | @v2logy | 10",
+                "🇨🇦CA | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @v2logy | 11",
                 "🇺🇸US | 🔴 | vless | @servermomo | 0",
                 "🇨🇦CA | 🔴 | vless | @azadi_az_inja_migzare | 0",
@@ -166,8 +165,8 @@
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 6",
                 "🇺🇸US | 🔴 | vless | @V2RayTz | 18",
                 "🇺🇸US | 🔴 | vless | @V2RayTz | 19",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 310",
-                "🇱🇻LV | 🔴 | vless | @DailyV2RY | 311",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 315",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 316",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 10",
                 "🇺🇸US | 🟢 | vless | @fnet00 | 1",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 2",
@@ -205,9 +204,8 @@
             "type": "urltest",
             "outbounds": [
                 "🇨🇦CA | 🔴 | vless | @EliV2ray | 10",
-                "🇨🇦CA | 🔴 | vless | @EliV2ray | 11",
                 "🇨🇦CA | 🔴 | vless | @Parsashonam | 8",
-                "🇫🇷FR | 🔴 | vless | @VlessConfig | 17",
+                "🇬🇧GB | 🔴 | vless | @VlessConfig | 17",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 18",
                 "🇨🇦CA | 🔴 | vless | @ipV2Ray | 14",
                 "🇨🇦CA | 🔴 | vless | @ipV2Ray | 15",
@@ -233,7 +231,7 @@
                 "🇩🇪DE | 🔴 | vless | @DarkTeam_VPN | 3",
                 "🇨🇦CA | 🔴 | vless | @proxy_kafee | 4",
                 "🇨🇦CA | 🔴 | vless | @proxy_kafee | 5",
-                "❔XX | 🔴 | vless | @v2logy | 10",
+                "🇨🇦CA | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @v2logy | 11",
                 "🇺🇸US | 🔴 | vless | @servermomo | 0",
                 "🇨🇦CA | 🔴 | vless | @azadi_az_inja_migzare | 0",
@@ -264,8 +262,8 @@
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 6",
                 "🇺🇸US | 🔴 | vless | @V2RayTz | 18",
                 "🇺🇸US | 🔴 | vless | @V2RayTz | 19",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 310",
-                "🇱🇻LV | 🔴 | vless | @DailyV2RY | 311",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 315",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 316",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 10",
                 "🇺🇸US | 🟢 | vless | @fnet00 | 1",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 2",
@@ -339,27 +337,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @EliV2ray | 11",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "Telegram-ELiV2RAY-ELiV2RAY",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ElenaTheGreatDictator---@ELiV2--@ELiV2---DopMineDrop-SeroTonin--NeverMakeSameMistakeTwice?ed=80",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | 🔴 | vless | @Parsashonam | 8",
             "type": "vless",
             "server": "104.21.19.124",
@@ -381,9 +358,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 17",
+            "tag": "🇬🇧GB | 🔴 | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "15.188.112.126",
+            "server": "18.135.125.15",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -414,7 +391,7 @@
         {
             "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "13.36.69.185",
+            "server": "15.188.112.126",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -924,7 +901,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @v2logy | 10",
+            "tag": "🇨🇦CA | 🔴 | vless | @v2logy | 10",
             "type": "vless",
             "server": "ArV2ray.mAshtimji.IR",
             "server_port": 443,
@@ -1633,12 +1610,12 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 310",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 315",
             "type": "vless",
-            "server": "172.67.77.67",
-            "server_port": 443,
-            "uuid": "cb4fca5f-edf8-415b-aa8f-ac52f415296a",
-            "flow": "",
+            "server": "167.172.148.83",
+            "server_port": 12345,
+            "uuid": "177dfbdf-8337-40ea-8791-906924b9fb2f",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1647,29 +1624,34 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "de01.tradex2080.com",
+                "server_name": "refersion.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "0hue6xKKmwuEefA0eMXQszxESSoagq2kqLB_gPrRc3s",
+                    "short_id": "c57d2373"
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/gPGhgE3kwHBXqpNptGAxAtI0QM",
-                "headers": {
-                    "Host": "de01.tradex2080.com"
-                }
+                "type": "http",
+                "host": [
+                    "refersion.com"
+                ],
+                "path": "\/"
             }
         },
         {
-            "tag": "🇱🇻LV | 🔴 | vless | @DailyV2RY | 311",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 316",
             "type": "vless",
-            "server": "de.tradex2080.com",
-            "server_port": 443,
-            "uuid": "cb4fca5f-edf8-415b-aa8f-ac52f415296a",
-            "flow": "",
+            "server": "159.223.122.198",
+            "server_port": 12345,
+            "uuid": "177dfbdf-8337-40ea-8791-906924b9fb2f",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1678,20 +1660,25 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "de.tradex2080.com",
+                "server_name": "refersion.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "0hue6xKKmwuEefA0eMXQszxESSoagq2kqLB_gPrRc3s",
+                    "short_id": "c57d2373"
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/gPGhgE3kwHBXqpNptGAxAtI0QM",
-                "headers": {
-                    "Host": "de.tradex2080.com"
-                }
+                "type": "http",
+                "host": [
+                    "refersion.com"
+                ],
+                "path": "\/"
             }
         },
         {
