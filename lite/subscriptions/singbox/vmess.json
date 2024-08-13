@@ -111,10 +111,9 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 19",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 20",
-                "🇸🇪SE | 🟢 | vmess | @proxystore11 | 8",
+                "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 9",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @free1_vpn | 1",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 0",
@@ -131,10 +130,9 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 19",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 20",
-                "🇸🇪SE | 🟢 | vmess | @proxystore11 | 8",
+                "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 9",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @free1_vpn | 1",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 0",
@@ -247,11 +245,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🟢 | vmess | @proxystore11 | 8",
+            "tag": "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 9",
             "type": "vmess",
-            "server": "185.146.173.92",
-            "server_port": 80,
-            "uuid": "8639e52b-a0ce-5d68-b465-b594881feb78",
+            "server": "104.21.94.64",
+            "server_port": 443,
+            "uuid": "39cec18f-a439-427c-9a4e-aeb6fcdf6f53",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -262,11 +260,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "linja05.hwcar.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": ""
+                    "Host": "linja05.hwcar.sbs"
                 }
             }
         },
@@ -325,40 +333,6 @@
                 "path": "\/66",
                 "headers": {
                     "Host": "104.26.8.210"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @free1_vpn | 1",
-            "type": "vmess",
-            "server": "104.21.94.64",
-            "server_port": 443,
-            "uuid": "39cec18f-a439-427c-9a4e-aeb6fcdf6f53",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "linja05.hwcar.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "linja05.hwcar.sbs"
                 }
             }
         },
