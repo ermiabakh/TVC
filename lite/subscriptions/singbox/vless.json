@@ -106,9 +106,10 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇨🇦CA | 🔴 | vless | @EliV2ray | 7",
                 "🇨🇦CA | 🔴 | vless | @EliV2ray | 8",
                 "🇨🇦CA | 🔴 | vless | @Parsashonam | 8",
-                "🇮🇪IE | 🔴 | vless | @VlessConfig | 17",
+                "🇺🇸US | 🔴 | vless | @VlessConfig | 17",
                 "🇮🇪IE | 🔴 | vless | @VlessConfig | 18",
                 "🇨🇦CA | 🔴 | vless | @ipV2Ray | 14",
                 "🇨🇦CA | 🔴 | vless | @ipV2Ray | 15",
@@ -178,7 +179,8 @@
                 "🇨🇷CR | 🔴 | vless | @FreakConfig | 11",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
-                "🇺🇸US | 🔴 | vless | @iP_CF | 13",
+                "🇺🇸US | 🔴 | vless | @iP_CF | 14",
+                "🇮🇷IR | 🔴 | vless | @iP_CF | 15",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 7",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
                 "🇺🇸US | 🔴 | vless | @kiava | 8",
@@ -202,9 +204,10 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇨🇦CA | 🔴 | vless | @EliV2ray | 7",
                 "🇨🇦CA | 🔴 | vless | @EliV2ray | 8",
                 "🇨🇦CA | 🔴 | vless | @Parsashonam | 8",
-                "🇮🇪IE | 🔴 | vless | @VlessConfig | 17",
+                "🇺🇸US | 🔴 | vless | @VlessConfig | 17",
                 "🇮🇪IE | 🔴 | vless | @VlessConfig | 18",
                 "🇨🇦CA | 🔴 | vless | @ipV2Ray | 14",
                 "🇨🇦CA | 🔴 | vless | @ipV2Ray | 15",
@@ -274,7 +277,8 @@
                 "🇨🇷CR | 🔴 | vless | @FreakConfig | 11",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
-                "🇺🇸US | 🔴 | vless | @iP_CF | 13",
+                "🇺🇸US | 🔴 | vless | @iP_CF | 14",
+                "🇮🇷IR | 🔴 | vless | @iP_CF | 15",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 7",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
                 "🇺🇸US | 🔴 | vless | @kiava | 8",
@@ -312,6 +316,27 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇨🇦CA | 🔴 | vless | @EliV2ray | 7",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "-Telegram--ELiV2RAY-",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ElenaTheGreatDictator---JoinBede---@ELiV2---@ELiV2---@ELiV2---DopamineSerotoninLover--NeverMakeSameMistakeTwice?ed=80",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | 🔴 | vless | @EliV2ray | 8",
@@ -356,9 +381,9 @@
             }
         },
         {
-            "tag": "🇮🇪IE | 🔴 | vless | @VlessConfig | 17",
+            "tag": "🇺🇸US | 🔴 | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "3.251.235.1",
+            "server": "52.73.188.173",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -389,7 +414,7 @@
         {
             "tag": "🇮🇪IE | 🔴 | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "46.51.173.189",
+            "server": "3.251.235.1",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1906,7 +1931,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @iP_CF | 13",
+            "tag": "🇺🇸US | 🔴 | vless | @iP_CF | 14",
             "type": "vless",
             "server": "188.114.96.3",
             "server_port": 2053,
@@ -1933,6 +1958,27 @@
                 "path": "\/r76Ao3Fh4q6Mx8nz?ed=2560",
                 "headers": {
                     "Host": "REd-SunsET-7e88.GiwERa4299.wORkeRS.DEV"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | 🔴 | vless | @iP_CF | 15",
+            "type": "vless",
+            "server": "bama.ir",
+            "server_port": 80,
+            "uuid": "2dbac56a-40e9-4e0d-b2ee-554e6bdb6874",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "bama.ir"
                 }
             }
         },
