@@ -166,8 +166,8 @@
                 "🇨🇦CA | 🔴 | vless | @ARv2ray | 1",
                 "🇨🇦CA | 🔴 | vless | @ARv2ray | 2",
                 "🇨🇦CA | 🔴 | vless | @ARv2ray | 3",
-                "🇺🇸US | 🔴 | vless | @ARv2ray | 4",
-                "🇺🇸US | 🔴 | vless | @ARv2ray | 5",
+                "🇨🇦CA | 🔴 | vless | @ARv2ray | 4",
+                "🇨🇦CA | 🔴 | vless | @ARv2ray | 5",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 6",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 7",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 8",
@@ -549,7 +549,6 @@
                 "🇬🇧GB | 🟢 | ss | @OutlineVpnOfficial | 29",
                 "🇵🇱PL | 🟢 | ss | @OutlineVpnOfficial | 30",
                 "🇩🇪DE | 🟢 | ss | @OutlineVpnOfficial | 31",
-                "🇨🇦CA | 🟢 | ss | @OutlineVpnOfficial | 32",
                 "🚩CF | 🟢 | vmess | @proxystore11 | 0",
                 "🚩CF | 🟢 | vmess | @proxystore11 | 2",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 4",
@@ -785,8 +784,8 @@
                 "🇨🇦CA | 🔴 | vless | @ARv2ray | 1",
                 "🇨🇦CA | 🔴 | vless | @ARv2ray | 2",
                 "🇨🇦CA | 🔴 | vless | @ARv2ray | 3",
-                "🇺🇸US | 🔴 | vless | @ARv2ray | 4",
-                "🇺🇸US | 🔴 | vless | @ARv2ray | 5",
+                "🇨🇦CA | 🔴 | vless | @ARv2ray | 4",
+                "🇨🇦CA | 🔴 | vless | @ARv2ray | 5",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 6",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 7",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 8",
@@ -1168,7 +1167,6 @@
                 "🇬🇧GB | 🟢 | ss | @OutlineVpnOfficial | 29",
                 "🇵🇱PL | 🟢 | ss | @OutlineVpnOfficial | 30",
                 "🇩🇪DE | 🟢 | ss | @OutlineVpnOfficial | 31",
-                "🇨🇦CA | 🟢 | ss | @OutlineVpnOfficial | 32",
                 "🚩CF | 🟢 | vmess | @proxystore11 | 0",
                 "🚩CF | 🟢 | vmess | @proxystore11 | 2",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 4",
@@ -2634,7 +2632,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 4",
+            "tag": "🇨🇦CA | 🔴 | vless | @ARv2ray | 4",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2095,
@@ -2655,7 +2653,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 5",
+            "tag": "🇨🇦CA | 🔴 | vless | @ARv2ray | 5",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
@@ -10622,16 +10620,6 @@
             "server_port": 52873,
             "method": "chacha20-ietf-poly1305",
             "password": "x13Cv63IdnCZCBNwY0E9dQ",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇨🇦CA | 🟢 | ss | @OutlineVpnOfficial | 32",
-            "type": "shadowsocks",
-            "server": "ca225.vpnbook.com",
-            "server_port": 80,
-            "method": "chacha20-ietf-poly1305",
-            "password": "JIhN6rBKkaEboLNXVSv5rq",
             "plugin": "",
             "plugin_opts": ""
         },
