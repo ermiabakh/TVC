@@ -134,9 +134,10 @@
                 "🇨🇦CA | 🔴 | vless | @DigiV2ray | 17",
                 "🇩🇪DE | 🔴 | vless | @DarkTeam_VPN | 2",
                 "🇩🇪DE | 🔴 | vless | @DarkTeam_VPN | 3",
-                "❔XX | 🔴 | vless | @proxy_kafee | 3",
+                "❔XX | 🔴 | vless | @proxy_kafee | 4",
+                "🇨🇦CA | 🔴 | vless | @proxy_kafee | 5",
                 "❔XX | 🔴 | vless | @v2logy | 10",
-                "🇸🇬SG | 🔴 | vless | @v2logy | 11",
+                "❔XX | 🔴 | vless | @v2logy | 11",
                 "🇺🇸US | 🔴 | vless | @servermomo | 0",
                 "🇮🇷IR | 🔴 | vless | @azadi_az_inja_migzare | 0",
                 "🇨🇦CA | 🔴 | vless | @azadi_az_inja_migzare | 1",
@@ -257,9 +258,10 @@
                 "🇨🇦CA | 🔴 | vless | @DigiV2ray | 17",
                 "🇩🇪DE | 🔴 | vless | @DarkTeam_VPN | 2",
                 "🇩🇪DE | 🔴 | vless | @DarkTeam_VPN | 3",
-                "❔XX | 🔴 | vless | @proxy_kafee | 3",
+                "❔XX | 🔴 | vless | @proxy_kafee | 4",
+                "🇨🇦CA | 🔴 | vless | @proxy_kafee | 5",
                 "❔XX | 🔴 | vless | @v2logy | 10",
-                "🇸🇬SG | 🔴 | vless | @v2logy | 11",
+                "❔XX | 🔴 | vless | @v2logy | 11",
                 "🇺🇸US | 🔴 | vless | @servermomo | 0",
                 "🇮🇷IR | 🔴 | vless | @azadi_az_inja_migzare | 0",
                 "🇨🇦CA | 🔴 | vless | @azadi_az_inja_migzare | 1",
@@ -932,7 +934,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @proxy_kafee | 3",
+            "tag": "❔XX | 🔴 | vless | @proxy_kafee | 4",
             "type": "vless",
             "server": "[2a0d:5940:47:31::]",
             "server_port": 25365,
@@ -968,6 +970,27 @@
             }
         },
         {
+            "tag": "🇨🇦CA | 🔴 | vless | @proxy_kafee | 5",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "joinbede--ZEDMODEON",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@ZEDMODEON-ZEDMODEON-@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-@ZEDMODEON",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
             "tag": "❔XX | 🔴 | vless | @v2logy | 10",
             "type": "vless",
             "server": "ArV2ray.mAshtimji.IR",
@@ -999,7 +1022,7 @@
             }
         },
         {
-            "tag": "🇸🇬SG | 🔴 | vless | @v2logy | 11",
+            "tag": "❔XX | 🔴 | vless | @v2logy | 11",
             "type": "vless",
             "server": "ArV2ray.mEhpow.IR.",
             "server_port": 443,
