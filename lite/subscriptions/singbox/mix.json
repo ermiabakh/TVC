@@ -203,7 +203,8 @@
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 14",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
-                "🇹🇷TR | 🟢 | vmess | @iP_CF | 11",
+                "🇹🇷TR | 🟢 | vmess | @iP_CF | 12",
+                "🇸🇪SE | 🔴 | vless | @iP_CF | 13",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 10",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 11",
                 "🇺🇸US | 🔴 | vless | @kiava | 8",
@@ -327,7 +328,8 @@
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 14",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
-                "🇹🇷TR | 🟢 | vmess | @iP_CF | 11",
+                "🇹🇷TR | 🟢 | vmess | @iP_CF | 12",
+                "🇸🇪SE | 🔴 | vless | @iP_CF | 13",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 10",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 11",
                 "🇺🇸US | 🔴 | vless | @kiava | 8",
@@ -2555,7 +2557,7 @@
             }
         },
         {
-            "tag": "🇹🇷TR | 🟢 | vmess | @iP_CF | 11",
+            "tag": "🇹🇷TR | 🟢 | vmess | @iP_CF | 12",
             "type": "vmess",
             "server": "185.226.92.138",
             "server_port": 30749,
@@ -2569,6 +2571,27 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇸🇪SE | 🔴 | vless | @iP_CF | 13",
+            "type": "vless",
+            "server": "185.146.173.58",
+            "server_port": 8080,
+            "uuid": "fef833b7-7c17-45ef-90b9-e9879d5bbe3f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/servernett",
+                "headers": {
+                    "Host": "185.146.173.58"
+                }
             }
         },
         {
