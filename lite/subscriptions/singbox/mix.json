@@ -153,9 +153,9 @@
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | 🟢 | vmess | @mftizi | 15",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
-                "🇺🇸US | 🔴 | vless | @customv2ray | 14",
+                "🇨🇦CA | 🔴 | vless | @customv2ray | 14",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 15",
-                "🇺🇸US | 🔴 | vless | @UnlimitedDev | 6",
+                "🇨🇦CA | 🔴 | vless | @UnlimitedDev | 6",
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 7",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 13",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 14",
@@ -275,9 +275,9 @@
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | 🟢 | vmess | @mftizi | 15",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
-                "🇺🇸US | 🔴 | vless | @customv2ray | 14",
+                "🇨🇦CA | 🔴 | vless | @customv2ray | 14",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 15",
-                "🇺🇸US | 🔴 | vless | @UnlimitedDev | 6",
+                "🇨🇦CA | 🔴 | vless | @UnlimitedDev | 6",
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 7",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 13",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 14",
@@ -1354,7 +1354,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @customv2ray | 14",
+            "tag": "🇨🇦CA | 🔴 | vless | @customv2ray | 14",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8880,
@@ -1399,7 +1399,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @UnlimitedDev | 6",
+            "tag": "🇨🇦CA | 🔴 | vless | @UnlimitedDev | 6",
             "type": "vless",
             "server": "www.parsvds.ir",
             "server_port": 8080,
@@ -1894,9 +1894,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 278",
             "type": "vless",
-            "server": "SpeeDTeST.OrG",
-            "server_port": 80,
-            "uuid": "855c5f2f-c42c-41e2-bbb2-35cd09bc55ab",
+            "server": "172.66.40.175",
+            "server_port": 443,
+            "uuid": "7c7af2de-bb97-429f-ac3c-8ef849717491",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1904,20 +1904,23 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "SpeeDTeST.OrG"
+            "tls": {
+                "enabled": true,
+                "server_name": "tr2.tradex2080.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 279",
             "type": "vless",
-            "server": "SpeeDTeST.OrG",
-            "server_port": 80,
-            "uuid": "855c5f2f-c42c-41e2-bbb2-35cd09bc55ab",
+            "server": "104.21.51.208",
+            "server_port": 443,
+            "uuid": "cb4fca5f-edf8-415b-aa8f-ac52f415296a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1925,12 +1928,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "SpeeDTeST.OrG"
+            "tls": {
+                "enabled": true,
+                "server_name": "de-02.tradex2080.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "gPGhgE3kwHBXqebAryGsQ",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
