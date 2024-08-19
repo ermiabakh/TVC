@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | 🔴 | vless | @EliV2ray | 10",
                 "🇨🇦CA | 🔴 | vless | @EliV2ray | 11",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 12",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 0",
@@ -138,7 +137,7 @@
                 "🇨🇦CA | 🔴 | vless | @proxy_kafee | 2",
                 "🇨🇦CA | 🔴 | vless | @proxy_kafee | 3",
                 "❔XX | 🔴 | vless | @v2logy | 10",
-                "🇸🇬SG | 🔴 | vless | @v2logy | 11",
+                "❔XX | 🔴 | vless | @v2logy | 11",
                 "🇺🇸US | 🔴 | vless | @servermomo | 0",
                 "🇮🇷IR | 🔴 | vless | @azadi_az_inja_migzare | 0",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 18",
@@ -207,7 +206,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | 🔴 | vless | @EliV2ray | 10",
                 "🇨🇦CA | 🔴 | vless | @EliV2ray | 11",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 12",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 0",
@@ -239,7 +237,7 @@
                 "🇨🇦CA | 🔴 | vless | @proxy_kafee | 2",
                 "🇨🇦CA | 🔴 | vless | @proxy_kafee | 3",
                 "❔XX | 🔴 | vless | @v2logy | 10",
-                "🇸🇬SG | 🔴 | vless | @v2logy | 11",
+                "❔XX | 🔴 | vless | @v2logy | 11",
                 "🇺🇸US | 🔴 | vless | @servermomo | 0",
                 "🇮🇷IR | 🔴 | vless | @azadi_az_inja_migzare | 0",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 18",
@@ -324,25 +322,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @EliV2ray | 10",
+            "tag": "🇨🇦CA | 🔴 | vless | @EliV2ray | 11",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
             "uuid": "b4f69d4a-9343-46c9-af77-d2b0cd105b0f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇦CA | 🔴 | vless | @EliV2ray | 11",
-            "type": "vless",
-            "server": "104.26.12.255",
-            "server_port": 8080,
-            "uuid": "f291f882-7145-4a8e-9699-8831cf0ac7c7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -939,7 +923,7 @@
             }
         },
         {
-            "tag": "🇸🇬SG | 🔴 | vless | @v2logy | 11",
+            "tag": "❔XX | 🔴 | vless | @v2logy | 11",
             "type": "vless",
             "server": "ArV2ray.mEhpow.IR.",
             "server_port": 443,
