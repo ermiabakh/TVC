@@ -136,7 +136,7 @@
                 "🇨🇦CA | 🔴 | vless | @proxy_kafee | 3",
                 "🇨🇦CA | 🔴 | vless | @proxy_kafee | 4",
                 "🇨🇦CA | 🔴 | vless | @v2logy | 10",
-                "❔XX | 🔴 | vless | @v2logy | 11",
+                "🇸🇬SG | 🔴 | vless | @v2logy | 11",
                 "🇮🇷IR | 🔴 | vless | @azadi_az_inja_migzare | 0",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 19",
@@ -148,7 +148,7 @@
                 "🇩🇪DE | 🟢 | trojan | @DirectVPN | 17",
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 15",
-                "🇨🇦CA | 🟢 | vmess | @mftizi | 16",
+                "🇺🇸US | 🟢 | vmess | @mftizi | 16",
                 "🇨🇦CA | 🔴 | vless | @customv2ray | 10",
                 "🇨🇦CA | 🟢 | vmess | @customv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 5",
@@ -201,7 +201,6 @@
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 15",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
-                "🇺🇸US | 🔴 | vless | @iP_CF | 24",
                 "🇹🇷TR | 🟢 | vmess | @iP_CF | 25",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 9",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 10",
@@ -259,7 +258,7 @@
                 "🇨🇦CA | 🔴 | vless | @proxy_kafee | 3",
                 "🇨🇦CA | 🔴 | vless | @proxy_kafee | 4",
                 "🇨🇦CA | 🔴 | vless | @v2logy | 10",
-                "❔XX | 🔴 | vless | @v2logy | 11",
+                "🇸🇬SG | 🔴 | vless | @v2logy | 11",
                 "🇮🇷IR | 🔴 | vless | @azadi_az_inja_migzare | 0",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 19",
@@ -271,7 +270,7 @@
                 "🇩🇪DE | 🟢 | trojan | @DirectVPN | 17",
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 15",
-                "🇨🇦CA | 🟢 | vmess | @mftizi | 16",
+                "🇺🇸US | 🟢 | vmess | @mftizi | 16",
                 "🇨🇦CA | 🔴 | vless | @customv2ray | 10",
                 "🇨🇦CA | 🟢 | vmess | @customv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 5",
@@ -324,7 +323,6 @@
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 15",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
-                "🇺🇸US | 🔴 | vless | @iP_CF | 24",
                 "🇹🇷TR | 🟢 | vmess | @iP_CF | 25",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 9",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 10",
@@ -977,7 +975,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @v2logy | 11",
+            "tag": "🇸🇬SG | 🔴 | vless | @v2logy | 11",
             "type": "vless",
             "server": "ArV2ray.mEhpow.IR.",
             "server_port": 443,
@@ -1248,7 +1246,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @mftizi | 16",
+            "tag": "🇺🇸US | 🟢 | vmess | @mftizi | 16",
             "type": "vmess",
             "server": "cfcdn1.sanfencdn9.com",
             "server_port": 2052,
@@ -2542,37 +2540,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @iP_CF | 24",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8443,
-            "uuid": "11952f38-164d-4bfa-ae09-0591ec2e4c58",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "root.zakovpn.com.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@Redd",
-                "headers": {
-                    "Host": "root.zakovpn.com."
-                }
             }
         },
         {
