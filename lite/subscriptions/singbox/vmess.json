@@ -118,7 +118,7 @@
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 3",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 4",
-                "🇹🇷TR | 🟢 | vmess | @iP_CF | 25",
+                "🇹🇷TR | 🟢 | vmess | @iP_CF | 24",
                 "🇺🇸US | 🟢 | vmess | @kingofilter | 9"
             ]
         },
@@ -138,7 +138,7 @@
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 3",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 4",
-                "🇹🇷TR | 🟢 | vmess | @iP_CF | 25",
+                "🇹🇷TR | 🟢 | vmess | @iP_CF | 24",
                 "🇺🇸US | 🟢 | vmess | @kingofilter | 9"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -263,9 +263,9 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | @proxystore11 | 7",
             "type": "vmess",
-            "server": "104.21.9.236",
-            "server_port": 443,
-            "uuid": "62aa5f80-0328-4004-a375-7f5a59df4022",
+            "server": "www.speedtest.net",
+            "server_port": 2082,
+            "uuid": "95562020-72fa-4385-b861-0d63e7baaadd",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -275,23 +275,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hms19.best-tizi.top",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "hms19.best-tizi.top"
-                }
             }
         },
         {
@@ -469,7 +452,7 @@
             }
         },
         {
-            "tag": "🇹🇷TR | 🟢 | vmess | @iP_CF | 25",
+            "tag": "🇹🇷TR | 🟢 | vmess | @iP_CF | 24",
             "type": "vmess",
             "server": "185.226.92.138",
             "server_port": 30749,
