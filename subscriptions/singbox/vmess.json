@@ -115,9 +115,12 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 6",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 8",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 10",
-                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 7",
-                "🇹🇷TR | 🟢 | vmess | @ShadowProxy66 | 1",
-                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 15",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 16",
+                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 18",
+                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 1",
+                "🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 2",
+                "🇹🇷TR | 🟢 | vmess | @ShadowProxy66 | 4",
+                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 18",
                 "🚩CF | 🟢 | vmess | @proxystore11 | 2",
                 "🚩CF | 🟢 | vmess | @proxystore11 | 3",
                 "🇺🇸US | 🟢 | vmess | @proxystore11 | 12",
@@ -153,9 +156,12 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 6",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 8",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 10",
-                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 7",
-                "🇹🇷TR | 🟢 | vmess | @ShadowProxy66 | 1",
-                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 15",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 16",
+                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 18",
+                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 1",
+                "🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 2",
+                "🇹🇷TR | 🟢 | vmess | @ShadowProxy66 | 4",
+                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 18",
                 "🚩CF | 🟢 | vmess | @proxystore11 | 2",
                 "🚩CF | 🟢 | vmess | @proxystore11 | 3",
                 "🇺🇸US | 🟢 | vmess | @proxystore11 | 12",
@@ -396,9 +402,9 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 7",
+            "tag": "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 16",
             "type": "vmess",
-            "server": "104.16.60.8",
+            "server": "us2e-20240116.v2freevpn.com",
             "server_port": 80,
             "uuid": "2a8a10fb-9ca3-367e-a234-cf09f841be4f",
             "security": "auto",
@@ -415,12 +421,84 @@
                 "type": "ws",
                 "path": "\/us2ekjds3nay",
                 "headers": {
-                    "Host": "104.16.60.8"
+                    "Host": "us2e-20240116.v2freevpn.com"
                 }
             }
         },
         {
-            "tag": "🇹🇷TR | 🟢 | vmess | @ShadowProxy66 | 1",
+            "tag": "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 18",
+            "type": "vmess",
+            "server": "104.19.45.2",
+            "server_port": 2095,
+            "uuid": "7a737f41-b792-4260-94ff-3d864da67b80",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.19.45.2"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 1",
+            "type": "vmess",
+            "server": "cfcdn1.sanfencdn9.com",
+            "server_port": 2052,
+            "uuid": "5fb3d363-f936-4505-bff3-debf0956f7ad",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/video\/GQ2qE5Us9g",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 2",
+            "type": "vmess",
+            "server": "130.61.173.105",
+            "server_port": 50360,
+            "uuid": "c15d01a9-9662-4f27-b3aa-753fc5f32171",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇹🇷TR | 🟢 | vmess | @ShadowProxy66 | 4",
             "type": "vmess",
             "server": "185.226.92.138",
             "server_port": 30749,
@@ -437,7 +515,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 15",
+            "tag": "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 18",
             "type": "vmess",
             "server": "hexo.4ce.cn",
             "server_port": 80,
