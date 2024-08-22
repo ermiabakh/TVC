@@ -108,9 +108,10 @@
                 "URL-TEST",
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 15",
-                "🇨🇦CA | 🟢 | vmess | @DeamNet_Proxy | 19",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 19",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 1",
                 "🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 2",
+                "❔XX | 🟢 | vmess | @DailyV2RY | 217",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
@@ -126,9 +127,10 @@
             "outbounds": [
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 15",
-                "🇨🇦CA | 🟢 | vmess | @DeamNet_Proxy | 19",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 19",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 1",
                 "🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 2",
+                "❔XX | 🟢 | vmess | @DailyV2RY | 217",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
@@ -192,7 +194,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @DeamNet_Proxy | 19",
+            "tag": "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 19",
             "type": "vmess",
             "server": "104.19.45.154",
             "server_port": 2095,
@@ -261,6 +263,23 @@
                 "headers": {
                     "Host": ""
                 }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @DailyV2RY | 217",
+            "type": "vmess",
+            "server": null,
+            "server_port": 0,
+            "uuid": null,
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
