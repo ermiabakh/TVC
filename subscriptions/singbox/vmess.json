@@ -116,8 +116,6 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 8",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 10",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 12",
-                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 1",
-                "🇯🇵JP | 🟢 | vmess | @DeamNet_Proxy | 17",
                 "🇺🇸US | 🟢 | vmess | @customv2ray | 0",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 0",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 1",
@@ -164,8 +162,6 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 8",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 10",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 12",
-                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 1",
-                "🇯🇵JP | 🟢 | vmess | @DeamNet_Proxy | 17",
                 "🇺🇸US | 🟢 | vmess | @customv2ray | 0",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 0",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 1",
@@ -430,64 +426,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 1",
-            "type": "vmess",
-            "server": "104.16.60.8",
-            "server_port": 2087,
-            "uuid": "a1655f51-1e20-4a92-8a11-b7ca30a7a353",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "7hss-butterfly-d4c3.fijetem432.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/afrhms07.xfixedfloat.cfd\/linkws",
-                "headers": {
-                    "Host": "7hss-butterfly-d4c3.fijetem432.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇯🇵JP | 🟢 | vmess | @DeamNet_Proxy | 17",
-            "type": "vmess",
-            "server": "183.181.36.194",
-            "server_port": 41597,
-            "uuid": "4a6eaa2d-5603-4c05-d967-fb6f42250a5a",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "183.181.36.194"
-                }
             }
         },
         {
