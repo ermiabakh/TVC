@@ -210,7 +210,6 @@ proxies:
   - {"name":"🇨🇭CH | 🟢 | ss | @OutlineVpnOfficial | 35","type":"ss","server":"51.103.232.91","port":8929,"password":"76ZehNxtyrhe4tLmDYfHsq","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇦CA | 🟢 | ss | @OutlineVpnOfficial | 36","type":"ss","server":"38.111.114.133","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
   - {"name":"🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 37","type":"ss","server":"38.86.135.31","port":5001,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"🇵🇱PL | 🟢 | ss | @OutlineVpnOfficial | 38","type":"ss","server":"77.83.246.74","port":33320,"password":"Hd2nY5MZaKGVyoTHcgLpjX","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🚩CF | 🟢 | vmess | @proxystore11 | 0","type":"vmess","server":"104.26.15.148","port":"80","cipher":"auto","uuid":"2f188c61-6622-4056-810e-a1a5f1c9b023","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/V2LINE-TELEGRAM-CHANNEL-VMESS-WS","headers":{"host":"58892877706648357761980405045364.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou"}}}
   - {"name":"🚩CF | 🟢 | vmess | @proxystore11 | 5","type":"vmess","server":"172.64.154.211","port":"80","cipher":"auto","uuid":"ee92bd8b-04cd-4b48-bafb-390801194eb4","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/V2LINE-TELEGRAM-CHANNEL-VMESS-WS","headers":{"host":"99806388192980142300309475767578.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou"}}}
   - {"name":"🚩CF | 🟢 | vmess | @proxystore11 | 6","type":"vmess","server":"172.67.220.83","port":"443","cipher":"auto","uuid":"39cec18f-a439-427c-9a4e-aeb6fcdf6f53","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linja05.hwcar.sbs"}}}
@@ -327,7 +326,6 @@ proxy-groups:
       - '🇨🇭CH | 🟢 | ss | @OutlineVpnOfficial | 35'
       - '🇨🇦CA | 🟢 | ss | @OutlineVpnOfficial | 36'
       - '🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 37'
-      - '🇵🇱PL | 🟢 | ss | @OutlineVpnOfficial | 38'
       - '🚩CF | 🟢 | vmess | @proxystore11 | 0'
       - '🚩CF | 🟢 | vmess | @proxystore11 | 5'
       - '🚩CF | 🟢 | vmess | @proxystore11 | 6'
@@ -444,7 +442,6 @@ proxy-groups:
       - '🇨🇭CH | 🟢 | ss | @OutlineVpnOfficial | 35'
       - '🇨🇦CA | 🟢 | ss | @OutlineVpnOfficial | 36'
       - '🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 37'
-      - '🇵🇱PL | 🟢 | ss | @OutlineVpnOfficial | 38'
       - '🚩CF | 🟢 | vmess | @proxystore11 | 0'
       - '🚩CF | 🟢 | vmess | @proxystore11 | 5'
       - '🚩CF | 🟢 | vmess | @proxystore11 | 6'
@@ -560,7 +557,6 @@ proxy-groups:
       - '🇨🇭CH | 🟢 | ss | @OutlineVpnOfficial | 35'
       - '🇨🇦CA | 🟢 | ss | @OutlineVpnOfficial | 36'
       - '🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 37'
-      - '🇵🇱PL | 🟢 | ss | @OutlineVpnOfficial | 38'
       - '🚩CF | 🟢 | vmess | @proxystore11 | 0'
       - '🚩CF | 🟢 | vmess | @proxystore11 | 5'
       - '🚩CF | 🟢 | vmess | @proxystore11 | 6'
