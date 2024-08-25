@@ -116,6 +116,7 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 8",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 10",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 12",
+                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 3",
                 "🇺🇸US | 🟢 | vmess | @customv2ray | 0",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 0",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 1",
@@ -124,7 +125,7 @@
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 4",
                 "🇱🇺LU | 🟢 | vmess | @ShadowProxy66 | 5",
                 "🇹🇷TR | 🟢 | vmess | @ShadowProxy66 | 6",
-                "❔XX | 🟢 | vmess | @DailyV2RY | 198",
+                "❔XX | 🟢 | vmess | @DailyV2RY | 196",
                 "🚩CF | 🟢 | vmess | @proxystore11 | 4",
                 "🚩CF | 🟢 | vmess | @proxystore11 | 5",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
@@ -159,6 +160,7 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 8",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 10",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 12",
+                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 3",
                 "🇺🇸US | 🟢 | vmess | @customv2ray | 0",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 0",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 1",
@@ -167,7 +169,7 @@
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 4",
                 "🇱🇺LU | 🟢 | vmess | @ShadowProxy66 | 5",
                 "🇹🇷TR | 🟢 | vmess | @ShadowProxy66 | 6",
-                "❔XX | 🟢 | vmess | @DailyV2RY | 198",
+                "❔XX | 🟢 | vmess | @DailyV2RY | 196",
                 "🚩CF | 🟢 | vmess | @proxystore11 | 4",
                 "🚩CF | 🟢 | vmess | @proxystore11 | 5",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
@@ -423,6 +425,30 @@
             }
         },
         {
+            "tag": "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 3",
+            "type": "vmess",
+            "server": "104.16.61.8",
+            "server_port": 8880,
+            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/jahfkjha.cfd\/linkws",
+                "headers": {
+                    "Host": "104.16.61.8"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🟢 | vmess | @customv2ray | 0",
             "type": "vmess",
             "server": "www.speedtest.net",
@@ -631,7 +657,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @DailyV2RY | 198",
+            "tag": "❔XX | 🟢 | vmess | @DailyV2RY | 196",
             "type": "vmess",
             "server": null,
             "server_port": 0,
