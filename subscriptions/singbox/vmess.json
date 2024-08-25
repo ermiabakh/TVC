@@ -116,8 +116,7 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 7",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 9",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 11",
-                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 6",
-                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 11",
+                "🇹🇷TR | 🟢 | vmess | @DeamNet_Proxy | 11",
                 "🇺🇸US | 🟢 | vmess | @customv2ray | 0",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 0",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 1",
@@ -126,9 +125,10 @@
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 4",
                 "🇱🇺LU | 🟢 | vmess | @ShadowProxy66 | 5",
                 "🇹🇷TR | 🟢 | vmess | @ShadowProxy66 | 6",
-                "❔XX | 🟢 | vmess | @DailyV2RY | 198",
-                "🚩CF | 🟢 | vmess | @proxystore11 | 4",
+                "❔XX | 🟢 | vmess | @DailyV2RY | 196",
+                "🚩CF | 🟢 | vmess | @proxystore11 | 0",
                 "🚩CF | 🟢 | vmess | @proxystore11 | 5",
+                "🚩CF | 🟢 | vmess | @proxystore11 | 6",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -161,8 +161,7 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 7",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 9",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 11",
-                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 6",
-                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 11",
+                "🇹🇷TR | 🟢 | vmess | @DeamNet_Proxy | 11",
                 "🇺🇸US | 🟢 | vmess | @customv2ray | 0",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 0",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 1",
@@ -171,9 +170,10 @@
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 4",
                 "🇱🇺LU | 🟢 | vmess | @ShadowProxy66 | 5",
                 "🇹🇷TR | 🟢 | vmess | @ShadowProxy66 | 6",
-                "❔XX | 🟢 | vmess | @DailyV2RY | 198",
-                "🚩CF | 🟢 | vmess | @proxystore11 | 4",
+                "❔XX | 🟢 | vmess | @DailyV2RY | 196",
+                "🚩CF | 🟢 | vmess | @proxystore11 | 0",
                 "🚩CF | 🟢 | vmess | @proxystore11 | 5",
+                "🚩CF | 🟢 | vmess | @proxystore11 | 6",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -427,11 +427,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 6",
+            "tag": "🇹🇷TR | 🟢 | vmess | @DeamNet_Proxy | 11",
             "type": "vmess",
-            "server": "w3.org",
-            "server_port": 443,
-            "uuid": "dfbbc8de-8a4f-407d-8069-6de38d83c4e1",
+            "server": "45.89.52.114",
+            "server_port": 13701,
+            "uuid": "86a0c17d-1871-40e3-db65-2b9bf1a7650e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -441,57 +441,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hdfy4c2.freeairlaines.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "WgCmp8p80KDzo64uHE",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 11",
-            "type": "vmess",
-            "server": "gt021.bestforxray.buzz",
-            "server_port": 443,
-            "uuid": "c1fd780a-3408-4f48-a932-5832a28ce9f6",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ausgt02.bestforxray.buzz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "ausgt02.bestforxray.buzz"
-                }
             }
         },
         {
@@ -703,7 +652,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @DailyV2RY | 198",
+            "tag": "❔XX | 🟢 | vmess | @DailyV2RY | 196",
             "type": "vmess",
             "server": null,
             "server_port": 0,
@@ -720,7 +669,31 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @proxystore11 | 4",
+            "tag": "🚩CF | 🟢 | vmess | @proxystore11 | 0",
+            "type": "vmess",
+            "server": "104.26.15.148",
+            "server_port": 80,
+            "uuid": "2f188c61-6622-4056-810e-a1a5f1c9b023",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/V2LINE-TELEGRAM-CHANNEL-VMESS-WS",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🟢 | vmess | @proxystore11 | 5",
             "type": "vmess",
             "server": "172.64.154.211",
             "server_port": 80,
@@ -744,7 +717,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @proxystore11 | 5",
+            "tag": "🚩CF | 🟢 | vmess | @proxystore11 | 6",
             "type": "vmess",
             "server": "172.67.220.83",
             "server_port": 443,
