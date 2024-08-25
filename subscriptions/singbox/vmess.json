@@ -116,7 +116,7 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 8",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 10",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 12",
-                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 10",
+                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 17",
                 "🇺🇸US | 🟢 | vmess | @customv2ray | 0",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 0",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 1",
@@ -125,7 +125,7 @@
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 4",
                 "🇱🇺LU | 🟢 | vmess | @ShadowProxy66 | 5",
                 "🇹🇷TR | 🟢 | vmess | @ShadowProxy66 | 6",
-                "❔XX | 🟢 | vmess | @DailyV2RY | 196",
+                "❔XX | 🟢 | vmess | @DailyV2RY | 198",
                 "🚩CF | 🟢 | vmess | @proxystore11 | 4",
                 "🚩CF | 🟢 | vmess | @proxystore11 | 5",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
@@ -160,7 +160,7 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 8",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 10",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 12",
-                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 10",
+                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 17",
                 "🇺🇸US | 🟢 | vmess | @customv2ray | 0",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 0",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 1",
@@ -169,7 +169,7 @@
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 4",
                 "🇱🇺LU | 🟢 | vmess | @ShadowProxy66 | 5",
                 "🇹🇷TR | 🟢 | vmess | @ShadowProxy66 | 6",
-                "❔XX | 🟢 | vmess | @DailyV2RY | 196",
+                "❔XX | 🟢 | vmess | @DailyV2RY | 198",
                 "🚩CF | 🟢 | vmess | @proxystore11 | 4",
                 "🚩CF | 🟢 | vmess | @proxystore11 | 5",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
@@ -425,11 +425,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 10",
+            "tag": "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 17",
             "type": "vmess",
-            "server": "w3.org",
-            "server_port": 443,
-            "uuid": "dfbbc8de-8a4f-407d-8069-6de38d83c4e1",
+            "server": "104.16.67.38",
+            "server_port": 2082,
+            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -440,22 +440,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "hdfy4c2.freeairlaines.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "WgCmp8p80KDzo64uHE",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/ivideos.sbs\/linkws",
+                "headers": {
+                    "Host": "104.16.67.38"
+                }
             }
         },
         {
@@ -667,7 +657,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @DailyV2RY | 196",
+            "tag": "❔XX | 🟢 | vmess | @DailyV2RY | 198",
             "type": "vmess",
             "server": null,
             "server_port": 0,
