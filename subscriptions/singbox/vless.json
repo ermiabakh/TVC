@@ -154,6 +154,7 @@
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 16",
+                "🇩🇪DE | 🔴 | vless | @VlessConfig | 17",
                 "🇨🇦CA | 🔴 | vless | @ipV2Ray | 0",
                 "🇨🇦CA | 🔴 | vless | @ipV2Ray | 1",
                 "🇨🇦CA | 🔴 | vless | @ipV2Ray | 2",
@@ -288,7 +289,7 @@
                 "🇸🇪SE | 🔴 | vless | @v2logy | 7",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 8",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
-                "🇺🇸US | 🔴 | vless | @v2logy | 10",
+                "❔XX | 🔴 | vless | @v2logy | 10",
                 "🇺🇸US | 🔴 | vless | @V2rayCollectorDonate | 0",
                 "🚩CF | 🔴 | vless | @V2rayCollectorDonate | 1",
                 "🚩CF | 🔴 | vless | @V2rayCollectorDonate | 2",
@@ -550,8 +551,6 @@
                 "🇺🇸US | 🔴 | vless | @iP_CF | 0",
                 "🇺🇸US | 🔴 | vless | @iP_CF | 1",
                 "🚩CF | 🔴 | vless | @iP_CF | 2",
-                "🇺🇸US | 🔴 | vless | @iP_CF | 10",
-                "🇺🇸US | 🔴 | vless | @iP_CF | 11",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 1",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 2",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 3",
@@ -692,6 +691,7 @@
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 16",
+                "🇩🇪DE | 🔴 | vless | @VlessConfig | 17",
                 "🇨🇦CA | 🔴 | vless | @ipV2Ray | 0",
                 "🇨🇦CA | 🔴 | vless | @ipV2Ray | 1",
                 "🇨🇦CA | 🔴 | vless | @ipV2Ray | 2",
@@ -826,7 +826,7 @@
                 "🇸🇪SE | 🔴 | vless | @v2logy | 7",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 8",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
-                "🇺🇸US | 🔴 | vless | @v2logy | 10",
+                "❔XX | 🔴 | vless | @v2logy | 10",
                 "🇺🇸US | 🔴 | vless | @V2rayCollectorDonate | 0",
                 "🚩CF | 🔴 | vless | @V2rayCollectorDonate | 1",
                 "🚩CF | 🔴 | vless | @V2rayCollectorDonate | 2",
@@ -1088,8 +1088,6 @@
                 "🇺🇸US | 🔴 | vless | @iP_CF | 0",
                 "🇺🇸US | 🔴 | vless | @iP_CF | 1",
                 "🚩CF | 🔴 | vless | @iP_CF | 2",
-                "🇺🇸US | 🔴 | vless | @iP_CF | 10",
-                "🇺🇸US | 🔴 | vless | @iP_CF | 11",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 1",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 2",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 3",
@@ -2204,6 +2202,37 @@
             "tag": "🇩🇪DE | 🔴 | vless | @VlessConfig | 16",
             "type": "vless",
             "server": "18.195.133.143",
+            "server_port": 22222,
+            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telegram-channel-vlessconfig.sohala.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-channel-vlessconfig-ws",
+                "headers": {
+                    "Host": "telegram-channel-vlessconfig.sohala.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @VlessConfig | 17",
+            "type": "vless",
+            "server": "18.153.171.207",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -4962,7 +4991,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @v2logy | 10",
+            "tag": "❔XX | 🔴 | vless | @v2logy | 10",
             "type": "vless",
             "server": "ArV2ray.mAshtimji.IR",
             "server_port": 443,
@@ -10595,51 +10624,6 @@
             "server": "104.18.1.125",
             "server_port": 2086,
             "uuid": "838f5273-5d2d-4630-a0f5-9cc8e4aef4d6",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @iP_CF | 10",
-            "type": "vless",
-            "server": "speedtest.net",
-            "server_port": 443,
-            "uuid": "538e00df-f7df-44d1-b5ec-25cc1a0ae7b3",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed",
-                "headers": {
-                    "Host": "speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @iP_CF | 11",
-            "type": "vless",
-            "server": "100.21.131.48",
-            "server_port": 8880,
-            "uuid": "e2e2b2f8-d83a-4918-8a5e-194e4b2aaf15",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
