@@ -108,6 +108,7 @@
                 "URL-TEST",
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 15",
+                "🇨🇦CA | 🟢 | vmess | @DeamNet_Proxy | 19",
                 "🇱🇺LU | 🟢 | vmess | @ShadowProxy66 | 8",
                 "🇹🇷TR | 🟢 | vmess | @ShadowProxy66 | 9",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
@@ -124,6 +125,7 @@
             "outbounds": [
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 15",
+                "🇨🇦CA | 🟢 | vmess | @DeamNet_Proxy | 19",
                 "🇱🇺LU | 🟢 | vmess | @ShadowProxy66 | 8",
                 "🇹🇷TR | 🟢 | vmess | @ShadowProxy66 | 9",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
@@ -185,6 +187,40 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇦CA | 🟢 | vmess | @DeamNet_Proxy | 19",
+            "type": "vmess",
+            "server": "api.jquery.com",
+            "server_port": 443,
+            "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cool-darkness-e663.mehdipost667.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/glweidf.cfd:443\/linkws",
+                "headers": {
+                    "Host": "cool-darkness-e663.mehdipost667.workers.dev"
+                }
             }
         },
         {
