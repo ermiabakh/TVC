@@ -129,7 +129,6 @@
                 "🇱🇺LU | 🟢 | vmess | @ShadowProxy66 | 8",
                 "❔XX | 🟢 | vmess | @DailyV2RY | 196",
                 "🚩CF | 🟢 | vmess | @proxystore11 | 0",
-                "🚩CF | 🟢 | vmess | @proxystore11 | 5",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -174,7 +173,6 @@
                 "🇱🇺LU | 🟢 | vmess | @ShadowProxy66 | 8",
                 "❔XX | 🟢 | vmess | @DailyV2RY | 196",
                 "🚩CF | 🟢 | vmess | @proxystore11 | 0",
-                "🚩CF | 🟢 | vmess | @proxystore11 | 5",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -725,30 +723,6 @@
             "server": "104.26.15.148",
             "server_port": 80,
             "uuid": "2f188c61-6622-4056-810e-a1a5f1c9b023",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/V2LINE-TELEGRAM-CHANNEL-VMESS-WS",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vmess | @proxystore11 | 5",
-            "type": "vmess",
-            "server": "172.64.154.211",
-            "server_port": 80,
-            "uuid": "ee92bd8b-04cd-4b48-bafb-390801194eb4",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
