@@ -143,13 +143,13 @@
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 19",
                 "🇩🇪DE | 🔴 | vless | @ProxyForOpeta | 8",
-                "🇨🇦CA | 🔴 | vless | @ProxyForOpeta | 9",
+                "🇩🇪DE | 🔴 | vless | @ProxyForOpeta | 9",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 4",
-                "❔XX | 🔴 | vless | @customv2ray | 11",
-                "🇨🇦CA | 🔴 | vless | @customv2ray | 12",
+                "🇺🇸US | 🔴 | vless | @customv2ray | 12",
+                "🇺🇸US | 🔴 | vless | @customv2ray | 13",
                 "🇬🇧GB | 🔴 | vless | @UnlimitedDev | 9",
                 "🇬🇧GB | 🔴 | vless | @UnlimitedDev | 10",
-                "🇨🇦CA | 🔴 | vless | @vmessorg | 19",
+                "🇺🇸US | 🔴 | vless | @vmessorg | 19",
                 "🇮🇷IR | 🔴 | vless | @v2rayNG_Matsuri | 14",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 15",
                 "🇸🇪SE | 🔴 | vless | @ServerNett | 9",
@@ -241,13 +241,13 @@
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 19",
                 "🇩🇪DE | 🔴 | vless | @ProxyForOpeta | 8",
-                "🇨🇦CA | 🔴 | vless | @ProxyForOpeta | 9",
+                "🇩🇪DE | 🔴 | vless | @ProxyForOpeta | 9",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 4",
-                "❔XX | 🔴 | vless | @customv2ray | 11",
-                "🇨🇦CA | 🔴 | vless | @customv2ray | 12",
+                "🇺🇸US | 🔴 | vless | @customv2ray | 12",
+                "🇺🇸US | 🔴 | vless | @customv2ray | 13",
                 "🇬🇧GB | 🔴 | vless | @UnlimitedDev | 9",
                 "🇬🇧GB | 🔴 | vless | @UnlimitedDev | 10",
-                "🇨🇦CA | 🔴 | vless | @vmessorg | 19",
+                "🇺🇸US | 🔴 | vless | @vmessorg | 19",
                 "🇮🇷IR | 🔴 | vless | @v2rayNG_Matsuri | 14",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 15",
                 "🇸🇪SE | 🔴 | vless | @ServerNett | 9",
@@ -1083,6 +1083,20 @@
         {
             "tag": "🇩🇪DE | 🔴 | vless | @ProxyForOpeta | 8",
             "type": "vless",
+            "server": "88.198.127.140",
+            "server_port": 12345,
+            "uuid": "4c31128c-f110-4ee3-a4ca-b51d384ef5ce",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @ProxyForOpeta | 9",
+            "type": "vless",
             "server": "188.245.125.135",
             "server_port": 8443,
             "uuid": "b1a441f5-ee43-4903-ab2e-a80c0d1a71eb",
@@ -1110,27 +1124,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @ProxyForOpeta | 9",
-            "type": "vless",
-            "server": "108.162.195.205",
-            "server_port": 8880,
-            "uuid": "9d44c4bb-b443-4945-97b4-53d06c0c1bc1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Thunder,Thunder,Thunder,Thunder,Thunder,Thunder,Thunder,Thunder,Thunder,Thunder,Thunder,Thunder,Thunder,Thunder",
-                "headers": {
-                    "Host": "108.162.195.205"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | 🔴 | vless | @V2rayNGn | 4",
             "type": "vless",
             "server": "www.speedtest.net",
@@ -1152,31 +1145,65 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @customv2ray | 11",
+            "tag": "🇺🇸US | 🔴 | vless | @customv2ray | 12",
             "type": "vless",
-            "server": "[2a01:4f8:c17:2cda::1]",
-            "server_port": 45075,
-            "uuid": "TELEGRAM-ServerNett",
+            "server": "zula.ir",
+            "server_port": 443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "TELgRaMCxroLVPN.PagES.Dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/XWaLXW93BDUqwF2G\/c3BlZWR0ZXN0LWZyNS5nY29yZS5jb20=?ed=2560",
+                "headers": {
+                    "Host": "TELgRaMCxroLVPN.PagES.Dev"
+                }
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @customv2ray | 12",
+            "tag": "🇺🇸US | 🔴 | vless | @customv2ray | 13",
             "type": "vless",
-            "server": "Www.speedtest.net",
-            "server_port": 8880,
-            "uuid": "8879d9eb-f01e-4aa3-b65e-8ee816bde7e4",
+            "server": "speedtest.net",
+            "server_port": 443,
+            "uuid": "TELEGRAM-NUFiLTER",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
+                "headers": {
+                    "Host": "speedtest.net"
+                }
             }
         },
         {
@@ -1208,7 +1235,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @vmessorg | 19",
+            "tag": "🇺🇸US | 🔴 | vless | @vmessorg | 19",
             "type": "vless",
             "server": "104.17.93.85",
             "server_port": 8080,
