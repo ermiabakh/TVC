@@ -177,9 +177,9 @@
         {
             "tag": "🇩🇪DE | 🔴 | vless | @ProxyForOpeta | 9",
             "type": "vless",
-            "server": "188.245.125.135",
-            "server_port": 8443,
-            "uuid": "b1a441f5-ee43-4903-ab2e-a80c0d1a71eb",
+            "server": "188.245.124.204",
+            "server_port": 443,
+            "uuid": "bbbcba63-d5b2-4aee-a5f2-ad8a3ab0115d",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -194,7 +194,7 @@
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": null
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
