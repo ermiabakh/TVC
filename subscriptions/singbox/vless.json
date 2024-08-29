@@ -296,12 +296,12 @@
                 "🇺🇸US | 🔴 | vless | @V2rayCollectorDonate | 17",
                 "🇺🇸US | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇺🇸US | 🔴 | vless | @V2rayCollectorDonate | 19",
-                "🇸🇪SE | 🔴 | vless | @ProxyForOpeta | 0",
-                "🚩CF | 🔴 | vless | @ProxyForOpeta | 2",
-                "🚩CF | 🔴 | vless | @ProxyForOpeta | 3",
-                "🇩🇪DE | 🔴 | vless | @ProxyForOpeta | 5",
-                "🇮🇷IR | 🔴 | vless | @ProxyForOpeta | 6",
-                "🚩CF | 🔴 | vless | @ProxyForOpeta | 8",
+                "🚩CF | 🔴 | vless | @ProxyForOpeta | 0",
+                "🚩CF | 🔴 | vless | @ProxyForOpeta | 1",
+                "🇸🇪SE | 🔴 | vless | @ProxyForOpeta | 2",
+                "🚩CF | 🔴 | vless | @ProxyForOpeta | 5",
+                "🇩🇪DE | 🔴 | vless | @ProxyForOpeta | 7",
+                "🇮🇷IR | 🔴 | vless | @ProxyForOpeta | 8",
                 "🇺🇸US | 🔴 | vless | @V2rayNGn | 4",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 0",
                 "🚩CF | 🔴 | vless | @customv2ray | 1",
@@ -798,12 +798,12 @@
                 "🇺🇸US | 🔴 | vless | @V2rayCollectorDonate | 17",
                 "🇺🇸US | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇺🇸US | 🔴 | vless | @V2rayCollectorDonate | 19",
-                "🇸🇪SE | 🔴 | vless | @ProxyForOpeta | 0",
-                "🚩CF | 🔴 | vless | @ProxyForOpeta | 2",
-                "🚩CF | 🔴 | vless | @ProxyForOpeta | 3",
-                "🇩🇪DE | 🔴 | vless | @ProxyForOpeta | 5",
-                "🇮🇷IR | 🔴 | vless | @ProxyForOpeta | 6",
-                "🚩CF | 🔴 | vless | @ProxyForOpeta | 8",
+                "🚩CF | 🔴 | vless | @ProxyForOpeta | 0",
+                "🚩CF | 🔴 | vless | @ProxyForOpeta | 1",
+                "🇸🇪SE | 🔴 | vless | @ProxyForOpeta | 2",
+                "🚩CF | 🔴 | vless | @ProxyForOpeta | 5",
+                "🇩🇪DE | 🔴 | vless | @ProxyForOpeta | 7",
+                "🇮🇷IR | 🔴 | vless | @ProxyForOpeta | 8",
                 "🇺🇸US | 🔴 | vless | @V2rayNGn | 4",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 0",
                 "🚩CF | 🔴 | vless | @customv2ray | 1",
@@ -5331,11 +5331,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @ProxyForOpeta | 0",
+            "tag": "🚩CF | 🔴 | vless | @ProxyForOpeta | 0",
             "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 80,
-            "uuid": "d7e47374-af6f-4daa-8bba-7322a157107d",
+            "server": "104.24.20.71",
+            "server_port": 443,
+            "uuid": "9902fc94-31f9-4afe-b37a-82f5790b3d2a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -5343,16 +5343,26 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "de1-moryvpnbot.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-@Shh_Proxy-@Shh_Proxy,telegram-@Shh_Proxy,telegram-@Shh_Proxy,telegram-@Shh_Proxy?ed=2560",
+                "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.58"
+                    "Host": "de1-moryvpnbot.pages.dev"
                 }
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @ProxyForOpeta | 2",
+            "tag": "🚩CF | 🔴 | vless | @ProxyForOpeta | 1",
             "type": "vless",
             "server": "108.162.195.205",
             "server_port": 8880,
@@ -5373,7 +5383,28 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @ProxyForOpeta | 3",
+            "tag": "🇸🇪SE | 🔴 | vless | @ProxyForOpeta | 2",
+            "type": "vless",
+            "server": "185.146.173.58",
+            "server_port": 80,
+            "uuid": "d7e47374-af6f-4daa-8bba-7322a157107d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-@Shh_Proxy-@Shh_Proxy,telegram-@Shh_Proxy,telegram-@Shh_Proxy,telegram-@Shh_Proxy?ed=2560",
+                "headers": {
+                    "Host": "185.146.173.58"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🔴 | vless | @ProxyForOpeta | 5",
             "type": "vless",
             "server": "104.17.147.22",
             "server_port": 80,
@@ -5394,7 +5425,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ProxyForOpeta | 5",
+            "tag": "🇩🇪DE | 🔴 | vless | @ProxyForOpeta | 7",
             "type": "vless",
             "server": "88.198.127.140",
             "server_port": 12345,
@@ -5408,7 +5439,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @ProxyForOpeta | 6",
+            "tag": "🇮🇷IR | 🔴 | vless | @ProxyForOpeta | 8",
             "type": "vless",
             "server": "185.155.72.114",
             "server_port": 28732,
@@ -5419,27 +5450,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🚩CF | 🔴 | vless | @ProxyForOpeta | 8",
-            "type": "vless",
-            "server": "104.17.148.22",
-            "server_port": 8880,
-            "uuid": "f467b6a4-70e0-4f3d-b6ad-093c3b600576",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=2560",
-                "headers": {
-                    "Host": "104.17.148.22"
-                }
             }
         },
         {
