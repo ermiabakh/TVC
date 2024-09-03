@@ -136,13 +136,13 @@
                 "🇨🇦CA | 🔴 | vless | @proxy_kafee | 5",
                 "❔XX | 🔴 | vless | @proxy_kafee | 6",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
-                "❔XX | 🔴 | vless | @v2logy | 10",
+                "🇨🇦CA | 🔴 | vless | @v2logy | 10",
                 "🇺🇸US | 🟢 | vless | @V2rayCollector | 2",
                 "🇨🇦CA | 🟢 | vless | @V2rayCollector | 3",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 19",
-                "❔XX | 🔴 | vless | @ProxyForOpeta | 11",
-                "🇺🇸US | 🔴 | vless | @ProxyForOpeta | 12",
+                "🇺🇸US | 🔴 | vless | @ProxyForOpeta | 11",
+                "❔XX | 🔴 | vless | @ProxyForOpeta | 12",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 2",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 3",
                 "🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 16",
@@ -159,7 +159,7 @@
                 "🇬🇧GB | 🔴 | vless | @UnlimitedDev | 11",
                 "🇨🇦CA | 🔴 | vless | @vmessorg | 18",
                 "🇨🇦CA | 🔴 | vless | @vmessorg | 19",
-                "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 10",
+                "🇨🇦CA | 🔴 | vless | @v2rayNG_Matsuri | 10",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 11",
                 "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 13",
                 "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 14",
@@ -258,13 +258,13 @@
                 "🇨🇦CA | 🔴 | vless | @proxy_kafee | 5",
                 "❔XX | 🔴 | vless | @proxy_kafee | 6",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
-                "❔XX | 🔴 | vless | @v2logy | 10",
+                "🇨🇦CA | 🔴 | vless | @v2logy | 10",
                 "🇺🇸US | 🟢 | vless | @V2rayCollector | 2",
                 "🇨🇦CA | 🟢 | vless | @V2rayCollector | 3",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 19",
-                "❔XX | 🔴 | vless | @ProxyForOpeta | 11",
-                "🇺🇸US | 🔴 | vless | @ProxyForOpeta | 12",
+                "🇺🇸US | 🔴 | vless | @ProxyForOpeta | 11",
+                "❔XX | 🔴 | vless | @ProxyForOpeta | 12",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 2",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 3",
                 "🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 16",
@@ -281,7 +281,7 @@
                 "🇬🇧GB | 🔴 | vless | @UnlimitedDev | 11",
                 "🇨🇦CA | 🔴 | vless | @vmessorg | 18",
                 "🇨🇦CA | 🔴 | vless | @vmessorg | 19",
-                "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 10",
+                "🇨🇦CA | 🔴 | vless | @v2rayNG_Matsuri | 10",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 11",
                 "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 13",
                 "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 14",
@@ -999,7 +999,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @v2logy | 10",
+            "tag": "🇨🇦CA | 🔴 | vless | @v2logy | 10",
             "type": "vless",
             "server": "ArV2ray.mAshtimji.IR",
             "server_port": 443,
@@ -1144,21 +1144,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ProxyForOpeta | 11",
-            "type": "vless",
-            "server": "[2a01:4f8:c012:9907::1]",
-            "server_port": 30004,
-            "uuid": "TELEGRAM-ServerNett",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ProxyForOpeta | 12",
+            "tag": "🇺🇸US | 🔴 | vless | @ProxyForOpeta | 11",
             "type": "vless",
             "server": "172.64.143.172",
             "server_port": 443,
@@ -1186,6 +1172,20 @@
                 "headers": {
                     "Host": "mmdv2.pages.dev"
                 }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @ProxyForOpeta | 12",
+            "type": "vless",
+            "server": "[2a01:4f8:1c17:df8f::1]",
+            "server_port": 18632,
+            "uuid": "dc946a26-e9f6-4323-9dbe-b215e7a05b9e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -1543,7 +1543,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 10",
+            "tag": "🇨🇦CA | 🔴 | vless | @v2rayNG_Matsuri | 10",
             "type": "vless",
             "server": "162.159.152.87",
             "server_port": 443,
