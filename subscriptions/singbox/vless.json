@@ -138,10 +138,11 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 26",
                 "❔XX | 🔴 | vless | @Parsashonam | 27",
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 28",
-                "❔XX | 🔴 | vless | @XsV2ray | 0",
-                "🇨🇦CA | 🔴 | vless | @XsV2ray | 3",
-                "🇨🇦CA | 🔴 | vless | @XsV2ray | 7",
-                "🇨🇦CA | 🔴 | vless | @XsV2ray | 8",
+                "🇮🇷IR | 🔴 | vless | @XsV2ray | 0",
+                "❔XX | 🔴 | vless | @XsV2ray | 2",
+                "🇨🇦CA | 🔴 | vless | @XsV2ray | 5",
+                "🇨🇦CA | 🔴 | vless | @XsV2ray | 9",
+                "🇨🇦CA | 🔴 | vless | @XsV2ray | 10",
                 "🇮🇪IE | 🔴 | vless | @VlessConfig | 0",
                 "🇮🇪IE | 🔴 | vless | @VlessConfig | 1",
                 "🇬🇧GB | 🔴 | vless | @VlessConfig | 2",
@@ -305,10 +306,9 @@
                 "🇺🇸US | 🔴 | vless | @V2rayCollectorDonate | 19",
                 "🇺🇸US | 🔴 | vless | @V2rayNGn | 2",
                 "🇺🇸US | 🔴 | vless | @V2rayNGn | 3",
-                "🇺🇸US | 🔴 | vless | @V2rayNGn | 4",
                 "❔XX | 🔴 | vless | @customv2ray | 0",
                 "🚩CF | 🔴 | vless | @customv2ray | 1",
-                "🇰🇿KZ | 🔴 | vless | @customv2ray | 3",
+                "🇺🇸US | 🔴 | vless | @customv2ray | 3",
                 "❔XX | 🔴 | vless | @customv2ray | 4",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 5",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 7",
@@ -648,10 +648,11 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 26",
                 "❔XX | 🔴 | vless | @Parsashonam | 27",
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 28",
-                "❔XX | 🔴 | vless | @XsV2ray | 0",
-                "🇨🇦CA | 🔴 | vless | @XsV2ray | 3",
-                "🇨🇦CA | 🔴 | vless | @XsV2ray | 7",
-                "🇨🇦CA | 🔴 | vless | @XsV2ray | 8",
+                "🇮🇷IR | 🔴 | vless | @XsV2ray | 0",
+                "❔XX | 🔴 | vless | @XsV2ray | 2",
+                "🇨🇦CA | 🔴 | vless | @XsV2ray | 5",
+                "🇨🇦CA | 🔴 | vless | @XsV2ray | 9",
+                "🇨🇦CA | 🔴 | vless | @XsV2ray | 10",
                 "🇮🇪IE | 🔴 | vless | @VlessConfig | 0",
                 "🇮🇪IE | 🔴 | vless | @VlessConfig | 1",
                 "🇬🇧GB | 🔴 | vless | @VlessConfig | 2",
@@ -815,10 +816,9 @@
                 "🇺🇸US | 🔴 | vless | @V2rayCollectorDonate | 19",
                 "🇺🇸US | 🔴 | vless | @V2rayNGn | 2",
                 "🇺🇸US | 🔴 | vless | @V2rayNGn | 3",
-                "🇺🇸US | 🔴 | vless | @V2rayNGn | 4",
                 "❔XX | 🔴 | vless | @customv2ray | 0",
                 "🚩CF | 🔴 | vless | @customv2ray | 1",
-                "🇰🇿KZ | 🔴 | vless | @customv2ray | 3",
+                "🇺🇸US | 🔴 | vless | @customv2ray | 3",
                 "❔XX | 🔴 | vless | @customv2ray | 4",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 5",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 7",
@@ -1796,7 +1796,21 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @XsV2ray | 0",
+            "tag": "🇮🇷IR | 🔴 | vless | @XsV2ray | 0",
+            "type": "vless",
+            "server": "tunel.katolvpn.buzz",
+            "server_port": 2020,
+            "uuid": "432ce1ef-b487-4bed-aec2-83c71f24d7a8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @XsV2ray | 2",
             "type": "vless",
             "server": "xsv2ray",
             "server_port": 0,
@@ -1810,7 +1824,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @XsV2ray | 3",
+            "tag": "🇨🇦CA | 🔴 | vless | @XsV2ray | 5",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2082,
@@ -1824,7 +1838,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @XsV2ray | 7",
+            "tag": "🇨🇦CA | 🔴 | vless | @XsV2ray | 9",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2082,
@@ -1838,7 +1852,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @XsV2ray | 8",
+            "tag": "🇨🇦CA | 🔴 | vless | @XsV2ray | 10",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2083,
@@ -5799,27 +5813,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @V2rayNGn | 4",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8880,
-            "uuid": "93852e78-e70c-4596-a811-fc822177768d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=8880",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                }
-            }
-        },
-        {
             "tag": "❔XX | 🔴 | vless | @customv2ray | 0",
             "type": "vless",
             "server": "[2a01:4f8:c012:9907::1]",
@@ -5865,7 +5858,7 @@
             }
         },
         {
-            "tag": "🇰🇿KZ | 🔴 | vless | @customv2ray | 3",
+            "tag": "🇺🇸US | 🔴 | vless | @customv2ray | 3",
             "type": "vless",
             "server": "Love.salarvand.org",
             "server_port": 2082,
