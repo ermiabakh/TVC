@@ -143,8 +143,8 @@
                 "🇺🇸US | 🔴 | vless | @customv2ray | 12",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 13",
                 "🇨🇦CA | 🔴 | vless | @UnlimitedDev | 12",
+                "🇨🇦CA | 🔴 | vless | @vmessorg | 12",
                 "🇨🇦CA | 🔴 | vless | @vmessorg | 13",
-                "🇺🇸US | 🔴 | vless | @vmessorg | 14",
                 "🇨🇦CA | 🔴 | vless | @v2rayNG_Matsuri | 6",
                 "🇨🇦CA | 🔴 | vless | @v2rayNG_Matsuri | 7",
                 "🇸🇪SE | 🟢 | vless | @ShadowProxy66 | 13",
@@ -240,8 +240,8 @@
                 "🇺🇸US | 🔴 | vless | @customv2ray | 12",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 13",
                 "🇨🇦CA | 🔴 | vless | @UnlimitedDev | 12",
+                "🇨🇦CA | 🔴 | vless | @vmessorg | 12",
                 "🇨🇦CA | 🔴 | vless | @vmessorg | 13",
-                "🇺🇸US | 🔴 | vless | @vmessorg | 14",
                 "🇨🇦CA | 🔴 | vless | @v2rayNG_Matsuri | 6",
                 "🇨🇦CA | 🔴 | vless | @v2rayNG_Matsuri | 7",
                 "🇸🇪SE | 🟢 | vless | @ShadowProxy66 | 13",
@@ -1185,11 +1185,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @vmessorg | 13",
+            "tag": "🇨🇦CA | 🔴 | vless | @vmessorg | 12",
             "type": "vless",
             "server": "www.parsvds.ir",
             "server_port": 8080,
-            "uuid": "9a12a4b2-9260-4867-a81f-7b25021fce85",
+            "uuid": "a1320df6-ce7e-42ea-aca3-9abdcfba0346",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1199,11 +1199,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @vmessorg | 14",
+            "tag": "🇨🇦CA | 🔴 | vless | @vmessorg | 13",
             "type": "vless",
-            "server": "66.235.200.44",
+            "server": "198.41.194.146",
             "server_port": 80,
-            "uuid": "bad302b1-09a8-4060-ad72-209c09d75e19",
+            "uuid": "17e31708-0517-4687-998f-e54951a1139a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1215,7 +1215,7 @@
                 "type": "ws",
                 "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=80",
                 "headers": {
-                    "Host": "66.235.200.44"
+                    "Host": "198.41.194.146"
                 }
             }
         },
@@ -1531,9 +1531,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @V2RayTz | 18",
             "type": "vless",
-            "server": "172.67.193.36",
-            "server_port": 2095,
-            "uuid": "DIGIV2RAY",
+            "server": "104.17.147.22",
+            "server_port": 8880,
+            "uuid": "f05186a2-b702-4fc3-b22a-91c648fc2269",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1543,18 +1543,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Digi-Tel-Digiv-Digicnc-saaaalaaaam-?ed=1024",
+                "path": "\/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=8880",
                 "headers": {
-                    "Host": "172.67.193.36"
+                    "Host": "104.17.147.22"
                 }
             }
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "104.21.20.148",
-            "server_port": 2095,
-            "uuid": "DIGIV2RAY",
+            "server": "104.17.147.22",
+            "server_port": 8880,
+            "uuid": "f05186a2-b702-4fc3-b22a-91c648fc2269",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1564,9 +1564,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Digi-Tel-Digiv-Digicnc-saaaalaaaam-?ed=1024",
+                "path": "\/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2056",
                 "headers": {
-                    "Host": "104.21.20.148"
+                    "Host": "104.17.147.22"
                 }
             }
         },
