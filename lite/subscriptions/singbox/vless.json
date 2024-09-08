@@ -130,8 +130,8 @@
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇩🇪DE | 🔴 | vless | @DigiV2ray | 18",
                 "🇩🇪DE | 🔴 | vless | @DigiV2ray | 19",
-                "🇨🇦CA | 🔴 | vless | @proxy_kafee | 6",
-                "🇨🇦CA | 🔴 | vless | @proxy_kafee | 7",
+                "🇩🇪DE | 🔴 | vless | @proxy_kafee | 7",
+                "🇺🇸US | 🔴 | vless | @proxy_kafee | 8",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
                 "🇺🇸US | 🟢 | vless | @V2rayCollector | 2",
@@ -227,8 +227,8 @@
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇩🇪DE | 🔴 | vless | @DigiV2ray | 18",
                 "🇩🇪DE | 🔴 | vless | @DigiV2ray | 19",
-                "🇨🇦CA | 🔴 | vless | @proxy_kafee | 6",
-                "🇨🇦CA | 🔴 | vless | @proxy_kafee | 7",
+                "🇩🇪DE | 🔴 | vless | @proxy_kafee | 7",
+                "🇺🇸US | 🔴 | vless | @proxy_kafee | 8",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
                 "🇺🇸US | 🟢 | vless | @V2rayCollector | 2",
@@ -866,11 +866,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @proxy_kafee | 6",
+            "tag": "🇩🇪DE | 🔴 | vless | @proxy_kafee | 7",
             "type": "vless",
-            "server": "BoRn.OoRdAk.CoM",
-            "server_port": 80,
-            "uuid": "ff84663d-b92a-424b-b400-08b6f21ee0fb",
+            "server": "www.parspack.com",
+            "server_port": 2052,
+            "uuid": "14202ac6-fda1-525c-a359-58d69199f997",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -880,24 +880,41 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Tel-@proxy_kafee-@proxy_kafee-\/",
                 "headers": {
-                    "Host": "BoRn.OoRdAk.CoM"
+                    "Host": "www.parspack.com"
                 }
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @proxy_kafee | 7",
+            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 8",
             "type": "vless",
-            "server": "Www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "Bia--ZEDMODEON",
+            "server": "151.101.2.219",
+            "server_port": 443,
+            "uuid": "7a5a4624-df8d-4955-bccc-b3fa6161411f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-XV2ry2?ed=1080P",
+                "headers": {
+                    "Host": "speedtest.net"
+                }
             }
         },
         {
