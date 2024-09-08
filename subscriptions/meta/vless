@@ -295,7 +295,6 @@ proxies:
   - {"name":"🇺🇸US | 🔴 | vless | @v2ray1_ng | 3","type":"vless","server":"www.visa.com.sg","port":8443,"udp":false,"uuid":"9a39f63e-28c8-4560-af18-b01b9916ef1b","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"pardazesh-tgws.pages.dev","ws-opts":{"path":"Tel-proxy_mtm/?ed=2560","headers":{"host":"pardazesh-tgws.pages.dev"}}}
   - {"name":"🇺🇸US | 🔴 | vless | @v2ray1_ng | 4","type":"vless","server":"www.speedtest.net","port":443,"udp":false,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"iRANSOFTWare85985611.PaGes.dEV","ws-opts":{"path":"/3ixeZxIuzmrYVV6J?ed=2560","headers":{"host":"iRaNSofTwAre85985611.PaGes.Dev"}}}
   - {"name":"🇮🇷IR | 🔴 | vless | @v2ray1_ng | 5","type":"vless","server":"193.151.149.161","port":8443,"udp":false,"uuid":"0a8b006c-ebd1-4b3d-8ddd-00a13926e6ee","tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🚩CF | 🔴 | vless | @v2ray1_ng | 6","type":"vless","server":"104.17.147.22","port":80,"udp":false,"uuid":"4ec5e911-5948-4f85-b7b9-c1bb9b2e6bcb","tls":false,"network":"httpupgrade","client-fingerprint":"chrome"}
   - {"name":"🚩CF | 🔴 | vless | @MTConfig | 0","type":"vless","server":"172.66.44.135","port":80,"udp":false,"uuid":"5df7962e-f9fe-41e6-ab49-ed96ccb856a7","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/","headers":{"host":"v2ra1.ecrgpk.workers.dev"}}}
   - {"name":"🇸🇪SE | 🔴 | vless | @MTConfig | 1","type":"vless","server":"185.146.173.37","port":2095,"udp":false,"uuid":"6e94bfa2-e3e2-443d-ad69-d6fcfcaf14f2","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/","headers":{"host":"V2ray-_-_-_-_-_-_-_-_-ShhProxy.TelegramChannelJoinBede.com."}}}
   - {"name":"🇺🇸US | 🔴 | vless | @MTConfig | 2","type":"vless","server":"all.vipxali.cfd","port":443,"udp":false,"uuid":"0a4acf58-cc3c-4f99-89c1-70d7ca3fbd92","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"mx.XsV2ray.cfd","grpc-opts":{"grpc-service-name":"@XsV2ray,@XsV2ray"}}
@@ -658,7 +657,6 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @v2ray1_ng | 3'
       - '🇺🇸US | 🔴 | vless | @v2ray1_ng | 4'
       - '🇮🇷IR | 🔴 | vless | @v2ray1_ng | 5'
-      - '🚩CF | 🔴 | vless | @v2ray1_ng | 6'
       - '🚩CF | 🔴 | vless | @MTConfig | 0'
       - '🇸🇪SE | 🔴 | vless | @MTConfig | 1'
       - '🇺🇸US | 🔴 | vless | @MTConfig | 2'
@@ -1021,7 +1019,6 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @v2ray1_ng | 3'
       - '🇺🇸US | 🔴 | vless | @v2ray1_ng | 4'
       - '🇮🇷IR | 🔴 | vless | @v2ray1_ng | 5'
-      - '🚩CF | 🔴 | vless | @v2ray1_ng | 6'
       - '🚩CF | 🔴 | vless | @MTConfig | 0'
       - '🇸🇪SE | 🔴 | vless | @MTConfig | 1'
       - '🇺🇸US | 🔴 | vless | @MTConfig | 2'
@@ -1383,7 +1380,6 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @v2ray1_ng | 3'
       - '🇺🇸US | 🔴 | vless | @v2ray1_ng | 4'
       - '🇮🇷IR | 🔴 | vless | @v2ray1_ng | 5'
-      - '🚩CF | 🔴 | vless | @v2ray1_ng | 6'
       - '🚩CF | 🔴 | vless | @MTConfig | 0'
       - '🇸🇪SE | 🔴 | vless | @MTConfig | 1'
       - '🇺🇸US | 🔴 | vless | @MTConfig | 2'
