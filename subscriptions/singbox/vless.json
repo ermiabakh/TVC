@@ -116,8 +116,6 @@
                 "🚩CF | 🔴 | vless | @EliV2ray | 7",
                 "🇨🇦CA | 🔴 | vless | @EliV2ray | 8",
                 "🇩🇪DE | 🔴 | vless | @EliV2ray | 9",
-                "🇨🇦CA | 🔴 | vless | @EliV2ray | 10",
-                "🇩🇪DE | 🔴 | vless | @EliV2ray | 11",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 1",
                 "❔XX | 🔴 | vless | @Parsashonam | 2",
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 3",
@@ -309,7 +307,6 @@
                 "🇺🇸US | 🔴 | vless | @V2rayNGn | 2",
                 "🇺🇸US | 🔴 | vless | @V2rayNGn | 4",
                 "🇺🇸US | 🔴 | vless | @V2rayNGn | 5",
-                "🇺🇸US | 🔴 | vless | @V2rayNGn | 6",
                 "🇸🇪SE | 🔴 | vless | @customv2ray | 0",
                 "🇮🇷IR | 🔴 | vless | @customv2ray | 1",
                 "🚩CF | 🔴 | vless | @customv2ray | 2",
@@ -336,8 +333,6 @@
                 "🇩🇪DE | 🔴 | vless | @vmessorg | 5",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 7",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 10",
-                "🇺🇸US | 🔴 | vless | @vmessorg | 11",
-                "🇺🇸US | 🔴 | vless | @vmessorg | 12",
                 "🚩CF | 🔴 | vless | @v2rayNG_Matsuri | 0",
                 "🚩CF | 🔴 | vless | @v2rayNG_Matsuri | 1",
                 "🚩CF | 🔴 | vless | @v2rayNG_Matsuri | 2",
@@ -609,8 +604,6 @@
                 "🚩CF | 🔴 | vless | @EliV2ray | 7",
                 "🇨🇦CA | 🔴 | vless | @EliV2ray | 8",
                 "🇩🇪DE | 🔴 | vless | @EliV2ray | 9",
-                "🇨🇦CA | 🔴 | vless | @EliV2ray | 10",
-                "🇩🇪DE | 🔴 | vless | @EliV2ray | 11",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 1",
                 "❔XX | 🔴 | vless | @Parsashonam | 2",
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 3",
@@ -802,7 +795,6 @@
                 "🇺🇸US | 🔴 | vless | @V2rayNGn | 2",
                 "🇺🇸US | 🔴 | vless | @V2rayNGn | 4",
                 "🇺🇸US | 🔴 | vless | @V2rayNGn | 5",
-                "🇺🇸US | 🔴 | vless | @V2rayNGn | 6",
                 "🇸🇪SE | 🔴 | vless | @customv2ray | 0",
                 "🇮🇷IR | 🔴 | vless | @customv2ray | 1",
                 "🚩CF | 🔴 | vless | @customv2ray | 2",
@@ -829,8 +821,6 @@
                 "🇩🇪DE | 🔴 | vless | @vmessorg | 5",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 7",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 10",
-                "🇺🇸US | 🔴 | vless | @vmessorg | 11",
-                "🇺🇸US | 🔴 | vless | @vmessorg | 12",
                 "🚩CF | 🔴 | vless | @v2rayNG_Matsuri | 0",
                 "🚩CF | 🔴 | vless | @v2rayNG_Matsuri | 1",
                 "🚩CF | 🔴 | vless | @v2rayNG_Matsuri | 2",
@@ -1308,48 +1298,6 @@
             "transport": {
                 "type": "ws",
                 "path": "\/@ELiV2ry-@ELiV2ry-@ELiV2ry",
-                "headers": {
-                    "Host": "www.parspack.com"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | 🔴 | vless | @EliV2ray | 10",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "ba8aa7e7-973b-51ce-aba9-bbb6e78920ad",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@ELiV2ry-@ELiV2ry-@ELiV2ry-@ELiV2ry",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @EliV2ray | 11",
-            "type": "vless",
-            "server": "www.parspack.com",
-            "server_port": 2052,
-            "uuid": "ba8aa7e7-973b-51ce-aba9-bbb6e78920ad",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@ELiV2ry-@ELiV2ry-@ELiV2ry-@ELiV2ry",
                 "headers": {
                     "Host": "www.parspack.com"
                 }
@@ -5951,27 +5899,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @V2rayNGn | 6",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8880,
-            "uuid": "b14da791-0efc-431e-8dae-e6562c1f39fe",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=8880",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                }
-            }
-        },
-        {
             "tag": "🇸🇪SE | 🔴 | vless | @customv2ray | 0",
             "type": "vless",
             "server": "185.146.173.32",
@@ -6582,41 +6509,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @vmessorg | 11",
-            "type": "vless",
-            "server": "www.parsvds.ir",
-            "server_port": 8080,
-            "uuid": "68535d45-9247-4921-b037-f5c015de7952",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @vmessorg | 12",
-            "type": "vless",
-            "server": "66.235.200.32",
-            "server_port": 80,
-            "uuid": "1484e77e-30ea-460b-8d24-5f612890d206",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=80",
-                "headers": {
-                    "Host": "66.235.200.32"
-                }
             }
         },
         {
