@@ -522,6 +522,7 @@
                 "🚩CF | 🔴 | vless | @flyv2ray | 12",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
                 "❔XX | 🟢 | vless | @iP_CF | 2",
+                "🇺🇸US | 🔴 | vless | @iP_CF | 3",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 0",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 1",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 3",
@@ -1009,6 +1010,7 @@
                 "🚩CF | 🔴 | vless | @flyv2ray | 12",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
                 "❔XX | 🟢 | vless | @iP_CF | 2",
+                "🇺🇸US | 🔴 | vless | @iP_CF | 3",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 0",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 1",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 3",
@@ -11207,6 +11209,27 @@
                     "enabled": true,
                     "public_key": "B2iOhn9dfq_9_Q-MH5Yz8PPl2LZhJCnT9G-cckMNf0A",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @iP_CF | 3",
+            "type": "vless",
+            "server": "81.28.12.12",
+            "server_port": 80,
+            "uuid": "c2a56771-5778-4212-8f09-138fbab5cb12",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/admin?ed=1024",
+                "headers": {
+                    "Host": "81.28.12.12"
                 }
             }
         },
