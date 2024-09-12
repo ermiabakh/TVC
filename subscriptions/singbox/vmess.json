@@ -169,8 +169,7 @@
                 "🚩CF | 🟢 | vmess | @v2Line | 5",
                 "🚩CF | 🟢 | vmess | @v2Line | 6",
                 "🚩CF | 🟢 | vmess | @v2Line | 7",
-                "🚩CF | 🟢 | vmess | @v2Line | 8",
-                "🇺🇸US | 🟢 | vmess | @ISVvpn | 1"
+                "🚩CF | 🟢 | vmess | @v2Line | 8"
             ]
         },
         {
@@ -240,8 +239,7 @@
                 "🚩CF | 🟢 | vmess | @v2Line | 5",
                 "🚩CF | 🟢 | vmess | @v2Line | 6",
                 "🚩CF | 🟢 | vmess | @v2Line | 7",
-                "🚩CF | 🟢 | vmess | @v2Line | 8",
-                "🇺🇸US | 🟢 | vmess | @ISVvpn | 1"
+                "🚩CF | 🟢 | vmess | @v2Line | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -1908,40 +1906,6 @@
                 "path": "\/V2LINE-TELEGRAM-CHANNEL-VMESS-WS",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @ISVvpn | 1",
-            "type": "vmess",
-            "server": "speedtest.net",
-            "server_port": 443,
-            "uuid": "a97c2c4e-dd94-43f4-9695-82c00b24fc82",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess\/?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn",
-                "headers": {
-                    "Host": "speedtest.net"
                 }
             }
         }
