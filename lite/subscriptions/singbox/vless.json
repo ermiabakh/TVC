@@ -144,7 +144,7 @@
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 9",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 14",
                 "🇨🇦CA | 🔴 | vless | @UnlimitedDev | 13",
-                "🇨🇦CA | 🔴 | vless | @vmessorg | 8",
+                "🇺🇸US | 🔴 | vless | @vmessorg | 8",
                 "🇩🇪DE | 🔴 | vless | @vmessorg | 9",
                 "❔XX | 🔴 | vless | @ServerNett | 17",
                 "🇸🇪SE | 🔴 | vless | @ServerNett | 18",
@@ -233,7 +233,7 @@
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 9",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 14",
                 "🇨🇦CA | 🔴 | vless | @UnlimitedDev | 13",
-                "🇨🇦CA | 🔴 | vless | @vmessorg | 8",
+                "🇺🇸US | 🔴 | vless | @vmessorg | 8",
                 "🇩🇪DE | 🔴 | vless | @vmessorg | 9",
                 "❔XX | 🔴 | vless | @ServerNett | 17",
                 "🇸🇪SE | 🔴 | vless | @ServerNett | 18",
@@ -1261,7 +1261,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @vmessorg | 8",
+            "tag": "🇺🇸US | 🔴 | vless | @vmessorg | 8",
             "type": "vless",
             "server": "vmessorg.sabadyt.ir",
             "server_port": 80,
@@ -1695,6 +1695,37 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 11",
             "type": "vless",
+            "server": "162.159.152.149",
+            "server_port": 443,
+            "uuid": "1d399c5a-1c32-4fff-a4d0-d78fd3328a4c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "pages.teasalo.cloudns.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?proxyip=proxyip.us.fxxk.dedyn.io",
+                "headers": {
+                    "Host": "pages.teasalo.cloudns.org"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 12",
+            "type": "vless",
             "server": "speedtest.net",
             "server_port": 80,
             "uuid": "95cbdd0d-7345-403f-8dc7-a7e3cf36b108",
@@ -1708,37 +1739,6 @@
             "transport": {
                 "type": "ws",
                 "path": "\/Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray",
-                "headers": {
-                    "Host": "speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 12",
-            "type": "vless",
-            "server": "speedtest.net",
-            "server_port": 443,
-            "uuid": "358eab4b-7db4-4f93-a7b0-5e6f98b7cf45",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/W0tvTq4oSbHyKeRM?ed=2560",
                 "headers": {
                     "Host": "speedtest.net"
                 }

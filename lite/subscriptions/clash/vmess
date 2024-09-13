@@ -130,6 +130,7 @@ proxies:
   - {"name":"🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 15","type":"vmess","server":"104.16.61.8","port":"80","cipher":"auto","uuid":"4804f14b-c1f8-452d-a6ec-eff1490aeac9","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/lRkGCkYS9X5GDNJYMWXN7kCm3lL","headers":{"host":"hdfy6d3.freelines.net"}}}
   - {"name":"🇮🇷IR | 🟢 | vmess | @proxystore11 | 2","type":"vmess","server":"87.248.145.59","port":80,"cipher":"auto","uuid":"31c990dc-f987-4b66-a396-3d9bcdc242f0","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | 🟢 | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
+  - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 4","type":"vmess","server":"104.17.148.22","port":"8880","cipher":"auto","uuid":"cb176f4c-e6cf-4136-8332-7d7fcf79b137","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"2s.irvn.debian.6.6.1b1.8.fxp.debian.org.speedtest.net.列列男事的事列上赛.abkon.cyou."}}}
   - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 5","type":"vmess","server":"ps-siluofake-1.nsde.date","port":"2096","cipher":"auto","uuid":"09d4e6ab-bf30-4c29-900f-5d824ff2ec77","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"ps-siluofake-1.nsde.date"}}}
   - {"name":"🇺🇸US | 🟢 | vmess | @v2Line | 7","type":"vmess","server":"172.67.221.19","port":"80","cipher":"auto","uuid":"2f188c61-6622-4056-810e-a1a5f1c9b023","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/V2LINE-TELEGRAM-CHANNEL-VMESS-WS","headers":{"host":"58892877706648357761980405045364.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou"}}}
   - {"name":"🇺🇸US | 🟢 | vmess | @v2Line | 8","type":"vmess","server":"172.64.155.209","port":"80","cipher":"auto","uuid":"947cb385-54b4-4453-ac92-63c95ef32a6a","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/V2LINE-TELEGRAM-CHANNEL-VMESS-WS","headers":{"host":"39238319310964543920519489701900.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou"}}}
@@ -151,6 +152,7 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 15'
       - '🇮🇷IR | 🟢 | vmess | @proxystore11 | 2'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
+      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 4'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 5'
       - '🇺🇸US | 🟢 | vmess | @v2Line | 7'
       - '🇺🇸US | 🟢 | vmess | @v2Line | 8'
@@ -172,6 +174,7 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 15'
       - '🇮🇷IR | 🟢 | vmess | @proxystore11 | 2'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
+      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 4'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 5'
       - '🇺🇸US | 🟢 | vmess | @v2Line | 7'
       - '🇺🇸US | 🟢 | vmess | @v2Line | 8'
@@ -192,6 +195,7 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 15'
       - '🇮🇷IR | 🟢 | vmess | @proxystore11 | 2'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
+      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 4'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 5'
       - '🇺🇸US | 🟢 | vmess | @v2Line | 7'
       - '🇺🇸US | 🟢 | vmess | @v2Line | 8'
