@@ -586,7 +586,6 @@
                 "❔XX | 🟢 | vmess | @Hope_Net | 6",
                 "❔XX | 🟢 | vmess | @Hope_Net | 7",
                 "❔XX | 🟢 | vmess | @Hope_Net | 8",
-                "❔XX | 🟢 | vmess | @Hope_Net | 9",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 1",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 3",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 5",
@@ -655,11 +654,11 @@
                 "🚩CF | 🟢 | vmess | @v2Line | 7",
                 "🚩CF | 🟢 | vmess | @v2Line | 8",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 0",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 1",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 3",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 4",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 5",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 6",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 7",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 8",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 9",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 10",
@@ -681,8 +680,9 @@
                 "🇺🇸US | 🔴 | vless | @kiava | 4",
                 "🇺🇸US | 🔴 | vless | @kiava | 5",
                 "🇺🇸US | 🔴 | vless | @kiava | 6",
-                "❔XX | 🔴 | vless | @kiava | 7",
+                "🇺🇸US | 🔴 | vless | @kiava | 7",
                 "❔XX | 🔴 | vless | @kiava | 8",
+                "❔XX | 🔴 | vless | @kiava | 9",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 1",
                 "🚩CF | 🔴 | vless | @nofiltering2 | 3",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 7",
@@ -1215,7 +1215,6 @@
                 "❔XX | 🟢 | vmess | @Hope_Net | 6",
                 "❔XX | 🟢 | vmess | @Hope_Net | 7",
                 "❔XX | 🟢 | vmess | @Hope_Net | 8",
-                "❔XX | 🟢 | vmess | @Hope_Net | 9",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 1",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 3",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 5",
@@ -1284,11 +1283,11 @@
                 "🚩CF | 🟢 | vmess | @v2Line | 7",
                 "🚩CF | 🟢 | vmess | @v2Line | 8",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 0",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 1",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 3",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 4",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 5",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 6",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 7",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 8",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 9",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 10",
@@ -1310,8 +1309,9 @@
                 "🇺🇸US | 🔴 | vless | @kiava | 4",
                 "🇺🇸US | 🔴 | vless | @kiava | 5",
                 "🇺🇸US | 🔴 | vless | @kiava | 6",
-                "❔XX | 🔴 | vless | @kiava | 7",
+                "🇺🇸US | 🔴 | vless | @kiava | 7",
                 "❔XX | 🔴 | vless | @kiava | 8",
+                "❔XX | 🔴 | vless | @kiava | 9",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 1",
                 "🚩CF | 🔴 | vless | @nofiltering2 | 3",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 7",
@@ -12601,23 +12601,6 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 9",
-            "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "bbcaaca-aabc-cbaa-cdba-ccabcabcbaba",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | @fnet00 | 1",
             "type": "vless",
             "server": "www.speedtest.net",
@@ -14432,6 +14415,58 @@
             "type": "vless",
             "server": "sport.k6n.ir",
             "server_port": 443,
+            "uuid": "5f0c9583-7dab-4288-908f-9fa86b82d0bc",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Join:@oPeTa_v2ray-telegram:@oPeTa_v2ray-join-chanel:@oPeTa_v2ray-join:@opeta_v2ray-telegram:@opeta_v2ray-Join:@oPeTa_v2ray-telegram:@oPeTa_v2ray-join-chanel:@oPeTa_v2ray-join:@opeta_v2ray-telegram:@opeta_v2ray\/?ed=1024",
+                "headers": {
+                    "Host": "speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 1",
+            "type": "vless",
+            "server": "speedtest.net",
+            "server_port": 80,
+            "uuid": "48657ced-3386-4f44-96ec-52ea90aaa5ae",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray?ed=80",
+                "headers": {
+                    "Host": "speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
+            "type": "vless",
+            "server": "sport.k6n.ir",
+            "server_port": 443,
             "uuid": "fab17968-da4c-486d-b835-57f8a72bb4d6",
             "flow": "",
             "packet_encoding": "xudp",
@@ -14459,7 +14494,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 4",
             "type": "vless",
             "server": "Speedtest.net",
             "server_port": 443,
@@ -14490,7 +14525,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 3",
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 5",
             "type": "vless",
             "server": "sport.k6n.ir",
             "server_port": 443,
@@ -14521,7 +14556,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 4",
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 6",
             "type": "vless",
             "server": "sport.k6n.ir",
             "server_port": 443,
@@ -14552,7 +14587,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 6",
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 8",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 80,
@@ -14573,7 +14608,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 7",
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 9",
             "type": "vless",
             "server": "sport.k6n.ir",
             "server_port": 443,
@@ -14604,7 +14639,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 8",
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 10",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 443,
@@ -14635,53 +14670,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 9",
-            "type": "vless",
-            "server": "speedtest.net",
-            "server_port": 80,
-            "uuid": "95cbdd0d-7345-403f-8dc7-a7e3cf36b108",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray",
-                "headers": {
-                    "Host": "speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 10",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8880,
-            "uuid": "eb11f083-a3f7-477a-bec4-12b441ceb501",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/melo\/",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 80,
-            "uuid": "25102a1a-e0ea-4a0d-a40d-c68f74d2fe9f",
+            "uuid": "95cbdd0d-7345-403f-8dc7-a7e3cf36b108",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -14962,7 +14955,7 @@
             "type": "vless",
             "server": "join.kiava.cloud.ohbah.com",
             "server_port": 8880,
-            "uuid": "ddc7f9a9-f67b-4512-b9c6-0194606b55f5",
+            "uuid": "da6e818e-97cc-4823-a59e-718311d5a6c7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -14983,7 +14976,7 @@
             "type": "vless",
             "server": "join.kiava.cloud.ohbah.com",
             "server_port": 8880,
-            "uuid": "17d78edb-6019-4b40-ba7d-68326c910759",
+            "uuid": "ddc7f9a9-f67b-4512-b9c6-0194606b55f5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -15004,7 +14997,7 @@
             "type": "vless",
             "server": "join.kiava.cloud.ohbah.com",
             "server_port": 8880,
-            "uuid": "659001f3-e599-4f9b-9aad-618f30c91038",
+            "uuid": "17d78edb-6019-4b40-ba7d-68326c910759",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -15025,7 +15018,7 @@
             "type": "vless",
             "server": "join.kiava.cloud.ohbah.com",
             "server_port": 8880,
-            "uuid": "13f842a4-fce1-434e-8f0d-d761ac4678cc",
+            "uuid": "659001f3-e599-4f9b-9aad-618f30c91038",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -15046,7 +15039,7 @@
             "type": "vless",
             "server": "join.kiava.cloud.ohbah.com",
             "server_port": 8880,
-            "uuid": "83c4cb63-c8af-4234-9e9d-6d9ac7361b17",
+            "uuid": "13f842a4-fce1-434e-8f0d-d761ac4678cc",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -15067,7 +15060,7 @@
             "type": "vless",
             "server": "join.kiava.cloud.ohbah.com",
             "server_port": 8880,
-            "uuid": "f467b6a4-70e0-4f3d-b6ad-093c3b600576",
+            "uuid": "83c4cb63-c8af-4234-9e9d-6d9ac7361b17",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -15088,6 +15081,27 @@
             "type": "vless",
             "server": "join.kiava.cloud.ohbah.com",
             "server_port": 8880,
+            "uuid": "f467b6a4-70e0-4f3d-b6ad-093c3b600576",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=2560",
+                "headers": {
+                    "Host": "join.kiava.cloud.ohbah.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @kiava | 7",
+            "type": "vless",
+            "server": "join.kiava.cloud.ohbah.com",
+            "server_port": 8880,
             "uuid": "9488c287-bbfc-4281-a1ef-d70797d00c29",
             "flow": "",
             "packet_encoding": "xudp",
@@ -15105,7 +15119,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @kiava | 7",
+            "tag": "❔XX | 🔴 | vless | @kiava | 8",
             "type": "vless",
             "server": "join.2.kiava.cloud.nevao.ir",
             "server_port": 8880,
@@ -15126,7 +15140,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @kiava | 8",
+            "tag": "❔XX | 🔴 | vless | @kiava | 9",
             "type": "vless",
             "server": "join.2.kiava.cloud.nevao.ir",
             "server_port": 8880,
