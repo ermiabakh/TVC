@@ -128,8 +128,7 @@ proxies:
   - {"name":"🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 23","type":"vmess","server":"104.16.61.8","port":"80","cipher":"auto","uuid":"4804f14b-c1f8-452d-a6ec-eff1490aeac9","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/lRkGCkYS9X5GDNJYMWXN7kCm3lL","headers":{"host":"hdfy6d3.freelines.net"}}}
   - {"name":"🇮🇷IR | 🟢 | vmess | @proxystore11 | 2","type":"vmess","server":"87.248.145.59","port":80,"cipher":"auto","uuid":"31c990dc-f987-4b66-a396-3d9bcdc242f0","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | 🟢 | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
-  - {"name":"🇮🇷IR | 🟢 | vmess | @Hope_Net | 5","type":"vmess","server":"185.143.234.120","port":"2086","cipher":"auto","uuid":"99e574f5-db90-462c-9545-1ceac13ebdf1","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"uk02.وصل.net"}}}
-  - {"name":"🇨🇳CN | 🟢 | vmess | @Hope_Net | 6","type":"vmess","server":"v29.heduian.online","port":"30866","cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":"2","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/oooo","headers":{"host":"v29.heduian.online"}}}
+  - {"name":"🇷🇴RO | 🟢 | vmess | @Hope_Net | 3","type":"vmess","server":"45.82.102.8","port":80,"cipher":"auto","uuid":"a49dea92-a8e0-4b99-9d7f-931b6108b2ea","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess/","headers":{"host":"gc-romania1.09vpn.com"}}}
   - {"name":"🇺🇸US | 🟢 | vmess | @v2Line | 7","type":"vmess","server":"172.67.73.174","port":"80","cipher":"auto","uuid":"2c4d6f66-2966-49c1-93aa-a7192ba8f8fc","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/V2LINE-TELEGRAM-CHANNEL-VMESS-WS","headers":{"host":"73012792103530616183052842717949.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou"}}}
   - {"name":"🇺🇸US | 🟢 | vmess | @v2Line | 8","type":"vmess","server":"172.67.221.19","port":"80","cipher":"auto","uuid":"2f188c61-6622-4056-810e-a1a5f1c9b023","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/V2LINE-TELEGRAM-CHANNEL-VMESS-WS","headers":{"host":"58892877706648357761980405045364.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou"}}}
 proxy-groups:
@@ -148,8 +147,7 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 23'
       - '🇮🇷IR | 🟢 | vmess | @proxystore11 | 2'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
-      - '🇮🇷IR | 🟢 | vmess | @Hope_Net | 5'
-      - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 6'
+      - '🇷🇴RO | 🟢 | vmess | @Hope_Net | 3'
       - '🇺🇸US | 🟢 | vmess | @v2Line | 7'
       - '🇺🇸US | 🟢 | vmess | @v2Line | 8'
   - name: URL-TEST
@@ -168,8 +166,7 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 23'
       - '🇮🇷IR | 🟢 | vmess | @proxystore11 | 2'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
-      - '🇮🇷IR | 🟢 | vmess | @Hope_Net | 5'
-      - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 6'
+      - '🇷🇴RO | 🟢 | vmess | @Hope_Net | 3'
       - '🇺🇸US | 🟢 | vmess | @v2Line | 7'
       - '🇺🇸US | 🟢 | vmess | @v2Line | 8'
   - name: FALLBACK
@@ -187,8 +184,7 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 23'
       - '🇮🇷IR | 🟢 | vmess | @proxystore11 | 2'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
-      - '🇮🇷IR | 🟢 | vmess | @Hope_Net | 5'
-      - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 6'
+      - '🇷🇴RO | 🟢 | vmess | @Hope_Net | 3'
       - '🇺🇸US | 🟢 | vmess | @v2Line | 7'
       - '🇺🇸US | 🟢 | vmess | @v2Line | 8'
 rules:
