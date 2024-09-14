@@ -149,15 +149,14 @@
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 18",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 19",
+                "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 7",
-                "🇸🇪SE | 🟢 | vmess | @oneclickvpnkeys | 8",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 14",
                 "🇨🇦CA | 🟢 | vmess | @customv2ray | 15",
-                "🇺🇸US | 🟢 | vless | @UnlimitedDev | 15",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 8",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 9",
-                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 18",
-                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 19",
+                "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 10",
+                "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 11",
                 "🇸🇪SE | 🔴 | vless | @ServerNett | 18",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 16",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 17",
@@ -255,15 +254,14 @@
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 18",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 19",
+                "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 7",
-                "🇸🇪SE | 🟢 | vmess | @oneclickvpnkeys | 8",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 14",
                 "🇨🇦CA | 🟢 | vmess | @customv2ray | 15",
-                "🇺🇸US | 🟢 | vless | @UnlimitedDev | 15",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 8",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 9",
-                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 18",
-                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 19",
+                "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 10",
+                "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 11",
                 "🇸🇪SE | 🔴 | vless | @ServerNett | 18",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 16",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 17",
@@ -1362,11 +1360,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 7",
+            "tag": "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 6",
             "type": "vmess",
-            "server": "www.visa.com.sg",
-            "server_port": 8880,
-            "uuid": "07c9b664-2b37-4e4f-b9e8-db884c98ae10",
+            "server": "104.26.15.148",
+            "server_port": 80,
+            "uuid": "2c4d6f66-2966-49c1-93aa-a7192ba8f8fc",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1379,18 +1377,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/V2LINE-TELEGRAM-CHANNEL-VMESS-WS",
                 "headers": {
                     "Host": ""
                 }
             }
         },
         {
-            "tag": "🇸🇪SE | 🟢 | vmess | @oneclickvpnkeys | 8",
+            "tag": "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 7",
             "type": "vmess",
-            "server": "185.146.173.59",
+            "server": "104.21.95.165",
             "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1403,7 +1401,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "obdii.cfd",
+                "server_name": "sareikela.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1413,9 +1411,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": "obdii.cfd"
+                    "Host": "sareikela.com"
                 }
             }
         },
@@ -1475,37 +1473,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @UnlimitedDev | 15",
-            "type": "vless",
-            "server": "speedtest.net",
-            "server_port": 443,
-            "uuid": "9521fb87-4c7a-4d5b-9538-c8a434a302e4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8880",
-                "headers": {
-                    "Host": "speedtest.net"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | 🟢 | vless | @vmessorg | 8",
             "type": "vless",
             "server": "speedtest.net",
@@ -1558,16 +1525,13 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 18",
-            "type": "vmess",
-            "server": "104.26.12.72",
+            "tag": "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 10",
+            "type": "vless",
+            "server": "162.159.130.35",
             "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "uuid": "66a7609a-2143-465c-b690-78dcfad6299c",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1575,7 +1539,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "cake.capellare.com",
+                "server_name": "github.vipsmt.Workers.Dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1585,23 +1549,20 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/github.com\/mhditaheri\/",
                 "headers": {
-                    "Host": "cake.capellare.com"
+                    "Host": "github.vipsmt.Workers.Dev"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 19",
-            "type": "vmess",
-            "server": "172.66.168.171",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 11",
+            "type": "vless",
+            "server": "172.66.44.166",
+            "server_port": 2087,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1609,7 +1570,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "CAKE.cAPeLLaRe.Com",
+                "server_name": "JoiNV2ngfaST-aeb.PagEs.DEV",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1619,9 +1580,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/ccXpjwOtX57pqG6C?ed=2560",
                 "headers": {
-                    "Host": "CAKE.cAPeLLaRe.Com"
+                    "Host": "JoiNV2ngfaST-aeb.PagEs.DEV"
                 }
             }
         },
@@ -1863,7 +1824,7 @@
             "type": "vless",
             "server": "104.17.147.22",
             "server_port": 80,
-            "uuid": "24e7d29c-ad5d-4d86-88a9-09dd9e36461e",
+            "uuid": "32f2b487-c7a6-443d-8447-99c2c64766d6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1882,9 +1843,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "104.17.148.22",
+            "server": "104.17.147.22",
             "server_port": 8880,
-            "uuid": "b2b43d02-f17b-4f29-bdb1-907e31eb2d74",
+            "uuid": "b49f0bde-caa4-4127-8ea0-6094f1a65235",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1896,7 +1857,7 @@
                 "type": "ws",
                 "path": "\/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=8880",
                 "headers": {
-                    "Host": "104.17.148.22"
+                    "Host": "104.17.147.22"
                 }
             }
         },
