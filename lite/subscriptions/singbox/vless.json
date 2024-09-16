@@ -167,9 +167,10 @@
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "🇩🇪DE | 🔴 | vless | @Capital_NET | 45",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
-                "🇺🇸US | 🔴 | vless | @iP_CF | 7",
-                "🇺🇸US | 🔴 | vless | @mehrosaboran | 7",
+                "🇺🇸US | 🔴 | vless | @iP_CF | 8",
+                "🇺🇸US | 🔴 | vless | @iP_CF | 9",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
+                "🇺🇸US | 🔴 | vless | @mehrosaboran | 9",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 17",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -246,9 +247,10 @@
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "🇩🇪DE | 🔴 | vless | @Capital_NET | 45",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
-                "🇺🇸US | 🔴 | vless | @iP_CF | 7",
-                "🇺🇸US | 🔴 | vless | @mehrosaboran | 7",
+                "🇺🇸US | 🔴 | vless | @iP_CF | 8",
+                "🇺🇸US | 🔴 | vless | @iP_CF | 9",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
+                "🇺🇸US | 🔴 | vless | @mehrosaboran | 9",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 17",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -1795,7 +1797,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @iP_CF | 7",
+            "tag": "🇺🇸US | 🔴 | vless | @iP_CF | 8",
             "type": "vless",
             "server": "104.19.32.28",
             "server_port": 443,
@@ -1826,7 +1828,38 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 7",
+            "tag": "🇺🇸US | 🔴 | vless | @iP_CF | 9",
+            "type": "vless",
+            "server": "96110.cf.090227.xyz",
+            "server_port": 443,
+            "uuid": "1d399c5a-1c32-4fff-a4d0-d78fd3328a4c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "pages.teasalo.cloudns.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=2560",
+                "headers": {
+                    "Host": "pages.teasalo.cloudns.org"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 443,
@@ -1857,7 +1890,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
+            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 9",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
