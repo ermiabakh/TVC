@@ -152,8 +152,8 @@
                 "🇺🇸US | 🟢 | vless | @vmessorg | 9",
                 "🇨🇦CA | 🔴 | vless | @ShadowProxy66 | 2",
                 "🇸🇪SE | 🔴 | vless | @ServerNett | 18",
-                "🇺🇸US | 🔴 | vless | @v2ray_swhil | 16",
-                "🇺🇸US | 🔴 | vless | @v2ray_swhil | 17",
+                "🇨🇦CA | 🔴 | vless | @v2ray_swhil | 16",
+                "🇨🇦CA | 🔴 | vless | @v2ray_swhil | 17",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
                 "🇺🇸US | 🔴 | vless | @proxyymeliii | 11",
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 5",
@@ -250,8 +250,8 @@
                 "🇺🇸US | 🟢 | vless | @vmessorg | 9",
                 "🇨🇦CA | 🔴 | vless | @ShadowProxy66 | 2",
                 "🇸🇪SE | 🔴 | vless | @ServerNett | 18",
-                "🇺🇸US | 🔴 | vless | @v2ray_swhil | 16",
-                "🇺🇸US | 🔴 | vless | @v2ray_swhil | 17",
+                "🇨🇦CA | 🔴 | vless | @v2ray_swhil | 16",
+                "🇨🇦CA | 🔴 | vless | @v2ray_swhil | 17",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
                 "🇺🇸US | 🔴 | vless | @proxyymeliii | 11",
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 5",
@@ -1497,7 +1497,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @v2ray_swhil | 16",
+            "tag": "🇨🇦CA | 🔴 | vless | @v2ray_swhil | 16",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
@@ -1511,7 +1511,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @v2ray_swhil | 17",
+            "tag": "🇨🇦CA | 🔴 | vless | @v2ray_swhil | 17",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2095,
@@ -2011,6 +2011,37 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
             "type": "vless",
+            "server": "104.19.32.28",
+            "server_port": 443,
+            "uuid": "1d399c5a-1c32-4fff-a4d0-d78fd3328a4c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "pages.teasalo.cloudns.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?proxyip=proxyip.oracle.fxxk.dedyn.io",
+                "headers": {
+                    "Host": "pages.teasalo.cloudns.org"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
+            "type": "vless",
             "server": "104.18.254.160",
             "server_port": 443,
             "uuid": "1235b6fb-7f15-4361-8da3-d1a079bdf484",
@@ -2036,37 +2067,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "NGINX-H.pages.DEV"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
-            "type": "vless",
-            "server": "172.66.46.220",
-            "server_port": 2083,
-            "uuid": "34208027-101c-4e79-a0e3-87f62ef214e6",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "MoRtEzA865.paGES.DEV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/v3mqqmhkvvozmhv5?ed=2560",
-                "headers": {
-                    "Host": "MoRtEzA865.paGES.DEV"
                 }
             }
         },
