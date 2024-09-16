@@ -106,8 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | 🔴 | vless | @EliV2ray | 4",
-                "🇨🇦CA | 🔴 | vless | @EliV2ray | 5",
+                "🇨🇦CA | 🔴 | vless | @EliV2ray | 6",
+                "🇨🇦CA | 🔴 | vless | @EliV2ray | 7",
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 36",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 37",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 12",
@@ -164,8 +164,8 @@
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 11",
                 "🇺🇸US | 🔴 | vless | @V2RayTz | 18",
                 "🇺🇸US | 🔴 | vless | @V2RayTz | 19",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 323",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 324",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 323",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 324",
                 "🇬🇧GB | 🔴 | vless | @lrnbymaa | 27",
                 "🇧🇾BY | 🟢 | ss | @OutlineVpnOfficial | 35",
                 "🇦🇹AT | 🟢 | ss | @OutlineVpnOfficial | 36",
@@ -204,8 +204,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | 🔴 | vless | @EliV2ray | 4",
-                "🇨🇦CA | 🔴 | vless | @EliV2ray | 5",
+                "🇨🇦CA | 🔴 | vless | @EliV2ray | 6",
+                "🇨🇦CA | 🔴 | vless | @EliV2ray | 7",
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 36",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 37",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 12",
@@ -262,8 +262,8 @@
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 11",
                 "🇺🇸US | 🔴 | vless | @V2RayTz | 18",
                 "🇺🇸US | 🔴 | vless | @V2RayTz | 19",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 323",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 324",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 323",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 324",
                 "🇬🇧GB | 🔴 | vless | @lrnbymaa | 27",
                 "🇧🇾BY | 🟢 | ss | @OutlineVpnOfficial | 35",
                 "🇦🇹AT | 🟢 | ss | @OutlineVpnOfficial | 36",
@@ -318,7 +318,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @EliV2ray | 4",
+            "tag": "🇨🇦CA | 🔴 | vless | @EliV2ray | 6",
             "type": "vless",
             "server": "104.16.16.16",
             "server_port": 80,
@@ -339,7 +339,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @EliV2ray | 5",
+            "tag": "🇨🇦CA | 🔴 | vless | @EliV2ray | 7",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2095,
@@ -1741,7 +1741,28 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 323",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 323",
+            "type": "vless",
+            "server": "SpeedTest.net",
+            "server_port": 80,
+            "uuid": "349ece52-713d-4955-b8c7-5874b4906235",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "SpeedTest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 324",
             "type": "vless",
             "server": "SpeedTest.net",
             "server_port": 443,
@@ -1768,27 +1789,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 324",
-            "type": "vless",
-            "server": "SpeedTest.net",
-            "server_port": 80,
-            "uuid": "349ece52-713d-4955-b8c7-5874b4906235",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "SpeedTest.net"
                 }
             }
         },
