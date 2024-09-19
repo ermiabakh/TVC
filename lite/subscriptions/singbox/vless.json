@@ -106,8 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | 🔴 | vless | @Parsashonam | 41",
-                "🇸🇪SE | 🔴 | vless | @Parsashonam | 42",
+                "🇺🇸US | 🔴 | vless | @Parsashonam | 36",
+                "🇸🇪SE | 🔴 | vless | @Parsashonam | 37",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 12",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 13",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
@@ -185,8 +185,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | 🔴 | vless | @Parsashonam | 41",
-                "🇸🇪SE | 🔴 | vless | @Parsashonam | 42",
+                "🇺🇸US | 🔴 | vless | @Parsashonam | 36",
+                "🇸🇪SE | 🔴 | vless | @Parsashonam | 37",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 12",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 13",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
@@ -280,11 +280,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Parsashonam | 41",
+            "tag": "🇺🇸US | 🔴 | vless | @Parsashonam | 36",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 443,
-            "uuid": "Parsashonam-56",
+            "uuid": "Parsashonam-57",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -311,11 +311,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @Parsashonam | 42",
+            "tag": "🇸🇪SE | 🔴 | vless | @Parsashonam | 37",
             "type": "vless",
             "server": "185.146.173.39",
             "server_port": 8880,
-            "uuid": "Parsashonam-56",
+            "uuid": "Parsashonam-57",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
