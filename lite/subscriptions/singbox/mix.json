@@ -153,8 +153,8 @@
                 "❔XX | 🔴 | vless | @ServerNett | 15",
                 "🇸🇪SE | 🔴 | vless | @ServerNett | 16",
                 "🇨🇦CA | 🟢 | vmess | @V2rayng_Fast | 2",
-                "🇸🇪SE | 🔴 | vless | @v2ray_swhil | 18",
-                "🇺🇸US | 🔴 | vless | @v2ray_swhil | 19",
+                "🇸🇪SE | 🔴 | vless | @v2ray_swhil | 19",
+                "🇺🇸US | 🔴 | vless | @v2ray_swhil | 20",
                 "🇺🇸US | 🔴 | vless | @proxyymeliii | 9",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
                 "🇸🇬SG | 🔴 | vless | @v2ray1_ng | 4",
@@ -184,7 +184,7 @@
                 "🇮🇷IR | 🔴 | vless | @iP_CF | 0",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 3",
                 "🇰🇿KZ | 🔴 | vless | @mehrosaboran | 4",
-                "🇺🇸US | 🔴 | vless | @nofiltering2 | 17",
+                "🇺🇸US | 🔴 | vless | @nofiltering2 | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇸🇪SE | 🔴 | vless | @kingofilter | 1",
@@ -246,8 +246,8 @@
                 "❔XX | 🔴 | vless | @ServerNett | 15",
                 "🇸🇪SE | 🔴 | vless | @ServerNett | 16",
                 "🇨🇦CA | 🟢 | vmess | @V2rayng_Fast | 2",
-                "🇸🇪SE | 🔴 | vless | @v2ray_swhil | 18",
-                "🇺🇸US | 🔴 | vless | @v2ray_swhil | 19",
+                "🇸🇪SE | 🔴 | vless | @v2ray_swhil | 19",
+                "🇺🇸US | 🔴 | vless | @v2ray_swhil | 20",
                 "🇺🇸US | 🔴 | vless | @proxyymeliii | 9",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
                 "🇸🇬SG | 🔴 | vless | @v2ray1_ng | 4",
@@ -277,7 +277,7 @@
                 "🇮🇷IR | 🔴 | vless | @iP_CF | 0",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 3",
                 "🇰🇿KZ | 🔴 | vless | @mehrosaboran | 4",
-                "🇺🇸US | 🔴 | vless | @nofiltering2 | 17",
+                "🇺🇸US | 🔴 | vless | @nofiltering2 | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇸🇪SE | 🔴 | vless | @kingofilter | 1",
@@ -771,7 +771,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2095,
-            "uuid": "DIGIV2RAy",
+            "uuid": "DIGIV2RAY",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -785,7 +785,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2095,
-            "uuid": "DIGIV2RAy",
+            "uuid": "DIGIV2RAY",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1465,7 +1465,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @v2ray_swhil | 18",
+            "tag": "🇸🇪SE | 🔴 | vless | @v2ray_swhil | 19",
             "type": "vless",
             "server": "185.146.173.185",
             "server_port": 8080,
@@ -1479,7 +1479,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @v2ray_swhil | 19",
+            "tag": "🇺🇸US | 🔴 | vless | @v2ray_swhil | 20",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2095,
@@ -2181,10 +2181,10 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @nofiltering2 | 17",
+            "tag": "🇺🇸US | 🔴 | vless | @nofiltering2 | 15",
             "type": "vless",
-            "server": "Speedtest.net",
-            "server_port": 80,
+            "server": "104.24.38.200",
+            "server_port": 8080,
             "uuid": "TELEGRAM-NUFiLTER",
             "flow": "",
             "packet_encoding": "xudp",
@@ -2192,13 +2192,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
-                "headers": {
-                    "Host": "Speedtest.net"
-                }
             }
         },
         {
