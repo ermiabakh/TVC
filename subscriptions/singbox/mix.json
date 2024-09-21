@@ -583,10 +583,10 @@
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 4",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 1",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 3",
-                "🇺🇸US | 🔴 | vless | @nofiltering2 | 7",
+                "🇺🇸US | 🔴 | vless | @nofiltering2 | 5",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 9",
-                "🇺🇸US | 🔴 | vless | @nofiltering2 | 13",
-                "🚩CF | 🔴 | vless | @nofiltering2 | 15",
+                "🇺🇸US | 🔴 | vless | @nofiltering2 | 11",
+                "🇺🇸US | 🔴 | vless | @nofiltering2 | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 1",
                 "❔XX | 🔴 | vless | @vpn_go67 | 3",
@@ -1108,10 +1108,10 @@
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 4",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 1",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 3",
-                "🇺🇸US | 🔴 | vless | @nofiltering2 | 7",
+                "🇺🇸US | 🔴 | vless | @nofiltering2 | 5",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 9",
-                "🇺🇸US | 🔴 | vless | @nofiltering2 | 13",
-                "🚩CF | 🔴 | vless | @nofiltering2 | 15",
+                "🇺🇸US | 🔴 | vless | @nofiltering2 | 11",
+                "🇺🇸US | 🔴 | vless | @nofiltering2 | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 1",
                 "❔XX | 🔴 | vless | @vpn_go67 | 3",
@@ -13280,32 +13280,15 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @nofiltering2 | 1",
             "type": "vless",
-            "server": "Speedtest.net",
-            "server_port": 443,
-            "uuid": "TELEGRAM-NUFiLTER",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "0486572a-d616-4b8d-b512-d91f4669d5d2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
-                "headers": {
-                    "Host": "Speedtest.net"
-                }
             }
         },
         {
@@ -13340,21 +13323,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @nofiltering2 | 7",
-            "type": "vless",
-            "server": "Www.speedtest.net",
-            "server_port": 8880,
-            "uuid": "TELEGRAM-NUFiLTER",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @nofiltering2 | 9",
+            "tag": "🇺🇸US | 🔴 | vless | @nofiltering2 | 5",
             "type": "vless",
             "server": "Speedtest.net",
             "server_port": 443,
@@ -13385,7 +13354,52 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @nofiltering2 | 13",
+            "tag": "🇺🇸US | 🔴 | vless | @nofiltering2 | 9",
+            "type": "vless",
+            "server": "Www.speedtest.net",
+            "server_port": 8880,
+            "uuid": "TELEGRAM-NUFiLTER",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @nofiltering2 | 11",
+            "type": "vless",
+            "server": "Speedtest.net",
+            "server_port": 443,
+            "uuid": "TELEGRAM-NUFiLTER",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
+                "headers": {
+                    "Host": "Speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @nofiltering2 | 15",
             "type": "vless",
             "server": "Speedtest.net",
             "server_port": 443,
@@ -13413,20 +13427,6 @@
                 "headers": {
                     "Host": "speedtest.net"
                 }
-            }
-        },
-        {
-            "tag": "🚩CF | 🔴 | vless | @nofiltering2 | 15",
-            "type": "vless",
-            "server": "104.24.38.200",
-            "server_port": 8080,
-            "uuid": "TELEGRAM-NUFiLTER",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
