@@ -153,8 +153,8 @@
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 10",
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 11",
                 "🇸🇬SG | 🔴 | vless | @VmessProtocol | 12",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 269",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 270",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 269",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 270",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 20",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 21",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 1",
@@ -231,8 +231,8 @@
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 10",
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 11",
                 "🇸🇬SG | 🔴 | vless | @VmessProtocol | 12",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 269",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 270",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 269",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 270",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 20",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 21",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 1",
@@ -1460,28 +1460,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 269",
-            "type": "vless",
-            "server": "SpeedTest.net",
-            "server_port": 80,
-            "uuid": "2415aa3c-f129-4c10-a007-3054bd21bcef",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "SpeedTest.net"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 270",
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 269",
             "type": "vless",
             "server": "SpeedTest.net",
             "server_port": 443,
@@ -1508,6 +1487,27 @@
                 "path": "\/",
                 "headers": {
                     "Host": "speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 270",
+            "type": "vless",
+            "server": "SpeedTest.net",
+            "server_port": 80,
+            "uuid": "2415aa3c-f129-4c10-a007-3054bd21bcef",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "SpeedTest.net"
                 }
             }
         },
