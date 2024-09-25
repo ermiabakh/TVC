@@ -111,7 +111,7 @@
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 13",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
                 "🇮🇪IE | 🔴 | vless | @VlessConfig | 15",
-                "🇬🇧GB | 🔴 | vless | @VlessConfig | 16",
+                "🇮🇪IE | 🔴 | vless | @VlessConfig | 16",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 15",
                 "❔XX | 🔴 | vless | @V2pedia | 12",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 13",
@@ -133,7 +133,7 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 11",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 10",
-                "🇺🇸US | 🔴 | vless | @customv2ray | 11",
+                "🇩🇪DE | 🔴 | vless | @customv2ray | 11",
                 "🇺🇸US | 🟢 | vless | @UnlimitedDev | 10",
                 "🇺🇸US | 🟢 | vless | @UnlimitedDev | 11",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 8",
@@ -189,7 +189,7 @@
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 13",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
                 "🇮🇪IE | 🔴 | vless | @VlessConfig | 15",
-                "🇬🇧GB | 🔴 | vless | @VlessConfig | 16",
+                "🇮🇪IE | 🔴 | vless | @VlessConfig | 16",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 15",
                 "❔XX | 🔴 | vless | @V2pedia | 12",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 13",
@@ -211,7 +211,7 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 11",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 10",
-                "🇺🇸US | 🔴 | vless | @customv2ray | 11",
+                "🇩🇪DE | 🔴 | vless | @customv2ray | 11",
                 "🇺🇸US | 🟢 | vless | @UnlimitedDev | 10",
                 "🇺🇸US | 🟢 | vless | @UnlimitedDev | 11",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 8",
@@ -370,7 +370,7 @@
         {
             "tag": "🇮🇪IE | 🔴 | vless | @VlessConfig | 15",
             "type": "vless",
-            "server": "52.214.219.14",
+            "server": "63.33.230.157",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -399,9 +399,9 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | @VlessConfig | 16",
+            "tag": "🇮🇪IE | 🔴 | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "52.56.58.161",
+            "server": "52.214.219.14",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -941,9 +941,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @customv2ray | 10",
             "type": "vless",
-            "server": "151.101.130.219",
-            "server_port": 443,
-            "uuid": "c2f39bad-4213-42bc-bdd4-915739acf015",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "612f4024-b6e5-49c2-bff1-aad708dcefe9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -951,53 +951,26 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/ws\/",
+                "path": "\/hormozv.hormozv.hormozv.hormozv",
                 "headers": {
-                    "Host": "speedtest.net"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @customv2ray | 11",
+            "tag": "🇩🇪DE | 🔴 | vless | @customv2ray | 11",
             "type": "vless",
-            "server": "104.17.147.22",
-            "server_port": 8443,
-            "uuid": "6afc84e4-0d3d-4d4f-9c89-5798685f21df",
+            "server": "test3.vip-senior.info",
+            "server_port": 40126,
+            "uuid": "43d4a2c2-996b-4910-a0fe-817fad873186",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "tel.VPNCUSTOMIZE.www.speedtest.net.Naziitness.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/www.speedtest.net\/VPNCSTOMIZE?ed=8443",
-                "headers": {
-                    "Host": "tel.VPNCUSTOMIZE.www.speedtest.net.Naziitness.com"
-                }
             }
         },
         {
