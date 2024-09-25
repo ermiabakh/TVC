@@ -515,10 +515,9 @@ proxies:
   - {"name":"❔XX | 🔴 | vless | @VpnSkyy | 5","type":"vless","server":"Sky1.bbv2ry.pics","port":443,"udp":false,"uuid":"4b05c4ff-6715-4bdf-9906-a9441cc59484","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"web.bbv2ry.pics","ws-opts":{"path":"/"}}
   - {"name":"❔XX | 🔴 | vless | @VpnSkyy | 6","type":"vless","server":"sky1.bbv2ry.pics","port":443,"udp":false,"uuid":"cc876e84-66c4-4bd8-ac67-7d2efc9daac8","tls":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"❔XX | 🔴 | vless | @VpnSkyy | 7","type":"vless","server":"sky1.bbv2ry.pics","port":443,"udp":false,"uuid":"18c680fc-f921-484c-85d3-ec191f7cc983","tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🇺🇸US | 🔴 | vless | @ROMAX_VPN | 1","type":"vless","server":"zula.ir","port":443,"udp":false,"uuid":"3fedbd26-b4da-440e-9f7c-004d2463caec","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"DisVpn.us.kg","ws-opts":{"path":"/---------Romax_VPN---------Romax_VPN---------Romax_VPN","headers":{"host":"DisVpn.us.kg"}}}
-  - {"name":"🇺🇸US | 🔴 | vless | @ROMAX_VPN | 2","type":"vless","server":"speedtest.net","port":443,"udp":false,"uuid":"494d65a9-f932-475c-a895-88eb985d49ea","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"speedtest.net","ws-opts":{"path":"/","headers":{"host":"vip-programs.ir"}}}
-  - {"name":"🇨🇾CY | 🔴 | vless | @TIKTOK_PROXY | 0","type":"vless","server":"213.109.205.0","port":2083,"udp":false,"uuid":"3ab4a853-4dd8-4351-848c-6b9a8480a876","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"accountssssss.saeidrangbar.blog","ws-opts":{"path":"/Telegram---------TIKTOK_RPOXY---------TIKTOK_RPOXY---------TIKTOK_RPOXY-Telegram---------TIKTOK_RPOXY---------TIKTOK_RPOXY---------TIKTOK_RPOXY-Telegram---------TIKTOK_RPOXY---------TIKTOK_RPOXY---------TIKTOK_RPOXY","headers":{"host":"accountssssss.saeidrangbar.blog"}}}
-  - {"name":"🇺🇸US | 🔴 | vless | @TIKTOK_PROXY | 1","type":"vless","server":"medium.com","port":443,"udp":false,"uuid":"3fedbd26-b4da-440e-9f7c-004d2463caec","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"DisVpn.us.kg","ws-opts":{"path":"/---------TikTok_Proxy---------TikTok_Proxy---------TikTok_Proxy","headers":{"host":"DisVpn.us.kg"}}}
+  - {"name":"🇺🇸US | 🔴 | vless | @ROMAX_VPN | 0","type":"vless","server":"zula.ir","port":443,"udp":false,"uuid":"3fedbd26-b4da-440e-9f7c-004d2463caec","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"DisVpn.us.kg","ws-opts":{"path":"/---------Romax_VPN---------Romax_VPN---------Romax_VPN","headers":{"host":"DisVpn.us.kg"}}}
+  - {"name":"🇺🇸US | 🔴 | vless | @ROMAX_VPN | 1","type":"vless","server":"speedtest.net","port":443,"udp":false,"uuid":"494d65a9-f932-475c-a895-88eb985d49ea","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"speedtest.net","ws-opts":{"path":"/","headers":{"host":"vip-programs.ir"}}}
+  - {"name":"🇺🇸US | 🔴 | vless | @TIKTOK_PROXY | 0","type":"vless","server":"medium.com","port":443,"udp":false,"uuid":"3fedbd26-b4da-440e-9f7c-004d2463caec","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"DisVpn.us.kg","ws-opts":{"path":"/---------TikTok_Proxy---------TikTok_Proxy---------TikTok_Proxy","headers":{"host":"DisVpn.us.kg"}}}
   - {"name":"🇺🇸US | 🟢 | vmess | @ISVvpn | 1","type":"vmess","server":"speedtest.net","port":"443","cipher":"none","uuid":"a2a66093-4448-4591-8241-4a4ba29825d1","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess?join-telegram-@ISVvpn","headers":{"host":"21955.ir"}}}
 proxy-groups:
   - name: MANUAL
@@ -921,10 +920,9 @@ proxy-groups:
       - '❔XX | 🔴 | vless | @VpnSkyy | 5'
       - '❔XX | 🔴 | vless | @VpnSkyy | 6'
       - '❔XX | 🔴 | vless | @VpnSkyy | 7'
+      - '🇺🇸US | 🔴 | vless | @ROMAX_VPN | 0'
       - '🇺🇸US | 🔴 | vless | @ROMAX_VPN | 1'
-      - '🇺🇸US | 🔴 | vless | @ROMAX_VPN | 2'
-      - '🇨🇾CY | 🔴 | vless | @TIKTOK_PROXY | 0'
-      - '🇺🇸US | 🔴 | vless | @TIKTOK_PROXY | 1'
+      - '🇺🇸US | 🔴 | vless | @TIKTOK_PROXY | 0'
       - '🇺🇸US | 🟢 | vmess | @ISVvpn | 1'
   - name: URL-TEST
     type: url-test
@@ -1327,10 +1325,9 @@ proxy-groups:
       - '❔XX | 🔴 | vless | @VpnSkyy | 5'
       - '❔XX | 🔴 | vless | @VpnSkyy | 6'
       - '❔XX | 🔴 | vless | @VpnSkyy | 7'
+      - '🇺🇸US | 🔴 | vless | @ROMAX_VPN | 0'
       - '🇺🇸US | 🔴 | vless | @ROMAX_VPN | 1'
-      - '🇺🇸US | 🔴 | vless | @ROMAX_VPN | 2'
-      - '🇨🇾CY | 🔴 | vless | @TIKTOK_PROXY | 0'
-      - '🇺🇸US | 🔴 | vless | @TIKTOK_PROXY | 1'
+      - '🇺🇸US | 🔴 | vless | @TIKTOK_PROXY | 0'
       - '🇺🇸US | 🟢 | vmess | @ISVvpn | 1'
   - name: FALLBACK
     type: fallback
@@ -1732,10 +1729,9 @@ proxy-groups:
       - '❔XX | 🔴 | vless | @VpnSkyy | 5'
       - '❔XX | 🔴 | vless | @VpnSkyy | 6'
       - '❔XX | 🔴 | vless | @VpnSkyy | 7'
+      - '🇺🇸US | 🔴 | vless | @ROMAX_VPN | 0'
       - '🇺🇸US | 🔴 | vless | @ROMAX_VPN | 1'
-      - '🇺🇸US | 🔴 | vless | @ROMAX_VPN | 2'
-      - '🇨🇾CY | 🔴 | vless | @TIKTOK_PROXY | 0'
-      - '🇺🇸US | 🔴 | vless | @TIKTOK_PROXY | 1'
+      - '🇺🇸US | 🔴 | vless | @TIKTOK_PROXY | 0'
       - '🇺🇸US | 🟢 | vmess | @ISVvpn | 1'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
