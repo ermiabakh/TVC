@@ -111,7 +111,7 @@
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 13",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
                 "🇮🇪IE | 🔴 | vless | @VlessConfig | 15",
-                "🇬🇧GB | 🔴 | vless | @VlessConfig | 16",
+                "🇮🇪IE | 🔴 | vless | @VlessConfig | 16",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 15",
                 "🇨🇦CA | 🔴 | vless | @V2pedia | 11",
                 "🇨🇦CA | 🔴 | vless | @V2pedia | 12",
@@ -146,7 +146,7 @@
                 "❔XX | 🔴 | vless | @MTConfig | 13",
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 10",
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 11",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 307",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 307",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 308",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 17",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 18",
@@ -182,7 +182,7 @@
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 13",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
                 "🇮🇪IE | 🔴 | vless | @VlessConfig | 15",
-                "🇬🇧GB | 🔴 | vless | @VlessConfig | 16",
+                "🇮🇪IE | 🔴 | vless | @VlessConfig | 16",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 15",
                 "🇨🇦CA | 🔴 | vless | @V2pedia | 11",
                 "🇨🇦CA | 🔴 | vless | @V2pedia | 12",
@@ -217,7 +217,7 @@
                 "❔XX | 🔴 | vless | @MTConfig | 13",
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 10",
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 11",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 307",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 307",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 308",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 17",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 18",
@@ -356,7 +356,7 @@
         {
             "tag": "🇮🇪IE | 🔴 | vless | @VlessConfig | 15",
             "type": "vless",
-            "server": "34.248.99.21",
+            "server": "54.155.117.4",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -385,9 +385,9 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | @VlessConfig | 16",
+            "tag": "🇮🇪IE | 🔴 | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "18.168.5.244",
+            "server": "34.248.99.21",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1212,10 +1212,10 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 307",
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 307",
             "type": "vless",
             "server": "SpeedTest.net",
-            "server_port": 80,
+            "server_port": 443,
             "uuid": "c717d4ca-7ca1-44d8-a987-b1b430fe3d22",
             "flow": "",
             "packet_encoding": "xudp",
@@ -1224,11 +1224,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "SpeedTest.net"
+                    "Host": "speedtest.net"
                 }
             }
         },
@@ -1406,7 +1416,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "ee0d9d18-e887-4ac9-9480-8c624645f8f7",
+            "uuid": "77353934-13a8-4f7d-a6f7-22bef5b38d33",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1427,7 +1437,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "9c4347f6-6c96-4358-8d11-167d6e9c2583",
+            "uuid": "ee0d9d18-e887-4ac9-9480-8c624645f8f7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
