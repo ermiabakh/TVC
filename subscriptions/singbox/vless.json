@@ -360,8 +360,9 @@
                 "❔XX | 🔴 | vless | @proxyymeliii | 12",
                 "🇺🇸US | 🔴 | vless | @proxyymeliii | 13",
                 "🚩CF | 🔴 | vless | @proxyymeliii | 14",
-                "🚩CF | 🔴 | vless | @v2ray1_ng | 1",
+                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 1",
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 3",
+                "🚩CF | 🔴 | vless | @v2ray1_ng | 4",
                 "🚩CF | 🔴 | vless | @MTConfig | 0",
                 "🇸🇪SE | 🔴 | vless | @MTConfig | 1",
                 "🇺🇸US | 🔴 | vless | @MTConfig | 2",
@@ -808,8 +809,9 @@
                 "❔XX | 🔴 | vless | @proxyymeliii | 12",
                 "🇺🇸US | 🔴 | vless | @proxyymeliii | 13",
                 "🚩CF | 🔴 | vless | @proxyymeliii | 14",
-                "🚩CF | 🔴 | vless | @v2ray1_ng | 1",
+                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 1",
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 3",
+                "🚩CF | 🔴 | vless | @v2ray1_ng | 4",
                 "🚩CF | 🔴 | vless | @MTConfig | 0",
                 "🇸🇪SE | 🔴 | vless | @MTConfig | 1",
                 "🇺🇸US | 🔴 | vless | @MTConfig | 2",
@@ -7259,7 +7261,38 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @v2ray1_ng | 1",
+            "tag": "🇺🇸US | 🔴 | vless | @v2ray1_ng | 1",
+            "type": "vless",
+            "server": "151.101.64.223",
+            "server_port": 443,
+            "uuid": "7d2dfb7a-2ecc-4448-bcbe-245a2092fe85",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "python.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-Xv2ry2-q1?ed=1080",
+                "headers": {
+                    "Host": "python.org"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🔴 | vless | @v2ray1_ng | 3",
             "type": "vless",
             "server": "172.66.45.7",
             "server_port": 443,
@@ -7290,7 +7323,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @v2ray1_ng | 3",
+            "tag": "🚩CF | 🔴 | vless | @v2ray1_ng | 4",
             "type": "vless",
             "server": "104.17.147.22",
             "server_port": 80,
