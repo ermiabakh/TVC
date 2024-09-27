@@ -343,6 +343,7 @@
                 "🇺🇸US | 🟢 | vless | @UnlimitedDev | 9",
                 "🇺🇸US | 🟢 | vless | @UnlimitedDev | 10",
                 "🇺🇸US | 🟢 | vless | @UnlimitedDev | 11",
+                "🇺🇸US | 🟢 | vless | @UnlimitedDev | 12",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 0",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 2",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 3",
@@ -869,6 +870,7 @@
                 "🇺🇸US | 🟢 | vless | @UnlimitedDev | 9",
                 "🇺🇸US | 🟢 | vless | @UnlimitedDev | 10",
                 "🇺🇸US | 🟢 | vless | @UnlimitedDev | 11",
+                "🇺🇸US | 🟢 | vless | @UnlimitedDev | 12",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 0",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 2",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 3",
@@ -6901,6 +6903,37 @@
             "server": "speedtest.net",
             "server_port": 443,
             "uuid": "c77fea1b-8ddd-48bb-bb97-0ec6f9f736c9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8880",
+                "headers": {
+                    "Host": "speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vless | @UnlimitedDev | 12",
+            "type": "vless",
+            "server": "speedtest.net",
+            "server_port": 443,
+            "uuid": "7f64b6ea-a0ee-477f-8322-bc4d73c324b9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
