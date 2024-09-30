@@ -158,8 +158,6 @@ proxies:
   - {"name":"🚩CF | 🟢 | vmess | @Hope_Net | 7","type":"vmess","server":"172.67.75.194","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip1.1789034.xyz"}}}
   - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 8","type":"vmess","server":"japan.com","port":"2086","cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip1.1789034.xyz"}}}
   - {"name":"🚩CF | 🟢 | vmess | @Hope_Net | 9","type":"vmess","server":"104.16.60.8","port":"2086","cipher":"auto","uuid":"a1655f51-1e20-4a92-8a11-b7ca30a7a353","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"vpnsupportfast.vpnsuortfast.workers.dev"}}}
-  - {"name":"🚩CF | 🟢 | vmess | @Hope_Net | 10","type":"vmess","server":"104.19.46.56","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip14.freegradely.xyz"}}}
-  - {"name":"🚩CF | 🟢 | vmess | @Hope_Net | 11","type":"vmess","server":"172.64.166.9","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}}}
   - {"name":"🇺🇸US | 🟢 | vmess | @ISVvpn | 1","type":"vmess","server":"speedtest.net","port":"443","cipher":"none","uuid":"a2a66093-4448-4591-8241-4a4ba29825d1","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess?join-telegram-@ISVvpn","headers":{"host":"21955.ir"}}}
 proxy-groups:
   - name: MANUAL
@@ -207,8 +205,6 @@ proxy-groups:
       - '🚩CF | 🟢 | vmess | @Hope_Net | 7'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 8'
       - '🚩CF | 🟢 | vmess | @Hope_Net | 9'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 10'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 11'
       - '🇺🇸US | 🟢 | vmess | @ISVvpn | 1'
   - name: URL-TEST
     type: url-test
@@ -256,8 +252,6 @@ proxy-groups:
       - '🚩CF | 🟢 | vmess | @Hope_Net | 7'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 8'
       - '🚩CF | 🟢 | vmess | @Hope_Net | 9'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 10'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 11'
       - '🇺🇸US | 🟢 | vmess | @ISVvpn | 1'
   - name: FALLBACK
     type: fallback
@@ -304,8 +298,6 @@ proxy-groups:
       - '🚩CF | 🟢 | vmess | @Hope_Net | 7'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 8'
       - '🚩CF | 🟢 | vmess | @Hope_Net | 9'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 10'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 11'
       - '🇺🇸US | 🟢 | vmess | @ISVvpn | 1'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
