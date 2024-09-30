@@ -168,8 +168,8 @@
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 2",
@@ -187,7 +187,7 @@
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇸🇪SE | 🔴 | vless | @kingofilter | 2",
                 "🇸🇪SE | 🔴 | vless | @kingofilter | 3",
-                "🇮🇷IR | 🔴 | vless | @Good_V2rayy | 7",
+                "🇺🇸US | 🔴 | vless | @Good_V2rayy | 6",
                 "❔XX | 🔴 | vless | @V2FETCH | 1",
                 "❔XX | 🔴 | vless | @VpnSkyy | 6",
                 "❔XX | 🔴 | vless | @VpnSkyy | 7",
@@ -261,8 +261,8 @@
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 2",
@@ -280,7 +280,7 @@
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇸🇪SE | 🔴 | vless | @kingofilter | 2",
                 "🇸🇪SE | 🔴 | vless | @kingofilter | 3",
-                "🇮🇷IR | 🔴 | vless | @Good_V2rayy | 7",
+                "🇺🇸US | 🔴 | vless | @Good_V2rayy | 6",
                 "❔XX | 🔴 | vless | @V2FETCH | 1",
                 "❔XX | 🔴 | vless | @VpnSkyy | 6",
                 "❔XX | 🔴 | vless | @VpnSkyy | 7",
@@ -1852,9 +1852,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "104.16.148.244",
+            "server": "ip.sb",
             "server_port": 2086,
             "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
             "security": "auto",
@@ -1876,9 +1876,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "172.67.75.194",
+            "server": "104.16.148.244",
             "server_port": 2086,
             "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
             "security": "auto",
@@ -2370,17 +2370,34 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @Good_V2rayy | 7",
+            "tag": "🇺🇸US | 🔴 | vless | @Good_V2rayy | 6",
             "type": "vless",
-            "server": "46.245.75.90",
+            "server": "speedtest.net",
             "server_port": 443,
-            "uuid": "bdc32a6b-aaff-44f7-9739-86472afbb601",
+            "uuid": "6a4d8231-9e1b-4359-85d8-58822c211b82",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Good_v2aryy-@Good_v2aryy-@Good_v2aryy-@Good_v2aryy-@Good_v2aryy-?ed=2053",
+                "headers": {
+                    "Host": "speedtest.net"
+                }
             }
         },
         {
