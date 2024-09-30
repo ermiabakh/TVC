@@ -108,13 +108,13 @@
                 "URL-TEST",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 16",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 1",
+                "🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0",
                 "🇹🇷TR | 🟢 | vmess | @proxystore11 | 7",
                 "❔XX | 🟢 | vmess | @proxystore11 | 8",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 9"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8"
             ]
         },
         {
@@ -123,13 +123,13 @@
             "outbounds": [
                 "🇺🇸US | 🟢 | vmess | @mftizi | 16",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 1",
+                "🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0",
                 "🇹🇷TR | 🟢 | vmess | @proxystore11 | 7",
                 "❔XX | 🟢 | vmess | @proxystore11 | 8",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 9"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -193,7 +193,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 1",
+            "tag": "🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0",
             "type": "vmess",
             "server": "172.67.244.191",
             "server_port": 443,
@@ -319,11 +319,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "104.19.45.9",
-            "server_port": 2095,
-            "uuid": "7a737f41-b792-4260-94ff-3d864da67b80",
+            "server": "104.16.68.38",
+            "server_port": 8080,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -336,14 +336,14 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linde06.indiavideo.sbs\/linkws",
                 "headers": {
                     "Host": ""
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
             "server": "cdn.cngfw.online",
             "server_port": 443,
@@ -358,21 +358,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "cdn.cngfw.online",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/ikun",
                 "headers": {
-                    "Host": "cdn.cngfw.online"
+                    "Host": ""
                 }
             }
         }
