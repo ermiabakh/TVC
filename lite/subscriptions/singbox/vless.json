@@ -113,10 +113,10 @@
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 16",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 15",
                 "🇩🇪DE | 🔴 | vless | @V2pedia | 5",
-                "🇺🇸US | 🔴 | vless | @V2pedia | 6",
+                "🇨🇦CA | 🔴 | vless | @V2pedia | 6",
                 "🇺🇸US | 🔴 | vless | @frev2ray | 0",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
-                "🇺🇸US | 🔴 | vless | @ARv2ray | 19",
+                "🇨🇦CA | 🔴 | vless | @ARv2ray | 19",
                 "🇸🇪SE | 🔴 | vless | @Lockey_vpn | 8",
                 "🇸🇪SE | 🔴 | vless | @Lockey_vpn | 9",
                 "🇸🇪SE | 🔴 | vless | @free_v2rayyy | 2",
@@ -189,10 +189,10 @@
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 16",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 15",
                 "🇩🇪DE | 🔴 | vless | @V2pedia | 5",
-                "🇺🇸US | 🔴 | vless | @V2pedia | 6",
+                "🇨🇦CA | 🔴 | vless | @V2pedia | 6",
                 "🇺🇸US | 🔴 | vless | @frev2ray | 0",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
-                "🇺🇸US | 🔴 | vless | @ARv2ray | 19",
+                "🇨🇦CA | 🔴 | vless | @ARv2ray | 19",
                 "🇸🇪SE | 🔴 | vless | @Lockey_vpn | 8",
                 "🇸🇪SE | 🔴 | vless | @Lockey_vpn | 9",
                 "🇸🇪SE | 🔴 | vless | @free_v2rayyy | 2",
@@ -455,7 +455,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @V2pedia | 6",
+            "tag": "🇨🇦CA | 🔴 | vless | @V2pedia | 6",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -528,7 +528,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 19",
+            "tag": "🇨🇦CA | 🔴 | vless | @ARv2ray | 19",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8080,
@@ -1547,9 +1547,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
             "type": "vless",
-            "server": "speedtest.org",
-            "server_port": 2096,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "server": "162.159.138.178",
+            "server_port": 8443,
+            "uuid": "8953f5bd-6ac8-4a67-b23e-ad01770ae331",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1559,7 +1559,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "JoinV2nGFaSt-2MM.pAges.DEV",
+                "server_name": "vless.sub.amclubs.us.kg",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1569,18 +1569,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-@proxy_mtm\/?ed=2560",
+                "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "JoinV2nGFaSt-2MM.pAges.DEV"
+                    "Host": "vless.sub.amclubs.us.kg"
                 }
             }
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
             "type": "vless",
-            "server": "www.visa.com",
+            "server": "172.66.45.7",
             "server_port": 443,
-            "uuid": "1b3b276f-44b4-4c39-bfdf-67ff6337b41f",
+            "uuid": "a94edb46-0734-4593-a8b5-9cd11ddc57f6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1590,7 +1590,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "POOrIaREd--persEPolIS.pAGEs.Dev",
+                "server_name": "5c53ca21.vpn-aryoo.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1600,9 +1600,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-@V2ray_Alpha\/?ed=2560",
+                "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "POOrIaREd--persEPolIS.pAGEs.Dev"
+                    "Host": "5c53ca21.vpn-aryoo.pages.dev"
                 }
             }
         },
