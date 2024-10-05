@@ -338,6 +338,7 @@
                 "🚩CF | 🔴 | vless | @proxyymeliii | 14",
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 0",
                 "🇮🇷IR | 🔴 | vless | @v2ray1_ng | 2",
+                "🚩CF | 🔴 | vless | @v2ray1_ng | 4",
                 "🚩CF | 🔴 | vless | @MTConfig | 0",
                 "🇸🇪SE | 🔴 | vless | @MTConfig | 1",
                 "🇺🇸US | 🔴 | vless | @MTConfig | 2",
@@ -755,6 +756,7 @@
                 "🚩CF | 🔴 | vless | @proxyymeliii | 14",
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 0",
                 "🇮🇷IR | 🔴 | vless | @v2ray1_ng | 2",
+                "🚩CF | 🔴 | vless | @v2ray1_ng | 4",
                 "🚩CF | 🔴 | vless | @MTConfig | 0",
                 "🇸🇪SE | 🔴 | vless | @MTConfig | 1",
                 "🇺🇸US | 🔴 | vless | @MTConfig | 2",
@@ -6677,6 +6679,20 @@
                 "headers": {
                     "Host": "37.152.182.55"
                 }
+            }
+        },
+        {
+            "tag": "🚩CF | 🔴 | vless | @v2ray1_ng | 4",
+            "type": "vless",
+            "server": "104.17.147.22",
+            "server_port": 80,
+            "uuid": "7c0b8e40-312d-4afb-8622-ae76a990523a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
