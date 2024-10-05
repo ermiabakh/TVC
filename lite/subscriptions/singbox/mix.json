@@ -155,7 +155,8 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 30",
                 "🇺🇸US | 🔴 | vless | @proxyymeliii | 13",
                 "🇺🇸US | 🔴 | vless | @proxyymeliii | 14",
-                "🇮🇷IR | 🔴 | vless | @v2ray1_ng | 2",
+                "🇮🇷IR | 🔴 | vless | @v2ray1_ng | 3",
+                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 4",
                 "❔XX | 🔴 | vless | @MTConfig | 13",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 6",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 7",
@@ -244,7 +245,8 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 30",
                 "🇺🇸US | 🔴 | vless | @proxyymeliii | 13",
                 "🇺🇸US | 🔴 | vless | @proxyymeliii | 14",
-                "🇮🇷IR | 🔴 | vless | @v2ray1_ng | 2",
+                "🇮🇷IR | 🔴 | vless | @v2ray1_ng | 3",
+                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 4",
                 "❔XX | 🔴 | vless | @MTConfig | 13",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 6",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 7",
@@ -1513,7 +1515,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @v2ray1_ng | 2",
+            "tag": "🇮🇷IR | 🔴 | vless | @v2ray1_ng | 3",
             "type": "vless",
             "server": "37.152.182.55",
             "server_port": 8080,
@@ -1531,6 +1533,20 @@
                 "headers": {
                     "Host": "37.152.182.55"
                 }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @v2ray1_ng | 4",
+            "type": "vless",
+            "server": "104.17.147.22",
+            "server_port": 80,
+            "uuid": "7c0b8e40-312d-4afb-8622-ae76a990523a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
