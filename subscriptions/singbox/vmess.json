@@ -121,7 +121,7 @@
                 "🚩CF | 🟢 | vmess | @mftizi | 12",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 13",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 17",
-                "🇺🇸US | 🟢 | vmess | @customv2ray | 5",
+                "🇺🇸US | 🟢 | vmess | @customv2ray | 9",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 0",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 1",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 2",
@@ -176,7 +176,7 @@
                 "🚩CF | 🟢 | vmess | @mftizi | 12",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 13",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 17",
-                "🇺🇸US | 🟢 | vmess | @customv2ray | 5",
+                "🇺🇸US | 🟢 | vmess | @customv2ray | 9",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 0",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 1",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 2",
@@ -543,11 +543,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @customv2ray | 5",
+            "tag": "🇺🇸US | 🟢 | vmess | @customv2ray | 9",
             "type": "vmess",
-            "server": "hms082.gwdef.sbs",
-            "server_port": 443,
-            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "83981345-bf0c-4d1f-bbe3-1c03c195ac19",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -557,23 +557,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "gwdef.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "gwdef.sbs"
-                }
             }
         },
         {
