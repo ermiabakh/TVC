@@ -137,7 +137,6 @@
                 "🇺🇸US | 🟢 | vless | @UnlimitedDev | 16",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 9",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 10",
-                "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 0",
                 "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 19",
                 "❔XX | 🔴 | vless | @ServerNett | 20",
                 "🇸🇪SE | 🔴 | vless | @ServerNett | 21",
@@ -215,7 +214,6 @@
                 "🇺🇸US | 🟢 | vless | @UnlimitedDev | 16",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 9",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 10",
-                "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 0",
                 "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 19",
                 "❔XX | 🔴 | vless | @ServerNett | 20",
                 "🇸🇪SE | 🔴 | vless | @ServerNett | 21",
@@ -1061,37 +1059,6 @@
                 "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080",
                 "headers": {
                     "Host": "speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 0",
-            "type": "vless",
-            "server": "104.18.5.250",
-            "server_port": 443,
-            "uuid": "a64f0cea-ca89-40e6-b316-b3badff1eb90",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "iSaa1.PAGeS.DeV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/BDwnEtVwG7BS0S9f?ed=2560",
-                "headers": {
-                    "Host": "iSaa1.PAGeS.DeV"
                 }
             }
         },
