@@ -141,8 +141,7 @@ proxies:
   - {"name":"🇸🇪SE | 🟢 | trojan | @DirectVPN | 16","type":"trojan","server":"13.49.53.229","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇨🇳CN | 🟢 | vmess | @mftizi | 16","type":"vmess","server":"183.236.51.23","port":"45020","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸US | 🟢 | vmess | @customv2ray | 9","type":"vmess","server":"www.speedtest.net","port":"80","cipher":"auto","uuid":"83981345-bf0c-4d1f-bbe3-1c03c195ac19","alterId":"0","tls":false,"skip-cert-verify":true,"network":"httpupgrade"}
-  - {"name":"🇺🇸US | 🟢 | vless | @UnlimitedDev | 15","type":"vless","server":"speedtest.net","port":443,"udp":false,"uuid":"7e38ce31-f444-42d8-903d-d4d5d8e7ae2c","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"speedtest.net","ws-opts":{"path":"/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8880","headers":{"host":"TEL.UNLIMITEDDEV.http.www.speedtest.net.fast.com.unlimiteddev.ir."}}}
-  - {"name":"🇺🇸US | 🟢 | vless | @UnlimitedDev | 16","type":"vless","server":"speedtest.net","port":443,"udp":false,"uuid":"24151688-263d-4fae-864f-1f095e6d1560","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"speedtest.net","ws-opts":{"path":"/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8880","headers":{"host":"TEL.UNLIMITEDDEV.http.www.speedtest.net.fast.com.unlimiteddev.ir."}}}
+  - {"name":"🇺🇸US | 🟢 | vless | @UnlimitedDev | 16","type":"vless","server":"speedtest.net","port":443,"udp":false,"uuid":"7e38ce31-f444-42d8-903d-d4d5d8e7ae2c","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"speedtest.net","ws-opts":{"path":"/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8880","headers":{"host":"TEL.UNLIMITEDDEV.http.www.speedtest.net.fast.com.unlimiteddev.ir."}}}
   - {"name":"🇺🇸US | 🟢 | vless | @vmessorg | 9","type":"vless","server":"speedtest.net","port":443,"udp":false,"uuid":"fa7f1734-b1b1-4b5f-a556-48f635a9fec5","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"speedtest.net","ws-opts":{"path":"/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080","headers":{"host":"http.www.speedtest.net.fast.com.google.com.vmessorg.ir."}}}
   - {"name":"🇺🇸US | 🟢 | vless | @vmessorg | 10","type":"vless","server":"speedtest.net","port":443,"udp":false,"uuid":"71f254f6-88dd-4a89-bcd7-8d4dd5885cd3","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"speedtest.net","ws-opts":{"path":"/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080","headers":{"host":"http.www.speedtest.net.fast.com.google.com.vmessorg.ir."}}}
   - {"name":"🇺🇸US | 🔴 | vless | @ShadowProxy66 | 34","type":"vless","server":"199.232.5.96","port":443,"udp":false,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"mefa.ir","ws-opts":{"path":"/H?ed=2560","headers":{"host":"mefa.ir"}}}
@@ -205,7 +204,6 @@ proxy-groups:
       - '🇸🇪SE | 🟢 | trojan | @DirectVPN | 16'
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 16'
       - '🇺🇸US | 🟢 | vmess | @customv2ray | 9'
-      - '🇺🇸US | 🟢 | vless | @UnlimitedDev | 15'
       - '🇺🇸US | 🟢 | vless | @UnlimitedDev | 16'
       - '🇺🇸US | 🟢 | vless | @vmessorg | 9'
       - '🇺🇸US | 🟢 | vless | @vmessorg | 10'
@@ -269,7 +267,6 @@ proxy-groups:
       - '🇸🇪SE | 🟢 | trojan | @DirectVPN | 16'
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 16'
       - '🇺🇸US | 🟢 | vmess | @customv2ray | 9'
-      - '🇺🇸US | 🟢 | vless | @UnlimitedDev | 15'
       - '🇺🇸US | 🟢 | vless | @UnlimitedDev | 16'
       - '🇺🇸US | 🟢 | vless | @vmessorg | 9'
       - '🇺🇸US | 🟢 | vless | @vmessorg | 10'
@@ -332,7 +329,6 @@ proxy-groups:
       - '🇸🇪SE | 🟢 | trojan | @DirectVPN | 16'
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 16'
       - '🇺🇸US | 🟢 | vmess | @customv2ray | 9'
-      - '🇺🇸US | 🟢 | vless | @UnlimitedDev | 15'
       - '🇺🇸US | 🟢 | vless | @UnlimitedDev | 16'
       - '🇺🇸US | 🟢 | vless | @vmessorg | 9'
       - '🇺🇸US | 🟢 | vless | @vmessorg | 10'

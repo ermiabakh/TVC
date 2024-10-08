@@ -141,7 +141,6 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
                 "🇺🇸US | 🟢 | vmess | @customv2ray | 9",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 10",
-                "🇺🇸US | 🟢 | vless | @UnlimitedDev | 15",
                 "🇺🇸US | 🟢 | vless | @UnlimitedDev | 16",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 9",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 10",
@@ -231,7 +230,6 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
                 "🇺🇸US | 🟢 | vmess | @customv2ray | 9",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 10",
-                "🇺🇸US | 🟢 | vless | @UnlimitedDev | 15",
                 "🇺🇸US | 🟢 | vless | @UnlimitedDev | 16",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 9",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 10",
@@ -1139,42 +1137,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @UnlimitedDev | 15",
-            "type": "vless",
-            "server": "speedtest.net",
-            "server_port": 443,
-            "uuid": "7e38ce31-f444-42d8-903d-d4d5d8e7ae2c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8880",
-                "headers": {
-                    "Host": "speedtest.net"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | 🟢 | vless | @UnlimitedDev | 16",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 443,
-            "uuid": "24151688-263d-4fae-864f-1f095e6d1560",
+            "uuid": "7e38ce31-f444-42d8-903d-d4d5d8e7ae2c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
