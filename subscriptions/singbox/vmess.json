@@ -145,8 +145,8 @@
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 12",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 13",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 1",
-                "🇺🇸US | 🟢 | vmess | @nofiltering2 | 7",
-                "🇺🇸US | 🟢 | vmess | @ISVvpn | 1",
+                "🇺🇸US | 🟢 | vmess | @nofiltering2 | 3",
+                "🇺🇸US | 🟢 | vmess | @nofiltering2 | 9",
                 "🇺🇸US | 🟢 | vmess | @ISVvpn | 2",
                 "🇺🇸US | 🟢 | vmess | @ISVvpn | 3"
             ]
@@ -194,8 +194,8 @@
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 12",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 13",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 1",
-                "🇺🇸US | 🟢 | vmess | @nofiltering2 | 7",
-                "🇺🇸US | 🟢 | vmess | @ISVvpn | 1",
+                "🇺🇸US | 🟢 | vmess | @nofiltering2 | 3",
+                "🇺🇸US | 🟢 | vmess | @nofiltering2 | 9",
                 "🇺🇸US | 🟢 | vmess | @ISVvpn | 2",
                 "🇺🇸US | 🟢 | vmess | @ISVvpn | 3"
             ],
@@ -1171,64 +1171,6 @@
             "tag": "🇺🇸US | 🟢 | vmess | @nofiltering2 | 1",
             "type": "vmess",
             "server": "www.Kayak.com",
-            "server_port": 80,
-            "uuid": "b40aefd2-4431-41a0-8623-4d552a730070",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/racevpn?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @nofiltering2 | 7",
-            "type": "vmess",
-            "server": "www.Kayak.com",
-            "server_port": 443,
-            "uuid": "b40aefd2-4431-41a0-8623-4d552a730070",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.Kayak.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/racevpn?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn",
-                "headers": {
-                    "Host": "www.Kayak.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @ISVvpn | 1",
-            "type": "vmess",
-            "server": "www.Kayak.com",
             "server_port": 443,
             "uuid": "0c32c3dc-e7f3-482c-b3b1-b68fd8cda65a",
             "security": "auto",
@@ -1254,6 +1196,64 @@
             "transport": {
                 "type": "ws",
                 "path": "\/RACEVPN?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn",
+                "headers": {
+                    "Host": "www.Kayak.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @nofiltering2 | 3",
+            "type": "vmess",
+            "server": "www.Kayak.com",
+            "server_port": 80,
+            "uuid": "b40aefd2-4431-41a0-8623-4d552a730070",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/racevpn?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @nofiltering2 | 9",
+            "type": "vmess",
+            "server": "www.Kayak.com",
+            "server_port": 443,
+            "uuid": "b40aefd2-4431-41a0-8623-4d552a730070",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.Kayak.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/racevpn?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn",
                 "headers": {
                     "Host": "www.Kayak.com"
                 }
