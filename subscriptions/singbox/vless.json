@@ -228,6 +228,7 @@
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 2",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 6",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
+                "🇮🇷IR | 🔴 | vless | @DarkTeam_VPN | 0",
                 "🚩CF | 🔴 | vless | @proxy_kafee | 0",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 1",
                 "🚩CF | 🔴 | vless | @proxy_kafee | 4",
@@ -646,6 +647,7 @@
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 2",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 6",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
+                "🇮🇷IR | 🔴 | vless | @DarkTeam_VPN | 0",
                 "🚩CF | 🔴 | vless | @proxy_kafee | 0",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 1",
                 "🚩CF | 🔴 | vless | @proxy_kafee | 4",
@@ -3880,6 +3882,20 @@
                 "headers": {
                     "Host": "www.speedtest.net"
                 }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | 🔴 | vless | @DarkTeam_VPN | 0",
+            "type": "vless",
+            "server": "ir2.ordeloil.com",
+            "server_port": 2069,
+            "uuid": "89924dcb-c2b2-4eb0-a046-7ea17cf60479",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
