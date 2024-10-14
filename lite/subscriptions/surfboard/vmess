@@ -11,14 +11,14 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 16 = vmess, 188.114.97.3, 443, username = edbb1059-1633-4271-b66e-ed4fba47a1bf, ws = true, tls = 1, vmess-aead = false, ws-path = /linkws, ws-headers = Host:"linde06.indiavideo.sbs", skip-cert-verify = true, tfo = false
 🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0 = vmess, 172.67.244.191, 443, username = bc864078-dcf3-4bf4-8dbf-ca9f200b56be, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"gwdef.sbs", skip-cert-verify = true, tfo = false
 🇨🇳CN | 🟢 | vmess | @yaney_01 | 4 = vmess, ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub, 80, username = 46cfcfe1-e450-459d-a3ab-9406011ab3eb, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"tms.dingtalk.com", skip-cert-verify = true, tfo = false
-🇺🇸US | 🟢 | vmess | @FreakConfig | 9 = vmess, 172.64.155.209, 80, username = 441e10f0-4c76-4d6c-97b9-83bbefcbc602, ws = true, tls = , vmess-aead = true, ws-path = /V2LINE-TELEGRAM-CHANNEL-VMESS-WS, ws-headers = Host:"39238319310964543920519489701900.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou", skip-cert-verify = true, tfo = false
+❔XX | 🟢 | vmess | @Hope_Net | 12 = vmess, amdjp.fineyoo.ml, 443, username = ce48596c-f159-498b-a333-a0b8683cba7f, ws = true, tls = 1, vmess-aead = true, ws-path = /ray, ws-headers = Host:"amdjp.fineyoo.ml", skip-cert-verify = true, tfo = false
+🇨🇳CN | 🟢 | vmess | @Hope_Net | 13 = vmess, pro01.my1188.org, 3213, username = ec908e55-25f5-3da5-9d0b-3e4d20fa1a3b, ws = true, tls = 1, vmess-aead = true, ws-path = /, ws-headers = Host:"au01.iepl.nbsd.us", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 16,🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,🇺🇸US | 🟢 | vmess | @FreakConfig | 9
-URL-TEST = url-test,🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 16,🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,🇺🇸US | 🟢 | vmess | @FreakConfig | 9
-FALLBACK = fallback,🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 16,🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,🇺🇸US | 🟢 | vmess | @FreakConfig | 9
+MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,❔XX | 🟢 | vmess | @Hope_Net | 12,🇨🇳CN | 🟢 | vmess | @Hope_Net | 13
+URL-TEST = url-test,🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,❔XX | 🟢 | vmess | @Hope_Net | 12,🇨🇳CN | 🟢 | vmess | @Hope_Net | 13
+FALLBACK = fallback,🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,❔XX | 🟢 | vmess | @Hope_Net | 12,🇨🇳CN | 🟢 | vmess | @Hope_Net | 13
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
