@@ -157,7 +157,6 @@
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 19",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
-                "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 9",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 3",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 4",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -235,7 +234,6 @@
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 19",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
-                "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 9",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 3",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 4",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -1526,27 +1524,6 @@
                 "headers": {
                     "Host": "pardazeshvpn-tg97.pages.dev"
                 }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 9",
-            "type": "vless",
-            "server": "193.107.48.5",
-            "server_port": 40107,
-            "uuid": "838c061c-7c2c-4610-beab-d71a0bdcb448",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "join-primiumv2ray-join-primiumv2ray-join-primiumv2ray-join-primiumv2ray-join-primiumv2ray-join-primiumv2ray-join-primiumv2ray-join-primiumv2ray-join-primiumv2ray-",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
