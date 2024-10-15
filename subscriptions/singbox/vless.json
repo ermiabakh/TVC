@@ -223,13 +223,13 @@
                 "🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 0",
-                "🇺🇸US | 🔴 | vless | @DigiV2ray | 1",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 2",
-                "🇺🇸US | 🔴 | vless | @DigiV2ray | 6",
-                "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
+                "🇺🇸US | 🔴 | vless | @DigiV2ray | 3",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 8",
-                "🇺🇸US | 🔴 | vless | @DigiV2ray | 12",
-                "🇺🇸US | 🔴 | vless | @DigiV2ray | 13",
+                "🇺🇸US | 🔴 | vless | @DigiV2ray | 9",
+                "🇺🇸US | 🔴 | vless | @DigiV2ray | 10",
+                "🇺🇸US | 🔴 | vless | @DigiV2ray | 14",
+                "🇺🇸US | 🔴 | vless | @DigiV2ray | 15",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 2",
                 "🚩CF | 🔴 | vless | @proxy_kafee | 4",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 5",
@@ -665,13 +665,13 @@
                 "🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 0",
-                "🇺🇸US | 🔴 | vless | @DigiV2ray | 1",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 2",
-                "🇺🇸US | 🔴 | vless | @DigiV2ray | 6",
-                "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
+                "🇺🇸US | 🔴 | vless | @DigiV2ray | 3",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 8",
-                "🇺🇸US | 🔴 | vless | @DigiV2ray | 12",
-                "🇺🇸US | 🔴 | vless | @DigiV2ray | 13",
+                "🇺🇸US | 🔴 | vless | @DigiV2ray | 9",
+                "🇺🇸US | 🔴 | vless | @DigiV2ray | 10",
+                "🇺🇸US | 🔴 | vless | @DigiV2ray | 14",
+                "🇺🇸US | 🔴 | vless | @DigiV2ray | 15",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 2",
                 "🚩CF | 🔴 | vless | @proxy_kafee | 4",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 5",
@@ -3836,21 +3836,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2052,
-            "uuid": "DIGIV2RAY",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @DigiV2ray | 1",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2052,
-            "uuid": "DIGIV2RAY",
+            "uuid": "DIGIV2RAy",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -3871,27 +3857,6 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2052,
-            "uuid": "DIGIV2RAy",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/tm-Digiv2-__teldIGIv2__-DIGiv",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @DigiV2ray | 6",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2095,
             "uuid": "DIGIV2RAY",
             "flow": "",
             "packet_encoding": "xudp",
@@ -3902,10 +3867,10 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
+            "tag": "🇺🇸US | 🔴 | vless | @DigiV2ray | 3",
             "type": "vless",
             "server": "www.speedtest.net",
-            "server_port": 2095,
+            "server_port": 2052,
             "uuid": "DIGIV2RAY",
             "flow": "",
             "packet_encoding": "xudp",
@@ -3927,6 +3892,41 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2095,
+            "uuid": "DIGIV2RAY",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @DigiV2ray | 9",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2095,
+            "uuid": "DIGIV2RAY",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/tm-Digiv2-__teldIGIv2__-DIGiv",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @DigiV2ray | 10",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2095,
             "uuid": "DIGIV2RAy",
             "flow": "",
             "packet_encoding": "xudp",
@@ -3944,7 +3944,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DigiV2ray | 12",
+            "tag": "🇺🇸US | 🔴 | vless | @DigiV2ray | 14",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2095,
@@ -3958,7 +3958,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DigiV2ray | 13",
+            "tag": "🇺🇸US | 🔴 | vless | @DigiV2ray | 15",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2095,
