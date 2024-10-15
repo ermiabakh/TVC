@@ -136,7 +136,7 @@ proxies:
   - {"name":"🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13","type":"vless","server":"95.217.31.246","port":18929,"udp":true,"uuid":"4100d055-5857-44fb-9b7b-9d699dd4f347","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"testv6.tigervp.xyz","reality-opts":{"public-key":"rFZOWxVcsZn5--1yLku3SGglZ0Y2Ban0buZIN3-vFwU","short-id":"cfef326c"}}
   - {"name":"🇺🇸US | 🔴 | vless | @proxy_kafee | 8","type":"vless","server":"hajlab.ucdavis.edu","port":443,"udp":false,"uuid":"51289335-f002-4fd7-9b59-3898591c8e02","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"hajlab.ucdavis.edu","ws-opts":{"path":"/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048","headers":{"host":"joinshhproxybede.ir"}}}
   - {"name":"🇺🇸US | 🔴 | vless | @azadi_az_inja_migzare | 0","type":"vless","server":"162.159.138.178","port":8080,"udp":false,"uuid":"42ae576a-0b4d-40d8-bcf5-9997d4fb0e41","tls":false,"network":"httpupgrade","client-fingerprint":"chrome"}
-  - {"name":"❔XX | 🔴 | vless | @V2rayCollectorDonate | 18","type":"vless","server":"web.bbv2ry.pics","port":443,"udp":false,"uuid":"ac6b3d48-d16f-4125-9f17-d986541a3ee9","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"Sky2.bbv2ry.pics","ws-opts":{"path":"/","headers":{"host":"Sky2.bbv2ry.pics"}}}
+  - {"name":"❔XX | 🔴 | vless | @V2rayCollectorDonate | 19","type":"vless","server":"web.bbv2ry.pics","port":443,"udp":false,"uuid":"ac6b3d48-d16f-4125-9f17-d986541a3ee9","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"Sky2.bbv2ry.pics","ws-opts":{"path":"/","headers":{"host":"Sky2.bbv2ry.pics"}}}
   - {"name":"❔XX | 🔴 | vless | @customv2ray | 10","type":"vless","server":"hetzner--v6.secretvps1.top","port":443,"udp":false,"uuid":"23fd564f-6740-4717-a912-d276a0e3fabb","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"hetzner--v6.secretvps1.top","grpc-opts":{"grpc-service-name":"EOKSQy7wwNBBCRXs"}}
   - {"name":"🇺🇸US | 🔴 | vless | @customv2ray | 11","type":"vless","server":"zula.ir","port":2096,"udp":false,"uuid":"98f0c223-cb75-4faa-859e-47110b1f052b","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"iNTeRnET4EVERIeONe7.PaGes.DeV","ws-opts":{"path":"/Telegram-MARAMBASHI/?ed=2560","headers":{"host":"internet4everieone7.pages.dev"}}}
   - {"name":"🇺🇸US | 🟢 | vless | @UnlimitedDev | 14","type":"vless","server":"live.wkrq.com","port":443,"udp":false,"uuid":"afb5597d-4ba4-4d64-83b8-85be29346556","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"live.wkrq.com","ws-opts":{"path":"@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=8880","headers":{"host":"UNLIMITEDDEV.zr.ir"}}}
@@ -193,7 +193,7 @@ proxy-groups:
       - '🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13'
       - '🇺🇸US | 🔴 | vless | @proxy_kafee | 8'
       - '🇺🇸US | 🔴 | vless | @azadi_az_inja_migzare | 0'
-      - '❔XX | 🔴 | vless | @V2rayCollectorDonate | 18'
+      - '❔XX | 🔴 | vless | @V2rayCollectorDonate | 19'
       - '❔XX | 🔴 | vless | @customv2ray | 10'
       - '🇺🇸US | 🔴 | vless | @customv2ray | 11'
       - '🇺🇸US | 🟢 | vless | @UnlimitedDev | 14'
@@ -250,7 +250,7 @@ proxy-groups:
       - '🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13'
       - '🇺🇸US | 🔴 | vless | @proxy_kafee | 8'
       - '🇺🇸US | 🔴 | vless | @azadi_az_inja_migzare | 0'
-      - '❔XX | 🔴 | vless | @V2rayCollectorDonate | 18'
+      - '❔XX | 🔴 | vless | @V2rayCollectorDonate | 19'
       - '❔XX | 🔴 | vless | @customv2ray | 10'
       - '🇺🇸US | 🔴 | vless | @customv2ray | 11'
       - '🇺🇸US | 🟢 | vless | @UnlimitedDev | 14'
@@ -306,7 +306,7 @@ proxy-groups:
       - '🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13'
       - '🇺🇸US | 🔴 | vless | @proxy_kafee | 8'
       - '🇺🇸US | 🔴 | vless | @azadi_az_inja_migzare | 0'
-      - '❔XX | 🔴 | vless | @V2rayCollectorDonate | 18'
+      - '❔XX | 🔴 | vless | @V2rayCollectorDonate | 19'
       - '❔XX | 🔴 | vless | @customv2ray | 10'
       - '🇺🇸US | 🔴 | vless | @customv2ray | 11'
       - '🇺🇸US | 🟢 | vless | @UnlimitedDev | 14'
