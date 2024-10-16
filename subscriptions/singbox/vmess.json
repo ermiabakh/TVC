@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇭🇰HK | 🟢 | vmess | @mftizi | 0",
-                "🇭🇰HK | 🟢 | vmess | @mftizi | 1",
+                "🇸🇬SG | 🟢 | vmess | @mftizi | 1",
                 "🇭🇰HK | 🟢 | vmess | @mftizi | 2",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 3",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 4",
@@ -129,10 +129,11 @@
                 "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 7",
                 "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 10",
                 "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 13",
-                "🇺🇸US | 🟢 | vmess | @customv2ray | 0",
+                "🇺🇸US | 🟢 | vmess | @customv2ray | 3",
+                "🇺🇸US | 🟢 | vmess | @customv2ray | 6",
                 "🇹🇷TR | 🟢 | vmess | @ShadowProxy66 | 5",
                 "🚩CF | 🟢 | vmess | @V2rayng_Fast | 0",
-                "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 2",
+                "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 3",
                 "❔XX | 🟢 | vmess | @proxystore11 | 0",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
@@ -146,7 +147,6 @@
                 "🚩CF | 🟢 | vmess | @Hope_Net | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 6",
                 "❔XX | 🟢 | vmess | @Hope_Net | 7",
-                "❔XX | 🟢 | vmess | @Hope_Net | 8",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 1",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 7",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 9",
@@ -166,7 +166,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇭🇰HK | 🟢 | vmess | @mftizi | 0",
-                "🇭🇰HK | 🟢 | vmess | @mftizi | 1",
+                "🇸🇬SG | 🟢 | vmess | @mftizi | 1",
                 "🇭🇰HK | 🟢 | vmess | @mftizi | 2",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 3",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 4",
@@ -188,10 +188,11 @@
                 "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 7",
                 "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 10",
                 "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 13",
-                "🇺🇸US | 🟢 | vmess | @customv2ray | 0",
+                "🇺🇸US | 🟢 | vmess | @customv2ray | 3",
+                "🇺🇸US | 🟢 | vmess | @customv2ray | 6",
                 "🇹🇷TR | 🟢 | vmess | @ShadowProxy66 | 5",
                 "🚩CF | 🟢 | vmess | @V2rayng_Fast | 0",
-                "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 2",
+                "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 3",
                 "❔XX | 🟢 | vmess | @proxystore11 | 0",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
@@ -205,7 +206,6 @@
                 "🚩CF | 🟢 | vmess | @Hope_Net | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 6",
                 "❔XX | 🟢 | vmess | @Hope_Net | 7",
-                "❔XX | 🟢 | vmess | @Hope_Net | 8",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 1",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 7",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 9",
@@ -257,7 +257,7 @@
             }
         },
         {
-            "tag": "🇭🇰HK | 🟢 | vmess | @mftizi | 1",
+            "tag": "🇸🇬SG | 🟢 | vmess | @mftizi | 1",
             "type": "vmess",
             "server": "149.104.20.212",
             "server_port": 18210,
@@ -782,7 +782,31 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @customv2ray | 0",
+            "tag": "🇺🇸US | 🟢 | vmess | @customv2ray | 3",
+            "type": "vmess",
+            "server": "www.speedtest.net",
+            "server_port": 2095,
+            "uuid": "8df359a9-201b-4808-a662-b5e41423a6fe",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/aVa-pC.coM.ZoomiT.iR?ed=1024",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @customv2ray | 6",
             "type": "vmess",
             "server": "lammaland.org",
             "server_port": 443,
@@ -884,7 +908,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 2",
+            "tag": "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 3",
             "type": "vmess",
             "server": "www.speedtest.net",
             "server_port": 8880,
@@ -1210,23 +1234,6 @@
             "server": "127.0.0.1",
             "server_port": 8080,
             "uuid": "bbacaca-abca-abca-acdb-ccbcbabaaacb",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 8",
-            "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 8080,
-            "uuid": "cabaabc-baac-aabc-bdac-cabcabbaacbc",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
