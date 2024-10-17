@@ -123,12 +123,10 @@
                 "🇺🇸US | 🟢 | vmess | @mftizi | 15",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 16",
                 "🚩CF | 🟢 | vmess | @mftizi | 17",
-                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 0",
-                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 1",
-                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 2",
-                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 7",
-                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 10",
-                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 13",
+                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 5",
+                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 6",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 7",
+                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 12",
                 "🇺🇸US | 🟢 | vmess | @customv2ray | 5",
                 "🇺🇸US | 🟢 | vmess | @customv2ray | 6",
                 "🇭🇰HK | 🟢 | vmess | @customv2ray | 8",
@@ -153,7 +151,6 @@
                 "❔XX | 🟢 | vmess | @Hope_Net | 4",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 6",
-                "❔XX | 🟢 | vmess | @Hope_Net | 7",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 5",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 11",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 13",
@@ -187,12 +184,10 @@
                 "🇺🇸US | 🟢 | vmess | @mftizi | 15",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 16",
                 "🚩CF | 🟢 | vmess | @mftizi | 17",
-                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 0",
-                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 1",
-                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 2",
-                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 7",
-                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 10",
-                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 13",
+                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 5",
+                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 6",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 7",
+                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 12",
                 "🇺🇸US | 🟢 | vmess | @customv2ray | 5",
                 "🇺🇸US | 🟢 | vmess | @customv2ray | 6",
                 "🇭🇰HK | 🟢 | vmess | @customv2ray | 8",
@@ -217,7 +212,6 @@
                 "❔XX | 🟢 | vmess | @Hope_Net | 4",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 6",
-                "❔XX | 🟢 | vmess | @Hope_Net | 7",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 5",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 11",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 13",
@@ -588,7 +582,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 0",
+            "tag": "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 5",
             "type": "vmess",
             "server": "188.114.96.3",
             "server_port": 443,
@@ -622,7 +616,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 1",
+            "tag": "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 6",
             "type": "vmess",
             "server": "188.114.97.1",
             "server_port": 443,
@@ -656,7 +650,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 2",
+            "tag": "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 7",
             "type": "vmess",
             "server": "astrovpn-official.astrovpn-official.workers.dev",
             "server_port": 443,
@@ -690,7 +684,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 7",
+            "tag": "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 12",
             "type": "vmess",
             "server": "104.21.83.115",
             "server_port": 443,
@@ -720,74 +714,6 @@
                 "path": "\/link",
                 "headers": {
                     "Host": "hms02.fxiaomi.sbs"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 10",
-            "type": "vmess",
-            "server": "188.114.97.6",
-            "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "linde06.indiavideo.sbs"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 13",
-            "type": "vmess",
-            "server": "104.16.61.8",
-            "server_port": 2053,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "worgold21yagranghadeyaakbarshokretbozorg.abza.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linde06.indiavideo.sbs\/linkws",
-                "headers": {
-                    "Host": "worgold21yagranghadeyaakbarshokretbozorg.abza.workers.dev"
                 }
             }
         },
@@ -1433,23 +1359,6 @@
                 "headers": {
                     "Host": ""
                 }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 7",
-            "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "bacabca-acab-baca-bcda-acbcbababcca",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
