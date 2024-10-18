@@ -153,11 +153,12 @@
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 16",
+                "🇩🇪DE | 🔴 | vless | @VPNCUSTOMIZE | 0",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 0",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 1",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 2",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 3",
-                "TVCsarwwumxaf",
+                "TVCvdkouuaaxl",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 5",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 6",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 7",
@@ -172,9 +173,9 @@
                 "🇺🇸US | 🔴 | vless | @V2pedia | 3",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 4",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 5",
-                "🚩CF | 🔴 | vless | @frev2ray | 1",
-                "🚩CF | 🔴 | vless | @frev2ray | 3",
+                "🚩CF | 🔴 | vless | @frev2ray | 2",
                 "🚩CF | 🔴 | vless | @frev2ray | 4",
+                "🚩CF | 🔴 | vless | @frev2ray | 5",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 0",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 1",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 2",
@@ -598,11 +599,12 @@
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 16",
+                "🇩🇪DE | 🔴 | vless | @VPNCUSTOMIZE | 0",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 0",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 1",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 2",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 3",
-                "TVCsarwwumxaf",
+                "TVCvdkouuaaxl",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 5",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 6",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 7",
@@ -617,9 +619,9 @@
                 "🇺🇸US | 🔴 | vless | @V2pedia | 3",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 4",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 5",
-                "🚩CF | 🔴 | vless | @frev2ray | 1",
-                "🚩CF | 🔴 | vless | @frev2ray | 3",
+                "🚩CF | 🔴 | vless | @frev2ray | 2",
                 "🚩CF | 🔴 | vless | @frev2ray | 4",
+                "🚩CF | 🔴 | vless | @frev2ray | 5",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 0",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 1",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 2",
@@ -2129,6 +2131,37 @@
             }
         },
         {
+            "tag": "🇩🇪DE | 🔴 | vless | @VPNCUSTOMIZE | 0",
+            "type": "vless",
+            "server": "188.245.58.221",
+            "server_port": 443,
+            "uuid": "bb89c3a1-3ee6-49f4-9489-aa9e86f92812",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "join.bede.VPNCUSTOMIZE.www.speedtest.net.Powerfullserver.de",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram,VPNCUSTOMIZE?ed=443",
+                "headers": {
+                    "Host": "join.bede.VPNCUSTOMIZE.www.speedtest.net.Powerfullserver.de"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🔴 | vless | @ipV2Ray | 0",
             "type": "vless",
             "server": "ipV2Ray.abadil.shop",
@@ -2233,7 +2266,7 @@
             }
         },
         {
-            "tag": "TVCsarwwumxaf",
+            "tag": "TVCvdkouuaaxl",
             "type": "vless",
             "server": "",
             "server_port": 0,
@@ -2654,7 +2687,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @frev2ray | 1",
+            "tag": "🚩CF | 🔴 | vless | @frev2ray | 2",
             "type": "vless",
             "server": "104.17.234.128",
             "server_port": 443,
@@ -2685,7 +2718,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @frev2ray | 3",
+            "tag": "🚩CF | 🔴 | vless | @frev2ray | 4",
             "type": "vless",
             "server": "104.17.234.128",
             "server_port": 443,
@@ -2716,7 +2749,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @frev2ray | 4",
+            "tag": "🚩CF | 🔴 | vless | @frev2ray | 5",
             "type": "vless",
             "server": "104.17.234.128",
             "server_port": 443,
