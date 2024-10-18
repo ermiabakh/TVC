@@ -159,7 +159,6 @@ proxies:
   - {"name":"🚩CF | 🟢 | vmess | @Hope_Net | 9","type":"vmess","server":"104.21.237.217","port":"2052","cipher":"auto","uuid":"1dbf5c96-31cb-4fd7-8f63-ba8d2bdace34","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/video/u4eCZTxW","headers":{"host":"jpafzyhfsg3.yofnhkfc.xyz"}}}
   - {"name":"🚩CF | 🟢 | vmess | @Hope_Net | 10","type":"vmess","server":"172.64.166.9","port":"2082","cipher":"auto","uuid":"5f3f09ad-89cb-4e94-a7ad-aa8239913555","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip3.6929198.xyz"}}}
   - {"name":"🚩CF | 🟢 | vmess | @Hope_Net | 11","type":"vmess","server":"188.114.96.221","port":"80","cipher":"none","uuid":"9ac947aa-de86-41c3-9a60-4c061c7c95f0","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"dl3.plot.cценарий.劇情голов0рез.fir3brand.煽動者追逐雷恩.погонезаpейн.wonkacapitano.buzz."}}}
-  - {"name":"🚩CF | 🟢 | vmess | @Hope_Net | 12","type":"vmess","server":"104.19.58.175","port":"2082","cipher":"auto","uuid":"5f3f09ad-89cb-4e94-a7ad-aa8239913555","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip15.6929198.xyz"}}}
   - {"name":"🇺🇸US | 🟢 | vmess | @nofiltering2 | 7","type":"vmess","server":"www.Kayak.com","port":"443","cipher":"auto","uuid":"6529ee7d-b090-4515-8595-8bbdb6227fe1","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/racevpn","headers":{"host":"gerMAnyISvP.iR."}}}
   - {"name":"🇺🇸US | 🟢 | vmess | @nofiltering2 | 13","type":"vmess","server":"www.Kayak.com","port":"443","cipher":"auto","uuid":"0c32c3dc-e7f3-482c-b3b1-b68fd8cda65a","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/RACEVPN?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn","headers":{"host":"bRItISh.ovH.ISVvpn.uk."}}}
   - {"name":"🇺🇸US | 🟢 | vmess | @nofiltering2 | 15","type":"vmess","server":"www.Kayak.com","port":"80","cipher":"auto","uuid":"b40aefd2-4431-41a0-8623-4d552a730070","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/racevpn?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn","headers":{"host":"copy-az-ISVvpn-55.germanY.digiTALOCEAn.isvVPn.ORG."}}}
@@ -169,7 +168,6 @@ proxies:
   - {"name":"🇺🇸US | 🟢 | vmess | @ISVvpn | 7","type":"vmess","server":"www.Kayak.com","port":"443","cipher":"auto","uuid":"6529ee7d-b090-4515-8595-8bbdb6227fe1","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/racevpn?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn","headers":{"host":"join-sho-telegram-isvvpn.y79y79.12764.ir."}}}
   - {"name":"🇺🇸US | 🟢 | vmess | @ISVvpn | 8","type":"vmess","server":"www.Kayak.com","port":"80","cipher":"auto","uuid":"6529ee7d-b090-4515-8595-8bbdb6227fe1","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/racevpn?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn","headers":{"host":"join-sho-telegram-isvvpn.y79y79.12764.ir."}}}
   - {"name":"🇺🇸US | 🟢 | vmess | @ISVvpn | 10","type":"vmess","server":"www.Kayak.com","port":"443","cipher":"auto","uuid":"7f3e901c-76eb-4480-8803-947e4674ecaa","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/RACEVPN?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn","headers":{"host":"bRItISh.ovH.ISVvpn.uk."}}}
-  - {"name":"🇺🇸US | 🟢 | vmess | @ISVvpn | 11","type":"vmess","server":"www.Kayak.com","port":"80","cipher":"auto","uuid":"7f3e901c-76eb-4480-8803-947e4674ecaa","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/RACEVPN?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn","headers":{"host":"bRItISh.ovH.ISVvpn.UK."}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -217,7 +215,6 @@ proxy-groups:
       - '🚩CF | 🟢 | vmess | @Hope_Net | 9'
       - '🚩CF | 🟢 | vmess | @Hope_Net | 10'
       - '🚩CF | 🟢 | vmess | @Hope_Net | 11'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 12'
       - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 7'
       - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 13'
       - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 15'
@@ -227,7 +224,6 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @ISVvpn | 7'
       - '🇺🇸US | 🟢 | vmess | @ISVvpn | 8'
       - '🇺🇸US | 🟢 | vmess | @ISVvpn | 10'
-      - '🇺🇸US | 🟢 | vmess | @ISVvpn | 11'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -275,7 +271,6 @@ proxy-groups:
       - '🚩CF | 🟢 | vmess | @Hope_Net | 9'
       - '🚩CF | 🟢 | vmess | @Hope_Net | 10'
       - '🚩CF | 🟢 | vmess | @Hope_Net | 11'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 12'
       - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 7'
       - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 13'
       - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 15'
@@ -285,7 +280,6 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @ISVvpn | 7'
       - '🇺🇸US | 🟢 | vmess | @ISVvpn | 8'
       - '🇺🇸US | 🟢 | vmess | @ISVvpn | 10'
-      - '🇺🇸US | 🟢 | vmess | @ISVvpn | 11'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -332,7 +326,6 @@ proxy-groups:
       - '🚩CF | 🟢 | vmess | @Hope_Net | 9'
       - '🚩CF | 🟢 | vmess | @Hope_Net | 10'
       - '🚩CF | 🟢 | vmess | @Hope_Net | 11'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 12'
       - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 7'
       - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 13'
       - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 15'
@@ -342,7 +335,6 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @ISVvpn | 7'
       - '🇺🇸US | 🟢 | vmess | @ISVvpn | 8'
       - '🇺🇸US | 🟢 | vmess | @ISVvpn | 10'
-      - '🇺🇸US | 🟢 | vmess | @ISVvpn | 11'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
