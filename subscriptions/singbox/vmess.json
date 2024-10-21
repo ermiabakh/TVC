@@ -123,10 +123,8 @@
                 "🇺🇸US | 🟢 | vmess | @mftizi | 15",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 17",
-                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 5",
                 "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 9",
-                "🇧🇬BG | 🟢 | vmess | @DeamNet_Proxy | 16",
-                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 17",
+                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 13",
                 "🇺🇸US | 🟢 | vmess | @customv2ray | 5",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 14",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 16",
@@ -175,10 +173,8 @@
                 "🇺🇸US | 🟢 | vmess | @mftizi | 15",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 17",
-                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 5",
                 "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 9",
-                "🇧🇬BG | 🟢 | vmess | @DeamNet_Proxy | 16",
-                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 17",
+                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 13",
                 "🇺🇸US | 🟢 | vmess | @customv2ray | 5",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 14",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 16",
@@ -550,7 +546,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 5",
+            "tag": "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 9",
             "type": "vmess",
             "server": "104.16.61.8",
             "server_port": 2052,
@@ -574,7 +570,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 9",
+            "tag": "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 13",
             "type": "vmess",
             "server": "104.21.74.239",
             "server_port": 443,
@@ -604,74 +600,6 @@
                 "path": "\/linkws",
                 "headers": {
                     "Host": "afrhms07.xfixedfloat.cfd"
-                }
-            }
-        },
-        {
-            "tag": "🇧🇬BG | 🟢 | vmess | @DeamNet_Proxy | 16",
-            "type": "vmess",
-            "server": "147.78.140.30",
-            "server_port": 443,
-            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "4868-poetry-4868.napora7003.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/afrhms16v.bestxray.buzz\/linkws",
-                "headers": {
-                    "Host": "4868-poetry-4868.napora7003.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 17",
-            "type": "vmess",
-            "server": "gcore-bwg.1929585.xyz",
-            "server_port": 443,
-            "uuid": "4ffb2fa9-d321-4a73-8d5f-1d6c37b4a683",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "gcore-bwg.1929585.xyz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ab",
-                "headers": {
-                    "Host": "gcore-bwg.1929585.xyz"
                 }
             }
         },
