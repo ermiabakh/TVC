@@ -107,14 +107,13 @@
             "outbounds": [
                 "URL-TEST",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 16",
-                "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
+                "🇺🇸US | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @proxystore11 | 0",
                 "❔XX | 🟢 | vmess | @proxystore11 | 1",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 10",
-                "❔XX | 🟢 | vmess | @Hope_Net | 11",
-                "🇺🇸US | 🟢 | vmess | @nofiltering2 | 15"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
+                "❔XX | 🟢 | vmess | @Hope_Net | 12"
             ]
         },
         {
@@ -122,14 +121,13 @@
             "type": "urltest",
             "outbounds": [
                 "🇺🇸US | 🟢 | vmess | @mftizi | 16",
-                "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
+                "🇺🇸US | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @proxystore11 | 0",
                 "❔XX | 🟢 | vmess | @proxystore11 | 1",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 10",
-                "❔XX | 🟢 | vmess | @Hope_Net | 11",
-                "🇺🇸US | 🟢 | vmess | @nofiltering2 | 15"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
+                "❔XX | 🟢 | vmess | @Hope_Net | 12"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -154,6 +152,30 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | @mftizi | 16",
             "type": "vmess",
+            "server": "cfcdn3.sanfencdn9.com",
+            "server_port": 80,
+            "uuid": "472628d9-f89c-4891-bb60-4161bc2583d5",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/video\/VDXcaM7r",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @mftizi | 17",
+            "type": "vmess",
             "server": "cfcdn1.sanfencdn9.com",
             "server_port": 2052,
             "uuid": "cd47cb10-d851-489b-86cd-ffaf659ed943",
@@ -173,23 +195,6 @@
                 "headers": {
                     "Host": ""
                 }
-            }
-        },
-        {
-            "tag": "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-            "type": "vmess",
-            "server": "ambxxic01hk.dorabbb.top",
-            "server_port": 44806,
-            "uuid": "fe9333e9-c864-41ea-8076-a0df85cc50de",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -285,7 +290,41 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 10",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
+            "type": "vmess",
+            "server": "188.114.97.6",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "linde06.indiavideo.sbs"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 12",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 1080,
@@ -299,47 +338,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 11",
-            "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 8080,
-            "uuid": "aaabcbc-caab-cbaa-abdc-bcbabbacacac",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @nofiltering2 | 15",
-            "type": "vmess",
-            "server": "plex.com",
-            "server_port": 80,
-            "uuid": "a888b89a-08ac-40e6-8ad7-cfce9569f967",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/racevpn",
-                "headers": {
-                    "Host": ""
-                }
             }
         }
     ],
