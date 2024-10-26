@@ -110,8 +110,8 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 37",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 13",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 14",
-                "🇺🇸US | 🔴 | vless | @VlessConfig | 14",
-                "🇮🇪IE | 🔴 | vless | @VlessConfig | 15",
+                "🇨🇦CA | 🔴 | vless | @VlessConfig | 14",
+                "🇺🇸US | 🔴 | vless | @VlessConfig | 15",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 12",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 13",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 4",
@@ -166,8 +166,8 @@
                 "🇺🇸US | 🔴 | vless | @Capital_NET | 45",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
                 "❔XX | 🔴 | vless | @iP_CF | 4",
-                "🇺🇸US | 🔴 | vless | @mehrosaboran | 4",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 5",
+                "🇺🇸US | 🔴 | vless | @mehrosaboran | 6",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 16",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -185,8 +185,8 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 37",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 13",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 14",
-                "🇺🇸US | 🔴 | vless | @VlessConfig | 14",
-                "🇮🇪IE | 🔴 | vless | @VlessConfig | 15",
+                "🇨🇦CA | 🔴 | vless | @VlessConfig | 14",
+                "🇺🇸US | 🔴 | vless | @VlessConfig | 15",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 12",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 13",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 4",
@@ -241,8 +241,8 @@
                 "🇺🇸US | 🔴 | vless | @Capital_NET | 45",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
                 "❔XX | 🔴 | vless | @iP_CF | 4",
-                "🇺🇸US | 🔴 | vless | @mehrosaboran | 4",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 5",
+                "🇺🇸US | 🔴 | vless | @mehrosaboran | 6",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 16",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -362,9 +362,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @VlessConfig | 14",
+            "tag": "🇨🇦CA | 🔴 | vless | @VlessConfig | 14",
             "type": "vless",
-            "server": "52.86.238.176",
+            "server": "15.223.84.137",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -393,9 +393,9 @@
             }
         },
         {
-            "tag": "🇮🇪IE | 🔴 | vless | @VlessConfig | 15",
+            "tag": "🇺🇸US | 🔴 | vless | @VlessConfig | 15",
             "type": "vless",
-            "server": "34.249.162.186",
+            "server": "107.21.230.36",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1025,7 +1025,7 @@
             "type": "vless",
             "server": "live.wkrq.com",
             "server_port": 443,
-            "uuid": "4fa19fb9-cbfe-4ea0-a5e2-ecc385394616",
+            "uuid": "8121ac0d-ea5a-4bf4-890d-182d8216d9ff",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1056,7 +1056,7 @@
             "type": "vless",
             "server": "live.wkrq.com",
             "server_port": 443,
-            "uuid": "140f2c39-cb0a-4ebd-a76f-c742d9b535df",
+            "uuid": "4fa19fb9-cbfe-4ea0-a5e2-ecc385394616",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1768,27 +1768,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 4",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "971d85bd-bf94-4453-9745-21f322115a6f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS",
-                "headers": {
-                    "Host": "151.101.3.8"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 5",
             "type": "vless",
             "server": "104.16.16.16",
@@ -1816,6 +1795,37 @@
                 "path": "\/Telegram-Xv2ry2-6?ed=512",
                 "headers": {
                     "Host": "x123456789000qwertyuioplkjhgfszxcvmagrehfcgryaegcfsetetrcih.xn--6bi8548mabeaana921b9b830dbbb0nn92a.xn--6bi8548mabeaana921b9b830dbbb0nn92a.x123456789000qwertyuioplkjhgfszxcvbnmagrehfcgryaegcfsetetrcih.speedtest.netafwe4654hr4f54h98rthr.wi0.ip-dynamic.org"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 6",
+            "type": "vless",
+            "server": "live.wkrq.com",
+            "server_port": 443,
+            "uuid": "7333ed44-4a4e-42f4-b90d-286f6d12e841",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "live.wkrq.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed",
+                "headers": {
+                    "Host": "live.wkrq.com"
                 }
             }
         },
