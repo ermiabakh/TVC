@@ -106,9 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 11",
-                "🇧🇭BH | 🟢 | ss | @DeamNet_Proxy | 13",
-                "🇦🇪AE | 🟢 | ss | @DeamNet_Proxy | 17",
+                "🇧🇭BH | 🟢 | ss | @DeamNet_Proxy | 4",
+                "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 8",
                 "🇦🇪AE | 🟢 | ss | @kingofilter | 7",
                 "🇦🇪AE | 🟢 | ss | @kingofilter | 8"
             ]
@@ -117,9 +116,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 11",
-                "🇧🇭BH | 🟢 | ss | @DeamNet_Proxy | 13",
-                "🇦🇪AE | 🟢 | ss | @DeamNet_Proxy | 17",
+                "🇧🇭BH | 🟢 | ss | @DeamNet_Proxy | 4",
+                "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 8",
                 "🇦🇪AE | 🟢 | ss | @kingofilter | 7",
                 "🇦🇪AE | 🟢 | ss | @kingofilter | 8"
             ],
@@ -144,17 +142,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 11",
-            "type": "shadowsocks",
-            "server": "series-a1.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "W74XFALLLuw6m5IA",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇧🇭BH | 🟢 | ss | @DeamNet_Proxy | 13",
+            "tag": "🇧🇭BH | 🟢 | ss | @DeamNet_Proxy | 4",
             "type": "shadowsocks",
             "server": "series-a2-me.samanehha.co",
             "server_port": 443,
@@ -164,12 +152,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇦🇪AE | 🟢 | ss | @DeamNet_Proxy | 17",
+            "tag": "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 8",
             "type": "shadowsocks",
-            "server": "series-a2-mec.samanehha.co",
+            "server": "series-a1.samanehha.co",
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
-            "password": "u17T3BvpYaaiuW2c",
+            "password": "W74XFALLLuw6m5IA",
             "plugin": "",
             "plugin_opts": ""
         },
