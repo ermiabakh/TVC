@@ -186,8 +186,8 @@
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
+                "🇺🇸US | 🔴 | vless | @kingofilter | 18",
                 "🇧🇭BH | 🟢 | ss | @kingofilter | 19",
-                "🇺🇸US | 🔴 | vless | @kingofilter | 20",
                 "❔XX | 🔴 | vless | @VpnSkyy | 4",
                 "❔XX | 🔴 | vless | @VpnSkyy | 5"
             ]
@@ -276,8 +276,8 @@
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
+                "🇺🇸US | 🔴 | vless | @kingofilter | 18",
                 "🇧🇭BH | 🟢 | ss | @kingofilter | 19",
-                "🇺🇸US | 🔴 | vless | @kingofilter | 20",
                 "❔XX | 🔴 | vless | @VpnSkyy | 4",
                 "❔XX | 🔴 | vless | @VpnSkyy | 5"
             ],
@@ -2309,21 +2309,11 @@
             }
         },
         {
-            "tag": "🇧🇭BH | 🟢 | ss | @kingofilter | 19",
-            "type": "shadowsocks",
-            "server": "series-a2-me.varzesh360.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "Bog0ELmMM9DSxDdQ",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @kingofilter | 20",
+            "tag": "🇺🇸US | 🔴 | vless | @kingofilter | 18",
             "type": "vless",
-            "server": "104.21.48.53",
+            "server": "104.17.234.114",
             "server_port": 8443,
-            "uuid": "5f676d84-c151-48c2-bc09-63017f4a822a",
+            "uuid": "6fd5b6b4-86b4-4e59-b0d9-c088009a74a0",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2333,7 +2323,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "pAgES.DEV",
+                "server_name": "Join.VPNCUSTOMIZE.speedtest.net.Naziitness.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -2343,11 +2333,21 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram@V2ray_Alpha\/?ed=2087",
+                "path": "\/Telegram,VPNCUSTOMIZE?ed=8080",
                 "headers": {
-                    "Host": "pAgES.DEV"
+                    "Host": "Join.VPNCUSTOMIZE.speedtest.net.Naziitness.com"
                 }
             }
+        },
+        {
+            "tag": "🇧🇭BH | 🟢 | ss | @kingofilter | 19",
+            "type": "shadowsocks",
+            "server": "series-a2-me.varzesh360.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "Bog0ELmMM9DSxDdQ",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "❔XX | 🔴 | vless | @VpnSkyy | 4",
