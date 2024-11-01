@@ -109,7 +109,7 @@
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 45",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 46",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 13",
-                "🇺🇸US | 🔴 | vless | @XsV2ray | 14",
+                "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 16",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 12",
@@ -140,7 +140,8 @@
                 "🇸🇪SE | 🟢 | trojan | @DirectVPN | 16",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 16",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 16",
+                "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 16",
+                "🇦🇪AE | 🟢 | ss | @DeamNet_Proxy | 17",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 8",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 9",
                 "🇺🇸US | 🟢 | vless | @UnlimitedDev | 11",
@@ -171,8 +172,8 @@
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 1",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
-                "🇫🇷FR | 🟢 | vmess | @Hope_Net | 12",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
+                "🇫🇷FR | 🟢 | vmess | @Hope_Net | 7",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 12",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 13",
@@ -198,7 +199,7 @@
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 45",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 46",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 13",
-                "🇺🇸US | 🔴 | vless | @XsV2ray | 14",
+                "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 16",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 12",
@@ -229,7 +230,8 @@
                 "🇸🇪SE | 🟢 | trojan | @DirectVPN | 16",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 16",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 16",
+                "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 16",
+                "🇦🇪AE | 🟢 | ss | @DeamNet_Proxy | 17",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 8",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 9",
                 "🇺🇸US | 🟢 | vless | @UnlimitedDev | 11",
@@ -260,8 +262,8 @@
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 1",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
-                "🇫🇷FR | 🟢 | vmess | @Hope_Net | 12",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
+                "🇫🇷FR | 🟢 | vmess | @Hope_Net | 7",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 12",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 13",
@@ -359,7 +361,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @XsV2ray | 14",
+            "tag": "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2083,
@@ -1116,38 +1118,24 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 16",
-            "type": "vmess",
-            "server": "104.21.15.212",
+            "tag": "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 16",
+            "type": "shadowsocks",
+            "server": "series-a2.samanehha.co",
             "server_port": 443,
-            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "glweidf.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "glweidf.sbs"
-                }
-            }
+            "method": "chacha20-ietf-poly1305",
+            "password": "mps3FwmDjLrWaOVg",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇦🇪AE | 🟢 | ss | @DeamNet_Proxy | 17",
+            "type": "shadowsocks",
+            "server": "series-a2-mec.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "u17T3BvpYaaiuW2c",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | @customv2ray | 8",
@@ -1949,11 +1937,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "malaysia.com",
-            "server_port": 2082,
-            "uuid": "5f3f09ad-89cb-4e94-a7ad-aa8239913555",
+            "server": "icook.tw",
+            "server_port": 2095,
+            "uuid": "18d96190-c10f-448f-a82a-2d36df5c3cde",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1973,11 +1961,11 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | vmess | @Hope_Net | 12",
+            "tag": "🇫🇷FR | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "beyonddsz.cfd",
+            "server": "51.77.20.132",
             "server_port": 443,
-            "uuid": "9b456c2a-f2c1-45e1-87a9-b7628b04bb24",
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1990,7 +1978,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "beyonddsz.cfd",
+                "server_name": "",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -2000,9 +1988,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": "beyonddsz.cfd"
+                    "Host": ""
                 }
             }
         },
@@ -2023,9 +2011,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 12",
             "type": "vless",
-            "server": "172.66.47.151",
+            "server": "172.66.45.7",
             "server_port": 443,
-            "uuid": "a64f0cea-ca89-40e6-b316-b3badff1eb90",
+            "uuid": "a94edb46-0734-4593-a8b5-9cd11ddc57f6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2035,7 +2023,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "iSaA1.paGes.DEv",
+                "server_name": "5c53ca21.vpn-aryoo.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -2045,18 +2033,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/T7OzaaLG5SkllZJf?ed=2560",
+                "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "iSaA1.paGes.DEv"
+                    "Host": "5c53ca21.vpn-aryoo.pages.dev"
                 }
             }
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 13",
             "type": "vless",
-            "server": "172.67.37.213",
-            "server_port": 8443,
-            "uuid": "1dfb1ecb-e610-4ab0-8133-4a384850c1a3",
+            "server": "104.18.39.232",
+            "server_port": 2083,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2066,7 +2054,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "paGES.dEV",
+                "server_name": "ArGodev11222.PaGes.Dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -2076,9 +2064,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Pages.Dev\/?ed=2560",
+                "path": "\/Telegram@Linkvws?ed=2560",
                 "headers": {
-                    "Host": "paGES.dEV"
+                    "Host": "ArGodev11222.PaGes.Dev"
                 }
             }
         },
