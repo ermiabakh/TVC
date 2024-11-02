@@ -120,8 +120,8 @@
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @free_v2rayyy | 3",
                 "🇸🇪SE | 🔴 | vless | @free_v2rayyy | 4",
-                "🇺🇸US | 🔴 | vless | @lightning6 | 18",
-                "🇺🇸US | 🔴 | vless | @lightning6 | 19",
+                "🇺🇸US | 🔴 | vless | @lightning6 | 20",
+                "🇺🇸US | 🔴 | vless | @lightning6 | 21",
                 "🇫🇷FR | 🔴 | vless | @vpn_xw | 0",
                 "🇮🇷IR | 🔴 | vless | @vpn_xw | 1",
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
@@ -168,7 +168,6 @@
                 "❔XX | 🔴 | vless | @iP_CF | 0",
                 "🇮🇷IR | 🔴 | vless | @mehrosaboran | 7",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
-                "🇺🇸US | 🔴 | vless | @nofiltering2 | 13",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇺🇸US | 🔴 | vless | @kingofilter | 19",
@@ -195,8 +194,8 @@
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @free_v2rayyy | 3",
                 "🇸🇪SE | 🔴 | vless | @free_v2rayyy | 4",
-                "🇺🇸US | 🔴 | vless | @lightning6 | 18",
-                "🇺🇸US | 🔴 | vless | @lightning6 | 19",
+                "🇺🇸US | 🔴 | vless | @lightning6 | 20",
+                "🇺🇸US | 🔴 | vless | @lightning6 | 21",
                 "🇫🇷FR | 🔴 | vless | @vpn_xw | 0",
                 "🇮🇷IR | 🔴 | vless | @vpn_xw | 1",
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
@@ -243,7 +242,6 @@
                 "❔XX | 🔴 | vless | @iP_CF | 0",
                 "🇮🇷IR | 🔴 | vless | @mehrosaboran | 7",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
-                "🇺🇸US | 🔴 | vless | @nofiltering2 | 13",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇺🇸US | 🔴 | vless | @kingofilter | 19",
@@ -635,7 +633,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @lightning6 | 18",
+            "tag": "🇺🇸US | 🔴 | vless | @lightning6 | 20",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
@@ -656,7 +654,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @lightning6 | 19",
+            "tag": "🇺🇸US | 🔴 | vless | @lightning6 | 21",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
@@ -1803,27 +1801,6 @@
                 "path": "\/Telegram,VPNCUSTOMIZE?ed=8080",
                 "headers": {
                     "Host": "join.VPNCUSTOMIZE.www.speedtest.net.ovh.Powerfullserver.de"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @nofiltering2 | 13",
-            "type": "vless",
-            "server": "NUFiLTER.fastly80-2.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "TELEGRAM-NUFiLTER",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed",
-                "headers": {
-                    "Host": "NUFiLTER.fastly80-2.hosting-ip.com"
                 }
             }
         },
