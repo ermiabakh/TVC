@@ -110,9 +110,9 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 41",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 13",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 14",
-                "🇨🇦CA | 🔴 | vless | @VlessConfig | 15",
-                "🇨🇦CA | 🔴 | vless | @VlessConfig | 16",
-                "TVChrvxmzdmjd",
+                "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
+                "🇫🇷FR | 🔴 | vless | @VlessConfig | 16",
+                "TVCylbwqoymxu",
                 "🇫🇷FR | 🔴 | vless | @ipV2Ray | 13",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 9",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 10",
@@ -165,8 +165,8 @@
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "❔XX | 🔴 | vless | @VpnSkyy | 4",
-                "❔XX | 🔴 | vless | @VpnSkyy | 5"
+                "❔XX | 🔴 | vless | @VpnSkyy | 3",
+                "❔XX | 🔴 | vless | @VpnSkyy | 4"
             ]
         },
         {
@@ -177,9 +177,9 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 41",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 13",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 14",
-                "🇨🇦CA | 🔴 | vless | @VlessConfig | 15",
-                "🇨🇦CA | 🔴 | vless | @VlessConfig | 16",
-                "TVChrvxmzdmjd",
+                "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
+                "🇫🇷FR | 🔴 | vless | @VlessConfig | 16",
+                "TVCylbwqoymxu",
                 "🇫🇷FR | 🔴 | vless | @ipV2Ray | 13",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 9",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 10",
@@ -232,8 +232,8 @@
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "❔XX | 🔴 | vless | @VpnSkyy | 4",
-                "❔XX | 🔴 | vless | @VpnSkyy | 5"
+                "❔XX | 🔴 | vless | @VpnSkyy | 3",
+                "❔XX | 🔴 | vless | @VpnSkyy | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -346,9 +346,9 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @VlessConfig | 15",
+            "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
             "type": "vless",
-            "server": "3.99.98.132",
+            "server": "13.37.66.53",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -377,9 +377,9 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @VlessConfig | 16",
+            "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "15.156.27.233",
+            "server": "13.36.26.209",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -408,7 +408,7 @@
             }
         },
         {
-            "tag": "TVChrvxmzdmjd",
+            "tag": "TVCylbwqoymxu",
             "type": "vless",
             "server": "",
             "server_port": 0,
@@ -1735,6 +1735,37 @@
             }
         },
         {
+            "tag": "❔XX | 🔴 | vless | @VpnSkyy | 3",
+            "type": "vless",
+            "server": "web.bbv2ry.pics",
+            "server_port": 443,
+            "uuid": "c3d41415-59cb-40eb-b721-ffa87f95e454",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Skyy.bbv2ry.pics",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "Skyy.bbv2ry.pics"
+                }
+            }
+        },
+        {
             "tag": "❔XX | 🔴 | vless | @VpnSkyy | 4",
             "type": "vless",
             "server": "web.bbv2ry.pics",
@@ -1762,37 +1793,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "Sky1.bbv2ry.pics"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @VpnSkyy | 5",
-            "type": "vless",
-            "server": "Sky1.bbv2ry.pics",
-            "server_port": 443,
-            "uuid": "4b05c4ff-6715-4bdf-9906-a9441cc59484",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "web.bbv2ry.pics",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "web.bbv2ry.pics"
                 }
             }
         }
