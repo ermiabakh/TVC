@@ -113,8 +113,8 @@
                 "🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 32",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10"
+                "❔XX | 🟢 | vmess | @Hope_Net | 7",
+                "🇯🇵JP | 🟢 | vmess | @Hope_Net | 8"
             ]
         },
         {
@@ -128,8 +128,8 @@
                 "🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 32",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10"
+                "❔XX | 🟢 | vmess | @Hope_Net | 7",
+                "🇯🇵JP | 🟢 | vmess | @Hope_Net | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -336,11 +336,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "172.67.173.142",
-            "server_port": 443,
-            "uuid": "b87e29df-7dd9-4c0c-8530-b2847e27522c",
+            "server": "127.0.0.1",
+            "server_port": 8080,
+            "uuid": "bcacaba-abac-cbaa-bcda-abacbabcbacc",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -350,31 +350,14 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "172.67.173.142",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/juzi",
-                "headers": {
-                    "Host": "172.67.173.142"
-                }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
+            "tag": "🇯🇵JP | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "172.64.167.10",
-            "server_port": 2082,
-            "uuid": "5f3f09ad-89cb-4e94-a7ad-aa8239913555",
+            "server": "61.120.9.18",
+            "server_port": 43720,
+            "uuid": "f248d0e9-19f7-ea7f-6659-17a610dfe8d6",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -384,13 +367,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/github.com\/Alvin9999",
-                "headers": {
-                    "Host": "172.64.167.10"
-                }
             }
         }
     ],
