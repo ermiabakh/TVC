@@ -423,10 +423,11 @@
                 "🚩CF | 🔴 | vless | @fnet00 | 8",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 0",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 1",
-                "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 3",
-                "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 6",
-                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 7",
-                "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 9",
+                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 2",
+                "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 4",
+                "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 7",
+                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 8",
+                "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 10",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 0",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 1",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 2",
@@ -819,10 +820,11 @@
                 "🚩CF | 🔴 | vless | @fnet00 | 8",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 0",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 1",
-                "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 3",
-                "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 6",
-                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 7",
-                "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 9",
+                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 2",
+                "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 4",
+                "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 7",
+                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 8",
+                "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 10",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 0",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 1",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 2",
@@ -8697,6 +8699,37 @@
         {
             "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 0",
             "type": "vless",
+            "server": "172.64.35.199",
+            "server_port": 443,
+            "uuid": "2928d83a-ca75-4d52-b437-fa78c7601378",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "freedom-1rj.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/freedom-1rj.pages.dev\/?ed=2560",
+                "headers": {
+                    "Host": "freedom-1rj.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 1",
+            "type": "vless",
             "server": "104.26.11.137",
             "server_port": 443,
             "uuid": "2b47debd-d627-11ee-aaa8-00505603e70d",
@@ -8726,7 +8759,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 1",
+            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 2",
             "type": "vless",
             "server": "104.16.60.8",
             "server_port": 443,
@@ -8757,7 +8790,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 3",
+            "tag": "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 4",
             "type": "vless",
             "server": "188.245.197.174",
             "server_port": 1622,
@@ -8786,7 +8819,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 6",
+            "tag": "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 7",
             "type": "vless",
             "server": "185.29.222.172",
             "server_port": 36754,
@@ -8800,7 +8833,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 7",
+            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 8",
             "type": "vless",
             "server": "104.26.10.137",
             "server_port": 443,
@@ -8831,7 +8864,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 9",
+            "tag": "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 10",
             "type": "vless",
             "server": "188.245.154.141",
             "server_port": 6543,
