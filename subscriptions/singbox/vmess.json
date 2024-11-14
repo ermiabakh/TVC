@@ -135,7 +135,7 @@
                 "🚩CF | 🟢 | vmess | @Hope_Net | 0",
                 "🇯🇵JP | 🟢 | vmess | @Hope_Net | 1",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 2",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 3"
+                "🇺🇸US | 🟢 | vmess | @nofiltering2 | 1"
             ]
         },
         {
@@ -171,7 +171,7 @@
                 "🚩CF | 🟢 | vmess | @Hope_Net | 0",
                 "🇯🇵JP | 🟢 | vmess | @Hope_Net | 1",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 2",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 3"
+                "🇺🇸US | 🟢 | vmess | @nofiltering2 | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -902,11 +902,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 3",
+            "tag": "🇺🇸US | 🟢 | vmess | @nofiltering2 | 1",
             "type": "vmess",
-            "server": "ip.sb",
-            "server_port": 2082,
-            "uuid": "5f3f09ad-89cb-4e94-a7ad-aa8239913555",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "676d18a1-82fc-47ae-a676-a4c348eeaac0",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -916,13 +916,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/github.com\/Alvin9999",
-                "headers": {
-                    "Host": "ip.sb"
-                }
             }
         }
     ],

@@ -475,7 +475,6 @@
                 "🚩CF | 🟢 | vmess | @Hope_Net | 0",
                 "🇯🇵JP | 🟢 | vmess | @Hope_Net | 1",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 2",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 3",
                 "🚩CF | 🔴 | vless | @fnet00 | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 3",
                 "🚩CF | 🔴 | vless | @fnet00 | 5",
@@ -498,13 +497,13 @@
                 "🚩CF | 🔴 | vless | @mehrosaboran | 5",
                 "🚩CF | 🔴 | vless | @mehrosaboran | 6",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 7",
-                "🇩🇪DE | 🟢 | vless | @nofiltering2 | 1",
-                "🇺🇸US | 🔴 | vless | @nofiltering2 | 3",
-                "🇩🇪DE | 🟢 | vless | @nofiltering2 | 5",
-                "🇺🇸US | 🔴 | vless | @nofiltering2 | 7",
-                "🇩🇪DE | 🟢 | vless | @nofiltering2 | 9",
-                "🇺🇸US | 🔴 | vless | @nofiltering2 | 11",
-                "🇺🇸US | 🔴 | vless | @nofiltering2 | 15",
+                "🇺🇸US | 🟢 | vmess | @nofiltering2 | 1",
+                "🇩🇪DE | 🟢 | vless | @nofiltering2 | 3",
+                "🇺🇸US | 🔴 | vless | @nofiltering2 | 5",
+                "🇩🇪DE | 🟢 | vless | @nofiltering2 | 7",
+                "🇺🇸US | 🔴 | vless | @nofiltering2 | 9",
+                "🇩🇪DE | 🟢 | vless | @nofiltering2 | 11",
+                "🇺🇸US | 🔴 | vless | @nofiltering2 | 13",
                 "❔XX | 🔴 | vless | @vpn_go67 | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 1",
                 "❔XX | 🔴 | vless | @vpn_go67 | 3",
@@ -927,7 +926,6 @@
                 "🚩CF | 🟢 | vmess | @Hope_Net | 0",
                 "🇯🇵JP | 🟢 | vmess | @Hope_Net | 1",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 2",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 3",
                 "🚩CF | 🔴 | vless | @fnet00 | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 3",
                 "🚩CF | 🔴 | vless | @fnet00 | 5",
@@ -950,13 +948,13 @@
                 "🚩CF | 🔴 | vless | @mehrosaboran | 5",
                 "🚩CF | 🔴 | vless | @mehrosaboran | 6",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 7",
-                "🇩🇪DE | 🟢 | vless | @nofiltering2 | 1",
-                "🇺🇸US | 🔴 | vless | @nofiltering2 | 3",
-                "🇩🇪DE | 🟢 | vless | @nofiltering2 | 5",
-                "🇺🇸US | 🔴 | vless | @nofiltering2 | 7",
-                "🇩🇪DE | 🟢 | vless | @nofiltering2 | 9",
-                "🇺🇸US | 🔴 | vless | @nofiltering2 | 11",
-                "🇺🇸US | 🔴 | vless | @nofiltering2 | 15",
+                "🇺🇸US | 🟢 | vmess | @nofiltering2 | 1",
+                "🇩🇪DE | 🟢 | vless | @nofiltering2 | 3",
+                "🇺🇸US | 🔴 | vless | @nofiltering2 | 5",
+                "🇩🇪DE | 🟢 | vless | @nofiltering2 | 7",
+                "🇺🇸US | 🔴 | vless | @nofiltering2 | 9",
+                "🇩🇪DE | 🟢 | vless | @nofiltering2 | 11",
+                "🇺🇸US | 🔴 | vless | @nofiltering2 | 13",
                 "❔XX | 🔴 | vless | @vpn_go67 | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 1",
                 "❔XX | 🔴 | vless | @vpn_go67 | 3",
@@ -10078,30 +10076,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 3",
-            "type": "vmess",
-            "server": "ip.sb",
-            "server_port": 2082,
-            "uuid": "5f3f09ad-89cb-4e94-a7ad-aa8239913555",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/github.com\/Alvin9999",
-                "headers": {
-                    "Host": "ip.sb"
-                }
-            }
-        },
-        {
             "tag": "🚩CF | 🔴 | vless | @fnet00 | 1",
             "type": "vless",
             "server": "162.159.138.178",
@@ -10636,7 +10610,24 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @nofiltering2 | 1",
+            "tag": "🇺🇸US | 🟢 | vmess | @nofiltering2 | 1",
+            "type": "vmess",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "676d18a1-82fc-47ae-a676-a4c348eeaac0",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | @nofiltering2 | 3",
             "type": "vless",
             "server": "1616.postsafir.ir",
             "server_port": 1616,
@@ -10665,7 +10656,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @nofiltering2 | 3",
+            "tag": "🇺🇸US | 🔴 | vless | @nofiltering2 | 5",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
@@ -10686,7 +10677,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @nofiltering2 | 5",
+            "tag": "🇩🇪DE | 🟢 | vless | @nofiltering2 | 7",
             "type": "vless",
             "server": "1622.postsafir.ir",
             "server_port": 1622,
@@ -10715,7 +10706,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @nofiltering2 | 7",
+            "tag": "🇺🇸US | 🔴 | vless | @nofiltering2 | 9",
             "type": "vless",
             "server": "199.232.8.48",
             "server_port": 443,
@@ -10746,7 +10737,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @nofiltering2 | 9",
+            "tag": "🇩🇪DE | 🟢 | vless | @nofiltering2 | 11",
             "type": "vless",
             "server": "1622.postsafir.ir",
             "server_port": 1623,
@@ -10775,7 +10766,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @nofiltering2 | 11",
+            "tag": "🇺🇸US | 🔴 | vless | @nofiltering2 | 13",
             "type": "vless",
             "server": "redbrain.shopping",
             "server_port": 443,
@@ -10802,27 +10793,6 @@
                 "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
                 "headers": {
                     "Host": "redbrain.shopping"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @nofiltering2 | 15",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "TELEGRAM-NUFiLTER",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
-                "headers": {
-                    "Host": "151.101.3.8"
                 }
             }
         },
