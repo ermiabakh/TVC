@@ -160,8 +160,8 @@
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 7",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 3",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 4",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
@@ -237,8 +237,8 @@
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 7",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 3",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 4",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
@@ -1641,6 +1641,40 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
+            "type": "vmess",
+            "server": "38.75.137.121",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 1,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "38.75.137.121",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "38.75.137.121"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 3",
             "type": "vmess",
             "server": "104.21.31.62",
@@ -1675,23 +1709,6 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 4",
-            "type": "vmess",
-            "server": "103.184.45.164",
-            "server_port": 80,
-            "uuid": "782efefc-aac2-a7f2-6e2b-e42f7bc5d75a",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | @fnet00 | 8",
             "type": "vless",
             "server": "162.159.138.178",
@@ -1708,9 +1725,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
             "type": "vless",
-            "server": "172.66.44.233",
+            "server": "162.159.152.2",
             "server_port": 443,
-            "uuid": "38720105-063f-40f5-a5eb-f3198b9b617d",
+            "uuid": "50b7fc84-85b4-4043-b1f7-6477c9017a44",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1720,7 +1737,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "aksnmaioas.pages.dev",
+                "server_name": "purlitefastest.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1730,18 +1747,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/purlitefastest.pages.dev\/?ed=2560",
                 "headers": {
-                    "Host": "aksnmaioas.pages.dev"
+                    "Host": "purlitefastest.pages.dev"
                 }
             }
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
             "type": "vless",
-            "server": "104.16.60.8",
+            "server": "104.26.11.137",
             "server_port": 443,
-            "uuid": "962a733d-2614-0b9b-7ffe-9ac92ffea8eb",
+            "uuid": "2b47debd-d627-11ee-aaa8-00505603e70d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1751,7 +1768,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ahmedquran19.xyz",
+                "server_name": "st-gb-1.brocdn.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1761,9 +1778,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/current_time",
+                "path": "\/websocket",
                 "headers": {
-                    "Host": "ahmedquran19.xyz"
+                    "Host": "st-gb-1.brocdn.com"
                 }
             }
         },
