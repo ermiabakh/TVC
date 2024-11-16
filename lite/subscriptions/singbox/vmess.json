@@ -108,9 +108,10 @@
                 "URL-TEST",
                 "🇭🇰HK | 🟢 | vmess | @mftizi | 17",
                 "🇭🇰HK | 🟢 | vmess | @mftizi | 18",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 16",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 10",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 11"
             ]
         },
@@ -120,9 +121,10 @@
             "outbounds": [
                 "🇭🇰HK | 🟢 | vmess | @mftizi | 17",
                 "🇭🇰HK | 🟢 | vmess | @mftizi | 18",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 16",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 10",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 11"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -168,6 +170,23 @@
             "server": "149.104.20.212",
             "server_port": 18210,
             "uuid": "d57c4ac9-f43b-4856-ac46-4987a08e1f6f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 16",
+            "type": "vmess",
+            "server": "WWW.SPEEDTEST.NET",
+            "server_port": 8080,
+            "uuid": "TELEGRAM-ID-VPN-WHAL-15",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -238,11 +257,11 @@
             }
         },
         {
-            "tag": "🇭🇰HK | 🟢 | vmess | @Hope_Net | 10",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
             "type": "vmess",
-            "server": "e00618c75712.uxzbpycs.xyz",
-            "server_port": 53385,
-            "uuid": "7ad8da0c-fda5-416b-9e72-47cc68313ffe",
+            "server": "104.19.47.65",
+            "server_port": 2082,
+            "uuid": "5f3f09ad-89cb-4e94-a7ad-aa8239913555",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -252,16 +271,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/github.com\/Alvin9999",
+                "headers": {
+                    "Host": "104.19.47.65"
+                }
             }
         },
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
             "type": "vmess",
-            "server": "162.159.153.2",
+            "server": "es.pulau.org",
             "server_port": 443,
-            "uuid": "93ea486a-bada-42a4-ac38-d088b320fa1e",
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 1,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -272,7 +298,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "162.159.153.2",
+                "server_name": "es.pulau.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -282,9 +308,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": "162.159.153.2"
+                    "Host": "es.pulau.org"
                 }
             }
         }
