@@ -1429,30 +1429,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "EXPRESSVPN_420",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420",
-                "headers": {
-                    "Host": "151.101.3.8"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "hajlab.ucdavis.edu",
+            "server": "www.speedtest.net",
             "server_port": 443,
-            "uuid": "63df7bc3-ef0a-47c9-8a70-95b00270b884",
+            "uuid": "ea93598b-a8d8-449a-a925-520c6e1626ee",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1462,7 +1441,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "hajlab.ucdavis.edu",
+                "server_name": "pardazeshvpn-tg105.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1472,9 +1451,40 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn?ed=2560",
+                "path": "\/?ed=@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi",
                 "headers": {
-                    "Host": "hajlab.ucdavis.edu"
+                    "Host": "pardazeshvpn-tg105.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "172.66.44.171",
+            "server_port": 443,
+            "uuid": "4785f3ca-8fa3-4717-8c81-9d19087c73a3",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "pardazeshvpn-tg104.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN",
+                "headers": {
+                    "Host": "pardazeshvpn-tg104.pages.dev"
                 }
             }
         },
