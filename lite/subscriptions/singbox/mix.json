@@ -160,6 +160,8 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 7",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | trojan | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 5",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 6",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
@@ -167,8 +169,8 @@
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 12",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 1",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 2",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 15",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 9",
@@ -239,6 +241,8 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 7",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | trojan | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 5",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 6",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
@@ -246,8 +250,8 @@
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 12",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 1",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 2",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 15",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 9",
@@ -1596,6 +1600,66 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "104.25.182.54",
+            "server_port": 443,
+            "uuid": "f2dc17f5-3113-4a40-8c51-55fe0e2c7f75",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "purCOwfaSt.PAgES.DEv",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/4ztBxup4VkbcJFlQ?ed=2560",
+                "headers": {
+                    "Host": "purCOwfaSt.PAgES.DEv"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | trojan | @ConfigsHUB | 19",
+            "type": "trojan",
+            "server": "104.16.223.104",
+            "server_port": 443,
+            "password": "auto",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trojanmz.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/trojanmz.pages.dev\/?ed=2560",
+                "headers": {
+                    "Host": "trojanmz.pages.dev"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🔴 | vless | @proxystore11 | 5",
             "type": "vless",
             "server": "188.114.97.2",
@@ -1788,7 +1852,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 1",
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 2",
             "type": "vless",
             "server": "104.26.11.137",
             "server_port": 443,
@@ -1819,7 +1883,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 2",
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
             "type": "vless",
             "server": "151.101.64.155",
             "server_port": 80,
