@@ -108,10 +108,11 @@
                 "URL-TEST",
                 "🇭🇰HK | 🟢 | vmess | @mftizi | 17",
                 "🇭🇰HK | 🟢 | vmess | @mftizi | 18",
+                "🇬🇧GB | 🟢 | vmess | @ConfigsHUB | 19",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇰🇷KR | 🟢 | vmess | @Hope_Net | 12",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 13"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
+                "🇳🇱NL | 🟢 | vmess | @Hope_Net | 12"
             ]
         },
         {
@@ -120,10 +121,11 @@
             "outbounds": [
                 "🇭🇰HK | 🟢 | vmess | @mftizi | 17",
                 "🇭🇰HK | 🟢 | vmess | @mftizi | 18",
+                "🇬🇧GB | 🟢 | vmess | @ConfigsHUB | 19",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇰🇷KR | 🟢 | vmess | @Hope_Net | 12",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 13"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
+                "🇳🇱NL | 🟢 | vmess | @Hope_Net | 12"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -177,6 +179,30 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇬🇧GB | 🟢 | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "8.211.192.102",
+            "server_port": 20292,
+            "uuid": "57f5c2bd-bb79-4fd8-eea1-a84d1ddf3a21",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -238,11 +264,11 @@
             }
         },
         {
-            "tag": "🇰🇷KR | 🟢 | vmess | @Hope_Net | 12",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
             "type": "vmess",
-            "server": "158.180.91.206",
-            "server_port": 46271,
-            "uuid": "f99bfe05-e351-47df-e752-ac0aaea976dc",
+            "server": "172.64.166.20",
+            "server_port": 2095,
+            "uuid": "18d96190-c10f-448f-a82a-2d36df5c3cde",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -255,18 +281,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/github.com\/Alvin9999",
                 "headers": {
-                    "Host": ""
+                    "Host": "172.64.166.20"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
+            "tag": "🇳🇱NL | 🟢 | vmess | @Hope_Net | 12",
             "type": "vmess",
-            "server": "65.75.192.48",
-            "server_port": 37543,
-            "uuid": "4674cbfc-f9ab-4c47-eec1-ba0a98ae370e",
+            "server": "45.149.12.84",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -277,11 +303,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "45.149.12.84",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/67jfsf",
+                "path": "\/linkws#@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1\/?ed=2560",
                 "headers": {
-                    "Host": "65.75.192.48"
+                    "Host": "45.149.12.84"
                 }
             }
         }
