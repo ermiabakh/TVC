@@ -123,7 +123,6 @@
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 2",
                 "❔XX | 🟢 | vmess | @ShadowProxy66 | 3",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 4",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 0",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -165,7 +164,6 @@
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 2",
                 "❔XX | 🟢 | vmess | @ShadowProxy66 | 3",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 4",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 0",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -611,23 +609,6 @@
                 "headers": {
                     "Host": "afrhms07.xfixedfloat.cfd"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 0",
-            "type": "vmess",
-            "server": "162.251.62.115",
-            "server_port": 22324,
-            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
