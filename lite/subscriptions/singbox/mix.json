@@ -160,14 +160,13 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 7",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | 🟢 | vmess | @ConfigsHUB | 13",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 5",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 6",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 12",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 1",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 2",
@@ -241,14 +240,13 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 7",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | 🟢 | vmess | @ConfigsHUB | 13",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 5",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 6",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 12",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 1",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 2",
@@ -1600,13 +1598,13 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | 🟢 | vmess | @ConfigsHUB | 13",
             "type": "vmess",
-            "server": "be.anaviriti.info",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "23.162.200.182",
+            "server_port": 22324,
+            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
             "security": "auto",
-            "alter_id": 1,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -1614,54 +1612,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "be.anaviriti.info",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "be.anaviriti.info"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "hajlab.ucdavis.edu",
-            "server_port": 443,
-            "uuid": "63df7bc3-ef0a-47c9-8a70-95b00270b884",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hajlab.ucdavis.edu",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn?ed=2560",
-                "headers": {
-                    "Host": "hajlab.ucdavis.edu"
-                }
             }
         },
         {
@@ -1785,13 +1735,13 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
             "type": "vmess",
-            "server": "108.186.31.110",
-            "server_port": 37001,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "server": "shs.xiaoqi666.xyz",
+            "server_port": 2086,
+            "uuid": "3fd7b958-2161-46e1-b6fc-bd6bb2165312",
             "security": "auto",
-            "alter_id": 64,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -1800,28 +1750,18 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "108.186.31.110",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/path\/1728293451968",
+                "path": "\/",
                 "headers": {
-                    "Host": "108.186.31.110"
+                    "Host": "shs.xiaoqi666.xyz"
                 }
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 12",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
             "type": "vmess",
-            "server": "b.jishuzhai.cloudns.biz",
+            "server": "162.159.8.120",
             "server_port": 443,
             "uuid": "62aa5f80-0328-4004-a375-7f5a59df4022",
             "security": "auto",
@@ -1836,7 +1776,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "b.jishuzhai.cloudns.biz",
+                "server_name": "162.159.8.120",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1846,9 +1786,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/hms19.best-tizi.top:443\/linkws",
+                "path": "\/LINKWS",
                 "headers": {
-                    "Host": "b.jishuzhai.cloudns.biz"
+                    "Host": "162.159.8.120"
                 }
             }
         },
