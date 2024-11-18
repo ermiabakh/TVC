@@ -116,6 +116,9 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 2",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 7",
+                "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 11",
+                "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 12",
                 "🇳🇱NL | 🟢 | vless | @nofiltering2 | 3",
                 "🇩🇪DE | 🟢 | vless | @nofiltering2 | 13",
                 "🇩🇪DE | 🟢 | vless | @nofiltering2 | 17",
@@ -150,6 +153,9 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 2",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 7",
+                "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 11",
+                "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 12",
                 "🇳🇱NL | 🟢 | vless | @nofiltering2 | 3",
                 "🇩🇪DE | 🟢 | vless | @nofiltering2 | 13",
                 "🇩🇪DE | 🟢 | vless | @nofiltering2 | 17",
@@ -431,6 +437,107 @@
                     "public_key": "uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0",
                     "short_id": "3a622700e73c6642"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 7",
+            "type": "vless",
+            "server": "150.241.101.222",
+            "server_port": 29742,
+            "uuid": "8287b42b-9b8f-4601-a537-558e5bc79805",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "fPtoPIDDJIW4pSY8TAFM0BKPA0ELOkX7ssc3i23SXlE",
+                    "short_id": "75813316"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 11",
+            "type": "vless",
+            "server": "57.128.123.50",
+            "server_port": 2096,
+            "uuid": "1250c0dd-856e-4cb9-b254-5d8e55419fed",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "dalfak.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "9LY8_rbDS8zJoZLk9J4BYbdKOYK8vdKg11Wab5IetXY",
+                    "short_id": "a56f693ce784b4cc"
+                }
+            },
+            "transport": {
+                "type": "http",
+                "host": [
+                    "dalfak.com"
+                ],
+                "path": "\/"
+            }
+        },
+        {
+            "tag": "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 12",
+            "type": "vless",
+            "server": "my.jasrama.com",
+            "server_port": 2096,
+            "uuid": "1250c0dd-856e-4cb9-b254-5d8e55419fed",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "dalfak.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "9LY8_rbDS8zJoZLk9J4BYbdKOYK8vdKg11Wab5IetXY",
+                    "short_id": "a56f693ce784b4cc"
+                }
+            },
+            "transport": {
+                "type": "http",
+                "host": [
+                    "dalfak.com"
+                ],
+                "path": "\/"
             }
         },
         {
