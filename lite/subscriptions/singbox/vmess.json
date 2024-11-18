@@ -108,10 +108,9 @@
                 "URL-TEST",
                 "🇭🇰HK | 🟢 | vmess | @mftizi | 17",
                 "🇭🇰HK | 🟢 | vmess | @mftizi | 18",
-                "🇧🇬BG | 🟢 | vmess | @ConfigsHUB | 15",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇦🇺AU | 🟢 | vmess | @Hope_Net | 6"
+                "🇦🇺AU | 🟢 | vmess | @Hope_Net | 8"
             ]
         },
         {
@@ -120,10 +119,9 @@
             "outbounds": [
                 "🇭🇰HK | 🟢 | vmess | @mftizi | 17",
                 "🇭🇰HK | 🟢 | vmess | @mftizi | 18",
-                "🇧🇬BG | 🟢 | vmess | @ConfigsHUB | 15",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇦🇺AU | 🟢 | vmess | @Hope_Net | 6"
+                "🇦🇺AU | 🟢 | vmess | @Hope_Net | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -177,40 +175,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇧🇬BG | 🟢 | vmess | @ConfigsHUB | 15",
-            "type": "vmess",
-            "server": "147.78.140.68",
-            "server_port": 443,
-            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "6c47-butterfly-6c47.yexoji3749.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/afrhms16v.bestxray.buzz\/linkws",
-                "headers": {
-                    "Host": "6c47-butterfly-6c47.yexoji3749.workers.dev"
-                }
             }
         },
         {
@@ -272,7 +236,7 @@
             }
         },
         {
-            "tag": "🇦🇺AU | 🟢 | vmess | @Hope_Net | 6",
+            "tag": "🇦🇺AU | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
             "server": "172.105.172.209",
             "server_port": 443,
