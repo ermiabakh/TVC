@@ -123,7 +123,6 @@
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 2",
                 "❔XX | 🟢 | vmess | @ShadowProxy66 | 3",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 4",
-                "🚩CF | 🟢 | vmess | @ConfigsHUB | 0",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -135,8 +134,6 @@
                 "🇦🇺AU | 🟢 | vmess | @Hope_Net | 3",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 5",
                 "🇯🇵JP | 🟢 | vmess | @Hope_Net | 7",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 8",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 9",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 11"
             ]
         },
@@ -161,7 +158,6 @@
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 2",
                 "❔XX | 🟢 | vmess | @ShadowProxy66 | 3",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 4",
-                "🚩CF | 🟢 | vmess | @ConfigsHUB | 0",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -173,8 +169,6 @@
                 "🇦🇺AU | 🟢 | vmess | @Hope_Net | 3",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 5",
                 "🇯🇵JP | 🟢 | vmess | @Hope_Net | 7",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 8",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 9",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 11"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -606,40 +600,6 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @ConfigsHUB | 0",
-            "type": "vmess",
-            "server": "104.21.83.208",
-            "server_port": 443,
-            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "afrhms16v.bestxray.buzz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "afrhms16v.bestxray.buzz"
-                }
-            }
-        },
-        {
             "tag": "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
             "type": "vmess",
             "server": "45.199.138.217",
@@ -920,54 +880,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vmess | @Hope_Net | 8",
-            "type": "vmess",
-            "server": "104.16.61.8",
-            "server_port": 8880,
-            "uuid": "4b5e4565-322f-4223-a891-78a84f189726",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/XSjeg73o6ZdsheahCb5JG",
-                "headers": {
-                    "Host": "us-ccs.yuji2022.eu.org"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vmess | @Hope_Net | 9",
-            "type": "vmess",
-            "server": "104.26.5.113",
-            "server_port": 2082,
-            "uuid": "5f3f09ad-89cb-4e94-a7ad-aa8239913555",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/github.com\/Alvin9999",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
