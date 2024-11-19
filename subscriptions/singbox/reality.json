@@ -117,6 +117,7 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 4",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 0",
                 "🇳🇱NL | 🟢 | vless | @nofiltering2 | 5",
                 "🇩🇪DE | 🟢 | vless | @nofiltering2 | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
@@ -151,6 +152,7 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 4",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 0",
                 "🇳🇱NL | 🟢 | vless | @nofiltering2 | 5",
                 "🇩🇪DE | 🟢 | vless | @nofiltering2 | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
@@ -467,6 +469,42 @@
                     "public_key": "uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0",
                     "short_id": "3a622700e73c6642"
                 }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 0",
+            "type": "vless",
+            "server": "93.185.163.238",
+            "server_port": 8082,
+            "uuid": "feb6f54a-1c99-4281-b0d4-113765e70c61",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "use.fontawesome.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "1wsuGvwHBl4upMnlmg3ehyqL-CgRpK9g4XZXkUX-B3k",
+                    "short_id": "6a69d0c3821da542"
+                }
+            },
+            "transport": {
+                "type": "http",
+                "host": [
+                    "use.fontawesome.com"
+                ],
+                "path": "\/media\/download?file_id=12345"
             }
         },
         {
