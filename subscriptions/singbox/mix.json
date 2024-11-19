@@ -466,12 +466,11 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 303",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 2",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 6",
-                "🚩CF | 🟢 | vless | @ConfigsHUB | 7",
-                "🇮🇪IE | 🟢 | trojan | @ConfigsHUB | 8",
-                "🚩CF | 🔴 | vless | @ConfigsHUB | 9",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 0",
+                "🚩CF | 🔴 | vless | @ConfigsHUB | 1",
+                "🇺🇸US | 🔴 | trojan | @ConfigsHUB | 2",
+                "🇮🇷IR | 🔴 | vless | @ConfigsHUB | 3",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 12",
                 "🚩CF | 🔴 | trojan | @proxystore11 | 0",
                 "❔XX | 🔴 | vless | @proxystore11 | 1",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
@@ -935,12 +934,11 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 303",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 2",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 6",
-                "🚩CF | 🟢 | vless | @ConfigsHUB | 7",
-                "🇮🇪IE | 🟢 | trojan | @ConfigsHUB | 8",
-                "🚩CF | 🔴 | vless | @ConfigsHUB | 9",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 0",
+                "🚩CF | 🔴 | vless | @ConfigsHUB | 1",
+                "🇺🇸US | 🔴 | trojan | @ConfigsHUB | 2",
+                "🇮🇷IR | 🔴 | vless | @ConfigsHUB | 3",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 12",
                 "🚩CF | 🔴 | trojan | @proxystore11 | 0",
                 "❔XX | 🔴 | vless | @proxystore11 | 1",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
@@ -9745,7 +9743,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 2",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 0",
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
             "server_port": 443,
@@ -9776,11 +9774,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 6",
+            "tag": "🚩CF | 🔴 | vless | @ConfigsHUB | 1",
             "type": "vless",
-            "server": "151.101.194.133",
+            "server": "104.18.93.27",
             "server_port": 443,
-            "uuid": "dd69e05a-5550-4805-ace9-504213d2e76a",
+            "uuid": "0d836bdb-adbc-4863-8c56-dc662e7f6919",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -9790,7 +9788,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "awarasleep.com",
+                "server_name": "mahdiv2.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -9800,87 +9798,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/ws",
+                "path": "\/",
                 "headers": {
-                    "Host": "awarasleep.com"
+                    "Host": "mahdiv2.pages.dev"
                 }
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vless | @ConfigsHUB | 7",
-            "type": "vless",
-            "server": "104.21.83.62",
-            "server_port": 2096,
-            "uuid": "6285e567-0c25-4ce2-a2fa-80517c1345e1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "1223-9ux.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/TELEGRAM-MARAMBASHI_MARAMBASHI\/?ed=2560",
-                "headers": {
-                    "Host": "1223-9ux.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇪IE | 🟢 | trojan | @ConfigsHUB | 8",
+            "tag": "🇺🇸US | 🔴 | trojan | @ConfigsHUB | 2",
             "type": "trojan",
-            "server": "52.49.86.52",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🔴 | vless | @ConfigsHUB | 9",
-            "type": "vless",
-            "server": "104.17.147.22",
-            "server_port": 8080,
-            "uuid": "bfe92214-8ef4-4dd6-8618-8312847902db",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
-            "type": "vless",
-            "server": "live.989bull.com",
+            "server": "199.68.156.68",
             "server_port": 443,
-            "uuid": "a1a40294-e4cc-4cd3-bf9e-428b18f8d34e",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "password": "dns68",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -9888,7 +9817,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "live.989bull.com",
+                "server_name": "trojan.putata.us.kg",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -9898,10 +9827,38 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/CHANNEL---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---ws\/",
+                "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "live.989bull.com"
+                    "Host": "trojan.putata.us.kg"
                 }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | 🔴 | vless | @ConfigsHUB | 3",
+            "type": "vless",
+            "server": "95.38.210.142",
+            "server_port": 35021,
+            "uuid": "a0b3dcfb-8ae0-4c7c-a634-4e931f15f5b6",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 12",
+            "type": "vless",
+            "server": "video.myquiz.org",
+            "server_port": 80,
+            "uuid": "4259adb1-0658-4c4f-b2f0-dc407c7e2549",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
