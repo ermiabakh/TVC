@@ -150,7 +150,7 @@
                 "🇺🇸US | 🔴 | vless | @proxyymeliii | 13",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 6",
                 "❔XX | 🔴 | vless | @MTConfig | 13",
-                "🇺🇸US | 🔴 | vless | @VmessProtocol | 10",
+                "🇺🇸US | 🔴 | vless | @VmessProtocol | 11",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
@@ -221,7 +221,7 @@
                 "🇺🇸US | 🔴 | vless | @proxyymeliii | 13",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 6",
                 "❔XX | 🔴 | vless | @MTConfig | 13",
-                "🇺🇸US | 🔴 | vless | @VmessProtocol | 10",
+                "🇺🇸US | 🔴 | vless | @VmessProtocol | 11",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
@@ -1333,7 +1333,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @VmessProtocol | 10",
+            "tag": "🇺🇸US | 🔴 | vless | @VmessProtocol | 11",
             "type": "vless",
             "server": "162.159.152.2",
             "server_port": 443,
@@ -1418,9 +1418,30 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "104.18.165.38",
+            "server": "NUFiLTER.fastly80-3.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "TELEGRAM-NUFiLTER",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
+                "headers": {
+                    "Host": "NUFiLTER.fastly80-3.hosting-ip.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "Zmaoz.Faculty.Ucdavis.Edu",
             "server_port": 443,
-            "uuid": "a68a3333-ee36-481b-abec-289f5eca17f1",
+            "uuid": "ec9406f9-3fc6-442d-b9f6-90c59b64eff2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1430,7 +1451,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "join.VPNCUSTOMIZE.join.VPNCUSTOMIZE.join.VPNCUSTOMIZE.join.VPNCUSTOMIZE.join.VPNCUSTOMIZE.www.speedtest.net.VPNCUSTOMIZE.ip-dynamic.org",
+                "server_name": "Zmaoz.Faculty.Ucdavis.Edu",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1440,24 +1461,10 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-VPNCUSTOMIZE",
+                "path": "\/@custom_config?ed=2560",
                 "headers": {
-                    "Host": "join.VPNCUSTOMIZE.join.VPNCUSTOMIZE.join.VPNCUSTOMIZE.join.VPNCUSTOMIZE.join.VPNCUSTOMIZE.www.speedtest.net.VPNCUSTOMIZE.ip-dynamic.org"
+                    "Host": "Zmaoz.Faculty.Ucdavis.Edu"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
-            "type": "vless",
-            "server": "de-08.pezesh-kian.com",
-            "server_port": 2095,
-            "uuid": "a446ef35-6c74-40d9-910c-f63d60197d9b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
