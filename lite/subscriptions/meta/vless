@@ -150,7 +150,7 @@ proxies:
   - {"name":"🇺🇸US | 🔴 | vless | @proxyymeliii | 13","type":"vless","server":"www.speedtest.net","port":8880,"udp":false,"uuid":"10221e99-bb18-4d22-87ea-daa48470d098","tls":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇺🇸US | 🔴 | vless | @v2ray1_ng | 11","type":"vless","server":"172.66.44.101","port":443,"udp":false,"uuid":"34a83286-ba4e-4f0a-ac08-77a95469eeaf","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"pardazesh18.pages.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"pardazesh18.pages.dev"}}}
   - {"name":"🇸🇬SG | 🔴 | vless | @v2ray1_ng | 12","type":"vless","server":"206.238.236.213","port":80,"udp":false,"uuid":"f0d584bc-342f-4443-ba24-79e4d0e504b1","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/Telegram@Linkvws?ed=2560","headers":{"host":"late-tooth.granzinhannah.workers.dev"}}}
-  - {"name":"🇺🇸US | 🔴 | vless | @vless_vmess | 3","type":"vless","server":"104.18.93.27","port":443,"udp":false,"uuid":"0d836bdb-adbc-4863-8c56-dc662e7f6919","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"mahdiv2.pages.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"mahdiv2.pages.dev"}}}
+  - {"name":"🇺🇸US | 🔴 | vless | @vless_vmess | 6","type":"vless","server":"104.18.93.27","port":443,"udp":false,"uuid":"0d836bdb-adbc-4863-8c56-dc662e7f6919","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"mahdiv2.pages.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"mahdiv2.pages.dev"}}}
   - {"name":"❔XX | 🔴 | vless | @MTConfig | 13","type":"vless","server":"o.mmd111.sbs","port":2053,"udp":false,"uuid":"da853330-a294-4257-9a87-f481b9126d51","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"m.mmd111.sbs","ws-opts":{"path":"/","headers":{"host":"m.mmd111.sbs"}}}
   - {"name":"❔XX | 🔴 | vless | @MTConfig | 14","type":"vless","server":"all.vipxali.cfd","port":2083,"udp":false,"uuid":"d113cd5c-80c9-43e2-a567-107819004a12","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"dm.xsv2ray.cfd"}
   - {"name":"🇺🇸US | 🔴 | vless | @VmessProtocol | 10","type":"vless","server":"162.159.152.2","port":443,"udp":false,"uuid":"50b7fc84-85b4-4043-b1f7-6477c9017a44","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"purlitefastest.pages.dev","ws-opts":{"path":"/purlitefastest.pages.dev/?ed=2560","headers":{"host":"purlitefastest.pages.dev"}}}
@@ -202,7 +202,7 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @proxyymeliii | 13'
       - '🇺🇸US | 🔴 | vless | @v2ray1_ng | 11'
       - '🇸🇬SG | 🔴 | vless | @v2ray1_ng | 12'
-      - '🇺🇸US | 🔴 | vless | @vless_vmess | 3'
+      - '🇺🇸US | 🔴 | vless | @vless_vmess | 6'
       - '❔XX | 🔴 | vless | @MTConfig | 13'
       - '❔XX | 🔴 | vless | @MTConfig | 14'
       - '🇺🇸US | 🔴 | vless | @VmessProtocol | 10'
@@ -254,7 +254,7 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @proxyymeliii | 13'
       - '🇺🇸US | 🔴 | vless | @v2ray1_ng | 11'
       - '🇸🇬SG | 🔴 | vless | @v2ray1_ng | 12'
-      - '🇺🇸US | 🔴 | vless | @vless_vmess | 3'
+      - '🇺🇸US | 🔴 | vless | @vless_vmess | 6'
       - '❔XX | 🔴 | vless | @MTConfig | 13'
       - '❔XX | 🔴 | vless | @MTConfig | 14'
       - '🇺🇸US | 🔴 | vless | @VmessProtocol | 10'
@@ -305,7 +305,7 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @proxyymeliii | 13'
       - '🇺🇸US | 🔴 | vless | @v2ray1_ng | 11'
       - '🇸🇬SG | 🔴 | vless | @v2ray1_ng | 12'
-      - '🇺🇸US | 🔴 | vless | @vless_vmess | 3'
+      - '🇺🇸US | 🔴 | vless | @vless_vmess | 6'
       - '❔XX | 🔴 | vless | @MTConfig | 13'
       - '❔XX | 🔴 | vless | @MTConfig | 14'
       - '🇺🇸US | 🔴 | vless | @VmessProtocol | 10'
