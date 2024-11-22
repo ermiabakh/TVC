@@ -136,7 +136,6 @@
                 "🇸🇪SE | 🟢 | vmess | @Hope_Net | 6",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 7",
                 "🇳🇱NL | 🟢 | vmess | @Hope_Net | 8",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 9",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 1",
                 "🇸🇪SE | 🟢 | vmess | @nofiltering2 | 3"
             ]
@@ -175,7 +174,6 @@
                 "🇸🇪SE | 🟢 | vmess | @Hope_Net | 6",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 7",
                 "🇳🇱NL | 🟢 | vmess | @Hope_Net | 8",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 9",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 1",
                 "🇸🇪SE | 🟢 | vmess | @nofiltering2 | 3"
             ],
@@ -942,30 +940,6 @@
                 "path": "\/linkws#@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1\/?ed=2560",
                 "headers": {
                     "Host": "45.149.12.84"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vmess | @Hope_Net | 9",
-            "type": "vmess",
-            "server": "104.18.25.92",
-            "server_port": 2052,
-            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/afrhms16v.bestxray.buzz\/linkws",
-                "headers": {
-                    "Host": "104.18.25.92"
                 }
             }
         },
