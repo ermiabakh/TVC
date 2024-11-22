@@ -118,8 +118,9 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 7",
-                "🇸🇬SG | 🔴 | vless | @Outlinev2rayNG | 3",
-                "🇸🇬SG | 🟢 | vless | @Outlinev2rayNG | 4",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 8",
+                "🇸🇬SG | 🔴 | vless | @Outlinev2rayNG | 6",
+                "🇸🇬SG | 🟢 | vless | @Outlinev2rayNG | 7",
                 "🇳🇱NL | 🟢 | vless | @nofiltering2 | 14",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
@@ -155,8 +156,9 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 7",
-                "🇸🇬SG | 🔴 | vless | @Outlinev2rayNG | 3",
-                "🇸🇬SG | 🟢 | vless | @Outlinev2rayNG | 4",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 8",
+                "🇸🇬SG | 🔴 | vless | @Outlinev2rayNG | 6",
+                "🇸🇬SG | 🟢 | vless | @Outlinev2rayNG | 7",
                 "🇳🇱NL | 🟢 | vless | @nofiltering2 | 14",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
@@ -505,7 +507,36 @@
             }
         },
         {
-            "tag": "🇸🇬SG | 🔴 | vless | @Outlinev2rayNG | 3",
+            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 8",
+            "type": "vless",
+            "server": "188.245.163.79",
+            "server_port": 1624,
+            "uuid": "24f65efb-4885-4e3c-b598-f70336ce8c63",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "wwww.refersion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0",
+                    "short_id": "3a622700e73c6642"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇬SG | 🔴 | vless | @Outlinev2rayNG | 6",
             "type": "vless",
             "server": "165.22.54.50",
             "server_port": 8889,
@@ -541,7 +572,7 @@
             }
         },
         {
-            "tag": "🇸🇬SG | 🟢 | vless | @Outlinev2rayNG | 4",
+            "tag": "🇸🇬SG | 🟢 | vless | @Outlinev2rayNG | 7",
             "type": "vless",
             "server": "165.22.54.50",
             "server_port": 8881,
