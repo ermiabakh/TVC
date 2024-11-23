@@ -420,9 +420,9 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 303",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 5",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 3",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 6",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 7",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
                 "❔XX | 🔴 | vless | @proxystore11 | 1",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
                 "🚩CF | 🔴 | vless | @proxystore11 | 3",
@@ -431,10 +431,10 @@
                 "🚩CF | 🔴 | vless | @fnet00 | 3",
                 "🚩CF | 🔴 | vless | @fnet00 | 5",
                 "🚩CF | 🔴 | vless | @fnet00 | 8",
-                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 3",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 5",
-                "🇸🇬SG | 🔴 | vless | @Outlinev2rayNG | 6",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
+                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 7",
+                "🇸🇬SG | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 1",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
                 "🇸🇪SE | 🔴 | vless | @flyv2ray | 3",
@@ -829,9 +829,9 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 303",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 5",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 3",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 6",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 7",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
                 "❔XX | 🔴 | vless | @proxystore11 | 1",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
                 "🚩CF | 🔴 | vless | @proxystore11 | 3",
@@ -840,10 +840,10 @@
                 "🚩CF | 🔴 | vless | @fnet00 | 3",
                 "🚩CF | 🔴 | vless | @fnet00 | 5",
                 "🚩CF | 🔴 | vless | @fnet00 | 8",
-                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 3",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 5",
-                "🇸🇬SG | 🔴 | vless | @Outlinev2rayNG | 6",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
+                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 7",
+                "🇸🇬SG | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 1",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
                 "🇸🇪SE | 🔴 | vless | @flyv2ray | 3",
@@ -8804,21 +8804,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 5",
-            "type": "vless",
-            "server": "video.myquiz.org",
-            "server_port": 80,
-            "uuid": "6de8d2cd-1c33-4c91-93d0-08d5d0d416ea",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 6",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 3",
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
             "server_port": 443,
@@ -8849,7 +8835,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 7",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 6",
             "type": "vless",
             "server": "VPNCSTOMIZE.fastly80-3.hosting-ip.com",
             "server_port": 80,
@@ -8867,6 +8853,20 @@
                 "headers": {
                     "Host": "VPNCSTOMIZE.fastly80-3.hosting-ip.com"
                 }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "video.myquiz.org",
+            "server_port": 80,
+            "uuid": "6de8d2cd-1c33-4c91-93d0-08d5d0d416ea",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -9050,7 +9050,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 3",
+            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 5",
             "type": "vless",
             "server": "104.21.49.18",
             "server_port": 443,
@@ -9081,7 +9081,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
             "type": "vless",
             "server": "Zmaoz.Faculty.Ucdavis.Edu",
             "server_port": 443,
@@ -9112,7 +9112,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 5",
+            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 7",
             "type": "vless",
             "server": "104.24.24.45",
             "server_port": 2053,
@@ -9143,7 +9143,7 @@
             }
         },
         {
-            "tag": "🇸🇬SG | 🔴 | vless | @Outlinev2rayNG | 6",
+            "tag": "🇸🇬SG | 🔴 | vless | @Outlinev2rayNG | 8",
             "type": "vless",
             "server": "165.22.54.50",
             "server_port": 8889,
