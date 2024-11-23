@@ -162,15 +162,15 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🟢 | trojan | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 3",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 4",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 1",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
-                "🇳🇱NL | 🟢 | vmess | @Hope_Net | 7",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
+                "🇳🇱NL | 🟢 | vmess | @Hope_Net | 9",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
                 "🇸🇬SG | 🔴 | vless | @Outlinev2rayNG | 8",
@@ -247,15 +247,15 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🟢 | trojan | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 3",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 4",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 1",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
-                "🇳🇱NL | 🟢 | vmess | @Hope_Net | 7",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
+                "🇳🇱NL | 🟢 | vmess | @Hope_Net | 9",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
                 "🇸🇬SG | 🔴 | vless | @Outlinev2rayNG | 8",
@@ -1626,9 +1626,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2052,
-            "uuid": "DIGIV2RAy",
+            "server": "hajlab.ucdavis.edu",
+            "server_port": 443,
+            "uuid": "9866995e-7225-4919-8de8-19a3f941c4d4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1636,26 +1636,51 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "hajlab.ucdavis.edu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/tm-Digiv2-__teldIGIv2__-DIGiv",
+                "path": "\/@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "hajlab.ucdavis.edu"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
-            "type": "vless",
+            "tag": "🇺🇸US | 🟢 | trojan | @ConfigsHUB | 19",
+            "type": "trojan",
             "server": "www.speedtest.net",
-            "server_port": 2052,
-            "uuid": "DIGIV2RAy",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "server_port": 443,
+            "password": "Daily_Configs",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "kanale-daily-configs.blackoutconnection.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/TELEGRAM:@Daily_Configs?ed=2560",
+                "headers": {
+                    "Host": "kanale-daily-configs.blackoutconnection.ir"
+                }
             }
         },
         {
@@ -1841,7 +1866,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
             "server": "www.visa.com",
             "server_port": 2082,
@@ -1865,7 +1890,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vmess | @Hope_Net | 7",
+            "tag": "🇳🇱NL | 🟢 | vmess | @Hope_Net | 9",
             "type": "vmess",
             "server": "141.144.198.113",
             "server_port": 8443,
