@@ -123,7 +123,7 @@
                 "🇸🇪SE | 🟢 | vmess | @customv2ray | 16",
                 "🇳🇱NL | 🟢 | vmess | @v2ray1_ng | 7",
                 "🇺🇸US | 🟢 | vmess | @vless_vmess | 2",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 13",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 6",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -164,7 +164,7 @@
                 "🇸🇪SE | 🟢 | vmess | @customv2ray | 16",
                 "🇳🇱NL | 🟢 | vmess | @v2ray1_ng | 7",
                 "🇺🇸US | 🟢 | vmess | @vless_vmess | 2",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 13",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 6",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -561,11 +561,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 13",
+            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 6",
             "type": "vmess",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "e443372e-f100-4453-83b7-dfd7d66e0e2b",
+            "server": "hms19.best-tizi.top",
+            "server_port": 443,
+            "uuid": "62aa5f80-0328-4004-a375-7f5a59df4022",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -576,11 +576,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "hms19.best-tizi.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/joinourtelegramchannel@hormozvp.n@hormozvp.n@hormozvp.n@hormozvp.n@hormozvp.n@hormozvp.n?ed=1024",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": ""
+                    "Host": "hms19.best-tizi.top"
                 }
             }
         },
