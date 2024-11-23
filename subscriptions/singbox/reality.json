@@ -118,7 +118,7 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 8",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 6",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 12",
                 "🇳🇱NL | 🟢 | vless | @nofiltering2 | 16",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
@@ -154,7 +154,7 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 8",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 6",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 12",
                 "🇳🇱NL | 🟢 | vless | @nofiltering2 | 16",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
@@ -503,11 +503,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 6",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 12",
             "type": "vless",
-            "server": "Manager.ImageFlowAI.ir",
-            "server_port": 2096,
-            "uuid": "8d433de7-5728-407a-9529-43933ca44646",
+            "server": "r.iphone-shopp.ir",
+            "server_port": 5643,
+            "uuid": "6803d696-9541-4bab-8c90-e7f634513ec4",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -517,7 +517,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "filimo.com",
+                "server_name": "refersion.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -526,9 +526,16 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "YAmYWNKMauwmkR50BntCkIs6Oi0TOfQkEXG4_p-5oVE",
-                    "short_id": ""
+                    "public_key": "2I22pKooT9m0Zm8Y9ZZnQPWAwZV6kZ5EmrNKwaoOz2I",
+                    "short_id": "68e1d9a8a75a3fea"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "mgrpcm",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
