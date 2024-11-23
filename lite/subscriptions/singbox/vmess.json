@@ -109,11 +109,10 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
                 "🇸🇪SE | 🟢 | vmess | @customv2ray | 16",
-                "🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 17",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 16",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇸🇪SE | 🟢 | vmess | @Hope_Net | 6",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 7"
             ]
         },
@@ -124,11 +123,10 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
                 "🇸🇪SE | 🟢 | vmess | @customv2ray | 16",
-                "🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 17",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 16",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇸🇪SE | 🟢 | vmess | @Hope_Net | 6",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -220,11 +218,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0",
+            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 16",
             "type": "vmess",
-            "server": "www.speedtest.net",
-            "server_port": 8880,
-            "uuid": "2c11b21e-a56b-404c-8422-8d31fc8190b1",
+            "server": "china.tencentapp.cn",
+            "server_port": 2096,
+            "uuid": "a9809295-34dc-4b58-8745-065021f67456",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -235,29 +233,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "1732370477.speed.nlb.cccp.freefly.pp.ua",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": ""
+                    "Host": "1732370477.speed.nlb.cccp.freefly.pp.ua"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 17",
-            "type": "vmess",
-            "server": "WWW.SPEEDTEST.NET",
-            "server_port": 8080,
-            "uuid": "TELEGRAM-ID-VPN-WHAL-18",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -319,11 +310,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🟢 | vmess | @Hope_Net | 6",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "185.146.173.158",
+            "server": "104.21.83.115",
             "server_port": 443,
-            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
+            "uuid": "6c168fcc-2231-4f3b-8c1e-f6391692df4a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -336,7 +327,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "jahfkjha.cfd",
+                "server_name": "hms02.fxiaomi.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -346,20 +337,20 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/link",
                 "headers": {
-                    "Host": "jahfkjha.cfd"
+                    "Host": "hms02.fxiaomi.sbs"
                 }
             }
         },
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "104.21.94.168",
+            "server": "172.67.163.197",
             "server_port": 443,
-            "uuid": "62aa5f80-0328-4004-a375-7f5a59df4022",
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 1,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -370,7 +361,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "",
+                "server_name": "b.serkat.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -380,9 +371,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": ""
+                    "Host": "b.serkat.org"
                 }
             }
         }
