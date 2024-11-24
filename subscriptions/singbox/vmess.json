@@ -118,7 +118,7 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
                 "🇺🇸US | 🟢 | vmess | @vless_vmess | 10",
-                "🚩CF | 🟢 | vmess | @ConfigsHUB | 2",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 14",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -133,8 +133,7 @@
                 "🇰🇷KR | 🟢 | vmess | @Hope_Net | 7",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 1",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 7",
-                "🇸🇪SE | 🟢 | vmess | @nofiltering2 | 9",
-                "🇺🇸US | 🟢 | vmess | @ISVvpn | 1"
+                "🇸🇪SE | 🟢 | vmess | @nofiltering2 | 9"
             ]
         },
         {
@@ -153,7 +152,7 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
                 "🇺🇸US | 🟢 | vmess | @vless_vmess | 10",
-                "🚩CF | 🟢 | vmess | @ConfigsHUB | 2",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 14",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -168,8 +167,7 @@
                 "🇰🇷KR | 🟢 | vmess | @Hope_Net | 7",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 1",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 7",
-                "🇸🇪SE | 🟢 | vmess | @nofiltering2 | 9",
-                "🇺🇸US | 🟢 | vmess | @ISVvpn | 1"
+                "🇸🇪SE | 🟢 | vmess | @nofiltering2 | 9"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -430,11 +428,11 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @ConfigsHUB | 2",
+            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 14",
             "type": "vmess",
-            "server": "104.21.44.106",
-            "server_port": 443,
-            "uuid": "93ea486a-bada-42a4-ac38-d088b320fa1e",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "cb8e4fb8-08b7-484d-ad5c-1b55fa539745",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -445,21 +443,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "xmivideo.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/RACEVPN?telegram-@ISVvpn-telegram-@ISVvpn",
                 "headers": {
-                    "Host": "xmivideo.cfd"
+                    "Host": ""
                 }
             }
         },
@@ -809,30 +797,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @ISVvpn | 1",
-            "type": "vmess",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "cb8e4fb8-08b7-484d-ad5c-1b55fa539745",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/RACEVPN?telegram-@ISVvpn-telegram-@ISVvpn",
-                "headers": {
-                    "Host": ""
-                }
             }
         }
     ],
