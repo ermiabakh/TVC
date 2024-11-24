@@ -420,9 +420,9 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 303",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 4",
-                "🚩CF | 🔴 | vless | @ConfigsHUB | 5",
-                "🚩CF | 🟢 | vless | @ConfigsHUB | 8",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 0",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
+                "🚩CF | 🔴 | vless | @ConfigsHUB | 19",
                 "❔XX | 🔴 | vless | @proxystore11 | 2",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 3",
                 "🚩CF | 🔴 | vless | @proxystore11 | 4",
@@ -834,9 +834,9 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 303",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 4",
-                "🚩CF | 🔴 | vless | @ConfigsHUB | 5",
-                "🚩CF | 🟢 | vless | @ConfigsHUB | 8",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 0",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
+                "🚩CF | 🔴 | vless | @ConfigsHUB | 19",
                 "❔XX | 🔴 | vless | @proxystore11 | 2",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 3",
                 "🚩CF | 🔴 | vless | @proxystore11 | 4",
@@ -8834,7 +8834,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 4",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 0",
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
             "server_port": 443,
@@ -8865,11 +8865,11 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @ConfigsHUB | 5",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
             "type": "vless",
-            "server": "104.21.69.44",
-            "server_port": 443,
-            "uuid": "3474e816-6b50-434f-bad6-8b9a2d5c74d6",
+            "server": "151.101.194.165",
+            "server_port": 80,
+            "uuid": "9dacaffa-e12d-4b0b-8bd7-ff333ce10f4b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -8877,30 +8877,20 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "i-sn-83.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/TELEGRAM-MARAMBASHI_MARAMBASHI\/?ed=2560",
+                "path": "\/Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE?ed",
                 "headers": {
-                    "Host": "i-sn-83.pages.dev"
+                    "Host": "151.101.194.165"
                 }
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vless | @ConfigsHUB | 8",
+            "tag": "🚩CF | 🔴 | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "104.21.69.44",
-            "server_port": 443,
-            "uuid": "3fedbd26-b4da-440e-9f7c-004d2463caec",
+            "server": "172.66.47.146",
+            "server_port": 80,
+            "uuid": "e94d344c-1583-46dd-bfed-4c37d4dbc8b4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -8908,21 +8898,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "DisVpn.us.kg",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
+                "path": "\/@Daily_Cofnigs,@Daily_Cofnigs,@Daily_Cofnigs?ed=2560",
                 "headers": {
-                    "Host": "DisVpn.us.kg"
+                    "Host": "172.66.47.146"
                 }
             }
         },
