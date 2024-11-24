@@ -109,11 +109,11 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
                 "🇸🇪SE | 🟢 | vmess | @customv2ray | 16",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 18",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 15",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
-                "🇩🇪DE | 🟢 | vmess | @Hope_Net | 7"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6"
             ]
         },
         {
@@ -123,11 +123,11 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
                 "🇸🇪SE | 🟢 | vmess | @customv2ray | 16",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 18",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 15",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
-                "🇩🇪DE | 🟢 | vmess | @Hope_Net | 7"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -218,13 +218,13 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 18",
+            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 15",
             "type": "vmess",
-            "server": "198.2.218.108",
-            "server_port": 41400,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "server": "WWW.SPEEDTEST.NET",
+            "server_port": 8080,
+            "uuid": "TELEGRAM-ID-VPN-WHAL-18",
             "security": "auto",
-            "alter_id": 64,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -293,11 +293,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
             "type": "vmess",
-            "server": "172.67.175.56",
-            "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "server": "206.206.80.66",
+            "server_port": 23423,
+            "uuid": "8825fd04-9005-4410-b48c-d2f345ec7fee",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -307,31 +307,14 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "172.67.175.56",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "172.67.175.56"
-                }
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | @Hope_Net | 7",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "89.169.55.152",
-            "server_port": 33026,
-            "uuid": "e00f5c12-09e3-490c-b702-29155b6dcc50",
+            "server": "104.17.147.22",
+            "server_port": 8880,
+            "uuid": "3bc11be5-44ee-4456-9d29-a316bce4a17e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -342,21 +325,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "socks5tobefree.ydns.eu",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/dangerzone",
+                "path": "\/",
                 "headers": {
-                    "Host": "socks5tobefree.ydns.eu"
+                    "Host": "104.17.147.22"
                 }
             }
         }
