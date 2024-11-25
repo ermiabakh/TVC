@@ -117,8 +117,9 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 8",
-                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 9",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 10",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 8",
+                "🇨🇭CH | 🔴 | vless | @ConfigsHUB | 9",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 10",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 9",
@@ -152,8 +153,9 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 8",
-                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 9",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 10",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 8",
+                "🇨🇭CH | 🔴 | vless | @ConfigsHUB | 9",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 10",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 9",
@@ -472,7 +474,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 9",
+            "tag": "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 8",
             "type": "vless",
             "server": "31.44.2.233",
             "server_port": 8443,
@@ -508,11 +510,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 10",
+            "tag": "🇨🇭CH | 🔴 | vless | @ConfigsHUB | 9",
             "type": "vless",
-            "server": "deko.austriaport.ir",
-            "server_port": 3030,
-            "uuid": "2afdb6dd-a57e-4a37-9729-8ca1f8753083",
+            "server": "195.15.215.198",
+            "server_port": 443,
+            "uuid": "872aad60-d4ff-4c9d-a1cb-c36f412614a5",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -522,7 +524,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "refersion.com",
+                "server_name": "microsoft.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -531,7 +533,36 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI",
+                    "public_key": "bz_CfzxBvjSpYzMQIMKb7C2ttpovR4-4gyABZhjw0QM",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 10",
+            "type": "vless",
+            "server": "154.21.195.198",
+            "server_port": 24290,
+            "uuid": "4b249b4b-6494-494d-b168-74862af97878",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "swdist.apple.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "IiuIighvDsor2v-vb5s3IJbNiqwLw568auiqoXxc7FM",
                     "short_id": ""
                 }
             }
