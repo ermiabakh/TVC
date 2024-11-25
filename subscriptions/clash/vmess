@@ -136,8 +136,6 @@ proxies:
   - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 2","type":"vmess","server":"go.daluquan.top","port":"8080","cipher":"auto","uuid":"800e95d5-43f8-4988-a0d3-9ddcbb1de7f7","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"de-new01.daluquan.top"}}}
   - {"name":"🇨🇳CN | 🟢 | vmess | @Hope_Net | 3","type":"vmess","server":"r1.xinyo.me","port":"40201","cipher":"auto","uuid":"cd2c81eb-b93c-4349-96f2-878564878445","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇳🇱NL | 🟢 | vmess | @Hope_Net | 5","type":"vmess","server":"194.87.31.160","port":"8081","cipher":"auto","uuid":"a7e00c2f-411a-438f-9119-0f022a85a5e3","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚩CF | 🟢 | vmess | @Hope_Net | 7","type":"vmess","server":"162.159.140.91","port":2095,"cipher":"auto","uuid":"18d96190-c10f-448f-a82a-2d36df5c3cde","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip2.6016725.xyz"}}}
-  - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 8","type":"vmess","server":"s2.db-link02.top","port":2086,"cipher":"auto","uuid":"ac9c5899-29ee-3139-a2ae-b5803a68524f","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/dabai.in104.16.98.32","headers":{"host":"100-36-256-124.s2.db-link02.top"}}}
   - {"name":"🇺🇸US | 🟢 | vmess | @nofiltering2 | 4","type":"vmess","server":"mtn.ivy-net.ir","port":"80","cipher":"auto","uuid":"676d18a1-82fc-47ae-a676-a4c348eeaac0","alterId":"0","tls":false,"skip-cert-verify":true,"network":"httpupgrade"}
   - {"name":"🇺🇸US | 🟢 | vmess | @nofiltering2 | 10","type":"vmess","server":"www.speedtest.net","port":"80","cipher":"auto","uuid":"676d18a1-82fc-47ae-a676-a4c348eeaac0","alterId":"0","tls":false,"skip-cert-verify":true,"network":"httpupgrade"}
   - {"name":"🇸🇪SE | 🟢 | vmess | @nofiltering2 | 12","type":"vmess","server":"185.146.173.76","port":"80","cipher":"auto","uuid":"676d18a1-82fc-47ae-a676-a4c348eeaac0","alterId":"0","tls":false,"skip-cert-verify":true,"network":"httpupgrade"}
@@ -166,8 +164,6 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 2'
       - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 3'
       - '🇳🇱NL | 🟢 | vmess | @Hope_Net | 5'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 7'
-      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 8'
       - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 4'
       - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 10'
       - '🇸🇪SE | 🟢 | vmess | @nofiltering2 | 12'
@@ -196,8 +192,6 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 2'
       - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 3'
       - '🇳🇱NL | 🟢 | vmess | @Hope_Net | 5'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 7'
-      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 8'
       - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 4'
       - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 10'
       - '🇸🇪SE | 🟢 | vmess | @nofiltering2 | 12'
@@ -225,8 +219,6 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 2'
       - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 3'
       - '🇳🇱NL | 🟢 | vmess | @Hope_Net | 5'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 7'
-      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 8'
       - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 4'
       - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 10'
       - '🇸🇪SE | 🟢 | vmess | @nofiltering2 | 12'
