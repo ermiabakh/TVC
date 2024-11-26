@@ -118,7 +118,8 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 9",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 3",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 2",
+                "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 3",
                 "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 5",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
@@ -154,7 +155,8 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 9",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 3",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 2",
+                "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 3",
                 "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 5",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
@@ -510,11 +512,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 3",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 2",
             "type": "vless",
-            "server": "deko.austriaport.ir",
-            "server_port": 3030,
-            "uuid": "2afdb6dd-a57e-4a37-9729-8ca1f8753083",
+            "server": "dllvarzeshtvsamanehouignbguvuibybfhfgdrews.website.24digitalmarkting.ir",
+            "server_port": 12345,
+            "uuid": "3a759bdf-f49a-426b-aa5b-b4091eaf8f6b",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -524,7 +526,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "refersion.com",
+                "server_name": "varzeshtviuwsofogleugvwsoyutruyrrteytmci.24digitalmarkting.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -533,9 +535,52 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI",
-                    "short_id": ""
+                    "public_key": "QDqpqvWPsDtooLg5PTHd2rmRfQhDJLf7-S5cUyFxUQk",
+                    "short_id": "8e36c7e79b74a6fa"
                 }
+            },
+            "transport": {
+                "type": "http",
+                "host": [
+                    "varzeshtviuwsofogleugvwsoyutruyrrteytmci.24digitalmarkting.ir"
+                ],
+                "path": "\/"
+            }
+        },
+        {
+            "tag": "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 3",
+            "type": "vless",
+            "server": "my.jasrama.com",
+            "server_port": 2096,
+            "uuid": "f82c2052-7411-40e8-96ef-d433127979a6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "dalfak.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "9LY8_rbDS8zJoZLk9J4BYbdKOYK8vdKg11Wab5IetXY",
+                    "short_id": "a56f693ce784b4cc"
+                }
+            },
+            "transport": {
+                "type": "http",
+                "host": [
+                    "dalfak.com"
+                ],
+                "path": "\/"
             }
         },
         {
