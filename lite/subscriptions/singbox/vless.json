@@ -150,8 +150,7 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 11",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 10",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 11",
+                "🇦🇪AE | 🔴 | vless | @ConfigsHUB | 17",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 1",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
@@ -215,8 +214,7 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 11",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 10",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 11",
+                "🇦🇪AE | 🔴 | vless | @ConfigsHUB | 17",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 1",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
@@ -1365,48 +1363,17 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 10",
+            "tag": "🇦🇪AE | 🔴 | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "154.194.53.213",
-            "server_port": 27758,
-            "uuid": "10a6366a-051c-4237-bcfb-d53f2465d12d",
+            "server": "ae.aparat-movies-download.ir",
+            "server_port": 42542,
+            "uuid": "415e4dea-8360-4da7-80bc-58822a6730c9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "\/27758\/IrAnMAAjsueAo",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 11",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2083,
-            "uuid": "4d63e415-9e34-431a-eaae-32a941c18bfe",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "dl1.iranikala.top",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             }
         },
         {
