@@ -158,8 +158,8 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 11",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 5",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 6",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 11",
+                "@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi#🇨🇷CR | 🟢 | trojan | @ConfigsHUB | 12",
                 "🇺🇸US | 🔴 | trojan | @proxystore11 | 1",
                 "❔XX | 🔴 | vless | @proxystore11 | 2",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
@@ -241,8 +241,8 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 11",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 5",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 6",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 11",
+                "@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi#🇨🇷CR | 🟢 | trojan | @ConfigsHUB | 12",
                 "🇺🇸US | 🔴 | trojan | @proxystore11 | 1",
                 "❔XX | 🔴 | vless | @proxystore11 | 2",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
@@ -1603,7 +1603,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 5",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 11",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 443,
@@ -1627,13 +1627,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 6",
-            "type": "vless",
-            "server": "151.101.2.133",
+            "tag": "@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi#🇨🇷CR | 🟢 | trojan | @ConfigsHUB | 12",
+            "type": "trojan",
+            "server": "190.93.246.247",
             "server_port": 443,
-            "uuid": "caaf3f43-8994-429e-885c-c27f2393df1b",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "password": "dba20dcb635e430fa4d3bfc303a149d2",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1641,7 +1639,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mio.splashthat.com",
+                "server_name": "jobscareerforlawyers.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1651,9 +1649,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray",
+                "path": "\/6b777a91",
                 "headers": {
-                    "Host": "mio.splashthat.com"
+                    "Host": "jobscareerforlawyers.com"
                 }
             }
         },
