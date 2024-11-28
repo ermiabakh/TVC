@@ -391,11 +391,8 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 303",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🚩CF | 🔴 | vless | @ConfigsHUB | 0",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 1",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 2",
-                "🇸🇪SE | 🟢 | vless | @ConfigsHUB | 7",
-                "🚩CF | 🟢 | vless | @ConfigsHUB | 8",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 3",
                 "🚩CF | 🔴 | vless | @free1_vpn | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 3",
@@ -469,6 +466,10 @@
                 "🚩CF | 🔴 | vless | @kingofilter | 22",
                 "🚩CF | 🔴 | vless | @kingofilter | 23",
                 "🇺🇸US | 🔴 | vless | @kingofilter | 24",
+                "🚩CF | 🔴 | vless | @kingofilter | 26",
+                "🚩CF | 🔴 | vless | @kingofilter | 27",
+                "🇺🇸US | 🔴 | vless | @kingofilter | 28",
+                "🇺🇸US | 🔴 | vless | @kingofilter | 29",
                 "❔XX | 🔴 | vless | @VpnSkyy | 0",
                 "❔XX | 🔴 | vless | @VpnSkyy | 1",
                 "❔XX | 🔴 | vless | @VpnSkyy | 2",
@@ -764,11 +765,8 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 303",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🚩CF | 🔴 | vless | @ConfigsHUB | 0",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 1",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 2",
-                "🇸🇪SE | 🟢 | vless | @ConfigsHUB | 7",
-                "🚩CF | 🟢 | vless | @ConfigsHUB | 8",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 3",
                 "🚩CF | 🔴 | vless | @free1_vpn | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 3",
@@ -842,6 +840,10 @@
                 "🚩CF | 🔴 | vless | @kingofilter | 22",
                 "🚩CF | 🔴 | vless | @kingofilter | 23",
                 "🇺🇸US | 🔴 | vless | @kingofilter | 24",
+                "🚩CF | 🔴 | vless | @kingofilter | 26",
+                "🚩CF | 🔴 | vless | @kingofilter | 27",
+                "🇺🇸US | 🔴 | vless | @kingofilter | 28",
+                "🇺🇸US | 🔴 | vless | @kingofilter | 29",
                 "❔XX | 🔴 | vless | @VpnSkyy | 0",
                 "❔XX | 🔴 | vless | @VpnSkyy | 1",
                 "❔XX | 🔴 | vless | @VpnSkyy | 2",
@@ -8044,49 +8046,28 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @ConfigsHUB | 0",
-            "type": "vless",
-            "server": "104.17.234.128",
-            "server_port": 8080,
-            "uuid": "fbede247-3a99-4c0c-9112-08c36a490199",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@vmessorg----@vmessorg-----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg?ed=8080",
-                "headers": {
-                    "Host": "104.17.234.128"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 1",
-            "type": "vless",
-            "server": "vmessorg.fastly80-3.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "197b385d-d1fb-4c7e-a4f9-fe8f3daf11d7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@vmessorg----@vmessorg-----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg?ed=2480",
-                "headers": {
-                    "Host": "vmessorg.fastly80-3.hosting-ip.com"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 2",
+            "type": "vless",
+            "server": "NUFiLTER.fastly80-2.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "dd1db063-d419-4ab7-9eba-ddc972300de8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed",
+                "headers": {
+                    "Host": "NUFiLTER.fastly80-2.hosting-ip.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 3",
             "type": "vless",
             "server": "Zmaoz.Faculty.UcdavIS.Edu",
             "server_port": 443,
@@ -8113,61 +8094,6 @@
                 "path": "\/@melov2ray\/ws?e@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpnd=2048",
                 "headers": {
                     "Host": "Zmaoz.Faculty.UcdavIS.Edu."
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | 🟢 | vless | @ConfigsHUB | 7",
-            "type": "vless",
-            "server": "185.146.173.39",
-            "server_port": 443,
-            "uuid": "f57a47bc-e618-45da-dc5f-5a2baf35b8d3",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "chde.black-melo.store",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vless | @ConfigsHUB | 8",
-            "type": "vless",
-            "server": "108.162.195.110",
-            "server_port": 443,
-            "uuid": "067db7fd-7e36-4a54-bb13-6c2102ef5037",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "5efdbd3d.newwow2.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/5efdbd3d.newwow2.pages.dev\/?ed=2560",
-                "headers": {
-                    "Host": "5efdbd3d.newwow2.pages.dev"
                 }
             }
         },
@@ -10146,6 +10072,99 @@
                 "path": "\/Telegram,VPNCUSTOMIZE?ed=2480",
                 "headers": {
                     "Host": "join.bede.VPNCUSTOMIZE.www.speedtest.net.Powerfullserver.de"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🔴 | vless | @kingofilter | 26",
+            "type": "vless",
+            "server": "104.17.234.128",
+            "server_port": 443,
+            "uuid": "d3f0e44b-7aa9-4445-bafc-3546166ceaec",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "104.17.234.128",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🔴 | vless | @kingofilter | 27",
+            "type": "vless",
+            "server": "104.17.234.114",
+            "server_port": 8443,
+            "uuid": "d3f0e44b-7aa9-4445-bafc-3546166ceaec",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "104.17.234.114",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @kingofilter | 28",
+            "type": "vless",
+            "server": "funnelytics.io",
+            "server_port": 8443,
+            "uuid": "d3f0e44b-7aa9-4445-bafc-3546166ceaec",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "funnelytics.io",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @kingofilter | 29",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "7d2dfb7a-2ecc-4448-bcbe-245a2092fe85",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-Xv2ry2?ed=512",
+                "headers": {
+                    "Host": "www.speedtest.net"
                 }
             }
         },
