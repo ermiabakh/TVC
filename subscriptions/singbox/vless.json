@@ -331,12 +331,12 @@
                 "🇺🇸US | 🔴 | vless | @proxyymeliii | 13",
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 1",
                 "🇮🇷IR | 🔴 | vless | @v2ray1_ng | 11",
-                "🚩CF | 🔴 | vless | @v2ray1_ng | 13",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 0",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 1",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 3",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 4",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 6",
+                "🚩CF | 🔴 | vless | @vless_vmess | 8",
                 "🚩CF | 🔴 | vless | @vless_vmess | 9",
                 "🚩CF | 🔴 | vless | @vless_vmess | 10",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 13",
@@ -391,10 +391,11 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 303",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
+                "🚩CF | 🔴 | vless | @ConfigsHUB | 0",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 1",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 2",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 3",
-                "🚩CF | 🟢 | vless | @ConfigsHUB | 12",
-                "🚩CF | 🔴 | vless | @ConfigsHUB | 13",
+                "🇸🇪SE | 🟢 | vless | @ConfigsHUB | 7",
+                "🚩CF | 🟢 | vless | @ConfigsHUB | 8",
                 "🚩CF | 🔴 | vless | @free1_vpn | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 3",
@@ -703,12 +704,12 @@
                 "🇺🇸US | 🔴 | vless | @proxyymeliii | 13",
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 1",
                 "🇮🇷IR | 🔴 | vless | @v2ray1_ng | 11",
-                "🚩CF | 🔴 | vless | @v2ray1_ng | 13",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 0",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 1",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 3",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 4",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 6",
+                "🚩CF | 🔴 | vless | @vless_vmess | 8",
                 "🚩CF | 🔴 | vless | @vless_vmess | 9",
                 "🚩CF | 🔴 | vless | @vless_vmess | 10",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 13",
@@ -763,10 +764,11 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 303",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
+                "🚩CF | 🔴 | vless | @ConfigsHUB | 0",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 1",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 2",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 3",
-                "🚩CF | 🟢 | vless | @ConfigsHUB | 12",
-                "🚩CF | 🔴 | vless | @ConfigsHUB | 13",
+                "🇸🇪SE | 🟢 | vless | @ConfigsHUB | 7",
+                "🚩CF | 🟢 | vless | @ConfigsHUB | 8",
                 "🚩CF | 🔴 | vless | @free1_vpn | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 3",
@@ -6428,37 +6430,6 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @v2ray1_ng | 13",
-            "type": "vless",
-            "server": "172.67.187.170",
-            "server_port": 443,
-            "uuid": "7781631b-b5d1-4643-9ba4-f58b759fb874",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "kachiina.thelastronin.cloudns.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "kachiina.thelastronin.cloudns.org"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | @vless_vmess | 0",
             "type": "vless",
             "server": "151.101.194.133",
@@ -6570,6 +6541,37 @@
                 "path": "\/@vmessorg----@vmessorg-----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg?ed=2480",
                 "headers": {
                     "Host": "151.101.3.8"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🔴 | vless | @vless_vmess | 8",
+            "type": "vless",
+            "server": "172.67.187.170",
+            "server_port": 443,
+            "uuid": "7781631b-b5d1-4643-9ba4-f58b759fb874",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "kachiina.thelastronin.cloudns.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "kachiina.thelastronin.cloudns.org"
                 }
             }
         },
@@ -8042,11 +8044,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 2",
+            "tag": "🚩CF | 🔴 | vless | @ConfigsHUB | 0",
             "type": "vless",
-            "server": "NUFiLTER.fastly80-2.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "dd1db063-d419-4ab7-9eba-ddc972300de8",
+            "server": "104.17.234.128",
+            "server_port": 8080,
+            "uuid": "fbede247-3a99-4c0c-9112-08c36a490199",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -8056,14 +8058,35 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed",
+                "path": "\/@vmessorg----@vmessorg-----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg?ed=8080",
                 "headers": {
-                    "Host": "NUFiLTER.fastly80-2.hosting-ip.com"
+                    "Host": "104.17.234.128"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 3",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 1",
+            "type": "vless",
+            "server": "vmessorg.fastly80-3.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "197b385d-d1fb-4c7e-a4f9-fe8f3daf11d7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@vmessorg----@vmessorg-----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg?ed=2480",
+                "headers": {
+                    "Host": "vmessorg.fastly80-3.hosting-ip.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 2",
             "type": "vless",
             "server": "Zmaoz.Faculty.UcdavIS.Edu",
             "server_port": 443,
@@ -8094,11 +8117,11 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vless | @ConfigsHUB | 12",
+            "tag": "🇸🇪SE | 🟢 | vless | @ConfigsHUB | 7",
             "type": "vless",
-            "server": "172.65.90.52",
-            "server_port": 2096,
-            "uuid": "263497fb-9ae2-4f7b-94c6-b0179e480448",
+            "server": "185.146.173.39",
+            "server_port": 443,
+            "uuid": "f57a47bc-e618-45da-dc5f-5a2baf35b8d3",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -8108,7 +8131,31 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mOOn-AZaDNet.PAgeS.DeV",
+                "server_name": "chde.black-melo.store",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🟢 | vless | @ConfigsHUB | 8",
+            "type": "vless",
+            "server": "108.162.195.110",
+            "server_port": 443,
+            "uuid": "067db7fd-7e36-4a54-bb13-6c2102ef5037",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "5efdbd3d.newwow2.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -8118,30 +8165,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/gyUbkW525zXZfMgC?ed=2560",
+                "path": "\/5efdbd3d.newwow2.pages.dev\/?ed=2560",
                 "headers": {
-                    "Host": "mOOn-AZaDNet.PAgeS.DeV"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🔴 | vless | @ConfigsHUB | 13",
-            "type": "vless",
-            "server": "104.17.147.22",
-            "server_port": 80,
-            "uuid": "043d66f3-2147-4e62-8503-5fd9626acb5f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@Daily_Cofnigs,@Daily_Cofnigs,@Daily_Cofnigs?ed=2560",
-                "headers": {
-                    "Host": "104.17.147.22"
+                    "Host": "5efdbd3d.newwow2.pages.dev"
                 }
             }
         },
