@@ -108,6 +108,8 @@
                 "URL-TEST",
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 10",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 19",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ]
@@ -118,6 +120,8 @@
             "outbounds": [
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 10",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 19",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ],
@@ -176,6 +180,64 @@
             "server": "188.245.197.174",
             "server_port": 1623,
             "uuid": "f8275dfe-4fd7-46b2-8d6c-de1891afb443",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "wwww.refersion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0",
+                    "short_id": "3a622700e73c6642"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "188.245.90.214",
+            "server_port": 1633,
+            "uuid": "4ef45945-6cb5-4e05-a6de-4d2c9d58b45f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ANlgAsYC8HmKfJnc5SFvru822urkxG1PzW1Zw4Vbm0Q",
+                    "short_id": "9bc0a55a5379c0ed"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "188.245.163.79",
+            "server_port": 1624,
+            "uuid": "24f65efb-4885-4e3c-b598-f70336ce8c63",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
