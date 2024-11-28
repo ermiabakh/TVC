@@ -119,6 +119,7 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
                 "🇺🇸US | 🟢 | vmess | @customv2ray | 4",
                 "❔XX | 🟢 | vmess | @vless_vmess | 14",
+                "🚩CF | 🟢 | vmess | @ConfigsHUB | 10",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -137,7 +138,6 @@
                 "🚩CF | 🟢 | vmess | @Hope_Net | 10",
                 "🇩🇪DE | 🟢 | vmess | @nofiltering2 | 1",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 10",
-                "🇺🇸US | 🟢 | vmess | @nofiltering2 | 16",
                 "🇺🇸US | 🟢 | vmess | @ISVvpn | 1"
             ]
         },
@@ -158,6 +158,7 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
                 "🇺🇸US | 🟢 | vmess | @customv2ray | 4",
                 "❔XX | 🟢 | vmess | @vless_vmess | 14",
+                "🚩CF | 🟢 | vmess | @ConfigsHUB | 10",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -176,7 +177,6 @@
                 "🚩CF | 🟢 | vmess | @Hope_Net | 10",
                 "🇩🇪DE | 🟢 | vmess | @nofiltering2 | 1",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 10",
-                "🇺🇸US | 🟢 | vmess | @nofiltering2 | 16",
                 "🇺🇸US | 🟢 | vmess | @ISVvpn | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -468,6 +468,40 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "cs.putihb.org"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🟢 | vmess | @ConfigsHUB | 10",
+            "type": "vmess",
+            "server": "188.114.96.0",
+            "server_port": 2053,
+            "uuid": "fa1897db-1925-4c86-a495-939a959af900",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "lix523052.GGfF.NET",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/dkzbofzkop.com:443\/rbqqvws",
+                "headers": {
+                    "Host": "lix523052.GGfF.NET"
                 }
             }
         },
@@ -867,23 +901,6 @@
             "tag": "🇺🇸US | 🟢 | vmess | @nofiltering2 | 10",
             "type": "vmess",
             "server": "mtn.ivy-net.ir",
-            "server_port": 80,
-            "uuid": "676d18a1-82fc-47ae-a676-a4c348eeaac0",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @nofiltering2 | 16",
-            "type": "vmess",
-            "server": "www.speedtest.net",
             "server_port": 80,
             "uuid": "676d18a1-82fc-47ae-a676-a4c348eeaac0",
             "security": "auto",
