@@ -156,15 +156,15 @@
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 10",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 17",
-                "🇬🇧GB | 🟢 | trojan | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+                "🇨🇷CR | 🔴 | vless | @ConfigsHUB | 17",
                 "🇺🇸US | 🔴 | trojan | @proxystore11 | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 1",
-                "🇬🇧GB | 🟢 | vmess | @Hope_Net | 0",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
+                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 0",
+                "🇬🇧GB | 🟢 | vmess | @Hope_Net | 1",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Capoit | 0",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
@@ -233,15 +233,15 @@
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 10",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 17",
-                "🇬🇧GB | 🟢 | trojan | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+                "🇨🇷CR | 🔴 | vless | @ConfigsHUB | 17",
                 "🇺🇸US | 🔴 | trojan | @proxystore11 | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 1",
-                "🇬🇧GB | 🟢 | vmess | @Hope_Net | 0",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
+                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 0",
+                "🇬🇧GB | 🟢 | vmess | @Hope_Net | 1",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Capoit | 0",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
@@ -1502,11 +1502,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 17",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "104.20.195.223",
-            "server_port": 2096,
-            "uuid": "c961566e-aefe-4cfa-b35e-02d57ed203a9",
+            "server": "www.speedtest.net",
+            "server_port": 2086,
+            "uuid": "8f8b5a1a-8ddc-4e88-ace7-7711abcfe21b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1514,43 +1514,32 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "mn.aftabe12.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/Tel:@NT_Safe",
+                "path": "\/Telegram : @JOKERRVPN -Telegram : @JOKERRVPN -Telegram : @JOKERRVPN -Telegram : @JOKERRVPN -Telegram : @JOKERRVPN -Telegram : @JOKERRVPN -Telegram : @JOKERRVPN -Telegram : @JOKERRVPN -Telegram : @JOKERRVPN -Telegram : @JOKERRVPN -Telegram : @JOKERRVPNTelegram : @JOKERRVPN -Telegram : @JOKERRVPN -Telegram : @JOKERRVPN -Telegram : @JOKERRVPN -Telegram : @JOKERRVPN -Telegram : @JOKERRVPN",
                 "headers": {
-                    "Host": "mn.aftabe12.ir"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
         {
-            "tag": "🇬🇧GB | 🟢 | trojan | @ConfigsHUB | 18",
-            "type": "trojan",
-            "server": "13.43.77.107",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns",
+            "tag": "🇨🇷CR | 🔴 | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "190.93.244.113",
+            "server_port": 2082,
+            "uuid": "👉👉👉BanV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "transport": {
+                "type": "ws",
+                "path": "\/www.speedtest.net-www.speedtest.net-www.speedtest.net?ed=2082----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----join.JOKERRVPN----join.JOKERRVPN----join.JOKERRVPN----join.JOKERRVPN----join.JOKERRVPN----join.JOKERRVPN----join.JOKERRVPN----join.JOKERRVPN----join.JOKERRVPN----join.JOKERRVPN",
+                "headers": {
+                    "Host": "190.93.244.113"
                 }
             }
         },
@@ -1704,7 +1693,31 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🟢 | vmess | @Hope_Net | 0",
+            "tag": "🇷🇺RU | 🟢 | vmess | @Hope_Net | 0",
+            "type": "vmess",
+            "server": "176.32.33.158",
+            "server_port": 6191,
+            "uuid": "28f6d888-cbc5-4210-8cd2-b40cf566d9a8",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | 🟢 | vmess | @Hope_Net | 1",
             "type": "vmess",
             "server": "62.112.221.47",
             "server_port": 3939,
@@ -1718,40 +1731,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
-            "type": "vmess",
-            "server": "104.21.84.114",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 1,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "be.hkddisney.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "be.hkddisney.org"
-                }
             }
         },
         {
