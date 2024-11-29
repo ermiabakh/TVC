@@ -378,7 +378,17 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 303",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 0",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 2",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 6",
+                "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 8",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 10",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 11",
+                "🚩CF | 🔴 | vless | @ConfigsHUB | 12",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 15",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
                 "🚩CF | 🔴 | vless | @free1_vpn | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 3",
@@ -735,7 +745,17 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 303",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 0",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 2",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 6",
+                "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 8",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 10",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 11",
+                "🚩CF | 🔴 | vless | @ConfigsHUB | 12",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 15",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
                 "🚩CF | 🔴 | vless | @free1_vpn | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 3",
@@ -7724,7 +7744,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 0",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 2",
             "type": "vless",
             "server": "Zmaoz.Faculty.UcdavIS.Edu",
             "server_port": 443,
@@ -7752,6 +7772,208 @@
                 "headers": {
                     "Host": "Zmaoz.Faculty.UcdavIS.Edu."
                 }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 6",
+            "type": "vless",
+            "server": "hajlab.ucdavis.edu",
+            "server_port": 443,
+            "uuid": "9597cfc7-626a-44f9-9610-d1dd0b9d173d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hajlab.ucdavis.edu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy",
+                "headers": {
+                    "Host": "hajlab.ucdavis.edu"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 8",
+            "type": "vless",
+            "server": "185.146.173.39",
+            "server_port": 443,
+            "uuid": "f57a47bc-e618-45da-dc5f-5a2baf35b8d3",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "chde.black-melo.store",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 10",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "8f8b5a1a-8ddc-4e88-ace7-7711abcfe21b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 11",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2086,
+            "uuid": "8f8b5a1a-8ddc-4e88-ace7-7711abcfe21b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram : @JOKERRVPN -Telegram : @JOKERRVPN -Telegram : @JOKERRVPN -Telegram : @JOKERRVPN -Telegram : @JOKERRVPN -Telegram : @JOKERRVPN -Telegram : @JOKERRVPN -Telegram : @JOKERRVPN -Telegram : @JOKERRVPN -Telegram : @JOKERRVPN -Telegram : @JOKERRVPNTelegram : @JOKERRVPN -Telegram : @JOKERRVPN -Telegram : @JOKERRVPN -Telegram : @JOKERRVPN -Telegram : @JOKERRVPN -Telegram : @JOKERRVPN",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🔴 | vless | @ConfigsHUB | 12",
+            "type": "vless",
+            "server": "190.93.244.113",
+            "server_port": 2082,
+            "uuid": "👉👉👉BanV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/www.speedtest.net-www.speedtest.net-www.speedtest.net?ed=2082----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----join.JOKERRVPN----join.JOKERRVPN----join.JOKERRVPN----join.JOKERRVPN----join.JOKERRVPN----join.JOKERRVPN----join.JOKERRVPN----join.JOKERRVPN----join.JOKERRVPN----join.JOKERRVPN",
+                "headers": {
+                    "Host": "190.93.244.113"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
+            "type": "vless",
+            "server": "phishfilet.cloudflare.com",
+            "server_port": 2095,
+            "uuid": "👉BanV2ray👈",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/www.speedtest.net-www.speedtest.net-www.speedtest.net?ed=2095----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----join.JOKERRVPN----join.JOKERRVPN----join.JOKERRVPN----join.JOKERRVPN----join.JOKERRVPN----join.JOKERRVPN----join.JOKERRVPN----join.JOKERRVPN----join.JOKERRVPN----join.JOKERRVPN",
+                "headers": {
+                    "Host": "phishfilet.cloudflare.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
+            "type": "vless",
+            "server": "apple-carry-relay.cloudflare.com",
+            "server_port": 8080,
+            "uuid": "👉👉BanV2ray👈👈",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/www.speedtest.net-www.speedtest.net-www.speedtest.net?ed=8080----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----join.JOKERRVPN----join.JOKERRVPN----join.JOKERRVPN----join.JOKERRVPN----join.JOKERRVPN----join.JOKERRVPN----join.JOKERRVPN----join.JOKERRVPN----join.JOKERRVPN----join.JOKERRVPN",
+                "headers": {
+                    "Host": "apple-carry-relay.cloudflare.com"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 15",
+            "type": "vless",
+            "server": "baby.bia2bax.shop",
+            "server_port": 443,
+            "uuid": "telegram____v2rayng_76",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "Zula.ir",
+            "server_port": 80,
+            "uuid": "telegram____v2rayng_76",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=2053JOKERRVPN.JOin.JOKERRVPN.JOKERRVPN.JOin.JOKERRVPN.JOKERRVPN.JOin.JOKERRVPN.JOKERRVPN.JOin.JOKERRVPN.JOKERRVPN.JOin.JOKERRVPN.JOKERRVPN.JOin.JOKERRVPN.JOKERRVPN.JOin.JOKERRVPN.JOKERRVPN.JOin.JOKERRVPN.",
+                "headers": {
+                    "Host": "Zula.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2086,
+            "uuid": "1aec5652-d892-46ff-8e83-7720ccd9208c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
