@@ -117,7 +117,7 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 10",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 0",
+                "🇱🇻LV | 🟢 | vless | @ConfigsHUB | 15",
                 "🇩🇪DE | 🟢 | vless | @mehrosaboran | 5",
                 "🇩🇪DE | 🟢 | vless | @nofiltering2 | 1",
                 "🇩🇪DE | 🟢 | vless | @nofiltering2 | 8",
@@ -154,7 +154,7 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 10",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 0",
+                "🇱🇻LV | 🟢 | vless | @ConfigsHUB | 15",
                 "🇩🇪DE | 🟢 | vless | @mehrosaboran | 5",
                 "🇩🇪DE | 🟢 | vless | @nofiltering2 | 1",
                 "🇩🇪DE | 🟢 | vless | @nofiltering2 | 8",
@@ -476,11 +476,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 0",
+            "tag": "🇱🇻LV | 🟢 | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "188.245.163.79",
-            "server_port": 1621,
-            "uuid": "24f65efb-4885-4e3c-b598-f70336ce8c63",
+            "server": "45.91.193.247",
+            "server_port": 8495,
+            "uuid": "b6067899-8c64-4e83-8ec9-b0abeef1596f",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -490,7 +490,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "wwww.refersion.com",
+                "server_name": "icloud.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -499,9 +499,16 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0",
-                    "short_id": "3a622700e73c6642"
+                    "public_key": "bJ7kNh4nOLMQjV737Rud9sDqdNE2vYx_hlYFD82-1Qc",
+                    "short_id": "acbc173b1eef54b5"
                 }
+            },
+            "transport": {
+                "type": "http",
+                "host": [
+                    "icloud.com"
+                ],
+                "path": "\/"
             }
         },
         {
