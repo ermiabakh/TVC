@@ -117,8 +117,7 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 10",
-                "🇱🇻LV | 🟢 | vless | @ConfigsHUB | 3",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 11",
+                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 6",
                 "🇩🇪DE | 🟢 | vless | @mehrosaboran | 0",
                 "🇩🇪DE | 🟢 | vless | @nofiltering2 | 1",
                 "🇩🇪DE | 🟢 | vless | @nofiltering2 | 8",
@@ -137,7 +136,7 @@
                 "❔XX | 🔴 | vless | @vpn_go67 | 19",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "🇩🇪DE | 🟢 | vless | @kingofilter | 9"
+                "🇩🇪DE | 🟢 | vless | @kingofilter | 10"
             ]
         },
         {
@@ -155,8 +154,7 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 10",
-                "🇱🇻LV | 🟢 | vless | @ConfigsHUB | 3",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 11",
+                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 6",
                 "🇩🇪DE | 🟢 | vless | @mehrosaboran | 0",
                 "🇩🇪DE | 🟢 | vless | @nofiltering2 | 1",
                 "🇩🇪DE | 🟢 | vless | @nofiltering2 | 8",
@@ -175,7 +173,7 @@
                 "❔XX | 🔴 | vless | @vpn_go67 | 19",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "🇩🇪DE | 🟢 | vless | @kingofilter | 9"
+                "🇩🇪DE | 🟢 | vless | @kingofilter | 10"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -478,11 +476,11 @@
             }
         },
         {
-            "tag": "🇱🇻LV | 🟢 | vless | @ConfigsHUB | 3",
+            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 6",
             "type": "vless",
-            "server": "45.91.193.247",
-            "server_port": 8495,
-            "uuid": "b6067899-8c64-4e83-8ec9-b0abeef1596f",
+            "server": "172.233.182.32",
+            "server_port": 80,
+            "uuid": "ef27e62d-91bd-4676-b9ce-8743a73eda07",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -492,7 +490,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "icloud.com",
+                "server_name": "zula.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -501,44 +499,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "bJ7kNh4nOLMQjV737Rud9sDqdNE2vYx_hlYFD82-1Qc",
-                    "short_id": "acbc173b1eef54b5"
-                }
-            },
-            "transport": {
-                "type": "http",
-                "host": [
-                    "icloud.com"
-                ],
-                "path": "\/"
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 11",
-            "type": "vless",
-            "server": "188.245.90.214",
-            "server_port": 1633,
-            "uuid": "4ef45945-6cb5-4e05-a6de-4d2c9d58b45f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ANlgAsYC8HmKfJnc5SFvru822urkxG1PzW1Zw4Vbm0Q",
-                    "short_id": "9bc0a55a5379c0ed"
+                    "public_key": "BVimgXtKkQ2Q6EpG8uKYTpySrNxEeIqVhdsxi5U5qRU",
+                    "short_id": "94aa1bdc"
                 }
             }
         },
@@ -1170,7 +1132,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @kingofilter | 9",
+            "tag": "🇩🇪DE | 🟢 | vless | @kingofilter | 10",
             "type": "vless",
             "server": "188.245.67.23",
             "server_port": 50875,
