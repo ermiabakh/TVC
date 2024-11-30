@@ -108,8 +108,8 @@
                 "URL-TEST",
                 "🇺🇸US | 🔴 | vless | @EliV2ray | 2",
                 "🇺🇸US | 🔴 | vless | @EliV2ray | 3",
-                "🇺🇸US | 🔴 | vless | @Parsashonam | 35",
-                "🇸🇪SE | 🔴 | vless | @Parsashonam | 36",
+                "🇺🇸US | 🔴 | vless | @Parsashonam | 40",
+                "🇸🇪SE | 🔴 | vless | @Parsashonam | 41",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 13",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 14",
@@ -151,8 +151,7 @@
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 10",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 10",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 1",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
@@ -176,8 +175,8 @@
             "outbounds": [
                 "🇺🇸US | 🔴 | vless | @EliV2ray | 2",
                 "🇺🇸US | 🔴 | vless | @EliV2ray | 3",
-                "🇺🇸US | 🔴 | vless | @Parsashonam | 35",
-                "🇸🇪SE | 🔴 | vless | @Parsashonam | 36",
+                "🇺🇸US | 🔴 | vless | @Parsashonam | 40",
+                "🇸🇪SE | 🔴 | vless | @Parsashonam | 41",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 13",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 14",
@@ -219,8 +218,7 @@
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 10",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 10",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 1",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
@@ -310,11 +308,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Parsashonam | 35",
+            "tag": "🇺🇸US | 🔴 | vless | @Parsashonam | 40",
             "type": "vless",
             "server": "Zmaoz.Faculty.Ucdavis.Edu",
             "server_port": 443,
-            "uuid": "Parsashonam-112",
+            "uuid": "Parsashonam-111",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -341,11 +339,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @Parsashonam | 36",
+            "tag": "🇸🇪SE | 🔴 | vless | @Parsashonam | 41",
             "type": "vless",
             "server": "185.146.173.39",
             "server_port": 8880,
-            "uuid": "Parsashonam-112",
+            "uuid": "Parsashonam-111",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1400,11 +1398,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 10",
             "type": "vless",
-            "server": "NUFiLTER.fastly80-2.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "TELEGRAM-NUFiLTER",
+            "server": "Zmaoz.Faculty.UcdavIS.Edu",
+            "server_port": 443,
+            "uuid": "3c0f245a-33a0-4492-9cd0-56dfa471bff9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1412,32 +1410,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
-                "headers": {
-                    "Host": "NUFiLTER.fastly80-2.hosting-ip.com"
+            "tls": {
+                "enabled": true,
+                "server_name": "Zmaoz.Faculty.UcdavIS.Edu.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
-            "type": "vless",
-            "server": "NUFiLTER.fastly80-3.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "TELEGRAM-NUFiLTER",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
+                "path": "\/@melov2ray\/ws?e@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpnd=2048",
                 "headers": {
-                    "Host": "NUFiLTER.fastly80-3.hosting-ip.com"
+                    "Host": "Zmaoz.Faculty.UcdavIS.Edu."
                 }
             }
         },
