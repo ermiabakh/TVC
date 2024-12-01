@@ -382,15 +382,10 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 0",
-                "🚩CF | 🔴 | vless | @ConfigsHUB | 4",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 5",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 6",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 10",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 11",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 12",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 1",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 2",
+                "🚩CF | 🔴 | vless | @ConfigsHUB | 7",
+                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 8",
                 "🚩CF | 🔴 | vless | @free1_vpn | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 3",
@@ -743,15 +738,10 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 0",
-                "🚩CF | 🔴 | vless | @ConfigsHUB | 4",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 5",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 6",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 10",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 11",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 12",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 1",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 2",
+                "🚩CF | 🔴 | vless | @ConfigsHUB | 7",
+                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 8",
                 "🚩CF | 🔴 | vless | @free1_vpn | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 3",
@@ -7829,11 +7819,11 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @ConfigsHUB | 4",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 1",
             "type": "vless",
-            "server": "172.66.46.224",
-            "server_port": 8443,
-            "uuid": "1a1eff5f-97b8-4a4e-910d-6415441b371a",
+            "server": "hajlab.ucdavis.edu",
+            "server_port": 443,
+            "uuid": "8c7c2da6-e2fa-436c-acaf-82dc7844281c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -7843,7 +7833,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "trojanyu.pages.dev",
+                "server_name": "hajlab.ucdavis.edu",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -7853,60 +7843,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram@V2ray_Alpha\/?ed=2560",
+                "path": "\/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy",
                 "headers": {
-                    "Host": "trojanyu.pages.dev"
+                    "Host": "hajlab.ucdavis.edu"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 5",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 2",
             "type": "vless",
-            "server": "NUFiLTER.fastly80-3.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "7eff4fc0-ea3f-474d-b592-8bf73eadf282",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
-                "headers": {
-                    "Host": "NUFiLTER.fastly80-3.hosting-ip.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 6",
-            "type": "vless",
-            "server": "NUFiLTER.fastly80.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "f7705548-b6d1-4abe-af87-9ebba4805bb6",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
-                "headers": {
-                    "Host": "NUFiLTER.fastly80.hosting-ip.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 10",
-            "type": "vless",
-            "server": "funnelytics.io",
-            "server_port": 8443,
-            "uuid": "--V2RAXX--",
+            "server": "hajlab.ucdavis.edu",
+            "server_port": 443,
+            "uuid": "29775784-6321-469b-b042-4af70028a0f6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -7916,7 +7864,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "join-bede-V2RAXX-www-speedtest-net.amalfatm.ir",
+                "server_name": "hajlab.ucdavis.edu",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -7926,49 +7874,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram,V2RAXX?ed=2480",
+                "path": "\/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy",
                 "headers": {
-                    "Host": "join-bede-V2RAXX-www-speedtest-net.amalfatm.ir"
+                    "Host": "hajlab.ucdavis.edu"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 11",
+            "tag": "🚩CF | 🔴 | vless | @ConfigsHUB | 7",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8443,
-            "uuid": "--V2RAXX--",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "join-bede-V2RAXX-www-speedtest-net.amalfatm.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram,V2RAXX?ed=2480",
-                "headers": {
-                    "Host": "join-bede-V2RAXX-www-speedtest-net.amalfatm.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 12",
-            "type": "vless",
-            "server": "nl.fastly80-2.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "454acc24-08de-42f5-a408-11b40625adb0",
+            "server": "104.17.148.22",
+            "server_port": 8880,
+            "uuid": "83434f95-be2c-40c1-8add-0d6ca8db4552",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -7980,70 +7897,36 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "nl.fastly80-2.hosting-ip.com"
+                    "Host": "104.17.148.22"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
+            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 8",
             "type": "vless",
-            "server": "EXPRESSVPN_420.fastly80-3.hosting-ip.com",
+            "server": "172.233.186.231",
             "server_port": 80,
-            "uuid": "Channel-@ExpressVPN_420",
-            "flow": "",
+            "uuid": "ef27e62d-91bd-4676-b9ce-8743a73eda07",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/@EXPRESSVPN_420------@EXPRESSVPN_420------@EXPRESSVPN_420------@EXPRESSVPN_420------@EXPRESSVPN_420------@EXPRESSVPN_420------@EXPRESSVPN_420------@EXPRESSVPN_420------@EXPRESSVPN_420?ed=2560",
-                "headers": {
-                    "Host": "EXPRESSVPN_420.fastly80-3.hosting-ip.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "d02020d2-9d20-4524-883e-3f6567a30977",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-PROXY_MTM-PROXY_MTM",
-                "headers": {
-                    "Host": "151.101.3.8"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "d02020d2-9d20-4524-883e-3f6567a30977",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-PROXY_MTM-PROXY_MTM?ed=2560",
-                "headers": {
-                    "Host": "151.101.3.8"
+            "tls": {
+                "enabled": true,
+                "server_name": "zula.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BVimgXtKkQ2Q6EpG8uKYTpySrNxEeIqVhdsxi5U5qRU",
+                    "short_id": "94aa1bdc"
                 }
             }
         },
