@@ -106,7 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
+                "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 13",
+                "❔XX | 🟢 | vless | @mehrosaboran | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ]
@@ -115,7 +116,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
+                "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 13",
+                "❔XX | 🟢 | vless | @mehrosaboran | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ],
@@ -140,7 +142,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
+            "tag": "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 13",
             "type": "vless",
             "server": "95.217.31.246",
             "server_port": 18929,
@@ -165,6 +167,35 @@
                     "enabled": true,
                     "public_key": "rFZOWxVcsZn5--1yLku3SGglZ0Y2Ban0buZIN3-vFwU",
                     "short_id": "cfef326c"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @mehrosaboran | 8",
+            "type": "vless",
+            "server": "188.245.162.16",
+            "server_port": 6543,
+            "uuid": "bfed7c40-7878-4ee5-a8db-8b9d0c546bea",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "T80OrhSLwBQrXvbS8fh97IXOu37wRXT0ZEfVYu-FEDo",
+                    "short_id": "ddb79eb6fb"
                 }
             }
         },
