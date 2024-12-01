@@ -120,9 +120,6 @@
                 "🇩🇪DE | 🟢 | vmess | @v2ray1_ng | 1",
                 "🇫🇷FR | 🟢 | vmess | @v2ray1_ng | 2",
                 "❔XX | 🟢 | vmess | @vless_vmess | 14",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 8",
-                "🚩CF | 🟢 | vmess | @ConfigsHUB | 12",
-                "🚩CF | 🟢 | vmess | @ConfigsHUB | 14",
                 "🇮🇷IR | 🟢 | vmess | @proxystore11 | 1",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
@@ -157,9 +154,6 @@
                 "🇩🇪DE | 🟢 | vmess | @v2ray1_ng | 1",
                 "🇫🇷FR | 🟢 | vmess | @v2ray1_ng | 2",
                 "❔XX | 🟢 | vmess | @vless_vmess | 14",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 8",
-                "🚩CF | 🟢 | vmess | @ConfigsHUB | 12",
-                "🚩CF | 🟢 | vmess | @ConfigsHUB | 14",
                 "🇮🇷IR | 🟢 | vmess | @proxystore11 | 1",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
@@ -481,78 +475,6 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "cs.putihb.org"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 8",
-            "type": "vmess",
-            "server": "7cRom.c6tu5uwk9.buzz",
-            "server_port": 80,
-            "uuid": "53598401-31e1-4ce3-bb2e-6c00a8fc3e01",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vmess | @ConfigsHUB | 12",
-            "type": "vmess",
-            "server": "104.17.148.22",
-            "server_port": 2095,
-            "uuid": "278e7536-3a5b-4205-a7f9-ac97c1e994a7",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/aVa-pC.coM.ZoomiT.iR?ed=1024",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vmess | @ConfigsHUB | 14",
-            "type": "vmess",
-            "server": "104.16.155.10",
-            "server_port": 2082,
-            "uuid": "1c713b69-0abe-3a1e-bf70-b0579ea2f772",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/dabai.in172.64.25.37",
-                "headers": {
-                    "Host": ""
                 }
             }
         },
