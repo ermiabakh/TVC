@@ -123,6 +123,7 @@ proxies:
   - {"name":"🇸🇪SE | 🟢 | trojan | @DirectVPN | 14","type":"trojan","server":"13.49.122.183","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇸🇪SE | 🟢 | trojan | @DirectVPN | 15","type":"trojan","server":"16.16.44.73","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇺🇸US | 🔴 | trojan | @v2ray1_ng | 16","type":"trojan","server":"141.101.114.52","port":443,"udp":false,"password":"bpb-trojan","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"fcspring.ggff.net"}
+  - {"name":"🇺🇸US | 🔴 | trojan | @ConfigsHUB | 14","type":"trojan","server":"104.18.170.217","port":443,"udp":false,"password":"blue2024","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"ha.lii2010.us.kg"}
   - {"name":"🇺🇸US | 🔴 | trojan | @proxystore11 | 2","type":"trojan","server":"104.17.102.149","port":2053,"udp":false,"password":"bpb-trojan","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"bpb-WorkEr-panel-bcr.PagEs.DEv"}
 proxy-groups:
   - name: MANUAL
@@ -135,6 +136,7 @@ proxy-groups:
       - '🇸🇪SE | 🟢 | trojan | @DirectVPN | 14'
       - '🇸🇪SE | 🟢 | trojan | @DirectVPN | 15'
       - '🇺🇸US | 🔴 | trojan | @v2ray1_ng | 16'
+      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 14'
       - '🇺🇸US | 🔴 | trojan | @proxystore11 | 2'
   - name: URL-TEST
     type: url-test
@@ -147,6 +149,7 @@ proxy-groups:
       - '🇸🇪SE | 🟢 | trojan | @DirectVPN | 14'
       - '🇸🇪SE | 🟢 | trojan | @DirectVPN | 15'
       - '🇺🇸US | 🔴 | trojan | @v2ray1_ng | 16'
+      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 14'
       - '🇺🇸US | 🔴 | trojan | @proxystore11 | 2'
   - name: FALLBACK
     type: fallback
@@ -158,6 +161,7 @@ proxy-groups:
       - '🇸🇪SE | 🟢 | trojan | @DirectVPN | 14'
       - '🇸🇪SE | 🟢 | trojan | @DirectVPN | 15'
       - '🇺🇸US | 🔴 | trojan | @v2ray1_ng | 16'
+      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 14'
       - '🇺🇸US | 🔴 | trojan | @proxystore11 | 2'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
