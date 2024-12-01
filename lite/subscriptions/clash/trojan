@@ -122,8 +122,8 @@ proxies:
   - {"name":"🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 16","type":"trojan","server":"18.156.97.140","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇸🇪SE | 🟢 | trojan | @DirectVPN | 15","type":"trojan","server":"51.20.163.40","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇸🇪SE | 🟢 | trojan | @DirectVPN | 16","type":"trojan","server":"13.48.114.146","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇺🇸US | 🔴 | trojan | @v2ray1_ng | 16","type":"trojan","server":"141.101.114.52","port":443,"udp":false,"password":"bpb-trojan","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"fcspring.ggff.net"}
-  - {"name":"🇺🇸US | 🔴 | trojan | @ConfigsHUB | 17","type":"trojan","server":"104.17.234.12","port":443,"udp":false,"password":"Telegram-VPNCUSTOMIZE","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"1.2.3.4.5.6.7.8.9.10.www.speedtest.net.VPNCUSTOMIZE.abrha.co.za"}
+  - {"name":"🇺🇸US | 🔴 | trojan | @ConfigsHUB | 7","type":"trojan","server":"18.220.137.43","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇮🇪IE | 🔴 | trojan | @ConfigsHUB | 8","type":"trojan","server":"54.74.139.127","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇺🇸US | 🔴 | trojan | @proxystore11 | 2","type":"trojan","server":"104.17.102.149","port":2053,"udp":false,"password":"bpb-trojan","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"bpb-WorkEr-panel-bcr.PagEs.DEv"}
 proxy-groups:
   - name: MANUAL
@@ -135,8 +135,8 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 16'
       - '🇸🇪SE | 🟢 | trojan | @DirectVPN | 15'
       - '🇸🇪SE | 🟢 | trojan | @DirectVPN | 16'
-      - '🇺🇸US | 🔴 | trojan | @v2ray1_ng | 16'
-      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 17'
+      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 7'
+      - '🇮🇪IE | 🔴 | trojan | @ConfigsHUB | 8'
       - '🇺🇸US | 🔴 | trojan | @proxystore11 | 2'
   - name: URL-TEST
     type: url-test
@@ -148,8 +148,8 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 16'
       - '🇸🇪SE | 🟢 | trojan | @DirectVPN | 15'
       - '🇸🇪SE | 🟢 | trojan | @DirectVPN | 16'
-      - '🇺🇸US | 🔴 | trojan | @v2ray1_ng | 16'
-      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 17'
+      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 7'
+      - '🇮🇪IE | 🔴 | trojan | @ConfigsHUB | 8'
       - '🇺🇸US | 🔴 | trojan | @proxystore11 | 2'
   - name: FALLBACK
     type: fallback
@@ -160,8 +160,8 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 16'
       - '🇸🇪SE | 🟢 | trojan | @DirectVPN | 15'
       - '🇸🇪SE | 🟢 | trojan | @DirectVPN | 16'
-      - '🇺🇸US | 🔴 | trojan | @v2ray1_ng | 16'
-      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 17'
+      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 7'
+      - '🇮🇪IE | 🔴 | trojan | @ConfigsHUB | 8'
       - '🇺🇸US | 🔴 | trojan | @proxystore11 | 2'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
