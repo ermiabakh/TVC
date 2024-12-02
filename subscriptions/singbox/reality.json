@@ -117,6 +117,7 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 4",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
+                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 4",
                 "🇩🇪DE | 🟢 | vless | @mehrosaboran | 9",
                 "🇩🇪DE | 🟢 | vless | @nofiltering2 | 3",
                 "🇩🇪DE | 🟢 | vless | @nofiltering2 | 10",
@@ -153,6 +154,7 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 4",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
+                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 4",
                 "🇩🇪DE | 🟢 | vless | @mehrosaboran | 9",
                 "🇩🇪DE | 🟢 | vless | @nofiltering2 | 3",
                 "🇩🇪DE | 🟢 | vless | @nofiltering2 | 10",
@@ -471,6 +473,35 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 4",
+            "type": "vless",
+            "server": "51.158.241.51",
+            "server_port": 443,
+            "uuid": "057090b8-dcc7-481c-9f87-1c15a6bb0086",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "RaNQIPwfe3N1-BhJ7WKLO90aYcu46xeCJZiFYAbyFWs",
+                    "short_id": "42"
+                }
             }
         },
         {
