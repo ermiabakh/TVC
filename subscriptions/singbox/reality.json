@@ -117,6 +117,7 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 4",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
+                "🇭🇺HU | 🟢 | vless | @ConfigsHUB | 9",
                 "🇩🇪DE | 🟢 | vless | @nofiltering2 | 5",
                 "🇩🇪DE | 🟢 | vless | @nofiltering2 | 12",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
@@ -152,6 +153,7 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 4",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
+                "🇭🇺HU | 🟢 | vless | @ConfigsHUB | 9",
                 "🇩🇪DE | 🟢 | vless | @nofiltering2 | 5",
                 "🇩🇪DE | 🟢 | vless | @nofiltering2 | 12",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
@@ -469,6 +471,35 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇭🇺HU | 🟢 | vless | @ConfigsHUB | 9",
+            "type": "vless",
+            "server": "5.182.38.165",
+            "server_port": 443,
+            "uuid": "c4e32b22-f0ee-47aa-abef-373cf35bc1ba",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "EsvkKogbRPn7YK-U5Rx5G5Q255VDmJMY4TU37KTVN14",
+                    "short_id": "1be095b3"
+                }
             }
         },
         {
