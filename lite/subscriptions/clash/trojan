@@ -118,10 +118,11 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 12","type":"trojan","server":"13.48.199.142","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 13","type":"trojan","server":"54.220.73.232","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇨🇦CA | 🟢 | trojan | @DirectVPN | 12","type":"trojan","server":"35.182.152.115","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇮🇪IE | 🟢 | trojan | @DirectVPN | 13","type":"trojan","server":"34.248.57.97","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 12","type":"trojan","server":"16.170.58.228","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 13","type":"trojan","server":"13.48.199.142","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇨🇦CA | 🟢 | trojan | @DirectVPN | 12","type":"trojan","server":"3.96.40.193","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇨🇦CA | 🟢 | trojan | @DirectVPN | 13","type":"trojan","server":"35.182.152.115","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇬🇧GB | 🟢 | trojan | @ConfigsHUB | 17","type":"trojan","server":"3.10.46.244","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇺🇸US | 🔴 | trojan | @proxystore11 | 2","type":"trojan","server":"104.17.102.149","port":2053,"udp":false,"password":"bpb-trojan","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"bpb-WorkEr-panel-bcr.PagEs.DEv"}
 proxy-groups:
   - name: MANUAL
@@ -130,9 +131,10 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 12'
-      - '🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 13'
+      - '🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 13'
       - '🇨🇦CA | 🟢 | trojan | @DirectVPN | 12'
-      - '🇮🇪IE | 🟢 | trojan | @DirectVPN | 13'
+      - '🇨🇦CA | 🟢 | trojan | @DirectVPN | 13'
+      - '🇬🇧GB | 🟢 | trojan | @ConfigsHUB | 17'
       - '🇺🇸US | 🔴 | trojan | @proxystore11 | 2'
   - name: URL-TEST
     type: url-test
@@ -141,9 +143,10 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 12'
-      - '🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 13'
+      - '🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 13'
       - '🇨🇦CA | 🟢 | trojan | @DirectVPN | 12'
-      - '🇮🇪IE | 🟢 | trojan | @DirectVPN | 13'
+      - '🇨🇦CA | 🟢 | trojan | @DirectVPN | 13'
+      - '🇬🇧GB | 🟢 | trojan | @ConfigsHUB | 17'
       - '🇺🇸US | 🔴 | trojan | @proxystore11 | 2'
   - name: FALLBACK
     type: fallback
@@ -151,9 +154,10 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 12'
-      - '🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 13'
+      - '🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 13'
       - '🇨🇦CA | 🟢 | trojan | @DirectVPN | 12'
-      - '🇮🇪IE | 🟢 | trojan | @DirectVPN | 13'
+      - '🇨🇦CA | 🟢 | trojan | @DirectVPN | 13'
+      - '🇬🇧GB | 🟢 | trojan | @ConfigsHUB | 17'
       - '🇺🇸US | 🔴 | trojan | @proxystore11 | 2'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
