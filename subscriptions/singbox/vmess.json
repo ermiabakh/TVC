@@ -136,7 +136,6 @@
                 "🚩CF | 🟢 | vmess | @Hope_Net | 7",
                 "🇨🇭CH | 🟢 | vmess | @Hope_Net | 8",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 9",
-                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 10",
                 "🇺🇸US | 🟢 | vmess | @ISVvpn | 1"
             ]
         },
@@ -174,7 +173,6 @@
                 "🚩CF | 🟢 | vmess | @Hope_Net | 7",
                 "🇨🇭CH | 🟢 | vmess | @Hope_Net | 8",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 9",
-                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 10",
                 "🇺🇸US | 🟢 | vmess | @ISVvpn | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -909,30 +907,6 @@
                 "path": "\/link",
                 "headers": {
                     "Host": "hms02.fxiaomi.sbs"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺RU | 🟢 | vmess | @Hope_Net | 10",
-            "type": "vmess",
-            "server": "195.58.49.12",
-            "server_port": 9696,
-            "uuid": "8765b365-4d13-4b15-b5cb-74a8a18b2260",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "195.58.49.12"
                 }
             }
         },
