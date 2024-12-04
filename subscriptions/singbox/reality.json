@@ -119,8 +119,6 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 4",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 2",
-                "🇱🇹LT | 🟢 | vless | @ConfigsHUB | 3",
                 "🇩🇪DE | 🟢 | vless | @nofiltering2 | 11",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
@@ -157,8 +155,6 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 4",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 2",
-                "🇱🇹LT | 🟢 | vless | @ConfigsHUB | 3",
                 "🇩🇪DE | 🟢 | vless | @nofiltering2 | 11",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
@@ -533,71 +529,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 2",
-            "type": "vless",
-            "server": "109.207.172.250",
-            "server_port": 8443,
-            "uuid": "45a338ad-8f40-480f-8641-838ca506048d",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "CYBGB_3dVOVGYtE1KZ93CVOU0amfsNnAAvHdrQ_2-Gw",
-                    "short_id": "971ce8"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "JoinBadeChannel@antimeli",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇱🇹LT | 🟢 | vless | @ConfigsHUB | 3",
-            "type": "vless",
-            "server": "78.153.131.50",
-            "server_port": 443,
-            "uuid": "JetVPN_8109552",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ya.ru",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "nqIuId8VP2nndCLo9lcT39Th6T8SVMtMK6pdLn0bX3s",
-                    "short_id": "ffffffffff"
-                }
             }
         },
         {
