@@ -112,9 +112,8 @@
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇩🇪DE | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
-                "🇺🇸US | 🟢 | vless | @customv2ray | 6",
-                "🇷🇺RU | 🟢 | vless | @customv2ray | 9",
-                "🇦🇪AE | 🟢 | vless | @customv2ray | 16",
+                "🇷🇺RU | 🟢 | vless | @customv2ray | 0",
+                "🇺🇸US | 🟢 | vless | @customv2ray | 13",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 1",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 4",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
@@ -149,9 +148,8 @@
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇩🇪DE | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
-                "🇺🇸US | 🟢 | vless | @customv2ray | 6",
-                "🇷🇺RU | 🟢 | vless | @customv2ray | 9",
-                "🇦🇪AE | 🟢 | vless | @customv2ray | 16",
+                "🇷🇺RU | 🟢 | vless | @customv2ray | 0",
+                "🇺🇸US | 🟢 | vless | @customv2ray | 13",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 1",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 4",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
@@ -391,36 +389,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @customv2ray | 6",
-            "type": "vless",
-            "server": "cdnplus31.mandirectdom.shop",
-            "server_port": 80,
-            "uuid": "ef27e62d-91bd-4676-b9ce-8743a73eda07",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "zula.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "BVimgXtKkQ2Q6EpG8uKYTpySrNxEeIqVhdsxi5U5qRU",
-                    "short_id": "94aa1bdc"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺RU | 🟢 | vless | @customv2ray | 9",
+            "tag": "🇷🇺RU | 🟢 | vless | @customv2ray | 0",
             "type": "vless",
             "server": "dowillwe.soon.it",
             "server_port": 37665,
@@ -449,11 +418,11 @@
             }
         },
         {
-            "tag": "🇦🇪AE | 🟢 | vless | @customv2ray | 16",
+            "tag": "🇺🇸US | 🟢 | vless | @customv2ray | 13",
             "type": "vless",
-            "server": "uae.kitten-tube.com",
-            "server_port": 443,
-            "uuid": "414df689-dc19-418b-849c-f0f15967d71e",
+            "server": "cdnplus31.mandirectdom.shop",
+            "server_port": 80,
+            "uuid": "ef27e62d-91bd-4676-b9ce-8743a73eda07",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -463,7 +432,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "adobe.com",
+                "server_name": "zula.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -472,8 +441,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "ljzfoaXVBSNu3tw58-B0WNViso1aA9JSCX9GUcMDu0k",
-                    "short_id": "4048A3da"
+                    "public_key": "BVimgXtKkQ2Q6EpG8uKYTpySrNxEeIqVhdsxi5U5qRU",
+                    "short_id": "94aa1bdc"
                 }
             }
         },
