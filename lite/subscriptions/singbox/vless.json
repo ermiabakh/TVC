@@ -150,8 +150,7 @@
                 "🇳🇱NL | 🔴 | vless | @VmessProtocol | 14",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 268",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 269",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
@@ -216,8 +215,7 @@
                 "🇳🇱NL | 🔴 | vless | @VmessProtocol | 14",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 268",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 269",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
@@ -1400,25 +1398,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2095,
-            "uuid": "DIGIV2RAY",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2095,
-            "uuid": "DIGIV2RAY",
+            "server": "hajlab.ucdavis.edu",
+            "server_port": 443,
+            "uuid": "ac50108f-6fd7-4697-aab3-39652cb13471",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1426,11 +1410,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "hajlab.ucdavis.edu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/tm-Digiv2-__teldIGIv2__-DIGiv",
+                "path": "\/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "hajlab.ucdavis.edu"
                 }
             }
         },
