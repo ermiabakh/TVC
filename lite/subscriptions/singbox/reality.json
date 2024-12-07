@@ -107,7 +107,6 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ]
@@ -117,7 +116,6 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ],
@@ -167,35 +165,6 @@
                     "enabled": true,
                     "public_key": "rFZOWxVcsZn5--1yLku3SGglZ0Y2Ban0buZIN3-vFwU",
                     "short_id": "cfef326c"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "128.140.35.236",
-            "server_port": 50713,
-            "uuid": "dab8ab46-5071-4d95-ac9b-bb469d6599fc",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "nobitex.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "03oIukhEmNzMAGZWqcNLAHHjcVX0jLqRSa3ocMuskQY",
-                    "short_id": "88417bc4"
                 }
             }
         },
