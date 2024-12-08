@@ -146,8 +146,8 @@
                 "🇳🇱NL | 🟢 | vless | @VmessProtocol | 16",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 285",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 286",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 8",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 9",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 8",
@@ -209,8 +209,8 @@
                 "🇳🇱NL | 🟢 | vless | @VmessProtocol | 16",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 285",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 286",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 8",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 9",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 8",
@@ -1226,11 +1226,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 8",
             "type": "vless",
-            "server": "151.101.3.8",
+            "server": "A12.fastly80.hosting-ip.com",
             "server_port": 80,
-            "uuid": "6ebc5b56-e760-43a1-9055-c7923a6139dd",
+            "uuid": "TELEGRAM-iDd-NUFiLTER",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1240,30 +1240,38 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray?ed=443",
+                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=80",
                 "headers": {
-                    "Host": "151.101.3.8"
+                    "Host": "A12.fastly80.hosting-ip.com"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 9",
             "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "0132f1cf-f66c-4252-a052-3aa4edade4ec",
-            "flow": "",
+            "server": "radatlyp.zitaaistyle.org",
+            "server_port": 8904,
+            "uuid": "ae2470e5-9f6f-443a-b6e5-60bbf6a57b71",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray?ed=443",
-                "headers": {
-                    "Host": "151.101.3.8"
+            "tls": {
+                "enabled": true,
+                "server_name": "www.refersion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BGdko8WV5qMUDUPvShoJxEFnXI-9RS2CXhsM_miuQAk",
+                    "short_id": "b873eea205991374"
                 }
             }
         },
