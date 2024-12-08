@@ -149,6 +149,8 @@ proxies:
   - {"name":"🇬🇧GB | 🟢 | trojan | @DirectVPN | 11","type":"trojan","server":"18.134.107.8","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇬🇧GB | 🟢 | trojan | @DirectVPN | 12","type":"trojan","server":"3.9.203.99","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | 🟢 | trojan | @DirectVPN | 13","type":"trojan","server":"35.181.158.51","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇫🇷FR | 🟢 | trojan | @DirectVPN | 14","type":"trojan","server":"13.37.35.58","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇸🇪SE | 🟢 | trojan | @DirectVPN | 15","type":"trojan","server":"13.50.166.29","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇷🇺RU | 🔴 | trojan | @VmessProtocol | 10","type":"trojan","server":"get.fragmentary.info","port":443,"udp":false,"password":"PU3f7528NtNXnQqb9X263rGSD","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"get.fragmentary.info"}
 proxy-groups:
   - name: MANUAL
@@ -187,6 +189,8 @@ proxy-groups:
       - '🇬🇧GB | 🟢 | trojan | @DirectVPN | 11'
       - '🇬🇧GB | 🟢 | trojan | @DirectVPN | 12'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 13'
+      - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 14'
+      - '🇸🇪SE | 🟢 | trojan | @DirectVPN | 15'
       - '🇷🇺RU | 🔴 | trojan | @VmessProtocol | 10'
   - name: URL-TEST
     type: url-test
@@ -225,6 +229,8 @@ proxy-groups:
       - '🇬🇧GB | 🟢 | trojan | @DirectVPN | 11'
       - '🇬🇧GB | 🟢 | trojan | @DirectVPN | 12'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 13'
+      - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 14'
+      - '🇸🇪SE | 🟢 | trojan | @DirectVPN | 15'
       - '🇷🇺RU | 🔴 | trojan | @VmessProtocol | 10'
   - name: FALLBACK
     type: fallback
@@ -262,6 +268,8 @@ proxy-groups:
       - '🇬🇧GB | 🟢 | trojan | @DirectVPN | 11'
       - '🇬🇧GB | 🟢 | trojan | @DirectVPN | 12'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 13'
+      - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 14'
+      - '🇸🇪SE | 🟢 | trojan | @DirectVPN | 15'
       - '🇷🇺RU | 🔴 | trojan | @VmessProtocol | 10'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
