@@ -143,10 +143,9 @@
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 8",
                 "❔XX | 🔴 | vless | @MTConfig | 13",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 13",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 298",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 299",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 300",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 12",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
@@ -206,10 +205,9 @@
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 8",
                 "❔XX | 🔴 | vless | @MTConfig | 13",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 13",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 298",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 299",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 300",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 12",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
@@ -1157,28 +1155,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 299",
-            "type": "vless",
-            "server": "hajlab.ucdavis.edu",
-            "server_port": 80,
-            "uuid": "5e1ccc49-5a88-46ad-88d9-ccff2bf0abd5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "hajlab.ucdavis.edu"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 300",
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 298",
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
             "server_port": 443,
@@ -1209,11 +1186,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 299",
             "type": "vless",
-            "server": "151.101.3.8",
+            "server": "hajlab.ucdavis.edu",
             "server_port": 80,
-            "uuid": "e9978c18-0465-47e8-9c20-63d5549c8a60",
+            "uuid": "5e1ccc49-5a88-46ad-88d9-ccff2bf0abd5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1223,18 +1200,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray?ed=443",
+                "path": "\/",
                 "headers": {
-                    "Host": "151.101.3.8"
+                    "Host": "hajlab.ucdavis.edu"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 12",
             "type": "vless",
-            "server": "151.101.3.8",
+            "server": "151.101.2.216",
             "server_port": 80,
-            "uuid": "39d5ea22-1c73-4b12-8b5b-2be82c78add8",
+            "uuid": "46b06e2c-e5e0-4ad2-ad3e-9f316d7d3065",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1244,9 +1221,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray?ed=443",
+                "path": "\/",
                 "headers": {
-                    "Host": "151.101.3.8"
+                    "Host": "151.101.2.216"
                 }
             }
         },
