@@ -111,7 +111,7 @@
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
-                "🇺🇸US | 🔴 | vless | @VPNCUSTOMIZE | 3",
+                "🇨🇦CA | 🔴 | vless | @VPNCUSTOMIZE | 3",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 22",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 23",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 13",
@@ -145,7 +145,7 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 13",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 299",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 300",
-                "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
@@ -174,7 +174,7 @@
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
-                "🇺🇸US | 🔴 | vless | @VPNCUSTOMIZE | 3",
+                "🇨🇦CA | 🔴 | vless | @VPNCUSTOMIZE | 3",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 22",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 23",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 13",
@@ -208,7 +208,7 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 13",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 299",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 300",
-                "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
@@ -369,7 +369,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @VPNCUSTOMIZE | 3",
+            "tag": "🇨🇦CA | 🔴 | vless | @VPNCUSTOMIZE | 3",
             "type": "vless",
             "server": "visa.com",
             "server_port": 80,
@@ -1209,35 +1209,11 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 18",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "65.109.187.96",
-            "server_port": 8443,
-            "uuid": "9d2d11bd-0685-42a3-8bb2-3c2ed5158a69",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "FI-ComPany-AlphaOmegA-TeaM.1AlphaOmega.Org.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "jnir-addr.cybsecguru.com",
+            "server": "151.101.3.8",
             "server_port": 80,
-            "uuid": "dfc1a9ab-6241-4b73-92f7-b299fc6b7751",
+            "uuid": "e9978c18-0465-47e8-9c20-63d5549c8a60",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1247,9 +1223,30 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/xmlrpc.php?ed=1080",
+                "path": "\/Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray?ed=443",
                 "headers": {
-                    "Host": "jnir-addr.cybsecguru.com"
+                    "Host": "151.101.3.8"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "39d5ea22-1c73-4b12-8b5b-2be82c78add8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray?ed=443",
+                "headers": {
+                    "Host": "151.101.3.8"
                 }
             }
         },
