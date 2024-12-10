@@ -253,7 +253,7 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 15",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 0",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 1",
-                "🇸🇪SE | 🔴 | vless | @customv2ray | 2",
+                "🇺🇸US | 🔴 | vless | @customv2ray | 2",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 3",
                 "🇩🇪DE | 🔴 | vless | @customv2ray | 4",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 5",
@@ -395,14 +395,11 @@
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 0",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 1",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 2",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 3",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 5",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 6",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 8",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 9",
-                "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 17",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 10",
+                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 12",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
                 "🚩CF | 🔴 | vless | @fnet00 | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 3",
                 "🚩CF | 🔴 | vless | @fnet00 | 5",
@@ -620,7 +617,7 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 15",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 0",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 1",
-                "🇸🇪SE | 🔴 | vless | @customv2ray | 2",
+                "🇺🇸US | 🔴 | vless | @customv2ray | 2",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 3",
                 "🇩🇪DE | 🔴 | vless | @customv2ray | 4",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 5",
@@ -762,14 +759,11 @@
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 0",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 1",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 2",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 3",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 5",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 6",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 8",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 9",
-                "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 17",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 10",
+                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 12",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
                 "🚩CF | 🔴 | vless | @fnet00 | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 3",
                 "🚩CF | 🔴 | vless | @fnet00 | 5",
@@ -4363,7 +4357,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @customv2ray | 2",
+            "tag": "🇺🇸US | 🔴 | vless | @customv2ray | 2",
             "type": "vless",
             "server": "tun.ferdowsi.shop",
             "server_port": 2087,
@@ -7873,6 +7867,27 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 2",
             "type": "vless",
+            "server": "clearcreditrepair.com",
+            "server_port": 443,
+            "uuid": "aa6f3d6e-f835-46ab-e35e-71828493ec4f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/melo\/ws?e",
+                "headers": {
+                    "Host": "clearcreditrepair.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 9",
+            "type": "vless",
             "server": "151.101.2.133",
             "server_port": 443,
             "uuid": "176b41c4-cad6-49bf-81a1-e6a7b6331aa1",
@@ -7885,7 +7900,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 3",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 10",
             "type": "vless",
             "server": "151.101.194.165",
             "server_port": 80,
@@ -7906,7 +7921,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 5",
+            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 12",
             "type": "vless",
             "server": "172.233.173.77",
             "server_port": 80,
@@ -7935,28 +7950,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 6",
-            "type": "vless",
-            "server": "clearcreditrepair.com",
-            "server_port": 443,
-            "uuid": "aa6f3d6e-f835-46ab-e35e-71828493ec4f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/melo\/ws?e",
-                "headers": {
-                    "Host": "clearcreditrepair.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 8",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
             "type": "vless",
             "server": "AR.fastly80-2.hosting-ip.com",
             "server_port": 80,
@@ -7977,7 +7971,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 9",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
             "type": "vless",
             "server": "BR.fastly80-3.hosting-ip.com",
             "server_port": 80,
@@ -7995,65 +7989,6 @@
                 "headers": {
                     "Host": "BR.fastly80-3.hosting-ip.com"
                 }
-            }
-        },
-        {
-            "tag": "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "65.109.187.96",
-            "server_port": 8443,
-            "uuid": "9d2d11bd-0685-42a3-8bb2-3c2ed5158a69",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "FI-ComPany-AlphaOmegA-TeaM.1AlphaOmega.Org.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "jnir-addr.cybsecguru.com",
-            "server_port": 80,
-            "uuid": "dfc1a9ab-6241-4b73-92f7-b299fc6b7751",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/xmlrpc.php?ed=1080",
-                "headers": {
-                    "Host": "jnir-addr.cybsecguru.com"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "116.203.201.23",
-            "server_port": 9595,
-            "uuid": "a54fcf91-c5a8-4c8e-a80f-050816f5ad3a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
