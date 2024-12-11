@@ -155,13 +155,13 @@
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 13",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 267",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 268",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 14",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 13",
-                "🇳🇱NL | 🟢 | vmess | @Hope_Net | 14",
+                "❔XX | 🟢 | vmess | @Hope_Net | 15",
+                "🇳🇱NL | 🟢 | vmess | @Hope_Net | 16",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
                 "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 5",
@@ -233,13 +233,13 @@
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 13",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 267",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 268",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 14",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 13",
-                "🇳🇱NL | 🟢 | vmess | @Hope_Net | 14",
+                "❔XX | 🟢 | vmess | @Hope_Net | 15",
+                "🇳🇱NL | 🟢 | vmess | @Hope_Net | 16",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
                 "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 5",
@@ -1429,7 +1429,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
             "type": "vless",
             "server": "clearcreditrepair.com",
             "server_port": 443,
@@ -1450,31 +1450,23 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 14",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "172.235.149.26",
+            "server": "151.101.128.204",
             "server_port": 80,
-            "uuid": "ef27e62d-91bd-4676-b9ce-8743a73eda07",
-            "flow": "xtls-rprx-vision",
+            "uuid": "c7953896-7bb2-4ce2-c7ca-117b2678b47f",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "zula.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "BVimgXtKkQ2Q6EpG8uKYTpySrNxEeIqVhdsxi5U5qRU",
-                    "short_id": "94aa1bdc"
+            "transport": {
+                "type": "ws",
+                "path": "\/melo\/ws",
+                "headers": {
+                    "Host": "151.101.128.204"
                 }
             }
         },
@@ -1568,7 +1560,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 13",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 15",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
@@ -1585,7 +1577,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vmess | @Hope_Net | 14",
+            "tag": "🇳🇱NL | 🟢 | vmess | @Hope_Net | 16",
             "type": "vmess",
             "server": "104.248.89.19",
             "server_port": 10002,
