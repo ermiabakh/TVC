@@ -173,7 +173,6 @@ proxies:
   - {"name":"🇱🇺LU | 🟢 | vmess | @Hope_Net | 3","type":"vmess","server":"107.189.4.166","port":"8080","cipher":"chacha20-poly1305","uuid":"42e25353-b1ae-59f3-bd59-d86d2737b814","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | 🟢 | vmess | @Hope_Net | 4","type":"vmess","server":"sgp1.tiljkc.top","port":"34843","cipher":"auto","uuid":"edd1ca31-bdf4-377e-bc3a-76635a33c9cd","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇩🇪DE | 🟢 | vmess | @Hope_Net | 6","type":"vmess","server":"45.156.84.159","port":"3939","cipher":"auto","uuid":"203d912e-4fb9-49cf-a596-c189dfc16d3e","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚩CF | 🟢 | vmess | @Hope_Net | 8","type":"vmess","server":"104.18.114.205","port":2086,"cipher":"auto","uuid":"bc65fac2-7dc7-426f-acdd-0779a5035bde","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"p1.613055.xyz"}}}
   - {"name":"🇦🇪AE | 🟢 | ss | @kingofilter | 2","type":"ss","server":"api.namasha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧GB | 🟢 | ss | @kingofilter | 8","type":"ss","server":"109.120.186.9","port":23022,"password":"s#W0tqg%@N","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
@@ -237,7 +236,6 @@ proxy-groups:
       - '🇱🇺LU | 🟢 | vmess | @Hope_Net | 3'
       - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 4'
       - '🇩🇪DE | 🟢 | vmess | @Hope_Net | 6'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 8'
       - '🇦🇪AE | 🟢 | ss | @kingofilter | 2'
       - '🇬🇧GB | 🟢 | ss | @kingofilter | 8'
   - name: URL-TEST
@@ -301,7 +299,6 @@ proxy-groups:
       - '🇱🇺LU | 🟢 | vmess | @Hope_Net | 3'
       - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 4'
       - '🇩🇪DE | 🟢 | vmess | @Hope_Net | 6'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 8'
       - '🇦🇪AE | 🟢 | ss | @kingofilter | 2'
       - '🇬🇧GB | 🟢 | ss | @kingofilter | 8'
   - name: FALLBACK
@@ -364,7 +361,6 @@ proxy-groups:
       - '🇱🇺LU | 🟢 | vmess | @Hope_Net | 3'
       - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 4'
       - '🇩🇪DE | 🟢 | vmess | @Hope_Net | 6'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 8'
       - '🇦🇪AE | 🟢 | ss | @kingofilter | 2'
       - '🇬🇧GB | 🟢 | ss | @kingofilter | 8'
 rules:
