@@ -133,8 +133,7 @@
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 149",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 150",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 30",
-                "🇺🇸US | 🔴 | vless | @customv2ray | 31",
-                "🇺🇸US | 🔴 | vless | @vmessorg | 0",
+                "🇸🇪SE | 🔴 | vless | @customv2ray | 31",
                 "🇺🇸US | 🔴 | vless | @v2rayngvpn | 0",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 0",
                 "❔XX | 🔴 | vless | @ServerNett | 16",
@@ -148,6 +147,7 @@
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 14",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 234",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 235",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇬🇧GB | 🟢 | vless | @Outlinev2rayNG | 7",
@@ -196,8 +196,7 @@
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 149",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 150",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 30",
-                "🇺🇸US | 🔴 | vless | @customv2ray | 31",
-                "🇺🇸US | 🔴 | vless | @vmessorg | 0",
+                "🇸🇪SE | 🔴 | vless | @customv2ray | 31",
                 "🇺🇸US | 🔴 | vless | @v2rayngvpn | 0",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 0",
                 "❔XX | 🔴 | vless | @ServerNett | 16",
@@ -211,6 +210,7 @@
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 14",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 234",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 235",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇬🇧GB | 🟢 | vless | @Outlinev2rayNG | 7",
@@ -925,7 +925,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @customv2ray | 31",
+            "tag": "🇸🇪SE | 🔴 | vless | @customv2ray | 31",
             "type": "vless",
             "server": "tun.ferdowsi.shop",
             "server_port": 2087,
@@ -953,27 +953,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @vmessorg | 0",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "c921c664-d82d-4317-b4d0-7640cc9aa760",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@vmessorg----@vmessorg-----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg?ed=2480",
-                "headers": {
-                    "Host": "151.101.3.8"
-                }
             }
         },
         {
@@ -1281,6 +1260,27 @@
                 "path": "\/",
                 "headers": {
                     "Host": "hajlab.ucdavis.edu"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
+            "type": "vless",
+            "server": "NUFiLTER.fastly80-2.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "TELEGRAM-NUFiLTER",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=80",
+                "headers": {
+                    "Host": "NUFiLTER.fastly80-2.hosting-ip.com"
                 }
             }
         },
