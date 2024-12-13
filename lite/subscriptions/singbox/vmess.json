@@ -257,24 +257,7 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 16",
             "type": "vmess",
-            "server": "104.20.137.8",
-            "server_port": 80,
-            "uuid": "614b4d10-9950-43d5-b398-c98a3ad45fa9",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 17",
-            "type": "vmess",
-            "server": "104.21.238.145",
+            "server": "104.18.114.101",
             "server_port": 2086,
             "uuid": "7d92ffc9-02e1-4087-8a46-cc4d76560917",
             "security": "auto",
@@ -291,7 +274,31 @@
                 "type": "ws",
                 "path": "\/github.com\/Alvin9999",
                 "headers": {
-                    "Host": "104.21.238.145"
+                    "Host": "104.18.114.101"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 17",
+            "type": "vmess",
+            "server": "104.26.0.121",
+            "server_port": 2086,
+            "uuid": "7d92ffc9-02e1-4087-8a46-cc4d76560917",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/github.com\/Alvin9999",
+                "headers": {
+                    "Host": "104.26.0.121"
                 }
             }
         }
