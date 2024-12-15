@@ -432,10 +432,11 @@
                 "🚩CF | 🔴 | vless | @fnet00 | 3",
                 "🚩CF | 🔴 | vless | @fnet00 | 5",
                 "🚩CF | 🔴 | vless | @fnet00 | 8",
-                "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 0",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 1",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
-                "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 5",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 0",
+                "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 1",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 2",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
+                "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 0",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 3",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 5",
@@ -828,10 +829,11 @@
                 "🚩CF | 🔴 | vless | @fnet00 | 3",
                 "🚩CF | 🔴 | vless | @fnet00 | 5",
                 "🚩CF | 🔴 | vless | @fnet00 | 8",
-                "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 0",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 1",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
-                "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 5",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 0",
+                "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 1",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 2",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
+                "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 0",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 3",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 5",
@@ -9004,7 +9006,38 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 0",
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 0",
+            "type": "vless",
+            "server": "live.skornorth.com",
+            "server_port": 443,
+            "uuid": "20ee9d1e-3dac-4027-97ab-bc8548f4ca2e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "live.skornorth.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@custom_config",
+                "headers": {
+                    "Host": "live.skornorth.com"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 1",
             "type": "vless",
             "server": "84.47.233.102",
             "server_port": 20014,
@@ -9018,7 +9051,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 1",
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 2",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2082,
@@ -9039,7 +9072,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
             "type": "vless",
             "server": "nufilter.fastly80-3.hosting-ip.com",
             "server_port": 80,
@@ -9060,7 +9093,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 5",
+            "tag": "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 6",
             "type": "vless",
             "server": "45.149.12.119",
             "server_port": 8443,
