@@ -150,8 +150,8 @@
                 "❔XX | 🔴 | vless | @lrnbymaa | 2",
                 "🇮🇷IR | 🔴 | vless | @proxystore11 | 3",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 9",
-                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 7",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
+                "🇦🇹AT | 🔴 | vless | @Outlinev2rayNG | 5",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 10",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 12",
@@ -215,8 +215,8 @@
                 "❔XX | 🔴 | vless | @lrnbymaa | 2",
                 "🇮🇷IR | 🔴 | vless | @proxystore11 | 3",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 9",
-                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 7",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
+                "🇦🇹AT | 🔴 | vless | @Outlinev2rayNG | 5",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 10",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 12",
@@ -1315,11 +1315,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 7",
+            "tag": "🇦🇹AT | 🔴 | vless | @Outlinev2rayNG | 5",
             "type": "vless",
-            "server": "hajlab.ucdavis.edu",
+            "server": "212.183.88.176",
             "server_port": 443,
-            "uuid": "52a842ac-8985-44eb-8208-2190579842e4",
+            "uuid": "71ed6628-5870-4d19-8a52-f2a3ba3d4898",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1329,7 +1329,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "hajlab.ucdavis.edu",
+                "server_name": "vb.zhuk.us.kg",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1339,18 +1339,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "hajlab.ucdavis.edu"
+                    "Host": "vb.zhuk.us.kg"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
             "type": "vless",
-            "server": "R3.fastly80-3.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "TELEGRAM-NUFiLTER",
+            "server": "live.skornorth.com",
+            "server_port": 443,
+            "uuid": "11a943c5-67a5-4b46-b124-e8274cb9ef6e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1358,11 +1358,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "live.skornorth.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=80",
+                "path": "\/@custom_config",
                 "headers": {
-                    "Host": "R3.fastly80-3.hosting-ip.com"
+                    "Host": "live.skornorth.com"
                 }
             }
         },
