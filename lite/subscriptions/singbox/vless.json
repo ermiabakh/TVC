@@ -124,7 +124,6 @@
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 17",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 18",
-                "🇮🇳IN | 🔴 | vless | @proxy_kafee | 7",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 8",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
@@ -192,7 +191,6 @@
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 17",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 18",
-                "🇮🇳IN | 🔴 | vless | @proxy_kafee | 7",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 8",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
@@ -713,32 +711,11 @@
             }
         },
         {
-            "tag": "🇮🇳IN | 🔴 | vless | @proxy_kafee | 7",
-            "type": "vless",
-            "server": "151.101.158.204",
-            "server_port": 80,
-            "uuid": "42a149d8-5a5c-4100-b111-e069890521aa",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/olem\/ws?ed=64",
-                "headers": {
-                    "Host": "151.101.158.204"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 8",
             "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "641e0e8f-9503-44f9-ba8c-6288fe409cb9",
+            "server": "hajlab.ucdavis.edu",
+            "server_port": 443,
+            "uuid": "d6f99f79-08b8-40f8-9a03-ac3a17a64d6c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -746,11 +723,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "hajlab.ucdavis.edu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/VpnWedbaz---VpnWedBaZ?ed=443",
+                "path": "\/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy",
                 "headers": {
-                    "Host": "151.101.3.8"
+                    "Host": "hajlab.ucdavis.edu"
                 }
             }
         },
