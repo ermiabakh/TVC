@@ -133,7 +133,6 @@ proxies:
   - {"name":"🇩🇪DE | 🔴 | vless | @proxyymeliii | 4","type":"vless","server":"49.12.193.246","port":443,"udp":false,"uuid":"c3c64c0d-014a-4395-b6b8-823a6bed7e96","tls":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇩🇪DE | 🔴 | vless | @proxyymeliii | 6","type":"vless","server":"49.12.193.246","port":443,"udp":false,"uuid":"46286ed2-9abf-420b-b510-c9e663cdbadc","tls":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇩🇪DE | 🔴 | vless | @proxyymeliii | 10","type":"vless","server":"49.12.193.246","port":443,"udp":false,"uuid":"b8f5ba57-4439-4fe0-b3bd-47f398b3869a","tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🇸🇪SE | 🔴 | vless | @v2ray1_ng | 8","type":"vless","server":"172.234.116.15","port":51397,"udp":true,"uuid":"97404b2d-4e43-4c0a-9618-1a5950c2f28d","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"microsoft.com","grpc-opts":{"grpc-service-name":"@zerov2shop"},"reality-opts":{"public-key":"28uZ75mfydPEN62yeCphBbtfGRRIz6kKLO5jZNRYGGM"}}
   - {"name":"🇺🇸US | 🟢 | vless | @vless_vmess | 3","type":"vless","server":"172.233.174.160","port":80,"udp":true,"uuid":"ef27e62d-91bd-4676-b9ce-8743a73eda07","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"zula.ir","reality-opts":{"public-key":"BVimgXtKkQ2Q6EpG8uKYTpySrNxEeIqVhdsxi5U5qRU","short-id":"94aa1bdc"}}
   - {"name":"🇹🇼TW | 🔴 | vless | @VmessProtocol | 0","type":"vless","server":"ddns.200566.xyz","port":30341,"udp":true,"uuid":"1a668915-d98f-4440-8bac-2c51d508f811","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"addons.mozilla.org","grpc-opts":{"grpc-service-name":"grpc"},"reality-opts":{"public-key":"JKYZG1ImyL6B0TuQyE2XH0XWtX0pI6Cv0fe9ohsjcH0"}}
   - {"name":"🇩🇪DE | 🔴 | vless | @fnet00 | 0","type":"vless","server":"mysql-panel.karaj-game-farsi.ir","port":1413,"udp":true,"uuid":"608a702e-adc4-49fd-8e4d-40eb67c13694","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"refersion.com","grpc-opts":{"grpc-service-name":"mgrpcmn"},"reality-opts":{"public-key":"lEwhnzi-AXac0OKNifuFXiXb6lZ3KBesYcnOtskui3o","short-id":"3f6c06267a2e5ea8"}}
@@ -170,7 +169,6 @@ proxy-groups:
       - '🇩🇪DE | 🔴 | vless | @proxyymeliii | 4'
       - '🇩🇪DE | 🔴 | vless | @proxyymeliii | 6'
       - '🇩🇪DE | 🔴 | vless | @proxyymeliii | 10'
-      - '🇸🇪SE | 🔴 | vless | @v2ray1_ng | 8'
       - '🇺🇸US | 🟢 | vless | @vless_vmess | 3'
       - '🇹🇼TW | 🔴 | vless | @VmessProtocol | 0'
       - '🇩🇪DE | 🔴 | vless | @fnet00 | 0'
@@ -207,7 +205,6 @@ proxy-groups:
       - '🇩🇪DE | 🔴 | vless | @proxyymeliii | 4'
       - '🇩🇪DE | 🔴 | vless | @proxyymeliii | 6'
       - '🇩🇪DE | 🔴 | vless | @proxyymeliii | 10'
-      - '🇸🇪SE | 🔴 | vless | @v2ray1_ng | 8'
       - '🇺🇸US | 🟢 | vless | @vless_vmess | 3'
       - '🇹🇼TW | 🔴 | vless | @VmessProtocol | 0'
       - '🇩🇪DE | 🔴 | vless | @fnet00 | 0'
@@ -243,7 +240,6 @@ proxy-groups:
       - '🇩🇪DE | 🔴 | vless | @proxyymeliii | 4'
       - '🇩🇪DE | 🔴 | vless | @proxyymeliii | 6'
       - '🇩🇪DE | 🔴 | vless | @proxyymeliii | 10'
-      - '🇸🇪SE | 🔴 | vless | @v2ray1_ng | 8'
       - '🇺🇸US | 🟢 | vless | @vless_vmess | 3'
       - '🇹🇼TW | 🔴 | vless | @VmessProtocol | 0'
       - '🇩🇪DE | 🔴 | vless | @fnet00 | 0'
