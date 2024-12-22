@@ -114,6 +114,7 @@
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 137",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 144",
+                "🇬🇧GB | 🟢 | vless | @prrofile_purple | 151",
                 "❔XX | 🔴 | vless | @customv2ray | 12",
                 "🇫🇮FI | 🟢 | vless | @ShadowProxy66 | 33",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 1",
@@ -158,6 +159,7 @@
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 137",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 144",
+                "🇬🇧GB | 🟢 | vless | @prrofile_purple | 151",
                 "❔XX | 🔴 | vless | @customv2ray | 12",
                 "🇫🇮FI | 🟢 | vless | @ShadowProxy66 | 33",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 1",
@@ -459,6 +461,35 @@
                     "enabled": true,
                     "public_key": "ANlgAsYC8HmKfJnc5SFvru822urkxG1PzW1Zw4Vbm0Q",
                     "short_id": "9bc0a55a5379c0ed"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | 🟢 | vless | @prrofile_purple | 151",
+            "type": "vless",
+            "server": "endev.postsafir.ir",
+            "server_port": 1623,
+            "uuid": "f34fd091-12f9-444e-81a2-9b45ee14d00f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0",
+                    "short_id": "3a622700e73c6642"
                 }
             }
         },
