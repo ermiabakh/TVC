@@ -108,8 +108,6 @@
                 "URL-TEST",
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 33",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 34",
-                "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
-                "🇨🇦CA | 🔴 | vless | @XsV2ray | 15",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 18",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 19",
                 "🇺🇸US | 🔴 | vless | @VPNCUSTOMIZE | 5",
@@ -149,10 +147,10 @@
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 13",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 315",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 316",
-                "🇮🇳IN | 🟢 | vless | @ConfigsHUB | 16",
-                "🇮🇱IL | 🟢 | vless | @ConfigsHUB | 17",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 317",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
                 "🇮🇷IR | 🔴 | vless | @proxystore11 | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 9",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
@@ -178,8 +176,6 @@
             "outbounds": [
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 33",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 34",
-                "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
-                "🇨🇦CA | 🔴 | vless | @XsV2ray | 15",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 18",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 19",
                 "🇺🇸US | 🔴 | vless | @VPNCUSTOMIZE | 5",
@@ -219,10 +215,10 @@
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 13",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 315",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 316",
-                "🇮🇳IN | 🟢 | vless | @ConfigsHUB | 16",
-                "🇮🇱IL | 🟢 | vless | @ConfigsHUB | 17",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 317",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
                 "🇮🇷IR | 🔴 | vless | @proxystore11 | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 9",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
@@ -304,51 +300,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2082,
-            "uuid": "86795c84-2287-4198-9df3-2760926ef431",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇦CA | 🔴 | vless | @XsV2ray | 15",
-            "type": "vless",
-            "server": "zula.ir",
-            "server_port": 2083,
-            "uuid": "81dabced-dd35-445b-83fa-9ee3d786d97c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Xs.bo3kot.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
@@ -1359,27 +1310,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 315",
-            "type": "vless",
-            "server": "hajlab.ucdavis.edu",
-            "server_port": 80,
-            "uuid": "6d47d0cf-4ef8-4101-a3b9-9126b6875dc0",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "hajlab.ucdavis.edu"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 316",
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
@@ -1401,12 +1331,12 @@
             }
         },
         {
-            "tag": "🇮🇳IN | 🟢 | vless | @ConfigsHUB | 16",
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 317",
             "type": "vless",
-            "server": "ind.kitten-tube.com",
+            "server": "hajlab.ucdavis.edu",
             "server_port": 443,
-            "uuid": "ce7b5e36-a3a0-4f61-af4d-6ca132f892c5",
-            "flow": "xtls-rprx-vision",
+            "uuid": "6d47d0cf-4ef8-4101-a3b9-9126b6875dc0",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1415,47 +1345,48 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "sLOqi_GLDpQTPbqpUIAHoBqDCzIamePjAy701bD7mWI",
-                    "short_id": "7DdB966b"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇱IL | 🟢 | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "ukr.kitten-tube.com",
-            "server_port": 443,
-            "uuid": "ce7b5e36-a3a0-4f61-af4d-6ca132f892c5",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
+                "server_name": "hajlab.ucdavis.edu",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "YiRDigHR3yK8jv7iHPS4lSO6Drmw4tiZiKyGQ09tdCQ",
-                    "short_id": "42d68CBD"
                 }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "hajlab.ucdavis.edu"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
+            "type": "vless",
+            "server": "wWw.SpeedTeSt.Net",
+            "server_port": 8880,
+            "uuid": "SVNTEAM",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
+            "type": "vless",
+            "server": "wWw.SpeedTeSt.Net",
+            "server_port": 8080,
+            "uuid": "SVNTEAM",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
