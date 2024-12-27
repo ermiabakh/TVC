@@ -129,8 +129,7 @@
                 "🇦🇪AE | 🟢 | vless | @VmessProtocol | 8",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 9",
                 "🇹🇼TW | 🔴 | vless | @VmessProtocol | 10",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 0",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 13",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 11",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 2",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 3",
@@ -180,8 +179,7 @@
                 "🇦🇪AE | 🟢 | vless | @VmessProtocol | 8",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 9",
                 "🇹🇼TW | 🔴 | vless | @VmessProtocol | 10",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 0",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 13",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 11",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 2",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 3",
@@ -873,38 +871,9 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 0",
+            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 11",
             "type": "vless",
-            "server": "188.245.216.207",
-            "server_port": 3030,
-            "uuid": "19190e1d-ca8f-44ff-a00c-7eccbd66f337",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 13",
-            "type": "vless",
-            "server": "mk.ksalfjhaslkfa.ir",
+            "server": "23.88.125.0",
             "server_port": 1234,
             "uuid": "79548d0f-6d07-4370-bc64-eef441bb0395",
             "flow": "xtls-rprx-vision",
