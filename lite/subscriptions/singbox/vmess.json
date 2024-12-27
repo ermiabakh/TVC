@@ -110,10 +110,11 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
                 "🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 15",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 12",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @free1_vpn | 2",
-                "🇮🇳IN | 🟢 | vmess | @free1_vpn | 3",
+                "🇺🇸US | 🟢 | vmess | @free1_vpn | 3",
+                "🇮🇳IN | 🟢 | vmess | @free1_vpn | 4",
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 1",
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 2"
             ]
@@ -126,10 +127,11 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
                 "🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 15",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 12",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @free1_vpn | 2",
-                "🇮🇳IN | 🟢 | vmess | @free1_vpn | 3",
+                "🇺🇸US | 🟢 | vmess | @free1_vpn | 3",
+                "🇮🇳IN | 🟢 | vmess | @free1_vpn | 4",
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 1",
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 2"
             ],
@@ -222,6 +224,30 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 12",
+            "type": "vmess",
+            "server": "151.101.2.216",
+            "server_port": 80,
+            "uuid": "545485da-9ff4-48c5-ae94-45e6e4ee7d26",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/racevpn",
+                "headers": {
+                    "Host": "plex.com"
+                }
+            }
+        },
+        {
             "tag": "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
             "type": "vmess",
             "server": "ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub",
@@ -280,7 +306,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @free1_vpn | 2",
+            "tag": "🇺🇸US | 🟢 | vmess | @free1_vpn | 3",
             "type": "vmess",
             "server": "www.speedtest.net",
             "server_port": 8080,
@@ -304,7 +330,7 @@
             }
         },
         {
-            "tag": "🇮🇳IN | 🟢 | vmess | @free1_vpn | 3",
+            "tag": "🇮🇳IN | 🟢 | vmess | @free1_vpn | 4",
             "type": "vmess",
             "server": "20.193.131.152",
             "server_port": 23294,
