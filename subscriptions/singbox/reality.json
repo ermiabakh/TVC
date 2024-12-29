@@ -132,6 +132,7 @@
                 "🇦🇪AE | 🟢 | vless | @VmessProtocol | 10",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 11",
                 "🇹🇼TW | 🔴 | vless | @VmessProtocol | 12",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 0",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
@@ -181,6 +182,7 @@
                 "🇦🇪AE | 🟢 | vless | @VmessProtocol | 10",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 11",
                 "🇹🇼TW | 🔴 | vless | @VmessProtocol | 12",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 0",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
@@ -946,6 +948,35 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 0",
+            "type": "vless",
+            "server": "213.108.23.243",
+            "server_port": 26926,
+            "uuid": "03f0b5b0-1b2b-4a91-9e49-07c816027ac9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "V1Sm4pc5EuEHSwsfXDDLYPuiu3JZUESNifEkvm5ARn8",
+                    "short_id": "435d625ae815"
+                }
             }
         },
         {
