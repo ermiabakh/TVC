@@ -123,7 +123,6 @@
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 18",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 19",
                 "🇺🇸US | 🟢 | vless | @ShadowProxy66 | 2",
-                "🇺🇸US | 🟢 | vless | @ShadowProxy66 | 9",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 1",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 4",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
@@ -176,7 +175,6 @@
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 18",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 19",
                 "🇺🇸US | 🟢 | vless | @ShadowProxy66 | 2",
-                "🇺🇸US | 🟢 | vless | @ShadowProxy66 | 9",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 1",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 4",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
@@ -745,35 +743,6 @@
                     "enabled": true,
                     "public_key": "8233FxCRw1a_aCJ8d1HwHBMD_fABUNNW7rsrFe3vK0s",
                     "short_id": "e6658462"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vless | @ShadowProxy66 | 9",
-            "type": "vless",
-            "server": "142.171.126.130",
-            "server_port": 10003,
-            "uuid": "78e31733-b7a2-4e15-8dbf-8c3ebbb07f8d",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.yzjswz.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "JfDMji8dLkJPhozUtqvh0hL34n5-LQR0Fo1NqNu6uDk",
-                    "short_id": "6ba85179e30d4fc2"
                 }
             }
         },
