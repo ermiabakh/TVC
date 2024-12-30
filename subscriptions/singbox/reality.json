@@ -128,7 +128,7 @@
                 "🇺🇸US | 🟢 | vless | @VmessProtocol | 4",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 10",
                 "🇦🇪AE | 🟢 | vless | @VmessProtocol | 13",
-                "🇱🇹LT | 🔴 | vless | @ConfigsHUB | 7",
+                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 17",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
@@ -174,7 +174,7 @@
                 "🇺🇸US | 🟢 | vless | @VmessProtocol | 4",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 10",
                 "🇦🇪AE | 🟢 | vless | @VmessProtocol | 13",
-                "🇱🇹LT | 🔴 | vless | @ConfigsHUB | 7",
+                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 17",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
@@ -835,11 +835,11 @@
             }
         },
         {
-            "tag": "🇱🇹LT | 🔴 | vless | @ConfigsHUB | 7",
+            "tag": "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "bo2bo2.bia2bax.shop",
-            "server_port": 8443,
-            "uuid": "v2rayvpn_official",
+            "server": "87.98.149.193",
+            "server_port": 443,
+            "uuid": "2028ab48-c65b-439e-91a4-8d80f184a2ca",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -849,25 +849,18 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "dash.cloudflare.com",
+                "server_name": "refersion.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "bHFXTB_nCReHbFNVghwH8s2mEYhoYFRsJudpTwbCIn0",
-                    "short_id": "28f58957"
+                    "public_key": "-e-Py1tk4hBqFmmL-p_1l7imBS6eGWx1lVqbHWwA2yo",
+                    "short_id": "6d49a78191f4d90f"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "bo2bo2.bia2bax.shop",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
