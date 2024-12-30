@@ -146,8 +146,8 @@
                 "🇹🇼TW | 🔴 | vless | @VmessProtocol | 13",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 345",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 346",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 12",
-                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 13",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 6",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 7",
                 "🇮🇷IR | 🔴 | vless | @proxystore11 | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
@@ -211,8 +211,8 @@
                 "🇹🇼TW | 🔴 | vless | @VmessProtocol | 13",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 345",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 346",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 12",
-                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 13",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 6",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 7",
                 "🇮🇷IR | 🔴 | vless | @proxystore11 | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
@@ -417,6 +417,37 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @V2pedia | 8",
             "type": "vless",
+            "server": "zmaoz.faculty.ucdavis.edu",
+            "server_port": 443,
+            "uuid": "Join--ZEDMODEON",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "zmaoz.faculty.ucdavis.edu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@ZEDMODEON-ZEDMODEON-ZEDMODEON@ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON",
+                "headers": {
+                    "Host": "zmaoz.faculty.ucdavis.edu"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @V2pedia | 9",
+            "type": "vless",
             "server": "live.skornorth.com",
             "server_port": 443,
             "uuid": "tell--ZEDMODEON",
@@ -442,27 +473,6 @@
                 "path": "\/@ZEDMODEON-ZEDMODEON@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON",
                 "headers": {
                     "Host": "live.skornorth.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @V2pedia | 9",
-            "type": "vless",
-            "server": "A34.fastly80-2.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=80",
-                "headers": {
-                    "Host": "A34.fastly80-2.hosting-ip.com"
                 }
             }
         },
@@ -1222,31 +1232,65 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 12",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 6",
             "type": "vless",
-            "server": "91.107.169.6",
+            "server": "fishlab.ucdavis.edu",
             "server_port": 443,
-            "uuid": "5346aa00-8750-4c50-b3bb-91f19c7d6dc9",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 13",
-            "type": "vless",
-            "server": "95.164.86.59",
-            "server_port": 2198,
-            "uuid": "838f5273-5d2d-4630-a0f5-9cc8e4aef4d6",
+            "uuid": "2c2b72ce-3d8c-46c8-8a47-72f682f1ee79",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Zmaoz.Faculty.Ucdavis.Edu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=80",
+                "headers": {
+                    "Host": "Zmaoz.Faculty.Ucdavis.Edu"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 7",
+            "type": "vless",
+            "server": "live.989bull.com",
+            "server_port": 443,
+            "uuid": "SAVTEAM9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "live.989bull.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam?ed=443",
+                "headers": {
+                    "Host": "live.989bull.com"
+                }
             }
         },
         {
