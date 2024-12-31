@@ -125,6 +125,7 @@
                 "🇺🇸US | 🟢 | vless | @VmessProtocol | 5",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 11",
                 "🇦🇪AE | 🟢 | vless | @VmessProtocol | 14",
+                "🇱🇹LT | 🔴 | vless | @ConfigsHUB | 1",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
@@ -168,6 +169,7 @@
                 "🇺🇸US | 🟢 | vless | @VmessProtocol | 5",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 11",
                 "🇦🇪AE | 🟢 | vless | @VmessProtocol | 14",
+                "🇱🇹LT | 🔴 | vless | @ConfigsHUB | 1",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
@@ -739,6 +741,42 @@
                     "public_key": "ljzfoaXVBSNu3tw58-B0WNViso1aA9JSCX9GUcMDu0k",
                     "short_id": "4048A3da"
                 }
+            }
+        },
+        {
+            "tag": "🇱🇹LT | 🔴 | vless | @ConfigsHUB | 1",
+            "type": "vless",
+            "server": "bo2bo2.bia2bax.shop",
+            "server_port": 8443,
+            "uuid": "v2rayvpn__official",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "dash.cloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "bHFXTB_nCReHbFNVghwH8s2mEYhoYFRsJudpTwbCIn0",
+                    "short_id": "28f58957"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "bo2bo2.bia2bax.shop",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
