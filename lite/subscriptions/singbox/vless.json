@@ -121,7 +121,7 @@
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 2",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 13",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 14",
-                "🇺🇸US | 🔴 | vless | @proxy_kafee | 4",
+                "🇺🇸US | 🔴 | vless | @proxy_kafee | 3",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "🇺🇸US | 🔴 | vless | @Watashi_VPN | 0",
@@ -145,8 +145,8 @@
                 "🇦🇪AE | 🟢 | vless | @VmessProtocol | 14",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 344",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 345",
-                "🇮🇳IN | 🔴 | vless | @ConfigsHUB | 11",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 12",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 15",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
                 "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 6",
@@ -184,7 +184,7 @@
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 2",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 13",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 14",
-                "🇺🇸US | 🔴 | vless | @proxy_kafee | 4",
+                "🇺🇸US | 🔴 | vless | @proxy_kafee | 3",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "🇺🇸US | 🔴 | vless | @Watashi_VPN | 0",
@@ -208,8 +208,8 @@
                 "🇦🇪AE | 🟢 | vless | @VmessProtocol | 14",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 344",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 345",
-                "🇮🇳IN | 🔴 | vless | @ConfigsHUB | 11",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 12",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 15",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
                 "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 6",
@@ -602,7 +602,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 4",
+            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 3",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
@@ -1199,11 +1199,11 @@
             }
         },
         {
-            "tag": "🇮🇳IN | 🔴 | vless | @ConfigsHUB | 11",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
             "type": "vless",
-            "server": "151.101.158.204",
+            "server": "fishlab.ucdavis.edu",
             "server_port": 80,
-            "uuid": "e30e0743-856f-4ddd-89fd-2b4bf5f158a7",
+            "uuid": "8f3a387b-54f0-4c7d-b137-b1ccce93c2b4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1213,18 +1213,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/olem\/ws?ed=64@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
+                "path": "\/telegram-vpnx1x,telegram-vpnx1x,telegram-vpnx1x,telegram-vpnx1x,telegram-vpnx1x,telegram-vpnx1x,telegram-vpnx1x,telegram-vpnx1x?ed=80",
                 "headers": {
-                    "Host": "151.101.158.204"
+                    "Host": "fishlab.ucdavis.edu"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 12",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "zmaoz.faculty.ucdavis.edu",
-            "server_port": 443,
-            "uuid": "e4638cbb-c39f-4ef0-d626-e2e104557ca2",
+            "server": "TLS.zeoaeriedo-saioesrio.ir",
+            "server_port": 2000,
+            "uuid": "22027895-7cc2-4785-bcf4-d15eccd7e30b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1232,22 +1232,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "zmaoz.faculty.ucdavis.edu.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "ws",
-                "path": "\/olem\/ws?ed=4096@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
-                "headers": {
-                    "Host": "zmaoz.faculty.ucdavis.edu."
-                }
+                "type": "grpc",
+                "service_name": "\/@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
