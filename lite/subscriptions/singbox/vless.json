@@ -110,8 +110,8 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 27",
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
                 "❔XX | 🔴 | vless | @XsV2ray | 11",
-                "🇺🇸US | 🔴 | vless | @VlessConfig | 17",
-                "🇺🇸US | 🔴 | vless | @VlessConfig | 18",
+                "🇨🇦CA | 🔴 | vless | @VlessConfig | 17",
+                "🇨🇦CA | 🔴 | vless | @VlessConfig | 18",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 19",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 20",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 7",
@@ -148,8 +148,7 @@
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 12",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 344",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 345",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 13",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
@@ -174,8 +173,8 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 27",
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
                 "❔XX | 🔴 | vless | @XsV2ray | 11",
-                "🇺🇸US | 🔴 | vless | @VlessConfig | 17",
-                "🇺🇸US | 🔴 | vless | @VlessConfig | 18",
+                "🇨🇦CA | 🔴 | vless | @VlessConfig | 17",
+                "🇨🇦CA | 🔴 | vless | @VlessConfig | 18",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 19",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 20",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 7",
@@ -212,8 +211,7 @@
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 12",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 344",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 345",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 13",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
@@ -323,9 +321,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @VlessConfig | 17",
+            "tag": "🇨🇦CA | 🔴 | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "3.222.97.115",
+            "server": "15.157.204.160",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -354,9 +352,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @VlessConfig | 18",
+            "tag": "🇨🇦CA | 🔴 | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "35.170.254.149",
+            "server": "35.183.228.11",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1258,40 +1256,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 13",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "195.26.225.89",
-            "server_port": 443,
-            "uuid": "GROZA_33753944",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "whatsapp.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "mmZFnnyWQnL82G1ccBD1ym4HVvBSmyj8MgZ_5dkWHUE",
-                    "short_id": "ffffffffff"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
-            "type": "vless",
-            "server": "cfpage-39t.pages.dev",
-            "server_port": 443,
-            "uuid": "bba5ce00-09e4-4fce-8d26-35db5b4e38d4",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "2a02a9a8-c952-401d-bb45-2c12c4c056ac",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1299,21 +1268,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "cfpage-39t.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/TELEGRAM-MARAMBASHI\/?ed=2560",
+                "path": "\/?=9090",
                 "headers": {
-                    "Host": "cfpage-39t.pages.dev"
+                    "Host": "151.101.3.8"
                 }
             }
         },
