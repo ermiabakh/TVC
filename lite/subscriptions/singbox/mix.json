@@ -158,8 +158,8 @@
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 12",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 262",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 263",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 18",
+                "🇹🇼TW | 🟢 | vless | @ConfigsHUB | 15",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 16",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @free1_vpn | 9",
@@ -238,8 +238,8 @@
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 12",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 262",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 263",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 18",
+                "🇹🇼TW | 🟢 | vless | @ConfigsHUB | 15",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 16",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @free1_vpn | 9",
@@ -1472,25 +1472,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
+            "tag": "🇹🇼TW | 🟢 | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "outshop.bestshop10.ir",
-            "server_port": 26745,
-            "uuid": "3aef1001-72a9-4aa8-8e5a-cc9a73d8cfad",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "104.18.12.229",
-            "server_port": 8443,
-            "uuid": "ffd3906e-60c9-451e-8ed1-7114107e102c",
+            "server": "103.137.63.3",
+            "server_port": 443,
+            "uuid": "55520747-311e-4015-83ce-be46e2060ce3",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1500,7 +1486,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "pardazeshvpn-tg70.pages.dev",
+                "server_name": "uxb.vs2024.us.kg",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1510,9 +1496,38 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/uxb.vs2024.us.kg",
                 "headers": {
-                    "Host": "pardazeshvpn-tg70.pages.dev"
+                    "Host": "uxb.vs2024.us.kg"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "5.75.203.85",
+            "server_port": 28028,
+            "uuid": "bb7814c6-92e6-4a08-86fd-11272984256c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "xXwGwJOlSUEvc17KLNCPDF1WtjxiMTUxQb8aaZIuCnI",
+                    "short_id": "0a896646c2"
                 }
             }
         },
