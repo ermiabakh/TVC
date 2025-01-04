@@ -134,7 +134,7 @@ proxies:
   - {"name":"🇺🇸US | 🟢 | vmess | @prrofile_purple | 151","type":"vmess","server":"151.101.2.216","port":"80","cipher":"auto","uuid":"545485da-9ff4-48c5-ae94-45e6e4ee7d26","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/racevpn","headers":{"host":"6606.com"}}}
   - {"name":"🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 1","type":"vmess","server":"hms19.best-tizi.top","port":"443","cipher":"auto","uuid":"62aa5f80-0328-4004-a375-7f5a59df4022","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"hms19.best-tizi.top"}}}
   - {"name":"🇲🇽MX | 🟢 | vmess | @ShadowProxy66 | 2","type":"vmess","server":"79.127.229.54","port":"18000","cipher":"auto","uuid":"fa1897db-1925-4c86-a495-939a959af900","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 3","type":"vmess","server":"hms19.best-tizi.top","port":"443","cipher":"auto","uuid":"62aa5f80-0328-4004-a375-7f5a59df4022","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"hms19.best-tizi.top"}}}
+  - {"name":"🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 3","type":"vmess","server":"hms19.best-tizi.top","port":"443","cipher":"auto","uuid":"62aa5f80-0328-4004-a375-7f5a59df4022","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"hms19.best-tizi.top"}}}
   - {"name":"🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 4","type":"vmess","server":"45.145.165.113","port":"443","cipher":"auto","uuid":"62aa5f80-0328-4004-a375-7f5a59df4022","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"hms19.best-tizi.top"}}}
   - {"name":"🚩CF | 🟢 | vmess | @ShadowProxy66 | 6","type":"vmess","server":"104.21.32.1","port":"443","cipher":"auto","uuid":"dfdb4fad-535e-4408-a74b-7c3ce118bd42","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"ezo.jhbqmtwtm.com"}}}
   - {"name":"🚩CF | 🟢 | vmess | @ShadowProxy66 | 7","type":"vmess","server":"104.21.69.44","port":"443","cipher":"auto","uuid":"617213c1-2f47-42e4-8a56-8f770bfbe162","alterId":"0","tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"6mHwqI1HSSVtXxCxshcV","grpc-mode":""}}
@@ -176,7 +176,7 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @prrofile_purple | 151'
       - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 1'
       - '🇲🇽MX | 🟢 | vmess | @ShadowProxy66 | 2'
-      - '🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 3'
+      - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 3'
       - '🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 4'
       - '🚩CF | 🟢 | vmess | @ShadowProxy66 | 6'
       - '🚩CF | 🟢 | vmess | @ShadowProxy66 | 7'
@@ -218,7 +218,7 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @prrofile_purple | 151'
       - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 1'
       - '🇲🇽MX | 🟢 | vmess | @ShadowProxy66 | 2'
-      - '🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 3'
+      - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 3'
       - '🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 4'
       - '🚩CF | 🟢 | vmess | @ShadowProxy66 | 6'
       - '🚩CF | 🟢 | vmess | @ShadowProxy66 | 7'
@@ -259,7 +259,7 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @prrofile_purple | 151'
       - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 1'
       - '🇲🇽MX | 🟢 | vmess | @ShadowProxy66 | 2'
-      - '🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 3'
+      - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 3'
       - '🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 4'
       - '🚩CF | 🟢 | vmess | @ShadowProxy66 | 6'
       - '🚩CF | 🟢 | vmess | @ShadowProxy66 | 7'
