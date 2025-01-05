@@ -140,7 +140,7 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 50",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 51",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 53",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 16",
+                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 16",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇩🇪DE | 🔴 | vless | @nofiltering2 | 5",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
@@ -199,7 +199,7 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 50",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 51",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 53",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 16",
+                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 16",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇩🇪DE | 🔴 | vless | @nofiltering2 | 5",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
@@ -1261,11 +1261,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 16",
+            "tag": "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "3.85.99.181",
-            "server_port": 1212,
-            "uuid": "a7e04b44-855e-4fe7-8fa0-31894e928bce",
+            "server": "213.176.66.228",
+            "server_port": 37021,
+            "uuid": "74beb0a8-dff1-4dc7-99e3-64a2704662e4",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1275,17 +1275,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "stackoverflow.com",
+                "server_name": "google.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "random"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A",
-                    "short_id": "a4844ba7"
+                    "public_key": "Gk3eR3mV55k5P3tg-MzqMpNolmML8q9zBOf6A102e1Y",
+                    "short_id": "bc721eb6"
                 }
             }
         },
