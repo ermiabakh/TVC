@@ -140,7 +140,7 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 50",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 51",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 53",
-                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 16",
+                "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 12",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇩🇪DE | 🔴 | vless | @nofiltering2 | 5",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
@@ -199,7 +199,7 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 50",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 51",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 53",
-                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 16",
+                "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 12",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇩🇪DE | 🔴 | vless | @nofiltering2 | 5",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
@@ -1261,11 +1261,11 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 16",
+            "tag": "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 12",
             "type": "vless",
-            "server": "213.176.66.228",
-            "server_port": 37021,
-            "uuid": "74beb0a8-dff1-4dc7-99e3-64a2704662e4",
+            "server": "65.109.199.233",
+            "server_port": 4050,
+            "uuid": "1df5e589-3301-427e-b0aa-0017ffde1555",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1275,17 +1275,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "google.com",
+                "server_name": "mega.de",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "random"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "Gk3eR3mV55k5P3tg-MzqMpNolmML8q9zBOf6A102e1Y",
-                    "short_id": "bc721eb6"
+                    "public_key": "oVRY8h7Njgw25j3CNhaJVMUys378tTvecrSRbrB3gyo",
+                    "short_id": "2ebd6e17dec6a5d9"
                 }
             }
         },
