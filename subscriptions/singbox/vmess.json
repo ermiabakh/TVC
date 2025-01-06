@@ -116,9 +116,10 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 9",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 11",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
-                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 13",
+                "🇫🇷FR | 🟢 | vmess | @DeamNet_Proxy | 13",
                 "🇵🇭PH | 🟢 | vmess | @DeamNet_Proxy | 14",
-                "🇸🇬SG | 🟢 | vmess | @ConfigsHUB | 17",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 4",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 5",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -127,7 +128,7 @@
                 "🇺🇸US | 🟢 | vmess | @free1_vpn | 6",
                 "🇺🇸US | 🟢 | vmess | @free1_vpn | 10",
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 0",
-                "🇩🇪DE | 🟢 | vmess | @nofiltering2 | 16"
+                "🇩🇪DE | 🟢 | vmess | @nofiltering2 | 18"
             ]
         },
         {
@@ -144,9 +145,10 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 9",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 11",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
-                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 13",
+                "🇫🇷FR | 🟢 | vmess | @DeamNet_Proxy | 13",
                 "🇵🇭PH | 🟢 | vmess | @DeamNet_Proxy | 14",
-                "🇸🇬SG | 🟢 | vmess | @ConfigsHUB | 17",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 4",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 5",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -155,7 +157,7 @@
                 "🇺🇸US | 🟢 | vmess | @free1_vpn | 6",
                 "🇺🇸US | 🟢 | vmess | @free1_vpn | 10",
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 0",
-                "🇩🇪DE | 🟢 | vmess | @nofiltering2 | 16"
+                "🇩🇪DE | 🟢 | vmess | @nofiltering2 | 18"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -348,7 +350,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 13",
+            "tag": "🇫🇷FR | 🟢 | vmess | @DeamNet_Proxy | 13",
             "type": "vmess",
             "server": "hms19.best-tizi.top",
             "server_port": 443,
@@ -416,11 +418,11 @@
             }
         },
         {
-            "tag": "🇸🇬SG | 🟢 | vmess | @ConfigsHUB | 17",
+            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 4",
             "type": "vmess",
-            "server": "83.147.255.67",
-            "server_port": 13889,
-            "uuid": "d985c135-28c5-40fe-8853-31da55080161",
+            "server": "151.101.194.133",
+            "server_port": 443,
+            "uuid": "c69f3029-ae1e-45ca-aa08-70970f14dfd2",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -430,6 +432,47 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mio.splashthat.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/racevpn",
+                "headers": {
+                    "Host": "mio.splashthat.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 5",
+            "type": "vmess",
+            "server": "151.101.2.216",
+            "server_port": 80,
+            "uuid": "c69f3029-ae1e-45ca-aa08-70970f14dfd2",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/racevpn?ed=80",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -665,7 +708,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | @nofiltering2 | 16",
+            "tag": "🇩🇪DE | 🟢 | vmess | @nofiltering2 | 18",
             "type": "vmess",
             "server": "139.59.142.237",
             "server_port": 2082,
