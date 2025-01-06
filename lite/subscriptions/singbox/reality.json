@@ -107,7 +107,8 @@
             "outbounds": [
                 "URL-TEST",
                 "❔XX | 🔴 | vless | @VmessProtocol | 11",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 15",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 19",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ]
@@ -117,7 +118,8 @@
             "type": "urltest",
             "outbounds": [
                 "❔XX | 🔴 | vless | @VmessProtocol | 11",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 15",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 19",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ],
@@ -178,11 +180,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 15",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "49.12.106.37",
-            "server_port": 55822,
-            "uuid": "Telegram@v2rayng_vpnn",
+            "server": "188.245.231.16",
+            "server_port": 443,
+            "uuid": "f5165ef0-d580-4b9e-a67e-b52ce3ec5fb4",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -192,17 +194,46 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mmd.10.isovpn.shop",
+                "server_name": "androidcentral.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "randomized"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "swrGFiH1GGLp80EgD_iDAuyb701VeVirfXCbI_5cinw",
-                    "short_id": ""
+                    "public_key": "-rDCePGiiXVVJRaqdrxMpHEaS6BLW5MThq8Dx3MD-xw",
+                    "short_id": "6a06b0e6"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "188.245.231.16",
+            "server_port": 443,
+            "uuid": "f5165ef0-d580-4b9e-a67e-b52ce3ec5fb4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "androidcentral.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-rDCePGiiXVVJRaqdrxMpHEaS6BLW5MThq8Dx3MD-xw",
+                    "short_id": "6a06b0e6"
                 }
             }
         },
