@@ -112,7 +112,7 @@
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇩🇪DE | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
-                "🇫🇷FR | 🟢 | vless | @prrofile_purple | 160",
+                "🇫🇷FR | 🟢 | vless | @prrofile_purple | 169",
                 "🇯🇵JP | 🟢 | vless | @customv2ray | 3",
                 "🇫🇷FR | 🟢 | vless | @ShadowProxy66 | 5",
                 "🇺🇸US | 🟢 | vless | @vless_vmess | 3",
@@ -156,7 +156,6 @@
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 3",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 10",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 11",
-                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 12",
                 "🇩🇪DE | 🔴 | vless | @nofiltering2 | 12",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
@@ -188,7 +187,7 @@
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇩🇪DE | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
-                "🇫🇷FR | 🟢 | vless | @prrofile_purple | 160",
+                "🇫🇷FR | 🟢 | vless | @prrofile_purple | 169",
                 "🇯🇵JP | 🟢 | vless | @customv2ray | 3",
                 "🇫🇷FR | 🟢 | vless | @ShadowProxy66 | 5",
                 "🇺🇸US | 🟢 | vless | @vless_vmess | 3",
@@ -232,7 +231,6 @@
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 3",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 10",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 11",
-                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 12",
                 "🇩🇪DE | 🔴 | vless | @nofiltering2 | 12",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
@@ -469,7 +467,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | vless | @prrofile_purple | 160",
+            "tag": "🇫🇷FR | 🟢 | vless | @prrofile_purple | 169",
             "type": "vless",
             "server": "vippro.mispd.ir",
             "server_port": 443,
@@ -1726,35 +1724,6 @@
             "tag": "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 11",
             "type": "vless",
             "server": "35.90.70.3",
-            "server_port": 1212,
-            "uuid": "a7e04b44-855e-4fe7-8fa0-31894e928bce",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A",
-                    "short_id": "a4844ba7"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 12",
-            "type": "vless",
-            "server": "35.88.169.96",
             "server_port": 1212,
             "uuid": "a7e04b44-855e-4fe7-8fa0-31894e928bce",
             "flow": "xtls-rprx-vision",
