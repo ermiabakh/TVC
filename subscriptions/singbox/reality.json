@@ -112,7 +112,7 @@
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇩🇪DE | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
-                "🇩🇪DE | 🟢 | vless | @prrofile_purple | 119",
+                "🇫🇷FR | 🟢 | vless | @prrofile_purple | 160",
                 "🇫🇷FR | 🟢 | vless | @ShadowProxy66 | 5",
                 "🇺🇸US | 🟢 | vless | @vless_vmess | 3",
                 "❔XX | 🟢 | vless | @VmessProtocol | 12",
@@ -143,6 +143,9 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 179",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 180",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 181",
+                "🇵🇱PL | 🟢 | vless | @ConfigsHUB | 12",
+                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 13",
+                "🇩🇪DE | 🟢 | vless | @free1_vpn | 5",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 7",
@@ -178,7 +181,7 @@
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇩🇪DE | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
-                "🇩🇪DE | 🟢 | vless | @prrofile_purple | 119",
+                "🇫🇷FR | 🟢 | vless | @prrofile_purple | 160",
                 "🇫🇷FR | 🟢 | vless | @ShadowProxy66 | 5",
                 "🇺🇸US | 🟢 | vless | @vless_vmess | 3",
                 "❔XX | 🟢 | vless | @VmessProtocol | 12",
@@ -209,6 +212,9 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 179",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 180",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 181",
+                "🇵🇱PL | 🟢 | vless | @ConfigsHUB | 12",
+                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 13",
+                "🇩🇪DE | 🟢 | vless | @free1_vpn | 5",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 7",
@@ -449,11 +455,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @prrofile_purple | 119",
+            "tag": "🇫🇷FR | 🟢 | vless | @prrofile_purple | 160",
             "type": "vless",
-            "server": "persian--k2k.gamebaz98.ir",
-            "server_port": 7870,
-            "uuid": "telegram-gozargah-azadi",
+            "server": "vippro.mispd.ir",
+            "server_port": 443,
+            "uuid": "40c71f2a-98bb-4d5d-8c6f-de690acf24f0",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -463,17 +469,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "wordpress.org",
+                "server_name": "refersion.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "randomized"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "jM1gcVk2UnB4y8PimJ7FA4Y8gxLxBoxD-vg9YWH4jnM",
-                    "short_id": "5cebd3fd"
+                    "public_key": "-e-Py1tk4hBqFmmL-p_1l7imBS6eGWx1lVqbHWwA2yo",
+                    "short_id": "6d49a78191f4d90f"
                 }
             }
         },
@@ -1351,6 +1357,93 @@
                     "enabled": true,
                     "public_key": "RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A",
                     "short_id": "a4844ba7"
+                }
+            }
+        },
+        {
+            "tag": "🇵🇱PL | 🟢 | vless | @ConfigsHUB | 12",
+            "type": "vless",
+            "server": "45.82.255.149",
+            "server_port": 443,
+            "uuid": "46ce658d-c433-430a-84aa-5980026badac",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "website.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "0hH6R90pSxwm7nZPGtJJcJFhwCXU3Rvf-wcEHE7hczo",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 13",
+            "type": "vless",
+            "server": "195.133.11.229",
+            "server_port": 43774,
+            "uuid": "d32dbead-42d4-49b7-aece-b6523a0e945f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tutu.ru",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ZLAYpx5wkCanyDNjQO",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | @free1_vpn | 5",
+            "type": "vless",
+            "server": "persian--k2k.gamebaz98.ir",
+            "server_port": 7870,
+            "uuid": "telegram-gozargah-azadi",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "wordpress.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "jM1gcVk2UnB4y8PimJ7FA4Y8gxLxBoxD-vg9YWH4jnM",
+                    "short_id": "5cebd3fd"
                 }
             }
         },
