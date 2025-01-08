@@ -116,7 +116,6 @@
                 "🇯🇵JP | 🟢 | vless | @customv2ray | 3",
                 "🇩🇪DE | 🟢 | vless | @ShadowProxy66 | 2",
                 "🇫🇷FR | 🟢 | vless | @ShadowProxy66 | 3",
-                "🇫🇷FR | 🟢 | vless | @ShadowProxy66 | 14",
                 "🇺🇸US | 🟢 | vless | @vless_vmess | 3",
                 "❔XX | 🟢 | vless | @VmessProtocol | 12",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 146",
@@ -142,10 +141,8 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 175",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 176",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 177",
-                "🇪🇸ES | 🔴 | vless | @ConfigsHUB | 2",
-                "🇬🇧GB | 🟢 | vless | @ConfigsHUB | 13",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 16",
-                "🇯🇵JP | 🟢 | vless | @ConfigsHUB | 17",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 2",
+                "🇯🇵JP | 🟢 | vless | @ConfigsHUB | 3",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 3",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 4",
@@ -185,7 +182,6 @@
                 "🇯🇵JP | 🟢 | vless | @customv2ray | 3",
                 "🇩🇪DE | 🟢 | vless | @ShadowProxy66 | 2",
                 "🇫🇷FR | 🟢 | vless | @ShadowProxy66 | 3",
-                "🇫🇷FR | 🟢 | vless | @ShadowProxy66 | 14",
                 "🇺🇸US | 🟢 | vless | @vless_vmess | 3",
                 "❔XX | 🟢 | vless | @VmessProtocol | 12",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 146",
@@ -211,10 +207,8 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 175",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 176",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 177",
-                "🇪🇸ES | 🔴 | vless | @ConfigsHUB | 2",
-                "🇬🇧GB | 🟢 | vless | @ConfigsHUB | 13",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 16",
-                "🇯🇵JP | 🟢 | vless | @ConfigsHUB | 17",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 2",
+                "🇯🇵JP | 🟢 | vless | @ConfigsHUB | 3",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 3",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 4",
@@ -567,35 +561,6 @@
                     "enabled": true,
                     "public_key": "oVZST-PRC1yQKBqn7PJP2gMimeqZVAFH56w2xZQgAwE",
                     "short_id": "3a"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷FR | 🟢 | vless | @ShadowProxy66 | 14",
-            "type": "vless",
-            "server": "185.255.112.175",
-            "server_port": 5600,
-            "uuid": "8a0f634c-4e80-4f5d-89f0-25736fce7048",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "y6JSkggQ__RA_nmCJpX1_ddSQC6vzDUPaN7KyvjVuic",
-                    "short_id": ""
                 }
             }
         },
@@ -1325,72 +1290,7 @@
             }
         },
         {
-            "tag": "🇪🇸ES | 🔴 | vless | @ConfigsHUB | 2",
-            "type": "vless",
-            "server": "ns9.esfahansiman.com",
-            "server_port": 1210,
-            "uuid": "23598003-ca74-4416-af8d-98904d5a50cc",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ubuntu.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
-                    "short_id": "7fe29733"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@@jet_config-@jet_config-@jet_config",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇬🇧GB | 🟢 | vless | @ConfigsHUB | 13",
-            "type": "vless",
-            "server": "v2london.aaaa.gay",
-            "server_port": 443,
-            "uuid": "d2093082-a38a-316b-adcb-71013e595bd0",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "tesla.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "zRZhlkKjUeqtIk9j6yy95aX-2krqQVyWORLv5tQkQGM",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 16",
+            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 2",
             "type": "vless",
             "server": "91.107.141.239",
             "server_port": 1357,
@@ -1419,7 +1319,7 @@
             }
         },
         {
-            "tag": "🇯🇵JP | 🟢 | vless | @ConfigsHUB | 17",
+            "tag": "🇯🇵JP | 🟢 | vless | @ConfigsHUB | 3",
             "type": "vless",
             "server": "160.16.99.218",
             "server_port": 443,
