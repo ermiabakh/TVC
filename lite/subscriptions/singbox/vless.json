@@ -150,10 +150,9 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 11",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 184",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 185",
-                "🇰🇷KR | 🔴 | vless | @ConfigsHUB | 15",
-                "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 16",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 9",
-                "🇸🇪SE | 🔴 | vless | @free1_vpn | 10",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 9",
                 "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 10",
@@ -219,10 +218,9 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 11",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 184",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 185",
-                "🇰🇷KR | 🔴 | vless | @ConfigsHUB | 15",
-                "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 16",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 9",
-                "🇸🇪SE | 🔴 | vless | @free1_vpn | 10",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 9",
                 "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 10",
@@ -1307,11 +1305,11 @@
             }
         },
         {
-            "tag": "🇰🇷KR | 🔴 | vless | @ConfigsHUB | 15",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "140.238.2.81",
-            "server_port": 587,
-            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+            "server": "tify-binex-join.espikernajafi.ir",
+            "server_port": 2053,
+            "uuid": "3ef89d06-e8f4-4396-c5e2-05b7c0904312",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1319,30 +1317,20 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "a.mifeng.us.kg",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=2560",
+                "path": "\/telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY?ed=2560",
                 "headers": {
-                    "Host": "a.mifeng.us.kg"
+                    "Host": "tify-binex-join.espikernajafi.ir"
                 }
             }
         },
         {
-            "tag": "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 16",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "185.22.155.139",
-            "server_port": 587,
-            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+            "server": "tify-binex-join.espikernajafi.ir",
+            "server_port": 6666,
+            "uuid": "15825246-3068-4d2b-e25b-501b5c2c99b4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1350,22 +1338,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "a.xn--i-sx6a60i.us.kg",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "ws",
-                "path": "\/?ed=2560",
-                "headers": {
-                    "Host": "a.xn--i-sx6a60i.us.kg"
-                }
+                "type": "grpc",
+                "service_name": "\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1397,20 +1375,6 @@
                 "headers": {
                     "Host": "pscresearch.faculty.ucdavis.edu"
                 }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | 🔴 | vless | @free1_vpn | 10",
-            "type": "vless",
-            "server": "172.232.149.72",
-            "server_port": 17123,
-            "uuid": "14653802-4435-41ef-9210-64e4293f28b9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -1517,37 +1481,6 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
             "type": "vless",
-            "server": "zmaoz.faculty.ucdavis.edu",
-            "server_port": 443,
-            "uuid": "tell--ZEDMODEON",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "zmaoz.faculty.ucdavis.edu",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@ZEDMODEON-ZEDMODEON@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON",
-                "headers": {
-                    "Host": "zmaoz.faculty.ucdavis.edu"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 9",
-            "type": "vless",
             "server": "151.101.194.133",
             "server_port": 443,
             "uuid": "telegram-id-ArV2ray",
@@ -1573,6 +1506,37 @@
                 "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
                     "Host": "mio.splashthat.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 9",
+            "type": "vless",
+            "server": "zmaoz.faculty.ucdavis.edu",
+            "server_port": 443,
+            "uuid": "tell--ZEDMODEON",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "zmaoz.faculty.ucdavis.edu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@ZEDMODEON-ZEDMODEON@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON",
+                "headers": {
+                    "Host": "zmaoz.faculty.ucdavis.edu"
                 }
             }
         },
