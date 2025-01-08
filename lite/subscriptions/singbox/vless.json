@@ -148,6 +148,7 @@
                 "❔XX | 🟢 | vless | @VmessProtocol | 12",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 200",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 201",
+                "🇪🇸ES | 🟢 | vless | @ConfigsHUB | 18",
                 "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 8",
                 "🇸🇪SE | 🔴 | vless | @free1_vpn | 9",
@@ -214,6 +215,7 @@
                 "❔XX | 🟢 | vless | @VmessProtocol | 12",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 200",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 201",
+                "🇪🇸ES | 🟢 | vless | @ConfigsHUB | 18",
                 "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 8",
                 "🇸🇪SE | 🔴 | vless | @free1_vpn | 9",
@@ -1248,6 +1250,42 @@
                 "headers": {
                     "Host": "hajlab.ucdavis.edu"
                 }
+            }
+        },
+        {
+            "tag": "🇪🇸ES | 🟢 | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "141.227.128.218",
+            "server_port": 1210,
+            "uuid": "23598003-ca74-4416-af8d-98904d5a50cc",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ubuntu.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
+                    "short_id": "7fe29733"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@@jet_config-@jet_config-@jet_config",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
