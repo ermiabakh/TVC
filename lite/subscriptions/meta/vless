@@ -146,7 +146,8 @@ proxies:
   - {"name":"🇺🇸US | 🔴 | vless | @VmessProtocol | 11","type":"vless","server":"www.visa.com","port":80,"udp":false,"uuid":"989f3b5d-705e-4c75-99bd-b41be4d146cd","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/?ed=2560","headers":{"host":"0103.x8r4itwg.workers.dev"}}}
   - {"name":"🇺🇸US | 🔴 | vless | @DailyV2RY | 186","type":"vless","server":"18.224.58.74","port":1212,"udp":true,"uuid":"a7e04b44-855e-4fe7-8fa0-31894e928bce","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"stackoverflow.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A","short-id":"a4844ba7"}}
   - {"name":"🇺🇸US | 🔴 | vless | @DailyV2RY | 187","type":"vless","server":"18.219.84.67","port":1212,"udp":true,"uuid":"a7e04b44-855e-4fe7-8fa0-31894e928bce","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"stackoverflow.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A","short-id":"a4844ba7"}}
-  - {"name":"🇪🇸ES | 🟢 | vless | @ConfigsHUB | 13","type":"vless","server":"ns7.esfahansiman.com","port":2030,"udp":true,"uuid":"648b969a-4046-4f3b-b456-345fe1c1c9ea","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"refersion.com","grpc-opts":{"grpc-service-name":"@@jet_config-@jet_config-@jet_config"},"reality-opts":{"public-key":"YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E","short-id":"7fe29733"}}
+  - {"name":"🇫🇷FR | 🔴 | vless | @ConfigsHUB | 17","type":"vless","server":"185.255.112.175","port":5610,"udp":true,"uuid":"c831e441-42fb-40c2-9be5-7142c2e893d2","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"refersion.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"y6JSkggQ__RA_nmCJpX1_ddSQC6vzDUPaN7KyvjVuic"}}
+  - {"name":"🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18","type":"vless","server":"TLS.zeoaeriedo-saioesrio.ir","port":2000,"udp":false,"uuid":"99b78eb6-9284-4163-849a-52f822f0b585","tls":true,"network":"grpc","client-fingerprint":"chrome","grpc-opts":{"grpc-service-name":"/@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray"}}
   - {"name":"🇺🇸US | 🔴 | vless | @free1_vpn | 9","type":"vless","server":"pscresearch.faculty.ucdavis.edu","port":443,"udp":false,"uuid":"04c924c7-551e-4c67-b3fa-9cca9e8cdc78","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"pscresearch.faculty.ucdavis.edu","ws-opts":{"path":"ws/?ed=2048","headers":{"host":"ihrcxextyuj.com"}}}
   - {"name":"🇺🇸US | 🔴 | vless | @fnet00 | 6","type":"vless","server":"162.159.138.178","port":8080,"udp":false,"uuid":"42ae576a-0b4d-40d8-bcf5-9997d4fb0e41","tls":false,"network":"httpupgrade","client-fingerprint":"chrome"}
   - {"name":"🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 9","type":"vless","server":"145.239.137.166","port":14185,"udp":false,"uuid":"8afbcce1-1d5d-4d54-a6a7-a64230b91341","tls":false,"network":"tcp","client-fingerprint":"chrome"}
@@ -187,7 +188,8 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @VmessProtocol | 11'
       - '🇺🇸US | 🔴 | vless | @DailyV2RY | 186'
       - '🇺🇸US | 🔴 | vless | @DailyV2RY | 187'
-      - '🇪🇸ES | 🟢 | vless | @ConfigsHUB | 13'
+      - '🇫🇷FR | 🔴 | vless | @ConfigsHUB | 17'
+      - '🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18'
       - '🇺🇸US | 🔴 | vless | @free1_vpn | 9'
       - '🇺🇸US | 🔴 | vless | @fnet00 | 6'
       - '🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 9'
@@ -228,7 +230,8 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @VmessProtocol | 11'
       - '🇺🇸US | 🔴 | vless | @DailyV2RY | 186'
       - '🇺🇸US | 🔴 | vless | @DailyV2RY | 187'
-      - '🇪🇸ES | 🟢 | vless | @ConfigsHUB | 13'
+      - '🇫🇷FR | 🔴 | vless | @ConfigsHUB | 17'
+      - '🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18'
       - '🇺🇸US | 🔴 | vless | @free1_vpn | 9'
       - '🇺🇸US | 🔴 | vless | @fnet00 | 6'
       - '🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 9'
@@ -268,7 +271,8 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @VmessProtocol | 11'
       - '🇺🇸US | 🔴 | vless | @DailyV2RY | 186'
       - '🇺🇸US | 🔴 | vless | @DailyV2RY | 187'
-      - '🇪🇸ES | 🟢 | vless | @ConfigsHUB | 13'
+      - '🇫🇷FR | 🔴 | vless | @ConfigsHUB | 17'
+      - '🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18'
       - '🇺🇸US | 🔴 | vless | @free1_vpn | 9'
       - '🇺🇸US | 🔴 | vless | @fnet00 | 6'
       - '🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 9'
