@@ -120,8 +120,6 @@ dns:
 proxies:
   - {"name":"🇩🇪DE | 🟢 | vmess | @CUSTOMVPNSERVER | 15","type":"vmess","server":"88.198.93.175","port":"8880","cipher":"auto","uuid":"58531009-b664-445b-b896-7bb9026b744d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | 🟢 | vmess | @mftizi | 17","type":"vmess","server":"183.236.51.23","port":"56601","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸US | 🟢 | vmess | @ConfigsHUB | 9","type":"vmess","server":"Reza.ns.cloudflare.com","port":"2087","cipher":"auto","uuid":"db5afae4-ac23-41a6-8378-f307a9a47436","alterId":"0","tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"","grpc-mode":"gun"}}
-  - {"name":"🇫🇮FI | 🟢 | vmess | @ConfigsHUB | 10","type":"vmess","server":"safe.sanjesh.online","port":"8249","cipher":"auto","uuid":"61b5cfc5-a9b9-42d7-9ddd-a6878e3609fb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | 🟢 | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
   - {"name":"🇺🇸US | 🟢 | vmess | @free1_vpn | 8","type":"vmess","server":"151.101.2.168","port":"80","cipher":"auto","uuid":"beb7d098-48ba-4be8-a47a-758bf3c470b8","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"amd.al"}}}
   - {"name":"🇫🇷FR | 🟢 | vmess | @Hope_Net | 1","type":"vmess","server":"163.5.159.231","port":"443","cipher":"auto","uuid":"e537f2f5-2a0c-4f59-92c9-832ca6433bf3","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"irvideo.cfd"}}}
@@ -133,8 +131,6 @@ proxy-groups:
       - FALLBACK
       - '🇩🇪DE | 🟢 | vmess | @CUSTOMVPNSERVER | 15'
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 17'
-      - '🇺🇸US | 🟢 | vmess | @ConfigsHUB | 9'
-      - '🇫🇮FI | 🟢 | vmess | @ConfigsHUB | 10'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
       - '🇺🇸US | 🟢 | vmess | @free1_vpn | 8'
       - '🇫🇷FR | 🟢 | vmess | @Hope_Net | 1'
@@ -146,8 +142,6 @@ proxy-groups:
     proxies:
       - '🇩🇪DE | 🟢 | vmess | @CUSTOMVPNSERVER | 15'
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 17'
-      - '🇺🇸US | 🟢 | vmess | @ConfigsHUB | 9'
-      - '🇫🇮FI | 🟢 | vmess | @ConfigsHUB | 10'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
       - '🇺🇸US | 🟢 | vmess | @free1_vpn | 8'
       - '🇫🇷FR | 🟢 | vmess | @Hope_Net | 1'
@@ -158,8 +152,6 @@ proxy-groups:
     proxies:
       - '🇩🇪DE | 🟢 | vmess | @CUSTOMVPNSERVER | 15'
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 17'
-      - '🇺🇸US | 🟢 | vmess | @ConfigsHUB | 9'
-      - '🇫🇮FI | 🟢 | vmess | @ConfigsHUB | 10'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
       - '🇺🇸US | 🟢 | vmess | @free1_vpn | 8'
       - '🇫🇷FR | 🟢 | vmess | @Hope_Net | 1'
