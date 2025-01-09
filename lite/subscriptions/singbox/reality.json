@@ -106,8 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 193",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 194",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 10",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ]
@@ -116,8 +116,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 193",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 194",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 10",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ],
@@ -142,11 +142,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 193",
+            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "18.222.166.29",
-            "server_port": 1212,
-            "uuid": "a7e04b44-855e-4fe7-8fa0-31894e928bce",
+            "server": "138.124.61.246",
+            "server_port": 443,
+            "uuid": "V2rayArgoN-",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -156,24 +156,24 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "stackoverflow.com",
+                "server_name": "138.124.61.246",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": null
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A",
-                    "short_id": "a4844ba7"
+                    "public_key": "1tA2CIltAtu_CMKCMWqH4zuRi-EA9LFG9Wz6SI0_sG4",
+                    "short_id": ""
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 194",
+            "tag": "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 10",
             "type": "vless",
-            "server": "18.209.55.184",
+            "server": "3.145.64.2",
             "server_port": 1212,
             "uuid": "a7e04b44-855e-4fe7-8fa0-31894e928bce",
             "flow": "xtls-rprx-vision",
