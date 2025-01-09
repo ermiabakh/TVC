@@ -106,8 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 178",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 179",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 170",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 171",
                 "🇩🇪DE | 🔴 | vless | @nofiltering2 | 19",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
@@ -117,8 +117,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 178",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 179",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 170",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 171",
                 "🇩🇪DE | 🔴 | vless | @nofiltering2 | 19",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
@@ -144,9 +144,9 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 178",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 170",
             "type": "vless",
-            "server": "18.191.223.242",
+            "server": "35.172.236.47",
             "server_port": 1212,
             "uuid": "a7e04b44-855e-4fe7-8fa0-31894e928bce",
             "flow": "xtls-rprx-vision",
@@ -173,9 +173,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 179",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 171",
             "type": "vless",
-            "server": "13.59.23.3",
+            "server": "13.59.44.240",
             "server_port": 1212,
             "uuid": "a7e04b44-855e-4fe7-8fa0-31894e928bce",
             "flow": "xtls-rprx-vision",
