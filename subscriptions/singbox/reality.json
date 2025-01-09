@@ -152,6 +152,8 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 169",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 170",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 171",
+                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 13",
+                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 15",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 4",
                 "🇩🇪DE | 🔴 | vless | @nofiltering2 | 19",
@@ -226,6 +228,8 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 169",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 170",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 171",
+                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 13",
+                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 15",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 4",
                 "🇩🇪DE | 🔴 | vless | @nofiltering2 | 19",
@@ -1628,6 +1632,64 @@
                     "enabled": true,
                     "public_key": "RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A",
                     "short_id": "a4844ba7"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 13",
+            "type": "vless",
+            "server": "87.98.149.193",
+            "server_port": 443,
+            "uuid": "59b40e12-bc22-425c-9056-330d49b2ff7e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "B9s5sNb0bSLLiUhofHrgaBPGrS6yz3VEpvPXG-YDGwE",
+                    "short_id": "c4"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 15",
+            "type": "vless",
+            "server": "213.21.245.60",
+            "server_port": 443,
+            "uuid": "SVNTEAM",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.latimes.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "PX3Iw8tKNRnG6_MqONvC96D7G1RWe_VvBJ99UGN150k",
+                    "short_id": ""
                 }
             }
         },
