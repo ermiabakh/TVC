@@ -146,8 +146,8 @@
                 "❔XX | 🔴 | vless | @MTConfig | 15",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 175",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 176",
-                "🇮🇷IR | 🔴 | vless | @ConfigsHUB | 17",
-                "🇮🇷IR | 🔴 | vless | @ConfigsHUB | 18",
+                "TELEGRAM-MARAMBASHI_MARAMBASHI\/?ed=2560&security=tls&alpn=h2,http\/1.1&encryption=none&host=aft.vc&fp=chrome&type=ws&sni=live.989bull.com#🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 9",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 5",
@@ -207,8 +207,8 @@
                 "❔XX | 🔴 | vless | @MTConfig | 15",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 175",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 176",
-                "🇮🇷IR | 🔴 | vless | @ConfigsHUB | 17",
-                "🇮🇷IR | 🔴 | vless | @ConfigsHUB | 18",
+                "TELEGRAM-MARAMBASHI_MARAMBASHI\/?ed=2560&security=tls&alpn=h2,http\/1.1&encryption=none&host=aft.vc&fp=chrome&type=ws&sni=live.989bull.com#🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 9",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 5",
@@ -1211,11 +1211,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @ConfigsHUB | 17",
+            "tag": "TELEGRAM-MARAMBASHI_MARAMBASHI\/?ed=2560&security=tls&alpn=h2,http\/1.1&encryption=none&host=aft.vc&fp=chrome&type=ws&sni=live.989bull.com#🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "178.239.144.176",
-            "server_port": 2015,
-            "uuid": "4334573e-15b8-4376-94cf-a8aa0ce722b3",
+            "server": "cloud.xmsvx.com",
+            "server_port": 443,
+            "uuid": "4d8426b2-0af1-4eb5-a231-b62152d7b9b9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1225,23 +1225,31 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "a307.im-mrserver61.top",
-            "server_port": 90,
-            "uuid": "82003148-1939-464d-9b27-bf7f1906e2fc",
-            "flow": "",
+            "server": "www.zooboming.com",
+            "server_port": 443,
+            "uuid": "ItsLegendaryking",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "a307.im-mrserver61.top"
+            "tls": {
+                "enabled": true,
+                "server_name": "docker.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "oQXqXPs9tn_BwNCiG0cE62WnG3EeWcz5-7E7U9V4LF4",
+                    "short_id": ""
                 }
             }
         },
