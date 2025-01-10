@@ -204,9 +204,9 @@
         {
             "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 13",
             "type": "vless",
-            "server": "185.161.251.211",
+            "server": "liferobot.darkping.net",
             "server_port": 1633,
-            "uuid": "545d7c69-3984-43cd-b2e9-f7e3220061ed",
+            "uuid": "13782dab-ef84-4ce7-b5ad-f3c7e4a9c0f2",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -216,17 +216,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "185.161.251.211",
+                "server_name": "stackoverflow.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": null
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
                     "public_key": "ANlgAsYC8HmKfJnc5SFvru822urkxG1PzW1Zw4Vbm0Q",
-                    "short_id": ""
+                    "short_id": "9bc0a55a5379c0ed"
                 }
             }
         },
