@@ -159,11 +159,7 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 235",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 236",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 237",
-                "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 2",
-                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 6",
-                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 7",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 8",
-                "🇦🇹AT | 🟢 | vless | @ConfigsHUB | 9",
+                "🇧🇪BE | 🔴 | vless | @ConfigsHUB | 0",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇳🇱NL | 🟢 | vless | @Outlinev2rayNG | 0",
                 "🇫🇷FR | 🔴 | vless | @mehrosaboran | 0",
@@ -245,11 +241,7 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 235",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 236",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 237",
-                "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 2",
-                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 6",
-                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 7",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 8",
-                "🇦🇹AT | 🟢 | vless | @ConfigsHUB | 9",
+                "🇧🇪BE | 🔴 | vless | @ConfigsHUB | 0",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇳🇱NL | 🟢 | vless | @Outlinev2rayNG | 0",
                 "🇫🇷FR | 🔴 | vless | @mehrosaboran | 0",
@@ -1866,11 +1858,11 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 2",
+            "tag": "🇧🇪BE | 🔴 | vless | @ConfigsHUB | 0",
             "type": "vless",
-            "server": "206.189.117.253",
-            "server_port": 1615,
-            "uuid": "68665e7f-31c1-49f4-9347-3e18c18e024b",
+            "server": "141.227.136.32",
+            "server_port": 38818,
+            "uuid": "0d30dbbd-442b-4522-a098-7e3b9117d83f",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1880,7 +1872,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "refersion.com",
+                "server_name": "sourceforge.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1889,125 +1881,16 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "JGnVRUSzYfMg3pwJKIGO84Lyo1_nalQe21b3EG0JiV8",
-                    "short_id": ""
+                    "public_key": "3uG4qqXt1YcoCdfVxisTqXFhVF4HwBhpVKEoFz8jsz4",
+                    "short_id": "ae4ab95b"
                 }
-            }
-        },
-        {
-            "tag": "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 6",
-            "type": "vless",
-            "server": "fr.srv.flexiblenet.org",
-            "server_port": 8443,
-            "uuid": "219ee52a-0e91-4f36-93a5-3e28a4830a7a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "bunny.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "os2QbCQyqdqE4vr-vVWTQMBiqxFXEDSLhMncRy5RIwg",
-                    "short_id": "f8d8d12585198cb5"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 7",
-            "type": "vless",
-            "server": "ru.srv.flexiblenet.org",
-            "server_port": 8443,
-            "uuid": "219ee52a-0e91-4f36-93a5-3e28a4830a7a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "bunny.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "os2QbCQyqdqE4vr-vVWTQMBiqxFXEDSLhMncRy5RIwg",
-                    "short_id": "f8d8d12585198cb5"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 8",
-            "type": "vless",
-            "server": "nl-1.srv.flexiblenet.org",
-            "server_port": 8443,
-            "uuid": "219ee52a-0e91-4f36-93a5-3e28a4830a7a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "bunny.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "os2QbCQyqdqE4vr-vVWTQMBiqxFXEDSLhMncRy5RIwg",
-                    "short_id": "f8d8d12585198cb5"
-                }
-            }
-        },
-        {
-            "tag": "🇦🇹AT | 🟢 | vless | @ConfigsHUB | 9",
-            "type": "vless",
-            "server": "au.srv.flexiblenet.org",
-            "server_port": 8443,
-            "uuid": "219ee52a-0e91-4f36-93a5-3e28a4830a7a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "bunny.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "os2QbCQyqdqE4vr-vVWTQMBiqxFXEDSLhMncRy5RIwg",
-                    "short_id": "f8d8d12585198cb5"
-                }
+            "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
