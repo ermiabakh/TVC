@@ -120,8 +120,8 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"🇮🇪IE | 🔴 | vless | @VlessConfig | 16","type":"vless","server":"99.80.84.210","port":22222,"udp":false,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"telegram-channel-vlessconfig.sohala.uk","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
-  - {"name":"🇬🇧GB | 🔴 | vless | @VlessConfig | 17","type":"vless","server":"18.133.94.61","port":22222,"udp":false,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"telegram-channel-vlessconfig.sohala.uk","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
+  - {"name":"🇸🇪SE | 🔴 | vless | @VlessConfig | 16","type":"vless","server":"13.49.63.44","port":22222,"udp":false,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"telegram-channel-vlessconfig.sohala.uk","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
+  - {"name":"🇸🇪SE | 🔴 | vless | @VlessConfig | 17","type":"vless","server":"13.61.47.196","port":22222,"udp":false,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"telegram-channel-vlessconfig.sohala.uk","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
   - {"name":"🇺🇸US | 🔴 | vless | @ipV2Ray | 16","type":"vless","server":"151.101.3.8","port":80,"udp":false,"uuid":"3db9e150-3ce2-46e0-9075-3adc1fa06a18","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray?ed=443","headers":{"host":"c2.tehran.org"}}}
   - {"name":"🇺🇸US | 🔴 | vless | @ipV2Ray | 17","type":"vless","server":"151.101.3.8","port":80,"udp":false,"uuid":"c22e74d5-578d-4578-8daf-14e10961f83a","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray?ed=443","headers":{"host":"c1.tehran.org"}}}
   - {"name":"🇺🇸US | 🔴 | vless | @Lockey_vpn | 1","type":"vless","server":"151.101.2.216","port":80,"udp":false,"uuid":"16190e3c-6c1b-45c3-8be2-48ef92c211a2","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/@LOCKEY-VPN-@LOCKEY-VPN-@LOCKEY-VPN-@LOCKEY-VPN-@LOCKEY-VPN-@LOCKEY-VPN-@LOCKEY-VPN-@LOCKEY-VPN-@LOCKEY-VPN-@LOCKEY-VPN-@LOCKEY-VPN-@LOCKEY-VPN-@LOCKEY-VPN-@LOCKEY-VPN-@LOCKEY-VPN-@LOCKEY-VPN?ed=2048?ed=2048","headers":{"host":"Lockey-vip.ir"}}}
@@ -142,9 +142,9 @@ proxies:
   - {"name":"🇺🇸US | 🔴 | vless | @vless_vmess | 15","type":"vless","server":"104.17.214.22","port":443,"udp":false,"uuid":"01842c9c-d03c-4765-a950-5da4b096ee74","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"SAEEd-9j2.pAGEs.dEV","ws-opts":{"path":"/Telegram-@proxy_mtm-Telegram-@proxy_mtm-Telegram-@proxy_mtm?ed=2560","headers":{"host":"SaEED-9j2.paGes.deV"}}}
   - {"name":"❔XX | 🔴 | vless | @MTConfig | 11","type":"vless","server":"all.vipxali.cfd","port":2083,"udp":false,"uuid":"a8629b56-ea3f-41d9-8e42-e8ad84baaef6","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"dm.XsV2ray.cfd","grpc-opts":{"grpc-service-name":"@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray"}}
   - {"name":"❔XX | 🔴 | vless | @MTConfig | 12","type":"vless","server":"all.vipxali.cfd","port":2083,"udp":false,"uuid":"21a78493-40c9-4a44-9b03-9c45f41d1845","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"dm.XsV2ray.cfd","grpc-opts":{"grpc-service-name":"@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray"}}
-  - {"name":"🇺🇸US | 🟢 | vless | @DailyV2RY | 249","type":"vless","server":"18.220.15.83","port":1212,"udp":true,"uuid":"a7e04b44-855e-4fe7-8fa0-31894e928bce","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"stackoverflow.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A","short-id":"a4844ba7"}}
-  - {"name":"🇺🇸US | 🟢 | vless | @DailyV2RY | 250","type":"vless","server":"18.117.92.73","port":1212,"udp":true,"uuid":"a7e04b44-855e-4fe7-8fa0-31894e928bce","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"stackoverflow.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A","short-id":"a4844ba7"}}
-  - {"name":"🇺🇸US | 🔴 | vless | @ConfigsHUB | 8","type":"vless","server":"spd.fastly80-3.hosting-ip.com","port":80,"udp":false,"uuid":"066a4b81-4a2b-41b7-9268-5b66375e8d93","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/","headers":{"host":"fdsfr4ewrfcvdsafa.com"}}}
+  - {"name":"🇺🇸US | 🟢 | vless | @DailyV2RY | 263","type":"vless","server":"18.220.70.231","port":1212,"udp":true,"uuid":"a7e04b44-855e-4fe7-8fa0-31894e928bce","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"stackoverflow.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A","short-id":"a4844ba7"}}
+  - {"name":"🇺🇸US | 🔴 | vless | @DailyV2RY | 264","type":"vless","server":"18.218.10.118","port":1212,"udp":true,"uuid":"a7e04b44-855e-4fe7-8fa0-31894e928bce","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"stackoverflow.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A","short-id":"a4844ba7"}}
+  - {"name":"🇩🇪DE | 🔴 | vless | @ConfigsHUB | 15","type":"vless","server":"TLS.zeoaeriedo-saioesrio.ir","port":2000,"udp":false,"uuid":"8b43abce-8170-432c-9d85-cc93807aa098","tls":true,"network":"grpc","client-fingerprint":"chrome","grpc-opts":{"grpc-service-name":"/@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray"}}
   - {"name":"🇺🇸US | 🔴 | vless | @free1_vpn | 9","type":"vless","server":"pscresearch.faculty.ucdavis.edu","port":443,"udp":false,"uuid":"04c924c7-551e-4c67-b3fa-9cca9e8cdc78","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"pscresearch.faculty.ucdavis.edu","ws-opts":{"path":"ws/?ed=2048","headers":{"host":"ihrcxextyuj.com"}}}
   - {"name":"🇺🇸US | 🔴 | vless | @fnet00 | 4","type":"vless","server":"162.159.138.178","port":8080,"udp":false,"uuid":"47dad2b2-00c5-4263-a9d8-911c0739d0cd","tls":false,"network":"httpupgrade","client-fingerprint":"chrome"}
   - {"name":"🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 3","type":"vless","server":"78.47.51.169","port":443,"udp":false,"uuid":"aa4f5b15-cc52-4ff7-988e-69da1d3c3f31","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/","headers":{"host":"4h1.ghalikermaniz.info"}}}
@@ -159,8 +159,8 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇮🇪IE | 🔴 | vless | @VlessConfig | 16'
-      - '🇬🇧GB | 🔴 | vless | @VlessConfig | 17'
+      - '🇸🇪SE | 🔴 | vless | @VlessConfig | 16'
+      - '🇸🇪SE | 🔴 | vless | @VlessConfig | 17'
       - '🇺🇸US | 🔴 | vless | @ipV2Ray | 16'
       - '🇺🇸US | 🔴 | vless | @ipV2Ray | 17'
       - '🇺🇸US | 🔴 | vless | @Lockey_vpn | 1'
@@ -181,9 +181,9 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @vless_vmess | 15'
       - '❔XX | 🔴 | vless | @MTConfig | 11'
       - '❔XX | 🔴 | vless | @MTConfig | 12'
-      - '🇺🇸US | 🟢 | vless | @DailyV2RY | 249'
-      - '🇺🇸US | 🟢 | vless | @DailyV2RY | 250'
-      - '🇺🇸US | 🔴 | vless | @ConfigsHUB | 8'
+      - '🇺🇸US | 🟢 | vless | @DailyV2RY | 263'
+      - '🇺🇸US | 🔴 | vless | @DailyV2RY | 264'
+      - '🇩🇪DE | 🔴 | vless | @ConfigsHUB | 15'
       - '🇺🇸US | 🔴 | vless | @free1_vpn | 9'
       - '🇺🇸US | 🔴 | vless | @fnet00 | 4'
       - '🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 3'
@@ -198,8 +198,8 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇮🇪IE | 🔴 | vless | @VlessConfig | 16'
-      - '🇬🇧GB | 🔴 | vless | @VlessConfig | 17'
+      - '🇸🇪SE | 🔴 | vless | @VlessConfig | 16'
+      - '🇸🇪SE | 🔴 | vless | @VlessConfig | 17'
       - '🇺🇸US | 🔴 | vless | @ipV2Ray | 16'
       - '🇺🇸US | 🔴 | vless | @ipV2Ray | 17'
       - '🇺🇸US | 🔴 | vless | @Lockey_vpn | 1'
@@ -220,9 +220,9 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @vless_vmess | 15'
       - '❔XX | 🔴 | vless | @MTConfig | 11'
       - '❔XX | 🔴 | vless | @MTConfig | 12'
-      - '🇺🇸US | 🟢 | vless | @DailyV2RY | 249'
-      - '🇺🇸US | 🟢 | vless | @DailyV2RY | 250'
-      - '🇺🇸US | 🔴 | vless | @ConfigsHUB | 8'
+      - '🇺🇸US | 🟢 | vless | @DailyV2RY | 263'
+      - '🇺🇸US | 🔴 | vless | @DailyV2RY | 264'
+      - '🇩🇪DE | 🔴 | vless | @ConfigsHUB | 15'
       - '🇺🇸US | 🔴 | vless | @free1_vpn | 9'
       - '🇺🇸US | 🔴 | vless | @fnet00 | 4'
       - '🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 3'
@@ -236,8 +236,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇮🇪IE | 🔴 | vless | @VlessConfig | 16'
-      - '🇬🇧GB | 🔴 | vless | @VlessConfig | 17'
+      - '🇸🇪SE | 🔴 | vless | @VlessConfig | 16'
+      - '🇸🇪SE | 🔴 | vless | @VlessConfig | 17'
       - '🇺🇸US | 🔴 | vless | @ipV2Ray | 16'
       - '🇺🇸US | 🔴 | vless | @ipV2Ray | 17'
       - '🇺🇸US | 🔴 | vless | @Lockey_vpn | 1'
@@ -258,9 +258,9 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @vless_vmess | 15'
       - '❔XX | 🔴 | vless | @MTConfig | 11'
       - '❔XX | 🔴 | vless | @MTConfig | 12'
-      - '🇺🇸US | 🟢 | vless | @DailyV2RY | 249'
-      - '🇺🇸US | 🟢 | vless | @DailyV2RY | 250'
-      - '🇺🇸US | 🔴 | vless | @ConfigsHUB | 8'
+      - '🇺🇸US | 🟢 | vless | @DailyV2RY | 263'
+      - '🇺🇸US | 🔴 | vless | @DailyV2RY | 264'
+      - '🇩🇪DE | 🔴 | vless | @ConfigsHUB | 15'
       - '🇺🇸US | 🔴 | vless | @free1_vpn | 9'
       - '🇺🇸US | 🔴 | vless | @fnet00 | 4'
       - '🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 3'

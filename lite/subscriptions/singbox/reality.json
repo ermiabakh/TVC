@@ -106,9 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 249",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 250",
-                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 9",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 263",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 264",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ]
@@ -117,9 +116,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 249",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 250",
-                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 9",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 263",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 264",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ],
@@ -144,9 +142,9 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 249",
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 263",
             "type": "vless",
-            "server": "18.220.15.83",
+            "server": "18.220.70.231",
             "server_port": 1212,
             "uuid": "a7e04b44-855e-4fe7-8fa0-31894e928bce",
             "flow": "xtls-rprx-vision",
@@ -173,9 +171,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 250",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 264",
             "type": "vless",
-            "server": "18.117.92.73",
+            "server": "18.218.10.118",
             "server_port": 1212,
             "uuid": "a7e04b44-855e-4fe7-8fa0-31894e928bce",
             "flow": "xtls-rprx-vision",
@@ -198,35 +196,6 @@
                     "enabled": true,
                     "public_key": "RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A",
                     "short_id": "a4844ba7"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 9",
-            "type": "vless",
-            "server": "213.108.23.243",
-            "server_port": 26926,
-            "uuid": "b92c0ceb-0fdf-4ca4-abf4-9fb3755ff1e1",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "V1Sm4pc5EuEHSwsfXDDLYPuiu3JZUESNifEkvm5ARn8",
-                    "short_id": "435d625ae815"
                 }
             }
         },
