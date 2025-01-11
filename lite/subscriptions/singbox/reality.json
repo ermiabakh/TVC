@@ -106,8 +106,10 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 282",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 283",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 287",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 288",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 19",
+                "🇳🇱NL | 🟢 | vless | @Outlinev2rayNG | 5",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ]
@@ -116,8 +118,10 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 282",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 283",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 287",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 288",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 19",
+                "🇳🇱NL | 🟢 | vless | @Outlinev2rayNG | 5",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ],
@@ -142,9 +146,9 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 282",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 287",
             "type": "vless",
-            "server": "18.226.88.39",
+            "server": "3.136.233.65",
             "server_port": 1212,
             "uuid": "a7e04b44-855e-4fe7-8fa0-31894e928bce",
             "flow": "xtls-rprx-vision",
@@ -171,9 +175,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 283",
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 288",
             "type": "vless",
-            "server": "18.206.136.157",
+            "server": "3.136.22.220",
             "server_port": 1212,
             "uuid": "a7e04b44-855e-4fe7-8fa0-31894e928bce",
             "flow": "xtls-rprx-vision",
@@ -196,6 +200,64 @@
                     "enabled": true,
                     "public_key": "RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A",
                     "short_id": "a4844ba7"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "nl-1.srv.flexiblenet.org",
+            "server_port": 8443,
+            "uuid": "219ee52a-0e91-4f36-93a5-3e28a4830a7a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "bunny.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "os2QbCQyqdqE4vr-vVWTQMBiqxFXEDSLhMncRy5RIwg",
+                    "short_id": "f8d8d12585198cb5"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🟢 | vless | @Outlinev2rayNG | 5",
+            "type": "vless",
+            "server": "CN.GiSVN.iR",
+            "server_port": 443,
+            "uuid": "SVNTEAM",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.latimes.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "PX3Iw8tKNRnG6_MqONvC96D7G1RWe_VvBJ99UGN150k",
+                    "short_id": ""
                 }
             }
         },
