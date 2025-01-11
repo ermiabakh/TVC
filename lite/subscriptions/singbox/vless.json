@@ -147,8 +147,8 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 275",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 276",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
+                "🇨🇷CR | 🔴 | vless | @ConfigsHUB | 16",
+                "🇨🇷CR | 🔴 | vless | @ConfigsHUB | 17",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 9",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
@@ -211,8 +211,8 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 275",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 276",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
+                "🇨🇷CR | 🔴 | vless | @ConfigsHUB | 16",
+                "🇨🇷CR | 🔴 | vless | @ConfigsHUB | 17",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 9",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
@@ -1275,11 +1275,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+            "tag": "🇨🇷CR | 🔴 | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "NUFiLTER.fastly80-3.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "TELEGRAM-NUFiLTER",
+            "server": "ns4.esfahansiman.com",
+            "server_port": 443,
+            "uuid": "76604d4f-e3d7-4377-a680-31d7ca2e85e6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1287,32 +1287,52 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=8080",
-                "headers": {
-                    "Host": "NUFiLTER.fastly80-3.hosting-ip.com"
+            "tls": {
+                "enabled": true,
+                "server_name": "WWW.moghavEmat.bLOg.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "4h4.ghalikermaniz.info",
-            "server_port": 443,
-            "uuid": "aa4f5b15-cc52-4ff7-988e-69da1d3c3f31",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "4h4.ghalikermaniz.info"
+                    "Host": "WWW.moghavEmat.bLOg."
+                }
+            }
+        },
+        {
+            "tag": "🇨🇷CR | 🔴 | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "ns4.esfahansiman.com",
+            "server_port": 443,
+            "uuid": "76604d4f-e3d7-4377-a680-31d7ca2e85e6",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "WWW.pegAh-Esfahan.De.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "WWW.pegAh-Esfahan.De."
                 }
             }
         },
