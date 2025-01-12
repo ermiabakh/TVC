@@ -122,7 +122,7 @@
                 null,
                 "❔XX | 🟢 | vmess | @prrofile_purple | 142",
                 "🇩🇪DE | 🟢 | vmess | @prrofile_purple | 144",
-                "🚩CF | 🟢 | vmess | @ShadowProxy66 | 9",
+                "🚩CF | 🟢 | vmess | @ShadowProxy66 | 18",
                 "🇩🇪DE | 🟢 | vmess | @v2ray1_ng | 9",
                 "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 11",
                 "🇺🇸US | 🟢 | vmess | @proxystore11 | 1",
@@ -133,8 +133,7 @@
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @free1_vpn | 9",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 0",
-                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 1",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 2"
+                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 1"
             ]
         },
         {
@@ -157,7 +156,7 @@
                 null,
                 "❔XX | 🟢 | vmess | @prrofile_purple | 142",
                 "🇩🇪DE | 🟢 | vmess | @prrofile_purple | 144",
-                "🚩CF | 🟢 | vmess | @ShadowProxy66 | 9",
+                "🚩CF | 🟢 | vmess | @ShadowProxy66 | 18",
                 "🇩🇪DE | 🟢 | vmess | @v2ray1_ng | 9",
                 "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 11",
                 "🇺🇸US | 🟢 | vmess | @proxystore11 | 1",
@@ -168,8 +167,7 @@
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @free1_vpn | 9",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 0",
-                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 1",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 2"
+                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -529,7 +527,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @ShadowProxy66 | 9",
+            "tag": "🚩CF | 🟢 | vmess | @ShadowProxy66 | 18",
             "type": "vmess",
             "server": "173.245.59.8",
             "server_port": 443,
@@ -873,40 +871,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "195.58.49.50"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
-            "type": "vmess",
-            "server": "ff.kncc2.top",
-            "server_port": 8443,
-            "uuid": "89c344f2-096c-445c-b629-9b15152f38e7",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ff.kncc2.top",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/89c344f2",
-                "headers": {
-                    "Host": "ff.kncc2.top"
                 }
             }
         }
