@@ -133,8 +133,6 @@
                 "🇺🇸US | 🔴 | vless | @customv2ray | 18",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 0",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 1",
-                "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 35",
-                "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 36",
                 "❔XX | 🔴 | vless | @ServerNett | 12",
                 "❔XX | 🔴 | vless | @ServerNett | 13",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
@@ -148,6 +146,8 @@
                 "🇸🇪SE | 🔴 | vless | @VmessProtocol | 9",
                 "🇩🇪DE | 🔴 | vless | @DailyV2RY | 338",
                 "🇩🇪DE | 🔴 | vless | @DailyV2RY | 339",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 8",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 2",
@@ -196,8 +196,6 @@
                 "🇺🇸US | 🔴 | vless | @customv2ray | 18",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 0",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 1",
-                "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 35",
-                "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 36",
                 "❔XX | 🔴 | vless | @ServerNett | 12",
                 "❔XX | 🔴 | vless | @ServerNett | 13",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
@@ -211,6 +209,8 @@
                 "🇸🇪SE | 🔴 | vless | @VmessProtocol | 9",
                 "🇩🇪DE | 🔴 | vless | @DailyV2RY | 338",
                 "🇩🇪DE | 🔴 | vless | @DailyV2RY | 339",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 8",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 2",
@@ -897,48 +897,6 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 35",
-            "type": "vless",
-            "server": "162.55.208.240",
-            "server_port": 443,
-            "uuid": "aa4f5b15-cc52-4ff7-988e-69da1d3c3f31",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "162.55.208.240"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 36",
-            "type": "vless",
-            "server": "188.245.215.248",
-            "server_port": 443,
-            "uuid": "aa4f5b15-cc52-4ff7-988e-69da1d3c3f31",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "188.245.215.248"
-                }
-            }
-        },
-        {
             "tag": "❔XX | 🔴 | vless | @ServerNett | 12",
             "type": "vless",
             "server": "[2a01:4f8:c010:5aa8::1]",
@@ -1283,6 +1241,68 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "052e510d-d892-4dc4-a686-8986a01535cd",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "SprING-HaLl-14EF.WOOzY-cHAmOis2822.WorkERs.DEv",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/XjZZpa0qKLKBFBEL?ed=2560",
+                "headers": {
+                    "Host": "SprING-HaLl-14EF.WOOzY-cHAmOis2822.WorkERs.DEv"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "www.join-yuv2ray.linkpc.net",
+            "server_port": 443,
+            "uuid": "052e510d-d892-4dc4-a686-8986a01535cd",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "SprING-HaLl-14EF.WOOzY-cHAmOis2822.WorkERs.DEv",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/XjZZpa0qKLKBFBEL?ed=2560",
+                "headers": {
+                    "Host": "SprING-HaLl-14EF.WOOzY-cHAmOis2822.WorkERs.DEv"
+                }
+            }
+        },
+        {
             "tag": "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
             "type": "vless",
             "server": "138.124.24.252",
@@ -1433,6 +1453,37 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 6",
             "type": "vless",
+            "server": "zmaoz.faculty.ucdavis.edu",
+            "server_port": 443,
+            "uuid": "Joinin--ZEDMODEON",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "zmaoz.faculty.ucdavis.edu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON",
+                "headers": {
+                    "Host": "zmaoz.faculty.ucdavis.edu"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 7",
+            "type": "vless",
             "server": "fishlab.ucdavis.edu",
             "server_port": 443,
             "uuid": "771020d7-a6d6-477c-a2ab-62146cb9639e",
@@ -1458,27 +1509,6 @@
                 "path": "\/@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480",
                 "headers": {
                     "Host": "fishlab.ucdavis.edu"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 7",
-            "type": "vless",
-            "server": "151.101.1.6",
-            "server_port": 80,
-            "uuid": "57624c33-1ab8-405e-9358-03bec36f0642",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480",
-                "headers": {
-                    "Host": "151.101.1.6"
                 }
             }
         },
