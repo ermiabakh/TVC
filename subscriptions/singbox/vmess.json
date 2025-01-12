@@ -125,8 +125,6 @@
                 "🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 0",
                 "🇩🇪DE | 🟢 | vmess | @v2ray1_ng | 10",
                 "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 12",
-                "🚩CF | 🟢 | vmess | @ConfigsHUB | 4",
-                "🇫🇮FI | 🟢 | vmess | @ConfigsHUB | 9",
                 "🇺🇸US | 🟢 | vmess | @proxystore11 | 1",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
@@ -169,8 +167,6 @@
                 "🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 0",
                 "🇩🇪DE | 🟢 | vmess | @v2ray1_ng | 10",
                 "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 12",
-                "🚩CF | 🟢 | vmess | @ConfigsHUB | 4",
-                "🇫🇮FI | 🟢 | vmess | @ConfigsHUB | 9",
                 "🇺🇸US | 🟢 | vmess | @proxystore11 | 1",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
@@ -626,40 +622,6 @@
                 "headers": {
                     "Host": ""
                 }
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vmess | @ConfigsHUB | 4",
-            "type": "vmess",
-            "server": "188.114.99.187",
-            "server_port": 8880,
-            "uuid": "d3efdf80-ef3d-45e9-a58e-bf0f18ba8a0b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇫🇮FI | 🟢 | vmess | @ConfigsHUB | 9",
-            "type": "vmess",
-            "server": "safe.sanjesh.online",
-            "server_port": 8249,
-            "uuid": "d03d8fe4-9a8f-4b18-8c5b-355c1c2f40b9",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
