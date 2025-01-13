@@ -113,8 +113,8 @@
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @free1_vpn | 10",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7"
             ]
         },
         {
@@ -128,8 +128,8 @@
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @free1_vpn | 10",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -326,10 +326,10 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "38.33.24.253",
-            "server_port": 36003,
+            "server": "198.2.192.249",
+            "server_port": 36009,
             "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
             "alter_id": 64,
@@ -343,7 +343,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "38.33.24.253",
+                "server_name": "198.2.192.249",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -355,15 +355,15 @@
                 "type": "ws",
                 "path": "\/path\/1736675184805",
                 "headers": {
-                    "Host": "38.33.24.253"
+                    "Host": "198.2.192.249"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "192.74.242.243",
-            "server_port": 38003,
+            "server": "38.11.60.88",
+            "server_port": 37001,
             "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
             "alter_id": 64,
@@ -377,7 +377,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "192.74.242.243",
+                "server_name": "38.11.60.88",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -387,9 +387,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/path\/1736675184805",
+                "path": "\/path\/1736674613025",
                 "headers": {
-                    "Host": "192.74.242.243"
+                    "Host": "38.11.60.88"
                 }
             }
         }
