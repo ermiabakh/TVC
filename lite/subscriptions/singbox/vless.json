@@ -146,8 +146,8 @@
                 "🇸🇪SE | 🔴 | vless | @VmessProtocol | 9",
                 "🇩🇪DE | 🔴 | vless | @DailyV2RY | 335",
                 "🇩🇪DE | 🔴 | vless | @DailyV2RY | 336",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 9",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 2",
@@ -210,8 +210,8 @@
                 "🇸🇪SE | 🔴 | vless | @VmessProtocol | 9",
                 "🇩🇪DE | 🔴 | vless | @DailyV2RY | 335",
                 "🇩🇪DE | 🔴 | vless | @DailyV2RY | 336",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 9",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 2",
@@ -1226,11 +1226,32 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 18",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "151.101.130.133",
-            "server_port": 443,
-            "uuid": "bdb8ed01-3807-443e-a81b-512bfc73362e",
+            "server": "151.101.2.216",
+            "server_port": 80,
+            "uuid": "telegram-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
+                "headers": {
+                    "Host": "151.101.2.216"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "34.194.200.29",
+            "server_port": 22222,
+            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1240,7 +1261,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.sunshinecity.co.jp",
+                "server_name": "telegram-channel-vlessconfig.sohala.uk",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1250,30 +1271,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net",
+                "path": "\/telegram-channel-vlessconfig-ws",
                 "headers": {
-                    "Host": "www.sunshinecity.co.jp"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "bdb8ed01-3807-443e-a81b-512bfc73362e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?=9090",
-                "headers": {
-                    "Host": "151.101.3.8"
+                    "Host": "telegram-channel-vlessconfig.sohala.uk"
                 }
             }
         },
