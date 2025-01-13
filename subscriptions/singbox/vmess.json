@@ -124,8 +124,6 @@
                 "🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 6",
                 "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 1",
                 "🇩🇪DE | 🟢 | vmess | @v2ray1_ng | 12",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 10",
-                "🇫🇮FI | 🟢 | vmess | @ConfigsHUB | 18",
                 "🇺🇸US | 🟢 | vmess | @proxystore11 | 1",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
@@ -141,8 +139,7 @@
                 "🇩🇪DE | 🟢 | vmess | @Hope_Net | 4",
                 "🇭🇰HK | 🟢 | vmess | @Hope_Net | 5",
                 "🇯🇵JP | 🟢 | vmess | @Hope_Net | 6",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 7",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8"
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 7"
             ]
         },
         {
@@ -167,8 +164,6 @@
                 "🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 6",
                 "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 1",
                 "🇩🇪DE | 🟢 | vmess | @v2ray1_ng | 12",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 10",
-                "🇫🇮FI | 🟢 | vmess | @ConfigsHUB | 18",
                 "🇺🇸US | 🟢 | vmess | @proxystore11 | 1",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
@@ -184,8 +179,7 @@
                 "🇩🇪DE | 🟢 | vmess | @Hope_Net | 4",
                 "🇭🇰HK | 🟢 | vmess | @Hope_Net | 5",
                 "🇯🇵JP | 🟢 | vmess | @Hope_Net | 6",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 7",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8"
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -600,47 +594,6 @@
                 "headers": {
                     "Host": ""
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 10",
-            "type": "vmess",
-            "server": "bia-vpn-whal.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "1gp---id-vpn-whal",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=80\/#id-telegram:--->@vpn_whal<---",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮FI | 🟢 | vmess | @ConfigsHUB | 18",
-            "type": "vmess",
-            "server": "safe.sanjesh.online",
-            "server_port": 8249,
-            "uuid": "718bea8b-8d20-4b4c-8bc7-15ea8db763f5",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -1067,40 +1020,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "cm.awslcn.info"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
-            "type": "vmess",
-            "server": "199.180.101.23",
-            "server_port": 38004,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
-            "security": "auto",
-            "alter_id": 64,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "199.180.101.23",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/path\/1736675184805",
-                "headers": {
-                    "Host": "199.180.101.23"
                 }
             }
         }
