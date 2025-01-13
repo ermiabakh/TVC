@@ -110,8 +110,8 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 39",
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
                 "❔XX | 🔴 | vless | @XsV2ray | 11",
+                "🇮🇪IE | 🔴 | vless | @VlessConfig | 16",
                 "🇬🇧GB | 🔴 | vless | @VlessConfig | 17",
-                "🇫🇷FR | 🔴 | vless | @VlessConfig | 18",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 13",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 14",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 8",
@@ -144,8 +144,7 @@
                 "🇸🇪SE | 🔴 | vless | @VmessProtocol | 11",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 291",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 292",
-                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 14",
-                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 15",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 2",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 9",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 2",
@@ -170,8 +169,8 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 39",
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
                 "❔XX | 🔴 | vless | @XsV2ray | 11",
+                "🇮🇪IE | 🔴 | vless | @VlessConfig | 16",
                 "🇬🇧GB | 🔴 | vless | @VlessConfig | 17",
-                "🇫🇷FR | 🔴 | vless | @VlessConfig | 18",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 13",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 14",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 8",
@@ -204,8 +203,7 @@
                 "🇸🇪SE | 🔴 | vless | @VmessProtocol | 11",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 291",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 292",
-                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 14",
-                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 15",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 2",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 9",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 2",
@@ -315,9 +313,9 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | @VlessConfig | 17",
+            "tag": "🇮🇪IE | 🔴 | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "35.178.61.147",
+            "server": "54.195.137.231",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -346,9 +344,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 18",
+            "tag": "🇬🇧GB | 🔴 | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "13.36.96.99",
+            "server": "18.169.39.170",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -865,8 +863,8 @@
         {
             "tag": "❔XX | 🔴 | vless | @ServerNett | 13",
             "type": "vless",
-            "server": "[2a01:4f8:c010:1d97::1]",
-            "server_port": 37417,
+            "server": "[2a01:4f8:c010:45f6::1]",
+            "server_port": 57258,
             "uuid": "TELEGRAM-ServerNett",
             "flow": "",
             "packet_encoding": "xudp",
@@ -879,8 +877,8 @@
         {
             "tag": "❔XX | 🔴 | vless | @ServerNett | 14",
             "type": "vless",
-            "server": "[2a01:4f8:c010:5aa8::1]",
-            "server_port": 40286,
+            "server": "[2a01:4f8:1c17:ee5c::1]",
+            "server_port": 24893,
             "uuid": "TELEGRAM-ServerNett",
             "flow": "",
             "packet_encoding": "xudp",
@@ -1196,45 +1194,17 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 14",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 2",
             "type": "vless",
-            "server": "upgrade.bia2bax.shop",
-            "server_port": 8443,
-            "uuid": "v2rayng____76",
+            "server": "188.245.182.67",
+            "server_port": 8880,
+            "uuid": "cf868aff-c26c-4a8d-be97-d69401758689",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "upgrade.bia2bax.shop",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 15",
-            "type": "vless",
-            "server": "upgrade.bia2bax.shop",
-            "server_port": 80,
-            "uuid": "v2rayng____76",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=2053",
-                "headers": {
-                    "Host": "upgrade.bia2bax.shop"
-                }
             }
         },
         {
