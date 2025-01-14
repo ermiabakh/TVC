@@ -111,8 +111,7 @@
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 1",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "🇩🇪DE | 🟢 | vless | @kingofilter | 15",
-                "🇳🇱NL | 🟢 | vless | @kingofilter | 16"
+                "🇩🇪DE | 🟢 | vless | @kingofilter | 15"
             ]
         },
         {
@@ -124,8 +123,7 @@
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 1",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "🇩🇪DE | 🟢 | vless | @kingofilter | 15",
-                "🇳🇱NL | 🟢 | vless | @kingofilter | 16"
+                "🇩🇪DE | 🟢 | vless | @kingofilter | 15"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -339,35 +337,6 @@
                     "enabled": true,
                     "public_key": "jM1gcVk2UnB4y8PimJ7FA4Y8gxLxBoxD-vg9YWH4jnM",
                     "short_id": "5cebd3fd"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | 🟢 | vless | @kingofilter | 16",
-            "type": "vless",
-            "server": "174.138.13.224",
-            "server_port": 15891,
-            "uuid": "ae2228d1-9b8f-4914-9e0a-68a115f8dbe1",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ftp.debian.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "4FNDHgDP2lnetuRioH6DsE9kMnDyhkJ2NHLMpZgyci0",
-                    "short_id": "10f1"
                 }
             }
         }
