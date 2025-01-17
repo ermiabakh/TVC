@@ -121,8 +121,8 @@
                 "🇺🇸US | 🔴 | vless | @vpn_xw | 0",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 8",
+                "🇨🇷CR | 🟢 | vless | @proxy_kafee | 2",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 3",
-                "🇺🇸US | 🔴 | vless | @proxy_kafee | 4",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "🇩🇪DE | 🔴 | vless | @azadi_az_inja_migzare | 1",
@@ -154,7 +154,7 @@
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 2",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 0",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
-                "🇺🇸US | 🔴 | vless | @mehrosaboran | 9",
+                "🇺🇸US | 🔴 | vless | @mehrosaboran | 11",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 12",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -184,8 +184,8 @@
                 "🇺🇸US | 🔴 | vless | @vpn_xw | 0",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 8",
+                "🇨🇷CR | 🟢 | vless | @proxy_kafee | 2",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 3",
-                "🇺🇸US | 🔴 | vless | @proxy_kafee | 4",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "🇩🇪DE | 🔴 | vless | @azadi_az_inja_migzare | 1",
@@ -217,7 +217,7 @@
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 2",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 0",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
-                "🇺🇸US | 🔴 | vless | @mehrosaboran | 9",
+                "🇺🇸US | 🔴 | vless | @mehrosaboran | 11",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 12",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -612,11 +612,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 3",
+            "tag": "🇨🇷CR | 🟢 | vless | @proxy_kafee | 2",
             "type": "vless",
-            "server": "zmaoz.faculty.ucdavis.edu",
+            "server": "ns4.esfahansiman.com",
             "server_port": 443,
-            "uuid": "ZEDMODEON--ZEDMODEON",
+            "uuid": "cd8e9b4f-8ba1-4ddc-99e7-29cfbffc9d41",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -626,7 +626,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "zmaoz.faculty.ucdavis.edu",
+                "server_name": "WWW.pegAh-Esfahan.De.",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -636,18 +636,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON",
+                "path": "\/",
                 "headers": {
-                    "Host": "zmaoz.faculty.ucdavis.edu"
+                    "Host": "WWW.pegAh-Esfahan.De."
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 4",
+            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 3",
             "type": "vless",
             "server": "zmaoz.faculty.ucdavis.edu",
             "server_port": 443,
-            "uuid": "Joininnn--ZEDMODEON",
+            "uuid": "ZEDMODEON--ZEDMODEON",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1430,34 +1430,17 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 9",
+            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 11",
             "type": "vless",
-            "server": "fishlab.ucdavis.edu",
-            "server_port": 443,
-            "uuid": "ed549170-b8f1-490e-85c4-6679e2cbcd54",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "00f178ff-8a40-94a5-0959-4d04664eff41",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "fishlab.ucdavis.edu",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480",
-                "headers": {
-                    "Host": "fishlab.ucdavis.edu"
-                }
             }
         },
         {
