@@ -110,7 +110,6 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 229",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 230",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 1",
-                "🇩🇪DE | 🟢 | vless | @nofiltering2 | 14",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇩🇪DE | 🟢 | vless | @kingofilter | 18"
@@ -124,7 +123,6 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 229",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 230",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 1",
-                "🇩🇪DE | 🟢 | vless | @nofiltering2 | 14",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇩🇪DE | 🟢 | vless | @kingofilter | 18"
@@ -269,35 +267,6 @@
                     "enabled": true,
                     "public_key": "AraqCk8OydZjw2ZT-9WEmt_D1vIrtOf88o5YlbKqgRM",
                     "short_id": "1b7d7614d14c"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vless | @nofiltering2 | 14",
-            "type": "vless",
-            "server": "91.107.158.170",
-            "server_port": 51001,
-            "uuid": "@v2boxvpnn",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "mmd.10.isovpn.shop",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "FP0MhqOGjuW4vBm-V8tyaLZW0VRIFxkhUP1p0oCwgU4",
-                    "short_id": ""
                 }
             }
         },

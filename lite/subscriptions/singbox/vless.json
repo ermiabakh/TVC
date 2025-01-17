@@ -142,7 +142,7 @@
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 11",
-                "🇩🇪DE | 🔴 | vless | @MTConfig | 12",
+                "🇨🇦CA | 🔴 | vless | @MTConfig | 12",
                 "🇫🇮FI | 🔴 | vless | @VmessProtocol | 15",
                 "🇫🇮FI | 🔴 | vless | @VmessProtocol | 16",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 229",
@@ -157,7 +157,7 @@
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 11",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 12",
-                "🇩🇪DE | 🟢 | vless | @nofiltering2 | 14",
+                "🇺🇸US | 🔴 | vless | @nofiltering2 | 14",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇺🇸US | 🔴 | vless | @kingofilter | 17",
@@ -207,7 +207,7 @@
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 11",
-                "🇩🇪DE | 🔴 | vless | @MTConfig | 12",
+                "🇨🇦CA | 🔴 | vless | @MTConfig | 12",
                 "🇫🇮FI | 🔴 | vless | @VmessProtocol | 15",
                 "🇫🇮FI | 🔴 | vless | @VmessProtocol | 16",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 229",
@@ -222,7 +222,7 @@
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 11",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 12",
-                "🇩🇪DE | 🟢 | vless | @nofiltering2 | 14",
+                "🇺🇸US | 🔴 | vless | @nofiltering2 | 14",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇺🇸US | 🔴 | vless | @kingofilter | 17",
@@ -1147,7 +1147,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @MTConfig | 12",
+            "tag": "🇨🇦CA | 🔴 | vless | @MTConfig | 12",
             "type": "vless",
             "server": "1.windscribe.cam",
             "server_port": 2087,
@@ -1475,31 +1475,23 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @nofiltering2 | 14",
+            "tag": "🇺🇸US | 🔴 | vless | @nofiltering2 | 14",
             "type": "vless",
-            "server": "91.107.158.170",
-            "server_port": 51001,
-            "uuid": "@v2boxvpnn",
-            "flow": "xtls-rprx-vision",
+            "server": "104.17.122.14",
+            "server_port": 8080,
+            "uuid": "2dcbbad3-f74a-4f8d-a711-0801ead02deb",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "mmd.10.isovpn.shop",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "FP0MhqOGjuW4vBm-V8tyaLZW0VRIFxkhUP1p0oCwgU4",
-                    "short_id": ""
+            "transport": {
+                "type": "ws",
+                "path": "\/admin",
+                "headers": {
+                    "Host": "free.kljasdfiaosdf92-asdjlkfhasdf-asdfa.li"
                 }
             }
         },
