@@ -107,9 +107,10 @@
             "outbounds": [
                 "URL-TEST",
                 "🇪🇸ES | 🔴 | vless | @v2ray1_ng | 11",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 229",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 230",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 240",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 241",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 1",
+                "🇦🇹AT | 🟢 | vless | @Outlinev2rayNG | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇩🇪DE | 🟢 | vless | @kingofilter | 18"
@@ -120,9 +121,10 @@
             "type": "urltest",
             "outbounds": [
                 "🇪🇸ES | 🔴 | vless | @v2ray1_ng | 11",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 229",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 230",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 240",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 241",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 1",
+                "🇦🇹AT | 🟢 | vless | @Outlinev2rayNG | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇩🇪DE | 🟢 | vless | @kingofilter | 18"
@@ -184,7 +186,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 229",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 240",
             "type": "vless",
             "server": "54.188.160.181",
             "server_port": 443,
@@ -213,7 +215,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 230",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 241",
             "type": "vless",
             "server": "35.90.86.174",
             "server_port": 443,
@@ -267,6 +269,35 @@
                     "enabled": true,
                     "public_key": "AraqCk8OydZjw2ZT-9WEmt_D1vIrtOf88o5YlbKqgRM",
                     "short_id": "1b7d7614d14c"
+                }
+            }
+        },
+        {
+            "tag": "🇦🇹AT | 🟢 | vless | @Outlinev2rayNG | 0",
+            "type": "vless",
+            "server": "62.60.238.211",
+            "server_port": 8443,
+            "uuid": "219ee52a-0e91-4f36-93a5-3e28a4830a7a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "bunny.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "os2QbCQyqdqE4vr-vVWTQMBiqxFXEDSLhMncRy5RIwg",
+                    "short_id": "f8d8d12585198cb5"
                 }
             }
         },
