@@ -264,8 +264,6 @@
                 "❔XX | 🔴 | vless | @customv2ray | 13",
                 "❔XX | 🔴 | vless | @customv2ray | 15",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 19",
-                "🇩🇪DE | 🟢 | vless | @customv2ray | 21",
-                "🇺🇸US | 🔴 | vless | @customv2ray | 22",
                 "🚩CF | 🔴 | vless | @FalconPolV2rayNG | 0",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 1",
                 "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 2",
@@ -363,7 +361,6 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 8",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 9",
                 "🇭🇰HK | 🟢 | vless | @VmessProtocol | 10",
-                "🇺🇸US | 🔴 | vless | @VmessProtocol | 16",
                 "🇨🇳CN | 🔴 | vless | @DailyV2RY | 194",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 195",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 196",
@@ -428,6 +425,7 @@
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 7",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 8",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 9",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 0",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 2",
                 "🇩🇪DE | 🔴 | vless | @mehrosaboran | 3",
@@ -642,8 +640,6 @@
                 "❔XX | 🔴 | vless | @customv2ray | 13",
                 "❔XX | 🔴 | vless | @customv2ray | 15",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 19",
-                "🇩🇪DE | 🟢 | vless | @customv2ray | 21",
-                "🇺🇸US | 🔴 | vless | @customv2ray | 22",
                 "🚩CF | 🔴 | vless | @FalconPolV2rayNG | 0",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 1",
                 "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 2",
@@ -741,7 +737,6 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 8",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 9",
                 "🇭🇰HK | 🟢 | vless | @VmessProtocol | 10",
-                "🇺🇸US | 🔴 | vless | @VmessProtocol | 16",
                 "🇨🇳CN | 🔴 | vless | @DailyV2RY | 194",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 195",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 196",
@@ -806,6 +801,7 @@
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 7",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 8",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 9",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 0",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 2",
                 "🇩🇪DE | 🔴 | vless | @mehrosaboran | 3",
@@ -4743,51 +4739,6 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @customv2ray | 21",
-            "type": "vless",
-            "server": "209.38.213.114",
-            "server_port": 45908,
-            "uuid": "b2705a86-7b78-4f59-9205-3a16062b8018",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "tunnel-pro.yoooka.lol",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @customv2ray | 22",
-            "type": "vless",
-            "server": "NUFiLTER.fastly80.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "1917caae-f3d3-47d6-bfaa-d863a9ee941e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=888",
-                "headers": {
-                    "Host": "NUFiLTER.fastly80.hosting-ip.com"
-                }
-            }
-        },
-        {
             "tag": "🚩CF | 🔴 | vless | @FalconPolV2rayNG | 0",
             "type": "vless",
             "server": "104.18.165.30",
@@ -7231,27 +7182,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @VmessProtocol | 16",
-            "type": "vless",
-            "server": "playemlive.com",
-            "server_port": 80,
-            "uuid": "73039c19-caee-48e5-af88-e6c74197c1a1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "playemlive.com"
-                }
-            }
-        },
-        {
             "tag": "🇨🇳CN | 🔴 | vless | @DailyV2RY | 194",
             "type": "vless",
             "server": "sp.apitechmaster.tech",
@@ -8885,6 +8815,27 @@
                 "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=888",
                 "headers": {
                     "Host": "N29.fastly80-2.hosting-ip.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
+            "type": "vless",
+            "server": "NUFiLTER.fastly80.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "1917caae-f3d3-47d6-bfaa-d863a9ee941e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=888",
+                "headers": {
+                    "Host": "NUFiLTER.fastly80.hosting-ip.com"
                 }
             }
         },
