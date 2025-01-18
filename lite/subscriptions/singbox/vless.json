@@ -142,14 +142,11 @@
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 11",
-                "🇨🇦CA | 🔴 | vless | @MTConfig | 12",
-                "🇺🇸US | 🔴 | vless | @VmessProtocol | 16",
-                "🇦🇺AU | 🔴 | vless | @DailyV2RY | 232",
-                "🇯🇵JP | 🔴 | vless | @DailyV2RY | 233",
+                "🇩🇪DE | 🔴 | vless | @MTConfig | 12",
+                "🇦🇺AU | 🔴 | vless | @DailyV2RY | 223",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 224",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 1",
                 "🇮🇷IR | 🔴 | vless | @free1_vpn | 17",
-                "🇩🇪DE | 🔴 | vless | @fnet00 | 6",
-                "🇩🇪DE | 🔴 | vless | @fnet00 | 7",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 2",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 0",
@@ -206,14 +203,11 @@
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 11",
-                "🇨🇦CA | 🔴 | vless | @MTConfig | 12",
-                "🇺🇸US | 🔴 | vless | @VmessProtocol | 16",
-                "🇦🇺AU | 🔴 | vless | @DailyV2RY | 232",
-                "🇯🇵JP | 🔴 | vless | @DailyV2RY | 233",
+                "🇩🇪DE | 🔴 | vless | @MTConfig | 12",
+                "🇦🇺AU | 🔴 | vless | @DailyV2RY | 223",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 224",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 1",
                 "🇮🇷IR | 🔴 | vless | @free1_vpn | 17",
-                "🇩🇪DE | 🔴 | vless | @fnet00 | 6",
-                "🇩🇪DE | 🔴 | vless | @fnet00 | 7",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 2",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 0",
@@ -1130,7 +1124,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @MTConfig | 12",
+            "tag": "🇩🇪DE | 🔴 | vless | @MTConfig | 12",
             "type": "vless",
             "server": "1.windscribe.cam",
             "server_port": 2087,
@@ -1161,11 +1155,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @VmessProtocol | 16",
+            "tag": "🇦🇺AU | 🔴 | vless | @DailyV2RY | 223",
             "type": "vless",
-            "server": "playemlive.com",
-            "server_port": 80,
-            "uuid": "73039c19-caee-48e5-af88-e6c74197c1a1",
+            "server": "149.28.175.245",
+            "server_port": 8080,
+            "uuid": "1f81a67d-1629-4f17-a4b0-84a0d37b8efc",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1177,16 +1171,16 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "playemlive.com"
+                    "Host": "149.28.175.245"
                 }
             }
         },
         {
-            "tag": "🇦🇺AU | 🔴 | vless | @DailyV2RY | 232",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 224",
             "type": "vless",
-            "server": "45.63.26.45",
-            "server_port": 8080,
-            "uuid": "042b8276-1db0-40b6-f54c-fb3de27c368a",
+            "server": "harlan.ns.cloudflare.com",
+            "server_port": 443,
+            "uuid": "1a0cee63-0a22-42bf-8feb-1596fbfb57a5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1194,32 +1188,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "45.63.26.45"
+            "tls": {
+                "enabled": true,
+                "server_name": "1ppw2j.alligator27.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
-            }
-        },
-        {
-            "tag": "🇯🇵JP | 🔴 | vless | @DailyV2RY | 233",
-            "type": "vless",
-            "server": "198.13.41.30",
-            "server_port": 8080,
-            "uuid": "009b3eda-d97b-4b32-f389-13dfeb8d8908",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/wss",
                 "headers": {
-                    "Host": "198.13.41.30"
+                    "Host": "1ppw2j.alligator27.com"
                 }
             }
         },
@@ -1270,48 +1253,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "78.157.59.140"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @fnet00 | 6",
-            "type": "vless",
-            "server": "188.245.242.126",
-            "server_port": 443,
-            "uuid": "aa4f5b15-cc52-4ff7-988e-69da1d3c3f31",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "188.245.242.126"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @fnet00 | 7",
-            "type": "vless",
-            "server": "188.245.215.248",
-            "server_port": 443,
-            "uuid": "aa4f5b15-cc52-4ff7-988e-69da1d3c3f31",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "188.245.215.248"
                 }
             }
         },
