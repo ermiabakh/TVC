@@ -144,8 +144,8 @@
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 11",
                 "🇩🇪DE | 🔴 | vless | @MTConfig | 12",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 233",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 234",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 236",
+                "🇸🇬SG | 🔴 | vless | @DailyV2RY | 237",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 1",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 16",
                 "🇮🇷IR | 🔴 | vless | @free1_vpn | 17",
@@ -208,8 +208,8 @@
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 11",
                 "🇩🇪DE | 🔴 | vless | @MTConfig | 12",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 233",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 234",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 236",
+                "🇸🇬SG | 🔴 | vless | @DailyV2RY | 237",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 1",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 16",
                 "🇮🇷IR | 🔴 | vless | @free1_vpn | 17",
@@ -1180,36 +1180,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 233",
-            "type": "vless",
-            "server": "142.93.66.199",
-            "server_port": 443,
-            "uuid": "2fabc3ce-7f6d-4b5e-a7f8-dacdd8d30fff",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "zula.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "8CB1BkQTP2cLEwW5RjwQ9UAY7cZY6n4Q1seWvyyQVCo",
-                    "short_id": "6c6bed66"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 234",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 236",
             "type": "vless",
             "server": "jermaine.ns.cloudflare.com",
             "server_port": 443,
@@ -1236,6 +1207,27 @@
                 "path": "\/wss",
                 "headers": {
                     "Host": "pwpe1q.shieldify.site"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇬SG | 🔴 | vless | @DailyV2RY | 237",
+            "type": "vless",
+            "server": "45.76.146.111",
+            "server_port": 8080,
+            "uuid": "152e5a3e-8e9e-4e37-f2e9-beac9e372796",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "45.76.146.111"
                 }
             }
         },
