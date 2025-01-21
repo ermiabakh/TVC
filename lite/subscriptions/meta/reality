@@ -123,7 +123,7 @@ proxies:
   - {"name":"🇩🇪DE | 🟢 | vless | @ipV2Ray | 12","type":"vless","server":"c2.vact.ir","port":2083,"udp":true,"uuid":"1fd43dc6-c4a2-42a3-ba14-b5d88e377c64","tls":true,"network":"grpc","client-fingerprint":"randomized","servername":"refersion.com","reality-opts":{"public-key":"IXXrQcqXgzopBeSGpCO_u53keeKZaN1AoOzdyLA-Mzo","short-id":"11a4b6bca8"}}
   - {"name":"🇩🇪DE | 🟢 | vless | @ipV2Ray | 13","type":"vless","server":"c1.vact.ir","port":2083,"udp":true,"uuid":"af1dcc3d-3f2e-4593-bbe5-e5a749ef6486","tls":true,"network":"grpc","client-fingerprint":"randomized","servername":"refersion.com","reality-opts":{"public-key":"Re7kdDBxVgsI4VmCHrcsPeKD4CBoB6Oc8fqxtWJ6m18","short-id":"90278dfc"}}
   - {"name":"🇩🇪DE | 🟢 | vless | @customv2ray | 19","type":"vless","server":"188.245.184.26","port":1633,"udp":true,"uuid":"c221f9d6-ad49-413c-a40b-e7e8d9bec851","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"stackoverflow.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"ANlgAsYC8HmKfJnc5SFvru822urkxG1PzW1Zw4Vbm0Q","short-id":"9bc0a55a5379c0ed"}}
-  - {"name":"🇬🇧GB | 🔴 | vless | @ShadowProxy66 | 37","type":"vless","server":"uk.ukrageshark.shop","port":47408,"udp":true,"uuid":"6967fc98-00bc-4180-b92d-b21d46058a22","tls":true,"network":"xhttp","client-fingerprint":"chrome","servername":"docker.com","reality-opts":{"public-key":"xCsWzWCD3XYVGHjcF8yDLd-WyTlqvIiqZZ58Rari9lk","short-id":"0e823321de"}}
+  - {"name":"❔XX | 🔴 | vless | @ShadowProxy66 | 37","type":"vless","server":"uk.ukrageshark.shop","port":47408,"udp":true,"uuid":"6967fc98-00bc-4180-b92d-b21d46058a22","tls":true,"network":"xhttp","client-fingerprint":"chrome","servername":"docker.com","reality-opts":{"public-key":"xCsWzWCD3XYVGHjcF8yDLd-WyTlqvIiqZZ58Rari9lk","short-id":"0e823321de"}}
   - {"name":"🇸🇪SE | 🔴 | vless | @proxystore11 | 1","type":"vless","server":"138.124.24.252","port":8443,"udp":true,"uuid":"4ca8471c-3e70-47e3-b09e-9541f259618b","tls":true,"network":"xhttp","client-fingerprint":"chrome","servername":"yahoo.com","reality-opts":{"public-key":"AraqCk8OydZjw2ZT-9WEmt_D1vIrtOf88o5YlbKqgRM","short-id":"1b7d7614d14c"}}
   - {"name":"🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 4","type":"vless","server":"c2.vact.ir","port":2083,"udp":true,"uuid":"1b0614e2-ce51-496e-a7a8-c26c18df5950","tls":true,"network":"grpc","client-fingerprint":"randomized","servername":"refersion.com","reality-opts":{"public-key":"IXXrQcqXgzopBeSGpCO_u53keeKZaN1AoOzdyLA-Mzo","short-id":"11a4b6bca8"}}
   - {"name":"🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 5","type":"vless","server":"c1.vact.ir","port":2083,"udp":true,"uuid":"646070ca-d193-41ed-a3c9-224b451fcf8f","tls":true,"network":"grpc","client-fingerprint":"randomized","servername":"refersion.com","reality-opts":{"public-key":"Re7kdDBxVgsI4VmCHrcsPeKD4CBoB6Oc8fqxtWJ6m18","short-id":"90278dfc"}}
@@ -138,7 +138,7 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | vless | @ipV2Ray | 12'
       - '🇩🇪DE | 🟢 | vless | @ipV2Ray | 13'
       - '🇩🇪DE | 🟢 | vless | @customv2ray | 19'
-      - '🇬🇧GB | 🔴 | vless | @ShadowProxy66 | 37'
+      - '❔XX | 🔴 | vless | @ShadowProxy66 | 37'
       - '🇸🇪SE | 🔴 | vless | @proxystore11 | 1'
       - '🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 4'
       - '🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 5'
@@ -153,7 +153,7 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | vless | @ipV2Ray | 12'
       - '🇩🇪DE | 🟢 | vless | @ipV2Ray | 13'
       - '🇩🇪DE | 🟢 | vless | @customv2ray | 19'
-      - '🇬🇧GB | 🔴 | vless | @ShadowProxy66 | 37'
+      - '❔XX | 🔴 | vless | @ShadowProxy66 | 37'
       - '🇸🇪SE | 🔴 | vless | @proxystore11 | 1'
       - '🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 4'
       - '🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 5'
@@ -167,7 +167,7 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | vless | @ipV2Ray | 12'
       - '🇩🇪DE | 🟢 | vless | @ipV2Ray | 13'
       - '🇩🇪DE | 🟢 | vless | @customv2ray | 19'
-      - '🇬🇧GB | 🔴 | vless | @ShadowProxy66 | 37'
+      - '❔XX | 🔴 | vless | @ShadowProxy66 | 37'
       - '🇸🇪SE | 🔴 | vless | @proxystore11 | 1'
       - '🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 4'
       - '🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 5'
