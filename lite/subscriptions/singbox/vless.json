@@ -158,7 +158,6 @@
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 0",
                 "🇱🇻LV | 🔴 | vless | @FreakConfig | 7",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 14",
                 "🇫🇷FR | 🟢 | vless | @mehrosaboran | 10",
                 "🇩🇪DE | 🟢 | vless | @mehrosaboran | 11",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 10",
@@ -232,7 +231,6 @@
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 0",
                 "🇱🇻LV | 🔴 | vless | @FreakConfig | 7",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 14",
                 "🇫🇷FR | 🟢 | vless | @mehrosaboran | 10",
                 "🇩🇪DE | 🟢 | vless | @mehrosaboran | 11",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 10",
@@ -1487,30 +1485,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
             "type": "vless",
-            "server": "NUFiLTER.fastly80-2.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "TELEGRAM-NUFiLTER-60eea589e2e6",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=8080",
-                "headers": {
-                    "Host": "NUFiLTER.fastly80-2.hosting-ip.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 14",
-            "type": "vless",
             "server": "NUFiLTER.fastly80-3.hosting-ip.com",
             "server_port": 80,
-            "uuid": "TELEGRAM-NUFiLTER-12e89e9b8679",
+            "uuid": "TELEGRAM-NUFiLTER-38a5217764ad",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
