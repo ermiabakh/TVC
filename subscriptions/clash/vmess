@@ -129,8 +129,8 @@ proxies:
   - {"name":"🇨🇳CN | 🟢 | vmess | @mftizi | 14","type":"vmess","server":"183.236.51.23","port":"56601","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇮🇪IE | 🟢 | vmess | @DeamNet_Proxy | 0","type":"vmess","server":"f2.maryam1900.com","port":"8443","cipher":"auto","uuid":"afe57557-df24-43e5-9cea-5d2acc2cad08","alterId":0,"tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"","grpc-mode":"none"}}
   - {"name":"🇫🇷FR | 🟢 | vmess | @DeamNet_Proxy | 9","type":"vmess","server":"beyonddbc.sbs","port":"443","cipher":"auto","uuid":"8d90c129-4156-4d6c-9115-24df25f26a02","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"beyonddbc.sbs"}}}
-  - {"name":"🇩🇪DE | 🟢 | vmess | @prrofile_purple | 139","type":"vmess","server":"91.107.167.134","port":"2082","cipher":"auto","uuid":"c648611d-55fe-4e89-b007-ea31fa8369a5","alterId":"0","tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"","grpc-mode":"gun"}}
-  - {"name":"🇩🇪DE | 🟢 | vmess | @prrofile_purple | 140","type":"vmess","server":"91.107.167.134","port":"8880","cipher":"auto","uuid":"7ae406ff-73f2-4610-9a8e-603485ed6fda","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/de?ed=2560","headers":{"host":""}}}
+  - {"name":"🇩🇪DE | 🟢 | vmess | @prrofile_purple | 147","type":"vmess","server":"91.107.167.134","port":"2082","cipher":"auto","uuid":"c648611d-55fe-4e89-b007-ea31fa8369a5","alterId":"0","tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"","grpc-mode":"gun"}}
+  - {"name":"🇩🇪DE | 🟢 | vmess | @prrofile_purple | 148","type":"vmess","server":"91.107.167.134","port":"8880","cipher":"auto","uuid":"7ae406ff-73f2-4610-9a8e-603485ed6fda","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/de?ed=2560","headers":{"host":""}}}
   - {"name":"🇫🇷FR | 🟢 | vmess | @customv2ray | 5","type":"vmess","server":"lin0502.hwcar.sbs","port":"443","cipher":"auto","uuid":"39cec18f-a439-427c-9a4e-aeb6fcdf6f53","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linja05.hwcar.sbs"}}}
   - {"name":"🚩CF | 🟢 | vmess | @v2ray1_ng | 2","type":"vmess","server":"104.19.150.10","port":"2095","cipher":"auto","uuid":"94f332b0-c5d3-4531-a1d6-6e6358cc6c72","alterId":"0","tls":false,"skip-cert-verify":true,"network":"httpupgrade"}
   - {"name":"🇺🇸US | 🟢 | vmess | @DailyV2RY | 187","type":"vmess","server":"Reza.ns.cloudflare.com","port":"2087","cipher":"auto","uuid":"db5afae4-ac23-41a6-8378-f307a9a47436","alterId":"0","tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"","grpc-mode":"gun"}}
@@ -166,8 +166,8 @@ proxy-groups:
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 14'
       - '🇮🇪IE | 🟢 | vmess | @DeamNet_Proxy | 0'
       - '🇫🇷FR | 🟢 | vmess | @DeamNet_Proxy | 9'
-      - '🇩🇪DE | 🟢 | vmess | @prrofile_purple | 139'
-      - '🇩🇪DE | 🟢 | vmess | @prrofile_purple | 140'
+      - '🇩🇪DE | 🟢 | vmess | @prrofile_purple | 147'
+      - '🇩🇪DE | 🟢 | vmess | @prrofile_purple | 148'
       - '🇫🇷FR | 🟢 | vmess | @customv2ray | 5'
       - '🚩CF | 🟢 | vmess | @v2ray1_ng | 2'
       - '🇺🇸US | 🟢 | vmess | @DailyV2RY | 187'
@@ -203,8 +203,8 @@ proxy-groups:
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 14'
       - '🇮🇪IE | 🟢 | vmess | @DeamNet_Proxy | 0'
       - '🇫🇷FR | 🟢 | vmess | @DeamNet_Proxy | 9'
-      - '🇩🇪DE | 🟢 | vmess | @prrofile_purple | 139'
-      - '🇩🇪DE | 🟢 | vmess | @prrofile_purple | 140'
+      - '🇩🇪DE | 🟢 | vmess | @prrofile_purple | 147'
+      - '🇩🇪DE | 🟢 | vmess | @prrofile_purple | 148'
       - '🇫🇷FR | 🟢 | vmess | @customv2ray | 5'
       - '🚩CF | 🟢 | vmess | @v2ray1_ng | 2'
       - '🇺🇸US | 🟢 | vmess | @DailyV2RY | 187'
@@ -239,8 +239,8 @@ proxy-groups:
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 14'
       - '🇮🇪IE | 🟢 | vmess | @DeamNet_Proxy | 0'
       - '🇫🇷FR | 🟢 | vmess | @DeamNet_Proxy | 9'
-      - '🇩🇪DE | 🟢 | vmess | @prrofile_purple | 139'
-      - '🇩🇪DE | 🟢 | vmess | @prrofile_purple | 140'
+      - '🇩🇪DE | 🟢 | vmess | @prrofile_purple | 147'
+      - '🇩🇪DE | 🟢 | vmess | @prrofile_purple | 148'
       - '🇫🇷FR | 🟢 | vmess | @customv2ray | 5'
       - '🚩CF | 🟢 | vmess | @v2ray1_ng | 2'
       - '🇺🇸US | 🟢 | vmess | @DailyV2RY | 187'
