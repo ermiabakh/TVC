@@ -266,9 +266,9 @@
         {
             "tag": "🇩🇪DE | 🟢 | vmess | @Hope_Net | 9",
             "type": "vmess",
-            "server": "5.75.201.39",
-            "server_port": 59521,
-            "uuid": "53e6dd39-27d4-4063-817a-9c00b077a2b7",
+            "server": "49.12.188.222",
+            "server_port": 53100,
+            "uuid": "ac2e60c1-d651-4b93-9acb-44be9fb3707e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -283,11 +283,11 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
             "type": "vmess",
-            "server": "s1.db-link01.top",
-            "server_port": 8080,
-            "uuid": "4b36625c-b9d9-3ea6-aed5-86d62c70e16d",
+            "server": "107.175.96.74",
+            "server_port": 41507,
+            "uuid": "695ac0a3-406a-41d7-83c5-5af8c39d3bec",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 5,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -296,11 +296,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "ny1.bulkcash.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/dabai.in172.64.55.203",
+                "path": "\/",
                 "headers": {
-                    "Host": ""
+                    "Host": "ny1.bulkcash.top"
                 }
             }
         }
