@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "❔XX | 🟢 | ss | @VmessProtocol | 7",
+                "❔XX | 🟢 | ss | @VmessProtocol | 8",
                 "🇳🇱NL | 🟢 | ss | @kingofilter | 6",
                 "🇦🇪AE | 🟢 | ss | @kingofilter | 12"
             ]
@@ -115,7 +115,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "❔XX | 🟢 | ss | @VmessProtocol | 7",
+                "❔XX | 🟢 | ss | @VmessProtocol | 8",
                 "🇳🇱NL | 🟢 | ss | @kingofilter | 6",
                 "🇦🇪AE | 🟢 | ss | @kingofilter | 12"
             ],
@@ -140,7 +140,7 @@
             "type": "dns"
         },
         {
-            "tag": "❔XX | 🟢 | ss | @VmessProtocol | 7",
+            "tag": "❔XX | 🟢 | ss | @VmessProtocol | 8",
             "type": "shadowsocks",
             "server": "freakconfig86.usecharge.ir",
             "server_port": 443,
