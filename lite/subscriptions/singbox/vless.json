@@ -107,11 +107,10 @@
             "outbounds": [
                 "URL-TEST",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 28",
-                "🇮🇷IR | 🔴 | vless | @v2_team | 0",
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
                 "❔XX | 🔴 | vless | @XsV2ray | 11",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 16",
-                "🇩🇪DE | 🔴 | vless | @VlessConfig | 17",
+                "🇫🇷FR | 🔴 | vless | @VlessConfig | 17",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 12",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 13",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
@@ -128,11 +127,12 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇫🇷FR | 🔴 | vless | @prrofile_purple | 157",
                 "🇫🇷FR | 🔴 | vless | @prrofile_purple | 158",
-                "❔XX | 🔴 | vless | @customv2ray | 16",
-                "🇺🇸US | 🔴 | vless | @customv2ray | 17",
+                "❔XX | 🔴 | vless | @customv2ray | 9",
+                "🇷🇺RU | 🟢 | vless | @customv2ray | 10",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 2",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 3",
                 "🇫🇷FR | 🔴 | vless | @ShadowProxy66 | 31",
+                "❔XX | 🔴 | vless | @ServerNett | 12",
                 "❔XX | 🔴 | vless | @ServerNett | 13",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
@@ -174,11 +174,10 @@
             "type": "urltest",
             "outbounds": [
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 28",
-                "🇮🇷IR | 🔴 | vless | @v2_team | 0",
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
                 "❔XX | 🔴 | vless | @XsV2ray | 11",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 16",
-                "🇩🇪DE | 🔴 | vless | @VlessConfig | 17",
+                "🇫🇷FR | 🔴 | vless | @VlessConfig | 17",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 12",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 13",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
@@ -195,11 +194,12 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇫🇷FR | 🔴 | vless | @prrofile_purple | 157",
                 "🇫🇷FR | 🔴 | vless | @prrofile_purple | 158",
-                "❔XX | 🔴 | vless | @customv2ray | 16",
-                "🇺🇸US | 🔴 | vless | @customv2ray | 17",
+                "❔XX | 🔴 | vless | @customv2ray | 9",
+                "🇷🇺RU | 🟢 | vless | @customv2ray | 10",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 2",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 3",
                 "🇫🇷FR | 🔴 | vless | @ShadowProxy66 | 31",
+                "❔XX | 🔴 | vless | @ServerNett | 12",
                 "❔XX | 🔴 | vless | @ServerNett | 13",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
@@ -270,20 +270,6 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @v2_team | 0",
-            "type": "vless",
-            "server": "212.80.29.231",
-            "server_port": 33585,
-            "uuid": "a8eeabc5-30e3-4fb6-8cad-60f7c747550f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "❔XX | 🔴 | vless | @XsV2ray | 10",
             "type": "vless",
             "server": "xsv2ray",
@@ -314,7 +300,7 @@
         {
             "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "15.236.238.178",
+            "server": "13.37.17.74",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -343,9 +329,9 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @VlessConfig | 17",
+            "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "18.159.162.24",
+            "server": "15.236.238.178",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -438,9 +424,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
             "type": "vless",
-            "server": "151.101.194.133",
-            "server_port": 443,
-            "uuid": "telegram-id-ArV2ray",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "telegram-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -448,21 +434,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "mio.splashthat.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
                 "headers": {
-                    "Host": "mio.splashthat.com"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
@@ -774,11 +750,11 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @customv2ray | 16",
+            "tag": "❔XX | 🔴 | vless | @customv2ray | 9",
             "type": "vless",
-            "server": "[2a01:4f8:c010:1d97::1]",
-            "server_port": 17485,
-            "uuid": "TELEGRAM-ServerNett",
+            "server": "[2a01:4f8:1c1b:e1d0::1]",
+            "server_port": 8888,
+            "uuid": "Parsashonam-155",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -788,11 +764,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @customv2ray | 17",
+            "tag": "🇷🇺RU | 🟢 | vless | @customv2ray | 10",
             "type": "vless",
-            "server": "NUFiLTER.fastly80-3.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "3-TELEGRAM-NUFiLTER",
+            "server": "spb1.fromblancwithlove.com",
+            "server_port": 8443,
+            "uuid": "157448af-8ecf-4075-a9e9-b23a6a94899b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -800,11 +776,14 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=8080",
-                "headers": {
-                    "Host": "NUFiLTER.fastly80-3.hosting-ip.com"
+            "tls": {
+                "enabled": true,
+                "server_name": "spb1.fromblancwithlove.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -894,6 +873,20 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @ServerNett | 12",
+            "type": "vless",
+            "server": "[2a01:4f8:c010:1d97::1]",
+            "server_port": 17485,
+            "uuid": "TELEGRAM-ServerNett",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
