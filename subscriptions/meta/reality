@@ -141,8 +141,6 @@ proxies:
   - {"name":"🇩🇪DE | 🟢 | vless | @prrofile_purple | 144","type":"vless","server":"45.90.97.249","port":44441,"udp":true,"uuid":"ec8a65ad-aafc-4095-9b8c-ea10890ca629","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"tile.openstreetmap.org","reality-opts":{"public-key":"h-tx4d8yBKf5Cevu1bPJZwrSxT3kCkaMESHBIofaalo","short-id":"be4243"}}
   - {"name":"🇫🇮FI | 🔴 | vless | @prrofile_purple | 150","type":"vless","server":"65.109.211.154","port":443,"udp":true,"uuid":"d76542c9-916e-41bb-ad0d-fa37971a8b2e","tls":true,"network":"xhttp","client-fingerprint":"chrome","servername":"yahoo.com","reality-opts":{"public-key":"CM7AaS7XYEohx4ZNbecHqTqhyX9-Q4MQKlHji1xxI2I","short-id":"4b272f845593"}}
   - {"name":"🇩🇪DE | 🔴 | vless | @customv2ray | 2","type":"vless","server":"c1.vact.ir","port":2083,"udp":true,"uuid":"2f139ff1-cc13-4ccf-933b-cc4d39ad5b3a","tls":true,"network":"grpc","client-fingerprint":"randomized","servername":"refersion.com","reality-opts":{"public-key":"Re7kdDBxVgsI4VmCHrcsPeKD4CBoB6Oc8fqxtWJ6m18","short-id":"90278dfc"}}
-  - {"name":"🇲🇩MD | 🟢 | vless | @ShadowProxy66 | 5","type":"vless","server":"45.67.229.166","port":443,"udp":true,"uuid":"cea58936-d8e5-406e-8683-738485d4a17e","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"google.com","reality-opts":{"public-key":"cTm0TIKL9qK550XICK2YroOSr1u-f12h5UmBw2EAr2c"}}
-  - {"name":"🇩🇪DE | 🟢 | vless | @ShadowProxy66 | 9","type":"vless","server":"147.45.178.92","port":443,"udp":true,"uuid":"4a55b918-f497-41c7-848d-3fcae63e667f","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"google.com","reality-opts":{"public-key":"cTm0TIKL9qK550XICK2YroOSr1u-f12h5UmBw2EAr2c"}}
   - {"name":"🇦🇪AE | 🟢 | vless | @v2ray1_ng | 8","type":"vless","server":"db02.ssr.ee","port":443,"udp":true,"uuid":"9d0a75d2-f747-4afa-b43f-d208af9e8f9a","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"itunes.apple.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"0Vvc6EFXPQHWWqyhG4wek-MEh_q6a9CDMY7U-TSHGV4","short-id":"6ba85179e30d4fc2"}}
   - {"name":"🇺🇸US | 🟢 | vless | @vless_vmess | 3","type":"vless","server":"172.233.174.160","port":80,"udp":true,"uuid":"ef27e62d-91bd-4676-b9ce-8743a73eda07","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"zula.ir","reality-opts":{"public-key":"BVimgXtKkQ2Q6EpG8uKYTpySrNxEeIqVhdsxi5U5qRU","short-id":"94aa1bdc"}}
   - {"name":"🇩🇪DE | 🔴 | vless | @MTConfig | 4","type":"vless","server":"g.soskom.ir","port":443,"udp":true,"uuid":"cc91a35a-5c6f-4cd0-9c8e-9e3e168bb322","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"yahoo.com","grpc-opts":{"grpc-service-name":"Tel:@NT_Safe"},"reality-opts":{"public-key":"zT6tM7lUqiWV_KuA1hp-ckrXDCA0d9_DG40JQGlh6zo","short-id":"a27ce1b2604c96"}}
@@ -212,8 +210,6 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | vless | @prrofile_purple | 144'
       - '🇫🇮FI | 🔴 | vless | @prrofile_purple | 150'
       - '🇩🇪DE | 🔴 | vless | @customv2ray | 2'
-      - '🇲🇩MD | 🟢 | vless | @ShadowProxy66 | 5'
-      - '🇩🇪DE | 🟢 | vless | @ShadowProxy66 | 9'
       - '🇦🇪AE | 🟢 | vless | @v2ray1_ng | 8'
       - '🇺🇸US | 🟢 | vless | @vless_vmess | 3'
       - '🇩🇪DE | 🔴 | vless | @MTConfig | 4'
@@ -283,8 +279,6 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | vless | @prrofile_purple | 144'
       - '🇫🇮FI | 🔴 | vless | @prrofile_purple | 150'
       - '🇩🇪DE | 🔴 | vless | @customv2ray | 2'
-      - '🇲🇩MD | 🟢 | vless | @ShadowProxy66 | 5'
-      - '🇩🇪DE | 🟢 | vless | @ShadowProxy66 | 9'
       - '🇦🇪AE | 🟢 | vless | @v2ray1_ng | 8'
       - '🇺🇸US | 🟢 | vless | @vless_vmess | 3'
       - '🇩🇪DE | 🔴 | vless | @MTConfig | 4'
@@ -353,8 +347,6 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | vless | @prrofile_purple | 144'
       - '🇫🇮FI | 🔴 | vless | @prrofile_purple | 150'
       - '🇩🇪DE | 🔴 | vless | @customv2ray | 2'
-      - '🇲🇩MD | 🟢 | vless | @ShadowProxy66 | 5'
-      - '🇩🇪DE | 🟢 | vless | @ShadowProxy66 | 9'
       - '🇦🇪AE | 🟢 | vless | @v2ray1_ng | 8'
       - '🇺🇸US | 🟢 | vless | @vless_vmess | 3'
       - '🇩🇪DE | 🔴 | vless | @MTConfig | 4'
