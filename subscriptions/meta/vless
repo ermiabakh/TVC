@@ -325,8 +325,8 @@ proxies:
   - {"name":"🇩🇪DE | 🔴 | vless | @lrnbymaa | 0","type":"vless","server":"g.soskom.ir","port":52439,"udp":true,"uuid":"7104da79-f958-40fd-96f2-d8f7396984f4","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"yahoo.com","reality-opts":{"public-key":"2Vxork2cQs-t5sqBYPt5ObPyex0jk7E2ND5we52m_0Y","short-id":"2e094153c17b67"}}
   - {"name":"🇺🇸US | 🔴 | vless | @proxystore11 | 0","type":"vless","server":"hajlab.ucdavis.edu","port":443,"udp":false,"uuid":"b9b6f31c-a30a-493e-8976-3c5f41463d6b","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"hajlab.ucdavis.edu","ws-opts":{"path":"/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048","headers":{"host":"joinshhproxybedeeeee.ir"}}}
   - {"name":"🇺🇸US | 🔴 | vless | @proxystore11 | 1","type":"vless","server":"hajlab.ucdavis.edu","port":443,"udp":false,"uuid":"b25b1e67-463e-453e-a66c-756e0d71e808","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"hajlab.ucdavis.edu","ws-opts":{"path":"/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048","headers":{"host":"joinshhproxybedeeeeeee.ir"}}}
-  - {"name":"🇳🇱NL | 🔴 | vless | @free1_vpn | 2","type":"vless","server":"141.11.21.117","port":4003,"udp":false,"uuid":"7dc9496c-07fd-44a5-9acd-7f086eeeecf6","tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🇺🇸US | 🔴 | vless | @free1_vpn | 12","type":"vless","server":"44.222.237.59","port":8080,"udp":true,"uuid":"d6143486-36c8-445b-b2b5-f3d389298f72","tls":true,"network":"xhttp","client-fingerprint":"chrome","servername":"api.openai.com","reality-opts":{"public-key":"yXtksaZJPAeCdqGkd9OzsufzBj9uGEOTOP4Dm9003GU","short-id":"721e34c7"}}
+  - {"name":"🇳🇱NL | 🔴 | vless | @free1_vpn | 3","type":"vless","server":"141.11.21.117","port":4003,"udp":false,"uuid":"7dc9496c-07fd-44a5-9acd-7f086eeeecf6","tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"🇺🇸US | 🔴 | vless | @free1_vpn | 13","type":"vless","server":"44.222.237.59","port":8080,"udp":true,"uuid":"d6143486-36c8-445b-b2b5-f3d389298f72","tls":true,"network":"xhttp","client-fingerprint":"chrome","servername":"api.openai.com","reality-opts":{"public-key":"yXtksaZJPAeCdqGkd9OzsufzBj9uGEOTOP4Dm9003GU","short-id":"721e34c7"}}
   - {"name":"🇷🇴RO | 🔴 | vless | @fnet00 | 0","type":"vless","server":"buh-ro-01.fromblancwithlove.com","port":8443,"udp":false,"uuid":"157448af-8ecf-4075-a9e9-b23a6a94899b","tls":true,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇮🇹IT | 🔴 | vless | @fnet00 | 1","type":"vless","server":"mil-it.fromblancwithlove.com","port":8443,"udp":false,"uuid":"157448af-8ecf-4075-a9e9-b23a6a94899b","tls":true,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇧🇪BE | 🔴 | vless | @fnet00 | 2","type":"vless","server":"bru-be-01.fromblancwithlove.com","port":8443,"udp":false,"uuid":"157448af-8ecf-4075-a9e9-b23a6a94899b","tls":true,"network":"tcp","client-fingerprint":"chrome"}
@@ -594,8 +594,8 @@ proxy-groups:
       - '🇩🇪DE | 🔴 | vless | @lrnbymaa | 0'
       - '🇺🇸US | 🔴 | vless | @proxystore11 | 0'
       - '🇺🇸US | 🔴 | vless | @proxystore11 | 1'
-      - '🇳🇱NL | 🔴 | vless | @free1_vpn | 2'
-      - '🇺🇸US | 🔴 | vless | @free1_vpn | 12'
+      - '🇳🇱NL | 🔴 | vless | @free1_vpn | 3'
+      - '🇺🇸US | 🔴 | vless | @free1_vpn | 13'
       - '🇷🇴RO | 🔴 | vless | @fnet00 | 0'
       - '🇮🇹IT | 🔴 | vless | @fnet00 | 1'
       - '🇧🇪BE | 🔴 | vless | @fnet00 | 2'
@@ -863,8 +863,8 @@ proxy-groups:
       - '🇩🇪DE | 🔴 | vless | @lrnbymaa | 0'
       - '🇺🇸US | 🔴 | vless | @proxystore11 | 0'
       - '🇺🇸US | 🔴 | vless | @proxystore11 | 1'
-      - '🇳🇱NL | 🔴 | vless | @free1_vpn | 2'
-      - '🇺🇸US | 🔴 | vless | @free1_vpn | 12'
+      - '🇳🇱NL | 🔴 | vless | @free1_vpn | 3'
+      - '🇺🇸US | 🔴 | vless | @free1_vpn | 13'
       - '🇷🇴RO | 🔴 | vless | @fnet00 | 0'
       - '🇮🇹IT | 🔴 | vless | @fnet00 | 1'
       - '🇧🇪BE | 🔴 | vless | @fnet00 | 2'
@@ -1131,8 +1131,8 @@ proxy-groups:
       - '🇩🇪DE | 🔴 | vless | @lrnbymaa | 0'
       - '🇺🇸US | 🔴 | vless | @proxystore11 | 0'
       - '🇺🇸US | 🔴 | vless | @proxystore11 | 1'
-      - '🇳🇱NL | 🔴 | vless | @free1_vpn | 2'
-      - '🇺🇸US | 🔴 | vless | @free1_vpn | 12'
+      - '🇳🇱NL | 🔴 | vless | @free1_vpn | 3'
+      - '🇺🇸US | 🔴 | vless | @free1_vpn | 13'
       - '🇷🇴RO | 🔴 | vless | @fnet00 | 0'
       - '🇮🇹IT | 🔴 | vless | @fnet00 | 1'
       - '🇧🇪BE | 🔴 | vless | @fnet00 | 2'
