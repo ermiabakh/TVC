@@ -126,7 +126,6 @@ proxies:
   - {"name":"🇨🇳CN | 🟢 | vmess | @mftizi | 18","type":"vmess","server":"183.236.51.23","port":"56601","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | 🟢 | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
   - {"name":"🇩🇪DE | 🟢 | vmess | @fnet00 | 7","type":"vmess","server":"5.75.201.39","port":"59521","cipher":"auto","uuid":"53e6dd39-27d4-4063-817a-9c00b077a2b7","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇳🇱NL | 🟢 | ss | @kingofilter | 17","type":"ss","server":"45.158.171.151","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -141,7 +140,6 @@ proxy-groups:
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 18'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
       - '🇩🇪DE | 🟢 | vmess | @fnet00 | 7'
-      - '🇳🇱NL | 🟢 | ss | @kingofilter | 17'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -156,7 +154,6 @@ proxy-groups:
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 18'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
       - '🇩🇪DE | 🟢 | vmess | @fnet00 | 7'
-      - '🇳🇱NL | 🟢 | ss | @kingofilter | 17'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -170,7 +167,6 @@ proxy-groups:
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 18'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
       - '🇩🇪DE | 🟢 | vmess | @fnet00 | 7'
-      - '🇳🇱NL | 🟢 | ss | @kingofilter | 17'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
