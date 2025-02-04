@@ -148,17 +148,17 @@
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 1",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 16",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
-                "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 8",
+                "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 10",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 0",
                 "❔XX | 🔴 | vless | @FreakConfig | 4",
                 "🇱🇻LV | 🔴 | vless | @FreakConfig | 5",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
-                "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
-                "🇩🇪DE | 🔴 | vless | @mehrosaboran | 9",
+                "🇩🇪DE | 🔴 | vless | @mehrosaboran | 7",
+                "🇩🇪DE | 🔴 | vless | @mehrosaboran | 8",
                 "🇫🇷FR | 🔴 | vless | @nofiltering2 | 5",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "🇫🇮FI | 🔴 | vless | @kingofilter | 16",
+                "&security=none&encryption=none&type=ws#🇳🇴NO | 🔴 | vless | @kingofilter | 14",
                 "🇺🇸US | 🔴 | vless | @SvnTeam | 16",
                 "🇩🇪DE | 🔴 | vless | @SvnTeam | 17",
                 "🇮🇷IR | 🔴 | vless | @V2FETCH | 0",
@@ -212,17 +212,17 @@
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 1",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 16",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
-                "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 8",
+                "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 10",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 0",
                 "❔XX | 🔴 | vless | @FreakConfig | 4",
                 "🇱🇻LV | 🔴 | vless | @FreakConfig | 5",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
-                "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
-                "🇩🇪DE | 🔴 | vless | @mehrosaboran | 9",
+                "🇩🇪DE | 🔴 | vless | @mehrosaboran | 7",
+                "🇩🇪DE | 🔴 | vless | @mehrosaboran | 8",
                 "🇫🇷FR | 🔴 | vless | @nofiltering2 | 5",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "🇫🇮FI | 🔴 | vless | @kingofilter | 16",
+                "&security=none&encryption=none&type=ws#🇳🇴NO | 🔴 | vless | @kingofilter | 14",
                 "🇺🇸US | 🔴 | vless | @SvnTeam | 16",
                 "🇩🇪DE | 🔴 | vless | @SvnTeam | 17",
                 "🇮🇷IR | 🔴 | vless | @V2FETCH | 0",
@@ -1327,7 +1327,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 8",
+            "tag": "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 10",
             "type": "vless",
             "server": "49.12.200.119",
             "server_port": 2053,
@@ -1428,28 +1428,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
-            "type": "vless",
-            "server": "151.101.0.155",
-            "server_port": 80,
-            "uuid": "Hqv2RayNGx",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG?ed=80",
-                "headers": {
-                    "Host": "151.101.0.155"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @mehrosaboran | 9",
+            "tag": "🇩🇪DE | 🔴 | vless | @mehrosaboran | 7",
             "type": "vless",
             "server": "Amin11.auiyf.com",
             "server_port": 443,
@@ -1474,6 +1453,27 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "\/@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @mehrosaboran | 8",
+            "type": "vless",
+            "server": "49.12.200.119",
+            "server_port": 6666,
+            "uuid": "ac11d26f-0947-4b2f-c2f9-655bb7294914",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -1566,24 +1566,17 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🔴 | vless | @kingofilter | 16",
+            "tag": "&security=none&encryption=none&type=ws#🇳🇴NO | 🔴 | vless | @kingofilter | 14",
             "type": "vless",
-            "server": "upgrade.bia2bax.shop",
-            "server_port": 80,
-            "uuid": "v2rayng__76",
+            "server": "95.164.38.201",
+            "server_port": 2052,
+            "uuid": "c80aa40c-a033-598f-a15f-e1f2d61ee377",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=2053",
-                "headers": {
-                    "Host": "upgrade.bia2bax.shop"
-                }
             }
         },
         {
