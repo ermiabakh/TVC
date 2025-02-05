@@ -127,6 +127,7 @@
                 "🇷🇺RU | 🔴 | vless | @prrofile_purple | 159",
                 "❔XX | 🔴 | vless | @customv2ray | 6",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 7",
+                "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 0",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 2",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 3",
                 "🇫🇮FI | 🔴 | vless | @ShadowProxy66 | 42",
@@ -190,6 +191,7 @@
                 "🇷🇺RU | 🔴 | vless | @prrofile_purple | 159",
                 "❔XX | 🔴 | vless | @customv2ray | 6",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 7",
+                "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 0",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 2",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 3",
                 "🇫🇮FI | 🔴 | vless | @ShadowProxy66 | 42",
@@ -720,6 +722,35 @@
                 "path": "\/LwW5jwrnymnOdqki?ed=2560",
                 "headers": {
                     "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 0",
+            "type": "vless",
+            "server": "44.200.154.162",
+            "server_port": 443,
+            "uuid": "45540661-2a83-4b79-a9c3-79c65a47f2cf",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "api.cloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "wYrjf_ib_AYKP-aLE1fI8n3czBWoKI41Fx89QIpxlxQ",
+                    "short_id": "3e4083278c"
                 }
             }
         },
