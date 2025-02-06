@@ -107,7 +107,6 @@
             "outbounds": [
                 "URL-TEST",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 0",
-                "🇫🇷FR | 🟢 | vless | @v2ray1_ng | 12",
                 "🇯🇵JP | 🟢 | vless | @VmessProtocol | 14",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇩🇪DE | 🔴 | vless | @mehrosaboran | 8",
@@ -121,7 +120,6 @@
             "type": "urltest",
             "outbounds": [
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 0",
-                "🇫🇷FR | 🟢 | vless | @v2ray1_ng | 12",
                 "🇯🇵JP | 🟢 | vless | @VmessProtocol | 14",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇩🇪DE | 🔴 | vless | @mehrosaboran | 8",
@@ -175,35 +173,6 @@
                     "enabled": true,
                     "public_key": "wYrjf_ib_AYKP-aLE1fI8n3czBWoKI41Fx89QIpxlxQ",
                     "short_id": "3e4083278c"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷FR | 🟢 | vless | @v2ray1_ng | 12",
-            "type": "vless",
-            "server": "45.95.233.8",
-            "server_port": 2040,
-            "uuid": "66924fa3-47cf-4272-a290-9bd476ebc6cd",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "fr.ign.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs",
-                    "short_id": ""
                 }
             }
         },
