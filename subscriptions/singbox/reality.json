@@ -133,7 +133,7 @@
                 "🇩🇪DE | 🟢 | vless | @DailyV2RY | 185",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 190",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 191",
-                "🇩🇪DE | 🟢 | vless | @DailyV2RY | 203",
+                "❔XX | 🟢 | vless | @DailyV2RY | 203",
                 "❔XX | 🟢 | vless | @DailyV2RY | 204",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 205",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 206",
@@ -151,6 +151,7 @@
                 "❔XX | 🟢 | vless | @DailyV2RY | 221",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
+                "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 1",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 1",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 2",
                 "🇩🇪DE | 🔴 | vless | @mehrosaboran | 3",
@@ -211,7 +212,7 @@
                 "🇩🇪DE | 🟢 | vless | @DailyV2RY | 185",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 190",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 191",
-                "🇩🇪DE | 🟢 | vless | @DailyV2RY | 203",
+                "❔XX | 🟢 | vless | @DailyV2RY | 203",
                 "❔XX | 🟢 | vless | @DailyV2RY | 204",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 205",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 206",
@@ -229,6 +230,7 @@
                 "❔XX | 🟢 | vless | @DailyV2RY | 221",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
+                "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 1",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 1",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 2",
                 "🇩🇪DE | 🔴 | vless | @mehrosaboran | 3",
@@ -1152,7 +1154,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @DailyV2RY | 203",
+            "tag": "❔XX | 🟢 | vless | @DailyV2RY | 203",
             "type": "vless",
             "server": "v25.blkrose.ir",
             "server_port": 2053,
@@ -1698,6 +1700,35 @@
                     "enabled": true,
                     "public_key": "0YSYFeihg5eJSBANonnWjrMl4SrWsZ0bdPOKhPdFpFI",
                     "short_id": "6ba85179e30d4fc2"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 1",
+            "type": "vless",
+            "server": "91.107.131.93",
+            "server_port": 2053,
+            "uuid": "08aa8e13-d639-4b24-9a7a-c2e56ee0beaa",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SdNh0nIUd1kC8NVV7eDgUUEDwbQ-NP1JpRhJanIlxks",
+                    "short_id": ""
                 }
             }
         },
