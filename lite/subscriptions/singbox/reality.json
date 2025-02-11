@@ -107,12 +107,12 @@
             "outbounds": [
                 "URL-TEST",
                 "🇺🇸US | 🟢 | vless | @vpn_xw | 0",
-                "🇺🇸US | 🟢 | vless | @ShadowProxy66 | 67",
+                "🇺🇸US | 🟢 | vless | @ShadowProxy66 | 68",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 13",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇳🇱NL | 🟢 | vless | @kingofilter | 14",
-                "🇩🇪DE | 🔴 | vless | @SvnTeam | 21"
+                "🇩🇪DE | 🔴 | vless | @SvnTeam | 19"
             ]
         },
         {
@@ -120,12 +120,12 @@
             "type": "urltest",
             "outbounds": [
                 "🇺🇸US | 🟢 | vless | @vpn_xw | 0",
-                "🇺🇸US | 🟢 | vless | @ShadowProxy66 | 67",
+                "🇺🇸US | 🟢 | vless | @ShadowProxy66 | 68",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 13",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇳🇱NL | 🟢 | vless | @kingofilter | 14",
-                "🇩🇪DE | 🔴 | vless | @SvnTeam | 21"
+                "🇩🇪DE | 🔴 | vless | @SvnTeam | 19"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -177,7 +177,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @ShadowProxy66 | 67",
+            "tag": "🇺🇸US | 🟢 | vless | @ShadowProxy66 | 68",
             "type": "vless",
             "server": "185.236.232.17",
             "server_port": 443,
@@ -336,11 +336,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @SvnTeam | 21",
+            "tag": "🇩🇪DE | 🔴 | vless | @SvnTeam | 19",
             "type": "vless",
             "server": "SVNTEAM.MiSVN.iR",
             "server_port": 443,
-            "uuid": "SVNTEAM3",
+            "uuid": "SVNTEAM4",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
