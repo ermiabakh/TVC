@@ -116,7 +116,6 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 11",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 12",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 15",
-                "🇺🇸US | 🟢 | vmess | @prrofile_purple | 104",
                 "🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 58",
                 "🚩CF | 🟢 | vmess | @v2ray1_ng | 0",
                 "🇨🇦CA | 🟢 | vmess | @v2ray1_ng | 1",
@@ -150,7 +149,6 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 11",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 12",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 15",
-                "🇺🇸US | 🟢 | vmess | @prrofile_purple | 104",
                 "🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 58",
                 "🚩CF | 🟢 | vmess | @v2ray1_ng | 0",
                 "🇨🇦CA | 🟢 | vmess | @v2ray1_ng | 1",
@@ -357,40 +355,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @prrofile_purple | 104",
-            "type": "vmess",
-            "server": "cdnjs.com",
-            "server_port": 443,
-            "uuid": "c934f058-415a-41f1-9a72-4b2a3a35fcbe",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "nl.uploadsho.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/upload\/?ed=2560",
-                "headers": {
-                    "Host": "nl.uploadsho.com"
-                }
             }
         },
         {

@@ -128,7 +128,6 @@ proxies:
   - {"name":"🇨🇳CN | 🟢 | vmess | @mftizi | 11","type":"vmess","server":"183.236.48.163","port":"58831","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | 🟢 | vmess | @mftizi | 12","type":"vmess","server":"120.232.153.27","port":"58831","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | 🟢 | vmess | @mftizi | 15","type":"vmess","server":"183.236.51.23","port":"56601","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸US | 🟢 | vmess | @prrofile_purple | 104","type":"vmess","server":"cdnjs.com","port":"443","cipher":"auto","uuid":"c934f058-415a-41f1-9a72-4b2a3a35fcbe","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/upload/?ed=2560","headers":{"host":"nl.uploadsho.com"}}}
   - {"name":"🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 58","type":"vmess","server":"159.69.120.98","port":"41391","cipher":"auto","uuid":"b5c3e2e8-dfb6-4a0a-b656-87e997610785","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🚩CF | 🟢 | vmess | @v2ray1_ng | 0","type":"vmess","server":"104.19.150.10","port":"2095","cipher":"auto","uuid":"94f332b0-c5d3-4531-a1d6-6e6358cc6c72","alterId":"0","tls":false,"skip-cert-verify":true,"network":"httpupgrade"}
   - {"name":"🇨🇦CA | 🟢 | vmess | @v2ray1_ng | 1","type":"vmess","server":"23.162.200.91","port":"20182","cipher":"auto","uuid":"cc9b66b7-1de7-4aa9-9642-575a8ae3ff19","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
@@ -159,7 +158,6 @@ proxy-groups:
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 11'
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 12'
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 15'
-      - '🇺🇸US | 🟢 | vmess | @prrofile_purple | 104'
       - '🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 58'
       - '🚩CF | 🟢 | vmess | @v2ray1_ng | 0'
       - '🇨🇦CA | 🟢 | vmess | @v2ray1_ng | 1'
@@ -190,7 +188,6 @@ proxy-groups:
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 11'
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 12'
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 15'
-      - '🇺🇸US | 🟢 | vmess | @prrofile_purple | 104'
       - '🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 58'
       - '🚩CF | 🟢 | vmess | @v2ray1_ng | 0'
       - '🇨🇦CA | 🟢 | vmess | @v2ray1_ng | 1'
@@ -220,7 +217,6 @@ proxy-groups:
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 11'
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 12'
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 15'
-      - '🇺🇸US | 🟢 | vmess | @prrofile_purple | 104'
       - '🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 58'
       - '🚩CF | 🟢 | vmess | @v2ray1_ng | 0'
       - '🇨🇦CA | 🟢 | vmess | @v2ray1_ng | 1'
