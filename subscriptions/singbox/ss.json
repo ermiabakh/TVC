@@ -109,9 +109,8 @@
                 "🇬🇧GB | 🟢 | ss | @azadi_az_inja_migzare | 1",
                 "🇬🇧GB | 🟢 | ss | @azadi_az_inja_migzare | 2",
                 "🇬🇧GB | 🟢 | ss | @azadi_az_inja_migzare | 4",
-                "🇵🇱PL | 🟢 | ss | @DeamNet_Proxy | 11",
-                "🇵🇱PL | 🟢 | ss | @DeamNet_Proxy | 18",
-                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 19",
+                "🇵🇱PL | 🟢 | ss | @DeamNet_Proxy | 12",
+                "🇵🇱PL | 🟢 | ss | @DeamNet_Proxy | 19",
                 "🇬🇧GB | 🟢 | ss | @kingofilter | 2",
                 "🇬🇧GB | 🟢 | ss | @kingofilter | 9"
             ]
@@ -123,9 +122,8 @@
                 "🇬🇧GB | 🟢 | ss | @azadi_az_inja_migzare | 1",
                 "🇬🇧GB | 🟢 | ss | @azadi_az_inja_migzare | 2",
                 "🇬🇧GB | 🟢 | ss | @azadi_az_inja_migzare | 4",
-                "🇵🇱PL | 🟢 | ss | @DeamNet_Proxy | 11",
-                "🇵🇱PL | 🟢 | ss | @DeamNet_Proxy | 18",
-                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 19",
+                "🇵🇱PL | 🟢 | ss | @DeamNet_Proxy | 12",
+                "🇵🇱PL | 🟢 | ss | @DeamNet_Proxy | 19",
                 "🇬🇧GB | 🟢 | ss | @kingofilter | 2",
                 "🇬🇧GB | 🟢 | ss | @kingofilter | 9"
             ],
@@ -180,7 +178,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇵🇱PL | 🟢 | ss | @DeamNet_Proxy | 11",
+            "tag": "🇵🇱PL | 🟢 | ss | @DeamNet_Proxy | 12",
             "type": "shadowsocks",
             "server": "51.77.53.200",
             "server_port": 3389,
@@ -190,22 +188,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇵🇱PL | 🟢 | ss | @DeamNet_Proxy | 18",
+            "tag": "🇵🇱PL | 🟢 | ss | @DeamNet_Proxy | 19",
             "type": "shadowsocks",
             "server": "51.77.53.200",
             "server_port": 7001,
             "method": "aes-256-gcm",
             "password": "RexnBgU7EV5ADxG",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 19",
-            "type": "shadowsocks",
-            "server": "67.220.95.102",
-            "server_port": 8008,
-            "method": "aes-256-gcm",
-            "password": "XKFKl2rULjIp74",
             "plugin": "",
             "plugin_opts": ""
         },
