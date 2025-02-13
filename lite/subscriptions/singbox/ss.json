@@ -106,14 +106,16 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 18"
+                "🇵🇱PL | 🟢 | ss | @DeamNet_Proxy | 18",
+                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 19"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 18"
+                "🇵🇱PL | 🟢 | ss | @DeamNet_Proxy | 18",
+                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 19"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -136,12 +138,22 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 18",
+            "tag": "🇵🇱PL | 🟢 | ss | @DeamNet_Proxy | 18",
             "type": "shadowsocks",
-            "server": "23.157.40.89",
-            "server_port": 7306,
+            "server": "51.77.53.200",
+            "server_port": 7001,
             "method": "aes-256-gcm",
-            "password": "FoOiGlkAA9yPEGP",
+            "password": "RexnBgU7EV5ADxG",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 19",
+            "type": "shadowsocks",
+            "server": "67.220.95.102",
+            "server_port": 8008,
+            "method": "aes-256-gcm",
+            "password": "XKFKl2rULjIp74",
             "plugin": "",
             "plugin_opts": ""
         }
