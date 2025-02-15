@@ -105,20 +105,13 @@
             "tag": "proxy",
             "type": "selector",
             "outbounds": [
-                "URL-TEST",
-                "🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 18",
-                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 19",
-                "🇬🇧GB | 🟢 | ss | @kingofilter | 10"
+                "URL-TEST"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
-            "outbounds": [
-                "🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 18",
-                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 19",
-                "🇬🇧GB | 🟢 | ss | @kingofilter | 10"
-            ],
+            "outbounds": [],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
             "tolerance": 50
@@ -138,36 +131,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 18",
-            "type": "shadowsocks",
-            "server": "212.118.42.181",
-            "server_port": 9260,
-            "method": "2022-blake3-aes-256-gcm",
-            "password": "X0xJs7Bn4yXxePbQhfsKqc0CiAi5a7tcV6GFPCyYWn4=",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 19",
-            "type": "shadowsocks",
-            "server": "67.220.95.102",
-            "server_port": 5600,
-            "method": "aes-256-gcm",
-            "password": "Y6R9pAtvxxzmGC",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇬🇧GB | 🟢 | ss | @kingofilter | 10",
-            "type": "shadowsocks",
-            "server": "api.namasha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "u17T3BvpYaaiuW2c",
-            "plugin": "",
-            "plugin_opts": ""
         }
     ],
     "route": {
