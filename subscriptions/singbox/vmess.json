@@ -118,6 +118,10 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 13",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
                 "🇭🇰HK | 🟢 | vmess | @DeamNet_Proxy | 13",
+                "🇬🇧GB | 🟢 | vmess | @ShadowProxy66 | 32",
+                "🇬🇧GB | 🟢 | vmess | @ShadowProxy66 | 33",
+                "🇬🇧GB | 🟢 | vmess | @ShadowProxy66 | 34",
+                "🇨🇦CA | 🟢 | vmess | @ShadowProxy66 | 42",
                 "🇲🇾MY | 🟢 | vmess | @ShadowProxy66 | 43",
                 "🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 44",
                 "🇸🇬SG | 🟢 | vmess | @ShadowProxy66 | 45",
@@ -129,7 +133,7 @@
                 "🚩CF | 🟢 | vmess | @v2ray1_ng | 2",
                 "🚩CF | 🟢 | vmess | @v2ray1_ng | 4",
                 "🇨🇦CA | 🟢 | vmess | @v2ray1_ng | 9",
-                "🇺🇸US | 🟢 | vmess | @DailyV2RY | 346",
+                "🇺🇸US | 🟢 | vmess | @DailyV2RY | 365",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -159,6 +163,10 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 13",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
                 "🇭🇰HK | 🟢 | vmess | @DeamNet_Proxy | 13",
+                "🇬🇧GB | 🟢 | vmess | @ShadowProxy66 | 32",
+                "🇬🇧GB | 🟢 | vmess | @ShadowProxy66 | 33",
+                "🇬🇧GB | 🟢 | vmess | @ShadowProxy66 | 34",
+                "🇨🇦CA | 🟢 | vmess | @ShadowProxy66 | 42",
                 "🇲🇾MY | 🟢 | vmess | @ShadowProxy66 | 43",
                 "🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 44",
                 "🇸🇬SG | 🟢 | vmess | @ShadowProxy66 | 45",
@@ -170,7 +178,7 @@
                 "🚩CF | 🟢 | vmess | @v2ray1_ng | 2",
                 "🚩CF | 🟢 | vmess | @v2ray1_ng | 4",
                 "🇨🇦CA | 🟢 | vmess | @v2ray1_ng | 9",
-                "🇺🇸US | 🟢 | vmess | @DailyV2RY | 346",
+                "🇺🇸US | 🟢 | vmess | @DailyV2RY | 365",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -408,6 +416,74 @@
             }
         },
         {
+            "tag": "🇬🇧GB | 🟢 | vmess | @ShadowProxy66 | 32",
+            "type": "vmess",
+            "server": "172.99.190.207",
+            "server_port": 55577,
+            "uuid": "e922d485-98a7-475a-9a47-cde3722ac82e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇬🇧GB | 🟢 | vmess | @ShadowProxy66 | 33",
+            "type": "vmess",
+            "server": "149.7.16.149",
+            "server_port": 37101,
+            "uuid": "fb3fc243-4698-49c4-8c44-0415f68a4d25",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇬🇧GB | 🟢 | vmess | @ShadowProxy66 | 34",
+            "type": "vmess",
+            "server": "149.7.16.149",
+            "server_port": 37101,
+            "uuid": "fb3fc243-4698-49c4-8c44-0415f68a4d25",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇦CA | 🟢 | vmess | @ShadowProxy66 | 42",
+            "type": "vmess",
+            "server": "38.111.114.153",
+            "server_port": 14812,
+            "uuid": "0146fc40-5962-4e9a-b36a-2b606d001467",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇲🇾MY | 🟢 | vmess | @ShadowProxy66 | 43",
             "type": "vmess",
             "server": "101.99.91.234",
@@ -609,7 +685,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @DailyV2RY | 346",
+            "tag": "🇺🇸US | 🟢 | vmess | @DailyV2RY | 365",
             "type": "vmess",
             "server": "45.32.210.214",
             "server_port": 8881,
