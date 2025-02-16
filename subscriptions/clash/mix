@@ -198,7 +198,6 @@ proxies:
   - {"name":"🇨🇳CN | 🟢 | vmess | @Hope_Net | 1","type":"vmess","server":"ywtwepcnwlou.xn--fiqs8sjz2bull.com","port":"33184","cipher":"auto","uuid":"b2d1e704-59f5-48ec-ba97-9a5e2005b37b","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | 🟢 | vmess | @Hope_Net | 3","type":"vmess","server":"ywtwepcnwlou.xn--fiqs8sjz2bull.com","port":"33184","cipher":"auto","uuid":"b2d1e704-59f5-48ec-ba97-9a5e2005b37b","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🚩CF | 🟢 | vmess | @Hope_Net | 6","type":"vmess","server":"172.66.45.40","port":"2052","cipher":"auto","uuid":"fcc685c0-e718-11ef-b933-205c6d5f5d78","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ek147r26/@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560","headers":{"host":"eu-2.hihu.net"}}}
-  - {"name":"🇰🇷KR | 🟢 | vmess | @Hope_Net | 7","type":"vmess","server":"130.162.141.79","port":23451,"cipher":"auto","uuid":"7318bc15-4bff-4e22-aac3-4d9f849930db","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"seoul-1ddns.aboutanime.eu.org"}}}
   - {"name":"🇬🇧GB | 🟢 | ss | @kingofilter | 4","type":"ss","server":"series-a1.samanehha.co","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸US | 🟢 | vmess | @ISVvpn | 1","type":"vmess","server":"zula.ir","port":"8443","cipher":"none","uuid":"35302031-3032-4035-b020-313032203130","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"vip1.isvpy.ir"}}}
 proxy-groups:
@@ -287,7 +286,6 @@ proxy-groups:
       - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 1'
       - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 3'
       - '🚩CF | 🟢 | vmess | @Hope_Net | 6'
-      - '🇰🇷KR | 🟢 | vmess | @Hope_Net | 7'
       - '🇬🇧GB | 🟢 | ss | @kingofilter | 4'
       - '🇺🇸US | 🟢 | vmess | @ISVvpn | 1'
   - name: URL-TEST
@@ -376,7 +374,6 @@ proxy-groups:
       - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 1'
       - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 3'
       - '🚩CF | 🟢 | vmess | @Hope_Net | 6'
-      - '🇰🇷KR | 🟢 | vmess | @Hope_Net | 7'
       - '🇬🇧GB | 🟢 | ss | @kingofilter | 4'
       - '🇺🇸US | 🟢 | vmess | @ISVvpn | 1'
   - name: FALLBACK
@@ -464,7 +461,6 @@ proxy-groups:
       - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 1'
       - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 3'
       - '🚩CF | 🟢 | vmess | @Hope_Net | 6'
-      - '🇰🇷KR | 🟢 | vmess | @Hope_Net | 7'
       - '🇬🇧GB | 🟢 | ss | @kingofilter | 4'
       - '🇺🇸US | 🟢 | vmess | @ISVvpn | 1'
 rules:
