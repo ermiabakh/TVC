@@ -145,7 +145,6 @@
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 7",
                 "❔XX | 🟢 | vmess | @Hope_Net | 8",
                 "🇯🇵JP | 🟢 | vmess | @Hope_Net | 9",
-                "🇮🇩ID | 🟢 | vmess | @Hope_Net | 10",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 1",
                 "🇺🇸US | 🟢 | vmess | @ISVvpn | 1"
             ]
@@ -193,7 +192,6 @@
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 7",
                 "❔XX | 🟢 | vmess | @Hope_Net | 8",
                 "🇯🇵JP | 🟢 | vmess | @Hope_Net | 9",
-                "🇮🇩ID | 🟢 | vmess | @Hope_Net | 10",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 1",
                 "🇺🇸US | 🟢 | vmess | @ISVvpn | 1"
             ],
@@ -996,23 +994,6 @@
             "server": "20.78.127.141",
             "server_port": 550,
             "uuid": "9e11e992-c3a4-45fb-bb67-5f4f42fcd551",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇮🇩ID | 🟢 | vmess | @Hope_Net | 10",
-            "type": "vmess",
-            "server": "103.67.79.157",
-            "server_port": 45365,
-            "uuid": "7d2a4e66-152c-49f5-9ff5-c19a836e8c89",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
