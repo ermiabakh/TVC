@@ -205,7 +205,6 @@
                 "🇩🇪DE | 🔴 | vless | @proxy_kafee | 0",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 1",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 2",
-                "🇺🇸US | 🔴 | vless | @proxy_kafee | 3",
                 "🇺🇸US | 🔴 | vless | @v2logy | 0",
                 "🇺🇸US | 🔴 | vless | @v2logy | 1",
                 "🇺🇸US | 🔴 | vless | @v2logy | 2",
@@ -330,7 +329,6 @@
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 0",
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 2",
                 "🇳🇱NL | 🔴 | vless | @v2ray1_ng | 8",
-                "🇮🇳IN | 🔴 | vless | @v2ray1_ng | 10",
                 "🚩CF | 🔴 | vless | @vless_vmess | 0",
                 "🚩CF | 🔴 | vless | @vless_vmess | 1",
                 "🇬🇧GB | 🟢 | vless | @vless_vmess | 2",
@@ -453,6 +451,7 @@
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇺🇸US | 🟢 | vless | @kingofilter | 2",
+                "🇮🇳IN | 🔴 | vless | @kingofilter | 5",
                 "🚩CF | 🔴 | vless | @kingofilter | 7",
                 "🇸🇪SE | 🔴 | vless | @kingofilter | 8",
                 "🇩🇪DE | 🔴 | vless | @kingofilter | 11",
@@ -571,7 +570,6 @@
                 "🇩🇪DE | 🔴 | vless | @proxy_kafee | 0",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 1",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 2",
-                "🇺🇸US | 🔴 | vless | @proxy_kafee | 3",
                 "🇺🇸US | 🔴 | vless | @v2logy | 0",
                 "🇺🇸US | 🔴 | vless | @v2logy | 1",
                 "🇺🇸US | 🔴 | vless | @v2logy | 2",
@@ -696,7 +694,6 @@
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 0",
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 2",
                 "🇳🇱NL | 🔴 | vless | @v2ray1_ng | 8",
-                "🇮🇳IN | 🔴 | vless | @v2ray1_ng | 10",
                 "🚩CF | 🔴 | vless | @vless_vmess | 0",
                 "🚩CF | 🔴 | vless | @vless_vmess | 1",
                 "🇬🇧GB | 🟢 | vless | @vless_vmess | 2",
@@ -819,6 +816,7 @@
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇺🇸US | 🟢 | vless | @kingofilter | 2",
+                "🇮🇳IN | 🔴 | vless | @kingofilter | 5",
                 "🚩CF | 🔴 | vless | @kingofilter | 7",
                 "🇸🇪SE | 🔴 | vless | @kingofilter | 8",
                 "🇩🇪DE | 🔴 | vless | @kingofilter | 11",
@@ -3399,27 +3397,6 @@
             "server": "151.101.3.8",
             "server_port": 80,
             "uuid": "15a5a638-8447-4b98-bae1-a136da81c316",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy",
-                "headers": {
-                    "Host": "151.101.3.8"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 3",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "387edaa5-aac3-49e5-b826-4d3e46b68054",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -6402,20 +6379,6 @@
                 "headers": {
                     "Host": "45.149.12.128"
                 }
-            }
-        },
-        {
-            "tag": "🇮🇳IN | 🔴 | vless | @v2ray1_ng | 10",
-            "type": "vless",
-            "server": "103.180.236.102",
-            "server_port": 15006,
-            "uuid": "15ce6637-4b61-4d05-ac41-fd6acc002262",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -9539,6 +9502,20 @@
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
+            }
+        },
+        {
+            "tag": "🇮🇳IN | 🔴 | vless | @kingofilter | 5",
+            "type": "vless",
+            "server": "103.180.236.102",
+            "server_port": 15006,
+            "uuid": "15ce6637-4b61-4d05-ac41-fd6acc002262",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
