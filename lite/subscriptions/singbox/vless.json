@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | 🔴 | vless | @EliV2ray | 0",
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 28",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 29",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 9",
@@ -157,7 +156,7 @@
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
                 "❔XX | 🔴 | vless | @FreakConfig | 12",
                 "❔XX | 🔴 | vless | @FreakConfig | 13",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 5",
+                "🇩🇪DE | 🔴 | vless | @flyv2ray | 5",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 6",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 13",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -175,7 +174,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | 🔴 | vless | @EliV2ray | 0",
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 28",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 29",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 9",
@@ -226,7 +224,7 @@
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
                 "❔XX | 🔴 | vless | @FreakConfig | 12",
                 "❔XX | 🔴 | vless | @FreakConfig | 13",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 5",
+                "🇩🇪DE | 🔴 | vless | @flyv2ray | 5",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 6",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 13",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -258,27 +256,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @EliV2ray | 0",
-            "type": "vless",
-            "server": "join.ELiV2.RAY.fastly80-3.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "2fb8567e-0c85-4950-9975-af714241b2db",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram,@ELiV2RAY--telegram,@ELiV2RAY--telegram,@ELiV2RAY--telegram,@ELiV2RAY--telegram,@ELiV2RAY--telegram,@ELiV2RAY?ed=2560",
-                "headers": {
-                    "Host": "join.ELiV2.RAY.fastly80-3.hosting-ip.com"
-                }
-            }
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | @Parsashonam | 28",
@@ -1524,7 +1501,43 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 5",
+            "tag": "🇩🇪DE | 🔴 | vless | @flyv2ray | 5",
+            "type": "vless",
+            "server": "c2.vact.ir",
+            "server_port": 2083,
+            "uuid": "fe3080ba-b9f6-4d30-9d43-ca621bff189f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cdn77.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "gmfZyQtoXXrck45kkXm_vO3TlB0CcDNvkLkd3-HAfFA",
+                    "short_id": "b542ac"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 6",
             "type": "vless",
             "server": "NUFiLTER.fastly80-3.hosting-ip.com",
             "server_port": 80,
@@ -1545,32 +1558,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 6",
-            "type": "vless",
-            "server": "NUFiLTER.fastly80-3.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "TELEGRAM-NUFiLTER-3011a565e01b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=8080",
-                "headers": {
-                    "Host": "NUFiLTER.fastly80-3.hosting-ip.com"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | @nofiltering2 | 13",
             "type": "vless",
-            "server": "speedtest.net",
+            "server": "172.67.73.163",
             "server_port": 80,
-            "uuid": "958ff940-467a-4d51-b00c-9e3370b97bd3",
+            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1580,9 +1572,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/olem\/ws?ed=1024",
+                "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "speedtest.net"
+                    "Host": "172.67.73.163"
                 }
             }
         },
