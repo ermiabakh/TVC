@@ -121,6 +121,7 @@
                 "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 10",
                 "🇨🇳CN | 🟢 | vmess | @DeamNet_Proxy | 15",
                 "🇫🇷FR | 🟢 | vmess | @DeamNet_Proxy | 17",
+                "🇺🇸US | 🟢 | vmess | @prrofile_purple | 113",
                 "🚩CF | 🟢 | vmess | @prrofile_purple | 131",
                 "🇩🇪DE | 🟢 | vmess | @prrofile_purple | 133",
                 "🇷🇺RU | 🟢 | vmess | @ShadowProxy66 | 10",
@@ -135,8 +136,6 @@
                 "❔XX | 🟢 | vmess | @Hope_Net | 1",
                 "❔XX | 🟢 | vmess | @Hope_Net | 2",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 3",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 5",
-                "🇬🇧GB | 🟢 | vmess | @Hope_Net | 6",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 7",
                 "🇺🇸US | 🟢 | vmess | @ISVvpn | 1"
             ]
@@ -160,6 +159,7 @@
                 "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 10",
                 "🇨🇳CN | 🟢 | vmess | @DeamNet_Proxy | 15",
                 "🇫🇷FR | 🟢 | vmess | @DeamNet_Proxy | 17",
+                "🇺🇸US | 🟢 | vmess | @prrofile_purple | 113",
                 "🚩CF | 🟢 | vmess | @prrofile_purple | 131",
                 "🇩🇪DE | 🟢 | vmess | @prrofile_purple | 133",
                 "🇷🇺RU | 🟢 | vmess | @ShadowProxy66 | 10",
@@ -174,8 +174,6 @@
                 "❔XX | 🟢 | vmess | @Hope_Net | 1",
                 "❔XX | 🟢 | vmess | @Hope_Net | 2",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 3",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 5",
-                "🇬🇧GB | 🟢 | vmess | @Hope_Net | 6",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 7",
                 "🇺🇸US | 🟢 | vmess | @ISVvpn | 1"
             ],
@@ -485,6 +483,33 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "capellare.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @prrofile_purple | 113",
+            "type": "vmess",
+            "server": "WwW.sPEeDtEsT.NeT",
+            "server_port": 2096,
+            "uuid": "6387a384-534d-445c-bf53-49a56177c4a7",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "api.waltonweb.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -820,57 +845,6 @@
                 "headers": {
                     "Host": "www.23179753.xyz"
                 }
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vmess | @Hope_Net | 5",
-            "type": "vmess",
-            "server": "104.21.16.100",
-            "server_port": 2053,
-            "uuid": "eb817168-5f83-4fba-af99-881ec0e547b1",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "qurantv.iribquran.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "qurantv.iribquran.com"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧GB | 🟢 | vmess | @Hope_Net | 6",
-            "type": "vmess",
-            "server": "38.114.120.12",
-            "server_port": 47567,
-            "uuid": "cda5dfaa-99e8-42d6-9f0b-6ef30f76e92c",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
