@@ -163,7 +163,7 @@
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 7",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
+                "❔XX | 🟢 | vmess | @Hope_Net | 8",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 2",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
                 "❔XX | 🔴 | vless | @FreakConfig | 11",
@@ -241,7 +241,7 @@
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 7",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
+                "❔XX | 🟢 | vmess | @Hope_Net | 8",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 2",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
                 "❔XX | 🔴 | vless | @FreakConfig | 11",
@@ -1675,9 +1675,9 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "s1.db-link02.top",
-            "server_port": 8080,
-            "uuid": "4b36625c-b9d9-3ea6-aed5-86d62c70e16d",
+            "server": "104.21.16.100",
+            "server_port": 2053,
+            "uuid": "eb817168-5f83-4fba-af99-881ec0e547b1",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1688,20 +1688,30 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "qurantv.iribquran.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/dabai.in104.21.151.202",
+                "path": "\/",
                 "headers": {
-                    "Host": ""
+                    "Host": "qurantv.iribquran.com"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "s1.cn-db.top",
-            "server_port": 8880,
-            "uuid": "4b36625c-b9d9-3ea6-aed5-86d62c70e16d",
+            "server": "127.0.0.1",
+            "server_port": 2080,
+            "uuid": "acbaabc-baca-aacb-adbc-bccbbcbaaaca",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1711,13 +1721,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/dabai.in104.19.138.212",
-                "headers": {
-                    "Host": "100-171-52-115.s1.cn-db.top"
-                }
             }
         },
         {
