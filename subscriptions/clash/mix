@@ -195,8 +195,8 @@ proxies:
   - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 3","type":"vmess","server":"s5.db-link02.top","port":8080,"cipher":"auto","uuid":"4b36625c-b9d9-3ea6-aed5-86d62c70e16d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/dabai.in104.20.16.209","headers":{"host":"100-149-191-2.s5.db-link02.top"}}}
   - {"name":"🚩CF | 🟢 | vmess | @Hope_Net | 5","type":"vmess","server":"104.19.48.236","port":"80","cipher":"auto","uuid":"e6543319-0574-42ac-b778-1c4325d626f5","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"chunchuan.kejixiaoqi666.store"}}}
   - {"name":"🇩🇪DE | 🟢 | vmess | @Hope_Net | 6","type":"vmess","server":"91.107.188.10","port":"8443","cipher":"auto","uuid":"392c46dc-0b5f-432a-83de-b311b81bf0c9","alterId":"0","tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"","grpc-mode":"gun"}}
-  - {"name":"🇺🇸US | 🟢 | ss | @kingofilter | 1","type":"ss","server":"45.87.175.171","port":8080,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇬🇧GB | 🟢 | ss | @kingofilter | 7","type":"ss","server":"series-a1.samanehha.co","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸US | 🟢 | ss | @kingofilter | 2","type":"ss","server":"45.87.175.171","port":8080,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧GB | 🟢 | ss | @kingofilter | 8","type":"ss","server":"series-a1.samanehha.co","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸US | 🟢 | vmess | @ISVvpn | 1","type":"vmess","server":"zula.ir","port":"8443","cipher":"none","uuid":"35302031-3032-4035-b020-313032203130","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"vip1.isvpy.ir"}}}
 proxy-groups:
   - name: MANUAL
@@ -281,8 +281,8 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 3'
       - '🚩CF | 🟢 | vmess | @Hope_Net | 5'
       - '🇩🇪DE | 🟢 | vmess | @Hope_Net | 6'
-      - '🇺🇸US | 🟢 | ss | @kingofilter | 1'
-      - '🇬🇧GB | 🟢 | ss | @kingofilter | 7'
+      - '🇺🇸US | 🟢 | ss | @kingofilter | 2'
+      - '🇬🇧GB | 🟢 | ss | @kingofilter | 8'
       - '🇺🇸US | 🟢 | vmess | @ISVvpn | 1'
   - name: URL-TEST
     type: url-test
@@ -367,8 +367,8 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 3'
       - '🚩CF | 🟢 | vmess | @Hope_Net | 5'
       - '🇩🇪DE | 🟢 | vmess | @Hope_Net | 6'
-      - '🇺🇸US | 🟢 | ss | @kingofilter | 1'
-      - '🇬🇧GB | 🟢 | ss | @kingofilter | 7'
+      - '🇺🇸US | 🟢 | ss | @kingofilter | 2'
+      - '🇬🇧GB | 🟢 | ss | @kingofilter | 8'
       - '🇺🇸US | 🟢 | vmess | @ISVvpn | 1'
   - name: FALLBACK
     type: fallback
@@ -452,8 +452,8 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 3'
       - '🚩CF | 🟢 | vmess | @Hope_Net | 5'
       - '🇩🇪DE | 🟢 | vmess | @Hope_Net | 6'
-      - '🇺🇸US | 🟢 | ss | @kingofilter | 1'
-      - '🇬🇧GB | 🟢 | ss | @kingofilter | 7'
+      - '🇺🇸US | 🟢 | ss | @kingofilter | 2'
+      - '🇬🇧GB | 🟢 | ss | @kingofilter | 8'
       - '🇺🇸US | 🟢 | vmess | @ISVvpn | 1'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
