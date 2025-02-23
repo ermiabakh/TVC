@@ -153,7 +153,7 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 361",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 362",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 4",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 14",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 15",
                 "❔XX | 🔴 | vless | @FreakConfig | 11",
                 "❔XX | 🔴 | vless | @FreakConfig | 12",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 7",
@@ -161,6 +161,7 @@
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
+                "🇩🇪DE | 🟢 | vless | @kingofilter | 8",
                 "🇮🇳IN | 🔴 | vless | @kingofilter | 9",
                 "🇺🇸US | 🔴 | vless | @SvnTeam | 18",
                 "🇩🇪DE | 🔴 | vless | @SvnTeam | 19",
@@ -220,7 +221,7 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 361",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 362",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 4",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 14",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 15",
                 "❔XX | 🔴 | vless | @FreakConfig | 11",
                 "❔XX | 🔴 | vless | @FreakConfig | 12",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 7",
@@ -228,6 +229,7 @@
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
+                "🇩🇪DE | 🟢 | vless | @kingofilter | 8",
                 "🇮🇳IN | 🔴 | vless | @kingofilter | 9",
                 "🇺🇸US | 🔴 | vless | @SvnTeam | 18",
                 "🇩🇪DE | 🔴 | vless | @SvnTeam | 19",
@@ -1454,7 +1456,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 14",
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 15",
             "type": "vless",
             "server": "104.26.15.85",
             "server_port": 80,
@@ -1572,9 +1574,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @nofiltering2 | 15",
             "type": "vless",
-            "server": "join.VPNCUSTOMIZE.fastly80-3.hosting-ip.com",
+            "server": "speedtest.net",
             "server_port": 80,
-            "uuid": "a039eb43-0019-4753-aeed-bfc9b895ddab",
+            "uuid": "fe27a1ea-68e4-4784-834e-b4dc239fa152",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1584,9 +1586,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-VPNCUSTOMIZE-telegram-VPNCUSTOMIZE--telegram---VPNCUSTOMIZE--telegram---VPNCUSTOMIZE--telegram---VPNCUSTOMIZE",
+                "path": "\/olem\/ws?ed=1024",
                 "headers": {
-                    "Host": "join.VPNCUSTOMIZE.fastly80-3.hosting-ip.com"
+                    "Host": "speedtest.net"
                 }
             }
         },
@@ -1657,6 +1659,42 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@vmesskhodam,@vmesskhodam,@vmesskhodam,@vmesskhodam,@vmesskhodam",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | @kingofilter | 8",
+            "type": "vless",
+            "server": "c1.vact.ir",
+            "server_port": 2083,
+            "uuid": "63f4f2b2-b9de-4a27-beb6-ca478bc3e3f9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cdn77.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "djRaMcDJDRJywTzoexhKfnoPjHCYQK3gpn3ph2R3dDk",
+                    "short_id": "906d"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
