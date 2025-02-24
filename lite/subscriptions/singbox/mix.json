@@ -110,7 +110,7 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 26",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 9",
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
-                "🇩🇪DE | 🔴 | vless | @VlessConfig | 18",
+                "🇫🇷FR | 🔴 | vless | @VlessConfig | 18",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 19",
                 "🇩🇪DE | 🟢 | vless | @ipV2Ray | 12",
                 "🇩🇪DE | 🟢 | vless | @ipV2Ray | 13",
@@ -132,9 +132,9 @@
                 "🇩🇪DE | 🔴 | vless | @azadi_az_inja_migzare | 13",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 18",
-                "🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 19",
+                "🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 19",
                 "🇫🇷FR | 🟢 | trojan | @DirectVPN | 18",
-                "🇸🇪SE | 🟢 | trojan | @DirectVPN | 19",
+                "🇫🇷FR | 🟢 | trojan | @DirectVPN | 19",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
                 "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 18",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 150",
@@ -188,7 +188,7 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 26",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 9",
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
-                "🇩🇪DE | 🔴 | vless | @VlessConfig | 18",
+                "🇫🇷FR | 🔴 | vless | @VlessConfig | 18",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 19",
                 "🇩🇪DE | 🟢 | vless | @ipV2Ray | 12",
                 "🇩🇪DE | 🟢 | vless | @ipV2Ray | 13",
@@ -210,9 +210,9 @@
                 "🇩🇪DE | 🔴 | vless | @azadi_az_inja_migzare | 13",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 18",
-                "🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 19",
+                "🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 19",
                 "🇫🇷FR | 🟢 | trojan | @DirectVPN | 18",
-                "🇸🇪SE | 🟢 | trojan | @DirectVPN | 19",
+                "🇫🇷FR | 🟢 | trojan | @DirectVPN | 19",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
                 "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 18",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 150",
@@ -368,9 +368,9 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @VlessConfig | 18",
+            "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "63.176.201.223",
+            "server": "13.37.5.101",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -401,7 +401,7 @@
         {
             "tag": "🇩🇪DE | 🔴 | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "3.72.24.109",
+            "server": "63.176.201.223",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -888,7 +888,7 @@
         {
             "tag": "🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 18",
             "type": "trojan",
-            "server": "13.39.3.86",
+            "server": "13.36.124.133",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -908,9 +908,9 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 19",
+            "tag": "🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "52.58.199.163",
+            "server": "13.39.3.86",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -932,7 +932,7 @@
         {
             "tag": "🇫🇷FR | 🟢 | trojan | @DirectVPN | 18",
             "type": "trojan",
-            "server": "13.39.211.90",
+            "server": "52.47.189.22",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -952,9 +952,9 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🟢 | trojan | @DirectVPN | 19",
+            "tag": "🇫🇷FR | 🟢 | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "16.170.187.251",
+            "server": "13.39.211.90",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
