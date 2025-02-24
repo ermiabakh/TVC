@@ -120,9 +120,9 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇩🇪DE | 🟢 | vmess | @DeamNet_Proxy | 0",
                 "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 2",
+                "🚩CF | 🟢 | vmess | @prrofile_purple | 118",
                 "🇺🇸US | 🟢 | vmess | @prrofile_purple | 121",
                 "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 1",
-                "🚩CF | 🟢 | vmess | @v2ray1_ng | 3",
                 "🚩CF | 🟢 | vmess | @v2ray1_ng | 6",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
@@ -153,9 +153,9 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇩🇪DE | 🟢 | vmess | @DeamNet_Proxy | 0",
                 "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 2",
+                "🚩CF | 🟢 | vmess | @prrofile_purple | 118",
                 "🇺🇸US | 🟢 | vmess | @prrofile_purple | 121",
                 "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 1",
-                "🚩CF | 🟢 | vmess | @v2ray1_ng | 3",
                 "🚩CF | 🟢 | vmess | @v2ray1_ng | 6",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
@@ -426,6 +426,23 @@
             }
         },
         {
+            "tag": "🚩CF | 🟢 | vmess | @prrofile_purple | 118",
+            "type": "vmess",
+            "server": "104.19.150.10",
+            "server_port": 2095,
+            "uuid": "94f332b0-c5d3-4531-a1d6-6e6358cc6c72",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇺🇸US | 🟢 | vmess | @prrofile_purple | 121",
             "type": "vmess",
             "server": "WwW.sPEeDtEsT.NeT",
@@ -491,23 +508,6 @@
                 "headers": {
                     "Host": "qurantv.quranir.com"
                 }
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vmess | @v2ray1_ng | 3",
-            "type": "vmess",
-            "server": "104.19.150.10",
-            "server_port": 2095,
-            "uuid": "94f332b0-c5d3-4531-a1d6-6e6358cc6c72",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
