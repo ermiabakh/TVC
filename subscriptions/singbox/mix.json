@@ -233,7 +233,7 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 2",
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 15",
-                "🇮🇷IR | 🔴 | trojan | @V2rayCollectorDonate | 17",
+                "❔XX | 🔴 | trojan | @V2rayCollectorDonate | 17",
                 "🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 0",
                 "🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 1",
                 "🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 2",
@@ -440,7 +440,7 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 310",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 311",
                 "🇸🇪SE | 🔴 | vless | @DailyV2RY | 312",
-                "🇬🇧GB | 🔴 | vless | @DailyV2RY | 313",
+                "❔XX | 🔴 | vless | @DailyV2RY | 313",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -452,7 +452,6 @@
                 "🇬🇧GB | 🟢 | vmess | @Hope_Net | 1",
                 "❔XX | 🟢 | vmess | @Hope_Net | 2",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 6",
                 "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇩🇪DE | 🟢 | vless | @FreakConfig | 0",
                 "❔XX | 🟢 | vless | @FreakConfig | 1",
@@ -652,7 +651,7 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 2",
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 15",
-                "🇮🇷IR | 🔴 | trojan | @V2rayCollectorDonate | 17",
+                "❔XX | 🔴 | trojan | @V2rayCollectorDonate | 17",
                 "🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 0",
                 "🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 1",
                 "🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 2",
@@ -859,7 +858,7 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 310",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 311",
                 "🇸🇪SE | 🔴 | vless | @DailyV2RY | 312",
-                "🇬🇧GB | 🔴 | vless | @DailyV2RY | 313",
+                "❔XX | 🔴 | vless | @DailyV2RY | 313",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -871,7 +870,6 @@
                 "🇬🇧GB | 🟢 | vmess | @Hope_Net | 1",
                 "❔XX | 🟢 | vmess | @Hope_Net | 2",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 6",
                 "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇩🇪DE | 🟢 | vless | @FreakConfig | 0",
                 "❔XX | 🟢 | vless | @FreakConfig | 1",
@@ -4132,7 +4130,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | trojan | @V2rayCollectorDonate | 17",
+            "tag": "❔XX | 🔴 | trojan | @V2rayCollectorDonate | 17",
             "type": "trojan",
             "server": "server2.cactusrobot.ir",
             "server_port": 8608,
@@ -9051,7 +9049,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | @DailyV2RY | 313",
+            "tag": "❔XX | 🔴 | vless | @DailyV2RY | 313",
             "type": "vless",
             "server": "v05.zerotransgold.ir",
             "server_port": 2096,
@@ -9362,23 +9360,6 @@
                 "headers": {
                     "Host": "www.61974602.xyz"
                 }
-            }
-        },
-        {
-            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 6",
-            "type": "vmess",
-            "server": "112.132.212.19",
-            "server_port": 50004,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
