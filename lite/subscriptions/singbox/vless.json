@@ -110,8 +110,8 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 31",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 9",
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
+                "🇮🇪IE | 🔴 | vless | @VlessConfig | 16",
                 "🇬🇧GB | 🔴 | vless | @VlessConfig | 17",
-                "🇫🇷FR | 🔴 | vless | @VlessConfig | 18",
                 "🇩🇪DE | 🟢 | vless | @ipV2Ray | 12",
                 "🇩🇪DE | 🟢 | vless | @ipV2Ray | 13",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 7",
@@ -148,8 +148,8 @@
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 2",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 3",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 11",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 310",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 311",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 313",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 314",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 3",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 4",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 13",
@@ -177,8 +177,8 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 31",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 9",
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
+                "🇮🇪IE | 🔴 | vless | @VlessConfig | 16",
                 "🇬🇧GB | 🔴 | vless | @VlessConfig | 17",
-                "🇫🇷FR | 🔴 | vless | @VlessConfig | 18",
                 "🇩🇪DE | 🟢 | vless | @ipV2Ray | 12",
                 "🇩🇪DE | 🟢 | vless | @ipV2Ray | 13",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 7",
@@ -215,8 +215,8 @@
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 2",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 3",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 11",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 310",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 311",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 313",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 314",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 3",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 4",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 13",
@@ -346,9 +346,9 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | @VlessConfig | 17",
+            "tag": "🇮🇪IE | 🔴 | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "13.42.214.144",
+            "server": "54.72.213.89",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -377,9 +377,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 18",
+            "tag": "🇬🇧GB | 🔴 | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "52.47.113.2",
+            "server": "18.135.202.79",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1304,7 +1304,38 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 310",
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 313",
+            "type": "vless",
+            "server": "whatismyipaddress.com",
+            "server_port": 2087,
+            "uuid": "3dc9015f-20cb-42d6-adab-55ce831bae61",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "efeym.accra-mirortool.info",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/morano",
+                "headers": {
+                    "Host": "efeym.accra-mirortool.info"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 314",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 2087,
@@ -1331,37 +1362,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "hq4.NewRetr432AS.info"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 311",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2087,
-            "uuid": "31a27ed1-2ec6-4ab5-95b6-3e213e59e0a9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "tp94550UuI.NeWDoM-didI2.InfO",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "tp94550UuI.NeWDoM-didI2.InfO"
                 }
             }
         },
