@@ -123,8 +123,10 @@
                 "🇷🇺RU | 🟢 | vmess | @DeamNet_Proxy | 3",
                 "🇩🇪DE | 🟢 | vmess | @DeamNet_Proxy | 4",
                 "🇷🇺RU | 🟢 | vmess | @DeamNet_Proxy | 8",
-                "🚩CF | 🟢 | vmess | @prrofile_purple | 146",
-                "❔XX | 🟢 | vmess | @customv2ray | 5",
+                "🇺🇸US | 🟢 | vmess | @prrofile_purple | 121",
+                "🚩CF | 🟢 | vmess | @prrofile_purple | 126",
+                "🚩CF | 🟢 | vmess | @prrofile_purple | 154",
+                "❔XX | 🟢 | vmess | @customv2ray | 13",
                 "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 12",
                 "🇺🇸US | 🟢 | vmess | @DailyV2RY | 342",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
@@ -164,8 +166,10 @@
                 "🇷🇺RU | 🟢 | vmess | @DeamNet_Proxy | 3",
                 "🇩🇪DE | 🟢 | vmess | @DeamNet_Proxy | 4",
                 "🇷🇺RU | 🟢 | vmess | @DeamNet_Proxy | 8",
-                "🚩CF | 🟢 | vmess | @prrofile_purple | 146",
-                "❔XX | 🟢 | vmess | @customv2ray | 5",
+                "🇺🇸US | 🟢 | vmess | @prrofile_purple | 121",
+                "🚩CF | 🟢 | vmess | @prrofile_purple | 126",
+                "🚩CF | 🟢 | vmess | @prrofile_purple | 154",
+                "❔XX | 🟢 | vmess | @customv2ray | 13",
                 "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 12",
                 "🇺🇸US | 🟢 | vmess | @DailyV2RY | 342",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
@@ -551,7 +555,31 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @prrofile_purple | 146",
+            "tag": "🇺🇸US | 🟢 | vmess | @prrofile_purple | 121",
+            "type": "vmess",
+            "server": "biiia-vpn-whal.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "id14---vpn-whal",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=2056\/#id-telegram:--->@vpn_whal<---",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🟢 | vmess | @prrofile_purple | 126",
             "type": "vmess",
             "server": "104.19.150.10",
             "server_port": 2095,
@@ -568,7 +596,24 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @customv2ray | 5",
+            "tag": "🚩CF | 🟢 | vmess | @prrofile_purple | 154",
+            "type": "vmess",
+            "server": "104.19.150.10",
+            "server_port": 2095,
+            "uuid": "94f332b0-c5d3-4531-a1d6-6e6358cc6c72",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @customv2ray | 13",
             "type": "vmess",
             "server": "[0000:0000:0000:0000:0000:ffff:33de:cdfc]",
             "server_port": 2082,
