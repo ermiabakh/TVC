@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | 🔴 | vless | @Parsashonam | 10",
+                "🇩🇪DE | 🔴 | vless | @Parsashonam | 12",
                 "🇩🇪DE | 🟢 | vless | @ipV2Ray | 0",
                 "🇩🇪DE | 🟢 | vless | @ipV2Ray | 1",
                 "🇩🇪DE | 🔴 | vless | @ipV2Ray | 2",
@@ -133,13 +133,13 @@
                 "🇺🇸US | 🟢 | vless | @vless_vmess | 3",
                 "🇩🇪DE | 🔴 | vless | @MTConfig | 4",
                 "🇸🇬SG | 🟢 | vless | @VmessProtocol | 10",
-                "🇫🇷FR | 🟢 | vless | @DailyV2RY | 345",
-                "🇫🇷FR | 🟢 | vless | @DailyV2RY | 346",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 361",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 362",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 355",
+                "🇬🇧GB | 🟢 | vless | @DailyV2RY | 356",
+                "🇫🇷FR | 🟢 | vless | @DailyV2RY | 371",
+                "🇫🇷FR | 🟢 | vless | @DailyV2RY | 372",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 5",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 6",
-                "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 2",
+                "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 3",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 0",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 3",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 5",
@@ -176,7 +176,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | 🔴 | vless | @Parsashonam | 10",
+                "🇩🇪DE | 🔴 | vless | @Parsashonam | 12",
                 "🇩🇪DE | 🟢 | vless | @ipV2Ray | 0",
                 "🇩🇪DE | 🟢 | vless | @ipV2Ray | 1",
                 "🇩🇪DE | 🔴 | vless | @ipV2Ray | 2",
@@ -203,13 +203,13 @@
                 "🇺🇸US | 🟢 | vless | @vless_vmess | 3",
                 "🇩🇪DE | 🔴 | vless | @MTConfig | 4",
                 "🇸🇬SG | 🟢 | vless | @VmessProtocol | 10",
-                "🇫🇷FR | 🟢 | vless | @DailyV2RY | 345",
-                "🇫🇷FR | 🟢 | vless | @DailyV2RY | 346",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 361",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 362",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 355",
+                "🇬🇧GB | 🟢 | vless | @DailyV2RY | 356",
+                "🇫🇷FR | 🟢 | vless | @DailyV2RY | 371",
+                "🇫🇷FR | 🟢 | vless | @DailyV2RY | 372",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 5",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 6",
-                "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 2",
+                "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 3",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 0",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 3",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 5",
@@ -262,7 +262,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @Parsashonam | 10",
+            "tag": "🇩🇪DE | 🔴 | vless | @Parsashonam | 12",
             "type": "vless",
             "server": "188.245.242.132",
             "server_port": 443,
@@ -1185,7 +1185,65 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | vless | @DailyV2RY | 345",
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 355",
+            "type": "vless",
+            "server": "18.222.22.117",
+            "server_port": 8443,
+            "uuid": "73c732f2-d435-4197-9f33-0d7c1f47d3a9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "zula.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | 🟢 | vless | @DailyV2RY | 356",
+            "type": "vless",
+            "server": "18.170.1.14",
+            "server_port": 8443,
+            "uuid": "73c732f2-d435-4197-9f33-0d7c1f47d3a9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "zula.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷FR | 🟢 | vless | @DailyV2RY | 371",
             "type": "vless",
             "server": "15.237.182.111",
             "server_port": 8443,
@@ -1214,67 +1272,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | vless | @DailyV2RY | 346",
+            "tag": "🇫🇷FR | 🟢 | vless | @DailyV2RY | 372",
             "type": "vless",
             "server": "13.38.47.25",
-            "server_port": 8443,
-            "uuid": "73c732f2-d435-4197-9f33-0d7c1f47d3a9",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "zula.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 361",
-            "type": "vless",
-            "server": "3.147.55.179",
-            "server_port": 8443,
-            "uuid": "73c732f2-d435-4197-9f33-0d7c1f47d3a9",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "zula.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 362",
-            "type": "vless",
-            "server": "3.143.17.81",
             "server_port": 8443,
             "uuid": "73c732f2-d435-4197-9f33-0d7c1f47d3a9",
             "flow": "xtls-rprx-vision",
@@ -1366,7 +1366,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 2",
+            "tag": "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 3",
             "type": "vless",
             "server": "mehdi.vact.ir",
             "server_port": 443,
