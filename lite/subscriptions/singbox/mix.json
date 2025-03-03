@@ -131,15 +131,16 @@
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 18",
-                "🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 17",
+                "🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 17",
                 "🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 18",
-                "🇸🇪SE | 🟢 | trojan | @DirectVPN | 17",
+                "🇫🇷FR | 🟢 | trojan | @DirectVPN | 17",
                 "🇸🇪SE | 🟢 | trojan | @DirectVPN | 18",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
-                "🇹🇷TR | 🟢 | ss | @DeamNet_Proxy | 19",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 158",
-                "🇩🇪DE | 🔴 | vless | @prrofile_purple | 159",
+                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 18",
+                "🇨🇳CN | 🟢 | vmess | @DeamNet_Proxy | 19",
+                "🇺🇸US | 🔴 | vless | @prrofile_purple | 150",
+                "🇺🇸US | 🔴 | vless | @prrofile_purple | 151",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 12",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
@@ -215,15 +216,16 @@
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 18",
-                "🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 17",
+                "🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 17",
                 "🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 18",
-                "🇸🇪SE | 🟢 | trojan | @DirectVPN | 17",
+                "🇫🇷FR | 🟢 | trojan | @DirectVPN | 17",
                 "🇸🇪SE | 🟢 | trojan | @DirectVPN | 18",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
-                "🇹🇷TR | 🟢 | ss | @DeamNet_Proxy | 19",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 158",
-                "🇩🇪DE | 🔴 | vless | @prrofile_purple | 159",
+                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 18",
+                "🇨🇳CN | 🟢 | vmess | @DeamNet_Proxy | 19",
+                "🇺🇸US | 🔴 | vless | @prrofile_purple | 150",
+                "🇺🇸US | 🔴 | vless | @prrofile_purple | 151",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 12",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
@@ -905,9 +907,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 17",
+            "tag": "🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 17",
             "type": "trojan",
-            "server": "13.36.100.189",
+            "server": "18.169.169.38",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -929,7 +931,7 @@
         {
             "tag": "🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 18",
             "type": "trojan",
-            "server": "35.181.124.0",
+            "server": "13.36.100.189",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -949,9 +951,9 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🟢 | trojan | @DirectVPN | 17",
+            "tag": "🇫🇷FR | 🟢 | trojan | @DirectVPN | 17",
             "type": "trojan",
-            "server": "13.49.106.90",
+            "server": "51.44.27.123",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -973,7 +975,7 @@
         {
             "tag": "🇸🇪SE | 🟢 | trojan | @DirectVPN | 18",
             "type": "trojan",
-            "server": "13.61.63.251",
+            "server": "13.49.106.90",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1027,19 +1029,36 @@
             }
         },
         {
-            "tag": "🇹🇷TR | 🟢 | ss | @DeamNet_Proxy | 19",
+            "tag": "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 18",
             "type": "shadowsocks",
-            "server": "185.123.101.241",
-            "server_port": 990,
+            "server": "45.87.175.171",
+            "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
-            "password": "f8f7aCzcPKbsF8p3",
+            "password": "QCXDxuDlTTMD7jtgHUjIoj",
             "plugin": "",
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 158",
+            "tag": "🇨🇳CN | 🟢 | vmess | @DeamNet_Proxy | 19",
+            "type": "vmess",
+            "server": "112.132.215.12",
+            "server_port": 50002,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "security": "auto",
+            "alter_id": 64,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 150",
             "type": "vless",
-            "server": "104.26.14.85",
+            "server": "zula.ir",
             "server_port": 80,
             "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
             "flow": "",
@@ -1051,18 +1070,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=2560",
+                "path": "\/tmevpnAndroid2\/?ed=2560",
                 "headers": {
-                    "Host": "104.26.14.85"
+                    "Host": "zula.ir"
                 }
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @prrofile_purple | 159",
+            "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 151",
             "type": "vless",
-            "server": "tify-binex-join.espikernajafi.ir",
-            "server_port": 2053,
-            "uuid": "718676c7-7f52-48af-9b81-d8e13017aad8",
+            "server": "NUFiLTER.fastly80-3.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "TELEGRAM-NUFiLTER-7c3e03bb8c4c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1072,9 +1091,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY?ed=2560",
+                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=8080",
                 "headers": {
-                    "Host": "tify-binex-join.espikernajafi.ir"
+                    "Host": "NUFiLTER.fastly80-3.hosting-ip.com"
                 }
             }
         },
