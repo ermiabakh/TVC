@@ -106,8 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "❔XX | 🟢 | vless | @ipV2Ray | 12",
-                "❔XX | 🟢 | vless | @ipV2Ray | 13",
+                "❔XX | 🔴 | vless | @ipV2Ray | 12",
+                "❔XX | 🔴 | vless | @ipV2Ray | 13",
                 "🇩🇪DE | 🟢 | vless | @vpn_xw | 0",
                 "🇺🇸US | 🟢 | vless | @vpn_xw | 1",
                 "🇫🇮FI | 🟢 | vless | @Outlinev2rayNG | 12",
@@ -121,8 +121,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "❔XX | 🟢 | vless | @ipV2Ray | 12",
-                "❔XX | 🟢 | vless | @ipV2Ray | 13",
+                "❔XX | 🔴 | vless | @ipV2Ray | 12",
+                "❔XX | 🔴 | vless | @ipV2Ray | 13",
                 "🇩🇪DE | 🟢 | vless | @vpn_xw | 0",
                 "🇺🇸US | 🟢 | vless | @vpn_xw | 1",
                 "🇫🇮FI | 🟢 | vless | @Outlinev2rayNG | 12",
@@ -152,11 +152,11 @@
             "type": "dns"
         },
         {
-            "tag": "❔XX | 🟢 | vless | @ipV2Ray | 12",
+            "tag": "❔XX | 🔴 | vless | @ipV2Ray | 12",
             "type": "vless",
             "server": "c2.vact.ir",
             "server_port": 443,
-            "uuid": "a838f5be-b2a5-4520-89cd-2d615af9e2f5",
+            "uuid": "0f0b4653-cbad-47f9-ae69-29a15659c40a",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -175,8 +175,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "gmfZyQtoXXrck45kkXm_vO3TlB0CcDNvkLkd3-HAfFA",
-                    "short_id": "b542ac"
+                    "public_key": "1CpRSEFve_IetBB49fV4b8qN_UnyKqbNOr_tGSmXpQ8",
+                    "short_id": "55140942"
                 }
             },
             "transport": {
@@ -188,11 +188,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @ipV2Ray | 13",
+            "tag": "❔XX | 🔴 | vless | @ipV2Ray | 13",
             "type": "vless",
             "server": "c1.vact.ir",
             "server_port": 443,
-            "uuid": "3dbc0c83-8439-4838-abdb-6fd7e61df13e",
+            "uuid": "ab943001-d1c1-484d-931c-fcbd3d1e80fa",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -211,8 +211,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "BDsBcQ0GzxU-pGwN0H6zRVIbOhdL5dJy7cUd44xnayI",
-                    "short_id": "dfb4dc18a1"
+                    "public_key": "k3RvLyFbObwUNc1ieWkDjdpszZ8dPp8VVw2A7JG1K1U",
+                    "short_id": "a604e123"
                 }
             },
             "transport": {
