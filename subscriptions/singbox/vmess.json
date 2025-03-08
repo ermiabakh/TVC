@@ -128,6 +128,7 @@
                 "🇫🇷FR | 🟢 | vmess | @DeamNet_Proxy | 10",
                 "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 14",
                 "🇸🇪SE | 🟢 | vmess | @prrofile_purple | 135",
+                "🇺🇸US | 🟢 | vmess | @prrofile_purple | 146",
                 "🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 0",
                 "🇸🇬SG | 🟢 | vmess | @DailyV2RY | 289",
                 "🇲🇾MY | 🟢 | vmess | @DailyV2RY | 304",
@@ -142,8 +143,7 @@
                 "❔XX | 🟢 | vmess | @Hope_Net | 3",
                 "❔XX | 🟢 | vmess | @Hope_Net | 4",
                 "❔XX | 🟢 | vmess | @Hope_Net | 5",
-                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 6",
-                "❔XX | 🟢 | vmess | @Hope_Net | 7"
+                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 6"
             ]
         },
         {
@@ -172,6 +172,7 @@
                 "🇫🇷FR | 🟢 | vmess | @DeamNet_Proxy | 10",
                 "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 14",
                 "🇸🇪SE | 🟢 | vmess | @prrofile_purple | 135",
+                "🇺🇸US | 🟢 | vmess | @prrofile_purple | 146",
                 "🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 0",
                 "🇸🇬SG | 🟢 | vmess | @DailyV2RY | 289",
                 "🇲🇾MY | 🟢 | vmess | @DailyV2RY | 304",
@@ -186,8 +187,7 @@
                 "❔XX | 🟢 | vmess | @Hope_Net | 3",
                 "❔XX | 🟢 | vmess | @Hope_Net | 4",
                 "❔XX | 🟢 | vmess | @Hope_Net | 5",
-                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 6",
-                "❔XX | 🟢 | vmess | @Hope_Net | 7"
+                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 6"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -703,6 +703,30 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🟢 | vmess | @prrofile_purple | 146",
+            "type": "vmess",
+            "server": "AC.fastly80-2.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "6e3ac406-a15b-461d-8b05-ca01b284d9a0",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/racevpn",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
             "tag": "🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 0",
             "type": "vmess",
             "server": "51.77.20.131",
@@ -1071,23 +1095,6 @@
                 "headers": {
                     "Host": "0000000000000000000000000076.cgroup-node-for-bigairport.sbs"
                 }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 7",
-            "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 2080,
-            "uuid": "cbacbaa-abac-baac-dbac-abaacccbcbab",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         }
     ],
