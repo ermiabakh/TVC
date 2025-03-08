@@ -151,8 +151,7 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 2",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 3",
-                "❔XX | 🔴 | vless | @VmessProtocol | 16",
-                "🇺🇸US | 🔴 | vless | @VmessProtocol | 17",
+                "❔XX | 🔴 | vless | @VmessProtocol | 15",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 319",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 320",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 9",
@@ -224,8 +223,7 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 2",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 3",
-                "❔XX | 🔴 | vless | @VmessProtocol | 16",
-                "🇺🇸US | 🔴 | vless | @VmessProtocol | 17",
+                "❔XX | 🔴 | vless | @VmessProtocol | 15",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 319",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 320",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 9",
@@ -1394,7 +1392,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @VmessProtocol | 16",
+            "tag": "❔XX | 🔴 | vless | @VmessProtocol | 15",
             "type": "vless",
             "server": "sev4-basic.gilandashog.com",
             "server_port": 2083,
@@ -1405,27 +1403,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @VmessProtocol | 17",
-            "type": "vless",
-            "server": "104.20.129.2",
-            "server_port": 80,
-            "uuid": "e497da22-d020-40fb-a1fa-bc294066a2d2",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=2560",
-                "headers": {
-                    "Host": "104.20.129.2"
-                }
             }
         },
         {
