@@ -302,7 +302,7 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 13",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 14",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 16",
-                "🇺🇸US | 🔴 | vless | @v2ray_swhil | 17",
+                "🇨🇦CA | 🔴 | vless | @v2ray_swhil | 17",
                 "🚩CF | 🔴 | vless | @v2ray_swhil | 18",
                 "🚩CF | 🔴 | vless | @v2ray_swhil | 19",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 20",
@@ -373,7 +373,6 @@
                 "❔XX | 🔴 | vless | @VmessProtocol | 5",
                 "🇦🇪AE | 🔴 | vless | @VmessProtocol | 6",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 11",
-                "❔XX | 🔴 | vless | @VmessProtocol | 15",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 278",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 279",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 280",
@@ -692,7 +691,7 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 13",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 14",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 16",
-                "🇺🇸US | 🔴 | vless | @v2ray_swhil | 17",
+                "🇨🇦CA | 🔴 | vless | @v2ray_swhil | 17",
                 "🚩CF | 🔴 | vless | @v2ray_swhil | 18",
                 "🚩CF | 🔴 | vless | @v2ray_swhil | 19",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 20",
@@ -763,7 +762,6 @@
                 "❔XX | 🔴 | vless | @VmessProtocol | 5",
                 "🇦🇪AE | 🔴 | vless | @VmessProtocol | 6",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 11",
-                "❔XX | 🔴 | vless | @VmessProtocol | 15",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 278",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 279",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 280",
@@ -5506,7 +5504,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @v2ray_swhil | 17",
+            "tag": "🇨🇦CA | 🔴 | vless | @v2ray_swhil | 17",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8443,
@@ -7381,20 +7379,6 @@
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @VmessProtocol | 15",
-            "type": "vless",
-            "server": "sev4-basic.gilandashog.com",
-            "server_port": 2083,
-            "uuid": "7469b758-e05e-477b-b66c-da51ad913eab",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
