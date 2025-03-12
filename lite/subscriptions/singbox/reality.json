@@ -109,8 +109,7 @@
                 "❔XX | 🟢 | vless | @ipV2Ray | 12",
                 "❔XX | 🟢 | vless | @ipV2Ray | 13",
                 "🇩🇪DE | 🟢 | vless | @vpn_xw | 1",
-                "🇫🇷FR | 🟢 | vless | @DailyV2RY | 379",
-                "🇮🇪IE | 🟢 | vless | @DailyV2RY | 380",
+                "🇫🇷FR | 🟢 | vless | @DailyV2RY | 361",
                 "❔XX | 🟢 | vless | @free1_vpn | 5",
                 "❔XX | 🔴 | vless | @flyv2ray | 13",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -125,8 +124,7 @@
                 "❔XX | 🟢 | vless | @ipV2Ray | 12",
                 "❔XX | 🟢 | vless | @ipV2Ray | 13",
                 "🇩🇪DE | 🟢 | vless | @vpn_xw | 1",
-                "🇫🇷FR | 🟢 | vless | @DailyV2RY | 379",
-                "🇮🇪IE | 🟢 | vless | @DailyV2RY | 380",
+                "🇫🇷FR | 🟢 | vless | @DailyV2RY | 361",
                 "❔XX | 🟢 | vless | @free1_vpn | 5",
                 "❔XX | 🔴 | vless | @flyv2ray | 13",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -255,38 +253,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | vless | @DailyV2RY | 379",
+            "tag": "🇫🇷FR | 🟢 | vless | @DailyV2RY | 361",
             "type": "vless",
-            "server": "13.38.45.40",
-            "server_port": 8443,
-            "uuid": "73c732f2-d435-4197-9f33-0d7c1f47d3a9",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "zula.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇮🇪IE | 🟢 | vless | @DailyV2RY | 380",
-            "type": "vless",
-            "server": "108.129.182.155",
+            "server": "13.38.72.179",
             "server_port": 8443,
             "uuid": "73c732f2-d435-4197-9f33-0d7c1f47d3a9",
             "flow": "xtls-rprx-vision",
