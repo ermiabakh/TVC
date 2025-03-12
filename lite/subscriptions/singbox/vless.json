@@ -129,7 +129,7 @@
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 0",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 1",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
-                "🇨🇦CA | 🔴 | vless | @v2logy | 10",
+                "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇩🇪DE | 🔴 | vless | @prrofile_purple | 158",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 159",
@@ -161,6 +161,7 @@
                 "❔XX | 🟢 | vless | @FreakConfig | 15",
                 "❔XX | 🔴 | vless | @flyv2ray | 13",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 14",
+                "❔XX | 🟢 | vless | @nofiltering2 | 9",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇺🇸US | 🔴 | vless | @kingofilter | 9",
@@ -198,7 +199,7 @@
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 0",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 1",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
-                "🇨🇦CA | 🔴 | vless | @v2logy | 10",
+                "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇩🇪DE | 🔴 | vless | @prrofile_purple | 158",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 159",
@@ -230,6 +231,7 @@
                 "❔XX | 🟢 | vless | @FreakConfig | 15",
                 "❔XX | 🔴 | vless | @flyv2ray | 13",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 14",
+                "❔XX | 🟢 | vless | @nofiltering2 | 9",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇺🇸US | 🔴 | vless | @kingofilter | 9",
@@ -817,7 +819,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @v2logy | 10",
+            "tag": "🇺🇸US | 🔴 | vless | @v2logy | 10",
             "type": "vless",
             "server": "ArV2ray.mAshtimji.IR",
             "server_port": 443,
@@ -1629,6 +1631,30 @@
                 "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=8080",
                 "headers": {
                     "Host": "NUFiLTER.fastly80-3.hosting-ip.com"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @nofiltering2 | 9",
+            "type": "vless",
+            "server": "FreakconfigS31.usecharge.ir",
+            "server_port": 443,
+            "uuid": "9e55e24c-8de9-4357-8a37-9cf1212c6491",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mods.lnmarketplace.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
