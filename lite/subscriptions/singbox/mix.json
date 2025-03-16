@@ -163,8 +163,8 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 324",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🔴 | vless | @free1_vpn | 3",
-                "❔XX | 🟢 | vmess | @Hope_Net | 7",
+                "🇺🇸US | 🔴 | vless | @free1_vpn | 1",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
                 "❔XX | 🟢 | vmess | @Hope_Net | 8",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 2",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 3",
@@ -246,8 +246,8 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 324",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🔴 | vless | @free1_vpn | 3",
-                "❔XX | 🟢 | vmess | @Hope_Net | 7",
+                "🇺🇸US | 🔴 | vless | @free1_vpn | 1",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
                 "❔XX | 🟢 | vmess | @Hope_Net | 8",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 2",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 3",
@@ -1671,11 +1671,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @free1_vpn | 3",
+            "tag": "🇺🇸US | 🔴 | vless | @free1_vpn | 1",
             "type": "vless",
             "server": "151.101.64.155",
             "server_port": 80,
-            "uuid": "f606c76f-38e7-44e7-8242-f4c9eed7c39d",
+            "uuid": "d40d85de-1131-4c4f-b6c0-4e0b67efac1a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1692,11 +1692,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 7",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "bcbaaac-cbaa-aacb-acdb-caaabcbcabcb",
+            "server": "35.88.57.61",
+            "server_port": 11443,
+            "uuid": "3519dfc0-fa27-41cc-8c19-981818f9f6d5",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1706,6 +1706,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tls.01.node-for-bigairport.win",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "tls.01.node-for-bigairport.win"
+                }
             }
         },
         {
@@ -1713,7 +1730,7 @@
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 1080,
-            "uuid": "cbaabac-aabc-abac-bdca-aacbbaccbcba",
+            "uuid": "bcbaaac-cbaa-aacb-acdb-caaabcbcabcb",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
