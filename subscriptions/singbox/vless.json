@@ -341,7 +341,6 @@
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 4",
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 5",
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 6",
-                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 8",
                 "🚩CF | 🔴 | vless | @vless_vmess | 0",
                 "🚩CF | 🔴 | vless | @vless_vmess | 1",
                 "🇬🇧GB | 🟢 | vless | @vless_vmess | 2",
@@ -419,13 +418,14 @@
                 "🇸🇪SE | 🔴 | vless | @Outlinev2rayNG | 2",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 10",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 11",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 13",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 14",
                 "❔XX | 🟢 | vless | @FreakConfig | 7",
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 8",
-                "🇩🇪DE | 🔴 | vless | @FreakConfig | 10",
+                "❔XX | 🔴 | vless | @FreakConfig | 10",
                 "❔XX | 🟢 | vless | @FreakConfig | 11",
                 "❔XX | 🟢 | vless | @FreakConfig | 12",
                 "❔XX | 🟢 | vless | @FreakConfig | 13",
@@ -727,7 +727,6 @@
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 4",
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 5",
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 6",
-                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 8",
                 "🚩CF | 🔴 | vless | @vless_vmess | 0",
                 "🚩CF | 🔴 | vless | @vless_vmess | 1",
                 "🇬🇧GB | 🟢 | vless | @vless_vmess | 2",
@@ -805,13 +804,14 @@
                 "🇸🇪SE | 🔴 | vless | @Outlinev2rayNG | 2",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 10",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 11",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 13",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 14",
                 "❔XX | 🟢 | vless | @FreakConfig | 7",
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 8",
-                "🇩🇪DE | 🔴 | vless | @FreakConfig | 10",
+                "❔XX | 🔴 | vless | @FreakConfig | 10",
                 "❔XX | 🟢 | vless | @FreakConfig | 11",
                 "❔XX | 🟢 | vless | @FreakConfig | 12",
                 "❔XX | 🟢 | vless | @FreakConfig | 13",
@@ -6564,27 +6564,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @v2ray1_ng | 8",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/MTMVPN\/?ed=2560",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                }
-            }
-        },
-        {
             "tag": "🚩CF | 🔴 | vless | @vless_vmess | 0",
             "type": "vless",
             "server": "104.16.128.22",
@@ -8561,6 +8540,27 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/MTMVPN\/?ed=2560",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
             "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 10",
             "type": "vless",
             "server": "104.21.56.44",
@@ -8693,7 +8693,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @FreakConfig | 10",
+            "tag": "❔XX | 🔴 | vless | @FreakConfig | 10",
             "type": "vless",
             "server": "freakconfig-1.usecharge.ir",
             "server_port": 443,
