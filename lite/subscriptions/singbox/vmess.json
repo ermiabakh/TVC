@@ -113,7 +113,7 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 10",
-                "🇸🇬SG | 🟢 | vmess | @Hope_Net | 11"
+                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 11"
             ]
         },
         {
@@ -127,7 +127,7 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 10",
-                "🇸🇬SG | 🟢 | vmess | @Hope_Net | 11"
+                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 11"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -203,9 +203,9 @@
         {
             "tag": "🇨🇦CA | 🟢 | vmess | @DeamNet_Proxy | 18",
             "type": "vmess",
-            "server": "188.114.97.7",
+            "server": "188.114.96.3",
             "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -218,7 +218,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
+                "server_name": "ayanjlizi.yiwis32762.workers.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -228,9 +228,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/sgfqkqmltcy.site\/rbqqvws",
                 "headers": {
-                    "Host": "linde06.indiavideo.sbs"
+                    "Host": "ayanjlizi.yiwis32762.workers.dev"
                 }
             }
         },
@@ -296,8 +296,8 @@
             "tag": "❔XX | 🟢 | vmess | @Hope_Net | 10",
             "type": "vmess",
             "server": "127.0.0.1",
-            "server_port": 8080,
-            "uuid": "aacbbca-baca-abac-dcab-cbbabccbaaca",
+            "server_port": 1080,
+            "uuid": "acbaacb-aacb-acab-cdba-caabacabcbcb",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -310,11 +310,11 @@
             }
         },
         {
-            "tag": "🇸🇬SG | 🟢 | vmess | @Hope_Net | 11",
+            "tag": "🇭🇰HK | 🟢 | vmess | @Hope_Net | 11",
             "type": "vmess",
-            "server": "13.212.186.215",
-            "server_port": 40000,
-            "uuid": "13364789-a8b2-4bcd-8df7-a794fb6f87e5",
+            "server": "16.163.57.102",
+            "server_port": 42358,
+            "uuid": "3519dfc0-fa27-41cc-8c19-981818f9f6d5",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -325,11 +325,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "0000000000000000000000000076.cgroup-node-for-bigairport.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/bby",
+                "path": "\/",
                 "headers": {
-                    "Host": ""
+                    "Host": "0000000000000000000000000076.cgroup-node-for-bigairport.sbs"
                 }
             }
         }
