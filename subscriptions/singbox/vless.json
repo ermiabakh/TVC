@@ -340,7 +340,6 @@
                 "🚩CF | 🟢 | vless | @v2ray1_ng | 3",
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 7",
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 8",
-                "🚩CF | 🔴 | vless | @v2ray1_ng | 9",
                 "🚩CF | 🔴 | vless | @vless_vmess | 0",
                 "🚩CF | 🔴 | vless | @vless_vmess | 1",
                 "🇬🇧GB | 🟢 | vless | @vless_vmess | 2",
@@ -415,12 +414,12 @@
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 2",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 3",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 0",
-                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 3",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 1",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 4",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
-                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 7",
-                "🇸🇪SE | 🔴 | vless | @Outlinev2rayNG | 8",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
+                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 5",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
+                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 8",
+                "🇸🇪SE | 🔴 | vless | @FreakConfig | 1",
                 "❔XX | 🟢 | vless | @FreakConfig | 8",
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 9",
                 "❔XX | 🔴 | vless | @FreakConfig | 11",
@@ -469,6 +468,7 @@
                 "🚩CF | 🔴 | vless | @kingofilter | 4",
                 "🇺🇸US | 🔴 | vless | @kingofilter | 5",
                 "🚩CF | 🔴 | vless | @kingofilter | 7",
+                "🚩CF | 🔴 | vless | @kingofilter | 9",
                 "🇩🇪DE | 🔴 | vless | @SvnTeam | 0",
                 "🇩🇪DE | 🟢 | vless | @SvnTeam | 1",
                 "🇩🇪DE | 🟢 | vless | @SvnTeam | 2",
@@ -722,7 +722,6 @@
                 "🚩CF | 🟢 | vless | @v2ray1_ng | 3",
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 7",
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 8",
-                "🚩CF | 🔴 | vless | @v2ray1_ng | 9",
                 "🚩CF | 🔴 | vless | @vless_vmess | 0",
                 "🚩CF | 🔴 | vless | @vless_vmess | 1",
                 "🇬🇧GB | 🟢 | vless | @vless_vmess | 2",
@@ -797,12 +796,12 @@
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 2",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 3",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 0",
-                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 3",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 1",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 4",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
-                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 7",
-                "🇸🇪SE | 🔴 | vless | @Outlinev2rayNG | 8",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
+                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 5",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
+                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 8",
+                "🇸🇪SE | 🔴 | vless | @FreakConfig | 1",
                 "❔XX | 🟢 | vless | @FreakConfig | 8",
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 9",
                 "❔XX | 🔴 | vless | @FreakConfig | 11",
@@ -851,6 +850,7 @@
                 "🚩CF | 🔴 | vless | @kingofilter | 4",
                 "🇺🇸US | 🔴 | vless | @kingofilter | 5",
                 "🚩CF | 🔴 | vless | @kingofilter | 7",
+                "🚩CF | 🔴 | vless | @kingofilter | 9",
                 "🇩🇪DE | 🔴 | vless | @SvnTeam | 0",
                 "🇩🇪DE | 🟢 | vless | @SvnTeam | 1",
                 "🇩🇪DE | 🟢 | vless | @SvnTeam | 2",
@@ -6550,27 +6550,6 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @v2ray1_ng | 9",
-            "type": "vless",
-            "server": "188.114.97.155",
-            "server_port": 80,
-            "uuid": "7c9e3c1d-a360-4429-9189-e45a98de7fde",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram@V2ray_Alpha\/?ed=2560",
-                "headers": {
-                    "Host": "188.114.97.155"
-                }
-            }
-        },
-        {
             "tag": "🚩CF | 🔴 | vless | @vless_vmess | 0",
             "type": "vless",
             "server": "104.16.128.22",
@@ -8526,6 +8505,27 @@
             },
             "transport": {
                 "type": "ws",
+                "path": "\/Telegram@V2ray_Alpha\/?ed=2560",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 1",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
                 "path": "\/MTMVPN\/?ed=2560",
                 "headers": {
                     "Host": "www.speedtest.net"
@@ -8533,7 +8533,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 3",
+            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 4",
             "type": "vless",
             "server": "104.21.56.44",
             "server_port": 80,
@@ -8554,7 +8554,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 4",
+            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 5",
             "type": "vless",
             "server": "104.17.148.22",
             "server_port": 80,
@@ -8575,7 +8575,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
             "type": "vless",
             "server": "151.101.64.155",
             "server_port": 80,
@@ -8596,7 +8596,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 7",
+            "tag": "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 8",
             "type": "vless",
             "server": "whatismyipaddress.com",
             "server_port": 2096,
@@ -8627,7 +8627,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @Outlinev2rayNG | 8",
+            "tag": "🇸🇪SE | 🔴 | vless | @FreakConfig | 1",
             "type": "vless",
             "server": "185.146.173.37",
             "server_port": 2096,
@@ -8654,27 +8654,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "An66Mg2Gf4.MySpDmMeTi.CoM"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
-            "type": "vless",
-            "server": "tgju.org",
-            "server_port": 80,
-            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=2560",
-                "headers": {
-                    "Host": "tgju.org"
                 }
             }
         },
@@ -10035,6 +10014,27 @@
                 "path": "\/?ed=MARAMBASHI_MARAMBASHI\/?ed=2560",
                 "headers": {
                     "Host": "pHOTOgrApHipiCTureaI.IR"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🔴 | vless | @kingofilter | 9",
+            "type": "vless",
+            "server": "188.114.97.155",
+            "server_port": 80,
+            "uuid": "7c9e3c1d-a360-4429-9189-e45a98de7fde",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram@V2ray_Alpha\/?ed=2560",
+                "headers": {
+                    "Host": "188.114.97.155"
                 }
             }
         },
