@@ -131,6 +131,7 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 309",
                 "🇸🇪SE | 🟢 | vless | @DailyV2RY | 310",
                 "🇸🇪SE | 🟢 | vless | @DailyV2RY | 311",
+                "🇸🇪SE | 🟢 | vless | @DailyV2RY | 324",
                 "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 4",
                 "🇩🇪DE | 🔴 | vless | @proxy_mtm | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
@@ -186,6 +187,7 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 309",
                 "🇸🇪SE | 🟢 | vless | @DailyV2RY | 310",
                 "🇸🇪SE | 🟢 | vless | @DailyV2RY | 311",
+                "🇸🇪SE | 🟢 | vless | @DailyV2RY | 324",
                 "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 4",
                 "🇩🇪DE | 🔴 | vless | @proxy_mtm | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
@@ -987,6 +989,35 @@
             "tag": "🇸🇪SE | 🟢 | vless | @DailyV2RY | 311",
             "type": "vless",
             "server": "13.60.70.183",
+            "server_port": 8443,
+            "uuid": "73c732f2-d435-4197-9f33-0d7c1f47d3a9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "zula.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | 🟢 | vless | @DailyV2RY | 324",
+            "type": "vless",
+            "server": "13.53.145.27",
             "server_port": 8443,
             "uuid": "73c732f2-d435-4197-9f33-0d7c1f47d3a9",
             "flow": "xtls-rprx-vision",
