@@ -110,7 +110,7 @@
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 9",
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 16",
-                "🇩🇪DE | 🔴 | vless | @VlessConfig | 17",
+                "🇫🇷FR | 🔴 | vless | @VlessConfig | 17",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 16",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 17",
                 "🇵🇱PL | 🔴 | vless | @V2pedia | 8",
@@ -157,7 +157,7 @@
                 "🇩🇪DE | 🔴 | vless | @proxy_mtm | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "🇺🇸US | 🔴 | vless | @kingofilter | 9",
+                "🇨🇦CA | 🔴 | vless | @kingofilter | 11",
                 "🇺🇸US | 🔴 | vless | @SvnTeam | 9",
                 "🇩🇪DE | 🔴 | vless | @SvnTeam | 10",
                 "🇷🇺RU | 🔴 | vless | @V2FETCH | 0",
@@ -173,7 +173,7 @@
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 9",
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 16",
-                "🇩🇪DE | 🔴 | vless | @VlessConfig | 17",
+                "🇫🇷FR | 🔴 | vless | @VlessConfig | 17",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 16",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 17",
                 "🇵🇱PL | 🔴 | vless | @V2pedia | 8",
@@ -220,7 +220,7 @@
                 "🇩🇪DE | 🔴 | vless | @proxy_mtm | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "🇺🇸US | 🔴 | vless | @kingofilter | 9",
+                "🇨🇦CA | 🔴 | vless | @kingofilter | 11",
                 "🇺🇸US | 🔴 | vless | @SvnTeam | 9",
                 "🇩🇪DE | 🔴 | vless | @SvnTeam | 10",
                 "🇷🇺RU | 🔴 | vless | @V2FETCH | 0",
@@ -309,7 +309,7 @@
         {
             "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "51.44.100.160",
+            "server": "13.38.181.47",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -338,9 +338,9 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @VlessConfig | 17",
+            "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "18.195.86.154",
+            "server": "51.44.100.160",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1523,11 +1523,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @kingofilter | 9",
+            "tag": "🇨🇦CA | 🔴 | vless | @kingofilter | 11",
             "type": "vless",
-            "server": "104.21.96.1",
-            "server_port": 443,
-            "uuid": "f6bd2c47-99da-4bca-bf70-7186aa9e7e06",
+            "server": "188.114.97.155",
+            "server_port": 80,
+            "uuid": "7c9e3c1d-a360-4429-9189-e45a98de7fde",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1535,21 +1535,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "pHOTOgrApHipiCTureaI.IR",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=MARAMBASHI_MARAMBASHI\/?ed=2560",
+                "path": "\/Telegram@V2ray_Alpha\/?ed=2560",
                 "headers": {
-                    "Host": "pHOTOgrApHipiCTureaI.IR"
+                    "Host": "188.114.97.155"
                 }
             }
         },
