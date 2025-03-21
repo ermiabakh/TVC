@@ -131,6 +131,7 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 254",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 255",
                 "🇮🇪IE | 🟢 | vless | @DailyV2RY | 262",
+                "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 0",
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 0",
                 "🇩🇪DE | 🟢 | vless | @nofiltering2 | 1",
                 "🇩🇪DE | 🔴 | vless | @proxy_mtm | 0",
@@ -189,6 +190,7 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 254",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 255",
                 "🇮🇪IE | 🟢 | vless | @DailyV2RY | 262",
+                "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 0",
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 0",
                 "🇩🇪DE | 🟢 | vless | @nofiltering2 | 1",
                 "🇩🇪DE | 🔴 | vless | @proxy_mtm | 0",
@@ -1014,6 +1016,35 @@
                 "reality": {
                     "enabled": true,
                     "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 0",
+            "type": "vless",
+            "server": "bahbah.khoreshtsabzi.ir",
+            "server_port": 20622,
+            "uuid": "Bargovpn_Bargovpn",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "vrdUB9TmPzYF1FTCONaU-RBtVGY7rJ9ee11z5NAW-Hw",
                     "short_id": ""
                 }
             }
