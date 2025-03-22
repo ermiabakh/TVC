@@ -392,7 +392,6 @@ proxies:
   - {"name":"🇫🇮FI | 🟢 | vmess | @Hope_Net | 3","type":"vmess","server":"65.109.184.112","port":"8249","cipher":"auto","uuid":"b4c1dd62-f0dd-4a6f-8e85-e4293a338187","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇩🇪DE | 🟢 | vmess | @Hope_Net | 4","type":"vmess","server":"91.107.148.11","port":"2082","cipher":"auto","uuid":"d1c8b4f6-9f76-4656-bc94-4856be53aad1","alterId":"0","tls":false,"skip-cert-verify":true,"network":"httpupgrade"}
   - {"name":"🇨🇳CN | 🟢 | vmess | @Hope_Net | 7","type":"vmess","server":"120.232.153.40","port":"51182","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇦🇪AE | 🟢 | vmess | @Hope_Net | 8","type":"vmess","server":"193.123.81.105","port":"443","cipher":"auto","uuid":"9b456c2a-f2c1-45e1-87a9-b7628b04bb24","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"beyonddsz.cfd"}}}
   - {"name":"🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 1","type":"vless","server":"www.speedtest.net","port":80,"udp":false,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/MTMVPN/?ed=2560","headers":{"host":"redw.pooriam.ir"}}}
   - {"name":"🇸🇪SE | 🔴 | vless | @Outlinev2rayNG | 6","type":"vless","server":"185.146.173.112","port":8880,"udp":false,"uuid":"f6bd2c47-99da-4bca-bf70-7186aa9e7e06","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/Telegram@V2ray_Alpha","headers":{"host":"photographipictureai.ir"}}}
   - {"name":"🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 7","type":"vless","server":"cld1.niassa.ir","port":443,"udp":true,"uuid":"d49b7b53-6697-4165-afb6-dce05a65a3c1","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"eset.com","reality-opts":{"public-key":"Xy0AQpRkBFWIWzRiG1czWTXok98URMhRt1xBE7jiTWw","short-id":"2f"}}
@@ -725,7 +724,6 @@ proxy-groups:
       - '🇫🇮FI | 🟢 | vmess | @Hope_Net | 3'
       - '🇩🇪DE | 🟢 | vmess | @Hope_Net | 4'
       - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 7'
-      - '🇦🇪AE | 🟢 | vmess | @Hope_Net | 8'
       - '🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 1'
       - '🇸🇪SE | 🔴 | vless | @Outlinev2rayNG | 6'
       - '🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 7'
@@ -1058,7 +1056,6 @@ proxy-groups:
       - '🇫🇮FI | 🟢 | vmess | @Hope_Net | 3'
       - '🇩🇪DE | 🟢 | vmess | @Hope_Net | 4'
       - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 7'
-      - '🇦🇪AE | 🟢 | vmess | @Hope_Net | 8'
       - '🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 1'
       - '🇸🇪SE | 🔴 | vless | @Outlinev2rayNG | 6'
       - '🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 7'
@@ -1390,7 +1387,6 @@ proxy-groups:
       - '🇫🇮FI | 🟢 | vmess | @Hope_Net | 3'
       - '🇩🇪DE | 🟢 | vmess | @Hope_Net | 4'
       - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 7'
-      - '🇦🇪AE | 🟢 | vmess | @Hope_Net | 8'
       - '🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 1'
       - '🇸🇪SE | 🔴 | vless | @Outlinev2rayNG | 6'
       - '🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 7'
