@@ -416,7 +416,6 @@
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 13",
                 "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 14",
                 "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 15",
-                "🇯🇵JP | 🔴 | vless | @Outlinev2rayNG | 16",
                 "🇬🇧GB | 🔴 | vless | @FreakConfig | 1",
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 2",
                 "🇺🇸US | 🟢 | vless | @FreakConfig | 3",
@@ -794,7 +793,6 @@
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 13",
                 "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 14",
                 "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 15",
-                "🇯🇵JP | 🔴 | vless | @Outlinev2rayNG | 16",
                 "🇬🇧GB | 🔴 | vless | @FreakConfig | 1",
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 2",
                 "🇺🇸US | 🟢 | vless | @FreakConfig | 3",
@@ -8518,27 +8516,6 @@
                 "path": "\/Telegram@V2ray_Alpha\/?ed=2560",
                 "headers": {
                     "Host": "45.131.4.33"
-                }
-            }
-        },
-        {
-            "tag": "🇯🇵JP | 🔴 | vless | @Outlinev2rayNG | 16",
-            "type": "vless",
-            "server": "156.238.18.124",
-            "server_port": 80,
-            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram🇨🇳 @WangCai2 \/?ed=2560",
-                "headers": {
-                    "Host": "156.238.18.124"
                 }
             }
         },
