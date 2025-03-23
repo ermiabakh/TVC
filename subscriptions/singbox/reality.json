@@ -134,9 +134,8 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 189",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 190",
                 "❔XX | 🔴 | vless | @proxystore11 | 3",
-                "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 1",
-                "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 10",
-                "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 14",
+                "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 3",
+                "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 12",
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 2",
                 "🇩🇪DE | 🟢 | vless | @nofiltering2 | 5",
                 "❔XX | 🔴 | vless | @proxy_mtm | 1",
@@ -196,9 +195,8 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 189",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 190",
                 "❔XX | 🔴 | vless | @proxystore11 | 3",
-                "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 1",
-                "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 10",
-                "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 14",
+                "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 3",
+                "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 12",
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 2",
                 "🇩🇪DE | 🟢 | vless | @nofiltering2 | 5",
                 "❔XX | 🔴 | vless | @proxy_mtm | 1",
@@ -1128,7 +1126,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 1",
+            "tag": "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 3",
             "type": "vless",
             "server": "mw2.niassa.ir",
             "server_port": 443,
@@ -1157,7 +1155,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 10",
+            "tag": "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 12",
             "type": "vless",
             "server": "cld1.niassa.ir",
             "server_port": 443,
@@ -1182,35 +1180,6 @@
                     "enabled": true,
                     "public_key": "Xy0AQpRkBFWIWzRiG1czWTXok98URMhRt1xBE7jiTWw",
                     "short_id": "2f"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 14",
-            "type": "vless",
-            "server": "bahbah.khoreshtsabzi.ir",
-            "server_port": 20622,
-            "uuid": "Bargovpn_Bargovpn",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "vrdUB9TmPzYF1FTCONaU-RBtVGY7rJ9ee11z5NAW-Hw",
-                    "short_id": ""
                 }
             }
         },
