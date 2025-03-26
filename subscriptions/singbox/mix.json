@@ -362,8 +362,7 @@
                 "🚩CF | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
                 "🇯🇵JP | 🔴 | vless | @ShadowProxy66 | 0",
-                "🇨🇭CH | 🟢 | vmess | @ShadowProxy66 | 2",
-                "🇫🇮FI | 🔴 | vless | @ServerNett | 0",
+                "🇩🇪DE | 🔴 | vless | @ServerNett | 0",
                 "🇩🇪DE | 🔴 | vless | @ServerNett | 1",
                 "❔XX | 🔴 | vless | @ServerNett | 2",
                 "❔XX | 🔴 | vless | @ServerNett | 3",
@@ -845,8 +844,7 @@
                 "🚩CF | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
                 "🇯🇵JP | 🔴 | vless | @ShadowProxy66 | 0",
-                "🇨🇭CH | 🟢 | vmess | @ShadowProxy66 | 2",
-                "🇫🇮FI | 🔴 | vless | @ServerNett | 0",
+                "🇩🇪DE | 🔴 | vless | @ServerNett | 0",
                 "🇩🇪DE | 🔴 | vless | @ServerNett | 1",
                 "❔XX | 🔴 | vless | @ServerNett | 2",
                 "❔XX | 🔴 | vless | @ServerNett | 3",
@@ -7056,24 +7054,7 @@
             }
         },
         {
-            "tag": "🇨🇭CH | 🟢 | vmess | @ShadowProxy66 | 2",
-            "type": "vmess",
-            "server": "186.190.215.93",
-            "server_port": 22324,
-            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇫🇮FI | 🔴 | vless | @ServerNett | 0",
+            "tag": "🇩🇪DE | 🔴 | vless | @ServerNett | 0",
             "type": "vless",
             "server": "3900230223.torob.com.tr",
             "server_port": 1522,
