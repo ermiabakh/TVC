@@ -400,9 +400,10 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 107",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 108",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 111",
-                "❔XX | 🔴 | vless | @proxystore11 | 1",
-                "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
-                "🇺🇸US | 🔴 | vless | @proxystore11 | 4",
+                "❔XX | 🔴 | vless | @proxystore11 | 0",
+                "❔XX | 🔴 | vless | @proxystore11 | 2",
+                "🇺🇸US | 🔴 | vless | @proxystore11 | 3",
+                "🇺🇸US | 🔴 | vless | @proxystore11 | 5",
                 "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 1",
                 "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 2",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 3",
@@ -777,9 +778,10 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 107",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 108",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 111",
-                "❔XX | 🔴 | vless | @proxystore11 | 1",
-                "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
-                "🇺🇸US | 🔴 | vless | @proxystore11 | 4",
+                "❔XX | 🔴 | vless | @proxystore11 | 0",
+                "❔XX | 🔴 | vless | @proxystore11 | 2",
+                "🇺🇸US | 🔴 | vless | @proxystore11 | 3",
+                "🇺🇸US | 🔴 | vless | @proxystore11 | 5",
                 "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 1",
                 "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 2",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 3",
@@ -8115,7 +8117,43 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @proxystore11 | 1",
+            "tag": "❔XX | 🔴 | vless | @proxystore11 | 0",
+            "type": "vless",
+            "server": "ipv6.proxystore11.news",
+            "server_port": 443,
+            "uuid": "71fa1f09-3fa7-4fd3-aa3b-1c266ab03e0e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.canva.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "qTjnHPhsqfvEpnCP4cTXXvVQI34F2uXhWxl0ddtgpTc",
+                    "short_id": "b5f32071b5f64f"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "L6ocyVFZGNHz4gxKwgJ",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @proxystore11 | 2",
             "type": "vless",
             "server": "ipv6.proxystore11.news",
             "server_port": 443,
@@ -8151,7 +8189,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
+            "tag": "🇺🇸US | 🔴 | vless | @proxystore11 | 3",
             "type": "vless",
             "server": "cname.proxystore11.news",
             "server_port": 443,
@@ -8175,7 +8213,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @proxystore11 | 4",
+            "tag": "🇺🇸US | 🔴 | vless | @proxystore11 | 5",
             "type": "vless",
             "server": "cname.proxystore11.news",
             "server_port": 443,
