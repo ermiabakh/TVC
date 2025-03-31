@@ -109,7 +109,6 @@
                 "🇨🇦CA | 🔴 | vless | @EliV2ray | 0",
                 "🇨🇦CA | 🔴 | vless | @EliV2ray | 1",
                 "❔XX | 🔴 | vless | @EliV2ray | 3",
-                "❔XX | 🔴 | vless | @EliV2ray | 5",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 6",
                 "❔XX | 🔴 | vless | @Parsashonam | 7",
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 8",
@@ -209,7 +208,7 @@
                 "🇺🇸US | 🔴 | vless | @lightning6 | 4",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 5",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 6",
-                "🇺🇸US | 🔴 | vless | @lightning6 | 7",
+                "🇨🇦CA | 🔴 | vless | @lightning6 | 7",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 8",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 9",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 10",
@@ -347,7 +346,7 @@
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 3",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 4",
                 "🚩CF | 🔴 | vless | @FalconPolV2rayNG | 5",
-                "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
+                "🇨🇦CA | 🔴 | vless | @FalconPolV2rayNG | 6",
                 "🇫🇮FI | 🔴 | vless | @ServerNett | 0",
                 "🇩🇪DE | 🔴 | vless | @ServerNett | 1",
                 "❔XX | 🔴 | vless | @ServerNett | 2",
@@ -561,7 +560,6 @@
                 "🇨🇦CA | 🔴 | vless | @EliV2ray | 0",
                 "🇨🇦CA | 🔴 | vless | @EliV2ray | 1",
                 "❔XX | 🔴 | vless | @EliV2ray | 3",
-                "❔XX | 🔴 | vless | @EliV2ray | 5",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 6",
                 "❔XX | 🔴 | vless | @Parsashonam | 7",
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 8",
@@ -661,7 +659,7 @@
                 "🇺🇸US | 🔴 | vless | @lightning6 | 4",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 5",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 6",
-                "🇺🇸US | 🔴 | vless | @lightning6 | 7",
+                "🇨🇦CA | 🔴 | vless | @lightning6 | 7",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 8",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 9",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 10",
@@ -799,7 +797,7 @@
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 3",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 4",
                 "🚩CF | 🔴 | vless | @FalconPolV2rayNG | 5",
-                "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
+                "🇨🇦CA | 🔴 | vless | @FalconPolV2rayNG | 6",
                 "🇫🇮FI | 🔴 | vless | @ServerNett | 0",
                 "🇩🇪DE | 🔴 | vless | @ServerNett | 1",
                 "❔XX | 🔴 | vless | @ServerNett | 2",
@@ -1085,27 +1083,6 @@
                 "path": "\/@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY?ed=2560",
                 "headers": {
                     "Host": "cdn.fastly.f-35.store"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @EliV2ray | 5",
-            "type": "vless",
-            "server": "fastly.cdn.f-35.store",
-            "server_port": 8080,
-            "uuid": "c5293efa-28f8-4a0f-8f34-541078970cee",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY?ed=2560",
-                "headers": {
-                    "Host": "fastly.cdn.f-35.store"
                 }
             }
         },
@@ -3375,7 +3352,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @lightning6 | 7",
+            "tag": "🇨🇦CA | 🔴 | vless | @lightning6 | 7",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -6536,7 +6513,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
+            "tag": "🇨🇦CA | 🔴 | vless | @FalconPolV2rayNG | 6",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8443,
