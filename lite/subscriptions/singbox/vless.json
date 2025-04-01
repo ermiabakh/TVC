@@ -150,6 +150,7 @@
                 "❔XX | 🔴 | vless | @proxystore11 | 9",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
+                "🇸🇪SE | 🔴 | vless | @Outlinev2rayNG | 9",
                 "🇬🇧GB | 🔴 | vless | @FreakConfig | 8",
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 9",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
@@ -216,6 +217,7 @@
                 "❔XX | 🔴 | vless | @proxystore11 | 9",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
+                "🇸🇪SE | 🔴 | vless | @Outlinev2rayNG | 9",
                 "🇬🇧GB | 🔴 | vless | @FreakConfig | 8",
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 9",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
@@ -1329,9 +1331,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
             "type": "vless",
-            "server": "www.speedtest.net",
+            "server": "Zmaoz.Faculty.Ucdavis.Edu",
             "server_port": 80,
-            "uuid": "7c9e3c1d-a360-4429-9189-e45a98de7fde",
+            "uuid": "Parsashonam-206",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1341,10 +1343,24 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@v2rayNGcloud@v2rayNGcloud@v2rayNGcloud@v2rayNGcloud@v2rayNGcloud@v2rayNGcloud@v2rayNGcloud@v2rayNGcloud@v2rayNGcloud@v2rayNGcloud@v2rayNGcloud@v2rayNGcloud@v2rayNGcloud@v2rayNGcloud@v2rayNGcloud@v2rayNGcloud@v2rayNGcloud@v2rayNGcloud@v2rayNGcloud@v2rayNGcloud@v2rayNGcloud@v2rayNGcloud@v2rayNGcloud@v2rayNGcloud@v2rayNGcloud@v2rayNGcloud@v2rayNGcloud@v2rayNGcloud@v2rayNGcloud@v2rayNGcloud@v2rayNGcloud@v2rayNGcloud@v2rayNGcloud@v2rayNGcloud@v2rayNGcloud@v2rayNGcloud@v2rayNGcloud@v2rayNGcloud@v2rayNGcloud@v2rayNGcloud@v2rayNGcloud?ed=2560",
+                "path": "\/@Parsashonam",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "Zmaoz.Faculty.Ucdavis.Edu."
                 }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | 🔴 | vless | @Outlinev2rayNG | 9",
+            "type": "vless",
+            "server": "185.146.173.39",
+            "server_port": 8880,
+            "uuid": "Parsashonam-206",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
