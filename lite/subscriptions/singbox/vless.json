@@ -111,7 +111,7 @@
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 9",
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
                 "🇬🇧GB | 🔴 | vless | @VlessConfig | 16",
-                "🇫🇷FR | 🔴 | vless | @VlessConfig | 17",
+                "🇬🇧GB | 🔴 | vless | @VlessConfig | 17",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 8",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 9",
                 "🇩🇪DE | 🔴 | vless | @V2pedia | 5",
@@ -130,8 +130,9 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇨🇦CA | 🔴 | vless | @Outline_Vpn | 5",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 6",
-                "❔XX | 🔴 | vless | @prrofile_purple | 152",
-                "❔XX | 🔴 | vless | @prrofile_purple | 153",
+                "🇳🇱NL | 🟢 | vless | @prrofile_purple | 145",
+                "❔XX | 🔴 | vless | @prrofile_purple | 146",
+                "❔XX | 🔴 | vless | @customv2ray | 7",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
                 "❔XX | 🔴 | vless | @ServerNett | 9",
@@ -173,7 +174,7 @@
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 9",
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
                 "🇬🇧GB | 🔴 | vless | @VlessConfig | 16",
-                "🇫🇷FR | 🔴 | vless | @VlessConfig | 17",
+                "🇬🇧GB | 🔴 | vless | @VlessConfig | 17",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 8",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 9",
                 "🇩🇪DE | 🔴 | vless | @V2pedia | 5",
@@ -192,8 +193,9 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇨🇦CA | 🔴 | vless | @Outline_Vpn | 5",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 6",
-                "❔XX | 🔴 | vless | @prrofile_purple | 152",
-                "❔XX | 🔴 | vless | @prrofile_purple | 153",
+                "🇳🇱NL | 🟢 | vless | @prrofile_purple | 145",
+                "❔XX | 🔴 | vless | @prrofile_purple | 146",
+                "❔XX | 🔴 | vless | @customv2ray | 7",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
                 "❔XX | 🔴 | vless | @ServerNett | 9",
@@ -328,7 +330,7 @@
         {
             "tag": "🇬🇧GB | 🔴 | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "18.170.255.176",
+            "server": "18.135.60.220",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -357,9 +359,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 17",
+            "tag": "🇬🇧GB | 🔴 | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "13.37.112.62",
+            "server": "18.170.255.176",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -811,11 +813,40 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @prrofile_purple | 152",
+            "tag": "🇳🇱NL | 🟢 | vless | @prrofile_purple | 145",
             "type": "vless",
-            "server": "[2001:41d0:701:1000::600]",
-            "server_port": 21147,
-            "uuid": "abfce3ec-df21-407c-a20c-d2a89e3278b1",
+            "server": "194.49.53.185",
+            "server_port": 443,
+            "uuid": "7e5813d0-e5ac-437c-ba4e-2f8c17a84aae",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "maviks.eu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "fPSR5GZpxhOV6Rh7VzMtS4AeRN7ipyNX4waG9JzJzxQ",
+                    "short_id": "21181028b56c8702"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @prrofile_purple | 146",
+            "type": "vless",
+            "server": "[2a01:4f8:1c1b:e1d0::1]",
+            "server_port": 8888,
+            "uuid": "Parsashonam-197",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -825,7 +856,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @prrofile_purple | 153",
+            "tag": "❔XX | 🔴 | vless | @customv2ray | 7",
             "type": "vless",
             "server": "mehdi9.vact.ir",
             "server_port": 443,
