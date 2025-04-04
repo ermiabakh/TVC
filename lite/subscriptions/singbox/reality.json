@@ -108,10 +108,10 @@
                 "URL-TEST",
                 "🇵🇱PL | 🔴 | vless | @V2pedia | 6",
                 "🇳🇱NL | 🟢 | vless | @prrofile_purple | 145",
-                "❔XX | 🔴 | vless | @customv2ray | 7",
                 "❔XX | 🔴 | vless | @proxystore11 | 10",
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 9",
-                "❔XX | 🔴 | vless | @proxy_mtm | 7",
+                "🇩🇪DE | 🔴 | vless | @proxy_mtm | 1",
+                "❔XX | 🔴 | vless | @proxy_mtm | 2",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇩🇪DE | 🔴 | vless | @SvnTeam | 10"
@@ -123,10 +123,10 @@
             "outbounds": [
                 "🇵🇱PL | 🔴 | vless | @V2pedia | 6",
                 "🇳🇱NL | 🟢 | vless | @prrofile_purple | 145",
-                "❔XX | 🔴 | vless | @customv2ray | 7",
                 "❔XX | 🔴 | vless | @proxystore11 | 10",
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 9",
-                "❔XX | 🔴 | vless | @proxy_mtm | 7",
+                "🇩🇪DE | 🔴 | vless | @proxy_mtm | 1",
+                "❔XX | 🔴 | vless | @proxy_mtm | 2",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇩🇪DE | 🔴 | vless | @SvnTeam | 10"
@@ -217,42 +217,6 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @customv2ray | 7",
-            "type": "vless",
-            "server": "mehdi9.vact.ir",
-            "server_port": 443,
-            "uuid": "Join-proxy_mtm-channel",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cdn77.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Zxm8F7CUF28zUKUMcH2jE05qXJ1LuY6djreVLgeze2k",
-                    "short_id": "3e"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-Telegram-MTMVPN-telegram-MTMVPN-Telegram-MTMVPN-telegram-MTMVPN-MTMVPN",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "❔XX | 🔴 | vless | @proxystore11 | 10",
             "type": "vless",
             "server": "ipv6.proxystore11.news",
@@ -325,11 +289,47 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @proxy_mtm | 7",
+            "tag": "🇩🇪DE | 🔴 | vless | @proxy_mtm | 1",
+            "type": "vless",
+            "server": "mehdi23.vact.ir",
+            "server_port": 443,
+            "uuid": "d1f9075a-8c1b-4938-8de9-a2712407b8b5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cdn77.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "wpAf93EihwHYk0bmtLSFh8eSfrszEha4bHV1ETW69Qg",
+                    "short_id": "a4"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "join---MTMVPN----MTMVPN-join---MTMVPN----MTMVPN-join---MTMVPN----MTMVPN-join---MTMVPN----MTMVPN",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @proxy_mtm | 2",
             "type": "vless",
             "server": "mehdi22.vact.ir",
             "server_port": 2083,
-            "uuid": "f822586f-7b17-42f7-8947-806b3f2f41a5",
+            "uuid": "join---MTMVPN----MTMVPN",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -354,7 +354,7 @@
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "channel-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN",
+                "service_name": "join---MTMVPN----MTMVPN-join---MTMVPN----MTMVPN-join---MTMVPN----MTMVPN-join---MTMVPN----MTMVPN",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false

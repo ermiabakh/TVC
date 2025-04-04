@@ -109,7 +109,8 @@
                 "🇩🇪DE | 🟢 | vmess | @CUSTOMVPNSERVER | 15",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
-                "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 7",
+                "🇨🇦CA | 🟢 | vmess | @DeamNet_Proxy | 17",
+                "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 6",
                 "🇺🇸US | 🟢 | vmess | @proxystore11 | 9",
                 "🇭🇰HK | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
@@ -125,7 +126,8 @@
                 "🇩🇪DE | 🟢 | vmess | @CUSTOMVPNSERVER | 15",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
-                "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 7",
+                "🇨🇦CA | 🟢 | vmess | @DeamNet_Proxy | 17",
+                "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 6",
                 "🇺🇸US | 🟢 | vmess | @proxystore11 | 9",
                 "🇭🇰HK | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
@@ -205,7 +207,41 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 7",
+            "tag": "🇨🇦CA | 🟢 | vmess | @DeamNet_Proxy | 17",
+            "type": "vmess",
+            "server": "104.21.3.219",
+            "server_port": 8443,
+            "uuid": "c313606f-98c2-4d7b-ba74-48b94f61b11d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "uswuxian.pai50288.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "uswuxian.pai50288.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 6",
             "type": "vmess",
             "server": "104.19.150.10",
             "server_port": 2095,
