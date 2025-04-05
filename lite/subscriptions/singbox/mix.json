@@ -132,8 +132,8 @@
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 15",
-                "🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 16",
-                "🇬🇧GB | 🟢 | trojan | @DirectVPN | 15",
+                "🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 16",
+                "🇮🇪IE | 🟢 | trojan | @DirectVPN | 15",
                 "🇬🇧GB | 🟢 | trojan | @DirectVPN | 16",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
@@ -157,8 +157,8 @@
                 "❔XX | 🔴 | vless | @MTConfig | 11",
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 15",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 235",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 236",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 232",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 233",
                 "🇺🇸US | 🟢 | vmess | @proxystore11 | 9",
                 "❔XX | 🔴 | vless | @proxystore11 | 10",
                 "🇭🇰HK | 🟢 | vmess | @yaney_01 | 4",
@@ -215,8 +215,8 @@
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 15",
-                "🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 16",
-                "🇬🇧GB | 🟢 | trojan | @DirectVPN | 15",
+                "🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 16",
+                "🇮🇪IE | 🟢 | trojan | @DirectVPN | 15",
                 "🇬🇧GB | 🟢 | trojan | @DirectVPN | 16",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
@@ -240,8 +240,8 @@
                 "❔XX | 🔴 | vless | @MTConfig | 11",
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 15",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 235",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 236",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 232",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 233",
                 "🇺🇸US | 🟢 | vmess | @proxystore11 | 9",
                 "❔XX | 🔴 | vless | @proxystore11 | 10",
                 "🇭🇰HK | 🟢 | vmess | @yaney_01 | 4",
@@ -882,6 +882,28 @@
         {
             "tag": "🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 15",
             "type": "trojan",
+            "server": "3.9.97.121",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 16",
+            "type": "trojan",
             "server": "35.176.231.192",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
@@ -902,31 +924,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 16",
+            "tag": "🇮🇪IE | 🟢 | trojan | @DirectVPN | 15",
             "type": "trojan",
-            "server": "13.36.121.2",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧GB | 🟢 | trojan | @DirectVPN | 15",
-            "type": "trojan",
-            "server": "52.56.107.142",
+            "server": "54.77.178.75",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -948,7 +948,7 @@
         {
             "tag": "🇬🇧GB | 🟢 | trojan | @DirectVPN | 16",
             "type": "trojan",
-            "server": "35.176.3.77",
+            "server": "52.56.107.142",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1474,7 +1474,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 235",
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 232",
             "type": "vless",
             "server": "whatismyipaddress.com",
             "server_port": 2096,
@@ -1488,7 +1488,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "wwwspeedtestnetwhiteberinsistomd6625996s28.elitemizban.ir",
+                "server_name": "wwwspeedtestnetwhiteberinsistomd6625996s30.elitemizban.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1500,12 +1500,12 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "wwwspeedtestnetwhiteberinsistomd6625996s28.elitemizban.ir"
+                    "Host": "wwwspeedtestnetwhiteberinsistomd6625996s30.elitemizban.ir"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 236",
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 233",
             "type": "vless",
             "server": "whatismyipaddress.com",
             "server_port": 2096,
@@ -1519,7 +1519,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "wwwspeedtestnetwhiteberinsistomd6625996s27.elitemizban.ir",
+                "server_name": "wwwspeedtestnetwhiteberinsistomd6625996s26.elitemizban.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1531,7 +1531,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "wwwspeedtestnetwhiteberinsistomd6625996s27.elitemizban.ir"
+                    "Host": "wwwspeedtestnetwhiteberinsistomd6625996s26.elitemizban.ir"
                 }
             }
         },
