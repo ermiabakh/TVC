@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇵🇱PL | 🔴 | vless | @V2pedia | 6",
-                "🇳🇱NL | 🟢 | vless | @prrofile_purple | 151",
+                "🇮🇪IE | 🟢 | vless | @DailyV2RY | 244",
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 9",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -119,7 +119,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇵🇱PL | 🔴 | vless | @V2pedia | 6",
-                "🇳🇱NL | 🟢 | vless | @prrofile_purple | 151",
+                "🇮🇪IE | 🟢 | vless | @DailyV2RY | 244",
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 9",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -182,11 +182,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | @prrofile_purple | 151",
+            "tag": "🇮🇪IE | 🟢 | vless | @DailyV2RY | 244",
             "type": "vless",
-            "server": "185.193.158.9",
-            "server_port": 443,
-            "uuid": "7e5813d0-e5ac-437c-ba4e-2f8c17a84aae",
+            "server": "18.202.50.85",
+            "server_port": 8444,
+            "uuid": "73c732f2-d435-4197-9f33-0d7c1f47d3a9",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -196,7 +196,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "maviks.eu",
+                "server_name": "zula.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -205,8 +205,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "fPSR5GZpxhOV6Rh7VzMtS4AeRN7ipyNX4waG9JzJzxQ",
-                    "short_id": "21181028b56c8702"
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
                 }
             }
         },
