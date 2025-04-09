@@ -129,8 +129,8 @@
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 15",
-                "🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 16",
-                "🇬🇧GB | 🟢 | trojan | @DirectVPN | 15",
+                "🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 16",
+                "🇮🇪IE | 🟢 | trojan | @DirectVPN | 15",
                 "🇬🇧GB | 🟢 | trojan | @DirectVPN | 16",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
@@ -169,7 +169,7 @@
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 9",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 15",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 16",
-                "🇩🇪DE | 🔴 | vless | @proxy_mtm | 8",
+                "🇩🇪DE | 🔴 | vless | @proxy_mtm | 16",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇷🇸RS | 🔴 | vless | @kingofilter | 20",
@@ -208,8 +208,8 @@
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 15",
-                "🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 16",
-                "🇬🇧GB | 🟢 | trojan | @DirectVPN | 15",
+                "🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 16",
+                "🇮🇪IE | 🟢 | trojan | @DirectVPN | 15",
                 "🇬🇧GB | 🟢 | trojan | @DirectVPN | 16",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
@@ -248,7 +248,7 @@
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 9",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 15",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 16",
-                "🇩🇪DE | 🔴 | vless | @proxy_mtm | 8",
+                "🇩🇪DE | 🔴 | vless | @proxy_mtm | 16",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇷🇸RS | 🔴 | vless | @kingofilter | 20",
@@ -786,6 +786,28 @@
         {
             "tag": "🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 15",
             "type": "trojan",
+            "server": "13.43.175.177",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 16",
+            "type": "trojan",
             "server": "3.10.0.118",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
@@ -806,31 +828,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 16",
+            "tag": "🇮🇪IE | 🟢 | trojan | @DirectVPN | 15",
             "type": "trojan",
-            "server": "35.181.79.160",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧GB | 🟢 | trojan | @DirectVPN | 15",
-            "type": "trojan",
-            "server": "18.132.242.142",
+            "server": "63.33.131.229",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -852,7 +852,7 @@
         {
             "tag": "🇬🇧GB | 🟢 | trojan | @DirectVPN | 16",
             "type": "trojan",
-            "server": "13.43.246.252",
+            "server": "18.132.242.142",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1803,7 +1803,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @proxy_mtm | 8",
+            "tag": "🇩🇪DE | 🔴 | vless | @proxy_mtm | 16",
             "type": "vless",
             "server": "mehdi24.vact.ir",
             "server_port": 443,
