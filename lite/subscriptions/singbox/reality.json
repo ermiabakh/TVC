@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "❔XX | 🔴 | vless | @prrofile_purple | 142",
                 "❔XX | 🔴 | vless | @customv2ray | 7",
-                "🇫🇮FI | 🟢 | vless | @DailyV2RY | 286",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 297",
                 "❔XX | 🔴 | vless | @proxystore11 | 2",
                 "❔XX | 🔴 | vless | @proxystore11 | 3",
                 "🇨🇭CH | 🟢 | vless | @FreakConfig | 4",
@@ -124,7 +124,7 @@
             "outbounds": [
                 "❔XX | 🔴 | vless | @prrofile_purple | 142",
                 "❔XX | 🔴 | vless | @customv2ray | 7",
-                "🇫🇮FI | 🟢 | vless | @DailyV2RY | 286",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 297",
                 "❔XX | 🔴 | vless | @proxystore11 | 2",
                 "❔XX | 🔴 | vless | @proxystore11 | 3",
                 "🇨🇭CH | 🟢 | vless | @FreakConfig | 4",
@@ -226,11 +226,11 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🟢 | vless | @DailyV2RY | 286",
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 297",
             "type": "vless",
-            "server": "65.109.201.171",
-            "server_port": 8443,
-            "uuid": "37025c36-52c3-409c-a158-89cfe09f322d",
+            "server": "44.223.103.111",
+            "server_port": 8444,
+            "uuid": "73c732f2-d435-4197-9f33-0d7c1f47d3a9",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -240,7 +240,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "yahoo.com",
+                "server_name": "zula.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -249,8 +249,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "xNcZAorXH9rA85fD6A5w3-fC0iWLWYdE3XJc39ckNAc",
-                    "short_id": "1dafa50a048e3f"
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
                 }
             }
         },
