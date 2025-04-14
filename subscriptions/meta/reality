@@ -163,7 +163,7 @@ proxies:
   - {"name":"🇺🇸US | 🔴 | vless | @DailyV2RY | 308","type":"vless","server":"161.188.127.181","port":1212,"udp":true,"uuid":"e7a04b44-855e-4fe7-8fa0-31894e928bce","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"stackoverflow.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A","short-id":"a4844ba7"}}
   - {"name":"🇺🇸US | 🔴 | vless | @DailyV2RY | 309","type":"vless","server":"15.230.39.207","port":1212,"udp":true,"uuid":"e7a04b44-855e-4fe7-8fa0-31894e928bce","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"stackoverflow.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A","short-id":"a4844ba7"}}
   - {"name":"🇺🇸US | 🔴 | vless | @DailyV2RY | 310","type":"vless","server":"108.166.244.34","port":1212,"udp":true,"uuid":"e7a04b44-855e-4fe7-8fa0-31894e928bce","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"stackoverflow.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A","short-id":"a4844ba7"}}
-  - {"name":"🇩🇪DE | 🔴 | vless | @DailyV2RY | 311","type":"vless","server":"mci.mtn.ir.com.org.net.om.be.soft.my-digimento0.ir","port":2087,"udp":true,"uuid":"cbb4251b-9b20-4c42-b09d-df77666bda12","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"www.target.com","reality-opts":{"public-key":"6ezm4CcEWfvptuqvMaweZW5jTaX-M4SdZE2r8JkKsQ0","short-id":"bc6f0833"}}
+  - {"name":"❔XX | 🔴 | vless | @DailyV2RY | 311","type":"vless","server":"mci.mtn.ir.com.org.net.om.be.soft.my-digimento0.ir","port":2087,"udp":true,"uuid":"cbb4251b-9b20-4c42-b09d-df77666bda12","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"www.target.com","reality-opts":{"public-key":"6ezm4CcEWfvptuqvMaweZW5jTaX-M4SdZE2r8JkKsQ0","short-id":"bc6f0833"}}
   - {"name":"❔XX | 🔴 | vless | @proxystore11 | 2","type":"vless","server":"ipv6.proxystore11.shop","port":443,"udp":true,"uuid":"45876b67-8a63-4bee-911a-b9c19867949e","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"www.afp.com","grpc-opts":{"grpc-service-name":"L6ocyVFZGNHz4gxKwgJ"},"reality-opts":{"public-key":"qTjnHPhsqfvEpnCP4cTXXvVQI34F2uXhWxl0ddtgpTc","short-id":"b5f32071b5f64f"}}
   - {"name":"❔XX | 🔴 | vless | @proxystore11 | 3","type":"vless","server":"ipv6.proxystore11.shop","port":443,"udp":true,"uuid":"a4581b69-90d1-49e3-a36a-3aaf9bdf1d1e","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"www.canva.com","grpc-opts":{"grpc-service-name":"L6ocyVFZGNHz4gxKwgJ"},"reality-opts":{"public-key":"qTjnHPhsqfvEpnCP4cTXXvVQI34F2uXhWxl0ddtgpTc","short-id":"b5f32071b5f64f"}}
   - {"name":"🇩🇪DE | 🟢 | vless | @FreakConfig | 3","type":"vless","server":"mw2.niassa.ir","port":443,"udp":true,"uuid":"b78fb3f5-e6a9-4e00-859f-3a886b19b394","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"eset.com","reality-opts":{"public-key":"3Yzz5Unz5elPLlaQkzgBxirSUbvIRbg9XlJ1Vruc4RI","short-id":"8819"}}
@@ -232,7 +232,7 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @DailyV2RY | 308'
       - '🇺🇸US | 🔴 | vless | @DailyV2RY | 309'
       - '🇺🇸US | 🔴 | vless | @DailyV2RY | 310'
-      - '🇩🇪DE | 🔴 | vless | @DailyV2RY | 311'
+      - '❔XX | 🔴 | vless | @DailyV2RY | 311'
       - '❔XX | 🔴 | vless | @proxystore11 | 2'
       - '❔XX | 🔴 | vless | @proxystore11 | 3'
       - '🇩🇪DE | 🟢 | vless | @FreakConfig | 3'
@@ -301,7 +301,7 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @DailyV2RY | 308'
       - '🇺🇸US | 🔴 | vless | @DailyV2RY | 309'
       - '🇺🇸US | 🔴 | vless | @DailyV2RY | 310'
-      - '🇩🇪DE | 🔴 | vless | @DailyV2RY | 311'
+      - '❔XX | 🔴 | vless | @DailyV2RY | 311'
       - '❔XX | 🔴 | vless | @proxystore11 | 2'
       - '❔XX | 🔴 | vless | @proxystore11 | 3'
       - '🇩🇪DE | 🟢 | vless | @FreakConfig | 3'
@@ -369,7 +369,7 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @DailyV2RY | 308'
       - '🇺🇸US | 🔴 | vless | @DailyV2RY | 309'
       - '🇺🇸US | 🔴 | vless | @DailyV2RY | 310'
-      - '🇩🇪DE | 🔴 | vless | @DailyV2RY | 311'
+      - '❔XX | 🔴 | vless | @DailyV2RY | 311'
       - '❔XX | 🔴 | vless | @proxystore11 | 2'
       - '❔XX | 🔴 | vless | @proxystore11 | 3'
       - '🇩🇪DE | 🟢 | vless | @FreakConfig | 3'
