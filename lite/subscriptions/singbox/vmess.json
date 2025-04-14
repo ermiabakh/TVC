@@ -109,7 +109,7 @@
                 "🇩🇪DE | 🟢 | vmess | @CUSTOMVPNSERVER | 15",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
-                "🇸🇪SE | 🟢 | vmess | @DeamNet_Proxy | 18",
+                "🇧🇷BR | 🟢 | vmess | @DeamNet_Proxy | 18",
                 "🇭🇰HK | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 5",
@@ -124,7 +124,7 @@
                 "🇩🇪DE | 🟢 | vmess | @CUSTOMVPNSERVER | 15",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
-                "🇸🇪SE | 🟢 | vmess | @DeamNet_Proxy | 18",
+                "🇧🇷BR | 🟢 | vmess | @DeamNet_Proxy | 18",
                 "🇭🇰HK | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 5",
@@ -203,11 +203,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🟢 | vmess | @DeamNet_Proxy | 18",
+            "tag": "🇧🇷BR | 🟢 | vmess | @DeamNet_Proxy | 18",
             "type": "vmess",
-            "server": "185.146.173.59",
-            "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "server": "pq-brazil1.09vpn.com",
+            "server_port": 80,
+            "uuid": "c04c3b34-70fd-4fec-963e-c12d09f36bef",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -218,21 +218,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "obdii.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/vmess\/",
                 "headers": {
-                    "Host": "obdii.cfd"
+                    "Host": "pq-brazil1.09vpn.com"
                 }
             }
         },
