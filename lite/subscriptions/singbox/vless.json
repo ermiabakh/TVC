@@ -110,9 +110,9 @@
                 "🇨🇦CA | 🔴 | vless | @v2_team | 0",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 9",
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
-                "🇸🇪SE | 🔴 | vless | @VlessConfig | 18",
-                "🇮🇪IE | 🔴 | vless | @VlessConfig | 19",
-                "🇨🇦CA | 🔴 | vless | @ipV2Ray | 8",
+                "🇩🇪DE | 🔴 | vless | @VlessConfig | 18",
+                "🇸🇪SE | 🔴 | vless | @VlessConfig | 19",
+                "🇺🇸US | 🔴 | vless | @ipV2Ray | 8",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 9",
                 "🇬🇧GB | 🔴 | vless | @V2pedia | 6",
                 "🇩🇪DE | 🔴 | vless | @V2pedia | 7",
@@ -148,7 +148,8 @@
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 11",
                 "❔XX | 🔴 | vless | @MTConfig | 12",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 359",
+                "🇮🇱IL | 🔴 | vless | @DailyV2RY | 357",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 358",
                 "❔XX | 🔴 | vless | @proxystore11 | 3",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 4",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 5",
@@ -177,9 +178,9 @@
                 "🇨🇦CA | 🔴 | vless | @v2_team | 0",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 9",
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
-                "🇸🇪SE | 🔴 | vless | @VlessConfig | 18",
-                "🇮🇪IE | 🔴 | vless | @VlessConfig | 19",
-                "🇨🇦CA | 🔴 | vless | @ipV2Ray | 8",
+                "🇩🇪DE | 🔴 | vless | @VlessConfig | 18",
+                "🇸🇪SE | 🔴 | vless | @VlessConfig | 19",
+                "🇺🇸US | 🔴 | vless | @ipV2Ray | 8",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 9",
                 "🇬🇧GB | 🔴 | vless | @V2pedia | 6",
                 "🇩🇪DE | 🔴 | vless | @V2pedia | 7",
@@ -215,7 +216,8 @@
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 11",
                 "❔XX | 🔴 | vless | @MTConfig | 12",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 359",
+                "🇮🇱IL | 🔴 | vless | @DailyV2RY | 357",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 358",
                 "❔XX | 🔴 | vless | @proxystore11 | 3",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 4",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 5",
@@ -336,9 +338,9 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @VlessConfig | 18",
+            "tag": "🇩🇪DE | 🔴 | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "13.48.164.235",
+            "server": "3.127.4.243",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -367,9 +369,9 @@
             }
         },
         {
-            "tag": "🇮🇪IE | 🔴 | vless | @VlessConfig | 19",
+            "tag": "🇸🇪SE | 🔴 | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "34.255.67.31",
+            "server": "16.171.191.252",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -398,7 +400,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @ipV2Ray | 8",
+            "tag": "🇺🇸US | 🔴 | vless | @ipV2Ray | 8",
             "type": "vless",
             "server": "104.19.54.50",
             "server_port": 8080,
@@ -1264,11 +1266,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 359",
+            "tag": "🇮🇱IL | 🔴 | vless | @DailyV2RY | 357",
             "type": "vless",
-            "server": "208.83.235.224",
+            "server": "64.176.166.98",
             "server_port": 8080,
-            "uuid": "044ea0d1-309e-42a3-b9b0-a9fab400929e",
+            "uuid": "3bf06e05-7b54-4c13-9b0b-660bd3e9d67f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1280,7 +1282,38 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "208.83.235.224"
+                    "Host": "64.176.166.98"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 358",
+            "type": "vless",
+            "server": "cloudgetservice.mcloudservice.site",
+            "server_port": 443,
+            "uuid": "24de3f3c-372b-4e2e-9e52-e8766a737871",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "maxNEtviPAp-uk1.mAxnEtServicEs.ONLine",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws?ed=2560",
+                "headers": {
+                    "Host": "maxNEtviPAp-uk1.mAxnEtServicEs.ONLine"
                 }
             }
         },
