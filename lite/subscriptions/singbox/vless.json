@@ -112,7 +112,7 @@
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
                 "🇮🇪IE | 🔴 | vless | @VlessConfig | 18",
                 "🇮🇪IE | 🔴 | vless | @VlessConfig | 19",
-                "🇺🇸US | 🔴 | vless | @ipV2Ray | 8",
+                "🇨🇦CA | 🔴 | vless | @ipV2Ray | 8",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 9",
                 "🇬🇧GB | 🔴 | vless | @V2pedia | 6",
                 "🇩🇪DE | 🔴 | vless | @V2pedia | 7",
@@ -147,6 +147,7 @@
                 "❔XX | 🔴 | vless | @MTConfig | 11",
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 361",
+                "🇸🇪SE | 🔴 | vless | @DailyV2RY | 362",
                 "❔XX | 🔴 | vless | @proxystore11 | 4",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 4",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 5",
@@ -161,7 +162,7 @@
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 0",
                 "🇺🇸US | 🔴 | vless | @SvnTeam | 7",
-                "❔XX | 🔴 | vless | @SvnTeam | 8",
+                "🇩🇪DE | 🔴 | vless | @SvnTeam | 8",
                 "🇩🇰DK | 🔴 | vless | @V2FETCH | 0",
                 "❔XX | 🔴 | vless | @VpnSkyy | 2",
                 "❔XX | 🔴 | vless | @VpnSkyy | 3"
@@ -177,7 +178,7 @@
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
                 "🇮🇪IE | 🔴 | vless | @VlessConfig | 18",
                 "🇮🇪IE | 🔴 | vless | @VlessConfig | 19",
-                "🇺🇸US | 🔴 | vless | @ipV2Ray | 8",
+                "🇨🇦CA | 🔴 | vless | @ipV2Ray | 8",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 9",
                 "🇬🇧GB | 🔴 | vless | @V2pedia | 6",
                 "🇩🇪DE | 🔴 | vless | @V2pedia | 7",
@@ -212,6 +213,7 @@
                 "❔XX | 🔴 | vless | @MTConfig | 11",
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 361",
+                "🇸🇪SE | 🔴 | vless | @DailyV2RY | 362",
                 "❔XX | 🔴 | vless | @proxystore11 | 4",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 4",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 5",
@@ -226,7 +228,7 @@
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 0",
                 "🇺🇸US | 🔴 | vless | @SvnTeam | 7",
-                "❔XX | 🔴 | vless | @SvnTeam | 8",
+                "🇩🇪DE | 🔴 | vless | @SvnTeam | 8",
                 "🇩🇰DK | 🔴 | vless | @V2FETCH | 0",
                 "❔XX | 🔴 | vless | @VpnSkyy | 2",
                 "❔XX | 🔴 | vless | @VpnSkyy | 3"
@@ -394,7 +396,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ipV2Ray | 8",
+            "tag": "🇨🇦CA | 🔴 | vless | @ipV2Ray | 8",
             "type": "vless",
             "server": "104.19.54.50",
             "server_port": 8080,
@@ -1183,9 +1185,30 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 361",
             "type": "vless",
-            "server": "cloudgetservice.mcloudservice.site",
-            "server_port": 443,
-            "uuid": "0f7254ed-765d-4916-819f-b47f0664ae27",
+            "server": "tgju.org",
+            "server_port": 80,
+            "uuid": "3b15b85f-203e-48a2-b878-d028c627a1d3",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "tgju.org"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | 🔴 | vless | @DailyV2RY | 362",
+            "type": "vless",
+            "server": "185.146.173.37",
+            "server_port": 8443,
+            "uuid": "24a4aa9b-b341-4717-9d4a-00d74c2b84e0",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1195,7 +1218,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mAXNETvIPAp-UK2.MaxnETServIcES.onLiNe",
+                "server_name": "NkG27c9Gl1.MySpDmMeTi.CoM",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1205,9 +1228,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws?ed=2560",
+                "path": "\/",
                 "headers": {
-                    "Host": "mAXNETvIPAp-UK2.MaxnETServIcES.onLiNe"
+                    "Host": "NkG27c9Gl1.MySpDmMeTi.CoM"
                 }
             }
         },
@@ -1550,7 +1573,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @SvnTeam | 8",
+            "tag": "🇩🇪DE | 🔴 | vless | @SvnTeam | 8",
             "type": "vless",
             "server": "SVNTEAM.MiSVN.iR",
             "server_port": 443,
