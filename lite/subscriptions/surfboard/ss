@@ -11,10 +11,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 19 = ss, 166.1.157.228, 55330, encrypt-method = chacha20-ietf-poly1305, password = frsa5DFzRANYPs5yMexsVUrC7d6NY8pvBRFn4g1WkF4R71Y5a6E6qYp3SxP2EaUh2yXsAKbTAm7SmL5qk5xMGoDRjH5F8BBU
+🇺🇸US | 🟢 | ss | @kingofilter | 36 = ss, 45.87.175.10, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK
-URL-TEST = url-test
-FALLBACK = fallback
+MANUAL = select,URL-TEST,FALLBACK,🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 19,🇺🇸US | 🟢 | ss | @kingofilter | 36
+URL-TEST = url-test,🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 19,🇺🇸US | 🟢 | ss | @kingofilter | 36
+FALLBACK = fallback,🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 19,🇺🇸US | 🟢 | ss | @kingofilter | 36
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
