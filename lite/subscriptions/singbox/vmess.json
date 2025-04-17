@@ -109,7 +109,8 @@
                 "🇩🇪DE | 🟢 | vmess | @CUSTOMVPNSERVER | 15",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
-                "🇬🇧GB | 🟢 | vmess | @ShadowProxy66 | 0",
+                "🇵🇭PH | 🟢 | vmess | @DeamNet_Proxy | 16",
+                "🇵🇱PL | 🟢 | vmess | @DeamNet_Proxy | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 0",
@@ -125,7 +126,8 @@
                 "🇩🇪DE | 🟢 | vmess | @CUSTOMVPNSERVER | 15",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
-                "🇬🇧GB | 🟢 | vmess | @ShadowProxy66 | 0",
+                "🇵🇭PH | 🟢 | vmess | @DeamNet_Proxy | 16",
+                "🇵🇱PL | 🟢 | vmess | @DeamNet_Proxy | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 0",
@@ -205,11 +207,11 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🟢 | vmess | @ShadowProxy66 | 0",
+            "tag": "🇵🇭PH | 🟢 | vmess | @DeamNet_Proxy | 16",
             "type": "vmess",
-            "server": "5.180.30.110",
-            "server_port": 51352,
-            "uuid": "bcf86479-aab4-47cf-9d6e-34d353baa1a2",
+            "server": "154.83.2.90",
+            "server_port": 443,
+            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -219,6 +221,57 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "jahfkjha.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "jahfkjha.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇵🇱PL | 🟢 | vmess | @DeamNet_Proxy | 17",
+            "type": "vmess",
+            "server": "3h-poland1.09vpn.com",
+            "server_port": 8443,
+            "uuid": "a4850481-9b95-430f-9b2d-192d2410b4f4",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
