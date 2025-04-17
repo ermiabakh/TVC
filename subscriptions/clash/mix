@@ -197,7 +197,6 @@ proxies:
   - {"name":"🇨🇳CN | 🟢 | vmess | @Hope_Net | 3","type":"vmess","server":"2a070f4a-suvds0-tdcdb7-1k27l.cm5.p5pv.com","port":"17233","cipher":"auto","uuid":"ba4b1f2e-c985-11ed-9c0c-f23c913c8d2b","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | 🟢 | vmess | @Hope_Net | 4","type":"vmess","server":"716545eb-sux8g0-t5oe1a-1ejod.cu.plebai.net","port":"5228","cipher":"auto","uuid":"6ada1622-e018-11ec-bb74-f23c9164ca5d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇷🇺RU | 🟢 | vmess | @Hope_Net | 5","type":"vmess","server":"195.58.49.84","port":"22013","cipher":"auto","uuid":"d9581ec1-2882-4749-a956-b3184c27277b","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
-  - {"name":"🇨🇿CZ | 🟢 | vmess | @Hope_Net | 6","type":"vmess","server":"89.18.58.71","port":"180","cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"❔XX | 🟢 | vmess | @FreakConfig | 0","type":"vmess","server":"2a01:4f8:c010:6ca3::1","port":"41358","cipher":"auto","uuid":"68719eee-35cf-4980-adb3-b3986f566bf7","alterId":"0","tls":false,"skip-cert-verify":true,"network":"kcp"}
   - {"name":"🇬🇧GB | 🟢 | ss | @kingofilter | 8","type":"ss","server":"api.namasha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇭🇺HU | 🟢 | ss | @kingofilter | 23","type":"ss","server":"86.104.75.103","port":49264,"password":"LI4obOEIDLzDjd7xYlhhTJ","cipher":"chacha20-ietf-poly1305"}
@@ -288,7 +287,6 @@ proxy-groups:
       - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 3'
       - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 4'
       - '🇷🇺RU | 🟢 | vmess | @Hope_Net | 5'
-      - '🇨🇿CZ | 🟢 | vmess | @Hope_Net | 6'
       - '❔XX | 🟢 | vmess | @FreakConfig | 0'
       - '🇬🇧GB | 🟢 | ss | @kingofilter | 8'
       - '🇭🇺HU | 🟢 | ss | @kingofilter | 23'
@@ -379,7 +377,6 @@ proxy-groups:
       - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 3'
       - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 4'
       - '🇷🇺RU | 🟢 | vmess | @Hope_Net | 5'
-      - '🇨🇿CZ | 🟢 | vmess | @Hope_Net | 6'
       - '❔XX | 🟢 | vmess | @FreakConfig | 0'
       - '🇬🇧GB | 🟢 | ss | @kingofilter | 8'
       - '🇭🇺HU | 🟢 | ss | @kingofilter | 23'
@@ -469,7 +466,6 @@ proxy-groups:
       - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 3'
       - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 4'
       - '🇷🇺RU | 🟢 | vmess | @Hope_Net | 5'
-      - '🇨🇿CZ | 🟢 | vmess | @Hope_Net | 6'
       - '❔XX | 🟢 | vmess | @FreakConfig | 0'
       - '🇬🇧GB | 🟢 | ss | @kingofilter | 8'
       - '🇭🇺HU | 🟢 | ss | @kingofilter | 23'
