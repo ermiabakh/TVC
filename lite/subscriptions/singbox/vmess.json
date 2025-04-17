@@ -112,7 +112,8 @@
                 "🇫🇷FR | 🟢 | vmess | @v2ray1_ng | 11",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 6",
+                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 5",
+                "🇨🇿CZ | 🟢 | vmess | @Hope_Net | 6",
                 "❔XX | 🟢 | vmess | @FreakConfig | 0",
                 "🇺🇸US | 🟢 | vmess | @OpenSSTPVpn | 0"
             ]
@@ -127,7 +128,8 @@
                 "🇫🇷FR | 🟢 | vmess | @v2ray1_ng | 11",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 6",
+                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 5",
+                "🇨🇿CZ | 🟢 | vmess | @Hope_Net | 6",
                 "❔XX | 🟢 | vmess | @FreakConfig | 0",
                 "🇺🇸US | 🟢 | vmess | @OpenSSTPVpn | 0"
             ],
@@ -278,11 +280,35 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 6",
+            "tag": "🇷🇺RU | 🟢 | vmess | @Hope_Net | 5",
             "type": "vmess",
-            "server": "87ab6ec1-sux8g0-susn3i-1lkt0.cm5.p5pv.com",
-            "server_port": 17235,
-            "uuid": "cd1b0ae0-4010-11ee-953a-f23c9164ca5d",
+            "server": "195.58.49.84",
+            "server_port": 22013,
+            "uuid": "d9581ec1-2882-4749-a956-b3184c27277b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "195.58.49.84"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇿CZ | 🟢 | vmess | @Hope_Net | 6",
+            "type": "vmess",
+            "server": "89.18.58.71",
+            "server_port": 180,
+            "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
