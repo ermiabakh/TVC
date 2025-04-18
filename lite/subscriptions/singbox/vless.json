@@ -135,8 +135,8 @@
                 "❔XX | 🔴 | vless | @prrofile_purple | 150",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
+                "🇩🇪DE | 🔴 | vless | @ServerNett | 7",
                 "❔XX | 🔴 | vless | @ServerNett | 8",
-                "❔XX | 🔴 | vless | @ServerNett | 9",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 2",
@@ -146,6 +146,8 @@
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 11",
                 "❔XX | 🔴 | vless | @MTConfig | 12",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 345",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 346",
                 "❔XX | 🔴 | vless | @proxystore11 | 6",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 6",
@@ -155,6 +157,7 @@
                 "❔XX | 🔴 | vless | @FreakConfig | 0",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 15",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 16",
+                "🇩🇪DE | 🔴 | vless | @mehrosaboran | 0",
                 "🇮🇷IR | 🔴 | vless | @nofiltering2 | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -199,8 +202,8 @@
                 "❔XX | 🔴 | vless | @prrofile_purple | 150",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
+                "🇩🇪DE | 🔴 | vless | @ServerNett | 7",
                 "❔XX | 🔴 | vless | @ServerNett | 8",
-                "❔XX | 🔴 | vless | @ServerNett | 9",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 2",
@@ -210,6 +213,8 @@
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 11",
                 "❔XX | 🔴 | vless | @MTConfig | 12",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 345",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 346",
                 "❔XX | 🔴 | vless | @proxystore11 | 6",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 6",
@@ -219,6 +224,7 @@
                 "❔XX | 🔴 | vless | @FreakConfig | 0",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 15",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 16",
+                "🇩🇪DE | 🔴 | vless | @mehrosaboran | 0",
                 "🇮🇷IR | 🔴 | vless | @nofiltering2 | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -923,11 +929,11 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ServerNett | 8",
+            "tag": "🇩🇪DE | 🔴 | vless | @ServerNett | 7",
             "type": "vless",
-            "server": "[2a01:4f8:c010:1d97::1]",
-            "server_port": 15182,
-            "uuid": "TELEGRAM-ServerNett",
+            "server": "188.245.95.151",
+            "server_port": 1520,
+            "uuid": "bca5e12c-e30e-4430-9729-5a4ea40b90a6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -937,10 +943,10 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ServerNett | 9",
+            "tag": "❔XX | 🔴 | vless | @ServerNett | 8",
             "type": "vless",
-            "server": "[2a01:4f8:c010:45f6::1]",
-            "server_port": 31899,
+            "server": "[2a01:4f8:c010:1d97::1]",
+            "server_port": 15182,
             "uuid": "TELEGRAM-ServerNett",
             "flow": "",
             "packet_encoding": "xudp",
@@ -1186,6 +1192,34 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 345",
+            "type": "vless",
+            "server": "3.15.146.170",
+            "server_port": 80,
+            "uuid": "3202d35a-c51c-4055-bcd7-3eb000c13dc3",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 346",
+            "type": "vless",
+            "server": "3.148.103.139",
+            "server_port": 80,
+            "uuid": "3202d35a-c51c-4055-bcd7-3eb000c13dc3",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "❔XX | 🔴 | vless | @proxystore11 | 6",
             "type": "vless",
             "server": "ipv6.proxystore11.shop",
@@ -1400,6 +1434,27 @@
                 "headers": {
                     "Host": "104.19.54.50"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @mehrosaboran | 0",
+            "type": "vless",
+            "server": "116.203.133.145",
+            "server_port": 6666,
+            "uuid": "1004cc48-cc96-4b54-c3e8-10315f8caa7a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
