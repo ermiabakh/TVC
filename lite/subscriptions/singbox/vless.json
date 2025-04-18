@@ -131,7 +131,7 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 14",
                 "🇨🇦CA | 🔴 | vless | @Outline_Vpn | 15",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 144",
+                "❔XX | 🔴 | vless | @prrofile_purple | 150",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
                 "🇮🇷IR | 🔴 | vless | @ShadowProxy66 | 0",
@@ -158,8 +158,8 @@
                 "❔XX | 🔴 | vless | @FreakConfig | 1",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 15",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 16",
-                "🇩🇪DE | 🔴 | vless | @mehrosaboran | 0",
                 "🇩🇪DE | 🔴 | vless | @mehrosaboran | 1",
+                "🇺🇸US | 🔴 | vless | @mehrosaboran | 2",
                 "🇮🇷IR | 🔴 | vless | @nofiltering2 | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -202,7 +202,7 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 14",
                 "🇨🇦CA | 🔴 | vless | @Outline_Vpn | 15",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 144",
+                "❔XX | 🔴 | vless | @prrofile_purple | 150",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
                 "🇮🇷IR | 🔴 | vless | @ShadowProxy66 | 0",
@@ -229,8 +229,8 @@
                 "❔XX | 🔴 | vless | @FreakConfig | 1",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 15",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 16",
-                "🇩🇪DE | 🔴 | vless | @mehrosaboran | 0",
                 "🇩🇪DE | 🔴 | vless | @mehrosaboran | 1",
+                "🇺🇸US | 🔴 | vless | @mehrosaboran | 2",
                 "🇮🇷IR | 🔴 | vless | @nofiltering2 | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -818,17 +818,39 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 144",
+            "tag": "❔XX | 🔴 | vless | @prrofile_purple | 150",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "63298f04-dd8c-4cc3-bc13-7a7d97416e2b",
-            "flow": "",
+            "server": "mehdi22.vact.ir",
+            "server_port": 2083,
+            "uuid": "6a26baa6-fcb1-4c44-9f84-bf9ef4b5987d",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cdn77.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "wlghahz8IBborsnQMFjenhi87XdUiueAe32SWbmOPxc",
+                    "short_id": "5745335c15"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram-Telegram-channel-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1382,7 +1404,7 @@
             "type": "vless",
             "server": "104.19.54.50",
             "server_port": 8080,
-            "uuid": "d0b522c8-9f85-45c2-b62c-b1b90fcfe2a8",
+            "uuid": "79af54f4-6fce-43f0-8992-67d42fe1445e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1403,7 +1425,7 @@
             "type": "vless",
             "server": "104.19.54.50",
             "server_port": 8080,
-            "uuid": "24de73ce-730a-4b5b-a9e2-172564ff3482",
+            "uuid": "d0b522c8-9f85-45c2-b62c-b1b90fcfe2a8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1420,7 +1442,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @mehrosaboran | 0",
+            "tag": "🇩🇪DE | 🔴 | vless | @mehrosaboran | 1",
             "type": "vless",
             "server": "91.107.168.205",
             "server_port": 443,
@@ -1456,24 +1478,17 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @mehrosaboran | 1",
+            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 2",
             "type": "vless",
-            "server": "116.203.133.145",
-            "server_port": 6666,
-            "uuid": "1004cc48-cc96-4b54-c3e8-10315f8caa7a",
+            "server": "151.101.2.165",
+            "server_port": 80,
+            "uuid": "bc3a7c38-e273-41dc-b920-52ee6f375cf4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
