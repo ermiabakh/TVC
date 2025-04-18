@@ -150,7 +150,6 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 322",
                 "❔XX | 🔴 | vless | @proxystore11 | 6",
-                "🇮🇷IR | 🔴 | vless | @free1_vpn | 4",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 5",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 13",
@@ -219,7 +218,6 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 322",
                 "❔XX | 🔴 | vless | @proxystore11 | 6",
-                "🇮🇷IR | 🔴 | vless | @free1_vpn | 4",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 5",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 13",
@@ -575,7 +573,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
-            "uuid": "7a92b1d2-5203-4e8c-be00-b44203239331",
+            "uuid": "a626f3f0-e855-4971-972b-078ded39dc9d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -596,7 +594,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
-            "uuid": "499ee684-0b9b-4037-bccc-ae87322dd0a2",
+            "uuid": "7a92b1d2-5203-4e8c-be00-b44203239331",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1232,20 +1230,6 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @free1_vpn | 4",
-            "type": "vless",
-            "server": "85.133.206.197",
-            "server_port": 14000,
-            "uuid": "51b73782-3536-48d7-b125-9e3f48c4052f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | @free1_vpn | 5",
             "type": "vless",
             "server": "www.speedtest.net",
@@ -1290,9 +1274,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 13",
             "type": "vless",
-            "server": "104.26.12.54",
-            "server_port": 443,
-            "uuid": "59860b15-b2d9-47f9-9b92-81bd1639fcc5",
+            "server": "104.17.128.1",
+            "server_port": 2096,
+            "uuid": "d6b8011a-c725-435a-9fec-bf6d3530392c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1302,7 +1286,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "5-55sfjslf.ifenxiang.cfd",
+                "server_name": "vlee.amclubs.nyc.mn",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1314,15 +1298,15 @@
                 "type": "ws",
                 "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "5-55sfjslf.ifenxiang.cfd"
+                    "Host": "vlee.amclubs.nyc.mn"
                 }
             }
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 14",
             "type": "vless",
-            "server": "172.67.75.194",
-            "server_port": 8443,
+            "server": "104.26.12.54",
+            "server_port": 443,
             "uuid": "59860b15-b2d9-47f9-9b92-81bd1639fcc5",
             "flow": "",
             "packet_encoding": "xudp",
