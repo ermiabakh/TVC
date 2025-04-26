@@ -148,7 +148,6 @@
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 2",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 3",
                 "🇳🇱NL | 🔴 | vless | @v2ray1_ng | 11",
-                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 12",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 11",
@@ -166,7 +165,6 @@
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
                 "🇸🇬SG | 🟢 | vmess | @Hope_Net | 3",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 15",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 16",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 6",
                 "❔XX | 🔴 | vless | @FreakConfig | 7",
@@ -232,7 +230,6 @@
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 2",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 3",
                 "🇳🇱NL | 🔴 | vless | @v2ray1_ng | 11",
-                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 12",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 11",
@@ -250,7 +247,6 @@
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
                 "🇸🇬SG | 🟢 | vmess | @Hope_Net | 3",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 15",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 16",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 6",
                 "❔XX | 🔴 | vless | @FreakConfig | 7",
@@ -1231,37 +1227,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @v2ray1_ng | 12",
-            "type": "vless",
-            "server": "104.25.254.4",
-            "server_port": 2087,
-            "uuid": "d6b8011a-c725-435a-9fec-bf6d3530392c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "vlee.amclubs.nyc.mn",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=2560",
-                "headers": {
-                    "Host": "vlee.amclubs.nyc.mn"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
             "type": "vless",
             "server": "172.67.187.170",
@@ -1729,7 +1694,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 15",
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 16",
             "type": "vless",
             "server": "162.159.10.162",
             "server_port": 2086,
@@ -1746,37 +1711,6 @@
                 "path": "\/Telegram@V2ray_Alpha",
                 "headers": {
                     "Host": "162.159.10.162"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 16",
-            "type": "vless",
-            "server": "void.crehistory.org",
-            "server_port": 2096,
-            "uuid": "84fcffc1-4f4f-4b66-bd2c-31a59681268b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "void.crehistory.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "void.crehistory.org"
                 }
             }
         },
