@@ -120,7 +120,6 @@
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 19",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 6",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 7",
-                "🇺🇸US | 🔴 | vless | @lightning6 | 19",
                 "🇲🇾MY | 🔴 | vless | @vpn_xw | 0",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 6",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
@@ -130,7 +129,7 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | 🔴 | vless | @Outline_Vpn | 15",
                 "🇨🇦CA | 🔴 | vless | @Outline_Vpn | 16",
-                "❔XX | 🔴 | vless | @prrofile_purple | 145",
+                "🇺🇸US | 🔴 | vless | @prrofile_purple | 145",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
                 "🇩🇪DE | 🟢 | vless | @ShadowProxy66 | 1",
@@ -190,7 +189,6 @@
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 19",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 6",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 7",
-                "🇺🇸US | 🔴 | vless | @lightning6 | 19",
                 "🇲🇾MY | 🔴 | vless | @vpn_xw | 0",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 6",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
@@ -200,7 +198,7 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | 🔴 | vless | @Outline_Vpn | 15",
                 "🇨🇦CA | 🔴 | vless | @Outline_Vpn | 16",
-                "❔XX | 🔴 | vless | @prrofile_purple | 145",
+                "🇺🇸US | 🔴 | vless | @prrofile_purple | 145",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
                 "🇩🇪DE | 🟢 | vless | @ShadowProxy66 | 1",
@@ -560,27 +558,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @lightning6 | 19",
-            "type": "vless",
-            "server": "151.101.64.155",
-            "server_port": 80,
-            "uuid": "09cc85d5-3bab-49f4-8e7b-1b5ada36f269",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6",
-                "headers": {
-                    "Host": "151.101.64.155"
-                }
-            }
-        },
-        {
             "tag": "🇲🇾MY | 🔴 | vless | @vpn_xw | 0",
             "type": "vless",
             "server": "43.216.181.43",
@@ -793,17 +770,34 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @prrofile_purple | 145",
+            "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 145",
             "type": "vless",
-            "server": "[2a01:4f8:1c1b:1051::1]",
-            "server_port": 27729,
-            "uuid": "TELEGRAM-ServerNett",
+            "server": "172.67.20.136",
+            "server_port": 443,
+            "uuid": "c7d543af-1023-4b96-a698-187c190d3f4c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "nautica.foolvpn.me",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/47.89.39.186-39251",
+                "headers": {
+                    "Host": "nautica.foolvpn.me"
+                }
             }
         },
         {
@@ -1234,9 +1228,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 372",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8443,
-            "uuid": "24a4aa9b-b341-4717-9d4a-00d74c2b84e0",
+            "server": "151.101.64.155",
+            "server_port": 80,
+            "uuid": "12e55de7-ebae-4263-d3c5-a6edac13697a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1244,30 +1238,20 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "K1pPbTe67S.aAaZzZaAa-8129.CoM",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Telegram-HqV2rayNG-Telegram-HqV2rayNG-Telegram-HqV2rayNG-Telegram-HqV2rayNG-Telegram-HqV2rayNG-Telegram-HqV2rayNGTelegram-HqV2rayNG-Telegram-HqV2rayNG-Telegram-HqV2rayNG-Telegram-HqV2rayNG-Telegram-HqV2rayNG-Telegram-HqV2rayNG-\/Telegram-HqV2rayNG-Telegram-HqV2rayNG-Telegram-HqV2rayNG-Telegram-HqV2rayNG-Telegram-HqV2rayNG-Telegram-HqV2rayNGTelegram-HqV2rayNG-Telegram-HqV2rayNG-Telegram-HqV2rayNG-Telegram-HqV2rayNG-Telegram-HqV2rayNG-Telegram-HqV2rayNG-\/Telegram-HqV2rayNG-Telegram-HqV2rayNG-Telegram-HqV2rayNG-Telegram-HqV2rayNG-Telegram-HqV2rayNG-Telegram-HqV2rayNGTelegram-HqV2rayNG-Telegram-HqV2rayNG-Telegram-HqV2rayNG-Telegram-HqV2rayNG-Telegram-HqV2rayNG-Telegram-HqV2rayNG",
                 "headers": {
-                    "Host": "K1pPbTe67S.aAaZzZaAa-8129.CoM"
+                    "Host": "151.101.64.155"
                 }
             }
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 373",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2096,
-            "uuid": "24a4aa9b-b341-4717-9d4a-00d74c2b84e0",
+            "server": "104.16.186.41",
+            "server_port": 443,
+            "uuid": "102e5f34-1913-4dd3-a1f2-f831d891a490",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1277,7 +1261,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "0I1yE95cNq.AaAzZzAaA-8129.cOm",
+                "server_name": "cr7.traneh.dpdns.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1287,9 +1271,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/sinavm-sinavm\/?ed=2560",
                 "headers": {
-                    "Host": "0I1yE95cNq.AaAzZzAaA-8129.cOm"
+                    "Host": "cr7.traneh.dpdns.org"
                 }
             }
         },
