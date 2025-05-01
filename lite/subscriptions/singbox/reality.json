@@ -109,9 +109,10 @@
                 "🇫🇮FI | 🟢 | vless | @Parsashonam | 37",
                 "❔XX | 🟢 | vless | @VmessProtocol | 14",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 15",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 375",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "❔XX | 🔴 | vless | @SvnTeam | 8"
+                "🇩🇪DE | 🔴 | vless | @SvnTeam | 8"
             ]
         },
         {
@@ -121,9 +122,10 @@
                 "🇫🇮FI | 🟢 | vless | @Parsashonam | 37",
                 "❔XX | 🟢 | vless | @VmessProtocol | 14",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 15",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 375",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "❔XX | 🔴 | vless | @SvnTeam | 8"
+                "🇩🇪DE | 🔴 | vless | @SvnTeam | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -233,6 +235,35 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 375",
+            "type": "vless",
+            "server": "15.204.204.157",
+            "server_port": 51540,
+            "uuid": "4483a446-1472-434c-8bc0-4340df7ccdd2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.esgtoday.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "0sVP29waPeTBwnhYCsJ4wCV65RchWDYkTT-NRDWZRxU",
+                    "short_id": "80bc"
+                }
+            }
+        },
+        {
             "tag": "❔XX | 🔴 | vless | @vpn_go67 | 20",
             "type": "vless",
             "server": "public.alpanel.top",
@@ -305,7 +336,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @SvnTeam | 8",
+            "tag": "🇩🇪DE | 🔴 | vless | @SvnTeam | 8",
             "type": "vless",
             "server": "SVNTEAM.MiSVN.iR",
             "server_port": 443,
