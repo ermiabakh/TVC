@@ -158,7 +158,6 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇫🇮FI | 🔴 | vless | @VmessProtocol | 14",
                 "❔XX | 🟢 | vless | @VmessProtocol | 15",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 326",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 6",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
@@ -243,7 +242,6 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇫🇮FI | 🔴 | vless | @VmessProtocol | 14",
                 "❔XX | 🟢 | vless | @VmessProtocol | 15",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 326",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 6",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
@@ -1414,27 +1412,6 @@
                     "enabled": true,
                     "public_key": "q7hb9bUwTztHAd0l_B1VXphQlTrt9Tisnzm-l9r-3xM",
                     "short_id": "4022a0e5fa8ccd7f"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 326",
-            "type": "vless",
-            "server": "tgju.org",
-            "server_port": 80,
-            "uuid": "028b8bdf-5831-4dc6-92c4-030ac151f587",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "tgju.org"
                 }
             }
         },
