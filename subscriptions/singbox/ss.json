@@ -106,26 +106,26 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "❔XX | 🟢 | ss | @DeamNet_Proxy | 2",
-                "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 3",
-                "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 4",
-                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 7",
-                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 11",
-                "🇬🇹GT | 🟢 | ss | @DeamNet_Proxy | 12",
-                "🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 17"
+                "🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 1",
+                "❔XX | 🟢 | ss | @DeamNet_Proxy | 4",
+                "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 5",
+                "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 6",
+                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 9",
+                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 13",
+                "🇬🇹GT | 🟢 | ss | @DeamNet_Proxy | 14"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "❔XX | 🟢 | ss | @DeamNet_Proxy | 2",
-                "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 3",
-                "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 4",
-                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 7",
-                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 11",
-                "🇬🇹GT | 🟢 | ss | @DeamNet_Proxy | 12",
-                "🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 17"
+                "🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 1",
+                "❔XX | 🟢 | ss | @DeamNet_Proxy | 4",
+                "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 5",
+                "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 6",
+                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 9",
+                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 13",
+                "🇬🇹GT | 🟢 | ss | @DeamNet_Proxy | 14"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -148,7 +148,17 @@
             "type": "dns"
         },
         {
-            "tag": "❔XX | 🟢 | ss | @DeamNet_Proxy | 2",
+            "tag": "🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 1",
+            "type": "shadowsocks",
+            "server": "mx2.drawnrisha.one",
+            "server_port": 55988,
+            "method": "chacha20-ietf-poly1305",
+            "password": "NRKiRKbFdENKGAB1Dtk3asvtimbQnmDS4qVG8YQeeggj92VKDxejBu98VEcWn2DG6afNaYMBmQ36WruT9RUgqxWXx5VkwW3X",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "❔XX | 🟢 | ss | @DeamNet_Proxy | 4",
             "type": "shadowsocks",
             "server": "Freakconfig139.usecharge.ir",
             "server_port": 443,
@@ -158,7 +168,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 3",
+            "tag": "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 5",
             "type": "shadowsocks",
             "server": "64.176.184.129",
             "server_port": 1866,
@@ -168,7 +178,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 4",
+            "tag": "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 6",
             "type": "shadowsocks",
             "server": "series-a1.samanehha.co",
             "server_port": 443,
@@ -178,7 +188,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 7",
+            "tag": "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 9",
             "type": "shadowsocks",
             "server": "67.220.95.102",
             "server_port": 8091,
@@ -188,7 +198,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 11",
+            "tag": "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 13",
             "type": "shadowsocks",
             "server": "67.220.95.102",
             "server_port": 5499,
@@ -198,22 +208,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇹GT | 🟢 | ss | @DeamNet_Proxy | 12",
+            "tag": "🇬🇹GT | 🟢 | ss | @DeamNet_Proxy | 14",
             "type": "shadowsocks",
             "server": "185.47.254.87",
             "server_port": 990,
             "method": "chacha20-ietf-poly1305",
             "password": "f8f7aCzcPKbsF8p3",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 17",
-            "type": "shadowsocks",
-            "server": "mx2.drawnrisha.one",
-            "server_port": 55988,
-            "method": "chacha20-ietf-poly1305",
-            "password": "YZvzh9FMJh6ac6moh8xtkMogmwEZDL5nF99PSFDk7NffhikzuHe3CUUYzudGcaLW5vMzECV29QiH856gj62VnAcgQ2oHY5DV",
             "plugin": "",
             "plugin_opts": ""
         }
