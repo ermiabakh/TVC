@@ -130,14 +130,13 @@
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 20",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
+                "🇺🇸US | 🔴 | vless | @Outline_Vpn | 11",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 12",
-                "🇳🇱NL | 🔴 | vless | @Outline_Vpn | 13",
-                "🇳🇱NL | 🔴 | vless | @prrofile_purple | 146",
-                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 147",
+                "❔XX | 🔴 | vless | @prrofile_purple | 138",
+                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 139",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
                 "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 0",
-                "❔XX | 🔴 | vless | @ServerNett | 11",
                 "❔XX | 🔴 | vless | @ServerNett | 12",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
@@ -166,7 +165,7 @@
                 "❔XX | 🟢 | vless | @nofiltering2 | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "🇸🇪SE | 🔴 | vless | @kingofilter | 17",
+                "🇸🇪SE | 🔴 | vless | @kingofilter | 18",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 0",
                 "🇺🇸US | 🔴 | vless | @SvnTeam | 7",
                 "❔XX | 🔴 | vless | @SvnTeam | 8",
@@ -203,14 +202,13 @@
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 20",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
+                "🇺🇸US | 🔴 | vless | @Outline_Vpn | 11",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 12",
-                "🇳🇱NL | 🔴 | vless | @Outline_Vpn | 13",
-                "🇳🇱NL | 🔴 | vless | @prrofile_purple | 146",
-                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 147",
+                "❔XX | 🔴 | vless | @prrofile_purple | 138",
+                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 139",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
                 "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 0",
-                "❔XX | 🔴 | vless | @ServerNett | 11",
                 "❔XX | 🔴 | vless | @ServerNett | 12",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
@@ -239,7 +237,7 @@
                 "❔XX | 🟢 | vless | @nofiltering2 | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "🇸🇪SE | 🔴 | vless | @kingofilter | 17",
+                "🇸🇪SE | 🔴 | vless | @kingofilter | 18",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 0",
                 "🇺🇸US | 🔴 | vless | @SvnTeam | 7",
                 "❔XX | 🔴 | vless | @SvnTeam | 8",
@@ -777,6 +775,27 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🔴 | vless | @Outline_Vpn | 11",
+            "type": "vless",
+            "server": "tgju.org",
+            "server_port": 8080,
+            "uuid": "0eb83f3e-7b95-427a-8952-abedfca1869f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "tgju.org"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🔴 | vless | @Outline_Vpn | 12",
             "type": "vless",
             "server": "104.26.12.54",
@@ -808,11 +827,25 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | @Outline_Vpn | 13",
+            "tag": "❔XX | 🔴 | vless | @prrofile_purple | 138",
             "type": "vless",
-            "server": "88.218.95.8",
-            "server_port": 8880,
-            "uuid": "9e28dd25-f4e1-4434-a31d-40c8ed0c0f52",
+            "server": "[2a01:4f8:1c1b:2411::1]",
+            "server_port": 31086,
+            "uuid": "TELEGRAM-ServerNett",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇮🇷IR | 🔴 | vless | @prrofile_purple | 139",
+            "type": "vless",
+            "server": "178.239.155.42",
+            "server_port": 51377,
+            "uuid": "9d6f25dd-0445-4efc-bca1-69615e408975",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -821,46 +854,11 @@
                 "max_streams": 32
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "vless-grpc",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇳🇱NL | 🔴 | vless | @prrofile_purple | 146",
-            "type": "vless",
-            "server": "5.253.30.14",
-            "server_port": 8880,
-            "uuid": "c7d4b0f6-0f18-45a3-97c7-caaf373f032d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "vless-grpc",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🔴 | vless | @prrofile_purple | 147",
-            "type": "vless",
-            "server": "AK111.amirak.cfd",
-            "server_port": 25679,
-            "uuid": "95984f4e-0733-4430-a937-f630cb2fb113",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "178.239.155.42"
+                }
             }
         },
         {
@@ -949,20 +947,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @ServerNett | 11",
-            "type": "vless",
-            "server": "[2a01:4f8:1c1b:2411::1]",
-            "server_port": 31086,
-            "uuid": "TELEGRAM-ServerNett",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -1671,7 +1655,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @kingofilter | 17",
+            "tag": "🇸🇪SE | 🔴 | vless | @kingofilter | 18",
             "type": "vless",
             "server": "91.92.40.78",
             "server_port": 2070,
