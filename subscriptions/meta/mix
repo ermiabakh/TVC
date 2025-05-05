@@ -413,7 +413,6 @@ proxies:
   - {"name":"❔XX | 🟢 | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
   - {"name":"🇨🇳CN | 🟢 | vmess | @Hope_Net | 0","type":"vmess","server":"ee53ff51-sux8g0-sxxbmq-1szgv.cm5.p5pv.com","port":"17235","cipher":"auto","uuid":"448aff24-b2e6-11ef-97e0-f23c9164ca5d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 1","type":"vmess","server":"xb-vm-us.718181.xyz","port":"16896","cipher":"auto","uuid":"ceea1971-e995-47da-9f5a-af1eec2486e7","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"minipkg.dingtalk.com"}}}
-  - {"name":"🇨🇳CN | 🟢 | vmess | @Hope_Net | 3","type":"vmess","server":"12.wogg1.top","port":"11212","cipher":"auto","uuid":"7234ac18-c61d-3d60-a866-057af106620c","alterId":"2","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇩🇪DE | 🔴 | vless | @fnet00 | 0","type":"vless","server":"162.19.228.119","port":80,"udp":false,"uuid":"dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/http","headers":{"host":"google.com"}}}
   - {"name":"🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 0","type":"vless","server":"45.131.6.160","port":443,"udp":false,"uuid":"838f5273-5d2d-4630-a0f5-9cc8e4aef4d6","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"CxNiMjJz.cAfUnEaR.InFo","ws-opts":{"path":"/","headers":{"host":"CxNiMjJz.cAfUnEaR.InFo"}}}
   - {"name":"🚩CF | 🔴 | vless | @Outlinev2rayNG | 1","type":"vless","server":"104.21.80.1","port":80,"udp":false,"uuid":"10d9df89-9a20-4110-9711-bca119490ee9","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/Telegram-Telegram-mtmvpn---Telegram-mtmvpn","headers":{"host":"masaleini.mahsaamini.dpdns.org"}}}
@@ -772,7 +771,6 @@ proxy-groups:
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
       - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 0'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 1'
-      - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 3'
       - '🇩🇪DE | 🔴 | vless | @fnet00 | 0'
       - '🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 0'
       - '🚩CF | 🔴 | vless | @Outlinev2rayNG | 1'
@@ -1131,7 +1129,6 @@ proxy-groups:
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
       - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 0'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 1'
-      - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 3'
       - '🇩🇪DE | 🔴 | vless | @fnet00 | 0'
       - '🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 0'
       - '🚩CF | 🔴 | vless | @Outlinev2rayNG | 1'
@@ -1489,7 +1486,6 @@ proxy-groups:
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
       - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 0'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 1'
-      - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 3'
       - '🇩🇪DE | 🔴 | vless | @fnet00 | 0'
       - '🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 0'
       - '🚩CF | 🔴 | vless | @Outlinev2rayNG | 1'
