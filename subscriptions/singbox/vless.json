@@ -416,7 +416,6 @@
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 7",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 8",
-                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 9",
                 "🇩🇪DE | 🟢 | vless | @FreakConfig | 0",
                 "🇹🇷TR | 🔴 | vless | @FreakConfig | 5",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 8",
@@ -804,7 +803,6 @@
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 7",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 8",
-                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 9",
                 "🇩🇪DE | 🟢 | vless | @FreakConfig | 0",
                 "🇹🇷TR | 🔴 | vless | @FreakConfig | 5",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 8",
@@ -7982,30 +7980,6 @@
                 "path": "\/MgovppNO6WZwOCU5JqXZxjQ5ILc",
                 "headers": {
                     "Host": "3edcvb.huangshang2030.dpdns.org"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 9",
-            "type": "vless",
-            "server": "135.148.152.98",
-            "server_port": 443,
-            "uuid": "ea286109-d20f-415e-849e-4af20ab04b65",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "147135001195.sec22org.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         },
