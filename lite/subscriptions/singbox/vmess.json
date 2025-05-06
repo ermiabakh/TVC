@@ -112,8 +112,8 @@
                 "🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 9",
-                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 10"
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 6",
+                "❔XX | 🟢 | vmess | @Hope_Net | 7"
             ]
         },
         {
@@ -126,8 +126,8 @@
                 "🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 9",
-                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 10"
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 6",
+                "❔XX | 🟢 | vmess | @Hope_Net | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -276,45 +276,11 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 9",
+            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "jp6.g2.moonbase.life",
-            "server_port": 35216,
-            "uuid": "c3136814-a07e-41f6-ad94-8e20458c0d21",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "jp6.g2.moonbase.life",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/home",
-                "headers": {
-                    "Host": "jp6.g2.moonbase.life"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺RU | 🟢 | vmess | @Hope_Net | 10",
-            "type": "vmess",
-            "server": "45.147.201.231",
-            "server_port": 20023,
-            "uuid": "79a4da53-c46e-4159-b4fb-55aac91a86ad",
+            "server": "t.cnmjcn.cyou",
+            "server_port": 16616,
+            "uuid": "4ebd7d8a-cc40-4c32-af1c-c459f9d672ef",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -329,7 +295,31 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "45.147.201.231"
+                    "Host": "t.cnmjcn.cyou"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 7",
+            "type": "vmess",
+            "server": "7f342c38-svjgg0-tdnzz0-1qtp7.lzc.plebai.net",
+            "server_port": 5126,
+            "uuid": "3653c708-df72-11ee-aec1-f23c9164ca5d",
+            "security": "auto",
+            "alter_id": 2,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "7f342c38-svjgg0-tdnzz0-1qtp7.lzc.plebai.net"
                 }
             }
         }
