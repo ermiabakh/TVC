@@ -174,7 +174,7 @@
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 10",
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 11",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 0",
-                "🇨🇦CA | 🔴 | vless | @ARv2ray | 1",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 1",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 2",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 3",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 5",
@@ -406,6 +406,7 @@
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 3",
                 "🇮🇷IR | 🔴 | vless | @free1_vpn | 7",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 8",
+                "🇮🇷IR | 🔴 | vless | @free1_vpn | 9",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 3",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 5",
@@ -556,7 +557,7 @@
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 10",
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 11",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 0",
-                "🇨🇦CA | 🔴 | vless | @ARv2ray | 1",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 1",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 2",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 3",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 5",
@@ -788,6 +789,7 @@
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 3",
                 "🇮🇷IR | 🔴 | vless | @free1_vpn | 7",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 8",
+                "🇮🇷IR | 🔴 | vless | @free1_vpn | 9",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 3",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 5",
@@ -2131,7 +2133,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @ARv2ray | 1",
+            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 1",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8080,
@@ -7702,6 +7704,20 @@
                 "headers": {
                     "Host": "www.speedtest.net"
                 }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | 🔴 | vless | @free1_vpn | 9",
+            "type": "vless",
+            "server": "62.60.194.102",
+            "server_port": 4405,
+            "uuid": "9c1cd140-4770-49b0-9340-16ac9fcfcd35",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
