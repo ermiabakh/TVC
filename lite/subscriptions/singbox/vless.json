@@ -145,7 +145,7 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 13",
                 "🇫🇮FI | 🔴 | vless | @VmessProtocol | 14",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 250",
+                "🇳🇱NL | 🔴 | vless | @DailyV2RY | 250",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 251",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 3",
@@ -213,7 +213,7 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 13",
                 "🇫🇮FI | 🔴 | vless | @VmessProtocol | 14",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 250",
+                "🇳🇱NL | 🔴 | vless | @DailyV2RY | 250",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 251",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 3",
@@ -1159,11 +1159,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 250",
+            "tag": "🇳🇱NL | 🔴 | vless | @DailyV2RY | 250",
             "type": "vless",
-            "server": "tgju.org",
-            "server_port": 80,
-            "uuid": "29d08a17-1cf5-4156-837f-09059b969b96",
+            "server": "140.82.58.108",
+            "server_port": 8080,
+            "uuid": "13ad7034-3000-4c92-b925-7baf2ce74a14",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1175,7 +1175,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "tgju.org"
+                    "Host": "140.82.58.108"
                 }
             }
         },
@@ -1184,7 +1184,7 @@
             "type": "vless",
             "server": "tgju.org",
             "server_port": 80,
-            "uuid": "16011bbc-cf8c-4b79-abce-3a35ca189a3b",
+            "uuid": "061c8e17-ce4b-4eda-baaa-2ef056d7626b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1321,6 +1321,37 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
             "type": "vless",
+            "server": "172.67.204.84",
+            "server_port": 443,
+            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ipsychO.SUEx12.Ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/re5IzbZ9IZZMddtw?ed=2560",
+                "headers": {
+                    "Host": "ipsychO.SUEx12.Ir"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
+            "type": "vless",
             "server": "104.17.147.22",
             "server_port": 2096,
             "uuid": "96a1b724-68d2-4f4d-ab25-38ecd83577bc",
@@ -1346,37 +1377,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "ScKzAhYz14.qUiCkOrA.OrG"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
-            "type": "vless",
-            "server": "104.21.96.1",
-            "server_port": 443,
-            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "iPsyCHO.SUEx12.iR",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/RiuadVWEiFmFyL3C?ed=2560",
-                "headers": {
-                    "Host": "iPsyCHO.SUEx12.iR"
                 }
             }
         },
