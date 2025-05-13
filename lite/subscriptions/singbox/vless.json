@@ -148,8 +148,8 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇳🇱NL | 🔴 | vless | @VmessProtocol | 13",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 14",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 332",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 333",
+                "🇩🇪DE | 🔴 | vless | @DailyV2RY | 333",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 334",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 3",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 8",
@@ -217,8 +217,8 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇳🇱NL | 🔴 | vless | @VmessProtocol | 13",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 14",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 332",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 333",
+                "🇩🇪DE | 🔴 | vless | @DailyV2RY | 333",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 334",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 3",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 8",
@@ -1237,32 +1237,25 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 332",
+            "tag": "🇩🇪DE | 🔴 | vless | @DailyV2RY | 333",
             "type": "vless",
-            "server": "tgju.org",
-            "server_port": 80,
-            "uuid": "375ebb4e-ce95-4946-94f5-97785e1064ac",
+            "server": "3.127.21.169",
+            "server_port": 443,
+            "uuid": "d8b42cd5-a149-4356-9e61-30ad83662600",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "tgju.org"
-                }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 333",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 334",
             "type": "vless",
             "server": "tgju.org",
             "server_port": 80,
-            "uuid": "220e3894-fb5c-492e-bf07-0c2d787b4c3d",
+            "uuid": "0f8fac4e-4d6c-4f6c-8bc6-22a3c065ba6f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
