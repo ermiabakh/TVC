@@ -165,7 +165,8 @@ proxies:
   - {"name":"❔XX | 🟢 | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
   - {"name":"🇺🇸US | 🔴 | vless | @free1_vpn | 13","type":"vless","server":"www.speedtest.net","port":80,"udp":false,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/","headers":{"host":"redfree8mahsang6.redfree8.ir"}}}
   - {"name":"🇩🇪DE | 🔴 | vless | @fnet00 | 0","type":"vless","server":"162.19.228.119","port":80,"udp":false,"uuid":"dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/http","headers":{"host":"google.com"}}}
-  - {"name":"🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7","type":"vless","server":"104.21.69.44","port":443,"udp":false,"uuid":"f12977e6-d296-4d94-9aaf-d31770b70f84","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"cr77.hedieh.dpdns.org","ws-opts":{"path":"/","headers":{"host":"cr77.hedieh.dpdns.org"}}}
+  - {"name":"🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8","type":"vless","server":"104.16.41.28","port":443,"udp":false,"uuid":"15298f41-e80b-463a-b85b-0c903258a1c8","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"d5.medicaltreatment.ir","ws-opts":{"path":"/","headers":{"host":"d5.medicaltreatment.ir"}}}
+  - {"name":"🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9","type":"vless","server":"104.21.69.44","port":443,"udp":false,"uuid":"f12977e6-d296-4d94-9aaf-d31770b70f84","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"cr77.hedieh.dpdns.org","ws-opts":{"path":"/","headers":{"host":"cr77.hedieh.dpdns.org"}}}
   - {"name":"🇩🇪DE | 🟢 | vless | @FreakConfig | 0","type":"vless","server":"23.88.62.209","port":2089,"udp":true,"uuid":"15f858a5-3b51-4fe1-a66b-39871f86cc3f","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"refersion.com","reality-opts":{"public-key":"bvEBes1y2n6327dEgJyZTR6Xz_EuyfLdkEX7DxWGFFg","short-id":"e3c5c005cae07eb8"}}
   - {"name":"🇺🇸US | 🔴 | vless | @flyv2ray | 15","type":"vless","server":"zmaoz.faculty.ucdavis.edu","port":80,"udp":false,"uuid":"75f66308-eb61-418f-a0f0-3fe8d6158999","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/olem/ws?ed=1024","headers":{"host":"foffmelo.com"}}}
   - {"name":"❔XX | 🔴 | vless | @flyv2ray | 16","type":"vless","server":"website.acveo.ir","port":8080,"udp":false,"uuid":"1bc63b1b-5d65-4230-b6bd-84c141eb1da5","tls":false,"network":"httpupgrade","client-fingerprint":"chrome"}
@@ -226,7 +227,8 @@ proxy-groups:
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
       - '🇺🇸US | 🔴 | vless | @free1_vpn | 13'
       - '🇩🇪DE | 🔴 | vless | @fnet00 | 0'
-      - '🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7'
+      - '🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8'
+      - '🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9'
       - '🇩🇪DE | 🟢 | vless | @FreakConfig | 0'
       - '🇺🇸US | 🔴 | vless | @flyv2ray | 15'
       - '❔XX | 🔴 | vless | @flyv2ray | 16'
@@ -287,7 +289,8 @@ proxy-groups:
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
       - '🇺🇸US | 🔴 | vless | @free1_vpn | 13'
       - '🇩🇪DE | 🔴 | vless | @fnet00 | 0'
-      - '🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7'
+      - '🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8'
+      - '🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9'
       - '🇩🇪DE | 🟢 | vless | @FreakConfig | 0'
       - '🇺🇸US | 🔴 | vless | @flyv2ray | 15'
       - '❔XX | 🔴 | vless | @flyv2ray | 16'
@@ -347,7 +350,8 @@ proxy-groups:
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
       - '🇺🇸US | 🔴 | vless | @free1_vpn | 13'
       - '🇩🇪DE | 🔴 | vless | @fnet00 | 0'
-      - '🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7'
+      - '🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8'
+      - '🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9'
       - '🇩🇪DE | 🟢 | vless | @FreakConfig | 0'
       - '🇺🇸US | 🔴 | vless | @flyv2ray | 15'
       - '❔XX | 🔴 | vless | @flyv2ray | 16'
