@@ -156,8 +156,8 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇳🇱NL | 🔴 | vless | @VmessProtocol | 13",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 14",
-                "🇨🇦CA | 🔴 | vless | @DailyV2RY | 336",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 337",
+                "🇨🇦CA | 🔴 | vless | @DailyV2RY | 335",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 336",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 1",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
@@ -235,8 +235,8 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇳🇱NL | 🔴 | vless | @VmessProtocol | 13",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 14",
-                "🇨🇦CA | 🔴 | vless | @DailyV2RY | 336",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 337",
+                "🇨🇦CA | 🔴 | vless | @DailyV2RY | 335",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 336",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 1",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
@@ -1436,9 +1436,9 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @DailyV2RY | 336",
+            "tag": "🇨🇦CA | 🔴 | vless | @DailyV2RY | 335",
             "type": "vless",
-            "server": "159.203.11.74",
+            "server": "159.203.11.94",
             "server_port": 5376,
             "uuid": "217b2806-44e6-4d84-bd1e-8431a9dcfba5",
             "flow": "xtls-rprx-vision",
@@ -1465,11 +1465,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 337",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 336",
             "type": "vless",
-            "server": "45.77.120.195",
+            "server": "45.63.68.191",
             "server_port": 8080,
-            "uuid": "044ea0d1-309e-42a3-b9b0-a9fab400929e",
+            "uuid": "0097a687-ee3d-48da-bf83-aabcd744fc05",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1481,7 +1481,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "45.77.120.195"
+                    "Host": "45.63.68.191"
                 }
             }
         },
