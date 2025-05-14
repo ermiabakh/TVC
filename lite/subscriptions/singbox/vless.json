@@ -155,7 +155,7 @@
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 14",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
-                "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 8",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
                 "❔XX | 🔴 | vless | @flyv2ray | 15",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 16",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -223,7 +223,7 @@
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 14",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
-                "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 8",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
                 "❔XX | 🔴 | vless | @flyv2ray | 15",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 16",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -1421,12 +1421,12 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 8",
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
             "type": "vless",
-            "server": "162.55.36.107",
-            "server_port": 577,
-            "uuid": "bf4631cc-27eb-4b8e-ab85-5db1ddab6125",
-            "flow": "xtls-rprx-vision",
+            "server": "www.speedtest.net",
+            "server_port": 8443,
+            "uuid": "96a1b724-68d2-4f4d-ab25-38ecd83577bc",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1435,17 +1435,19 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "stackoverflow.com",
+                "server_name": "JpHzJdVn27.bLuEvIa.oRg",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "AU2O1no3apJnMhDrfHwDACAwFDo8-DZkCL66AXSRbh8",
-                    "short_id": "9b28132c703433"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "JpHzJdVn27.bLuEvIa.oRg"
                 }
             }
         },
