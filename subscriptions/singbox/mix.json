@@ -411,7 +411,7 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 31",
                 "❔XX | 🔴 | vless | @v2ray_swhil | 32",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 33",
-                "🇺🇸US | 🔴 | vless | @v2ray_swhil | 34",
+                "🇨🇦CA | 🔴 | vless | @v2ray_swhil | 34",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 35",
                 "❔XX | 🔴 | vless | @v2ray_swhil | 36",
                 "🚩CF | 🔴 | vless | @v2ray_swhil | 37",
@@ -496,7 +496,6 @@
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 9",
                 "🚩CF | 🔴 | vless | @free1_vpn | 10",
                 "🇱🇻LV | 🔴 | vless | @free1_vpn | 12",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 0",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 1",
                 "🇷🇺RU | 🔴 | vless | @Outlinev2rayNG | 3",
@@ -877,7 +876,7 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 31",
                 "❔XX | 🔴 | vless | @v2ray_swhil | 32",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 33",
-                "🇺🇸US | 🔴 | vless | @v2ray_swhil | 34",
+                "🇨🇦CA | 🔴 | vless | @v2ray_swhil | 34",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 35",
                 "❔XX | 🔴 | vless | @v2ray_swhil | 36",
                 "🚩CF | 🔴 | vless | @v2ray_swhil | 37",
@@ -962,7 +961,6 @@
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 9",
                 "🚩CF | 🔴 | vless | @free1_vpn | 10",
                 "🇱🇻LV | 🔴 | vless | @free1_vpn | 12",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 0",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 1",
                 "🇷🇺RU | 🔴 | vless | @Outlinev2rayNG | 3",
@@ -7919,7 +7917,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @v2ray_swhil | 34",
+            "tag": "🇨🇦CA | 🔴 | vless | @v2ray_swhil | 34",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2052,
@@ -10097,23 +10095,6 @@
                 "headers": {
                     "Host": "lv01.abvpn.ru"
                 }
-            }
-        },
-        {
-            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 0",
-            "type": "vmess",
-            "server": "183.236.51.38",
-            "server_port": 41554,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
-            "security": "auto",
-            "alter_id": 64,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
