@@ -131,7 +131,8 @@
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 20",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 148",
+                "🇳🇱NL | 🟢 | vless | @prrofile_purple | 155",
+                "🇺🇸US | 🔴 | vless | @prrofile_purple | 156",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
                 "🇫🇮FI | 🔴 | vless | @ShadowProxy66 | 0",
@@ -198,7 +199,8 @@
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 20",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 148",
+                "🇳🇱NL | 🟢 | vless | @prrofile_purple | 155",
+                "🇺🇸US | 🔴 | vless | @prrofile_purple | 156",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
                 "🇫🇮FI | 🔴 | vless | @ShadowProxy66 | 0",
@@ -879,11 +881,40 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 148",
+            "tag": "🇳🇱NL | 🟢 | vless | @prrofile_purple | 155",
             "type": "vless",
-            "server": "151.101.64.155",
+            "server": "213.21.245.83",
+            "server_port": 443,
+            "uuid": "4c41dd88-6632-4c7a-8dbb-e276bf78b357",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "TXHciLv9Ctu7k7sdIcadLJIEa1WTCIseYctDMa6NW0c",
+                    "short_id": "7e39db0c"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 156",
+            "type": "vless",
+            "server": "www.speedtest.net",
             "server_port": 80,
-            "uuid": "telegram-id-ArV2ray1",
+            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -893,9 +924,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/-ArV2ry@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry",
+                "path": "\/",
                 "headers": {
-                    "Host": "151.101.64.155"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
