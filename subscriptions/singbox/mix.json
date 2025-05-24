@@ -468,7 +468,6 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
-                "🇸🇬SG | 🟢 | vmess | @Hope_Net | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 0",
                 "🚩CF | 🔴 | vless | @fnet00 | 1",
                 "🇱🇻LV | 🔴 | vless | @Outlinev2rayNG | 3",
@@ -508,6 +507,8 @@
                 "🇬🇧GB | 🟢 | ss | @kingofilter | 10",
                 "🇩🇪DE | 🔴 | vless | @kingofilter | 11",
                 "🚩CF | 🔴 | vless | @kingofilter | 12",
+                "🚩CF | 🔴 | vless | @kingofilter | 13",
+                "🇺🇸US | 🔴 | vless | @kingofilter | 14",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 0",
                 "🇩🇪DE | 🔴 | vless | @SvnTeam | 0",
                 "❔XX | 🟢 | vless | @SvnTeam | 1",
@@ -890,7 +891,6 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
-                "🇸🇬SG | 🟢 | vmess | @Hope_Net | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 0",
                 "🚩CF | 🔴 | vless | @fnet00 | 1",
                 "🇱🇻LV | 🔴 | vless | @Outlinev2rayNG | 3",
@@ -930,6 +930,8 @@
                 "🇬🇧GB | 🟢 | ss | @kingofilter | 10",
                 "🇩🇪DE | 🔴 | vless | @kingofilter | 11",
                 "🚩CF | 🔴 | vless | @kingofilter | 12",
+                "🚩CF | 🔴 | vless | @kingofilter | 13",
+                "🇺🇸US | 🔴 | vless | @kingofilter | 14",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 0",
                 "🇩🇪DE | 🔴 | vless | @SvnTeam | 0",
                 "❔XX | 🟢 | vless | @SvnTeam | 1",
@@ -9402,23 +9404,6 @@
             }
         },
         {
-            "tag": "🇸🇬SG | 🟢 | vmess | @Hope_Net | 0",
-            "type": "vmess",
-            "server": "8.222.223.192",
-            "server_port": 26325,
-            "uuid": "e58e1439-7181-4344-842f-0e46fc71ed93",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | @fnet00 | 0",
             "type": "vless",
             "server": "www.speedtest.net",
@@ -10558,6 +10543,68 @@
             "transport": {
                 "type": "ws",
                 "path": "\/re5IzbZ9IZZMddtw?ed=2560flow=-udp443flow=-udp443",
+                "headers": {
+                    "Host": "ipsychO.SUEx12.Ir"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🔴 | vless | @kingofilter | 13",
+            "type": "vless",
+            "server": "162.159.153.28",
+            "server_port": 2083,
+            "uuid": "6965e558-73a4-4808-a778-67e8a82d15aa",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "1.659118019.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram@V2ray_Alpha\/?ed=2560",
+                "headers": {
+                    "Host": "1.659118019.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @kingofilter | 14",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ipsychO.SUEx12.Ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/re5IzbZ9IZZMddtw?ed=2560\/?JOKERRVPNJoin_Bade_Channel@JOKERRVPN",
                 "headers": {
                     "Host": "ipsychO.SUEx12.Ir"
                 }
