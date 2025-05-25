@@ -137,8 +137,9 @@
                 "🇮🇷IR | 🟢 | vless | @proxystore11 | 0",
                 "🇮🇷IR | 🟢 | vless | @proxystore11 | 1",
                 "🇮🇷IR | 🟢 | vless | @proxystore11 | 2",
-                "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 5",
-                "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 6",
+                "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 0",
+                "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 6",
+                "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 7",
                 "❔XX | 🔴 | vless | @flyv2ray | 1",
                 "❔XX | 🔴 | vless | @flyv2ray | 2",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
@@ -200,8 +201,9 @@
                 "🇮🇷IR | 🟢 | vless | @proxystore11 | 0",
                 "🇮🇷IR | 🟢 | vless | @proxystore11 | 1",
                 "🇮🇷IR | 🟢 | vless | @proxystore11 | 2",
-                "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 5",
-                "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 6",
+                "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 0",
+                "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 6",
+                "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 7",
                 "❔XX | 🔴 | vless | @flyv2ray | 1",
                 "❔XX | 🔴 | vless | @flyv2ray | 2",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
@@ -1259,7 +1261,36 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 5",
+            "tag": "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 0",
+            "type": "vless",
+            "server": "23.88.62.209",
+            "server_port": 2089,
+            "uuid": "c05d6d23-b67b-4f00-ad57-a754a222ea83",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "bvEBes1y2n6327dEgJyZTR6Xz_EuyfLdkEX7DxWGFFg",
+                    "short_id": "e3c5c005cae07eb8"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 6",
             "type": "vless",
             "server": "lunavopershian.adas.monster",
             "server_port": 38290,
@@ -1288,7 +1319,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 6",
+            "tag": "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 7",
             "type": "vless",
             "server": "p5.punchline.ir",
             "server_port": 20775,
