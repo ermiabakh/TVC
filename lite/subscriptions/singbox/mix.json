@@ -122,11 +122,12 @@
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 13",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 18",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 19",
-                "🇫🇮FI | 🔴 | vless | @vpn_xw | 9",
+                "🇩🇪DE | 🔴 | vless | @vpn_xw | 9",
                 "🇮🇷IR | 🔴 | vless | @vpn_xw | 10",
                 "🇩🇪DE | 🟢 | vmess | @CUSTOMVPNSERVER | 15",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 6",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
+                "🇺🇸US | 🔴 | vless | @proxy_kafee | 0",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 20",
@@ -196,11 +197,12 @@
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 13",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 18",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 19",
-                "🇫🇮FI | 🔴 | vless | @vpn_xw | 9",
+                "🇩🇪DE | 🔴 | vless | @vpn_xw | 9",
                 "🇮🇷IR | 🔴 | vless | @vpn_xw | 10",
                 "🇩🇪DE | 🟢 | vmess | @CUSTOMVPNSERVER | 15",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 6",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
+                "🇺🇸US | 🔴 | vless | @proxy_kafee | 0",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 20",
@@ -659,7 +661,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🔴 | vless | @vpn_xw | 9",
+            "tag": "🇩🇪DE | 🔴 | vless | @vpn_xw | 9",
             "type": "vless",
             "server": "3982390233.torob.com.tr",
             "server_port": 2182,
@@ -781,6 +783,27 @@
                 "path": "\/@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--",
                 "headers": {
                     "Host": "Speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 0",
+            "type": "vless",
+            "server": "108.162.193.20",
+            "server_port": 8880,
+            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=2560",
+                "headers": {
+                    "Host": "108.162.193.20"
                 }
             }
         },
