@@ -117,7 +117,6 @@
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 9",
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 10",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
-                "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 13",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 14",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 17",
@@ -130,8 +129,8 @@
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 20",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
-                "🇬🇧GB | 🔴 | vless | @prrofile_purple | 148",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 149",
+                "🇬🇧GB | 🔴 | vless | @prrofile_purple | 156",
+                "🇺🇸US | 🔴 | vless | @prrofile_purple | 157",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
                 "❔XX | 🔴 | vless | @ServerNett | 12",
@@ -180,7 +179,6 @@
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 9",
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 10",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
-                "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 13",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 14",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 17",
@@ -193,8 +191,8 @@
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 20",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
-                "🇬🇧GB | 🔴 | vless | @prrofile_purple | 148",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 149",
+                "🇬🇧GB | 🔴 | vless | @prrofile_purple | 156",
+                "🇺🇸US | 🔴 | vless | @prrofile_purple | 157",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
                 "❔XX | 🔴 | vless | @ServerNett | 12",
@@ -532,27 +530,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
-            "type": "vless",
-            "server": "151.101.64.155",
-            "server_port": 80,
-            "uuid": "telegram-id-ArV2ray6",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/-ArV2ry@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry",
-                "headers": {
-                    "Host": "151.101.64.155"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | @Lockey_vpn | 13",
             "type": "vless",
             "server": "151.101.2.216",
@@ -599,7 +576,7 @@
             "type": "vless",
             "server": "151.101.64.155",
             "server_port": 80,
-            "uuid": "b9bfc5d1-bac3-453c-8edf-be646ece5a34",
+            "uuid": "56ce6fe8-775b-47ae-9923-f041d0f3a0d4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -620,7 +597,7 @@
             "type": "vless",
             "server": "151.101.64.155",
             "server_port": 80,
-            "uuid": "37e8f464-06dc-4c67-9316-c689a32da370",
+            "uuid": "b9bfc5d1-bac3-453c-8edf-be646ece5a34",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -855,7 +832,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | @prrofile_purple | 148",
+            "tag": "🇬🇧GB | 🔴 | vless | @prrofile_purple | 156",
             "type": "vless",
             "server": "35.179.133.141",
             "server_port": 443,
@@ -869,7 +846,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 149",
+            "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 157",
             "type": "vless",
             "server": "151.101.64.155",
             "server_port": 80,
