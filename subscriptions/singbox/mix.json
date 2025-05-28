@@ -492,9 +492,10 @@
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇷🇺RU | 🔴 | vless | @Outlinev2rayNG | 9",
                 "🇬🇧GB | 🔴 | vless | @Outlinev2rayNG | 11",
-                "🇩🇪DE | 🔴 | vless | @flyv2ray | 0",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 1",
-                "🇳🇱NL | 🔴 | vless | @flyv2ray | 2",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 0",
+                "🇩🇪DE | 🔴 | vless | @flyv2ray | 1",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
+                "🇳🇱NL | 🔴 | vless | @flyv2ray | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 1",
                 "❔XX | 🔴 | vless | @vpn_go67 | 3",
@@ -922,9 +923,10 @@
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇷🇺RU | 🔴 | vless | @Outlinev2rayNG | 9",
                 "🇬🇧GB | 🔴 | vless | @Outlinev2rayNG | 11",
-                "🇩🇪DE | 🔴 | vless | @flyv2ray | 0",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 1",
-                "🇳🇱NL | 🔴 | vless | @flyv2ray | 2",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 0",
+                "🇩🇪DE | 🔴 | vless | @flyv2ray | 1",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
+                "🇳🇱NL | 🔴 | vless | @flyv2ray | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 1",
                 "❔XX | 🔴 | vless | @vpn_go67 | 3",
@@ -10137,7 +10139,28 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @flyv2ray | 0",
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 0",
+            "type": "vless",
+            "server": "NUFiLTER.fastly80-3.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "TELEGRAM-NUFiLTER",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed",
+                "headers": {
+                    "Host": "NUFiLTER.fastly80-3.hosting-ip.com"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @flyv2ray | 1",
             "type": "vless",
             "server": "95.164.16.166",
             "server_port": 3567,
@@ -10173,7 +10196,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 1",
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
             "type": "vless",
             "server": "zmaoz.faculty.ucdavis.edu",
             "server_port": 80,
@@ -10194,7 +10217,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | @flyv2ray | 2",
+            "tag": "🇳🇱NL | 🔴 | vless | @flyv2ray | 3",
             "type": "vless",
             "server": "89.34.230.186",
             "server_port": 3567,
