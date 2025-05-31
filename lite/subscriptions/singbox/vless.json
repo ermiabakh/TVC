@@ -154,7 +154,6 @@
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 9",
                 "🇮🇷IR | 🔴 | vless | @flyv2ray | 4",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 5",
-                "🇮🇷IR | 🔴 | vless | @mehrosaboran | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇩🇪DE | 🔴 | vless | @kingofilter | 5",
@@ -218,7 +217,6 @@
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 9",
                 "🇮🇷IR | 🔴 | vless | @flyv2ray | 4",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 5",
-                "🇮🇷IR | 🔴 | vless | @mehrosaboran | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇩🇪DE | 🔴 | vless | @kingofilter | 5",
@@ -1434,20 +1432,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🔴 | vless | @mehrosaboran | 0",
-            "type": "vless",
-            "server": "212.16.71.254",
-            "server_port": 80,
-            "uuid": "01be6498-eb5c-42c3-a84c-71879900f037",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
