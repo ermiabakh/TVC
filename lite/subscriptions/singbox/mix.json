@@ -166,8 +166,8 @@
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 9",
-                "🇩🇪DE | 🔴 | vless | @flyv2ray | 4",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 5",
+                "🇮🇷IR | 🔴 | vless | @flyv2ray | 4",
+                "🇩🇪DE | 🔴 | vless | @flyv2ray | 5",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇩🇪DE | 🔴 | vless | @kingofilter | 5",
@@ -244,8 +244,8 @@
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 9",
-                "🇩🇪DE | 🔴 | vless | @flyv2ray | 4",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 5",
+                "🇮🇷IR | 🔴 | vless | @flyv2ray | 4",
+                "🇩🇪DE | 🔴 | vless | @flyv2ray | 5",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇩🇪DE | 🔴 | vless | @kingofilter | 5",
@@ -601,7 +601,7 @@
             "type": "vless",
             "server": "151.101.64.155",
             "server_port": 80,
-            "uuid": "e12b7061-dbd4-4cf2-9ae9-7bf3cbce174a",
+            "uuid": "b90384d3-f5ba-4bf7-a2d6-42e6a464a361",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -622,7 +622,7 @@
             "type": "vless",
             "server": "151.101.64.155",
             "server_port": 80,
-            "uuid": "c8465e28-72af-4c2a-8b56-665974314ec0",
+            "uuid": "e12b7061-dbd4-4cf2-9ae9-7bf3cbce174a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1728,7 +1728,28 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @flyv2ray | 4",
+            "tag": "🇮🇷IR | 🔴 | vless | @flyv2ray | 4",
+            "type": "vless",
+            "server": "62.60.193.221",
+            "server_port": 32774,
+            "uuid": "6603a779-07c9-4bc9-8f61-4a09c238653a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/6603a779",
+                "headers": {
+                    "Host": "62.60.193.221"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @flyv2ray | 5",
             "type": "vless",
             "server": "95.164.16.166",
             "server_port": 2087,
@@ -1761,27 +1782,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 5",
-            "type": "vless",
-            "server": "NUFiLTER.fastly80-3.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "TELEGRAM-NUFiLTER",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed",
-                "headers": {
-                    "Host": "NUFiLTER.fastly80-3.hosting-ip.com"
-                }
             }
         },
         {
