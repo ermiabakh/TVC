@@ -154,9 +154,8 @@
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇰🇭KH | 🔴 | vless | @Outlinev2rayNG | 9",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 3",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 4",
-                "🇺🇸US | 🔴 | vless | @nofiltering2 | 1",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 1",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇩🇪DE | 🔴 | vless | @kingofilter | 7",
@@ -220,9 +219,8 @@
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇰🇭KH | 🔴 | vless | @Outlinev2rayNG | 9",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 3",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 4",
-                "🇺🇸US | 🔴 | vless | @nofiltering2 | 1",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 1",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇩🇪DE | 🔴 | vless | @kingofilter | 7",
@@ -1444,11 +1442,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 3",
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 1",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8080,
-            "uuid": "0adc4f77-e316-4f51-8e31-fc0b1d809ecb",
+            "uuid": "afb042e7-452f-4912-8db1-26d7759aa150",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1458,11 +1456,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 4",
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
             "type": "vless",
             "server": "zmaoz.faculty.ucdavis.edu",
             "server_port": 80,
-            "uuid": "e7b2d457-40e2-4f6e-d2d2-5de7f7ac180e",
+            "uuid": "e486066b-3308-4114-a9a6-5648750b071f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1476,20 +1474,6 @@
                 "headers": {
                     "Host": "zmaoz.faculty.ucdavis.edu"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @nofiltering2 | 1",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "afb042e7-452f-4912-8db1-26d7759aa150",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
