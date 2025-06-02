@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "❔XX | 🟢 | vless | @ipV2Ray | 7",
-                "🇩🇪DE | 🔴 | vless | @ARv2ray | 18",
+                "🇩🇪DE | 🔴 | vless | @ARv2ray | 17",
                 "🇫🇮FI | 🔴 | vless | @proxystore11 | 5",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -120,7 +120,7 @@
             "type": "urltest",
             "outbounds": [
                 "❔XX | 🟢 | vless | @ipV2Ray | 7",
-                "🇩🇪DE | 🔴 | vless | @ARv2ray | 18",
+                "🇩🇪DE | 🔴 | vless | @ARv2ray | 17",
                 "🇫🇮FI | 🔴 | vless | @proxystore11 | 5",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -184,11 +184,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ARv2ray | 18",
+            "tag": "🇩🇪DE | 🔴 | vless | @ARv2ray | 17",
             "type": "vless",
             "server": "193.46.81.83",
             "server_port": 3567,
-            "uuid": "telegram-id-ArV2ray2",
+            "uuid": "telegram-id-ArV2ray3",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
