@@ -133,14 +133,14 @@
                 "❔XX | 🟢 | vless | @DailyV2RY | 249",
                 "❔XX | 🟢 | vless | @DailyV2RY | 250",
                 "❔XX | 🟢 | vless | @DailyV2RY | 251",
-                "❔XX | 🟢 | vless | @DailyV2RY | 252",
+                "🇬🇧GB | 🟢 | vless | @DailyV2RY | 252",
                 "❔XX | 🟢 | vless | @DailyV2RY | 253",
                 "❔XX | 🟢 | vless | @DailyV2RY | 254",
                 "❔XX | 🟢 | vless | @DailyV2RY | 255",
                 "❔XX | 🟢 | vless | @DailyV2RY | 256",
                 "❔XX | 🟢 | vless | @DailyV2RY | 257",
                 "❔XX | 🟢 | vless | @DailyV2RY | 258",
-                "🇬🇧GB | 🟢 | vless | @DailyV2RY | 259",
+                "❔XX | 🟢 | vless | @DailyV2RY | 259",
                 "❔XX | 🟢 | vless | @DailyV2RY | 260",
                 "❔XX | 🟢 | vless | @DailyV2RY | 261",
                 "❔XX | 🟢 | vless | @DailyV2RY | 262",
@@ -150,6 +150,7 @@
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 4",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 6",
                 "❔XX | 🔴 | vless | @fnet00 | 2",
+                "🇬🇧GB | 🟢 | vless | @FreakConfig | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 9",
@@ -204,14 +205,14 @@
                 "❔XX | 🟢 | vless | @DailyV2RY | 249",
                 "❔XX | 🟢 | vless | @DailyV2RY | 250",
                 "❔XX | 🟢 | vless | @DailyV2RY | 251",
-                "❔XX | 🟢 | vless | @DailyV2RY | 252",
+                "🇬🇧GB | 🟢 | vless | @DailyV2RY | 252",
                 "❔XX | 🟢 | vless | @DailyV2RY | 253",
                 "❔XX | 🟢 | vless | @DailyV2RY | 254",
                 "❔XX | 🟢 | vless | @DailyV2RY | 255",
                 "❔XX | 🟢 | vless | @DailyV2RY | 256",
                 "❔XX | 🟢 | vless | @DailyV2RY | 257",
                 "❔XX | 🟢 | vless | @DailyV2RY | 258",
-                "🇬🇧GB | 🟢 | vless | @DailyV2RY | 259",
+                "❔XX | 🟢 | vless | @DailyV2RY | 259",
                 "❔XX | 🟢 | vless | @DailyV2RY | 260",
                 "❔XX | 🟢 | vless | @DailyV2RY | 261",
                 "❔XX | 🟢 | vless | @DailyV2RY | 262",
@@ -221,6 +222,7 @@
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 4",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 6",
                 "❔XX | 🔴 | vless | @fnet00 | 2",
+                "🇬🇧GB | 🟢 | vless | @FreakConfig | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 9",
@@ -1152,7 +1154,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @DailyV2RY | 252",
+            "tag": "🇬🇧GB | 🟢 | vless | @DailyV2RY | 252",
             "type": "vless",
             "server": "v09.vxlimir.com",
             "server_port": 1370,
@@ -1355,7 +1357,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🟢 | vless | @DailyV2RY | 259",
+            "tag": "❔XX | 🟢 | vless | @DailyV2RY | 259",
             "type": "vless",
             "server": "v02.vxlimir.com",
             "server_port": 1370,
@@ -1641,6 +1643,35 @@
                     "enabled": true,
                     "public_key": "O0DFIyOlsDyOPthL8Z27Fna1vuoWB5CYTFXrcUf_jlc",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | 🟢 | vless | @FreakConfig | 0",
+            "type": "vless",
+            "server": "185.168.194.59",
+            "server_port": 41445,
+            "uuid": "3d8d5627-62c0-491a-ad68-0079983f95e1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tesla.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "eb0fWFAevT3a_BqrfJ2dLhY_Hv910o9LSmaumdZpIyQ",
+                    "short_id": "f8a537"
                 }
             }
         },
