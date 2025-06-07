@@ -106,13 +106,13 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "❔XX | 🟢 | vless | @ipV2Ray | 7",
+                "🇩🇪DE | 🟢 | vless | @ipV2Ray | 7",
                 "❔XX | 🟢 | vless | @ipV2Ray | 8",
                 "🇩🇪DE | 🔴 | vless | @ARv2ray | 16",
                 "🇬🇧GB | 🟢 | vless | @DailyV2RY | 286",
-                "❔XX | 🟢 | vless | @DailyV2RY | 287",
+                "🇬🇧GB | 🟢 | vless | @DailyV2RY | 287",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 7",
-                "🇩🇪DE | 🔴 | vless | @fnet00 | 2",
+                "❔XX | 🔴 | vless | @fnet00 | 2",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "❔XX | 🟢 | vless | @SvnTeam | 4",
@@ -123,13 +123,13 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "❔XX | 🟢 | vless | @ipV2Ray | 7",
+                "🇩🇪DE | 🟢 | vless | @ipV2Ray | 7",
                 "❔XX | 🟢 | vless | @ipV2Ray | 8",
                 "🇩🇪DE | 🔴 | vless | @ARv2ray | 16",
                 "🇬🇧GB | 🟢 | vless | @DailyV2RY | 286",
-                "❔XX | 🟢 | vless | @DailyV2RY | 287",
+                "🇬🇧GB | 🟢 | vless | @DailyV2RY | 287",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 7",
-                "🇩🇪DE | 🔴 | vless | @fnet00 | 2",
+                "❔XX | 🔴 | vless | @fnet00 | 2",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "❔XX | 🟢 | vless | @SvnTeam | 4",
@@ -156,11 +156,11 @@
             "type": "dns"
         },
         {
-            "tag": "❔XX | 🟢 | vless | @ipV2Ray | 7",
+            "tag": "🇩🇪DE | 🟢 | vless | @ipV2Ray | 7",
             "type": "vless",
-            "server": "Mashhad-Website.thorav.ir",
-            "server_port": 2087,
-            "uuid": "df0a7c22-83e7-4580-a123-ce4e1010ba4a",
+            "server": "95.164.16.166",
+            "server_port": 3567,
+            "uuid": "9fdef857-437d-40af-82ca-2c76de893eb6",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -170,7 +170,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.cdn77.com",
+                "server_name": "maps.google.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -179,8 +179,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "yXSBn5-hiNy4K9Lg_w2E0cGXSkcwXtwGn6r46UJ96HU",
-                    "short_id": "55"
+                    "public_key": "3iP1kIE9A4r0dbC6OoERB95RKv6tZmCHUaNq4tf90lo",
+                    "short_id": "86"
                 }
             },
             "transport": {
@@ -196,7 +196,7 @@
             "type": "vless",
             "server": "Mashhad-Website.thorav.ir",
             "server_port": 2087,
-            "uuid": "a7f573cf-f042-4133-8fa5-b24088621d83",
+            "uuid": "df0a7c22-83e7-4580-a123-ce4e1010ba4a",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -293,7 +293,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @DailyV2RY | 287",
+            "tag": "🇬🇧GB | 🟢 | vless | @DailyV2RY | 287",
             "type": "vless",
             "server": "v08.vxlimir.com",
             "server_port": 1370,
@@ -351,7 +351,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @fnet00 | 2",
+            "tag": "❔XX | 🔴 | vless | @fnet00 | 2",
             "type": "vless",
             "server": "public.misvn.ir",
             "server_port": 443,
