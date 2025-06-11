@@ -130,7 +130,7 @@
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 20",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 144",
+                "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 152",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 8",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 9",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
@@ -199,7 +199,7 @@
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 20",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 144",
+                "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 152",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 8",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 9",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
@@ -471,7 +471,7 @@
             "type": "vless",
             "server": "zmaoz.faculty.ucdavis.edu",
             "server_port": 80,
-            "uuid": "a0bf4979-b135-4396-c2b3-e492911dbda4",
+            "uuid": "c6ebff0f-7786-4bff-bdfc-d0557bf4b152",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -492,7 +492,7 @@
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 80,
-            "uuid": "a0bf4979-b135-4396-c2b3-e492911dbda4",
+            "uuid": "c6ebff0f-7786-4bff-bdfc-d0557bf4b152",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -851,17 +851,24 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 144",
+            "tag": "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 152",
             "type": "vless",
-            "server": "WWW.SPEEDTEST.NET",
-            "server_port": 2052,
-            "uuid": "236b64ca-e4c7-40ad-a49a-d3a8937b9b9b",
+            "server": "194.182.79.242",
+            "server_port": 45831,
+            "uuid": "056ebf82-a8b7-4e99-b682-24a45eb5aeaf",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON?ed=2048",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
