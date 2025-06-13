@@ -261,6 +261,40 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
             "type": "vmess",
+            "server": "new3.huvicloud.com",
+            "server_port": 443,
+            "uuid": "a10476b9-1c07-4de3-9d84-c51d24be599f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "new3.huvicloud.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/a10476b9-1c07-4de3-9d84-c51d24be599f",
+                "headers": {
+                    "Host": "new3.huvicloud.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
+            "type": "vmess",
             "server": "141.101.113.248",
             "server_port": 80,
             "uuid": "4a154623-62d5-4425-8a4e-362996f32737",
@@ -279,40 +313,6 @@
                 "path": "\/s15.html",
                 "headers": {
                     "Host": "141.101.113.248"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
-            "type": "vmess",
-            "server": "104.16.0.0",
-            "server_port": 443,
-            "uuid": "01f75b6a-935f-466c-ba3d-9f561d9bf191",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "104.16.0.0",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/01f75b6a-935f-466c-ba3d-9f561d9bf191-vm",
-                "headers": {
-                    "Host": "104.16.0.0"
                 }
             }
         },
