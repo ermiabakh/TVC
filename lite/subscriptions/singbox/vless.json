@@ -140,15 +140,15 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 1",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 2",
-                "🇫🇮FI | 🔴 | vless | @v2ray1_ng | 5",
+                "🇫🇮FI | 🔴 | vless | @v2ray1_ng | 7",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 11",
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 7",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 8",
+                "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 0",
                 "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 1",
-                "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 2",
                 "🇸🇬SG | 🔴 | vless | @FreakConfig | 7",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 8",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 3",
@@ -203,15 +203,15 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 1",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 2",
-                "🇫🇮FI | 🔴 | vless | @v2ray1_ng | 5",
+                "🇫🇮FI | 🔴 | vless | @v2ray1_ng | 7",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 11",
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 7",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 8",
+                "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 0",
                 "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 1",
-                "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 2",
                 "🇸🇬SG | 🔴 | vless | @FreakConfig | 7",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 8",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 3",
@@ -954,7 +954,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🔴 | vless | @v2ray1_ng | 5",
+            "tag": "🇫🇮FI | 🔴 | vless | @v2ray1_ng | 7",
             "type": "vless",
             "server": "kinsta.sic.al",
             "server_port": 8080,
@@ -1134,6 +1134,20 @@
             }
         },
         {
+            "tag": "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 0",
+            "type": "vless",
+            "server": "s9.nimhub.ir",
+            "server_port": 2096,
+            "uuid": "4c5005e6-7f17-476d-9f30-15adb302e253",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 1",
             "type": "vless",
             "server": "nl.crocodilserver.top",
@@ -1145,27 +1159,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 2",
-            "type": "vless",
-            "server": "sec.lucyshoping.ir",
-            "server_port": 11885,
-            "uuid": "8a5ea164-0f49-4483-ac03-1ae7805e12ef",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "sec.lucyshoping.ir"
-                }
             }
         },
         {
