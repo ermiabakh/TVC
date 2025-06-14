@@ -143,6 +143,7 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 2",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 3",
+                "🇫🇮FI | 🔴 | vless | @v2ray1_ng | 4",
                 "🇺🇸US | 🟢 | vless | @v2ray1_ng | 5",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
@@ -205,6 +206,7 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 2",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 3",
+                "🇫🇮FI | 🔴 | vless | @v2ray1_ng | 4",
                 "🇺🇸US | 🟢 | vless | @v2ray1_ng | 5",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
@@ -1044,6 +1046,20 @@
                 "headers": {
                     "Host": "MSV2RAY.fastly80-3.hosting-ip.com"
                 }
+            }
+        },
+        {
+            "tag": "🇫🇮FI | 🔴 | vless | @v2ray1_ng | 4",
+            "type": "vless",
+            "server": "kinsta.sic.al",
+            "server_port": 8080,
+            "uuid": "879f1d7e-e845-48d9-9681-4f03c8a9f015",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
