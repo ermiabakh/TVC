@@ -116,6 +116,7 @@
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 7",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 8",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 31",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 0",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 16",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 19",
@@ -126,7 +127,8 @@
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
-                "🇺🇸US | 🔴 | vless | @Watashi_VPN | 0",
+                "🇮🇷IR | 🔴 | vless | @Watashi_VPN | 0",
+                "🇺🇸US | 🔴 | vless | @Watashi_VPN | 1",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 20",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
                 "❔XX | 🔴 | vless | @prrofile_purple | 133",
@@ -176,6 +178,7 @@
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 7",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 8",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 31",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 0",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 16",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 19",
@@ -186,7 +189,8 @@
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
-                "🇺🇸US | 🔴 | vless | @Watashi_VPN | 0",
+                "🇮🇷IR | 🔴 | vless | @Watashi_VPN | 0",
+                "🇺🇸US | 🔴 | vless | @Watashi_VPN | 1",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 20",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
                 "❔XX | 🔴 | vless | @prrofile_purple | 133",
@@ -447,6 +451,20 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🔴 | vless | @V2pedia | 0",
+            "type": "vless",
+            "server": "151.101.6.200",
+            "server_port": 80,
+            "uuid": "b198aacc-2812-4c9c-be95-520d7ceb48ac",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 16",
             "type": "vless",
             "server": "151.101.64.155",
@@ -653,7 +671,21 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Watashi_VPN | 0",
+            "tag": "🇮🇷IR | 🔴 | vless | @Watashi_VPN | 0",
+            "type": "vless",
+            "server": "vipshop.heroicshop.ir",
+            "server_port": 8821,
+            "uuid": "d311973e-894c-4f78-8902-8a95799734ff",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @Watashi_VPN | 1",
             "type": "vless",
             "server": "151.101.6.200",
             "server_port": 80,
