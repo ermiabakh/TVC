@@ -160,8 +160,10 @@
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🔴 | vless | @free1_vpn | 5",
                 "🇬🇧GB | 🟢 | vless | @free1_vpn | 6",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 5",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 6",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 11",
+                "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 2",
+                "🇫🇮FI | 🔴 | vless | @Outlinev2rayNG | 3",
                 "🇸🇬SG | 🔴 | vless | @FreakConfig | 7",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 8",
                 "🇳🇱NL | 🔴 | vless | @flyv2ray | 15",
@@ -236,8 +238,10 @@
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🔴 | vless | @free1_vpn | 5",
                 "🇬🇧GB | 🟢 | vless | @free1_vpn | 6",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 5",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 6",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 11",
+                "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 2",
+                "🇫🇮FI | 🔴 | vless | @Outlinev2rayNG | 3",
                 "🇸🇬SG | 🔴 | vless | @FreakConfig | 7",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 8",
                 "🇳🇱NL | 🔴 | vless | @flyv2ray | 15",
@@ -1429,9 +1433,33 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 5",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
             "type": "vmess",
-            "server": "73618903-svhls0-t1bnjq-1krtb.cu.plebai.net",
+            "server": "104.17.213.241",
+            "server_port": 8880,
+            "uuid": "a1a607e6-a04c-3db6-a36f-c2a4312e2fe1",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/dabai.in104.17.200.82",
+                "headers": {
+                    "Host": "104.17.213.241"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 11",
+            "type": "vmess",
+            "server": "e890417c-svc1s0-t1bnjq-1krtb.cu.plebai.net",
             "server_port": 5229,
             "uuid": "60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d",
             "security": "auto",
@@ -1446,16 +1474,34 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 6",
-            "type": "vmess",
-            "server": "1449f183-svhls0-t28b6o-ef48.cu.plebai.net",
-            "server_port": 5228,
-            "uuid": "cb15123a-084c-11f0-8eab-f23c91cfbbc9",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 2",
+            "type": "vless",
+            "server": "45.131.208.130",
+            "server_port": 80,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@V2ray_Alpha\/?ed=2560",
+                "headers": {
+                    "Host": "45.131.208.130"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮FI | 🔴 | vless | @Outlinev2rayNG | 3",
+            "type": "vless",
+            "server": "kinsta.sic.al",
+            "server_port": 8080,
+            "uuid": "879f1d7e-e845-48d9-9681-4f03c8a9f015",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
