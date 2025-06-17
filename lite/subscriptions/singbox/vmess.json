@@ -111,8 +111,8 @@
                 "🇫🇮FI | 🟢 | vmess | @prrofile_purple | 128",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇯🇵JP | 🟢 | vmess | @Hope_Net | 3",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 4"
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 12",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 13"
             ]
         },
         {
@@ -124,8 +124,8 @@
                 "🇫🇮FI | 🟢 | vmess | @prrofile_purple | 128",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇯🇵JP | 🟢 | vmess | @Hope_Net | 3",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 4"
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 12",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 13"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -257,11 +257,11 @@
             }
         },
         {
-            "tag": "🇯🇵JP | 🟢 | vmess | @Hope_Net | 3",
+            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 12",
             "type": "vmess",
-            "server": "47.74.41.147",
-            "server_port": 53893,
-            "uuid": "07287360-e12f-4f94-9c7a-54386c100d8a",
+            "server": "9e6c9676-sv6hs0-sv7acf-1qw0q.cm5.p5pv.com",
+            "server_port": 17233,
+            "uuid": "d4fe3d0c-9043-11ef-8dc4-f23c91cfbbc9",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -274,11 +274,11 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 4",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
             "type": "vmess",
-            "server": "120.232.153.40",
-            "server_port": 59082,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "server": "199.34.228.161",
+            "server_port": 8443,
+            "uuid": "3a1c628b-806d-461b-c28d-44b3bdff5220",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -288,6 +288,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "199.34.228.161",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "199.34.228.161"
+                }
             }
         }
     ],
