@@ -159,9 +159,9 @@
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇮🇷IR | 🔴 | vless | @free1_vpn | 6",
                 "❔XX | 🔴 | vless | @free1_vpn | 7",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 12",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
-                "🇰🇿KZ | 🔴 | vless | @Outlinev2rayNG | 6",
+                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 9",
+                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 10",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
                 "🇸🇬SG | 🔴 | vless | @FreakConfig | 7",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 8",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 7",
@@ -236,9 +236,9 @@
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇮🇷IR | 🔴 | vless | @free1_vpn | 6",
                 "❔XX | 🔴 | vless | @free1_vpn | 7",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 12",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
-                "🇰🇿KZ | 🔴 | vless | @Outlinev2rayNG | 6",
+                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 9",
+                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 10",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
                 "🇸🇬SG | 🔴 | vless | @FreakConfig | 7",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 8",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 7",
@@ -1434,13 +1434,13 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 12",
+            "tag": "🇭🇰HK | 🟢 | vmess | @Hope_Net | 9",
             "type": "vmess",
-            "server": "9e6c9676-sv6hs0-sv7acf-1qw0q.cm5.p5pv.com",
-            "server_port": 17233,
-            "uuid": "d4fe3d0c-9043-11ef-8dc4-f23c91cfbbc9",
+            "server": "f5b5d3eb-sv2sg0-swkmdk-1imi4.hgc1.tcpbbr.net",
+            "server_port": 80,
+            "uuid": "40fb1315-191a-11ed-b0ca-f23c91cfbbc9",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 2,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -1448,48 +1448,45 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
-            "type": "vmess",
-            "server": "199.34.228.161",
-            "server_port": 8443,
-            "uuid": "3a1c628b-806d-461b-c28d-44b3bdff5220",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "199.34.228.161",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "199.34.228.161"
+                    "Host": "f5b5d3eb-sv2sg0-swkmdk-1imi4.hgc1.tcpbbr.net"
                 }
             }
         },
         {
-            "tag": "🇰🇿KZ | 🔴 | vless | @Outlinev2rayNG | 6",
-            "type": "vless",
-            "server": "31.43.179.51",
+            "tag": "🇭🇰HK | 🟢 | vmess | @Hope_Net | 10",
+            "type": "vmess",
+            "server": "364bc431-sv2sg0-t17ajj-1n7d9.hk3.p5pv.com",
             "server_port": 80,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "uuid": "48e51dfa-db8f-11ed-a23f-f23c91369f2d",
+            "security": "auto",
+            "alter_id": 2,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "364bc431-sv2sg0-t17ajj-1n7d9.hk3.p5pv.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
+            "type": "vless",
+            "server": "172.66.138.99",
+            "server_port": 80,
+            "uuid": "68b48eeb-5770-4eb3-9b77-deeb77a41ccf",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1499,9 +1496,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@V2ray_Alpha\/?ed=2560",
+                "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "31.43.179.51"
+                    "Host": "varzesh3.varzesh.dpdns.org"
                 }
             }
         },

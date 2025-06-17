@@ -150,7 +150,7 @@
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 4",
                 "🇮🇷IR | 🔴 | vless | @free1_vpn | 6",
                 "❔XX | 🔴 | vless | @free1_vpn | 7",
-                "🇰🇿KZ | 🔴 | vless | @Outlinev2rayNG | 6",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
                 "🇸🇬SG | 🔴 | vless | @FreakConfig | 7",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 8",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 7",
@@ -215,7 +215,7 @@
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 4",
                 "🇮🇷IR | 🔴 | vless | @free1_vpn | 6",
                 "❔XX | 🔴 | vless | @free1_vpn | 7",
-                "🇰🇿KZ | 🔴 | vless | @Outlinev2rayNG | 6",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
                 "🇸🇬SG | 🔴 | vless | @FreakConfig | 7",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 8",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 7",
@@ -1213,11 +1213,11 @@
             }
         },
         {
-            "tag": "🇰🇿KZ | 🔴 | vless | @Outlinev2rayNG | 6",
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
             "type": "vless",
-            "server": "31.43.179.51",
+            "server": "172.66.138.99",
             "server_port": 80,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "uuid": "68b48eeb-5770-4eb3-9b77-deeb77a41ccf",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1227,9 +1227,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@V2ray_Alpha\/?ed=2560",
+                "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "31.43.179.51"
+                    "Host": "varzesh3.varzesh.dpdns.org"
                 }
             }
         },
