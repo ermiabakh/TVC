@@ -108,9 +108,10 @@
                 "URL-TEST",
                 "🇳🇱NL | 🟢 | vless | @Parsashonam | 8",
                 "🇳🇱NL | 🟢 | vless | @Parsashonam | 11",
-                "🇦🇲AM | 🟢 | vless | @ipV2Ray | 0",
+                "🇳🇱NL | 🟢 | vless | @ipV2Ray | 0",
                 "🇦🇲AM | 🟢 | vless | @ipV2Ray | 1",
-                "❔XX | 🔴 | vless | @ipV2Ray | 8",
+                "🇦🇲AM | 🟢 | vless | @ipV2Ray | 2",
+                "🇩🇪DE | 🔴 | vless | @ipV2Ray | 9",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 1",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 4",
@@ -124,7 +125,7 @@
                 "🇩🇪DE | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
                 "❔XX | 🟢 | vless | @prrofile_purple | 90",
-                "🇩🇪DE | 🟢 | vless | @prrofile_purple | 93",
+                "❔XX | 🟢 | vless | @prrofile_purple | 93",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 101",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 103",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 105",
@@ -174,9 +175,10 @@
             "outbounds": [
                 "🇳🇱NL | 🟢 | vless | @Parsashonam | 8",
                 "🇳🇱NL | 🟢 | vless | @Parsashonam | 11",
-                "🇦🇲AM | 🟢 | vless | @ipV2Ray | 0",
+                "🇳🇱NL | 🟢 | vless | @ipV2Ray | 0",
                 "🇦🇲AM | 🟢 | vless | @ipV2Ray | 1",
-                "❔XX | 🔴 | vless | @ipV2Ray | 8",
+                "🇦🇲AM | 🟢 | vless | @ipV2Ray | 2",
+                "🇩🇪DE | 🔴 | vless | @ipV2Ray | 9",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 1",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 4",
@@ -190,7 +192,7 @@
                 "🇩🇪DE | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
                 "❔XX | 🟢 | vless | @prrofile_purple | 90",
-                "🇩🇪DE | 🟢 | vless | @prrofile_purple | 93",
+                "❔XX | 🟢 | vless | @prrofile_purple | 93",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 101",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 103",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 105",
@@ -312,7 +314,43 @@
             }
         },
         {
-            "tag": "🇦🇲AM | 🟢 | vless | @ipV2Ray | 0",
+            "tag": "🇳🇱NL | 🟢 | vless | @ipV2Ray | 0",
+            "type": "vless",
+            "server": "95.164.17.75",
+            "server_port": 443,
+            "uuid": "a943a9e0-792e-4efe-af1e-54751a44fef8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ftp.debian.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "pasVbAjcNpjQvgsHBN_WKxQPXwNdXsI4nXYC1usoV0s",
+                    "short_id": "df"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram-ipV2Ry-Telegram-ipV2Ry-Telegram-ipV2Ry",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇦🇲AM | 🟢 | vless | @ipV2Ray | 1",
             "type": "vless",
             "server": "45.83.143.71",
             "server_port": 443,
@@ -348,7 +386,7 @@
             }
         },
         {
-            "tag": "🇦🇲AM | 🟢 | vless | @ipV2Ray | 1",
+            "tag": "🇦🇲AM | 🟢 | vless | @ipV2Ray | 2",
             "type": "vless",
             "server": "45.83.143.71",
             "server_port": 2087,
@@ -384,7 +422,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ipV2Ray | 8",
+            "tag": "🇩🇪DE | 🔴 | vless | @ipV2Ray | 9",
             "type": "vless",
             "server": "www.speedtest-divar.ir",
             "server_port": 443,
@@ -860,7 +898,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @prrofile_purple | 93",
+            "tag": "❔XX | 🟢 | vless | @prrofile_purple | 93",
             "type": "vless",
             "server": "v40.vxlimir.com",
             "server_port": 1370,
