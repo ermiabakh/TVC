@@ -117,7 +117,7 @@
                 "🇩🇪DE | 🔴 | vless | @ipV2Ray | 9",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 14",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 15",
-                "🇺🇸US | 🔴 | vless | @V2pedia | 2",
+                "🇨🇦CA | 🔴 | vless | @V2pedia | 2",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 15",
                 "🇩🇪DE | 🔴 | vless | @Lockey_vpn | 17",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 18",
@@ -156,8 +156,8 @@
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇷🇺RU | 🔴 | vless | @free1_vpn | 6",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 7",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 5",
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 6",
+                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 7",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 5",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 1",
@@ -193,7 +193,7 @@
                 "🇩🇪DE | 🔴 | vless | @ipV2Ray | 9",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 14",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 15",
-                "🇺🇸US | 🔴 | vless | @V2pedia | 2",
+                "🇨🇦CA | 🔴 | vless | @V2pedia | 2",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 15",
                 "🇩🇪DE | 🔴 | vless | @Lockey_vpn | 17",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 18",
@@ -232,8 +232,8 @@
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇷🇺RU | 🔴 | vless | @free1_vpn | 6",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 7",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 5",
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 6",
+                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 7",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 5",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 1",
@@ -498,7 +498,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @V2pedia | 2",
+            "tag": "🇨🇦CA | 🔴 | vless | @V2pedia | 2",
             "type": "vless",
             "server": "140.248.125.10",
             "server_port": 80,
@@ -1422,13 +1422,13 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 5",
+            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "929e4f8a-sutj40-sutgau-1r62f.cm5.p5pv.com",
-            "server_port": 17233,
-            "uuid": "154b0bf8-f9a7-11ee-a218-f23c91cfbbc9",
+            "server": "120.232.153.40",
+            "server_port": 36609,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 64,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -1439,11 +1439,11 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 6",
+            "tag": "🇷🇺RU | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "5ed696c1-sutj40-t907cr-1c1mr.cm5.p5pv.com",
-            "server_port": 17233,
-            "uuid": "a12640d0-e2ad-11ef-8f5b-f23c913c8d2b",
+            "server": "195.58.49.84",
+            "server_port": 22012,
+            "uuid": "e4319e6e-ef82-45cf-a1f3-e4db006306fc",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1453,6 +1453,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "195.58.49.84"
+                }
             }
         },
         {
