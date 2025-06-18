@@ -251,7 +251,7 @@
                 "🇬🇧GB | 🟢 | vless | @prrofile_purple | 106",
                 "🇩🇪DE | 🔴 | vless | @prrofile_purple | 107",
                 "🇩🇪DE | 🔴 | vless | @prrofile_purple | 108",
-                "❔XX | 🟢 | vless | @prrofile_purple | 109",
+                "🇵🇱PL | 🟢 | vless | @prrofile_purple | 109",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 112",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 113",
                 "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 115",
@@ -389,6 +389,7 @@
                 "❔XX | 🔴 | vless | @vpn_go67 | 19",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
+                "❔XX | 🔴 | vless | @kingofilter | 0",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 0",
                 "🇩🇪DE | 🔴 | vless | @SvnTeam | 0",
                 "🇩🇪DE | 🟢 | vless | @SvnTeam | 1",
@@ -549,7 +550,7 @@
                 "🇬🇧GB | 🟢 | vless | @prrofile_purple | 106",
                 "🇩🇪DE | 🔴 | vless | @prrofile_purple | 107",
                 "🇩🇪DE | 🔴 | vless | @prrofile_purple | 108",
-                "❔XX | 🟢 | vless | @prrofile_purple | 109",
+                "🇵🇱PL | 🟢 | vless | @prrofile_purple | 109",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 112",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 113",
                 "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 115",
@@ -687,6 +688,7 @@
                 "❔XX | 🔴 | vless | @vpn_go67 | 19",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
+                "❔XX | 🔴 | vless | @kingofilter | 0",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 0",
                 "🇩🇪DE | 🔴 | vless | @SvnTeam | 0",
                 "🇩🇪DE | 🟢 | vless | @SvnTeam | 1",
@@ -3976,7 +3978,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @prrofile_purple | 109",
+            "tag": "🇵🇱PL | 🟢 | vless | @prrofile_purple | 109",
             "type": "vless",
             "server": "v06.vxlimir.com",
             "server_port": 1370,
@@ -7647,6 +7649,20 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @kingofilter | 0",
+            "type": "vless",
+            "server": "tel.vpncustomize.reziazaran.ir",
+            "server_port": 37823,
+            "uuid": "5a186a86-1d2c-43b1-85d9-1ad3f60f6be7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
