@@ -112,8 +112,8 @@
                 "🇮🇷IR | 🟢 | vmess | @v2ray_vpn_ir | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 10",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 11"
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 8",
+                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 9"
             ]
         },
         {
@@ -126,8 +126,8 @@
                 "🇮🇷IR | 🟢 | vmess | @v2ray_vpn_ir | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 10",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 11"
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 8",
+                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 9"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -276,11 +276,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 10",
+            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "f7576a55-sunz40-taz53d-1j0y6.se.plebai.net",
-            "server_port": 8083,
-            "uuid": "1cce7df2-251c-11ee-9409-f23c9164ca5d",
+            "server": "gtm1.ktmwan.net",
+            "server_port": 12886,
+            "uuid": "1bfc69ad-1855-4dfe-b169-886d7156e0f3",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -295,16 +295,16 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "f7576a55-sunz40-taz53d-1j0y6.se.plebai.net"
+                    "Host": "gtm1.ktmwan.net"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
+            "tag": "🇷🇺RU | 🟢 | vmess | @Hope_Net | 9",
             "type": "vmess",
-            "server": "104.21.21.192",
-            "server_port": 443,
-            "uuid": "5f726fe3-d82e-4da5-a711-8af0cbb2b682",
+            "server": "195.58.49.84",
+            "server_port": 22009,
+            "uuid": "bd334c2d-68b4-45b2-a87c-ae0e1638cd15",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -315,21 +315,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "104.21.21.192",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/azumase.ren",
+                "path": "\/",
                 "headers": {
-                    "Host": "104.21.21.192"
+                    "Host": "195.58.49.84"
                 }
             }
         }
