@@ -278,9 +278,43 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
             "type": "vmess",
-            "server": "0ffb2ad4-supts0-swdlq9-g53t.lza.plebai.net",
+            "server": "www.visa.com.tw",
+            "server_port": 443,
+            "uuid": "66e5c8dd-3176-458e-8fb0-1ed91d2f9602",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.visa.com.tw",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess-argo",
+                "headers": {
+                    "Host": "www.visa.com.tw"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
+            "type": "vmess",
+            "server": "cbe195c0-supts0-svp9t7-1oijm.lza.plebai.net",
             "server_port": 7612,
-            "uuid": "b778e4ae-1458-11ec-a8bf-f23c91cfbbc9",
+            "uuid": "bf140bc0-3f68-11ee-953a-f23c9164ca5d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -295,41 +329,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "0ffb2ad4-supts0-swdlq9-g53t.lza.plebai.net"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
-            "type": "vmess",
-            "server": "172.67.220.83",
-            "server_port": 443,
-            "uuid": "39cec18f-a439-427c-9a4e-aeb6fcdf6f53",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "172.67.220.83",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "172.67.220.83"
+                    "Host": "cbe195c0-supts0-svp9t7-1oijm.lza.plebai.net"
                 }
             }
         }

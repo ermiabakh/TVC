@@ -150,6 +150,7 @@
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 5",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 1",
+                "❔XX | 🔴 | vless | @Capoit | 0",
                 "🇸🇬SG | 🔴 | vless | @FreakConfig | 7",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 8",
                 "🇮🇷IR | 🟢 | vless | @flyv2ray | 7",
@@ -215,6 +216,7 @@
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 5",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 1",
+                "❔XX | 🔴 | vless | @Capoit | 0",
                 "🇸🇬SG | 🔴 | vless | @FreakConfig | 7",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 8",
                 "🇮🇷IR | 🟢 | vless | @flyv2ray | 7",
@@ -1281,6 +1283,37 @@
                 "path": "\/?ed=2560",
                 "headers": {
                     "Host": "104.17.104.45"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @Capoit | 0",
+            "type": "vless",
+            "server": "ccad1.ecowave.ir",
+            "server_port": 443,
+            "uuid": "c04c05c5-16ff-40a0-b79e-209112b2e1d9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ccsnit.ecowave.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/IT\/VIPSell\/@TheVIPSell",
+                "headers": {
+                    "Host": "ccsnit.ecowave.ir"
                 }
             }
         },
