@@ -414,9 +414,6 @@
                 "🇸🇪SE | 🔴 | vless | @free1_vpn | 4",
                 "🇸🇬SG | 🔴 | vless | @free1_vpn | 5",
                 "🇷🇺RU | 🔴 | vless | @free1_vpn | 6",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 0",
-                "❔XX | 🟢 | vmess | @Hope_Net | 1",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 2",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 1",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 2",
@@ -786,9 +783,6 @@
                 "🇸🇪SE | 🔴 | vless | @free1_vpn | 4",
                 "🇸🇬SG | 🔴 | vless | @free1_vpn | 5",
                 "🇷🇺RU | 🔴 | vless | @free1_vpn | 6",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 0",
-                "❔XX | 🟢 | vmess | @Hope_Net | 1",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 2",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 1",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 2",
@@ -7971,81 +7965,6 @@
                 "path": "\/Telegram:@V2ray_Alpha\/?ed=2560",
                 "headers": {
                     "Host": "185.148.104.245"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 0",
-            "type": "vmess",
-            "server": "183.236.51.38",
-            "server_port": 56901,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 1",
-            "type": "vmess",
-            "server": "ny1-dash.890699.xyz",
-            "server_port": 2096,
-            "uuid": "658b87e0-5d92-4424-d344-c167acd6a77f",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ny1-dash.890699.xyz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ny1-sub.890699.xyz",
-                "headers": {
-                    "Host": "ny1-dash.890699.xyz"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vmess | @Hope_Net | 2",
-            "type": "vmess",
-            "server": "104.18.23.68",
-            "server_port": 80,
-            "uuid": "bd9c1aea-240a-463a-83ee-e7b3a6a4ac7a",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/s15.html",
-                "headers": {
-                    "Host": "104.18.23.68"
                 }
             }
         },
