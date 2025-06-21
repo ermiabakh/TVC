@@ -113,7 +113,7 @@
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 18",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 19",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 8",
-                "❔XX | 🔴 | vless | @ipV2Ray | 9",
+                "🇩🇪DE | 🔴 | vless | @ipV2Ray | 9",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 14",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 15",
                 "🇬🇧GB | 🟢 | vless | @V2pedia | 2",
@@ -163,7 +163,7 @@
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 4",
                 "🇮🇷IR | 🟢 | vless | @free1_vpn | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 8",
-                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 9",
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 9",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 5",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 0",
@@ -194,7 +194,7 @@
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 18",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 19",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 8",
-                "❔XX | 🔴 | vless | @ipV2Ray | 9",
+                "🇩🇪DE | 🔴 | vless | @ipV2Ray | 9",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 14",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 15",
                 "🇬🇧GB | 🟢 | vless | @V2pedia | 2",
@@ -244,7 +244,7 @@
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 4",
                 "🇮🇷IR | 🟢 | vless | @free1_vpn | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 8",
-                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 9",
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 9",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 5",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 0",
@@ -416,7 +416,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ipV2Ray | 9",
+            "tag": "🇩🇪DE | 🔴 | vless | @ipV2Ray | 9",
             "type": "vless",
             "server": "www.speedtest-divar.ir",
             "server_port": 443,
@@ -1564,7 +1564,7 @@
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "aacbcab-baac-cbaa-cadb-cacbbacacbba",
+            "uuid": "bacacba-caba-aabc-cadb-bbbcabacacac",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1577,13 +1577,13 @@
             }
         },
         {
-            "tag": "🇭🇰HK | 🟢 | vmess | @Hope_Net | 9",
+            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 9",
             "type": "vmess",
-            "server": "156.224.77.98",
-            "server_port": 11110,
-            "uuid": "111032f8-eabc-46c0-fe89-8acceaeb34e5",
+            "server": "16.mamamajd.site",
+            "server_port": 23616,
+            "uuid": "e992c424-af2e-3ada-bcc4-f7446e257363",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 2,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -1591,6 +1591,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "16.mamamajd.site"
+                }
             }
         },
         {
