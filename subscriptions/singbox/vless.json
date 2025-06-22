@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇺🇸US | 🔴 | vless | @Parsashonam | 0",
                 "🇨🇦CA | 🔴 | vless | @v2_team | 0",
                 "🇨🇦CA | 🔴 | vless | @v2_team | 1",
                 "🇮🇷IR | 🔴 | vless | @v2_team | 2",
@@ -178,7 +179,7 @@
                 "🚩CF | 🔴 | vless | @Lockey_vpn | 18",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 0",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 2",
-                "TVCaljlcgowkk",
+                "TVChhnsugsbmb",
                 "❔XX | 🔴 | vless | @CUSTOMVPNSERVER | 0",
                 "❔XX | 🔴 | vless | @CUSTOMVPNSERVER | 3",
                 "❔XX | 🔴 | vless | @CUSTOMVPNSERVER | 5",
@@ -220,7 +221,6 @@
                 "🇮🇷IR | 🔴 | vless | @vmessorg | 3",
                 "🇮🇷IR | 🔴 | vless | @vmessorg | 5",
                 "🇮🇷IR | 🔴 | vless | @vmessorg | 6",
-                "🇮🇷IR | 🔴 | vless | @vmessorg | 7",
                 "🇫🇷FR | 🟢 | vless | @v2rayNG_Matsuri | 0",
                 "🇮🇷IR | 🔴 | vless | @v2rayNG_Matsuri | 1",
                 "❔XX | 🔴 | vless | @v2rayNG_Matsuri | 2",
@@ -321,7 +321,6 @@
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 0",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 1",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
-                "🇮🇷IR | 🔴 | vless | @flyv2ray | 4",
                 "🇮🇷IR | 🔴 | vless | @nofiltering2 | 1",
                 "🇦🇪AE | 🔴 | vless | @nofiltering2 | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 0",
@@ -355,6 +354,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇺🇸US | 🔴 | vless | @Parsashonam | 0",
                 "🇨🇦CA | 🔴 | vless | @v2_team | 0",
                 "🇨🇦CA | 🔴 | vless | @v2_team | 1",
                 "🇮🇷IR | 🔴 | vless | @v2_team | 2",
@@ -427,7 +427,7 @@
                 "🚩CF | 🔴 | vless | @Lockey_vpn | 18",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 0",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 2",
-                "TVCaljlcgowkk",
+                "TVChhnsugsbmb",
                 "❔XX | 🔴 | vless | @CUSTOMVPNSERVER | 0",
                 "❔XX | 🔴 | vless | @CUSTOMVPNSERVER | 3",
                 "❔XX | 🔴 | vless | @CUSTOMVPNSERVER | 5",
@@ -469,7 +469,6 @@
                 "🇮🇷IR | 🔴 | vless | @vmessorg | 3",
                 "🇮🇷IR | 🔴 | vless | @vmessorg | 5",
                 "🇮🇷IR | 🔴 | vless | @vmessorg | 6",
-                "🇮🇷IR | 🔴 | vless | @vmessorg | 7",
                 "🇫🇷FR | 🟢 | vless | @v2rayNG_Matsuri | 0",
                 "🇮🇷IR | 🔴 | vless | @v2rayNG_Matsuri | 1",
                 "❔XX | 🔴 | vless | @v2rayNG_Matsuri | 2",
@@ -570,7 +569,6 @@
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 0",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 1",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
-                "🇮🇷IR | 🔴 | vless | @flyv2ray | 4",
                 "🇮🇷IR | 🔴 | vless | @nofiltering2 | 1",
                 "🇦🇪AE | 🔴 | vless | @nofiltering2 | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 0",
@@ -618,6 +616,20 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @Parsashonam | 0",
+            "type": "vless",
+            "server": "151.101.0.155",
+            "server_port": 80,
+            "uuid": "d7da7d54-1fdd-48b7-bf22-89efef5a2478",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
         },
         {
             "tag": "🇨🇦CA | 🔴 | vless | @v2_team | 0",
@@ -2345,7 +2357,7 @@
             }
         },
         {
-            "tag": "TVCaljlcgowkk",
+            "tag": "TVChhnsugsbmb",
             "type": "vless",
             "server": "",
             "server_port": 0,
@@ -3283,20 +3295,6 @@
             "server": "55cpezwl8e.the-dark-night.top",
             "server_port": 5149,
             "uuid": "f6f6693f-365c-4ec0-bd1e-ebe9406ba595",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🔴 | vless | @vmessorg | 7",
-            "type": "vless",
-            "server": "dl2.meneteam.org",
-            "server_port": 20118,
-            "uuid": "142dd8b5-0b9e-4018-a961-2370d50cc435",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -5743,20 +5741,6 @@
                 "headers": {
                     "Host": "zmaoz.faculty.ucdavis.edu"
                 }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🔴 | vless | @flyv2ray | 4",
-            "type": "vless",
-            "server": "185.49.105.233",
-            "server_port": 6000,
-            "uuid": "c20c208d-482a-48fb-9dd8-b7f9f5fd807d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
