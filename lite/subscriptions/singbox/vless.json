@@ -159,7 +159,8 @@
                 "🇩🇪DE | 🔴 | vless | @Capoit | 0",
                 "🇦🇪AE | 🔴 | vless | @Capoit | 1",
                 "❔XX | 🔴 | vless | @FreakConfig | 1",
-                "🇮🇷IR | 🔴 | vless | @flyv2ray | 7",
+                "🇳🇱NL | 🟢 | vless | @flyv2ray | 7",
+                "🇮🇷IR | 🔴 | vless | @flyv2ray | 8",
                 "🇮🇷IR | 🔴 | vless | @nofiltering2 | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -224,7 +225,8 @@
                 "🇩🇪DE | 🔴 | vless | @Capoit | 0",
                 "🇦🇪AE | 🔴 | vless | @Capoit | 1",
                 "❔XX | 🔴 | vless | @FreakConfig | 1",
-                "🇮🇷IR | 🔴 | vless | @flyv2ray | 7",
+                "🇳🇱NL | 🟢 | vless | @flyv2ray | 7",
+                "🇮🇷IR | 🔴 | vless | @flyv2ray | 8",
                 "🇮🇷IR | 🔴 | vless | @nofiltering2 | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -1447,7 +1449,36 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @flyv2ray | 7",
+            "tag": "🇳🇱NL | 🟢 | vless | @flyv2ray | 7",
+            "type": "vless",
+            "server": "ne.iranfreedomserver.com",
+            "server_port": 7005,
+            "uuid": "cb31e3e6-3618-4b5f-905c-d64161ddeb12",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "uvD80HhI4bd7zO_C-f8gtm7AzRhGdjiWDU2TI-S-hEk",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | 🔴 | vless | @flyv2ray | 8",
             "type": "vless",
             "server": "193.24.105.24",
             "server_port": 61,
