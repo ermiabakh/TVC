@@ -108,8 +108,7 @@
                 "URL-TEST",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "🇩🇪DE | 🔴 | vless | @SvnTeam | 0",
-                "❔XX | 🟢 | vless | @SvnTeam | 1"
+                "🇩🇪DE | 🔴 | vless | @SvnTeam | 0"
             ]
         },
         {
@@ -118,8 +117,7 @@
             "outbounds": [
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "🇩🇪DE | 🔴 | vless | @SvnTeam | 0",
-                "❔XX | 🟢 | vless | @SvnTeam | 1"
+                "🇩🇪DE | 🔴 | vless | @SvnTeam | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -239,35 +237,6 @@
                     "enabled": true,
                     "public_key": "193rx1HPJxmcw5Igm1lZeCcPnBx1dVfBroBl5FR9BEE",
                     "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vless | @SvnTeam | 1",
-            "type": "vless",
-            "server": "SVNTEAM.MiSVN.iR",
-            "server_port": 443,
-            "uuid": "50b7fc2c-10b6-4f46-b59d-0d9c674ced40",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8",
-                    "short_id": "e54b5ad736ae4c38"
                 }
             }
         }
