@@ -109,8 +109,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 8",
-                "❔XX | 🟢 | vmess | @Hope_Net | 9"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
+                "❔XX | 🟢 | vmess | @Hope_Net | 7"
             ]
         },
         {
@@ -120,8 +120,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 8",
-                "❔XX | 🟢 | vmess | @Hope_Net | 9"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
+                "❔XX | 🟢 | vmess | @Hope_Net | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -219,10 +219,10 @@
             }
         },
         {
-            "tag": "🇭🇰HK | 🟢 | vmess | @Hope_Net | 8",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "16.163.108.135",
-            "server_port": 42358,
+            "server": "34.222.228.234",
+            "server_port": 42360,
             "uuid": "3519dfc0-fa27-41cc-8c19-981818f9f6d5",
             "security": "auto",
             "alter_id": 0,
@@ -236,7 +236,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "0000000000000000000000000076.cgroup-node-for-bigairport.sbs",
+                "server_name": "0000000000000000000000000080.cgroup-node-for-bigairport.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -248,16 +248,16 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "0000000000000000000000000076.cgroup-node-for-bigairport.sbs"
+                    "Host": "0000000000000000000000000080.cgroup-node-for-bigairport.sbs"
                 }
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 9",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
             "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "bacbcaa-acab-baac-adbc-cbcbacaaacbb",
+            "server_port": 8080,
+            "uuid": "abacacb-caba-acab-cdba-aabcbcbbacca",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
