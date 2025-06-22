@@ -106,20 +106,20 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 12",
-                "🇷🇺RU | 🟢 | vless | @flyv2ray | 6",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
-                "❔XX | 🔴 | vless | @vpn_go67 | 21"
+                "❔XX | 🔴 | vless | @vpn_go67 | 21",
+                "🇩🇪DE | 🔴 | vless | @SvnTeam | 0",
+                "❔XX | 🟢 | vless | @SvnTeam | 1"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 12",
-                "🇷🇺RU | 🟢 | vless | @flyv2ray | 6",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
-                "❔XX | 🔴 | vless | @vpn_go67 | 21"
+                "❔XX | 🔴 | vless | @vpn_go67 | 21",
+                "🇩🇪DE | 🔴 | vless | @SvnTeam | 0",
+                "❔XX | 🟢 | vless | @SvnTeam | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -140,64 +140,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 12",
-            "type": "vless",
-            "server": "94.130.183.41",
-            "server_port": 1503,
-            "uuid": "482931a4-fa81-4d82-a6fd-f5efa846b586",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "0first.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "21-4cyes9zNNaaOPl-xOlkESjzaRaCUnEXyYZE8rmW0",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺RU | 🟢 | vless | @flyv2ray | 6",
-            "type": "vless",
-            "server": "Rus.iranfreedomserver.com",
-            "server_port": 7005,
-            "uuid": "cb31e3e6-3618-4b5f-905c-d64161ddeb12",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "uvD80HhI4bd7zO_C-f8gtm7AzRhGdjiWDU2TI-S-hEk",
-                    "short_id": ""
-                }
-            }
         },
         {
             "tag": "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -269,6 +211,64 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @SvnTeam | 0",
+            "type": "vless",
+            "server": "SvnFree.GiSvn.ir",
+            "server_port": 443,
+            "uuid": "SVNTEAM1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.refersion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "193rx1HPJxmcw5Igm1lZeCcPnBx1dVfBroBl5FR9BEE",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @SvnTeam | 1",
+            "type": "vless",
+            "server": "SVNTEAM.MiSVN.iR",
+            "server_port": 443,
+            "uuid": "50b7fc2c-10b6-4f46-b59d-0d9c674ced40",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8",
+                    "short_id": "e54b5ad736ae4c38"
+                }
             }
         }
     ],
