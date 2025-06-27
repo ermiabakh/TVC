@@ -140,12 +140,12 @@
                 "🇮🇷IR | 🔴 | vless | @prrofile_purple | 14",
                 "🇮🇷IR | 🔴 | vless | @prrofile_purple | 15",
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 0",
-                "🇩🇪DE | 🔴 | vless | @vmessorg | 11",
-                "🇺🇸US | 🔴 | vless | @vmessorg | 12",
+                "🇺🇸US | 🔴 | vless | @vmessorg | 11",
+                "🇩🇪DE | 🔴 | vless | @vmessorg | 12",
+                "🇮🇷IR | 🔴 | vless | @v2rayngvpn | 3",
                 "🇬🇧GB | 🔴 | vless | @v2rayngvpn | 4",
-                "🇮🇷IR | 🔴 | vless | @v2rayngvpn | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 0",
-                "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 2",
+                "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 3",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 2",
@@ -207,12 +207,12 @@
                 "🇮🇷IR | 🔴 | vless | @prrofile_purple | 14",
                 "🇮🇷IR | 🔴 | vless | @prrofile_purple | 15",
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 0",
-                "🇩🇪DE | 🔴 | vless | @vmessorg | 11",
-                "🇺🇸US | 🔴 | vless | @vmessorg | 12",
+                "🇺🇸US | 🔴 | vless | @vmessorg | 11",
+                "🇩🇪DE | 🔴 | vless | @vmessorg | 12",
+                "🇮🇷IR | 🔴 | vless | @v2rayngvpn | 3",
                 "🇬🇧GB | 🔴 | vless | @v2rayngvpn | 4",
-                "🇮🇷IR | 🔴 | vless | @v2rayngvpn | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 0",
-                "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 2",
+                "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 3",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 2",
@@ -1005,7 +1005,28 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @vmessorg | 11",
+            "tag": "🇺🇸US | 🔴 | vless | @vmessorg | 11",
+            "type": "vless",
+            "server": "104.17.147.22",
+            "server_port": 80,
+            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram@V2ray_Alpha\/?ed=2560",
+                "headers": {
+                    "Host": "104.17.147.22"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @vmessorg | 12",
             "type": "vless",
             "server": "marzban56.boshrachoice.ir",
             "server_port": 8443,
@@ -1019,24 +1040,17 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @vmessorg | 12",
+            "tag": "🇮🇷IR | 🔴 | vless | @v2rayngvpn | 3",
             "type": "vless",
-            "server": "141.101.121.55",
-            "server_port": 8080,
-            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+            "server": "vip.mosen1server.ir",
+            "server_port": 80,
+            "uuid": "a9f40576-6321-491f-bb4a-7d8a762eea27",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "141.101.121.55"
-                }
             }
         },
         {
@@ -1071,20 +1085,6 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @v2rayngvpn | 5",
-            "type": "vless",
-            "server": "media.samagazine.ir",
-            "server_port": 8080,
-            "uuid": "b5e0289d-1bb7-4c5b-f850-016298066cf8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 0",
             "type": "vless",
             "server": "172.67.11.138",
@@ -1106,7 +1106,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 2",
+            "tag": "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 3",
             "type": "vless",
             "server": "pishgam.sdcards.ir",
             "server_port": 80,
