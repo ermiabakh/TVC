@@ -119,11 +119,10 @@ dns:
 
 proxies:
   - {"name":"🇨🇳CN | 🟢 | vmess | @mftizi | 17","type":"vmess","server":"183.236.51.23","port":"53002","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 19","type":"vmess","server":"codepen.io","port":"443","cipher":"auto","uuid":"de94cc0a-0592-4969-b1fc-97ea8f0ea0b3","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/us.kkp.me.eu.org/aa","headers":{"host":"farid.1.berozha.ir"}}}
   - {"name":"🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 3","type":"vmess","server":"npmjs.com","port":"8080","cipher":"auto","uuid":"6cbc9c78-1cb1-57d4-a999-e2f4e34c1e03","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/nasnet/cdn","headers":{"host":"ke7hz36ewz-4515017473.mashallahbet.com"}}}
   - {"name":"❔XX | 🟢 | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
-  - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 6","type":"vmess","server":"198.41.209.70","port":2052,"cipher":"auto","uuid":"4b36625c-b9d9-3ea6-aed5-86d62c70e16d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/dabai.in104.24.204.143","headers":{"host":"100-62-189-118.s5.db-link01.top"}}}
-  - {"name":"🇰🇷KR | 🟢 | vmess | @Hope_Net | 7","type":"vmess","server":"220.123.48.124","port":"30002","cipher":"auto","uuid":"d3d8b781-f30d-4902-8eb0-58b1ca936bec","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/hgqqvws","headers":{"host":"cc2.1808.site"}}}
+  - {"name":"❔XX | 🟢 | vmess | @Hope_Net | 5","type":"vmess","server":"hkvm.gecs.top","port":"443","cipher":"auto","uuid":"0a3cd062-241a-43fc-9c50-eccacbbd5aae","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"hkvm.gecs.top"}}}
+  - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 6","type":"vmess","server":"104.19.48.236","port":"80","cipher":"auto","uuid":"4b36625c-b9d9-3ea6-aed5-86d62c70e16d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
   - {"name":"🇺🇸US | 🟢 | vmess | @fnet00 | 3","type":"vmess","server":"151.101.3.8","port":"80","cipher":"auto","uuid":"1f7e2947-c4a5-4e3c-b284-777ff73a086e","alterId":"0","tls":false,"skip-cert-verify":true,"network":"xhttp"}
 proxy-groups:
   - name: MANUAL
@@ -132,11 +131,10 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 17'
-      - '🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 19'
       - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 3'
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
+      - '❔XX | 🟢 | vmess | @Hope_Net | 5'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 6'
-      - '🇰🇷KR | 🟢 | vmess | @Hope_Net | 7'
       - '🇺🇸US | 🟢 | vmess | @fnet00 | 3'
   - name: URL-TEST
     type: url-test
@@ -145,11 +143,10 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 17'
-      - '🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 19'
       - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 3'
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
+      - '❔XX | 🟢 | vmess | @Hope_Net | 5'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 6'
-      - '🇰🇷KR | 🟢 | vmess | @Hope_Net | 7'
       - '🇺🇸US | 🟢 | vmess | @fnet00 | 3'
   - name: FALLBACK
     type: fallback
@@ -157,11 +154,10 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 17'
-      - '🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 19'
       - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 3'
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
+      - '❔XX | 🟢 | vmess | @Hope_Net | 5'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 6'
-      - '🇰🇷KR | 🟢 | vmess | @Hope_Net | 7'
       - '🇺🇸US | 🟢 | vmess | @fnet00 | 3'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
