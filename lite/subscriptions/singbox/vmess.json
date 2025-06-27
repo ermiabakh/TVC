@@ -107,11 +107,12 @@
             "outbounds": [
                 "URL-TEST",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 19",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 6",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
+                "🇰🇷KR | 🟢 | vmess | @Hope_Net | 7",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 3"
             ]
         },
@@ -120,11 +121,12 @@
             "type": "urltest",
             "outbounds": [
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 19",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 6",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
+                "🇰🇷KR | 🟢 | vmess | @Hope_Net | 7",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 3"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -162,6 +164,40 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 19",
+            "type": "vmess",
+            "server": "codepen.io",
+            "server_port": 443,
+            "uuid": "de94cc0a-0592-4969-b1fc-97ea8f0ea0b3",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "farid.1.berozha.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/us.kkp.me.eu.org\/aa",
+                "headers": {
+                    "Host": "farid.1.berozha.ir"
+                }
             }
         },
         {
@@ -247,13 +283,13 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "ny1.bulkcash.top",
-            "server_port": 41507,
-            "uuid": "695ac0a3-406a-41d7-83c5-5af8c39d3bec",
+            "server": "198.41.209.70",
+            "server_port": 2052,
+            "uuid": "4b36625c-b9d9-3ea6-aed5-86d62c70e16d",
             "security": "auto",
-            "alter_id": 5,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -262,30 +298,20 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/dabai.in104.24.204.143",
                 "headers": {
                     "Host": ""
                 }
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 6",
+            "tag": "🇰🇷KR | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "esna.twn24.ir",
-            "server_port": 443,
-            "uuid": "8c9a6382-2bbe-41c4-bfa7-c1f518533023",
+            "server": "220.123.48.124",
+            "server_port": 30002,
+            "uuid": "d3d8b781-f30d-4902-8eb0-58b1ca936bec",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -298,7 +324,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "esna.twn24.ir",
+                "server_name": "cc2.1808.site",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -308,9 +334,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/24820\/",
+                "path": "\/hgqqvws",
                 "headers": {
-                    "Host": "esna.twn24.ir"
+                    "Host": "cc2.1808.site"
                 }
             }
         },
