@@ -171,12 +171,12 @@ proxies:
   - {"name":"🇺🇸US | 🔴 | vless | @proxystore11 | 6","type":"vless","server":"cname.proxystore11.news","port":2087,"udp":false,"uuid":"6a29215e-52fd-44aa-ad2b-8ea04546f8f2","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"prx11.proxystore11.news","ws-opts":{"path":"/prx11","headers":{"host":"prx11.proxystore11.news"}}}
   - {"name":"❔XX | 🟢 | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
   - {"name":"🇸🇬SG | 🔴 | vless | @free1_vpn | 4","type":"vless","server":"43.156.217.68","port":41283,"udp":false,"uuid":"4839e0b9-b275-47ea-81ab-9bfd38bbe7af","tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 7","type":"vmess","server":"s5.db-link01.top","port":"80","cipher":"auto","uuid":"4b36625c-b9d9-3ea6-aed5-86d62c70e16d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"100-16-20-50.s5.db-link01.top"}}}
-  - {"name":"🇫🇮FI | 🟢 | vmess | @Hope_Net | 8","type":"vmess","server":"46.8.237.183","port":"49148","cipher":"auto","uuid":"05893cbf-1aa3-4c91-a0f5-ad1e6c5f6aeb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇭CH | 🟢 | vmess | @Hope_Net | 7","type":"vmess","server":"23.166.88.183","port":"22324","cipher":"auto","uuid":"04621bae-ab36-11ec-b909-0242ac120002","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸US | 🔴 | vless | @fnet00 | 2","type":"vless","server":"104.17.147.22","port":80,"udp":false,"uuid":"e93f923b-92b1-4009-aaeb-3691001347bd","tls":false,"network":"xhttp","client-fingerprint":"chrome"}
   - {"name":"🇺🇸US | 🟢 | vmess | @fnet00 | 3","type":"vmess","server":"151.101.3.8","port":"80","cipher":"auto","uuid":"1f7e2947-c4a5-4e3c-b284-777ff73a086e","alterId":"0","tls":false,"skip-cert-verify":true,"network":"xhttp"}
   - {"name":"🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8","type":"vless","server":"104.22.22.78","port":80,"udp":false,"uuid":"cba0b35b-8943-4c70-a864-9f78145b7897","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/Telegram@Filter_breaker/?ed=2560","headers":{"host":"agolna.mahsaamini.dpdns.org"}}}
   - {"name":"🇺🇸US | 🔴 | vless | @Capoit | 1","type":"vless","server":"104.18.26.90","port":443,"udp":false,"uuid":"3824fba1-352a-44f6-89c3-66bacce658eb","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"S4.MaiN-2.WORkErS.Dev","ws-opts":{"path":"/kBoXBiT5qlTK5H01?ed","headers":{"host":"s4.main-2.workers.dev"}}}
+  - {"name":"🇩🇪DE | 🔴 | vless | @flyv2ray | 0","type":"vless","server":"91.99.160.210","port":443,"udp":false,"uuid":"2eaef053-5fd6-4def-b234-d760690355ff","tls":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇬🇧GB | 🟢 | vless | @mehrosaboran | 7","type":"vless","server":"gb.france-learns.ir","port":42536,"udp":false,"uuid":"57d127e9-38da-494b-afeb-494de5ff1a91","tls":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"@bored_vpn,--@bored_vpn,@bored_vpn,--@bored_vpn,@bored_vpn,--@bored_vpn,@bored_vpn,--@bored_vpn,@bored_vpn,--@bored_vpn,@bored_vpn,--@bored_vpn&pbk=X5W26tu1FjZOfBtofWeSH6QmkQddPR2wbM7atObEWik&fp=chrome&spx=/&type=grpc&sni=sourceforge.net&sid=b3#🇩🇪DE | 🔴 | vless | @mehrosaboran | 8","type":"vless","server":"209.38.189.100","port":17416,"udp":true,"uuid":"2706427a-bf92-43b5-a001-37e31e4c4d56","tls":true,"network":"tcp","client-fingerprint":null,"reality-opts":{"public-key":null}}
   - {"name":"🇺🇸US | 🔴 | vless | @nofiltering2 | 1","type":"vless","server":"mtn.ivy-net.ir","port":8080,"udp":false,"uuid":"57349012-601d-4425-b5d2-3a94db2f4b1b","tls":false,"network":"httpupgrade","client-fingerprint":"chrome"}
@@ -241,12 +241,12 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @proxystore11 | 6'
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
       - '🇸🇬SG | 🔴 | vless | @free1_vpn | 4'
-      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 7'
-      - '🇫🇮FI | 🟢 | vmess | @Hope_Net | 8'
+      - '🇨🇭CH | 🟢 | vmess | @Hope_Net | 7'
       - '🇺🇸US | 🔴 | vless | @fnet00 | 2'
       - '🇺🇸US | 🟢 | vmess | @fnet00 | 3'
       - '🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8'
       - '🇺🇸US | 🔴 | vless | @Capoit | 1'
+      - '🇩🇪DE | 🔴 | vless | @flyv2ray | 0'
       - '🇬🇧GB | 🟢 | vless | @mehrosaboran | 7'
       - '@bored_vpn,--@bored_vpn,@bored_vpn,--@bored_vpn,@bored_vpn,--@bored_vpn,@bored_vpn,--@bored_vpn,@bored_vpn,--@bored_vpn,@bored_vpn,--@bored_vpn&pbk=X5W26tu1FjZOfBtofWeSH6QmkQddPR2wbM7atObEWik&fp=chrome&spx=/&type=grpc&sni=sourceforge.net&sid=b3#🇩🇪DE | 🔴 | vless | @mehrosaboran | 8'
       - '🇺🇸US | 🔴 | vless | @nofiltering2 | 1'
@@ -311,12 +311,12 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @proxystore11 | 6'
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
       - '🇸🇬SG | 🔴 | vless | @free1_vpn | 4'
-      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 7'
-      - '🇫🇮FI | 🟢 | vmess | @Hope_Net | 8'
+      - '🇨🇭CH | 🟢 | vmess | @Hope_Net | 7'
       - '🇺🇸US | 🔴 | vless | @fnet00 | 2'
       - '🇺🇸US | 🟢 | vmess | @fnet00 | 3'
       - '🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8'
       - '🇺🇸US | 🔴 | vless | @Capoit | 1'
+      - '🇩🇪DE | 🔴 | vless | @flyv2ray | 0'
       - '🇬🇧GB | 🟢 | vless | @mehrosaboran | 7'
       - '@bored_vpn,--@bored_vpn,@bored_vpn,--@bored_vpn,@bored_vpn,--@bored_vpn,@bored_vpn,--@bored_vpn,@bored_vpn,--@bored_vpn,@bored_vpn,--@bored_vpn&pbk=X5W26tu1FjZOfBtofWeSH6QmkQddPR2wbM7atObEWik&fp=chrome&spx=/&type=grpc&sni=sourceforge.net&sid=b3#🇩🇪DE | 🔴 | vless | @mehrosaboran | 8'
       - '🇺🇸US | 🔴 | vless | @nofiltering2 | 1'
@@ -380,12 +380,12 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @proxystore11 | 6'
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
       - '🇸🇬SG | 🔴 | vless | @free1_vpn | 4'
-      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 7'
-      - '🇫🇮FI | 🟢 | vmess | @Hope_Net | 8'
+      - '🇨🇭CH | 🟢 | vmess | @Hope_Net | 7'
       - '🇺🇸US | 🔴 | vless | @fnet00 | 2'
       - '🇺🇸US | 🟢 | vmess | @fnet00 | 3'
       - '🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8'
       - '🇺🇸US | 🔴 | vless | @Capoit | 1'
+      - '🇩🇪DE | 🔴 | vless | @flyv2ray | 0'
       - '🇬🇧GB | 🟢 | vless | @mehrosaboran | 7'
       - '@bored_vpn,--@bored_vpn,@bored_vpn,--@bored_vpn,@bored_vpn,--@bored_vpn,@bored_vpn,--@bored_vpn,@bored_vpn,--@bored_vpn,@bored_vpn,--@bored_vpn&pbk=X5W26tu1FjZOfBtofWeSH6QmkQddPR2wbM7atObEWik&fp=chrome&spx=/&type=grpc&sni=sourceforge.net&sid=b3#🇩🇪DE | 🔴 | vless | @mehrosaboran | 8'
       - '🇺🇸US | 🔴 | vless | @nofiltering2 | 1'
