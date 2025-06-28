@@ -132,7 +132,7 @@ proxies:
   - {"name":"🇩🇪DE | 🔴 | vless | @V2pedia | 1","type":"vless","server":"209.38.114.204","port":17416,"udp":true,"uuid":"2706427a-bf92-43b5-a001-37e31e4c4d56","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"sourceforge.net","reality-opts":{"public-key":"X5W26tu1FjZOfBtofWeSH6QmkQddPR2wbM7atObEWik","short-id":"b3"}}
   - {"name":"🇱🇻LV | 🔴 | vless | @V2pedia | 2","type":"vless","server":"185.113.139.103","port":443,"udp":false,"uuid":"13a894b0-e414-5459-a0fa-9309209c386b","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"185.113.139.103","ws-opts":{"path":"/vless","headers":{"host":"185.113.139.103"}}}
   - {"name":"🇺🇸US | 🔴 | vless | @Lockey_vpn | 18","type":"vless","server":"104.17.148.22","port":8880,"udp":false,"uuid":"2e56a2e4-d8ac-4990-843c-d813e889fcbd","tls":false,"network":"httpupgrade","client-fingerprint":"chrome"}
-  - {"name":"🇨🇦CA | 🔴 | vless | @Lockey_vpn | 19","type":"vless","server":"104.17.148.22","port":8880,"udp":false,"uuid":"a85962e7-4c37-477a-a16a-892bbeea60ac","tls":false,"network":"httpupgrade","client-fingerprint":"chrome"}
+  - {"name":"🇺🇸US | 🔴 | vless | @Lockey_vpn | 19","type":"vless","server":"104.17.148.22","port":8880,"udp":false,"uuid":"a85962e7-4c37-477a-a16a-892bbeea60ac","tls":false,"network":"httpupgrade","client-fingerprint":"chrome"}
   - {"name":"❔XX | 🔴 | vless | @lightning6 | 0","type":"vless","server":"LIGHTNING6.12speedtest.store","port":80,"udp":false,"uuid":"9bb4ba78-01da-463d-8cd6-5efac4c28534","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2048","headers":{"host":"Lightning.com"}}}
   - {"name":"🇺🇸US | 🔴 | vless | @vpn_xw | 0","type":"vless","server":"www.speedtest.net","port":80,"udp":false,"uuid":"7c9e3c1d-a360-4429-9189-e45a98de7fde","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/Telegram@V2ray_Alpha/?ed=2560","headers":{"host":"mail.ski1plag.ir"}}}
   - {"name":"🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 9","type":"vless","server":"49.13.113.114","port":8443,"udp":true,"uuid":"8c8bb03a-0476-4f47-94c9-5f25f97f22ba","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"amazoon.namavaa.online","flow":"xtls-rprx-vision","reality-opts":{"public-key":"SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"}}
@@ -193,7 +193,7 @@ proxy-groups:
       - '🇩🇪DE | 🔴 | vless | @V2pedia | 1'
       - '🇱🇻LV | 🔴 | vless | @V2pedia | 2'
       - '🇺🇸US | 🔴 | vless | @Lockey_vpn | 18'
-      - '🇨🇦CA | 🔴 | vless | @Lockey_vpn | 19'
+      - '🇺🇸US | 🔴 | vless | @Lockey_vpn | 19'
       - '❔XX | 🔴 | vless | @lightning6 | 0'
       - '🇺🇸US | 🔴 | vless | @vpn_xw | 0'
       - '🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 9'
@@ -254,7 +254,7 @@ proxy-groups:
       - '🇩🇪DE | 🔴 | vless | @V2pedia | 1'
       - '🇱🇻LV | 🔴 | vless | @V2pedia | 2'
       - '🇺🇸US | 🔴 | vless | @Lockey_vpn | 18'
-      - '🇨🇦CA | 🔴 | vless | @Lockey_vpn | 19'
+      - '🇺🇸US | 🔴 | vless | @Lockey_vpn | 19'
       - '❔XX | 🔴 | vless | @lightning6 | 0'
       - '🇺🇸US | 🔴 | vless | @vpn_xw | 0'
       - '🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 9'
@@ -314,7 +314,7 @@ proxy-groups:
       - '🇩🇪DE | 🔴 | vless | @V2pedia | 1'
       - '🇱🇻LV | 🔴 | vless | @V2pedia | 2'
       - '🇺🇸US | 🔴 | vless | @Lockey_vpn | 18'
-      - '🇨🇦CA | 🔴 | vless | @Lockey_vpn | 19'
+      - '🇺🇸US | 🔴 | vless | @Lockey_vpn | 19'
       - '❔XX | 🔴 | vless | @lightning6 | 0'
       - '🇺🇸US | 🔴 | vless | @vpn_xw | 0'
       - '🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 9'
