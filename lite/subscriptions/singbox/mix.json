@@ -170,8 +170,8 @@
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 6",
                 "🇸🇬SG | 🔴 | vless | @free1_vpn | 7",
-                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 5",
-                "🇸🇬SG | 🟢 | vmess | @Hope_Net | 6",
+                "🇸🇬SG | 🟢 | vmess | @Hope_Net | 9",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 2",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 3",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
@@ -256,8 +256,8 @@
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 6",
                 "🇸🇬SG | 🔴 | vless | @free1_vpn | 7",
-                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 5",
-                "🇸🇬SG | 🟢 | vmess | @Hope_Net | 6",
+                "🇸🇬SG | 🟢 | vmess | @Hope_Net | 9",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 2",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 3",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
@@ -1727,13 +1727,30 @@
             }
         },
         {
-            "tag": "🇭🇰HK | 🟢 | vmess | @Hope_Net | 5",
+            "tag": "🇸🇬SG | 🟢 | vmess | @Hope_Net | 9",
             "type": "vmess",
-            "server": "47.243.35.173",
-            "server_port": 23279,
-            "uuid": "161a2ffc-2279-4f35-fa76-b75ae1fcfa54",
+            "server": "154.26.137.42",
+            "server_port": 44104,
+            "uuid": "e9933a4c-e56e-458c-bcf4-9cb3875bba55",
             "security": "auto",
             "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
+            "type": "vmess",
+            "server": "38.11.50.67",
+            "server_port": 31005,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "security": "auto",
+            "alter_id": 64,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -1744,7 +1761,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "hk3.lrzdx.uk",
+                "server_name": "38.11.50.67",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1754,27 +1771,10 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/161a2ffc-2279-4f35-fa76-b75ae1fcfa54",
+                "path": "\/path\/1739193891313",
                 "headers": {
-                    "Host": "hk3.lrzdx.uk"
+                    "Host": "38.11.50.67"
                 }
-            }
-        },
-        {
-            "tag": "🇸🇬SG | 🟢 | vmess | @Hope_Net | 6",
-            "type": "vmess",
-            "server": "62.146.232.156",
-            "server_port": 33281,
-            "uuid": "24eda0ea-acf0-4538-a001-f746a480237a",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -1811,9 +1811,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
             "type": "vless",
-            "server": "104.17.148.22",
-            "server_port": 8880,
-            "uuid": "6ec52bc7-fcd7-4841-ab69-70d6e03a6eda",
+            "server": "104.16.104.151",
+            "server_port": 80,
+            "uuid": "1f431db3-1918-4e7b-a855-c93485e11694",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1823,9 +1823,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI\/?ed=2560",
+                "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "104.17.148.22"
+                    "Host": "104.16.104.151"
                 }
             }
         },

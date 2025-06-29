@@ -1527,9 +1527,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
             "type": "vless",
-            "server": "104.17.148.22",
-            "server_port": 8880,
-            "uuid": "6ec52bc7-fcd7-4841-ab69-70d6e03a6eda",
+            "server": "104.16.104.151",
+            "server_port": 80,
+            "uuid": "1f431db3-1918-4e7b-a855-c93485e11694",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1539,9 +1539,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI\/?ed=2560",
+                "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "104.17.148.22"
+                    "Host": "104.16.104.151"
                 }
             }
         },
