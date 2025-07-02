@@ -110,7 +110,6 @@
                 "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 18",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇧🇷BR | 🟢 | vmess | @Hope_Net | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 5",
                 "🇳🇱NL | 🟢 | vmess | @FreakConfig | 0"
@@ -124,7 +123,6 @@
                 "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 18",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇧🇷BR | 🟢 | vmess | @Hope_Net | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 5",
                 "🇳🇱NL | 🟢 | vmess | @FreakConfig | 0"
@@ -249,37 +247,13 @@
             }
         },
         {
-            "tag": "🇧🇷BR | 🟢 | vmess | @Hope_Net | 5",
-            "type": "vmess",
-            "server": "95.164.4.88",
-            "server_port": 80,
-            "uuid": "c04c3b34-70fd-4fec-963e-c12d09f36bef",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "vu-mumbai-01.vnode.info",
-            "server_port": 2053,
-            "uuid": "a04001f3-2dba-40ed-8c2e-d0c765d9afaa",
+            "server": "137.175.21.180",
+            "server_port": 38001,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 64,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -290,7 +264,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "RELAY-172.67.142.22-0446 | 61.552MB",
+                "server_name": "",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -300,9 +274,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/path\/1738432110766",
                 "headers": {
-                    "Host": "RELAY-172.67.142.22-0446 | 61.552MB"
+                    "Host": ""
                 }
             }
         },
