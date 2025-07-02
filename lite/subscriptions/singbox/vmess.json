@@ -107,13 +107,13 @@
             "outbounds": [
                 "URL-TEST",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 19",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 18",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 4",
-                "❔XX | 🟢 | vmess | @Hope_Net | 5",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
+                "❔XX | 🟢 | vmess | @Hope_Net | 6",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 5",
-                "🇩🇪DE | 🟢 | vmess | @FreakConfig | 0"
+                "🇦🇹AT | 🟢 | vmess | @FreakConfig | 0"
             ]
         },
         {
@@ -121,13 +121,13 @@
             "type": "urltest",
             "outbounds": [
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 19",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 18",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 4",
-                "❔XX | 🟢 | vmess | @Hope_Net | 5",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
+                "❔XX | 🟢 | vmess | @Hope_Net | 6",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 5",
-                "🇩🇪DE | 🟢 | vmess | @FreakConfig | 0"
+                "🇦🇹AT | 🟢 | vmess | @FreakConfig | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -167,11 +167,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 19",
+            "tag": "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 18",
             "type": "vmess",
-            "server": "lt.fxlcn.com",
-            "server_port": 45276,
-            "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
+            "server": "codepen.io",
+            "server_port": 443,
+            "uuid": "de94cc0a-0592-4969-b1fc-97ea8f0ea0b3",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -181,6 +181,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "farid.1.berozha.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/us.kkp.me.eu.org\/aa",
+                "headers": {
+                    "Host": "farid.1.berozha.ir"
+                }
             }
         },
         {
@@ -242,11 +259,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 4",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
             "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 8080,
-            "uuid": "cabcbaa-aacb-baac-abdc-acabbbbcaacc",
+            "server": "38.54.94.122",
+            "server_port": 2053,
+            "uuid": "2ca8b9c3-a2c7-4f3e-b3f4-acd85525ace1",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -256,14 +273,31 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/L0229-16",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 5",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 6",
             "type": "vmess",
             "server": "127.0.0.1",
-            "server_port": 2080,
-            "uuid": "abbccaa-caba-baca-cdba-ccccabaabbba",
+            "server_port": 8080,
+            "uuid": "acbcbaa-aacb-abac-dbca-abccaababcbc",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -293,7 +327,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | @FreakConfig | 0",
+            "tag": "🇦🇹AT | 🟢 | vmess | @FreakConfig | 0",
             "type": "vmess",
             "server": "prone.marfanet.com",
             "server_port": 56320,
