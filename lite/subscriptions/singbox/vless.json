@@ -153,11 +153,10 @@
                 "🇩🇪DE | 🔴 | vless | @VmessProtocol | 1",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 2",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 4",
-                "🇺🇸US | 🔴 | vless | @free1_vpn | 8",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 9",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 8",
-                "🇨🇦CA | 🔴 | vless | @Outlinev2rayNG | 9",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 0",
                 "❔XX | 🔴 | vless | @Capoit | 1",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
@@ -223,11 +222,10 @@
                 "🇩🇪DE | 🔴 | vless | @VmessProtocol | 1",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 2",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 4",
-                "🇺🇸US | 🔴 | vless | @free1_vpn | 8",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 9",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 8",
-                "🇨🇦CA | 🔴 | vless | @Outlinev2rayNG | 9",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 0",
                 "❔XX | 🔴 | vless | @Capoit | 1",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
@@ -1299,7 +1297,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @free1_vpn | 8",
+            "tag": "🇺🇸US | 🔴 | vless | @free1_vpn | 9",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
@@ -1316,27 +1314,6 @@
                 "path": "\/containers\/fi",
                 "headers": {
                     "Host": "151.101.3.8"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @free1_vpn | 9",
-            "type": "vless",
-            "server": "172.66.132.44",
-            "server_port": 80,
-            "uuid": "5459f68e-d914-4b31-93a3-ecdf638b7a5b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=2560",
-                "headers": {
-                    "Host": "abcd.taraneh.dpdns.org"
                 }
             }
         },
@@ -1369,7 +1346,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @Outlinev2rayNG | 9",
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
             "type": "vless",
             "server": "104.24.56.187",
             "server_port": 80,
