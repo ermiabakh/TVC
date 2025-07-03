@@ -429,10 +429,10 @@
                 "🚩CF | 🔴 | vless | @mehrosaboran | 0",
                 "🚩CF | 🔴 | vless | @mehrosaboran | 1",
                 "🚩CF | 🔴 | vless | @mehrosaboran | 2",
-                "🇸🇪SE | 🔴 | vless | @mehrosaboran | 3",
-                "🇮🇷IR | 🔴 | vless | @mehrosaboran | 6",
-                "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
-                "🚩CF | 🔴 | vless | @mehrosaboran | 10",
+                "🚩CF | 🔴 | vless | @mehrosaboran | 3",
+                "🇸🇪SE | 🔴 | vless | @mehrosaboran | 4",
+                "🇮🇷IR | 🔴 | vless | @mehrosaboran | 7",
+                "🇺🇸US | 🔴 | vless | @mehrosaboran | 9",
                 "🇫🇮FI | 🔴 | vless | @nofiltering2 | 2",
                 "🇳🇱NL | 🔴 | vless | @proxy_mtm | 0",
                 "🚩CF | 🔴 | vless | @proxy_mtm | 1",
@@ -789,10 +789,10 @@
                 "🚩CF | 🔴 | vless | @mehrosaboran | 0",
                 "🚩CF | 🔴 | vless | @mehrosaboran | 1",
                 "🚩CF | 🔴 | vless | @mehrosaboran | 2",
-                "🇸🇪SE | 🔴 | vless | @mehrosaboran | 3",
-                "🇮🇷IR | 🔴 | vless | @mehrosaboran | 6",
-                "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
-                "🚩CF | 🔴 | vless | @mehrosaboran | 10",
+                "🚩CF | 🔴 | vless | @mehrosaboran | 3",
+                "🇸🇪SE | 🔴 | vless | @mehrosaboran | 4",
+                "🇮🇷IR | 🔴 | vless | @mehrosaboran | 7",
+                "🇺🇸US | 🔴 | vless | @mehrosaboran | 9",
                 "🇫🇮FI | 🔴 | vless | @nofiltering2 | 2",
                 "🇳🇱NL | 🔴 | vless | @proxy_mtm | 0",
                 "🚩CF | 🔴 | vless | @proxy_mtm | 1",
@@ -8070,6 +8070,20 @@
             "tag": "🚩CF | 🔴 | vless | @mehrosaboran | 0",
             "type": "vless",
             "server": "104.18.26.90",
+            "server_port": 80,
+            "uuid": "b2bb37ae-918a-4c7b-8cfb-3bcf35cf9c7e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🚩CF | 🔴 | vless | @mehrosaboran | 1",
+            "type": "vless",
+            "server": "104.18.26.90",
             "server_port": 8880,
             "uuid": "b54fbd00-dc57-46d0-8bc0-d5546b977012",
             "flow": "",
@@ -8081,7 +8095,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @mehrosaboran | 1",
+            "tag": "🚩CF | 🔴 | vless | @mehrosaboran | 2",
             "type": "vless",
             "server": "172.67.164.239",
             "server_port": 80,
@@ -8102,7 +8116,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @mehrosaboran | 2",
+            "tag": "🚩CF | 🔴 | vless | @mehrosaboran | 3",
             "type": "vless",
             "server": "104.18.26.90",
             "server_port": 80,
@@ -8123,7 +8137,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @mehrosaboran | 3",
+            "tag": "🇸🇪SE | 🔴 | vless | @mehrosaboran | 4",
             "type": "vless",
             "server": "185.146.173.94",
             "server_port": 2087,
@@ -8154,7 +8168,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @mehrosaboran | 6",
+            "tag": "🇮🇷IR | 🔴 | vless | @mehrosaboran | 7",
             "type": "vless",
             "server": "ping.amirhossein.info",
             "server_port": 8443,
@@ -8175,7 +8189,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
+            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 9",
             "type": "vless",
             "server": "151.101.67.8",
             "server_port": 80,
@@ -8192,27 +8206,6 @@
                 "path": "\/--@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG?ed=2560",
                 "headers": {
                     "Host": "151.101.67.8"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🔴 | vless | @mehrosaboran | 10",
-            "type": "vless",
-            "server": "104.17.148.22",
-            "server_port": 80,
-            "uuid": "51e673c9-6e15-4268-802a-439fb27a542a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2?ed=2560",
-                "headers": {
-                    "Host": "104.17.148.22"
                 }
             }
         },
