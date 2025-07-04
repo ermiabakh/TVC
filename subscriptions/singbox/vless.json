@@ -424,8 +424,8 @@
                 "🚩CF | 🔴 | vless | @mehrosaboran | 3",
                 "🚩CF | 🔴 | vless | @mehrosaboran | 4",
                 "🚩CF | 🔴 | vless | @mehrosaboran | 5",
-                "🇸🇪SE | 🔴 | vless | @mehrosaboran | 6",
-                "🇮🇷IR | 🔴 | vless | @mehrosaboran | 9",
+                "🚩CF | 🔴 | vless | @mehrosaboran | 6",
+                "🇸🇪SE | 🔴 | vless | @mehrosaboran | 7",
                 "🇮🇷IR | 🔴 | vless | @nofiltering2 | 0",
                 "🇫🇮FI | 🔴 | vless | @nofiltering2 | 1",
                 "🇫🇮FI | 🔴 | vless | @nofiltering2 | 5",
@@ -777,8 +777,8 @@
                 "🚩CF | 🔴 | vless | @mehrosaboran | 3",
                 "🚩CF | 🔴 | vless | @mehrosaboran | 4",
                 "🚩CF | 🔴 | vless | @mehrosaboran | 5",
-                "🇸🇪SE | 🔴 | vless | @mehrosaboran | 6",
-                "🇮🇷IR | 🔴 | vless | @mehrosaboran | 9",
+                "🚩CF | 🔴 | vless | @mehrosaboran | 6",
+                "🇸🇪SE | 🔴 | vless | @mehrosaboran | 7",
                 "🇮🇷IR | 🔴 | vless | @nofiltering2 | 0",
                 "🇫🇮FI | 🔴 | vless | @nofiltering2 | 1",
                 "🇫🇮FI | 🔴 | vless | @nofiltering2 | 5",
@@ -7862,6 +7862,20 @@
             "type": "vless",
             "server": "104.18.26.90",
             "server_port": 80,
+            "uuid": "a5bb3891-fc00-49a7-8117-740803e3eaa2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🚩CF | 🔴 | vless | @mehrosaboran | 1",
+            "type": "vless",
+            "server": "104.18.26.90",
+            "server_port": 80,
             "uuid": "6f690965-3be3-43bb-9331-3ead6efb20aa",
             "flow": "",
             "packet_encoding": "xudp",
@@ -7879,7 +7893,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @mehrosaboran | 1",
+            "tag": "🚩CF | 🔴 | vless | @mehrosaboran | 2",
             "type": "vless",
             "server": "172.67.17.195",
             "server_port": 80,
@@ -7900,7 +7914,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @mehrosaboran | 2",
+            "tag": "🚩CF | 🔴 | vless | @mehrosaboran | 3",
             "type": "vless",
             "server": "104.18.26.90",
             "server_port": 80,
@@ -7914,7 +7928,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @mehrosaboran | 3",
+            "tag": "🚩CF | 🔴 | vless | @mehrosaboran | 4",
             "type": "vless",
             "server": "104.18.26.90",
             "server_port": 8880,
@@ -7928,7 +7942,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @mehrosaboran | 4",
+            "tag": "🚩CF | 🔴 | vless | @mehrosaboran | 5",
             "type": "vless",
             "server": "172.67.164.239",
             "server_port": 80,
@@ -7949,7 +7963,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @mehrosaboran | 5",
+            "tag": "🚩CF | 🔴 | vless | @mehrosaboran | 6",
             "type": "vless",
             "server": "104.18.26.90",
             "server_port": 80,
@@ -7970,7 +7984,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @mehrosaboran | 6",
+            "tag": "🇸🇪SE | 🔴 | vless | @mehrosaboran | 7",
             "type": "vless",
             "server": "185.146.173.94",
             "server_port": 2087,
@@ -7997,27 +8011,6 @@
                 "path": "\/?ed=2560",
                 "headers": {
                     "Host": "a.xiazitong.zone.id"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🔴 | vless | @mehrosaboran | 9",
-            "type": "vless",
-            "server": "ping.amirhossein.info",
-            "server_port": 8443,
-            "uuid": "89938a70-b39b-4255-b436-17e703cf5460",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram@Green_WPN@Vijra_dev\/?ed=2560",
-                "headers": {
-                    "Host": "ping.amirhossein.info"
                 }
             }
         },
