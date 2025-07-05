@@ -308,7 +308,6 @@
                 "🇩🇪DE | 🔴 | vless | @vmessorg | 17",
                 "🚩CF | 🔴 | vless | @vmessorg | 18",
                 "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 0",
-                "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 1",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 5",
                 "🚩CF | 🔴 | vless | @v2ray_swhil | 6",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 7",
@@ -670,7 +669,6 @@
                 "🇩🇪DE | 🔴 | vless | @vmessorg | 17",
                 "🚩CF | 🔴 | vless | @vmessorg | 18",
                 "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 0",
-                "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 1",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 5",
                 "🚩CF | 🔴 | vless | @v2ray_swhil | 6",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 7",
@@ -5215,37 +5213,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 1",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "4d91916f-a7fd-419b-8b90-640bb8d1b9f4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "TITanTabLOmaNAHaMRaH.IR",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/JHVdDlmFTThrY7WI\/NjIuMy4xMi4xODU",
-                "headers": {
-                    "Host": "TITanTabLOmaNAHaMRaH.IR"
-                }
             }
         },
         {
