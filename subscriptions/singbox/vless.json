@@ -337,7 +337,6 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 1",
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 3",
-                "🚩CF | 🔴 | vless | @v2ray1_ng | 4",
                 "🚩CF | 🔴 | vless | @vless_vmess | 0",
                 "🚩CF | 🔴 | vless | @vless_vmess | 1",
                 "🇬🇧GB | 🟢 | vless | @vless_vmess | 2",
@@ -674,7 +673,6 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 1",
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 3",
-                "🚩CF | 🔴 | vless | @v2ray1_ng | 4",
                 "🚩CF | 🔴 | vless | @vless_vmess | 0",
                 "🚩CF | 🔴 | vless | @vless_vmess | 1",
                 "🇬🇧GB | 🟢 | vless | @vless_vmess | 2",
@@ -6166,27 +6164,6 @@
                 "path": "\/QdRVz1eSwuT9ClmZ\/MzQuODguNjMuMTYw?ed=2560",
                 "headers": {
                     "Host": "TITanTabLOmaNAHaMRaH.IR"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🔴 | vless | @v2ray1_ng | 4",
-            "type": "vless",
-            "server": "188.114.98.18",
-            "server_port": 80,
-            "uuid": "a43ecdaf-c1e9-44f6-bbd9-1c113cb7d48f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "188.114.98.18"
                 }
             }
         },
