@@ -391,7 +391,6 @@
                 "🚩CF | 🔴 | vless | @DailyV2RY | 93",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 94",
                 "🇩🇪DE | 🔴 | vless | @DailyV2RY | 95",
-                "🚩CF | 🔴 | vless | @v2ray_vpn_ir | 0",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 2",
                 "🇫🇮FI | 🟢 | vless | @free1_vpn | 4",
@@ -731,7 +730,6 @@
                 "🚩CF | 🔴 | vless | @DailyV2RY | 93",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 94",
                 "🇩🇪DE | 🔴 | vless | @DailyV2RY | 95",
-                "🚩CF | 🔴 | vless | @v2ray_vpn_ir | 0",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 2",
                 "🇫🇮FI | 🟢 | vless | @free1_vpn | 4",
@@ -7303,37 +7301,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🔴 | vless | @v2ray_vpn_ir | 0",
-            "type": "vless",
-            "server": "104.16.53.11",
-            "server_port": 8443,
-            "uuid": "7c9e3c1d-a360-4429-9189-e45a98de7fde",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "my.ski1plag.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram@V2ray_Alpha",
-                "headers": {
-                    "Host": "my.ski1plag.ir"
                 }
             }
         },
