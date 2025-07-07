@@ -152,7 +152,6 @@
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 5",
                 "🇫🇮FI | 🟢 | vless | @free1_vpn | 6",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 4",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 3",
@@ -214,7 +213,6 @@
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 5",
                 "🇫🇮FI | 🟢 | vless | @free1_vpn | 6",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 4",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 3",
@@ -1309,7 +1307,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
             "type": "vless",
             "server": "172.67.92.147",
             "server_port": 80,
@@ -1326,27 +1324,6 @@
                 "path": "\/?ed=2560",
                 "headers": {
                     "Host": "172.67.92.147"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
-            "type": "vless",
-            "server": "141.101.121.108",
-            "server_port": 8080,
-            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "141.101.121.108"
                 }
             }
         },
