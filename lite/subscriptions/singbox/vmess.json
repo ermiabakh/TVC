@@ -226,8 +226,8 @@
             "tag": "❔XX | 🟢 | vmess | @Hope_Net | 1",
             "type": "vmess",
             "server": "127.0.0.1",
-            "server_port": 8080,
-            "uuid": "bcacaab-aacb-cbaa-dbac-cbabcabcaacb",
+            "server_port": 2080,
+            "uuid": "babcaca-caba-caba-acdb-bcbaccbcabaa",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -242,9 +242,9 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
             "type": "vmess",
-            "server": "104.17.221.248",
+            "server": "104.21.69.44",
             "server_port": 80,
-            "uuid": "e6543319-0574-42ac-b778-1c4325d626f5",
+            "uuid": "c1fd780a-3408-4f48-a932-5832a28ce9f6",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -257,9 +257,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/ausgt02.bestforxray.buzz\/linkws",
                 "headers": {
-                    "Host": "104.17.221.248"
+                    "Host": "104.21.69.44"
                 }
             }
         },
