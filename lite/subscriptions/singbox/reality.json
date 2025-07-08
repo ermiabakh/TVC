@@ -110,10 +110,7 @@
                 "🇩🇪DE | 🔴 | vless | @ARv2ray | 16",
                 "🇫🇷FR | 🔴 | vless | @shh_proxy | 11",
                 "🇩🇪DE | 🔴 | vless | @DarkTeam_VPN | 1",
-                "🇺🇸US | 🔴 | vless | @v2rayngvpn | 17",
-                "🇩🇪DE | 🔴 | vless | @proxystore11 | 9",
-                "❔XX | 🔴 | vless | @vpn_go67 | 20",
-                "❔XX | 🔴 | vless | @vpn_go67 | 21",
+                "🇩🇪DE | 🔴 | vless | @proxystore11 | 11",
                 "🇫🇮FI | 🟢 | vless | @kingofilter | 4",
                 "❔XX | 🔴 | vless | @SvnTeam | 6",
                 "❔XX | 🔴 | vless | @SvnTeam | 7"
@@ -127,10 +124,7 @@
                 "🇩🇪DE | 🔴 | vless | @ARv2ray | 16",
                 "🇫🇷FR | 🔴 | vless | @shh_proxy | 11",
                 "🇩🇪DE | 🔴 | vless | @DarkTeam_VPN | 1",
-                "🇺🇸US | 🔴 | vless | @v2rayngvpn | 17",
-                "🇩🇪DE | 🔴 | vless | @proxystore11 | 9",
-                "❔XX | 🔴 | vless | @vpn_go67 | 20",
-                "❔XX | 🔴 | vless | @vpn_go67 | 21",
+                "🇩🇪DE | 🔴 | vless | @proxystore11 | 11",
                 "🇫🇮FI | 🟢 | vless | @kingofilter | 4",
                 "❔XX | 🔴 | vless | @SvnTeam | 6",
                 "❔XX | 🔴 | vless | @SvnTeam | 7"
@@ -286,36 +280,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @v2rayngvpn | 17",
-            "type": "vless",
-            "server": "44.201.168.201",
-            "server_port": 443,
-            "uuid": "a7e04b44-855e-4fe7-8fa0-31894e928bce",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.chatgpt.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A",
-                    "short_id": "a4844ba7"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @proxystore11 | 9",
+            "tag": "🇩🇪DE | 🔴 | vless | @proxystore11 | 11",
             "type": "vless",
             "server": "vip1.proxystore11.news",
             "server_port": 2052,
@@ -341,78 +306,6 @@
                     "public_key": "-4S95rjoZIG_AeUxIlwedx89e7C_X4jnePY3RsiF4io",
                     "short_id": "f8fcb589"
                 }
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @vpn_go67 | 20",
-            "type": "vless",
-            "server": "public.alpanel.top",
-            "server_port": 1380,
-            "uuid": "da890efd-bb54-4264-d59b-257822039ac1",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.iranserver.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "u2Xf8Og6H4iPcoYIZC8Cm8ziH2LA4ifvpHxEpp8bfUw",
-                    "short_id": "4c5aaad0"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@vmesskhodam,@vmesskhodam,@vmesskhodam,@vmesskhodam,@vmesskhodam,@vmesskhodam,@vmesskhodam,@vmesskhodam,@vmesskhodam",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @vpn_go67 | 21",
-            "type": "vless",
-            "server": "public.alpanel.top",
-            "server_port": 1403,
-            "uuid": "4c6451ba-6594-4d67-a8ae-4df79815a4e3",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "tuyacn.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "rCdor1DLbQcXbNBD9aiLIoCYHwqTMh8ao9MIPMXo0yA",
-                    "short_id": "99"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@vmesskhodam,@vmesskhodam,@vmesskhodam,@vmesskhodam,@vmesskhodam",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
