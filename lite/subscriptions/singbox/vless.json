@@ -135,7 +135,7 @@
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
                 "🇩🇪DE | 🔴 | vless | @DarkTeam_VPN | 1",
                 "🇮🇷IR | 🔴 | vless | @DarkTeam_VPN | 2",
-                "🇫🇮FI | 🟢 | vless | @proxy_kafee | 0",
+                "🇩🇪DE | 🟢 | vless | @proxy_kafee | 0",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 1",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
@@ -162,7 +162,7 @@
                 "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 0",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
-                "🇸🇪SE | 🔴 | vless | @v2ray1_ng | 8",
+                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 7",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 2",
@@ -172,8 +172,8 @@
                 "🇸🇬SG | 🔴 | vless | @SafeNet_Server | 4",
                 "🇩🇪DE | 🔴 | vless | @lrnbymaa | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
-                "🇺🇸US | 🔴 | vless | @free1_vpn | 8",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 9",
+                "🇺🇸US | 🔴 | vless | @free1_vpn | 10",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
                 "🇺🇸US | 🔴 | vless | @Capoit | 9",
@@ -228,7 +228,7 @@
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
                 "🇩🇪DE | 🔴 | vless | @DarkTeam_VPN | 1",
                 "🇮🇷IR | 🔴 | vless | @DarkTeam_VPN | 2",
-                "🇫🇮FI | 🟢 | vless | @proxy_kafee | 0",
+                "🇩🇪DE | 🟢 | vless | @proxy_kafee | 0",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 1",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
@@ -255,7 +255,7 @@
                 "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 0",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
-                "🇸🇪SE | 🔴 | vless | @v2ray1_ng | 8",
+                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 7",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 2",
@@ -265,8 +265,8 @@
                 "🇸🇬SG | 🔴 | vless | @SafeNet_Server | 4",
                 "🇩🇪DE | 🔴 | vless | @lrnbymaa | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
-                "🇺🇸US | 🔴 | vless | @free1_vpn | 8",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 9",
+                "🇺🇸US | 🔴 | vless | @free1_vpn | 10",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
                 "🇺🇸US | 🔴 | vless | @Capoit | 9",
@@ -965,7 +965,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🟢 | vless | @proxy_kafee | 0",
+            "tag": "🇩🇪DE | 🟢 | vless | @proxy_kafee | 0",
             "type": "vless",
             "server": "canine.origamimarketings.com",
             "server_port": 9999,
@@ -1510,11 +1510,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @v2ray1_ng | 8",
+            "tag": "🇺🇸US | 🔴 | vless | @v2ray1_ng | 7",
             "type": "vless",
-            "server": "185.146.173.18",
-            "server_port": 443,
-            "uuid": "ffc3b524-acad-4f6e-8691-73fdce307cf9",
+            "server": "104.18.26.90",
+            "server_port": 80,
+            "uuid": "6f690965-3be3-43bb-9331-3ead6efb20aa",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1522,21 +1522,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.dns-shop.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "www.dns-shop.ir"
+                    "Host": "104.18.26.90"
                 }
             }
         },
@@ -1715,7 +1705,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @free1_vpn | 8",
+            "tag": "🇺🇸US | 🔴 | vless | @free1_vpn | 9",
             "type": "vless",
             "server": "104.18.26.90",
             "server_port": 80,
@@ -1736,7 +1726,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @free1_vpn | 9",
+            "tag": "🇺🇸US | 🔴 | vless | @free1_vpn | 10",
             "type": "vless",
             "server": "104.16.104.151",
             "server_port": 80,
