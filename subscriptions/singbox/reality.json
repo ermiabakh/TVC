@@ -135,7 +135,8 @@
                 "🇩🇪DE | 🔴 | vless | @VmessProtocol | 0",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 169",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 175",
-                "🇩🇪DE | 🔴 | vless | @proxystore11 | 3",
+                "🇩🇪DE | 🔴 | vless | @proxystore11 | 0",
+                "🇮🇷IR | 🟢 | vless | @Outlinev2rayNG | 0",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 2",
                 "🇩🇪DE | 🔴 | vless | @nofiltering2 | 2",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
@@ -191,7 +192,8 @@
                 "🇩🇪DE | 🔴 | vless | @VmessProtocol | 0",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 169",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 175",
-                "🇩🇪DE | 🔴 | vless | @proxystore11 | 3",
+                "🇩🇪DE | 🔴 | vless | @proxystore11 | 0",
+                "🇮🇷IR | 🟢 | vless | @Outlinev2rayNG | 0",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 2",
                 "🇩🇪DE | 🔴 | vless | @nofiltering2 | 2",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
@@ -1159,7 +1161,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @proxystore11 | 3",
+            "tag": "🇩🇪DE | 🔴 | vless | @proxystore11 | 0",
             "type": "vless",
             "server": "vip1.proxystore11.news",
             "server_port": 2052,
@@ -1184,6 +1186,35 @@
                     "enabled": true,
                     "public_key": "-4S95rjoZIG_AeUxIlwedx89e7C_X4jnePY3RsiF4io",
                     "short_id": "f8fcb589"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | 🟢 | vless | @Outlinev2rayNG | 0",
+            "type": "vless",
+            "server": "mar13t.rasmar1400.com",
+            "server_port": 2080,
+            "uuid": "bea34b73-3244-475b-b914-7bb80e1cda91",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "dash.cloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "L3lJWdU7mHijSkNaNt-m29OYnKnHvHYRxg2Y8XXFdng",
+                    "short_id": "bf517367267685"
                 }
             }
         },
