@@ -263,7 +263,6 @@
                 "🚩CF | 🔴 | vless | @rxv2ray | 10",
                 "❔XX | 🔴 | vless | @rxv2ray | 11",
                 "🇮🇷IR | 🔴 | vless | @rxv2ray | 12",
-                "🇮🇷IR | 🔴 | vless | @rxv2ray | 14",
                 "🇮🇷IR | 🔴 | vless | @CUSTOMVPNSERVER | 0",
                 "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 2",
                 "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 3",
@@ -809,7 +808,6 @@
                 "🚩CF | 🔴 | vless | @rxv2ray | 10",
                 "❔XX | 🔴 | vless | @rxv2ray | 11",
                 "🇮🇷IR | 🔴 | vless | @rxv2ray | 12",
-                "🇮🇷IR | 🔴 | vless | @rxv2ray | 14",
                 "🇮🇷IR | 🔴 | vless | @CUSTOMVPNSERVER | 0",
                 "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 2",
                 "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 3",
@@ -4708,37 +4706,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "nv163.momdping.com"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🔴 | vless | @rxv2ray | 14",
-            "type": "vless",
-            "server": "nv149.momdping.com",
-            "server_port": 443,
-            "uuid": "d1d00b07-7324-4250-809c-e20fcc223340",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "nv149.momdping.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "nv149.momdping.com"
                 }
             }
         },
