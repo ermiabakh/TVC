@@ -112,7 +112,6 @@
                 "🇩🇪DE | 🔴 | vless | @DarkTeam_VPN | 1",
                 "🇫🇮FI | 🟢 | vless | @proxy_kafee | 5",
                 "🇩🇪DE | 🔴 | vless | @customv2ray | 10",
-                "🇩🇪DE | 🔴 | vless | @flyv2ray | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "❔XX | 🔴 | vless | @SvnTeam | 6",
@@ -129,7 +128,6 @@
                 "🇩🇪DE | 🔴 | vless | @DarkTeam_VPN | 1",
                 "🇫🇮FI | 🟢 | vless | @proxy_kafee | 5",
                 "🇩🇪DE | 🔴 | vless | @customv2ray | 10",
-                "🇩🇪DE | 🔴 | vless | @flyv2ray | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "❔XX | 🔴 | vless | @SvnTeam | 6",
@@ -348,42 +346,6 @@
                     "public_key": "MvHAa605zfOrBe-SDP6_ytTmotBw39f6OefvXn2DZhk",
                     "short_id": "7f2798f9"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @flyv2ray | 8",
-            "type": "vless",
-            "server": "freeconfig.fergalvpnmod.com",
-            "server_port": 14198,
-            "uuid": "ed0321a3-7b82-4da7-9d98-64fd689edba3",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cloudflare.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "qfF7mYWCQ6jqSotcRjXCtIXFALrVjTbOd_2YqKD0WnI",
-                    "short_id": "7e5efedc"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Hossien",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
