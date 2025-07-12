@@ -539,9 +539,10 @@
                 "🇩🇪DE | 🔴 | vless | @DailyV2RY | 59",
                 "🇩🇪DE | 🔴 | vless | @DailyV2RY | 60",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 61",
-                "🇺🇸US | 🔴 | vless | @SafeNet_Server | 0",
-                "🇺🇸US | 🔴 | vless | @SafeNet_Server | 2",
-                "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 3",
+                "🇩🇪DE | 🔴 | vless | @SafeNet_Server | 0",
+                "🇺🇸US | 🔴 | vless | @SafeNet_Server | 1",
+                "🇺🇸US | 🔴 | vless | @SafeNet_Server | 3",
+                "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 4",
                 "🇳🇱NL | 🔴 | vless | @lrnbymaa | 0",
                 "🚩CF | 🔴 | vless | @lrnbymaa | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
@@ -581,7 +582,7 @@
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 4",
                 "🇮🇷IR | 🔴 | vless | @FreakConfig | 5",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 1",
-                "🇩🇪DE | 🔴 | vless | @flyv2ray | 2",
+                "🇫🇮FI | 🔴 | vless | @flyv2ray | 2",
                 "🇬🇧GB | 🔴 | vless | @flyv2ray | 3",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 6",
                 "🚩CF | 🔴 | vless | @flyv2ray | 7",
@@ -1086,9 +1087,10 @@
                 "🇩🇪DE | 🔴 | vless | @DailyV2RY | 59",
                 "🇩🇪DE | 🔴 | vless | @DailyV2RY | 60",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 61",
-                "🇺🇸US | 🔴 | vless | @SafeNet_Server | 0",
-                "🇺🇸US | 🔴 | vless | @SafeNet_Server | 2",
-                "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 3",
+                "🇩🇪DE | 🔴 | vless | @SafeNet_Server | 0",
+                "🇺🇸US | 🔴 | vless | @SafeNet_Server | 1",
+                "🇺🇸US | 🔴 | vless | @SafeNet_Server | 3",
+                "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 4",
                 "🇳🇱NL | 🔴 | vless | @lrnbymaa | 0",
                 "🚩CF | 🔴 | vless | @lrnbymaa | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
@@ -1128,7 +1130,7 @@
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 4",
                 "🇮🇷IR | 🔴 | vless | @FreakConfig | 5",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 1",
-                "🇩🇪DE | 🔴 | vless | @flyv2ray | 2",
+                "🇫🇮FI | 🔴 | vless | @flyv2ray | 2",
                 "🇬🇧GB | 🔴 | vless | @flyv2ray | 3",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 6",
                 "🚩CF | 🔴 | vless | @flyv2ray | 7",
@@ -10604,7 +10606,21 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @SafeNet_Server | 0",
+            "tag": "🇩🇪DE | 🔴 | vless | @SafeNet_Server | 0",
+            "type": "vless",
+            "server": "91.107.157.211",
+            "server_port": 443,
+            "uuid": "9767a982-d18d-4634-ad2b-c93489cbffae",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @SafeNet_Server | 1",
             "type": "vless",
             "server": "mtn.ivy-net.ir",
             "server_port": 80,
@@ -10625,7 +10641,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @SafeNet_Server | 2",
+            "tag": "🇺🇸US | 🔴 | vless | @SafeNet_Server | 3",
             "type": "vless",
             "server": "viop.fast.hosting-ip.com",
             "server_port": 80,
@@ -10639,7 +10655,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 3",
+            "tag": "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 4",
             "type": "vless",
             "server": "srv5.raykaservers.com",
             "server_port": 10215,
@@ -11540,7 +11556,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @flyv2ray | 2",
+            "tag": "🇫🇮FI | 🔴 | vless | @flyv2ray | 2",
             "type": "vless",
             "server": "start.adsplustnet.com",
             "server_port": 80,
