@@ -549,7 +549,6 @@
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 6",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 8",
                 "🇸🇪SE | 🔴 | vless | @free1_vpn | 9",
-                "🇺🇸US | 🔴 | vless | @free1_vpn | 10",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 0",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 1",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 4",
@@ -1097,7 +1096,6 @@
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 6",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 8",
                 "🇸🇪SE | 🔴 | vless | @free1_vpn | 9",
-                "🇺🇸US | 🔴 | vless | @free1_vpn | 10",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 0",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 1",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 4",
@@ -10824,30 +10822,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "www.dns-shop.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @free1_vpn | 10",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "4e0a435a-65d6-4e4e-a4ed-dfa8bdd732f5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ali.tas-bazi.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         },
