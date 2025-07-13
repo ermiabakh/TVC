@@ -145,8 +145,7 @@
                 "🇺🇸US | 🔴 | vless | @V2rayNGn | 16",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 14",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 15",
-                "🇩🇪DE | 🔴 | vless | @prrofile_purple | 124",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 125",
+                "🇺🇸US | 🔴 | vless | @prrofile_purple | 126",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 10",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 0",
@@ -181,7 +180,7 @@
                 "🇮🇷IR | 🔴 | vless | @FreakConfig | 5",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 8",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 9",
-                "🇺🇸US | 🔴 | vless | @iP_CF | 71",
+                "🇺🇸US | 🔴 | vless | @iP_CF | 72",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 3",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 4",
                 "🇮🇹IT | 🔴 | vless | @nofiltering2 | 23",
@@ -239,8 +238,7 @@
                 "🇺🇸US | 🔴 | vless | @V2rayNGn | 16",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 14",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 15",
-                "🇩🇪DE | 🔴 | vless | @prrofile_purple | 124",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 125",
+                "🇺🇸US | 🔴 | vless | @prrofile_purple | 126",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 10",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 0",
@@ -275,7 +273,7 @@
                 "🇮🇷IR | 🔴 | vless | @FreakConfig | 5",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 8",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 9",
-                "🇺🇸US | 🔴 | vless | @iP_CF | 71",
+                "🇺🇸US | 🔴 | vless | @iP_CF | 72",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 3",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 4",
                 "🇮🇹IT | 🔴 | vless | @nofiltering2 | 23",
@@ -1197,31 +1195,24 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @prrofile_purple | 124",
-            "type": "vless",
-            "server": "91.99.174.121",
-            "server_port": 8880,
-            "uuid": "a2eda8e1-4452-481b-9a71-aab18d3ed17e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 125",
+            "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 126",
             "type": "vless",
             "server": "104.18.26.90",
             "server_port": 80,
-            "uuid": "👉TELEGRAM___JOKERRVPN👈",
+            "uuid": "6f690965-3be3-43bb-9331-3ead6efb20aa",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=2560\/?JOKERRVPNBIA_CHANEL@JOKERRVPN",
+                "headers": {
+                    "Host": "104.18.26.90"
+                }
             }
         },
         {
@@ -1966,7 +1957,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @iP_CF | 71",
+            "tag": "🇺🇸US | 🔴 | vless | @iP_CF | 72",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 80,
