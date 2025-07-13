@@ -118,7 +118,7 @@
                 "🇳🇱NL | 🟢 | vless | @ipV2Ray | 1",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 20",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 21",
-                "🇨🇦CA | 🔴 | vless | @V2pedia | 15",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 15",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 16",
                 "🇩🇪DE | 🔴 | vless | @ARv2ray | 18",
                 "🇺🇸US | 🔴 | vless | @shh_proxy | 9",
@@ -175,7 +175,8 @@
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 7",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 9",
                 "🇸🇪SE | 🔴 | vless | @free1_vpn | 10",
-                "🇬🇧GB | 🔴 | vless | @Outlinev2rayNG | 12",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 11",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 12",
                 "🇺🇸US | 🔴 | vless | @Capoit | 10",
                 "🇺🇸US | 🔴 | vless | @Capoit | 11",
                 "🇮🇷IR | 🔴 | vless | @FreakConfig | 5",
@@ -212,7 +213,7 @@
                 "🇳🇱NL | 🟢 | vless | @ipV2Ray | 1",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 20",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 21",
-                "🇨🇦CA | 🔴 | vless | @V2pedia | 15",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 15",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 16",
                 "🇩🇪DE | 🔴 | vless | @ARv2ray | 18",
                 "🇺🇸US | 🔴 | vless | @shh_proxy | 9",
@@ -269,7 +270,8 @@
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 7",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 9",
                 "🇸🇪SE | 🔴 | vless | @free1_vpn | 10",
-                "🇬🇧GB | 🔴 | vless | @Outlinev2rayNG | 12",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 11",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 12",
                 "🇺🇸US | 🔴 | vless | @Capoit | 10",
                 "🇺🇸US | 🔴 | vless | @Capoit | 11",
                 "🇮🇷IR | 🔴 | vless | @FreakConfig | 5",
@@ -593,7 +595,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @V2pedia | 15",
+            "tag": "🇺🇸US | 🔴 | vless | @V2pedia | 15",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 443,
@@ -1853,11 +1855,11 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | @Outlinev2rayNG | 12",
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 11",
             "type": "vless",
-            "server": "45.12.30.234",
-            "server_port": 80,
-            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+            "server": "141.101.121.243",
+            "server_port": 8080,
+            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1869,7 +1871,38 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "45.12.30.234"
+                    "Host": "141.101.121.243"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 12",
+            "type": "vless",
+            "server": "104.19.245.206",
+            "server_port": 443,
+            "uuid": "9dd24d01-2b7a-4bd8-8c76-129d6ca89b8c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "kawaiifreevpn-7ds.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=2560",
+                "headers": {
+                    "Host": "kawaiifreevpn-7ds.pages.dev"
                 }
             }
         },
