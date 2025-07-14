@@ -108,7 +108,6 @@
                 "URL-TEST",
                 "🇩🇪DE | 🔴 | vless | @ARv2ray | 18",
                 "🇨🇿CZ | 🔴 | vless | @proxy_kafee | 4",
-                "🇩🇪DE | 🔴 | vless | @prrofile_purple | 125",
                 "🇳🇱NL | 🟢 | vless | @customv2ray | 17",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 9",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 13",
@@ -124,7 +123,6 @@
             "outbounds": [
                 "🇩🇪DE | 🔴 | vless | @ARv2ray | 18",
                 "🇨🇿CZ | 🔴 | vless | @proxy_kafee | 4",
-                "🇩🇪DE | 🔴 | vless | @prrofile_purple | 125",
                 "🇳🇱NL | 🟢 | vless | @customv2ray | 17",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 9",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 13",
@@ -223,35 +221,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @prrofile_purple | 125",
-            "type": "vless",
-            "server": "91.99.166.65",
-            "server_port": 80,
-            "uuid": "d449ba28-d545-474d-ad97-6e8a9fbc336b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "aider.chat",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "nuNgT0HxAJ7YZPfM5uYM_-8aDKvCmr9jQpxBUMRjJRE",
-                    "short_id": "39f0afc3"
-                }
             }
         },
         {
