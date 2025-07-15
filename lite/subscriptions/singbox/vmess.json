@@ -111,8 +111,8 @@
                 "🇩🇪DE | 🟢 | vmess | @SafeNet_Server | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
-                "🇬🇧GB | 🟢 | vmess | @Hope_Net | 11",
+                "🇵🇱PL | 🟢 | vmess | @Hope_Net | 8",
+                "🇩🇪DE | 🟢 | vmess | @Hope_Net | 9",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 8",
                 "🇿🇦ZA | 🟢 | vmess | @iP_CF | 71"
             ]
@@ -126,8 +126,8 @@
                 "🇩🇪DE | 🟢 | vmess | @SafeNet_Server | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
-                "🇬🇧GB | 🟢 | vmess | @Hope_Net | 11",
+                "🇵🇱PL | 🟢 | vmess | @Hope_Net | 8",
+                "🇩🇪DE | 🟢 | vmess | @Hope_Net | 9",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 8",
                 "🇿🇦ZA | 🟢 | vmess | @iP_CF | 71"
             ],
@@ -261,11 +261,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
+            "tag": "🇵🇱PL | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "104.21.80.1",
+            "server": "3h-poland1.09vpn.com",
             "server_port": 8443,
-            "uuid": "a0605527-28e4-449c-80ee-5642cc16a8af",
+            "uuid": "a4850481-9b95-430f-9b2d-192d2410b4f4",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -278,7 +278,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "it0.899994.xyz",
+                "server_name": "3h-poland1.09vpn.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -288,18 +288,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/index",
+                "path": "\/vmess\/",
                 "headers": {
-                    "Host": "it0.899994.xyz"
+                    "Host": "3h-poland1.09vpn.com"
                 }
             }
         },
         {
-            "tag": "🇬🇧GB | 🟢 | vmess | @Hope_Net | 11",
+            "tag": "🇩🇪DE | 🟢 | vmess | @Hope_Net | 9",
             "type": "vmess",
-            "server": "141.136.36.206",
-            "server_port": 57918,
-            "uuid": "9a17a5da-0798-4bc1-b1b3-aeb1a8e69dee",
+            "server": "23.158.56.227",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -309,6 +309,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "23.158.56.227",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "23.158.56.227"
+                }
             }
         },
         {
