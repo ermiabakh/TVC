@@ -111,8 +111,8 @@
                 "🇩🇪DE | 🟢 | vmess | @SafeNet_Server | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 7",
-                "❔XX | 🟢 | vmess | @Hope_Net | 8",
+                "🇨🇾CY | 🟢 | vmess | @Hope_Net | 1",
+                "🇩🇪DE | 🟢 | vmess | @Hope_Net | 2",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 8",
                 "🇿🇦ZA | 🟢 | vmess | @iP_CF | 71"
             ]
@@ -126,8 +126,8 @@
                 "🇩🇪DE | 🟢 | vmess | @SafeNet_Server | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 7",
-                "❔XX | 🟢 | vmess | @Hope_Net | 8",
+                "🇨🇾CY | 🟢 | vmess | @Hope_Net | 1",
+                "🇩🇪DE | 🟢 | vmess | @Hope_Net | 2",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 8",
                 "🇿🇦ZA | 🟢 | vmess | @iP_CF | 71"
             ],
@@ -261,11 +261,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 7",
+            "tag": "🇨🇾CY | 🟢 | vmess | @Hope_Net | 1",
             "type": "vmess",
-            "server": "phoenix.899994.xyz",
-            "server_port": 8443,
-            "uuid": "a0605527-28e4-449c-80ee-5642cc16a8af",
+            "server": "yx1.changyouVPN.top",
+            "server_port": 8880,
+            "uuid": "e658e8b4-e439-4479-bf80-1c44bcda900b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -276,30 +276,20 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/index",
+                "path": "\/",
                 "headers": {
-                    "Host": ""
+                    "Host": "yx1.changyouVPN.top"
                 }
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 8",
+            "tag": "🇩🇪DE | 🟢 | vmess | @Hope_Net | 2",
             "type": "vmess",
-            "server": "yoyo.cmyiphone.top",
-            "server_port": 49301,
-            "uuid": "061d42d5-4e6a-4661-be04-80dcfb15b08f",
+            "server": "64.225.109.206",
+            "server_port": 2082,
+            "uuid": "48264b45-64b8-4e9f-8a88-cef41f20c736",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -309,6 +299,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "http",
+                "host": [
+                    "64.225.109.206"
+                ],
+                "path": "\/"
             }
         },
         {
