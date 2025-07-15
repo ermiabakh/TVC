@@ -129,11 +129,14 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 0",
-                "🇨🇾CY | 🟢 | vmess | @Hope_Net | 1",
-                "🇩🇪DE | 🟢 | vmess | @Hope_Net | 2",
-                "🇬🇧GB | 🟢 | vmess | @Hope_Net | 3",
-                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 4",
+                "🚩CF | 🟢 | vmess | @Hope_Net | 0",
+                "🚩CF | 🟢 | vmess | @Hope_Net | 1",
+                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 2",
+                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 3",
+                "❔XX | 🟢 | vmess | @Hope_Net | 4",
+                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 5",
+                "❔XX | 🟢 | vmess | @Hope_Net | 6",
+                "🇨🇾CY | 🟢 | vmess | @Hope_Net | 7",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 8",
                 "🚩CF | 🟢 | vmess | @iP_CF | 35",
                 "🚩CF | 🟢 | vmess | @iP_CF | 37",
@@ -168,11 +171,14 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 0",
-                "🇨🇾CY | 🟢 | vmess | @Hope_Net | 1",
-                "🇩🇪DE | 🟢 | vmess | @Hope_Net | 2",
-                "🇬🇧GB | 🟢 | vmess | @Hope_Net | 3",
-                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 4",
+                "🚩CF | 🟢 | vmess | @Hope_Net | 0",
+                "🚩CF | 🟢 | vmess | @Hope_Net | 1",
+                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 2",
+                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 3",
+                "❔XX | 🟢 | vmess | @Hope_Net | 4",
+                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 5",
+                "❔XX | 🟢 | vmess | @Hope_Net | 6",
+                "🇨🇾CY | 🟢 | vmess | @Hope_Net | 7",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 8",
                 "🚩CF | 🟢 | vmess | @iP_CF | 35",
                 "🚩CF | 🟢 | vmess | @iP_CF | 37",
@@ -673,11 +679,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 0",
+            "tag": "🚩CF | 🟢 | vmess | @Hope_Net | 0",
             "type": "vmess",
-            "server": "yoyo.cmyiphone.top",
-            "server_port": 49301,
-            "uuid": "061d42d5-4e6a-4661-be04-80dcfb15b08f",
+            "server": "104.16.155.10",
+            "server_port": 2095,
+            "uuid": "4b36625c-b9d9-3ea6-aed5-86d62c70e16d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -687,14 +693,21 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/dabai.in172.67.93.174",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
-            "tag": "🇨🇾CY | 🟢 | vmess | @Hope_Net | 1",
+            "tag": "🚩CF | 🟢 | vmess | @Hope_Net | 1",
             "type": "vmess",
-            "server": "yx1.changyouVPN.top",
-            "server_port": 8880,
-            "uuid": "e658e8b4-e439-4479-bf80-1c44bcda900b",
+            "server": "104.18.7.41",
+            "server_port": 2052,
+            "uuid": "a71c8f6c-5210-45a0-8f47-1d2556ee3083",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -709,53 +722,12 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "yx1.changyouVPN.top"
+                    "Host": ""
                 }
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | @Hope_Net | 2",
-            "type": "vmess",
-            "server": "64.225.109.206",
-            "server_port": 2082,
-            "uuid": "48264b45-64b8-4e9f-8a88-cef41f20c736",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "http",
-                "host": [
-                    "64.225.109.206"
-                ],
-                "path": "\/"
-            }
-        },
-        {
-            "tag": "🇬🇧GB | 🟢 | vmess | @Hope_Net | 3",
-            "type": "vmess",
-            "server": "141.136.36.206",
-            "server_port": 57918,
-            "uuid": "9a17a5da-0798-4bc1-b1b3-aeb1a8e69dee",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇷🇺RU | 🟢 | vmess | @Hope_Net | 4",
+            "tag": "🇷🇺RU | 🟢 | vmess | @Hope_Net | 2",
             "type": "vmess",
             "server": "45.8.159.241",
             "server_port": 33395,
@@ -775,6 +747,105 @@
                 "path": "\/",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰HK | 🟢 | vmess | @Hope_Net | 3",
+            "type": "vmess",
+            "server": "141.11.77.200",
+            "server_port": 5148,
+            "uuid": "82667668-4bfd-4906-ab31-c2745d0de78e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 4",
+            "type": "vmess",
+            "server": "127.0.0.1",
+            "server_port": 8080,
+            "uuid": "aaccbab-bcaa-aacb-dbac-caabcbabbcca",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇭🇰HK | 🟢 | vmess | @Hope_Net | 5",
+            "type": "vmess",
+            "server": "18.167.120.158",
+            "server_port": 15074,
+            "uuid": "9f513161-576b-3abc-9c98-06e52c3a24c6",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 6",
+            "type": "vmess",
+            "server": "yoyo.cmyiphone.top",
+            "server_port": 49301,
+            "uuid": "061d42d5-4e6a-4661-be04-80dcfb15b08f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇾CY | 🟢 | vmess | @Hope_Net | 7",
+            "type": "vmess",
+            "server": "yx1.changyouVPN.top",
+            "server_port": 8880,
+            "uuid": "e658e8b4-e439-4479-bf80-1c44bcda900b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "yx1.changyouVPN.top"
                 }
             }
         },
