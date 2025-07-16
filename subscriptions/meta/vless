@@ -311,7 +311,7 @@ proxies:
   - {"name":"🇩🇪DE | 🔴 | vless | @customv2ray | 9","type":"vless","server":"zzyd6dhd5.pet0er23mh21qq.com","port":8080,"udp":false,"uuid":"598a6cea-dfd2-4e97-9415-4571f742bf18","tls":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇬🇧GB | 🟢 | vless | @customv2ray | 10","type":"vless","server":"v16.vxlimir.com","port":1370,"udp":true,"uuid":"878879e6-4f80-4e85-a415-85533b536d13","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"refersion.com","reality-opts":{"public-key":"_N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw","short-id":"e1afb93bfe75a34b"}}
   - {"name":"🇺🇸US | 🔴 | vless | @customv2ray | 11","type":"vless","server":"ipc.alirezaoshjelalbcsom.ir","port":2086,"udp":false,"uuid":"5c2ac2e3-388b-4e37-8ce4-1730c4cabb27","tls":false,"network":"httpupgrade","client-fingerprint":"chrome"}
-  - {"name":"🇺🇸US | 🟢 | vless | @customv2ray | 14","type":"vless","server":"amazon-4.cristiano.name.ng","port":443,"udp":true,"uuid":"4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"store.steampowered.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4","short-id":"f5"}}
+  - {"name":"🇩🇪DE | 🟢 | vless | @customv2ray | 14","type":"vless","server":"amazon-4.cristiano.name.ng","port":443,"udp":true,"uuid":"4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"store.steampowered.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4","short-id":"f5"}}
   - {"name":"TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&host=638879176706434658.amsterdam-prx-dnraaal.info&type=ws&sni=638879176706434658.amsterdam-prx-dnraaal.info#🇺🇸US | 🔴 | vless | @customv2ray | 16","type":"vless","server":"www.speedtest.net","port":2096,"udp":false,"uuid":"3056458b-913a-4193-b428-cdf22675b3b5","tls":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇩🇪DE | 🔴 | vless | @customv2ray | 19","type":"vless","server":"server1.fergalvpnmod.com","port":28338,"udp":true,"uuid":"0b9ee474-19f6-4d7f-9281-96f239e6cebc","tls":true,"network":"grpc","client-fingerprint":"randomized","servername":"cloudflare.com","grpc-opts":{"grpc-service-name":"Telegram:@FergalVpnMod"},"reality-opts":{"public-key":"MJwVQS7Qs5U_FYJn_osHZJSQ9ioxZRHC2HDPVwt7nmw","short-id":"9ecc4615ce"}}
   - {"name":"🇩🇪DE | 🟢 | vless | @customv2ray | 20","type":"vless","server":"de.gy-nt.shop","port":443,"udp":true,"uuid":"3488f5ea-47f8-4d6c-b1af-289c010c57cd","tls":true,"network":"tcp","client-fingerprint":"randomized","servername":"miro.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"B65r_UBsBFSlwq7XbrrWI0SuCxkB8KhQEYaGrB54mTc"}}
@@ -745,7 +745,7 @@ proxy-groups:
       - '🇩🇪DE | 🔴 | vless | @customv2ray | 9'
       - '🇬🇧GB | 🟢 | vless | @customv2ray | 10'
       - '🇺🇸US | 🔴 | vless | @customv2ray | 11'
-      - '🇺🇸US | 🟢 | vless | @customv2ray | 14'
+      - '🇩🇪DE | 🟢 | vless | @customv2ray | 14'
       - 'TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&host=638879176706434658.amsterdam-prx-dnraaal.info&type=ws&sni=638879176706434658.amsterdam-prx-dnraaal.info#🇺🇸US | 🔴 | vless | @customv2ray | 16'
       - '🇩🇪DE | 🔴 | vless | @customv2ray | 19'
       - '🇩🇪DE | 🟢 | vless | @customv2ray | 20'
@@ -1179,7 +1179,7 @@ proxy-groups:
       - '🇩🇪DE | 🔴 | vless | @customv2ray | 9'
       - '🇬🇧GB | 🟢 | vless | @customv2ray | 10'
       - '🇺🇸US | 🔴 | vless | @customv2ray | 11'
-      - '🇺🇸US | 🟢 | vless | @customv2ray | 14'
+      - '🇩🇪DE | 🟢 | vless | @customv2ray | 14'
       - 'TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&host=638879176706434658.amsterdam-prx-dnraaal.info&type=ws&sni=638879176706434658.amsterdam-prx-dnraaal.info#🇺🇸US | 🔴 | vless | @customv2ray | 16'
       - '🇩🇪DE | 🔴 | vless | @customv2ray | 19'
       - '🇩🇪DE | 🟢 | vless | @customv2ray | 20'
@@ -1612,7 +1612,7 @@ proxy-groups:
       - '🇩🇪DE | 🔴 | vless | @customv2ray | 9'
       - '🇬🇧GB | 🟢 | vless | @customv2ray | 10'
       - '🇺🇸US | 🔴 | vless | @customv2ray | 11'
-      - '🇺🇸US | 🟢 | vless | @customv2ray | 14'
+      - '🇩🇪DE | 🟢 | vless | @customv2ray | 14'
       - 'TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&host=638879176706434658.amsterdam-prx-dnraaal.info&type=ws&sni=638879176706434658.amsterdam-prx-dnraaal.info#🇺🇸US | 🔴 | vless | @customv2ray | 16'
       - '🇩🇪DE | 🔴 | vless | @customv2ray | 19'
       - '🇩🇪DE | 🟢 | vless | @customv2ray | 20'
