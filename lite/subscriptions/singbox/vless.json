@@ -175,11 +175,10 @@
                 "🇫🇮FI | 🔴 | vless | @free1_vpn | 11",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 12",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 12",
-                "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 13",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 13",
                 "🇩🇪DE | 🟢 | vless | @Capoit | 15",
                 "🇳🇱NL | 🔴 | vless | @Capoit | 16",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 7",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 15",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 16",
                 "🇬🇧GB | 🔴 | vless | @iP_CF | 60",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 6",
@@ -269,11 +268,10 @@
                 "🇫🇮FI | 🔴 | vless | @free1_vpn | 11",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 12",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 12",
-                "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 13",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 13",
                 "🇩🇪DE | 🟢 | vless | @Capoit | 15",
                 "🇳🇱NL | 🔴 | vless | @Capoit | 16",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 7",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 15",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 16",
                 "🇬🇧GB | 🔴 | vless | @iP_CF | 60",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 6",
@@ -1896,6 +1894,27 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 12",
             "type": "vless",
+            "server": "104.21.112.1",
+            "server_port": 80,
+            "uuid": "2036e2c3-18a5-4eed-9db4-f91a7f02c7d5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/193.123.81.105=443",
+                "headers": {
+                    "Host": "104.21.112.1"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 13",
+            "type": "vless",
             "server": "104.17.147.22",
             "server_port": 2087,
             "uuid": "9e769ce1-34be-4e3f-b0a6-823f30eb8f69",
@@ -1921,27 +1940,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "smart.v2plusify.org"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 13",
-            "type": "vless",
-            "server": "freeconfig.fergalvpnmod.com",
-            "server_port": 12765,
-            "uuid": "f503c72d-485e-4091-9d0c-9ad34d61c914",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram@FergalVpnMod",
-                "headers": {
-                    "Host": "freeconfig.fergalvpnmod.com"
                 }
             }
         },
@@ -2031,27 +2029,6 @@
                 "path": "\/?ed=2560",
                 "headers": {
                     "Host": "sub.divib.dynv6.net"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 15",
-            "type": "vless",
-            "server": "104.21.112.1",
-            "server_port": 80,
-            "uuid": "2036e2c3-18a5-4eed-9db4-f91a7f02c7d5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/193.123.81.105=443",
-                "headers": {
-                    "Host": "104.21.112.1"
                 }
             }
         },
