@@ -174,8 +174,8 @@
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 19",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 20",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 3",
-                "🇮🇷IR | 🔴 | vless | @DailyV2RY | 172",
-                "🇩🇪DE | 🔴 | vless | @DailyV2RY | 173",
+                "🇳🇱NL | 🔴 | vless | @DailyV2RY | 175",
+                "🇩🇪DE | 🔴 | vless | @DailyV2RY | 176",
                 "🇺🇸US | 🔴 | vless | @SafeNet_Server | 2",
                 "🇩🇪DE | 🟢 | vmess | @SafeNet_Server | 3",
                 "🇳🇱NL | 🔴 | vless | @lrnbymaa | 4",
@@ -186,7 +186,7 @@
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 11",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 12",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
-                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 2",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 8",
                 "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 11",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 12",
@@ -282,8 +282,8 @@
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 19",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 20",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 3",
-                "🇮🇷IR | 🔴 | vless | @DailyV2RY | 172",
-                "🇩🇪DE | 🔴 | vless | @DailyV2RY | 173",
+                "🇳🇱NL | 🔴 | vless | @DailyV2RY | 175",
+                "🇩🇪DE | 🔴 | vless | @DailyV2RY | 176",
                 "🇺🇸US | 🔴 | vless | @SafeNet_Server | 2",
                 "🇩🇪DE | 🟢 | vmess | @SafeNet_Server | 3",
                 "🇳🇱NL | 🔴 | vless | @lrnbymaa | 4",
@@ -294,7 +294,7 @@
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 11",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 12",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
-                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 2",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 8",
                 "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 11",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 12",
@@ -1843,25 +1843,40 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @DailyV2RY | 172",
+            "tag": "🇳🇱NL | 🔴 | vless | @DailyV2RY | 175",
             "type": "vless",
-            "server": "62.60.163.77",
-            "server_port": 3333,
-            "uuid": "7d283c1a-3a5b-4b2a-a924-0bd256e89726",
-            "flow": "",
+            "server": "45.77.136.208",
+            "server_port": 443,
+            "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.googleapis.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ",
+                    "short_id": ""
+                }
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @DailyV2RY | 173",
+            "tag": "🇩🇪DE | 🔴 | vless | @DailyV2RY | 176",
             "type": "vless",
-            "server": "91.99.149.143",
+            "server": "188.245.119.163",
             "server_port": 443,
-            "uuid": "9764f0c4-dd60-4218-9a0d-fc67f33f0792",
+            "uuid": "0caed718-9b65-40c8-873d-7d7236ff3e75",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2087,8 +2102,8 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
             "type": "vmess",
-            "server": "199.180.101.24",
-            "server_port": 38004,
+            "server": "198.200.48.251",
+            "server_port": 37006,
             "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
             "alter_id": 64,
@@ -2102,7 +2117,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "199.180.101.24",
+                "server_name": "198.200.48.251",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -2112,20 +2127,20 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/path\/1737280757504",
+                "path": "\/path\/1737194780660",
                 "headers": {
-                    "Host": "199.180.101.24"
+                    "Host": "198.200.48.251"
                 }
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vmess | @Hope_Net | 2",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
             "type": "vmess",
-            "server": "195.58.49.86",
-            "server_port": 17926,
-            "uuid": "a135aba4-6c0b-42f7-8605-1890f7ff5368",
+            "server": "192.74.231.200",
+            "server_port": 37001,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 64,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -2134,11 +2149,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "192.74.231.200",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/path\/1737194780660",
                 "headers": {
-                    "Host": "195.58.49.86"
+                    "Host": "192.74.231.200"
                 }
             }
         },

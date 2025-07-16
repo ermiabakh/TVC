@@ -113,7 +113,7 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
-                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 2",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 8",
                 "🇿🇦ZA | 🟢 | vmess | @iP_CF | 59"
             ]
@@ -129,7 +129,7 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
-                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 2",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 8",
                 "🇿🇦ZA | 🟢 | vmess | @iP_CF | 59"
             ],
@@ -299,8 +299,8 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
             "type": "vmess",
-            "server": "199.180.101.24",
-            "server_port": 38004,
+            "server": "198.200.48.251",
+            "server_port": 37006,
             "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
             "alter_id": 64,
@@ -314,7 +314,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "199.180.101.24",
+                "server_name": "198.200.48.251",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -324,20 +324,20 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/path\/1737280757504",
+                "path": "\/path\/1737194780660",
                 "headers": {
-                    "Host": "199.180.101.24"
+                    "Host": "198.200.48.251"
                 }
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vmess | @Hope_Net | 2",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
             "type": "vmess",
-            "server": "195.58.49.86",
-            "server_port": 17926,
-            "uuid": "a135aba4-6c0b-42f7-8605-1890f7ff5368",
+            "server": "192.74.231.200",
+            "server_port": 37001,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 64,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -346,11 +346,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "192.74.231.200",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/path\/1737194780660",
                 "headers": {
-                    "Host": "195.58.49.86"
+                    "Host": "192.74.231.200"
                 }
             }
         },
