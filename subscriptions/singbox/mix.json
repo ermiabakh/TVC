@@ -547,7 +547,7 @@
                 "🇩🇪DE | 🔴 | vless | @DailyV2RY | 126",
                 "🇸🇬SG | 🔴 | vless | @DailyV2RY | 127",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 128",
-                "🇨🇦CA | 🟢 | vless | @DailyV2RY | 130",
+                "🇩🇪DE | 🟢 | vless | @DailyV2RY | 130",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 131",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 132",
                 "🇩🇪DE | 🔴 | vless | @DailyV2RY | 133",
@@ -610,9 +610,10 @@
                 "🚩CF | 🔴 | vless | @fnet00 | 7",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 8",
                 "🇨🇿CZ | 🔴 | vless | @Outlinev2rayNG | 1",
-                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 6",
-                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 10",
-                "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 11",
+                "🇨🇿CZ | 🔴 | vless | @Outlinev2rayNG | 3",
+                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 8",
+                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 12",
+                "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 13",
                 "🚩CF | 🔴 | vless | @Capoit | 0",
                 "🇺🇸US | 🔴 | vless | @Capoit | 1",
                 "🇩🇪DE | 🟢 | vless | @Capoit | 3",
@@ -1166,7 +1167,7 @@
                 "🇩🇪DE | 🔴 | vless | @DailyV2RY | 126",
                 "🇸🇬SG | 🔴 | vless | @DailyV2RY | 127",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 128",
-                "🇨🇦CA | 🟢 | vless | @DailyV2RY | 130",
+                "🇩🇪DE | 🟢 | vless | @DailyV2RY | 130",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 131",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 132",
                 "🇩🇪DE | 🔴 | vless | @DailyV2RY | 133",
@@ -1229,9 +1230,10 @@
                 "🚩CF | 🔴 | vless | @fnet00 | 7",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 8",
                 "🇨🇿CZ | 🔴 | vless | @Outlinev2rayNG | 1",
-                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 6",
-                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 10",
-                "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 11",
+                "🇨🇿CZ | 🔴 | vless | @Outlinev2rayNG | 3",
+                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 8",
+                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 12",
+                "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 13",
                 "🚩CF | 🔴 | vless | @Capoit | 0",
                 "🇺🇸US | 🔴 | vless | @Capoit | 1",
                 "🇩🇪DE | 🟢 | vless | @Capoit | 3",
@@ -11212,7 +11214,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vless | @DailyV2RY | 130",
+            "tag": "🇩🇪DE | 🟢 | vless | @DailyV2RY | 130",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,
@@ -12611,6 +12613,42 @@
         {
             "tag": "🇨🇿CZ | 🔴 | vless | @Outlinev2rayNG | 1",
             "type": "vless",
+            "server": "194.182.79.64",
+            "server_port": 14073,
+            "uuid": "8b39daa8-01e0-4054-8271-0630cd517f10",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "k8x94p4pxXmLjNWkgLRsdi_raiVGIX0EPGyP70CyBVs",
+                    "short_id": "f11c49ff"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Join-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇨🇿CZ | 🔴 | vless | @Outlinev2rayNG | 3",
+            "type": "vless",
             "server": "194.182.79.70",
             "server_port": 31516,
             "uuid": "6fc3195e-e1ad-4e1b-8552-ac88e2780364",
@@ -12645,7 +12683,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 6",
+            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 8",
             "type": "vless",
             "server": "104.19.219.139",
             "server_port": 443,
@@ -12676,7 +12714,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 10",
+            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 12",
             "type": "vless",
             "server": "104.17.147.22",
             "server_port": 2087,
@@ -12707,7 +12745,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 11",
+            "tag": "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 13",
             "type": "vless",
             "server": "freeconfig.fergalvpnmod.com",
             "server_port": 12765,
