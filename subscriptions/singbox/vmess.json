@@ -129,8 +129,12 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
-                "🇬🇧GB | 🟢 | vmess | @Hope_Net | 0",
-                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 1",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 0",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
+                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 2",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 3",
+                "🇬🇧GB | 🟢 | vmess | @Hope_Net | 4",
+                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 5",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 8",
                 "🚩CF | 🟢 | vmess | @iP_CF | 37",
                 "🚩CF | 🟢 | vmess | @iP_CF | 39",
@@ -165,8 +169,12 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
-                "🇬🇧GB | 🟢 | vmess | @Hope_Net | 0",
-                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 1",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 0",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
+                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 2",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 3",
+                "🇬🇧GB | 🟢 | vmess | @Hope_Net | 4",
+                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 5",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 8",
                 "🚩CF | 🟢 | vmess | @iP_CF | 37",
                 "🚩CF | 🟢 | vmess | @iP_CF | 39",
@@ -667,7 +675,133 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🟢 | vmess | @Hope_Net | 0",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 0",
+            "type": "vmess",
+            "server": "192.74.242.231",
+            "server_port": 38004,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "security": "auto",
+            "alter_id": 64,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "192.74.242.231",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/path\/1735984102656",
+                "headers": {
+                    "Host": "192.74.242.231"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
+            "type": "vmess",
+            "server": "192.74.236.155",
+            "server_port": 30004,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "security": "auto",
+            "alter_id": 64,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "192.74.236.155",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/path\/1735984102656",
+                "headers": {
+                    "Host": "192.74.236.155"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺RU | 🟢 | vmess | @Hope_Net | 2",
+            "type": "vmess",
+            "server": "195.58.49.86",
+            "server_port": 45751,
+            "uuid": "b9f89bba-dade-4c62-8eb8-92f85cb9e7f9",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "195.58.49.86"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 3",
+            "type": "vmess",
+            "server": "142.0.136.8",
+            "server_port": 31005,
+            "uuid": "051b844f-efe3-4847-92aa-66b5de0b6d4e",
+            "security": "auto",
+            "alter_id": 64,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "142.0.136.8",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/path\/1736075590186",
+                "headers": {
+                    "Host": "142.0.136.8"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | 🟢 | vmess | @Hope_Net | 4",
             "type": "vmess",
             "server": "5.39.254.196",
             "server_port": 23169,
@@ -691,7 +825,7 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vmess | @Hope_Net | 1",
+            "tag": "🇷🇺RU | 🟢 | vmess | @Hope_Net | 5",
             "type": "vmess",
             "server": "195.58.49.86",
             "server_port": 10881,
