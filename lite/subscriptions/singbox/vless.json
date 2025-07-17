@@ -164,7 +164,6 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 7",
-                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 8",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 17",
@@ -182,6 +181,7 @@
                 "🇫🇮FI | 🟢 | vless | @Capoit | 12",
                 "🇹🇷TR | 🔴 | vless | @Capoit | 13",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 8",
+                "🇺🇸US | 🔴 | vless | @FreakConfig | 9",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 15",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 16",
                 "🇬🇧GB | 🔴 | vless | @iP_CF | 61",
@@ -260,7 +260,6 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 7",
-                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 8",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 17",
@@ -278,6 +277,7 @@
                 "🇫🇮FI | 🟢 | vless | @Capoit | 12",
                 "🇹🇷TR | 🔴 | vless | @Capoit | 13",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 8",
+                "🇺🇸US | 🔴 | vless | @FreakConfig | 9",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 15",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 16",
                 "🇬🇧GB | 🔴 | vless | @iP_CF | 61",
@@ -1306,6 +1306,37 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @vmessorg | 10",
             "type": "vless",
+            "server": "104.22.24.195",
+            "server_port": 443,
+            "uuid": "96479a22-9333-4b03-9912-4dd26acef75e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "NExtfilmtOmovies.sitE",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/9EkfcCDedhvB19xj?ed=2560",
+                "headers": {
+                    "Host": "NExtfilmtOmovies.sitE"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @vmessorg | 11",
+            "type": "vless",
             "server": "104.18.29.253",
             "server_port": 443,
             "uuid": "9dd24d01-2b7a-4bd8-8c76-129d6ca89b8c",
@@ -1331,37 +1362,6 @@
                 "path": "\/?ed=2560",
                 "headers": {
                     "Host": "kawaiifreevpn-7ds.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @vmessorg | 11",
-            "type": "vless",
-            "server": "188.114.97.1",
-            "server_port": 443,
-            "uuid": "96479a22-9333-4b03-9912-4dd26acef75e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "NExtfilmtOmovies.sitE",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/9EkfcCDedhvB19xj?ed=2560",
-                "headers": {
-                    "Host": "NExtfilmtOmovies.sitE"
                 }
             }
         },
@@ -1615,37 +1615,6 @@
                 "path": "\/8WuhXm4QjK0L68Uf?ed=2560",
                 "headers": {
                     "Host": "gGHDFa.pAgeS.Dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @v2ray1_ng | 8",
-            "type": "vless",
-            "server": "104.22.24.195",
-            "server_port": 443,
-            "uuid": "96479a22-9333-4b03-9912-4dd26acef75e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "NExtfilmtOmovies.sitE",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/9EkfcCDedhvB19xj?ed=2560",
-                "headers": {
-                    "Host": "NExtfilmtOmovies.sitE"
                 }
             }
         },
@@ -2036,6 +2005,37 @@
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | @FreakConfig | 8",
+            "type": "vless",
+            "server": "104.18.26.90",
+            "server_port": 443,
+            "uuid": "b28eb861-1748-4200-ba72-278669edc33b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "barayeiranmahsang.mahmoodchitooz.dpdns.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=2560",
+                "headers": {
+                    "Host": "barayeiranmahsang.mahmoodchitooz.dpdns.org"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @FreakConfig | 9",
             "type": "vless",
             "server": "162.159.129.11",
             "server_port": 2053,
