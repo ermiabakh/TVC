@@ -132,6 +132,8 @@
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 0",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
+                "🚩CF | 🟢 | vmess | @Hope_Net | 2",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 3",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 8",
                 "🚩CF | 🟢 | vmess | @iP_CF | 36",
                 "🚩CF | 🟢 | vmess | @iP_CF | 38",
@@ -169,6 +171,8 @@
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 0",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
+                "🚩CF | 🟢 | vmess | @Hope_Net | 2",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 3",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 8",
                 "🚩CF | 🟢 | vmess | @iP_CF | 36",
                 "🚩CF | 🟢 | vmess | @iP_CF | 38",
@@ -722,9 +726,77 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 0",
             "type": "vmess",
-            "server": "jp.cowvpn.org",
-            "server_port": 443,
-            "uuid": "11a805f2-41a7-4cd8-8406-0470c3cde0d3",
+            "server": "38.33.55.79",
+            "server_port": 37002,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "security": "auto",
+            "alter_id": 64,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "38.33.55.79",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/path\/1734170291489",
+                "headers": {
+                    "Host": "38.33.55.79"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
+            "type": "vmess",
+            "server": "38.11.50.70",
+            "server_port": 31005,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "security": "auto",
+            "alter_id": 64,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "38.11.50.70",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/path\/1736503352193",
+                "headers": {
+                    "Host": "38.11.50.70"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🟢 | vmess | @Hope_Net | 2",
+            "type": "vmess",
+            "server": "104.21.96.1",
+            "server_port": 8443,
+            "uuid": "89c344f2-096c-445c-b629-9b15152f38e7",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -737,7 +809,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "jp.cowvpn.org",
+                "server_name": "104.21.96.1",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -747,18 +819,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/cctv13\/vmess_jpcf",
+                "path": "\/89c344f2",
                 "headers": {
-                    "Host": "jp.cowvpn.org"
+                    "Host": "104.21.96.1"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 3",
             "type": "vmess",
-            "server": "156.251.189.225",
-            "server_port": 30895,
-            "uuid": "5f011b57-a456-45ae-aa2c-f976780e56c3",
+            "server": "2.58.87.221",
+            "server_port": 12269,
+            "uuid": "db85ff0e-c33f-401d-c415-4c7cce135704",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -768,6 +840,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
