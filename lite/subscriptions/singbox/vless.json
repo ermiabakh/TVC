@@ -116,7 +116,7 @@
                 "🇮🇷IR | 🔴 | vless | @NIM_VPN_ir | 7",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 3",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 4",
-                "🇫🇷FR | 🔴 | vless | @VlessConfig | 14",
+                "🇩🇪DE | 🔴 | vless | @VlessConfig | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 0",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 25",
@@ -156,7 +156,7 @@
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 9",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 10",
                 "🇺🇸US | 🔴 | vless | @v2rayngvpn | 8",
-                "🇮🇷IR | 🔴 | vless | @v2rayngvpn | 9",
+                "🇺🇸US | 🔴 | vless | @v2rayngvpn | 9",
                 "🇩🇪DE | 🔴 | vless | @FalconPolV2rayNG | 7",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 1",
@@ -185,7 +185,8 @@
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 15",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 16",
                 "🇬🇧GB | 🔴 | vless | @iP_CF | 61",
-                "🇦🇹AT | 🔴 | vless | @mehrosaboran | 5",
+                "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
+                "🇺🇸US | 🔴 | vless | @mehrosaboran | 9",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 23",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 24",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -212,7 +213,7 @@
                 "🇮🇷IR | 🔴 | vless | @NIM_VPN_ir | 7",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 3",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 4",
-                "🇫🇷FR | 🔴 | vless | @VlessConfig | 14",
+                "🇩🇪DE | 🔴 | vless | @VlessConfig | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 0",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 25",
@@ -252,7 +253,7 @@
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 9",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 10",
                 "🇺🇸US | 🔴 | vless | @v2rayngvpn | 8",
-                "🇮🇷IR | 🔴 | vless | @v2rayngvpn | 9",
+                "🇺🇸US | 🔴 | vless | @v2rayngvpn | 9",
                 "🇩🇪DE | 🔴 | vless | @FalconPolV2rayNG | 7",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 1",
@@ -281,7 +282,8 @@
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 15",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 16",
                 "🇬🇧GB | 🔴 | vless | @iP_CF | 61",
-                "🇦🇹AT | 🔴 | vless | @mehrosaboran | 5",
+                "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
+                "🇺🇸US | 🔴 | vless | @mehrosaboran | 9",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 23",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 24",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -524,9 +526,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 14",
+            "tag": "🇩🇪DE | 🔴 | vless | @VlessConfig | 14",
             "type": "vless",
-            "server": "35.181.120.43",
+            "server": "3.78.31.242",
             "server_port": 22224,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -557,7 +559,7 @@
         {
             "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
             "type": "vless",
-            "server": "13.36.56.86",
+            "server": "35.181.120.43",
             "server_port": 22224,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1306,6 +1308,27 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @vmessorg | 10",
             "type": "vless",
+            "server": "power.teampluss.ir",
+            "server_port": 80,
+            "uuid": "8c203f81-3c3a-4f5b-84b1-df22a19dee33",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Pak91jqn-Mehskl.ir.shop.com",
+                "headers": {
+                    "Host": "power.teampluss.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @vmessorg | 11",
+            "type": "vless",
             "server": "104.22.24.195",
             "server_port": 443,
             "uuid": "96479a22-9333-4b03-9912-4dd26acef75e",
@@ -1331,37 +1354,6 @@
                 "path": "\/9EkfcCDedhvB19xj?ed=2560",
                 "headers": {
                     "Host": "NExtfilmtOmovies.sitE"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @vmessorg | 11",
-            "type": "vless",
-            "server": "104.18.29.253",
-            "server_port": 443,
-            "uuid": "9dd24d01-2b7a-4bd8-8c76-129d6ca89b8c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "kawaiifreevpn-7ds.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=2560",
-                "headers": {
-                    "Host": "kawaiifreevpn-7ds.pages.dev"
                 }
             }
         },
@@ -1413,6 +1405,27 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @v2rayngvpn | 8",
             "type": "vless",
+            "server": "104.16.69.162",
+            "server_port": 8880,
+            "uuid": "e9979910-79d1-4621-a93c-b2a579c44ba7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/fgvtHUpS6R8Rv8s5?ed=2560",
+                "headers": {
+                    "Host": "104.16.69.162"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @v2rayngvpn | 9",
+            "type": "vless",
             "server": "104.16.214.14",
             "server_port": 80,
             "uuid": "ce354701-e5dd-4ca6-9a44-7eeb0c48b157",
@@ -1429,20 +1442,6 @@
                 "headers": {
                     "Host": "104.16.214.14"
                 }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🔴 | vless | @v2rayngvpn | 9",
-            "type": "vless",
-            "server": "dl2.pokerad.sbs",
-            "server_port": 80,
-            "uuid": "88d5b659-3c15-47a6-ae3c-b79ed49ef9f3",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -2139,24 +2138,31 @@
             }
         },
         {
-            "tag": "🇦🇹AT | 🔴 | vless | @mehrosaboran | 5",
+            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
             "type": "vless",
-            "server": "212.183.88.1",
-            "server_port": 80,
-            "uuid": "00a02f3a-47e0-409c-bd6e-f51019048ca5",
+            "server": "104.17.148.22",
+            "server_port": 8080,
+            "uuid": "94796c43-d46a-4ffa-abfc-d7d72963ad30",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2?ed=2560",
-                "headers": {
-                    "Host": "212.183.88.1"
-                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 9",
+            "type": "vless",
+            "server": "104.26.6.89",
+            "server_port": 8080,
+            "uuid": "94796c43-d46a-4ffa-abfc-d7d72963ad30",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
