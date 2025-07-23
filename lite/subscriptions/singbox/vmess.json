@@ -110,8 +110,8 @@
                 "🇩🇪DE | 🟢 | vmess | @customv2ray | 14",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 11"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10"
             ]
         },
         {
@@ -122,8 +122,8 @@
                 "🇩🇪DE | 🟢 | vmess | @customv2ray | 14",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 11"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -238,9 +238,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
             "type": "vmess",
-            "server": "104.16.86.71",
+            "server": "104.27.77.22",
             "server_port": 443,
             "uuid": "af6eedf5-f2b4-447f-8b93-5fca33af06f8",
             "security": "auto",
@@ -255,7 +255,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "104.16.86.71",
+                "server_name": "104.27.77.22",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -267,14 +267,14 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "104.16.86.71"
+                    "Host": "104.27.77.22"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
             "type": "vmess",
-            "server": "162.159.142.107",
+            "server": "172.65.90.0",
             "server_port": 443,
             "uuid": "af6eedf5-f2b4-447f-8b93-5fca33af06f8",
             "security": "auto",
@@ -289,7 +289,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "162.159.142.107",
+                "server_name": "172.65.90.0",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -301,7 +301,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "162.159.142.107"
+                    "Host": "172.65.90.0"
                 }
             }
         }
