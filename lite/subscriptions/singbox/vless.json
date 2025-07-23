@@ -126,7 +126,7 @@
                 "🇳🇱NL | 🔴 | vless | @shh_proxy | 6",
                 "🇳🇱NL | 🔴 | vless | @shh_proxy | 7",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 18",
-                "🇨🇦CA | 🔴 | vless | @Lockey_vpn | 19",
+                "🇺🇸US | 🔴 | vless | @Lockey_vpn | 19",
                 "🇰🇿KZ | 🔴 | vless | @rxv2ray | 17",
                 "🇺🇸US | 🔴 | vless | @rxv2ray | 18",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 0",
@@ -227,7 +227,7 @@
                 "🇳🇱NL | 🔴 | vless | @shh_proxy | 6",
                 "🇳🇱NL | 🔴 | vless | @shh_proxy | 7",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 18",
-                "🇨🇦CA | 🔴 | vless | @Lockey_vpn | 19",
+                "🇺🇸US | 🔴 | vless | @Lockey_vpn | 19",
                 "🇰🇿KZ | 🔴 | vless | @rxv2ray | 17",
                 "🇺🇸US | 🔴 | vless | @rxv2ray | 18",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 0",
@@ -805,7 +805,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @Lockey_vpn | 19",
+            "tag": "🇺🇸US | 🔴 | vless | @Lockey_vpn | 19",
             "type": "vless",
             "server": "104.17.148.22",
             "server_port": 8880,
@@ -1949,6 +1949,27 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 14",
             "type": "vless",
+            "server": "hopeful-appointment.seotoolsforyou.co.uk",
+            "server_port": 80,
+            "uuid": "491e4f76-42f0-43a7-a987-25072a68d5e4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "hopeful-appointment.seotoolsforyou.co.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 15",
+            "type": "vless",
             "server": "web.xhamster.biz.id",
             "server_port": 443,
             "uuid": "aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1",
@@ -1974,37 +1995,6 @@
                 "path": "\/Free-CF-Proxy-AT29",
                 "headers": {
                     "Host": "web.xhamster.biz.id"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 15",
-            "type": "vless",
-            "server": "104.19.245.206",
-            "server_port": 443,
-            "uuid": "9dd24d01-2b7a-4bd8-8c76-129d6ca89b8c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "kawaiifreevpn-7ds.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=2560",
-                "headers": {
-                    "Host": "kawaiifreevpn-7ds.pages.dev"
                 }
             }
         },
