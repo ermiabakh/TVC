@@ -111,7 +111,6 @@
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 17",
                 "🇩🇪DE | 🔴 | vless | @ARv2ray | 18",
                 "🇳🇱NL | 🔴 | vless | @shh_proxy | 7",
-                "🇳🇱NL | 🔴 | vless | @customv2ray | 13",
                 "🇩🇪DE | 🟢 | vless | @ShadowProxy66 | 1",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 12",
                 "🇷🇺RU | 🔴 | vless | @free1_vpn | 3",
@@ -134,7 +133,6 @@
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 17",
                 "🇩🇪DE | 🔴 | vless | @ARv2ray | 18",
                 "🇳🇱NL | 🔴 | vless | @shh_proxy | 7",
-                "🇳🇱NL | 🔴 | vless | @customv2ray | 13",
                 "🇩🇪DE | 🟢 | vless | @ShadowProxy66 | 1",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 12",
                 "🇷🇺RU | 🔴 | vless | @free1_vpn | 3",
@@ -331,42 +329,6 @@
                     "public_key": "J0pRUeUHMS_olwz0xLOMJxIxe-DhsCZA3qnAMRC4zTg",
                     "short_id": "aa60a00122200b76"
                 }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | 🔴 | vless | @customv2ray | 13",
-            "type": "vless",
-            "server": "server2.fergalvpnmod.com",
-            "server_port": 25126,
-            "uuid": "bab6b157-a6e8-4756-a485-dcb4ca476eb9",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cloudflare.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "AtKTc84OxbQltdeNKIgGRpUBmO1nKRCyqV6OuZmGIik",
-                    "short_id": "1e"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Telegram:@FergalVpnMod",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
