@@ -248,7 +248,7 @@
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
                 "🚩CF | 🔴 | vless | @proxy_kafee | 0",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 3",
-                "🇺🇸US | 🔴 | vless | @v2logy | 0",
+                "🇨🇦CA | 🔴 | vless | @v2logy | 0",
                 "🇺🇸US | 🔴 | vless | @v2logy | 1",
                 "🇺🇸US | 🔴 | vless | @v2logy | 2",
                 "🇺🇸US | 🔴 | vless | @v2logy | 3",
@@ -503,7 +503,6 @@
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 7",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 9",
-                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 10",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 0",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 2",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 3",
@@ -743,7 +742,7 @@
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
                 "🚩CF | 🔴 | vless | @proxy_kafee | 0",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 3",
-                "🇺🇸US | 🔴 | vless | @v2logy | 0",
+                "🇨🇦CA | 🔴 | vless | @v2logy | 0",
                 "🇺🇸US | 🔴 | vless | @v2logy | 1",
                 "🇺🇸US | 🔴 | vless | @v2logy | 2",
                 "🇺🇸US | 🔴 | vless | @v2logy | 3",
@@ -998,7 +997,6 @@
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 7",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 9",
-                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 10",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 0",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 2",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 3",
@@ -4219,7 +4217,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @v2logy | 0",
+            "tag": "🇨🇦CA | 🔴 | vless | @v2logy | 0",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2087,
@@ -10172,27 +10170,6 @@
                 "path": "\/1ycR2zb3KeELWRha?ed=2560",
                 "headers": {
                     "Host": "104.17.1.197"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 10",
-            "type": "vless",
-            "server": "104.16.86.73",
-            "server_port": 8880,
-            "uuid": "e9979910-79d1-4621-a93c-b2a579c44ba7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/J5aLQOY1R9ONWYCM?ed=2560",
-                "headers": {
-                    "Host": "104.16.86.73"
                 }
             }
         },
