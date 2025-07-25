@@ -132,6 +132,7 @@
                 "🇨🇿CZ | 🔴 | vless | @v2rayngvpn | 0",
                 "🇧🇪BE | 🟢 | vless | @v2rayngvpn | 2",
                 "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 8",
+                "🇬🇧GB | 🟢 | vless | @v2ray1_ng | 0",
                 "🇺🇸US | 🟢 | vless | @vless_vmess | 10",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 1",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 4",
@@ -144,7 +145,7 @@
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 2",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 4",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 5",
-                "🇺🇸US | 🟢 | vless | @Capoit | 8",
+                "🇯🇵JP | 🟢 | vless | @Capoit | 8",
                 "❔XX | 🔴 | vless | @Capoit | 16",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 17",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 20",
@@ -210,6 +211,7 @@
                 "🇨🇿CZ | 🔴 | vless | @v2rayngvpn | 0",
                 "🇧🇪BE | 🟢 | vless | @v2rayngvpn | 2",
                 "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 8",
+                "🇬🇧GB | 🟢 | vless | @v2ray1_ng | 0",
                 "🇺🇸US | 🟢 | vless | @vless_vmess | 10",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 1",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 4",
@@ -222,7 +224,7 @@
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 2",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 4",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 5",
-                "🇺🇸US | 🟢 | vless | @Capoit | 8",
+                "🇯🇵JP | 🟢 | vless | @Capoit | 8",
                 "❔XX | 🔴 | vless | @Capoit | 16",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 17",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 20",
@@ -1081,6 +1083,35 @@
             }
         },
         {
+            "tag": "🇬🇧GB | 🟢 | vless | @v2ray1_ng | 0",
+            "type": "vless",
+            "server": "v05.vxlimir.com",
+            "server_port": 1370,
+            "uuid": "f0050c31-06b1-4ebd-a10c-fe1e73632067",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "_N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw",
+                    "short_id": "e1afb93bfe75a34b"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🟢 | vless | @vless_vmess | 10",
             "type": "vless",
             "server": "172.233.174.160",
@@ -1464,7 +1495,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @Capoit | 8",
+            "tag": "🇯🇵JP | 🟢 | vless | @Capoit | 8",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,
