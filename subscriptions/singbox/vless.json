@@ -245,7 +245,8 @@
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 5",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 6",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
-                "🚩CF | 🔴 | vless | @proxy_kafee | 1",
+                "🚩CF | 🔴 | vless | @proxy_kafee | 0",
+                "🚩CF | 🔴 | vless | @proxy_kafee | 2",
                 "🇺🇸US | 🔴 | vless | @v2logy | 0",
                 "🇺🇸US | 🔴 | vless | @v2logy | 1",
                 "🇺🇸US | 🔴 | vless | @v2logy | 2",
@@ -507,7 +508,7 @@
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 5",
                 "🚩CF | 🔴 | vless | @Capoit | 6",
                 "🚩CF | 🔴 | vless | @Capoit | 7",
-                "🇸🇬SG | 🟢 | vless | @Capoit | 8",
+                "🇮🇪IE | 🟢 | vless | @Capoit | 8",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 9",
                 "🚩CF | 🔴 | vless | @Capoit | 10",
                 "🇺🇸US | 🔴 | vless | @Capoit | 11",
@@ -540,7 +541,6 @@
                 "🇨🇭CH | 🟢 | vless | @iP_CF | 53",
                 "🇫🇷FR | 🔴 | vless | @iP_CF | 54",
                 "❔XX | 🟢 | vless | @iP_CF | 55",
-                "🚩CF | 🔴 | vless | @mehrosaboran | 0",
                 "@bored_vpn,--@bored_vpn,@bored_vpn,--@bored_vpn,@bored_vpn,--@bored_vpn,@bored_vpn,--@bored_vpn,@bored_vpn,--@bored_vpn,@bored_vpn,--@bored_vpn&encryption=none&type=grpc&serviceName=\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy#🇩🇪DE | 🔴 | vless | @mehrosaboran | 1",
                 "🚩CF | 🔴 | vless | @mehrosaboran | 2",
                 "🇦🇪AE | 🟢 | vless | @mehrosaboran | 4",
@@ -739,7 +739,8 @@
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 5",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 6",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
-                "🚩CF | 🔴 | vless | @proxy_kafee | 1",
+                "🚩CF | 🔴 | vless | @proxy_kafee | 0",
+                "🚩CF | 🔴 | vless | @proxy_kafee | 2",
                 "🇺🇸US | 🔴 | vless | @v2logy | 0",
                 "🇺🇸US | 🔴 | vless | @v2logy | 1",
                 "🇺🇸US | 🔴 | vless | @v2logy | 2",
@@ -1001,7 +1002,7 @@
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 5",
                 "🚩CF | 🔴 | vless | @Capoit | 6",
                 "🚩CF | 🔴 | vless | @Capoit | 7",
-                "🇸🇬SG | 🟢 | vless | @Capoit | 8",
+                "🇮🇪IE | 🟢 | vless | @Capoit | 8",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 9",
                 "🚩CF | 🔴 | vless | @Capoit | 10",
                 "🇺🇸US | 🔴 | vless | @Capoit | 11",
@@ -1034,7 +1035,6 @@
                 "🇨🇭CH | 🟢 | vless | @iP_CF | 53",
                 "🇫🇷FR | 🔴 | vless | @iP_CF | 54",
                 "❔XX | 🟢 | vless | @iP_CF | 55",
-                "🚩CF | 🔴 | vless | @mehrosaboran | 0",
                 "@bored_vpn,--@bored_vpn,@bored_vpn,--@bored_vpn,@bored_vpn,--@bored_vpn,@bored_vpn,--@bored_vpn,@bored_vpn,--@bored_vpn,@bored_vpn,--@bored_vpn&encryption=none&type=grpc&serviceName=\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy#🇩🇪DE | 🔴 | vless | @mehrosaboran | 1",
                 "🚩CF | 🔴 | vless | @mehrosaboran | 2",
                 "🇦🇪AE | 🟢 | vless | @mehrosaboran | 4",
@@ -4149,7 +4149,28 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @proxy_kafee | 1",
+            "tag": "🚩CF | 🔴 | vless | @proxy_kafee | 0",
+            "type": "vless",
+            "server": "104.21.72.109",
+            "server_port": 80,
+            "uuid": "85bf8959-34aa-4b84-828f-ca891380b7ff",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2?ed=2560",
+                "headers": {
+                    "Host": "dfgopee-workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🔴 | vless | @proxy_kafee | 2",
             "type": "vless",
             "server": "104.21.72.109",
             "server_port": 80,
@@ -10342,7 +10363,7 @@
             }
         },
         {
-            "tag": "🇸🇬SG | 🟢 | vless | @Capoit | 8",
+            "tag": "🇮🇪IE | 🟢 | vless | @Capoit | 8",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,
@@ -11034,27 +11055,6 @@
                     "enabled": true,
                     "public_key": "njS5Tdx6sQV0zCwFACf1uikWDSud9HqjS03WvH3_YAg",
                     "short_id": "82df26bf775f55"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🔴 | vless | @mehrosaboran | 0",
-            "type": "vless",
-            "server": "104.21.72.109",
-            "server_port": 80,
-            "uuid": "85bf8959-34aa-4b84-828f-ca891380b7ff",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2?ed=2560",
-                "headers": {
-                    "Host": "dfgopee-workers.dev"
                 }
             }
         },
