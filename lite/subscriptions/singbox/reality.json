@@ -108,9 +108,7 @@
                 "URL-TEST",
                 "🇺🇸US | 🟢 | vless | @v2_team | 1",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 17",
-                "🇳🇱NL | 🔴 | vless | @ARv2ray | 18",
                 "🇳🇱NL | 🔴 | vless | @shh_proxy | 10",
-                "🇨🇿CZ | 🔴 | vless | @v2rayngvpn | 20",
                 "🇧🇪BE | 🟢 | vless | @ShadowProxy66 | 4",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 14",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 24",
@@ -129,9 +127,7 @@
             "outbounds": [
                 "🇺🇸US | 🟢 | vless | @v2_team | 1",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 17",
-                "🇳🇱NL | 🔴 | vless | @ARv2ray | 18",
                 "🇳🇱NL | 🔴 | vless | @shh_proxy | 10",
-                "🇨🇿CZ | 🔴 | vless | @v2rayngvpn | 20",
                 "🇧🇪BE | 🟢 | vless | @ShadowProxy66 | 4",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 14",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 24",
@@ -229,42 +225,6 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | @ARv2ray | 18",
-            "type": "vless",
-            "server": "84.32.101.93",
-            "server_port": 443,
-            "uuid": "telegram-id-ArV2ray2",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ftp.debian.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "0ZELy90Fb5sh7DULwsa14x1B1NY-NO2Ga847T_Z-oXY",
-                    "short_id": "688c"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "🇳🇱NL | 🔴 | vless | @shh_proxy | 10",
             "type": "vless",
             "server": "45.150.33.157",
@@ -291,42 +251,6 @@
                     "public_key": "J0pRUeUHMS_olwz0xLOMJxIxe-DhsCZA3qnAMRC4zTg",
                     "short_id": "aa60a00122200b76"
                 }
-            }
-        },
-        {
-            "tag": "🇨🇿CZ | 🔴 | vless | @v2rayngvpn | 20",
-            "type": "vless",
-            "server": "194.182.79.64",
-            "server_port": 14075,
-            "uuid": "f03e6b46-c993-478f-8523-075399595735",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sourceforge.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SRnfc3hHwI25Yz7EpNkYe6dGzH5UN4JoQa7FExTythI",
-                    "short_id": "99d6eba91e81"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Join-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
