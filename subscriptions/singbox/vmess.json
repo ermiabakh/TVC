@@ -123,7 +123,6 @@
                 "🇩🇪DE | 🟢 | vmess | @DeamNet_Proxy | 5",
                 "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 8",
                 "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 10",
-                "🇮🇷IR | 🟢 | vmess | @prrofile_purple | 107",
                 "🇷🇺RU | 🟢 | vmess | @customv2ray | 19",
                 "🇩🇪DE | 🟢 | vmess | @customv2ray | 20",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 1",
@@ -164,7 +163,6 @@
                 "🇩🇪DE | 🟢 | vmess | @DeamNet_Proxy | 5",
                 "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 8",
                 "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 10",
-                "🇮🇷IR | 🟢 | vmess | @prrofile_purple | 107",
                 "🇷🇺RU | 🟢 | vmess | @customv2ray | 19",
                 "🇩🇪DE | 🟢 | vmess | @customv2ray | 20",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 1",
@@ -548,23 +546,6 @@
                 "headers": {
                     "Host": "tilebani.com"
                 }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🟢 | vmess | @prrofile_purple | 107",
-            "type": "vmess",
-            "server": "vt6.hubdn.com",
-            "server_port": 8081,
-            "uuid": "1539d93e-fc8e-4464-974a-9233c2ca6629",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
