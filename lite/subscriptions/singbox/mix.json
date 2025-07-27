@@ -120,6 +120,7 @@
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 17",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 34",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 35",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 6",
                 "🇩🇪DE | 🔴 | vless | @V2pedia | 7",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 18",
@@ -157,7 +158,7 @@
                 "🇺🇸US | 🔴 | vless | @vmessorg | 28",
                 "🇩🇪DE | 🔴 | vless | @v2rayNG_Matsuri | 11",
                 "🇩🇪DE | 🔴 | vless | @v2rayNG_Matsuri | 12",
-                "🇺🇸US | 🔴 | vless | @v2rayngvpn | 16",
+                "🇺🇸US | 🔴 | vless | @v2rayngvpn | 18",
                 "🇩🇪DE | 🔴 | vless | @FalconPolV2rayNG | 7",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 8",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 1",
@@ -171,7 +172,7 @@
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 17",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 17",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 18",
-                "🇳🇱NL | 🔴 | vless | @VmessProtocol | 6",
+                "🇳🇱NL | 🔴 | vless | @VmessProtocol | 8",
                 "🇩🇪DE | 🔴 | vless | @SafeNet_Server | 5",
                 "🇸🇬SG | 🔴 | vless | @SafeNet_Server | 6",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 5",
@@ -224,6 +225,7 @@
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 17",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 34",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 35",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 6",
                 "🇩🇪DE | 🔴 | vless | @V2pedia | 7",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 18",
@@ -261,7 +263,7 @@
                 "🇺🇸US | 🔴 | vless | @vmessorg | 28",
                 "🇩🇪DE | 🔴 | vless | @v2rayNG_Matsuri | 11",
                 "🇩🇪DE | 🔴 | vless | @v2rayNG_Matsuri | 12",
-                "🇺🇸US | 🔴 | vless | @v2rayngvpn | 16",
+                "🇺🇸US | 🔴 | vless | @v2rayngvpn | 18",
                 "🇩🇪DE | 🔴 | vless | @FalconPolV2rayNG | 7",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 8",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 1",
@@ -275,7 +277,7 @@
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 17",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 17",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 18",
-                "🇳🇱NL | 🔴 | vless | @VmessProtocol | 6",
+                "🇳🇱NL | 🔴 | vless | @VmessProtocol | 8",
                 "🇩🇪DE | 🔴 | vless | @SafeNet_Server | 5",
                 "🇸🇬SG | 🔴 | vless | @SafeNet_Server | 6",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 5",
@@ -647,6 +649,27 @@
                 "path": "\/olem\/ws?ed=1024",
                 "headers": {
                     "Host": "speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @V2pedia | 6",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "2c76fa28-ed80-4193-a2bf-827af55f22c0",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ali",
+                "headers": {
+                    "Host": "www.speedtest.net"
                 }
             }
         },
@@ -1464,7 +1487,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @v2rayngvpn | 16",
+            "tag": "🇺🇸US | 🔴 | vless | @v2rayngvpn | 18",
             "type": "vless",
             "server": "104.16.243.59",
             "server_port": 443,
@@ -1766,7 +1789,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | @VmessProtocol | 6",
+            "tag": "🇳🇱NL | 🔴 | vless | @VmessProtocol | 8",
             "type": "vless",
             "server": "185.209.21.36",
             "server_port": 40887,
