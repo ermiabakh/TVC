@@ -106,8 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇨🇦CA | 🔴 | vless | @EliV2ray | 3",
                 "🇨🇦CA | 🔴 | vless | @EliV2ray | 4",
-                "🇨🇦CA | 🔴 | vless | @EliV2ray | 5",
                 "❔XX | 🔴 | vless | @Parsashonam | 16",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 17",
                 "🇩🇪DE | 🔴 | vless | @v2_team | 0",
@@ -186,11 +186,11 @@
                 "❔XX | 🟢 | vless | @free1_vpn | 3",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 4",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
-                "🇧🇬BG | 🟢 | vmess | @Hope_Net | 14",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 14",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 13",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 14",
-                "🇸🇬SG | 🟢 | vless | @Capoit | 28",
+                "🇺🇸US | 🟢 | vless | @Capoit | 28",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 29",
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 15",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 16",
@@ -213,8 +213,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇨🇦CA | 🔴 | vless | @EliV2ray | 3",
                 "🇨🇦CA | 🔴 | vless | @EliV2ray | 4",
-                "🇨🇦CA | 🔴 | vless | @EliV2ray | 5",
                 "❔XX | 🔴 | vless | @Parsashonam | 16",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 17",
                 "🇩🇪DE | 🔴 | vless | @v2_team | 0",
@@ -293,11 +293,11 @@
                 "❔XX | 🟢 | vless | @free1_vpn | 3",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 4",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
-                "🇧🇬BG | 🟢 | vmess | @Hope_Net | 14",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 14",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 13",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 14",
-                "🇸🇬SG | 🟢 | vless | @Capoit | 28",
+                "🇺🇸US | 🟢 | vless | @Capoit | 28",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 29",
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 15",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 16",
@@ -336,11 +336,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @EliV2ray | 4",
+            "tag": "🇨🇦CA | 🔴 | vless | @EliV2ray | 3",
             "type": "vless",
             "server": "188.114.98.112",
             "server_port": 8880,
-            "uuid": "deadf791-6837-4354-8eca-25d695b3cb78",
+            "uuid": "oeadf791-6837-4354-8eca-25d695b3cb78",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -357,11 +357,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @EliV2ray | 5",
+            "tag": "🇨🇦CA | 🔴 | vless | @EliV2ray | 4",
             "type": "vless",
             "server": "188.114.98.112",
             "server_port": 8880,
-            "uuid": "a05367f5-a500-4514-ac99-e73f629229f2",
+            "uuid": "deadf791-6837-4354-8eca-25d695b3cb78",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2111,6 +2111,40 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
             "type": "vmess",
+            "server": "104.25.251.107",
+            "server_port": 443,
+            "uuid": "af6eedf5-f2b4-447f-8b93-5fca33af06f8",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "104.25.251.107",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.25.251.107"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 14",
+            "type": "vmess",
             "server": "104.19.185.248",
             "server_port": 443,
             "uuid": "af6eedf5-f2b4-447f-8b93-5fca33af06f8",
@@ -2139,40 +2173,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇧🇬BG | 🟢 | vmess | @Hope_Net | 14",
-            "type": "vmess",
-            "server": "147.78.140.231",
-            "server_port": 443,
-            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "llow-disk-4b7b.bigapax481.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/afrhms16v.bestxray.buzz\/linkws",
-                "headers": {
-                    "Host": "llow-disk-4b7b.bigapax481.workers.dev"
                 }
             }
         },
@@ -2253,7 +2253,7 @@
             }
         },
         {
-            "tag": "🇸🇬SG | 🟢 | vless | @Capoit | 28",
+            "tag": "🇺🇸US | 🟢 | vless | @Capoit | 28",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,
