@@ -162,7 +162,7 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 1",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 2",
-                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 1",
+                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 0",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 17",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 18",
@@ -176,7 +176,6 @@
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 3",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 13",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 14",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 27",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 28",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 8",
@@ -256,7 +255,7 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 1",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 2",
-                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 1",
+                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 0",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 17",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 18",
@@ -270,7 +269,6 @@
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 3",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 13",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 14",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 27",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 28",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 8",
@@ -1589,7 +1587,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @v2ray1_ng | 1",
+            "tag": "🇺🇸US | 🔴 | vless | @v2ray1_ng | 0",
             "type": "vless",
             "server": "104.16.85.3",
             "server_port": 8880,
@@ -1895,37 +1893,6 @@
                 "path": "\/@rayan_config",
                 "headers": {
                     "Host": "rAyAn-12.LeIlA.DpDnS.OrG"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 14",
-            "type": "vless",
-            "server": "freevpn.xhamster.biz.id",
-            "server_port": 443,
-            "uuid": "aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "freevpn.xhamster.biz.id",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Free-CF-Proxy-AU11",
-                "headers": {
-                    "Host": "freevpn.xhamster.biz.id"
                 }
             }
         },
