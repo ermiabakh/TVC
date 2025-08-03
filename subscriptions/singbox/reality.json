@@ -116,8 +116,8 @@
                 "❔XX | 🟢 | vless | @XsV2ray | 0",
                 "🇫🇮FI | 🔴 | vless | @melov2ray | 5",
                 "🇫🇮FI | 🔴 | vless | @melov2ray | 13",
-                "🇫🇮FI | 🔴 | vless | @melov2ray | 19",
-                "🇫🇮FI | 🔴 | vless | @melov2ray | 25",
+                "🇫🇮FI | 🔴 | vless | @melov2ray | 21",
+                "🇫🇮FI | 🔴 | vless | @melov2ray | 27",
                 "🇳🇱NL | 🟢 | vless | @rxv2ray | 5",
                 "🇩🇪DE | 🟢 | vless | @rxv2ray | 7",
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 2",
@@ -205,8 +205,8 @@
                 "❔XX | 🟢 | vless | @XsV2ray | 0",
                 "🇫🇮FI | 🔴 | vless | @melov2ray | 5",
                 "🇫🇮FI | 🔴 | vless | @melov2ray | 13",
-                "🇫🇮FI | 🔴 | vless | @melov2ray | 19",
-                "🇫🇮FI | 🔴 | vless | @melov2ray | 25",
+                "🇫🇮FI | 🔴 | vless | @melov2ray | 21",
+                "🇫🇮FI | 🔴 | vless | @melov2ray | 27",
                 "🇳🇱NL | 🟢 | vless | @rxv2ray | 5",
                 "🇩🇪DE | 🟢 | vless | @rxv2ray | 7",
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 2",
@@ -557,7 +557,7 @@
             "type": "vless",
             "server": "65.109.208.107",
             "server_port": 2083,
-            "uuid": "54b5d081-8e34-4660-ec4f-6d7fddb7feb7",
+            "uuid": "0c2a1be7-cdde-4854-a45c-ddec52584fa1",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -593,7 +593,7 @@
             "type": "vless",
             "server": "65.109.208.107",
             "server_port": 2083,
-            "uuid": "949e6151-6899-4605-f2d1-51570f60d51d",
+            "uuid": "54b5d081-8e34-4660-ec4f-6d7fddb7feb7",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -625,9 +625,9 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🔴 | vless | @melov2ray | 19",
+            "tag": "🇫🇮FI | 🔴 | vless | @melov2ray | 21",
             "type": "vless",
-            "server": "65.109.221.186",
+            "server": "65.109.208.107",
             "server_port": 2083,
             "uuid": "949e6151-6899-4605-f2d1-51570f60d51d",
             "flow": "xtls-rprx-vision",
@@ -661,11 +661,11 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🔴 | vless | @melov2ray | 25",
+            "tag": "🇫🇮FI | 🔴 | vless | @melov2ray | 27",
             "type": "vless",
             "server": "65.109.221.186",
             "server_port": 2083,
-            "uuid": "b131228a-b895-4237-ac4b-0edad7759468",
+            "uuid": "949e6151-6899-4605-f2d1-51570f60d51d",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
