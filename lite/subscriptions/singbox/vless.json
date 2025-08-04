@@ -156,7 +156,7 @@
                 "🇫🇮FI | 🔴 | vless | @v2rayNG_Matsuri | 7",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 8",
                 "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 12",
-                "🇺🇸US | 🟢 | vless | @v2rayngvpn | 13",
+                "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 13",
                 "🇩🇪DE | 🔴 | vless | @FalconPolV2rayNG | 7",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 0",
@@ -253,7 +253,7 @@
                 "🇫🇮FI | 🔴 | vless | @v2rayNG_Matsuri | 7",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 8",
                 "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 12",
-                "🇺🇸US | 🟢 | vless | @v2rayngvpn | 13",
+                "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 13",
                 "🇩🇪DE | 🔴 | vless | @FalconPolV2rayNG | 7",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 0",
@@ -1404,9 +1404,9 @@
         {
             "tag": "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 12",
             "type": "vless",
-            "server": "91.107.154.247",
-            "server_port": 1913,
-            "uuid": "4e01969c-88a2-43c7-8906-e9bf023fa69d",
+            "server": "91.99.85.185",
+            "server_port": 8443,
+            "uuid": "e66beedb-dd44-47f0-baf8-7ba947d919d0",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1416,32 +1416,17 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @v2rayngvpn | 13",
+            "tag": "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 13",
             "type": "vless",
-            "server": "62.60.178.200",
-            "server_port": 40792,
-            "uuid": "24d0e335-659e-45c7-8e61-0bd899c1d510",
-            "flow": "xtls-rprx-vision",
+            "server": "91.107.154.247",
+            "server_port": 1913,
+            "uuid": "4e01969c-88a2-43c7-8906-e9bf023fa69d",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.latimes.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "I2gX0RY5PEXPm6shWotiQ5bVwoBs4cmGV_sQUryQ63w",
-                    "short_id": "5a"
-                }
             }
         },
         {
