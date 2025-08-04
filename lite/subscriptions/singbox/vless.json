@@ -146,7 +146,7 @@
                 "🇮🇷IR | 🔴 | vless | @V2rayNGn | 11",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 16",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 17",
-                "\/Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=none&encryption=none&host=vngsupply.ip-ddns.com&type=ws#🇺🇸US | 🔴 | vless | @prrofile_purple | 145",
+                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 145",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 146",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 31",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 32",
@@ -156,7 +156,6 @@
                 "🇫🇮FI | 🔴 | vless | @v2rayNG_Matsuri | 8",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 9",
                 "🇺🇸US | 🔴 | vless | @v2rayngvpn | 15",
-                "🇺🇸US | 🔴 | vless | @v2rayngvpn | 16",
                 "🇩🇪DE | 🔴 | vless | @FalconPolV2rayNG | 7",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 1",
@@ -167,7 +166,6 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 1",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 2",
-                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 1",
                 "🇫🇮FI | 🟢 | vless | @v2ray1_ng | 2",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
@@ -246,7 +244,7 @@
                 "🇮🇷IR | 🔴 | vless | @V2rayNGn | 11",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 16",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 17",
-                "\/Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=none&encryption=none&host=vngsupply.ip-ddns.com&type=ws#🇺🇸US | 🔴 | vless | @prrofile_purple | 145",
+                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 145",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 146",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 31",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 32",
@@ -256,7 +254,6 @@
                 "🇫🇮FI | 🔴 | vless | @v2rayNG_Matsuri | 8",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 9",
                 "🇺🇸US | 🔴 | vless | @v2rayngvpn | 15",
-                "🇺🇸US | 🔴 | vless | @v2rayngvpn | 16",
                 "🇩🇪DE | 🔴 | vless | @FalconPolV2rayNG | 7",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 1",
@@ -267,7 +264,6 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 1",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 2",
-                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 1",
                 "🇫🇮FI | 🟢 | vless | @v2ray1_ng | 2",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
@@ -936,22 +932,8 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 1",
             "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "d6bfe23e-f7a8-4beb-971c-c68ddd8fdd8c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 2",
-            "type": "vless",
-            "server": "104.26.15.69",
-            "server_port": 2096,
+            "server": "104.21.67.12",
+            "server_port": 443,
             "uuid": "30f2d443-af46-4dd6-83c9-b5e17299ebd2",
             "flow": "",
             "packet_encoding": "xudp",
@@ -972,10 +954,24 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/proxyip=zani.yaemiko.ggff.net",
+                "path": "\/proxyip",
                 "headers": {
                     "Host": "carlotta.shoorekeeper.cloudns.org"
                 }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 2",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "d6bfe23e-f7a8-4beb-971c-c68ddd8fdd8c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -1218,11 +1214,11 @@
             }
         },
         {
-            "tag": "\/Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=none&encryption=none&host=vngsupply.ip-ddns.com&type=ws#🇺🇸US | 🔴 | vless | @prrofile_purple | 145",
+            "tag": "🇮🇷IR | 🔴 | vless | @prrofile_purple | 145",
             "type": "vless",
-            "server": "104.16.69.162",
-            "server_port": 8880,
-            "uuid": "e9979910-79d1-4621-a93c-b2a579c44ba7",
+            "server": "185.243.51.67",
+            "server_port": 21760,
+            "uuid": "73e10f2a-bb9a-40c1-8e2c-ebfe0dac1dac",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1234,7 +1230,7 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 146",
             "type": "vless",
-            "server": "104.16.86.73",
+            "server": "104.16.69.162",
             "server_port": 8880,
             "uuid": "e9979910-79d1-4621-a93c-b2a579c44ba7",
             "flow": "",
@@ -1246,9 +1242,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/J5aLQOY1R9ONWYCM?ed=2560",
+                "path": "\/---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net",
                 "headers": {
-                    "Host": "104.16.86.73"
+                    "Host": "104.16.69.162"
                 }
             }
         },
@@ -1448,37 +1444,6 @@
             "transport": {
                 "type": "ws",
                 "path": "\/@Join---i10VPN---Join---i10VPN---Join---i10VPN---Join---i10VPN?ed=2560",
-                "headers": {
-                    "Host": "carlotta.shoorekeeper.cloudns.org"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @v2rayngvpn | 16",
-            "type": "vless",
-            "server": "160.153.0.32",
-            "server_port": 443,
-            "uuid": "30f2d443-af46-4dd6-83c9-b5e17299ebd2",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "carlotta.shoorekeeper.cloudns.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?Join---v2ray_hubb---Join---v2ray_hubb---Join---v2ray_hubb---Join---v2ray_hubb?ed=2560",
                 "headers": {
                     "Host": "carlotta.shoorekeeper.cloudns.org"
                 }
@@ -1707,37 +1672,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @v2ray1_ng | 1",
-            "type": "vless",
-            "server": "104.21.67.12",
-            "server_port": 443,
-            "uuid": "30f2d443-af46-4dd6-83c9-b5e17299ebd2",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "carlotta.shoorekeeper.cloudns.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/proxyip",
-                "headers": {
-                    "Host": "carlotta.shoorekeeper.cloudns.org"
-                }
             }
         },
         {
