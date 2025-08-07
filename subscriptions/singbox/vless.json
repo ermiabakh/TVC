@@ -198,7 +198,7 @@
                 "🇺🇸US | 🔴 | vless | @melov2ray | 38",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 0",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 4",
-                "❔XX | 🔴 | vless | @V2pedia | 6",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 6",
                 "🚩CF | 🔴 | vless | @V2pedia | 7",
                 "🚩CF | 🔴 | vless | @ARv2ray | 0",
                 "🚩CF | 🔴 | vless | @ARv2ray | 2",
@@ -427,11 +427,12 @@
                 "🇩🇪DE | 🔴 | vless | @FalconPolV2rayNG | 7",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 8",
                 "🚩CF | 🔴 | vless | @FalconPolV2rayNG | 9",
-                "🇳🇱NL | 🔴 | vless | @ShadowProxy66 | 0",
-                "🇮🇷IR | 🔴 | vless | @ShadowProxy66 | 1",
-                "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 2",
+                "🇹🇷TR | 🔴 | vless | @ShadowProxy66 | 0",
+                "🇳🇱NL | 🔴 | vless | @ShadowProxy66 | 1",
+                "🇮🇷IR | 🔴 | vless | @ShadowProxy66 | 2",
                 "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 3",
-                "🇮🇷IR | 🔴 | vless | @ShadowProxy66 | 4",
+                "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 4",
+                "🇮🇷IR | 🔴 | vless | @ShadowProxy66 | 5",
                 "🇩🇪DE | 🔴 | vless | @ServerNett | 0",
                 "❔XX | 🟢 | vless | @ServerNett | 1",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 5",
@@ -731,7 +732,7 @@
                 "🇺🇸US | 🔴 | vless | @melov2ray | 38",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 0",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 4",
-                "❔XX | 🔴 | vless | @V2pedia | 6",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 6",
                 "🚩CF | 🔴 | vless | @V2pedia | 7",
                 "🚩CF | 🔴 | vless | @ARv2ray | 0",
                 "🚩CF | 🔴 | vless | @ARv2ray | 2",
@@ -960,11 +961,12 @@
                 "🇩🇪DE | 🔴 | vless | @FalconPolV2rayNG | 7",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 8",
                 "🚩CF | 🔴 | vless | @FalconPolV2rayNG | 9",
-                "🇳🇱NL | 🔴 | vless | @ShadowProxy66 | 0",
-                "🇮🇷IR | 🔴 | vless | @ShadowProxy66 | 1",
-                "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 2",
+                "🇹🇷TR | 🔴 | vless | @ShadowProxy66 | 0",
+                "🇳🇱NL | 🔴 | vless | @ShadowProxy66 | 1",
+                "🇮🇷IR | 🔴 | vless | @ShadowProxy66 | 2",
                 "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 3",
-                "🇮🇷IR | 🔴 | vless | @ShadowProxy66 | 4",
+                "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 4",
+                "🇮🇷IR | 🔴 | vless | @ShadowProxy66 | 5",
                 "🇩🇪DE | 🔴 | vless | @ServerNett | 0",
                 "❔XX | 🟢 | vless | @ServerNett | 1",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 5",
@@ -3477,7 +3479,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @V2pedia | 6",
+            "tag": "🇺🇸US | 🔴 | vless | @V2pedia | 6",
             "type": "vless",
             "server": "book.srv2.quest",
             "server_port": 28796,
@@ -8831,7 +8833,38 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | @ShadowProxy66 | 0",
+            "tag": "🇹🇷TR | 🔴 | vless | @ShadowProxy66 | 0",
+            "type": "vless",
+            "server": "185.234.66.82",
+            "server_port": 443,
+            "uuid": "b5e8bfe7-6cdb-402d-b243-1e0f53ebb582",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "185.234.66.82",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/jzmdpvws",
+                "headers": {
+                    "Host": "185.234.66.82"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🔴 | vless | @ShadowProxy66 | 1",
             "type": "vless",
             "server": "91.206.71.162",
             "server_port": 8880,
@@ -8852,7 +8885,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @ShadowProxy66 | 1",
+            "tag": "🇮🇷IR | 🔴 | vless | @ShadowProxy66 | 2",
             "type": "vless",
             "server": "85.133.221.5",
             "server_port": 5151,
@@ -8866,7 +8899,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 2",
+            "tag": "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 3",
             "type": "vless",
             "server": "212.95.34.14",
             "server_port": 443,
@@ -8897,7 +8930,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 3",
+            "tag": "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 4",
             "type": "vless",
             "server": "212.95.34.24",
             "server_port": 443,
@@ -8928,7 +8961,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @ShadowProxy66 | 4",
+            "tag": "🇮🇷IR | 🔴 | vless | @ShadowProxy66 | 5",
             "type": "vless",
             "server": "85.133.221.5",
             "server_port": 5151,
