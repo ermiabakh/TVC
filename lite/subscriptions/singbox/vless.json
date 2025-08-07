@@ -169,7 +169,6 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 1",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 2",
-                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 7",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 17",
@@ -179,6 +178,7 @@
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 11",
+                "🇺🇸US | 🔴 | vless | @free1_vpn | 5",
                 "🇫🇮FI | 🟢 | vless | @free1_vpn | 6",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇰🇷KR | 🔴 | vless | @Outlinev2rayNG | 10",
@@ -187,8 +187,8 @@
                 "🇭🇺HU | 🟢 | vless | @Capoit | 26",
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 13",
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 14",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
-                "🇺🇸US | 🟢 | vless | @flyv2ray | 13",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
+                "🇺🇸US | 🟢 | vless | @flyv2ray | 14",
                 "🇺🇸US | 🔴 | vless | @iP_CF | 61",
                 "🇺🇸US | 🔴 | vless | @iP_CF | 62",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
@@ -270,7 +270,6 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 1",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 2",
-                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 7",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 17",
@@ -280,6 +279,7 @@
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 11",
+                "🇺🇸US | 🔴 | vless | @free1_vpn | 5",
                 "🇫🇮FI | 🟢 | vless | @free1_vpn | 6",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇰🇷KR | 🔴 | vless | @Outlinev2rayNG | 10",
@@ -288,8 +288,8 @@
                 "🇭🇺HU | 🟢 | vless | @Capoit | 26",
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 13",
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 14",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
-                "🇺🇸US | 🟢 | vless | @flyv2ray | 13",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
+                "🇺🇸US | 🟢 | vless | @flyv2ray | 14",
                 "🇺🇸US | 🔴 | vless | @iP_CF | 61",
                 "🇺🇸US | 🔴 | vless | @iP_CF | 62",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
@@ -1792,37 +1792,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @v2ray1_ng | 7",
-            "type": "vless",
-            "server": "104.21.67.12",
-            "server_port": 443,
-            "uuid": "30f2d443-af46-4dd6-83c9-b5e17299ebd2",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "carlotta.shoorekeeper.cloudns.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/proxyip",
-                "headers": {
-                    "Host": "carlotta.shoorekeeper.cloudns.org"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
             "type": "vless",
             "server": "172.67.141.140",
@@ -1995,6 +1964,37 @@
                     "enabled": true,
                     "public_key": "-4S95rjoZIG_AeUxIlwedx89e7C_X4jnePY3RsiF4io",
                     "short_id": "f8fcb589"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @free1_vpn | 5",
+            "type": "vless",
+            "server": "104.21.67.12",
+            "server_port": 443,
+            "uuid": "30f2d443-af46-4dd6-83c9-b5e17299ebd2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "carlotta.shoorekeeper.cloudns.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/proxyip",
+                "headers": {
+                    "Host": "carlotta.shoorekeeper.cloudns.org"
                 }
             }
         },
@@ -2182,7 +2182,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
             "type": "vless",
             "server": "chat.openai.com",
             "server_port": 8080,
@@ -2203,7 +2203,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @flyv2ray | 13",
+            "tag": "🇺🇸US | 🟢 | vless | @flyv2ray | 14",
             "type": "vless",
             "server": "api.hostbaran.info",
             "server_port": 15810,
