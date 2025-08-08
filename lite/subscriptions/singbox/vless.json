@@ -144,8 +144,8 @@
                 "🇺🇸US | 🔴 | vless | @V2rayNGn | 10",
                 "🇮🇷IR | 🔴 | vless | @V2rayNGn | 11",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 16",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 143",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 144",
+                "🇺🇸US | 🔴 | vless | @prrofile_purple | 151",
+                "🇺🇸US | 🔴 | vless | @prrofile_purple | 152",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 29",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 30",
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 14",
@@ -172,7 +172,8 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 16",
+                "🇰🇿KZ | 🔴 | vless | @ConfigsHUB | 17",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 10",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 6",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
@@ -239,8 +240,8 @@
                 "🇺🇸US | 🔴 | vless | @V2rayNGn | 10",
                 "🇮🇷IR | 🔴 | vless | @V2rayNGn | 11",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 16",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 143",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 144",
+                "🇺🇸US | 🔴 | vless | @prrofile_purple | 151",
+                "🇺🇸US | 🔴 | vless | @prrofile_purple | 152",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 29",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 30",
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 14",
@@ -267,7 +268,8 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 16",
+                "🇰🇿KZ | 🔴 | vless | @ConfigsHUB | 17",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 10",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 6",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
@@ -1185,11 +1187,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 143",
+            "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 151",
             "type": "vless",
-            "server": "104.25.220.177",
-            "server_port": 8880,
-            "uuid": "e9979910-79d1-4621-a93c-b2a579c44ba7",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "38046915-6d82-4d86-8510-b5bcc569d0ea",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1197,16 +1199,26 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "PaGes.deV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/reklaz1FsDrIv7mW?ed=2560",
+                "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "104.25.220.177"
+                    "Host": "PaGes.deV"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 144",
+            "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 152",
             "type": "vless",
             "server": "172.67.65.158",
             "server_port": 8880,
@@ -1816,11 +1828,42 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
+            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "51.195.119.204",
-            "server_port": 80,
-            "uuid": "2ac2a3ac-49ec-4cf1-90fd-252b7fad9fbe",
+            "server": "104.26.15.69",
+            "server_port": 2096,
+            "uuid": "30f2d443-af46-4dd6-83c9-b5e17299ebd2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "carlotta.shoorekeeper.cloudns.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=2560",
+                "headers": {
+                    "Host": "carlotta.shoorekeeper.cloudns.org"
+                }
+            }
+        },
+        {
+            "tag": "🇰🇿KZ | 🔴 | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "91.224.74.69",
+            "server_port": 25568,
+            "uuid": "1f01fda5-6bdc-4c9b-8b52-1b5e174e1f7e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1830,9 +1873,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/vless\/",
+                "path": "\/",
                 "headers": {
-                    "Host": "51.195.119.204"
+                    "Host": "91.224.74.69"
                 }
             }
         },
