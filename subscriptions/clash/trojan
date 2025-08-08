@@ -151,6 +151,7 @@ proxies:
   - {"name":"🇫🇷FR | 🟢 | trojan | @DirectVPN | 13","type":"trojan","server":"35.180.236.83","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | 🟢 | trojan | @DirectVPN | 14","type":"trojan","server":"52.47.54.70","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇩🇪DE | 🟢 | trojan | @DirectVPN | 15","type":"trojan","server":"3.75.72.161","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇺🇸US | 🔴 | trojan | @ConfigsHUB | 3","type":"trojan","server":"muddy-frost-4e2d.vpnetwork3567.workers.dev","port":443,"udp":false,"password":"C910E5F2-A662-7CFB-B5A6-5D39DB212CBA","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"muddy-frost-4e2d.vpnetwork3567.workers.dev"}
   - {"name":"🇨🇿CZ | 🟢 | trojan | @iP_CF | 24","type":"trojan","server":"85.255.9.247","port":1935,"udp":false,"password":"mZMgM1vKw5","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"x1-czech-aruba-v2.devefun.org"}
 proxy-groups:
   - name: MANUAL
@@ -191,6 +192,7 @@ proxy-groups:
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 13'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 14'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 15'
+      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 3'
       - '🇨🇿CZ | 🟢 | trojan | @iP_CF | 24'
   - name: URL-TEST
     type: url-test
@@ -231,6 +233,7 @@ proxy-groups:
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 13'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 14'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 15'
+      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 3'
       - '🇨🇿CZ | 🟢 | trojan | @iP_CF | 24'
   - name: FALLBACK
     type: fallback
@@ -270,6 +273,7 @@ proxy-groups:
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 13'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 14'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 15'
+      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 3'
       - '🇨🇿CZ | 🟢 | trojan | @iP_CF | 24'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
