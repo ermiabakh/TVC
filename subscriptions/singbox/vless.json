@@ -499,6 +499,18 @@
                 "🚩CF | 🔴 | vless | @lrnbymaa | 1",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🚩CF | 🔴 | vless | @lrnbymaa | 3",
+                "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 1",
+                "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 3",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 6",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 7",
+                "🇰🇷KR | 🔴 | vless | @ConfigsHUB | 8",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 10",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
+                "🇮🇩ID | 🔴 | vless | @ConfigsHUB | 15",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 18",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 19",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 0",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 3",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 4",
@@ -1025,6 +1037,18 @@
                 "🚩CF | 🔴 | vless | @lrnbymaa | 1",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🚩CF | 🔴 | vless | @lrnbymaa | 3",
+                "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 1",
+                "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 3",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 6",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 7",
+                "🇰🇷KR | 🔴 | vless | @ConfigsHUB | 8",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 10",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
+                "🇮🇩ID | 🔴 | vless | @ConfigsHUB | 15",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 18",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 19",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 0",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 3",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 4",
@@ -10712,6 +10736,253 @@
                 "headers": {
                     "Host": "172.66.40.99"
                 }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 1",
+            "type": "vless",
+            "server": "144.21.53.157",
+            "server_port": 443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=2744security=tls",
+                "headers": {
+                    "Host": "pvg.aghabeiki.homes"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 3",
+            "type": "vless",
+            "server": "152.67.130.49",
+            "server_port": 443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=2744security=tls",
+                "headers": {
+                    "Host": "pvg.aghabeiki.homes"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 6",
+            "type": "vless",
+            "server": "93.185.163.186",
+            "server_port": 3001,
+            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "a.mifeng.us.kg",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=2560fp=chrome",
+                "headers": {
+                    "Host": "a.mifeng.us.kg"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 7",
+            "type": "vless",
+            "server": "151.101.65.122",
+            "server_port": 443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/security=tls",
+                "headers": {
+                    "Host": "metrix.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇰🇷KR | 🔴 | vless | @ConfigsHUB | 8",
+            "type": "vless",
+            "server": "132.145.80.224",
+            "server_port": 443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=2744security=tls",
+                "headers": {
+                    "Host": "pvg.aghabeiki.homes"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 10",
+            "type": "vless",
+            "server": "soren1.mahmouditravelers.top",
+            "server_port": 26779,
+            "uuid": "2f0f5525-5376-4820-a9b5-90064664a35d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
+            "type": "vless",
+            "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
+            "server_port": 2096,
+            "uuid": "337bf72e-bb79-4d5f-be3f-7822eb77100c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Mz5766A2vU.dUcKgOoG.oRg",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "Mz5766A2vU.dUcKgOoG.oRg"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
+            "type": "vless",
+            "server": "zula.ir",
+            "server_port": 2087,
+            "uuid": "554e89e9-5d47-408a-ee92-2fa8506bc78c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Hopev2.hopebook75zulawu.online",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?TELEGRAM-@proNG1?ed",
+                "headers": {
+                    "Host": "Hopev2.hopebook75zulawu.online"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇩ID | 🔴 | vless | @ConfigsHUB | 15",
+            "type": "vless",
+            "server": "172.232.237.24",
+            "server_port": 2321,
+            "uuid": "89ae5e18-3b81-4e5d-a645-d85012c602b1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "v2shop-ger.bing-net.com",
+            "server_port": 3035,
+            "uuid": "82b044a4-5646-41a9-bf49-39b6ea1dc51c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "v2shop-nl1.bing-net.com",
+            "server_port": 3034,
+            "uuid": "82b044a4-5646-41a9-bf49-39b6ea1dc51c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "v2shop-uk1.bing-net.com",
+            "server_port": 3032,
+            "uuid": "82b044a4-5646-41a9-bf49-39b6ea1dc51c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
