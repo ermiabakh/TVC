@@ -107,7 +107,9 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 28",
+                "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 136",
                 "🇩🇪DE | 🔴 | vless | @vmessorg | 15",
+                "🇩🇪DE | 🔴 | vless | @v2rayNG_Matsuri | 6",
                 "🇦🇲AM | 🔴 | vless | @v2rayNG_Matsuri | 7",
                 "🇩🇪DE | 🔴 | vless | @ServerNett | 0",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 10",
@@ -124,7 +126,9 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 28",
+                "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 136",
                 "🇩🇪DE | 🔴 | vless | @vmessorg | 15",
+                "🇩🇪DE | 🔴 | vless | @v2rayNG_Matsuri | 6",
                 "🇦🇲AM | 🔴 | vless | @v2rayNG_Matsuri | 7",
                 "🇩🇪DE | 🔴 | vless | @ServerNett | 0",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 10",
@@ -185,6 +189,42 @@
             }
         },
         {
+            "tag": "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 136",
+            "type": "vless",
+            "server": "194.182.79.43",
+            "server_port": 25245,
+            "uuid": "aa374d55-b368-4121-8f02-7e6bd9ef1924",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "uv1gMqjxJ-bF5Xjix_d5M4qGK0-VmGyrU5ZMtiXrhHg",
+                    "short_id": "16b619c73e22"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Join-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇩🇪DE | 🔴 | vless | @vmessorg | 15",
             "type": "vless",
             "server": "80.240.23.101",
@@ -211,6 +251,42 @@
                     "public_key": "qmdcGi9MFglpiaqalAFvOUGNehBjYIwaXLbula8K0gU",
                     "short_id": "a862ded52ae3ea"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @v2rayNG_Matsuri | 6",
+            "type": "vless",
+            "server": "91.99.97.62",
+            "server_port": 51479,
+            "uuid": "e4848d5d-3380-45ff-f9d5-48cb1f492926",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cdn77.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ywnxBH4IYI83aaL9k0og1Slb9CU-eEhPypH3pXD0VSg",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {

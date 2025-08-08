@@ -121,6 +121,7 @@ dns:
 
 proxies:
   - {"name":"🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 28","type":"vless","server":"51.210.103.141","port":443,"udp":true,"uuid":"615d2800-d402-4b14-97a0-8738cdfddfba","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"office.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw"}}
+  - {"name":"🇨🇿CZ | 🔴 | vless | @prrofile_purple | 136","type":"vless","server":"194.182.79.43","port":25245,"udp":true,"uuid":"aa374d55-b368-4121-8f02-7e6bd9ef1924","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"journalofbigdata.springeropen.com","grpc-opts":{"grpc-service-name":"Join-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"},"reality-opts":{"public-key":"uv1gMqjxJ-bF5Xjix_d5M4qGK0-VmGyrU5ZMtiXrhHg","short-id":"16b619c73e22"}}
   - {"name":"🇩🇪DE | 🔴 | vless | @vmessorg | 15","type":"vless","server":"80.240.23.101","port":47567,"udp":true,"uuid":"73cc7084-a427-4193-8fe0-6dd72ac48265","tls":true,"network":"xhttp","client-fingerprint":"firefox","servername":"www.black-moai.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"qmdcGi9MFglpiaqalAFvOUGNehBjYIwaXLbula8K0gU","short-id":"a862ded52ae3ea"}}
   - {"name":"🇦🇲AM | 🔴 | vless | @v2rayNG_Matsuri | 7","type":"vless","server":"or1.pmme.top","port":443,"udp":true,"uuid":"35ebf266-908d-4f1e-abea-fbc69816a46f","tls":true,"network":"xhttp","client-fingerprint":"chrome","servername":"www.parspack.com","reality-opts":{"public-key":"xfzizKASi1RDkMp0lU9CKVNbcKCL5KzdgIzZjF1d_AI","short-id":"6b"}}
   - {"name":"🇩🇪DE | 🔴 | vless | @proxystore11 | 10","type":"vless","server":"vip1.proxystore11.news","port":2052,"udp":true,"uuid":"423a18a5-0798-46d9-83f1-5bec04a2f49e","tls":true,"network":"xhttp","client-fingerprint":"chrome","servername":"vultr.com","reality-opts":{"public-key":"-4S95rjoZIG_AeUxIlwedx89e7C_X4jnePY3RsiF4io","short-id":"f8fcb589"}}
@@ -134,6 +135,7 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 28'
+      - '🇨🇿CZ | 🔴 | vless | @prrofile_purple | 136'
       - '🇩🇪DE | 🔴 | vless | @vmessorg | 15'
       - '🇦🇲AM | 🔴 | vless | @v2rayNG_Matsuri | 7'
       - '🇩🇪DE | 🔴 | vless | @proxystore11 | 10'
@@ -147,6 +149,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 28'
+      - '🇨🇿CZ | 🔴 | vless | @prrofile_purple | 136'
       - '🇩🇪DE | 🔴 | vless | @vmessorg | 15'
       - '🇦🇲AM | 🔴 | vless | @v2rayNG_Matsuri | 7'
       - '🇩🇪DE | 🔴 | vless | @proxystore11 | 10'
@@ -159,6 +162,7 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 28'
+      - '🇨🇿CZ | 🔴 | vless | @prrofile_purple | 136'
       - '🇩🇪DE | 🔴 | vless | @vmessorg | 15'
       - '🇦🇲AM | 🔴 | vless | @v2rayNG_Matsuri | 7'
       - '🇩🇪DE | 🔴 | vless | @proxystore11 | 10'
