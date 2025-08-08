@@ -107,13 +107,11 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 28",
-                "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 136",
                 "🇩🇪DE | 🔴 | vless | @vmessorg | 15",
                 "🇩🇪DE | 🔴 | vless | @v2rayNG_Matsuri | 6",
                 "🇦🇲AM | 🔴 | vless | @v2rayNG_Matsuri | 7",
                 "🇩🇪DE | 🔴 | vless | @ServerNett | 0",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 10",
-                "🇳🇱NL | 🟢 | vless | @Outlinev2rayNG | 13",
                 "🇩🇪DE | 🔴 | vless | @mehrosaboran | 9",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -126,13 +124,11 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 28",
-                "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 136",
                 "🇩🇪DE | 🔴 | vless | @vmessorg | 15",
                 "🇩🇪DE | 🔴 | vless | @v2rayNG_Matsuri | 6",
                 "🇦🇲AM | 🔴 | vless | @v2rayNG_Matsuri | 7",
                 "🇩🇪DE | 🔴 | vless | @ServerNett | 0",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 10",
-                "🇳🇱NL | 🟢 | vless | @Outlinev2rayNG | 13",
                 "🇩🇪DE | 🔴 | vless | @mehrosaboran | 9",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -186,42 +182,6 @@
                     "public_key": "ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw",
                     "short_id": ""
                 }
-            }
-        },
-        {
-            "tag": "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 136",
-            "type": "vless",
-            "server": "194.182.79.43",
-            "server_port": 25245,
-            "uuid": "aa374d55-b368-4121-8f02-7e6bd9ef1924",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "journalofbigdata.springeropen.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "uv1gMqjxJ-bF5Xjix_d5M4qGK0-VmGyrU5ZMtiXrhHg",
-                    "short_id": "16b619c73e22"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Join-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
@@ -373,35 +333,6 @@
                     "enabled": true,
                     "public_key": "-4S95rjoZIG_AeUxIlwedx89e7C_X4jnePY3RsiF4io",
                     "short_id": "f8fcb589"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | 🟢 | vless | @Outlinev2rayNG | 13",
-            "type": "vless",
-            "server": "nl01-vlr01.tcp-reset-club.net",
-            "server_port": 443,
-            "uuid": "4a640781-f5c8-4d17-80db-a6b0a091ba05",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hls-svod.itunes.apple.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
-                    "short_id": "d3b13f31"
                 }
             }
         },
