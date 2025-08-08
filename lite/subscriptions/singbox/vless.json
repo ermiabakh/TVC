@@ -176,6 +176,8 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 18",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 19",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 11",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 5",
                 "🇫🇮FI | 🟢 | vless | @free1_vpn | 6",
@@ -276,6 +278,8 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 18",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 19",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 11",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 5",
                 "🇫🇮FI | 🟢 | vless | @free1_vpn | 6",
@@ -1926,6 +1930,34 @@
                 "headers": {
                     "Host": "104.21.112.1"
                 }
+            }
+        },
+        {
+            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "v2shop-nl1.bing-net.com",
+            "server_port": 3034,
+            "uuid": "82b044a4-5646-41a9-bf49-39b6ea1dc51c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "v2shop-uk1.bing-net.com",
+            "server_port": 3032,
+            "uuid": "82b044a4-5646-41a9-bf49-39b6ea1dc51c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
