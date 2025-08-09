@@ -174,8 +174,6 @@ proxies:
   - {"name":"❔XX | 🟢 | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
   - {"name":"🇷🇺RU | 🟢 | vmess | @Hope_Net | 0","type":"vmess","server":"195.58.49.12","port":"2579","cipher":"auto","uuid":"6deebc35-733b-4105-9cf1-8821061eaf40","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
   - {"name":"🇩🇪DE | 🟢 | vmess | @Hope_Net | 1","type":"vmess","server":"5.39.252.182","port":"1024","cipher":"auto","uuid":"2b92d7f6-f564-4f73-900c-e079d8cbf347","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
-  - {"name":"🇷🇺RU | 🟢 | vmess | @Hope_Net | 3","type":"vmess","server":"195.58.49.12","port":"2579","cipher":"auto","uuid":"7c1ca55f-a56c-4253-ac9b-a3904046c173","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
-  - {"name":"🚩CF | 🟢 | vmess | @Hope_Net | 4","type":"vmess","server":"104.21.238.236","port":"8880","cipher":"auto","uuid":"90f8f4dc-8092-4355-9047-05f506f5e9ab","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"m1.106778.xyz"}}}
   - {"name":"🇸🇬SG | 🟢 | vmess | @FreakConfig | 1","type":"vmess","server":"109.123.239.98","port":"8080","cipher":"chacha20-poly1305","uuid":"eff3b1fe-b458-59e2-b32a-73f0b8efd5b8","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇿CZ | 🟢 | trojan | @iP_CF | 25","type":"trojan","server":"85.255.9.247","port":1935,"udp":false,"password":"mZMgM1vKw5","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"x1-czech-aruba-v2.devefun.org"}
   - {"name":"🇳🇱NL | 🟢 | ss | @iP_CF | 29","type":"ss","server":"103.106.1.92","port":23492,"password":"yMX9WGPgUEcRZmlaa0YHHC","cipher":"chacha20-ietf-poly1305"}
@@ -247,8 +245,6 @@ proxy-groups:
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
       - '🇷🇺RU | 🟢 | vmess | @Hope_Net | 0'
       - '🇩🇪DE | 🟢 | vmess | @Hope_Net | 1'
-      - '🇷🇺RU | 🟢 | vmess | @Hope_Net | 3'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 4'
       - '🇸🇬SG | 🟢 | vmess | @FreakConfig | 1'
       - '🇨🇿CZ | 🟢 | trojan | @iP_CF | 25'
       - '🇳🇱NL | 🟢 | ss | @iP_CF | 29'
@@ -320,8 +316,6 @@ proxy-groups:
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
       - '🇷🇺RU | 🟢 | vmess | @Hope_Net | 0'
       - '🇩🇪DE | 🟢 | vmess | @Hope_Net | 1'
-      - '🇷🇺RU | 🟢 | vmess | @Hope_Net | 3'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 4'
       - '🇸🇬SG | 🟢 | vmess | @FreakConfig | 1'
       - '🇨🇿CZ | 🟢 | trojan | @iP_CF | 25'
       - '🇳🇱NL | 🟢 | ss | @iP_CF | 29'
@@ -392,8 +386,6 @@ proxy-groups:
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
       - '🇷🇺RU | 🟢 | vmess | @Hope_Net | 0'
       - '🇩🇪DE | 🟢 | vmess | @Hope_Net | 1'
-      - '🇷🇺RU | 🟢 | vmess | @Hope_Net | 3'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 4'
       - '🇸🇬SG | 🟢 | vmess | @FreakConfig | 1'
       - '🇨🇿CZ | 🟢 | trojan | @iP_CF | 25'
       - '🇳🇱NL | 🟢 | ss | @iP_CF | 29'
