@@ -123,9 +123,7 @@
                 "🇩🇪DE | 🟢 | vmess | @prrofile_purple | 145",
                 "❔XX | 🟢 | vmess | @prrofile_purple | 146",
                 "🇩🇪DE | 🟢 | vmess | @SafeNet_Server | 0",
-                "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 8",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 12",
-                "🇦🇺AU | 🟢 | vmess | @ConfigsHUB | 17",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 2",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -157,9 +155,7 @@
                 "🇩🇪DE | 🟢 | vmess | @prrofile_purple | 145",
                 "❔XX | 🟢 | vmess | @prrofile_purple | 146",
                 "🇩🇪DE | 🟢 | vmess | @SafeNet_Server | 0",
-                "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 8",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 12",
-                "🇦🇺AU | 🟢 | vmess | @ConfigsHUB | 17",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 2",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -493,28 +489,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 8",
+            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 2",
             "type": "vmess",
-            "server": "135.125.182.74",
-            "server_port": 28213,
-            "uuid": "81852771-76fb-4e94-e4f1-4e37a698a49a",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 12",
-            "type": "vmess",
-            "server": "npmjs.com",
-            "server_port": 8080,
-            "uuid": "nasnet",
+            "server": "www.visa.com.sg",
+            "server_port": 8880,
+            "uuid": "62a00edc-9867-4c66-82ee-d57c19facad3",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -527,27 +506,10 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/NASNET\/cdn",
+                "path": "\/",
                 "headers": {
                     "Host": ""
                 }
-            }
-        },
-        {
-            "tag": "🇦🇺AU | 🟢 | vmess | @ConfigsHUB | 17",
-            "type": "vmess",
-            "server": "46.250.243.56",
-            "server_port": 50394,
-            "uuid": "a75f3f95-ad4e-4498-fc72-dd740dd02bfc",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
