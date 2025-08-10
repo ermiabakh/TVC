@@ -144,7 +144,7 @@
                 "🇩🇪DE | 🔴 | vless | @v2rayNG_Matsuri | 8",
                 "🇩🇪DE | 🔴 | vless | @v2rayNG_Matsuri | 10",
                 "🇳🇱NL | 🟢 | vless | @v2rayngvpn | 7",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 4",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 15",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 3",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 6",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 10",
@@ -228,7 +228,7 @@
                 "🇩🇪DE | 🔴 | vless | @v2rayNG_Matsuri | 8",
                 "🇩🇪DE | 🔴 | vless | @v2rayNG_Matsuri | 10",
                 "🇳🇱NL | 🟢 | vless | @v2rayngvpn | 7",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 4",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 15",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 3",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 6",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 10",
@@ -1511,11 +1511,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 4",
+            "tag": "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "3.19.218.255",
-            "server_port": 4433,
-            "uuid": "7fc993f5-7cd7-4485-9e6f-1f7c5160c910",
+            "server": "v2shop-nl1-emr.bing-net.com",
+            "server_port": 7031,
+            "uuid": "92e1ef2b-c1f6-4198-abc7-a930cb498d30",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1525,17 +1525,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "stackoverflow.com",
+                "server_name": "mdundo.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "random"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "tZn5Tdrk045zSTbBEzGwSV_LOdCZqEwT8c85pJOK_C0",
-                    "short_id": "f785b38130e64177"
+                    "public_key": "g23nq_R9TIMbMIGQHB6gjDNewFzrHXPcj72bTS-RtX8",
+                    "short_id": ""
                 }
             }
         },
