@@ -108,9 +108,9 @@
                 "URL-TEST",
                 "🇩🇪DE | 🔴 | vless | @v2_team | 6",
                 "🇩🇪DE | 🔴 | vless | @v2_team | 7",
-                "🇨🇦CA | 🔴 | vless | @V2pedia | 12",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 12",
                 "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 67",
-                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | 🟢 | vless | @ConfigsHUB | 14",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 14",
                 "🇮🇹IT | 🟢 | vless | @Capoit | 19",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 20",
@@ -130,9 +130,9 @@
             "outbounds": [
                 "🇩🇪DE | 🔴 | vless | @v2_team | 6",
                 "🇩🇪DE | 🔴 | vless | @v2_team | 7",
-                "🇨🇦CA | 🔴 | vless | @V2pedia | 12",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 12",
                 "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 67",
-                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | 🟢 | vless | @ConfigsHUB | 14",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 14",
                 "🇮🇹IT | 🟢 | vless | @Capoit | 19",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 20",
@@ -238,7 +238,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @V2pedia | 12",
+            "tag": "🇺🇸US | 🔴 | vless | @V2pedia | 12",
             "type": "vless",
             "server": "book.srv2.quest",
             "server_port": 28796,
@@ -303,11 +303,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | 🟢 | vless | @ConfigsHUB | 14",
             "type": "vless",
-            "server": "64.188.96.208",
-            "server_port": 34045,
-            "uuid": "d8dd94fd-540e-461d-b5d4-acebef02c22a",
+            "server": "51.222.87.29",
+            "server_port": 8081,
+            "uuid": "40d9faec-3130-4e69-bb77-210193e65598",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -317,17 +317,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me",
+                "server_name": "yahoo.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": null
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA",
-                    "short_id": "e8ab71d0"
+                    "public_key": "C4lraeO0FAYyFmDWbRmHmX53xTf4XMalv5kGefeWBmA",
+                    "short_id": "4662ad"
                 }
             }
         },
