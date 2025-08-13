@@ -106,10 +106,12 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | 🔴 | vless | @v2_team | 6",
-                "🇩🇪DE | 🔴 | vless | @v2_team | 7",
+                "🇺🇸US | 🔴 | vless | @v2_team | 6",
+                "🇺🇸US | 🔴 | vless | @v2_team | 7",
                 "🇫🇮FI | 🟢 | vless | @prrofile_purple | 141",
-                "🇰🇿KZ | 🟢 | vless | @ShadowProxy66 | 6",
+                "🇰🇿KZ | 🟢 | vless | @ShadowProxy66 | 7",
+                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 18",
+                "🇹🇷TR | 🟢 | vless | @ConfigsHUB | 19",
                 "🇮🇹IT | 🟢 | vless | @Capoit | 24",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 25",
                 "🇩🇪DE | 🔴 | vless | @mehrosaboran | 9",
@@ -124,10 +126,12 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | 🔴 | vless | @v2_team | 6",
-                "🇩🇪DE | 🔴 | vless | @v2_team | 7",
+                "🇺🇸US | 🔴 | vless | @v2_team | 6",
+                "🇺🇸US | 🔴 | vless | @v2_team | 7",
                 "🇫🇮FI | 🟢 | vless | @prrofile_purple | 141",
-                "🇰🇿KZ | 🟢 | vless | @ShadowProxy66 | 6",
+                "🇰🇿KZ | 🟢 | vless | @ShadowProxy66 | 7",
+                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 18",
+                "🇹🇷TR | 🟢 | vless | @ConfigsHUB | 19",
                 "🇮🇹IT | 🟢 | vless | @Capoit | 24",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 25",
                 "🇩🇪DE | 🔴 | vless | @mehrosaboran | 9",
@@ -158,7 +162,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @v2_team | 6",
+            "tag": "🇺🇸US | 🔴 | vless | @v2_team | 6",
             "type": "vless",
             "server": "gr.globalunlimitedinternet.xyz",
             "server_port": 1911,
@@ -194,7 +198,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @v2_team | 7",
+            "tag": "🇺🇸US | 🔴 | vless | @v2_team | 7",
             "type": "vless",
             "server": "gr.globalunlimitedinternet.xyz",
             "server_port": 1911,
@@ -259,7 +263,7 @@
             }
         },
         {
-            "tag": "🇰🇿KZ | 🟢 | vless | @ShadowProxy66 | 6",
+            "tag": "🇰🇿KZ | 🟢 | vless | @ShadowProxy66 | 7",
             "type": "vless",
             "server": "195.133.8.126",
             "server_port": 8081,
@@ -284,6 +288,64 @@
                     "enabled": true,
                     "public_key": "oB-VCWWpUePBe_v3vAOLWw054ZbdUN_4X3t_FkkPNFc",
                     "short_id": "220463"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "us02.528965.xyz",
+            "server_port": 31158,
+            "uuid": "e6b6f680-797c-4354-b2d8-bad9adbe89ae",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.hkust.edu.hk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "m2_mTpJOzyR-Cy3r8Ryf-3lYPZ_zYheZz7twWq9fXX8",
+                    "short_id": "9444ff"
+                }
+            }
+        },
+        {
+            "tag": "🇹🇷TR | 🟢 | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "62.60.233.250",
+            "server_port": 443,
+            "uuid": "809c908f-2219-11f0-9970-45e1d80c4039",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "images.apple.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "MFsbnsNQsSpZwP-_Ohzako6aHpfK4-rbssxhr3eywWw",
+                    "short_id": "4476a3"
                 }
             }
         },
