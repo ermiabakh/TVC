@@ -108,15 +108,15 @@
                 "URL-TEST",
                 "🇩🇪DE | 🔴 | vless | @v2_team | 6",
                 "🇩🇪DE | 🔴 | vless | @v2_team | 7",
-                "🇫🇮FI | 🟢 | vless | @prrofile_purple | 141",
-                "🇰🇿KZ | 🟢 | vless | @ShadowProxy66 | 4",
-                "🇭🇷HR | 🟢 | vless | @ConfigsHUB | 16",
-                "🇮🇹IT | 🟢 | vless | @Capoit | 24",
-                "🇩🇪DE | 🔴 | vless | @Capoit | 25",
-                "🇩🇪DE | 🔴 | vless | @mehrosaboran | 8",
+                "❔XX | 🟢 | vless | @prrofile_purple | 141",
+                "❔XX | 🟢 | vless | @ShadowProxy66 | 6",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 18",
+                "❔XX | 🟢 | vless | @Capoit | 24",
+                "❔XX | 🔴 | vless | @Capoit | 25",
+                "❔XX | 🔴 | vless | @mehrosaboran | 9",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "🇩🇪DE | 🟢 | vless | @kingofilter | 5",
+                "❔XX | 🟢 | vless | @kingofilter | 5",
                 "❔XX | 🔴 | vless | @SvnTeam | 6",
                 "❔XX | 🔴 | vless | @SvnTeam | 7"
             ]
@@ -127,15 +127,15 @@
             "outbounds": [
                 "🇩🇪DE | 🔴 | vless | @v2_team | 6",
                 "🇩🇪DE | 🔴 | vless | @v2_team | 7",
-                "🇫🇮FI | 🟢 | vless | @prrofile_purple | 141",
-                "🇰🇿KZ | 🟢 | vless | @ShadowProxy66 | 4",
-                "🇭🇷HR | 🟢 | vless | @ConfigsHUB | 16",
-                "🇮🇹IT | 🟢 | vless | @Capoit | 24",
-                "🇩🇪DE | 🔴 | vless | @Capoit | 25",
-                "🇩🇪DE | 🔴 | vless | @mehrosaboran | 8",
+                "❔XX | 🟢 | vless | @prrofile_purple | 141",
+                "❔XX | 🟢 | vless | @ShadowProxy66 | 6",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 18",
+                "❔XX | 🟢 | vless | @Capoit | 24",
+                "❔XX | 🔴 | vless | @Capoit | 25",
+                "❔XX | 🔴 | vless | @mehrosaboran | 9",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "🇩🇪DE | 🟢 | vless | @kingofilter | 5",
+                "❔XX | 🟢 | vless | @kingofilter | 5",
                 "❔XX | 🔴 | vless | @SvnTeam | 6",
                 "❔XX | 🔴 | vless | @SvnTeam | 7"
             ],
@@ -232,7 +232,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🟢 | vless | @prrofile_purple | 141",
+            "tag": "❔XX | 🟢 | vless | @prrofile_purple | 141",
             "type": "vless",
             "server": "direct2.yasharteam.com",
             "server_port": 443,
@@ -261,7 +261,7 @@
             }
         },
         {
-            "tag": "🇰🇿KZ | 🟢 | vless | @ShadowProxy66 | 4",
+            "tag": "❔XX | 🟢 | vless | @ShadowProxy66 | 6",
             "type": "vless",
             "server": "195.133.8.126",
             "server_port": 8081,
@@ -290,11 +290,11 @@
             }
         },
         {
-            "tag": "🇭🇷HR | 🟢 | vless | @ConfigsHUB | 16",
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "deu246.bypassall.org",
+            "server": "services.dissertationhelpspecialist.com",
             "server_port": 443,
-            "uuid": "b4b8aa1f-77d2-4851-a5a4-f78886f3e997",
+            "uuid": "8415d954-275d-44b7-a551-8a80fe2e17a7",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -304,22 +304,29 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.bing.com",
+                "server_name": "tgju.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
-                    "short_id": ""
+                    "public_key": "ZV4e1OJFc5P1PH8pi6YN3mVzZ0G8WUOCNJZ6IibvT3Y",
+                    "short_id": "a266fd8b85"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
-            "tag": "🇮🇹IT | 🟢 | vless | @Capoit | 24",
+            "tag": "❔XX | 🟢 | vless | @Capoit | 24",
             "type": "vless",
             "server": "ita01-vlr01.tcp-reset-club.net",
             "server_port": 443,
@@ -348,7 +355,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @Capoit | 25",
+            "tag": "❔XX | 🔴 | vless | @Capoit | 25",
             "type": "vless",
             "server": "91.107.243.238",
             "server_port": 2025,
@@ -384,7 +391,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @mehrosaboran | 8",
+            "tag": "❔XX | 🔴 | vless | @mehrosaboran | 9",
             "type": "vless",
             "server": "91.99.236.124",
             "server_port": 51479,
@@ -492,7 +499,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @kingofilter | 5",
+            "tag": "❔XX | 🟢 | vless | @kingofilter | 5",
             "type": "vless",
             "server": "91.99.216.9",
             "server_port": 8443,
