@@ -11,11 +11,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+🇱🇻LV | 🟢 | vmess | @ConfigsHUB | 17 = vmess, 91.218.143.133, 20086, username = a440e0d3-d39a-4bd8-a2c4-e22a6aef96e0, ws = true, tls = , vmess-aead = true, ws-path = /?--TELEGRAM-VITUREY----TELEGRAM-VITUREY----TELEGRAM-VITUREY----TELEGRAM-VITUREY, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 ❔XX | 🟢 | vmess | @yaney_01 | 4 = vmess, ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub, 80, username = 46cfcfe1-e450-459d-a3ab-9406011ab3eb, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"tms.dingtalk.com", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,❔XX | 🟢 | vmess | @yaney_01 | 4
-URL-TEST = url-test,❔XX | 🟢 | vmess | @yaney_01 | 4
-FALLBACK = fallback,❔XX | 🟢 | vmess | @yaney_01 | 4
+MANUAL = select,URL-TEST,FALLBACK,🇱🇻LV | 🟢 | vmess | @ConfigsHUB | 17,❔XX | 🟢 | vmess | @yaney_01 | 4
+URL-TEST = url-test,🇱🇻LV | 🟢 | vmess | @ConfigsHUB | 17,❔XX | 🟢 | vmess | @yaney_01 | 4
+FALLBACK = fallback,🇱🇻LV | 🟢 | vmess | @ConfigsHUB | 17,❔XX | 🟢 | vmess | @yaney_01 | 4
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
