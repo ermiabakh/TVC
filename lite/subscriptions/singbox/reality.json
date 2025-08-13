@@ -108,8 +108,7 @@
                 "URL-TEST",
                 "🇩🇪DE | 🔴 | vless | @v2_team | 6",
                 "🇩🇪DE | 🔴 | vless | @v2_team | 7",
-                "🇫🇮FI | 🟢 | vless | @prrofile_purple | 141",
-                "🇫🇮FI | 🟢 | vless | @v2rayngvpn | 13",
+                "🇫🇮FI | 🟢 | vless | @v2rayngvpn | 14",
                 "🇰🇿KZ | 🟢 | vless | @ShadowProxy66 | 4",
                 "🇮🇹IT | 🟢 | vless | @Capoit | 24",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 25",
@@ -127,8 +126,7 @@
             "outbounds": [
                 "🇩🇪DE | 🔴 | vless | @v2_team | 6",
                 "🇩🇪DE | 🔴 | vless | @v2_team | 7",
-                "🇫🇮FI | 🟢 | vless | @prrofile_purple | 141",
-                "🇫🇮FI | 🟢 | vless | @v2rayngvpn | 13",
+                "🇫🇮FI | 🟢 | vless | @v2rayngvpn | 14",
                 "🇰🇿KZ | 🟢 | vless | @ShadowProxy66 | 4",
                 "🇮🇹IT | 🟢 | vless | @Capoit | 24",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 25",
@@ -232,36 +230,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🟢 | vless | @prrofile_purple | 141",
-            "type": "vless",
-            "server": "direct2.yasharteam.com",
-            "server_port": 443,
-            "uuid": "8793dd58-ec8c-49e4-a8d5-5c6f59acca0e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8",
-                    "short_id": "e54b5ad736ae4c38"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮FI | 🟢 | vless | @v2rayngvpn | 13",
+            "tag": "🇫🇮FI | 🟢 | vless | @v2rayngvpn | 14",
             "type": "vless",
             "server": "46.62.148.83",
             "server_port": 443,
