@@ -111,7 +111,6 @@
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | 🟢 | vless | @prrofile_purple | 149",
                 "🇹🇷TR | 🟢 | vless | @ShadowProxy66 | 4",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 15",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 11",
                 "🇫🇮FI | 🟢 | vless | @Outlinev2rayNG | 11",
                 "🇫🇮FI | 🟢 | vless | @Capoit | 23",
@@ -131,7 +130,6 @@
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | 🟢 | vless | @prrofile_purple | 149",
                 "🇹🇷TR | 🟢 | vless | @ShadowProxy66 | 4",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 15",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 11",
                 "🇫🇮FI | 🟢 | vless | @Outlinev2rayNG | 11",
                 "🇫🇮FI | 🟢 | vless | @Capoit | 23",
@@ -317,35 +315,6 @@
                     "enabled": true,
                     "public_key": "Lj3MXlg16CTFHtU88acSS-ACfGnwJ_xkU6dC6k8OeDo",
                     "short_id": "4602ee9f9f36"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 15",
-            "type": "vless",
-            "server": "92.112.126.22",
-            "server_port": 8442,
-            "uuid": "31303020-3531-4035-b120-343920343920",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "creativecommons.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "safari"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "pFRfJJDY6TYJq-OVgAqFXhdaeur7gJWJM-RZT8g8yAA",
-                    "short_id": "59b75803"
                 }
             }
         },
