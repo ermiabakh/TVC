@@ -160,9 +160,6 @@
                 "🇬🇧GB | 🔴 | vless | @v2rayNG_Matsuri | 10",
                 "🇱🇻LV | 🟢 | vless | @v2rayngvpn | 2",
                 "🇺🇸US | 🟢 | vless | @v2rayngvpn | 3",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 4",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 7",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 16",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 8",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 11",
                 "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 0",
@@ -172,10 +169,12 @@
                 "🇩🇪DE | 🔴 | vless | @Capoit | 3",
                 "🇩🇪DE | 🟢 | vless | @Capoit | 4",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 6",
-                "🇩🇪DE | 🟢 | vless | @FreakConfig | 4",
-                "🇩🇪DE | 🔴 | vless | @FreakConfig | 6",
-                "🇫🇮FI | 🟢 | vless | @FreakConfig | 16",
-                "🇺🇸US | 🟢 | vless | @FreakConfig | 17",
+                "🇳🇱NL | 🟢 | vless | @FreakConfig | 0",
+                "🇳🇱NL | 🟢 | vless | @FreakConfig | 1",
+                "🇩🇪DE | 🟢 | vless | @FreakConfig | 5",
+                "🇩🇪DE | 🔴 | vless | @FreakConfig | 7",
+                "🇫🇮FI | 🟢 | vless | @FreakConfig | 17",
+                "🇺🇸US | 🟢 | vless | @FreakConfig | 18",
                 "🇫🇮FI | 🟢 | vless | @iP_CF | 21",
                 "🇩🇪DE | 🔴 | vless | @mehrosaboran | 2",
                 "🇩🇪DE | 🔴 | vless | @mehrosaboran | 3",
@@ -259,9 +258,6 @@
                 "🇬🇧GB | 🔴 | vless | @v2rayNG_Matsuri | 10",
                 "🇱🇻LV | 🟢 | vless | @v2rayngvpn | 2",
                 "🇺🇸US | 🟢 | vless | @v2rayngvpn | 3",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 4",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 7",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 16",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 8",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 11",
                 "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 0",
@@ -271,10 +267,12 @@
                 "🇩🇪DE | 🔴 | vless | @Capoit | 3",
                 "🇩🇪DE | 🟢 | vless | @Capoit | 4",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 6",
-                "🇩🇪DE | 🟢 | vless | @FreakConfig | 4",
-                "🇩🇪DE | 🔴 | vless | @FreakConfig | 6",
-                "🇫🇮FI | 🟢 | vless | @FreakConfig | 16",
-                "🇺🇸US | 🟢 | vless | @FreakConfig | 17",
+                "🇳🇱NL | 🟢 | vless | @FreakConfig | 0",
+                "🇳🇱NL | 🟢 | vless | @FreakConfig | 1",
+                "🇩🇪DE | 🟢 | vless | @FreakConfig | 5",
+                "🇩🇪DE | 🔴 | vless | @FreakConfig | 7",
+                "🇫🇮FI | 🟢 | vless | @FreakConfig | 17",
+                "🇺🇸US | 🟢 | vless | @FreakConfig | 18",
                 "🇫🇮FI | 🟢 | vless | @iP_CF | 21",
                 "🇩🇪DE | 🔴 | vless | @mehrosaboran | 2",
                 "🇩🇪DE | 🔴 | vless | @mehrosaboran | 3",
@@ -1998,93 +1996,6 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 4",
-            "type": "vless",
-            "server": "nl-2.ghost-vpn.com",
-            "server_port": 443,
-            "uuid": "5aecb813-9688-4e01-bded-9b32eec2bc1c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "u4AqF58W7VnsW2QRyfUiy7zn3Gp0HURf5pnsbTqvTmY",
-                    "short_id": "5695f7c5d33287"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 7",
-            "type": "vless",
-            "server": "77.83.175.25",
-            "server_port": 41080,
-            "uuid": "52b3eea3-61a1-45f2-a060-da40c822d4a6",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "6Bmi0jb4B0iSRGLwWYN1M-XRr5ewPw_T1oRXBMX1yRI",
-                    "short_id": "02a26a760838267e"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 16",
-            "type": "vless",
-            "server": "de.cartfunshop.com",
-            "server_port": 47193,
-            "uuid": "efe1c1fa-896d-4ea5-9a57-ebb56aebe165",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.pcmag.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "dB2A7VQlYjwi_yV-2B02ZZzbRxrwG5L8fK_k0qN0_AY",
-                    "short_id": "82bf76bf5e1008d8"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪DE | 🔴 | vless | @proxystore11 | 8",
             "type": "vless",
             "server": "vip1.proxystore11.news",
@@ -2346,7 +2257,65 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @FreakConfig | 4",
+            "tag": "🇳🇱NL | 🟢 | vless | @FreakConfig | 0",
+            "type": "vless",
+            "server": "77.83.175.25",
+            "server_port": 41080,
+            "uuid": "52b3eea3-61a1-45f2-a060-da40c822d4a6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "6Bmi0jb4B0iSRGLwWYN1M-XRr5ewPw_T1oRXBMX1yRI",
+                    "short_id": "02a26a760838267e"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🟢 | vless | @FreakConfig | 1",
+            "type": "vless",
+            "server": "77.83.175.25",
+            "server_port": 41080,
+            "uuid": "52b3eea3-61a1-45f2-a060-da40c822d4a6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "6Bmi0jb4B0iSRGLwWYN1M-XRr5ewPw_T1oRXBMX1yRI",
+                    "short_id": "02a26a760838267e"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | @FreakConfig | 5",
             "type": "vless",
             "server": "az7-sub.serverfreedom.com",
             "server_port": 20000,
@@ -2375,7 +2344,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @FreakConfig | 6",
+            "tag": "🇩🇪DE | 🔴 | vless | @FreakConfig | 7",
             "type": "vless",
             "server": "209.38.246.53",
             "server_port": 51927,
@@ -2404,7 +2373,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🟢 | vless | @FreakConfig | 16",
+            "tag": "🇫🇮FI | 🟢 | vless | @FreakConfig | 17",
             "type": "vless",
             "server": "direct.yasharteam.com",
             "server_port": 443,
@@ -2433,7 +2402,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @FreakConfig | 17",
+            "tag": "🇺🇸US | 🟢 | vless | @FreakConfig | 18",
             "type": "vless",
             "server": "62.60.178.200",
             "server_port": 40792,
