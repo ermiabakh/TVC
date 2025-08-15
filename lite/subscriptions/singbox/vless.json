@@ -117,7 +117,7 @@
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 3",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 4",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 13",
-                "🇩🇪DE | 🔴 | vless | @VlessConfig | 14",
+                "🇫🇷FR | 🔴 | vless | @VlessConfig | 14",
                 "🇺🇸US | 🔴 | vless | @VPNCUSTOMIZE | 3",
                 "🇺🇸US | 🔴 | vless | @VPNCUSTOMIZE | 4",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 54",
@@ -156,8 +156,8 @@
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 13",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 16",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 17",
-                "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 9",
-                "🇬🇧GB | 🔴 | vless | @v2rayNG_Matsuri | 10",
+                "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 10",
+                "🇬🇧GB | 🔴 | vless | @v2rayNG_Matsuri | 11",
                 "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 10",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 9",
@@ -214,7 +214,7 @@
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 3",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 4",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 13",
-                "🇩🇪DE | 🔴 | vless | @VlessConfig | 14",
+                "🇫🇷FR | 🔴 | vless | @VlessConfig | 14",
                 "🇺🇸US | 🔴 | vless | @VPNCUSTOMIZE | 3",
                 "🇺🇸US | 🔴 | vless | @VPNCUSTOMIZE | 4",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 54",
@@ -253,8 +253,8 @@
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 13",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 16",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 17",
-                "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 9",
-                "🇬🇧GB | 🔴 | vless | @v2rayNG_Matsuri | 10",
+                "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 10",
+                "🇬🇧GB | 🔴 | vless | @v2rayNG_Matsuri | 11",
                 "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 10",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 9",
@@ -560,7 +560,7 @@
         {
             "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 13",
             "type": "vless",
-            "server": "35.180.10.37",
+            "server": "35.181.17.140",
             "server_port": 22224,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -589,9 +589,9 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @VlessConfig | 14",
+            "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 14",
             "type": "vless",
-            "server": "3.76.184.58",
+            "server": "35.180.10.37",
             "server_port": 22224,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1458,7 +1458,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 9",
+            "tag": "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 10",
             "type": "vless",
             "server": "speedtestcustom.com",
             "server_port": 80,
@@ -1472,7 +1472,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | @v2rayNG_Matsuri | 10",
+            "tag": "🇬🇧GB | 🔴 | vless | @v2rayNG_Matsuri | 11",
             "type": "vless",
             "server": "46.226.162.144",
             "server_port": 443,
@@ -1838,9 +1838,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "dedicated-development.seotoolsforyou.co.uk",
-            "server_port": 80,
-            "uuid": "2054405e-70ff-40a2-ae27-16b63d72390a",
+            "server": "www.speedtest.net",
+            "server_port": 8443,
+            "uuid": "ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1848,20 +1848,30 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "lease-15.access.name.ng",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "dedicated-development.seotoolsforyou.co.uk"
+                    "Host": "lease-15.access.name.ng"
                 }
             }
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "speedtest.net",
+            "server": "EVAY_VPN.fAst.hosting-ip.com",
             "server_port": 80,
-            "uuid": "8918d0d6-b266-4f71-9aaf-4160265537e6",
+            "uuid": "2dac3536-244a-4558-9ab9-ab9ae34638c1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
