@@ -155,6 +155,12 @@ proxies:
   - {"name":"🇩🇪DE | 🟢 | trojan | @DirectVPN | 14","type":"trojan","server":"3.75.161.52","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇩🇪DE | 🟢 | trojan | @DirectVPN | 15","type":"trojan","server":"18.158.32.88","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | 🟢 | trojan | @DirectVPN | 16","type":"trojan","server":"35.181.17.140","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇨🇭CH | 🟢 | trojan | @ConfigsHUB | 4","type":"trojan","server":"45.155.54.117","port":110,"udp":false,"password":"LG7HKcZFIJ","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"sws.ftpcomand.com"}
+  - {"name":"🇮🇪IE | 🟢 | trojan | @ConfigsHUB | 6","type":"trojan","server":"x2-ireland-amazon-v2.devefun.org","port":1935,"udp":false,"password":"tThm7csZ2Q","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"x2-ireland-amazon-v2.devefun.org"}
+  - {"name":"🇮🇪IE | 🟢 | trojan | @ConfigsHUB | 8","type":"trojan","server":"x2-ireland-amazon-v2.devefun.org","port":1935,"udp":false,"password":"tPzqizeFDn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"x2-ireland-amazon-v2.devefun.org"}
+  - {"name":"🇮🇪IE | 🟢 | trojan | @ConfigsHUB | 10","type":"trojan","server":"x2-ireland-amazon-v2.devefun.org","port":1935,"udp":false,"password":"U3NsxVMq16","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"x2-ireland-amazon-v2.devefun.org"}
+  - {"name":"🇮🇪IE | 🟢 | trojan | @ConfigsHUB | 13","type":"trojan","server":"x1-ireland-amazon-v2.devefun.org","port":1935,"udp":false,"password":"F5bfVfhF3M","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"x1-ireland-amazon-v2.devefun.org"}
+  - {"name":"🇺🇸US | 🔴 | trojan | @ConfigsHUB | 16","type":"trojan","server":"35.92.52.160","port":443,"udp":false,"password":"8cb7ad4e-2d61-3950-bb33-1d2cc3e653dd","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"akamai.cdn.steampipe.steamcontent.com"}
   - {"name":"🇨🇿CZ | 🟢 | trojan | @iP_CF | 18","type":"trojan","server":"85.255.9.247","port":1935,"udp":false,"password":"mZMgM1vKw5","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"x1-czech-aruba-v2.devefun.org"}
 proxy-groups:
   - name: MANUAL
@@ -197,6 +203,12 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 14'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 15'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 16'
+      - '🇨🇭CH | 🟢 | trojan | @ConfigsHUB | 4'
+      - '🇮🇪IE | 🟢 | trojan | @ConfigsHUB | 6'
+      - '🇮🇪IE | 🟢 | trojan | @ConfigsHUB | 8'
+      - '🇮🇪IE | 🟢 | trojan | @ConfigsHUB | 10'
+      - '🇮🇪IE | 🟢 | trojan | @ConfigsHUB | 13'
+      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 16'
       - '🇨🇿CZ | 🟢 | trojan | @iP_CF | 18'
   - name: URL-TEST
     type: url-test
@@ -239,6 +251,12 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 14'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 15'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 16'
+      - '🇨🇭CH | 🟢 | trojan | @ConfigsHUB | 4'
+      - '🇮🇪IE | 🟢 | trojan | @ConfigsHUB | 6'
+      - '🇮🇪IE | 🟢 | trojan | @ConfigsHUB | 8'
+      - '🇮🇪IE | 🟢 | trojan | @ConfigsHUB | 10'
+      - '🇮🇪IE | 🟢 | trojan | @ConfigsHUB | 13'
+      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 16'
       - '🇨🇿CZ | 🟢 | trojan | @iP_CF | 18'
   - name: FALLBACK
     type: fallback
@@ -280,6 +298,12 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 14'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 15'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 16'
+      - '🇨🇭CH | 🟢 | trojan | @ConfigsHUB | 4'
+      - '🇮🇪IE | 🟢 | trojan | @ConfigsHUB | 6'
+      - '🇮🇪IE | 🟢 | trojan | @ConfigsHUB | 8'
+      - '🇮🇪IE | 🟢 | trojan | @ConfigsHUB | 10'
+      - '🇮🇪IE | 🟢 | trojan | @ConfigsHUB | 13'
+      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 16'
       - '🇨🇿CZ | 🟢 | trojan | @iP_CF | 18'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
