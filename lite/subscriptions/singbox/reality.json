@@ -113,6 +113,7 @@
                 "🇹🇷TR | 🟢 | vless | @Outline_Vpn | 17",
                 "🇫🇮FI | 🟢 | vless | @prrofile_purple | 142",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 34",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 11",
                 "🇺🇸US | 🟢 | vless | @FreakConfig | 18",
                 "🇩🇪DE | 🔴 | vless | @mehrosaboran | 10",
@@ -133,6 +134,7 @@
                 "🇹🇷TR | 🟢 | vless | @Outline_Vpn | 17",
                 "🇫🇮FI | 🟢 | vless | @prrofile_purple | 142",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 34",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 11",
                 "🇺🇸US | 🟢 | vless | @FreakConfig | 18",
                 "🇩🇪DE | 🔴 | vless | @mehrosaboran | 10",
@@ -375,6 +377,35 @@
                     "enabled": true,
                     "public_key": "OkwhFGkP6NhXbmfBpBKqJ_HDNEcqbkp0mMc9HeYVBBE",
                     "short_id": "9f2b1f07"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "parsvds.com.ir-outline.click",
+            "server_port": 443,
+            "uuid": "bbd32725-822d-430f-b2b1-de06a72f7333",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "zhaket.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4MdpN5vUjbOa5FwB6j9hyvii52ndc8Wq_NAg0iuuMnQ",
+                    "short_id": "66fff32920"
                 }
             }
         },
