@@ -112,7 +112,6 @@
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 8",
                 "🇹🇷TR | 🟢 | vless | @Outline_Vpn | 17",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 34",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 17",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 11",
                 "🇺🇸US | 🟢 | vless | @FreakConfig | 18",
                 "🇩🇪DE | 🔴 | vless | @mehrosaboran | 10",
@@ -132,7 +131,6 @@
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 8",
                 "🇹🇷TR | 🟢 | vless | @Outline_Vpn | 17",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 34",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 17",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 11",
                 "🇺🇸US | 🟢 | vless | @FreakConfig | 18",
                 "🇩🇪DE | 🔴 | vless | @mehrosaboran | 10",
@@ -346,35 +344,6 @@
                     "enabled": true,
                     "public_key": "OkwhFGkP6NhXbmfBpBKqJ_HDNEcqbkp0mMc9HeYVBBE",
                     "short_id": "9f2b1f07"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "delta.realtechshop.top",
-            "server_port": 443,
-            "uuid": "ff8fffd7-3546-488b-a5f2-a74896da74a2",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8",
-                    "short_id": "e54b5ad736ae4c38"
                 }
             }
         },
