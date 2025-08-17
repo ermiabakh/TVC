@@ -109,7 +109,6 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 0",
                 "🇩🇪DE | 🟢 | vmess | @SafeNet_Server | 3",
-                "🇭🇰HK | 🟢 | vmess | @ConfigsHUB | 19",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇫🇮FI | 🟢 | vmess | @free1_vpn | 4",
@@ -124,7 +123,6 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 0",
                 "🇩🇪DE | 🟢 | vmess | @SafeNet_Server | 3",
-                "🇭🇰HK | 🟢 | vmess | @ConfigsHUB | 19",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇫🇮FI | 🟢 | vmess | @free1_vpn | 4",
@@ -191,23 +189,6 @@
             "server": "customers.tele-shop-too.studio",
             "server_port": 33203,
             "uuid": "eaae52d7-bc1a-4979-bd66-b6b428107173",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇭🇰HK | 🟢 | vmess | @ConfigsHUB | 19",
-            "type": "vmess",
-            "server": "31.57.93.42",
-            "server_port": 470,
-            "uuid": "34f627d9-2d72-4474-bb1e-7f7fdbe9d34d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -297,7 +278,7 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "104.21.238.117",
+            "server": "104.26.0.19",
             "server_port": 2082,
             "uuid": "5f3f09ad-89cb-4e94-a7ad-aa8239913555",
             "security": "auto",
@@ -314,16 +295,16 @@
                 "type": "ws",
                 "path": "\/github.com\/Alvin9999",
                 "headers": {
-                    "Host": "104.21.238.117"
+                    "Host": "104.26.0.19"
                 }
             }
         },
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "104.18.114.41",
-            "server_port": 8880,
-            "uuid": "90f8f4dc-8092-4355-9047-05f506f5e9ab",
+            "server": "104.21.238.71",
+            "server_port": 2082,
+            "uuid": "5f3f09ad-89cb-4e94-a7ad-aa8239913555",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -338,7 +319,7 @@
                 "type": "ws",
                 "path": "\/github.com\/Alvin9999",
                 "headers": {
-                    "Host": "104.18.114.41"
+                    "Host": "104.21.238.71"
                 }
             }
         }
