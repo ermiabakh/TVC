@@ -174,7 +174,8 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 16",
+                "🇮🇷IR | 🔴 | vless | @ConfigsHUB | 13",
+                "🇯🇵JP | 🔴 | vless | @ConfigsHUB | 14",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 11",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 12",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 5",
@@ -271,7 +272,8 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 16",
+                "🇮🇷IR | 🔴 | vless | @ConfigsHUB | 13",
+                "🇯🇵JP | 🔴 | vless | @ConfigsHUB | 14",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 11",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 12",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 5",
@@ -1838,17 +1840,38 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 16",
+            "tag": "🇮🇷IR | 🔴 | vless | @ConfigsHUB | 13",
             "type": "vless",
-            "server": "188.227.84.154",
-            "server_port": 8443,
-            "uuid": "7e38ef07-350d-41f3-8314-b21543d4b950",
+            "server": "cdn.azkhaktakhane.ir",
+            "server_port": 2070,
+            "uuid": "d1a94626-e2d7-4377-8410-a67d91d400b1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇯🇵JP | 🔴 | vless | @ConfigsHUB | 14",
+            "type": "vless",
+            "server": "45.12.134.217",
+            "server_port": 80,
+            "uuid": "ed242313-b502-4a4a-97f4-336da621a837",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vless\/",
+                "headers": {
+                    "Host": "45.12.134.217"
+                }
             }
         },
         {
