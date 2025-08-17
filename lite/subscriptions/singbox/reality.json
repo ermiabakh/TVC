@@ -321,9 +321,9 @@
         {
             "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "cp.dayhostpro.com",
-            "server_port": 45655,
-            "uuid": "aaa3d1db-44b0-4303-9c43-ca083acbcf61",
+            "server": "91.107.241.250",
+            "server_port": 6000,
+            "uuid": "330e627f-3752-467a-b0a5-d46d07b5acf9",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -333,7 +333,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.tradingview.com",
+                "server_name": "wiredminds.de",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -342,8 +342,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "jeHj2bSbC3OI17X0ZR2vqrzXFQI_MtgMylJKiGPkcRw",
-                    "short_id": "4f"
+                    "public_key": "aNK-4Lg53CF9JKVv7LFTAGP9Bmha0HxY6ms1emd57nQ",
+                    "short_id": "243e"
                 }
             }
         },
