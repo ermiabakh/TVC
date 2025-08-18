@@ -115,7 +115,7 @@
                 "🇺🇸US | 🔴 | vless | @NIM_VPN_ir | 6",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 3",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 4",
-                "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
+                "🇩🇪DE | 🔴 | vless | @VlessConfig | 15",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 16",
                 "🇺🇸US | 🔴 | vless | @VPNCUSTOMIZE | 4",
                 "🇺🇸US | 🔴 | vless | @VPNCUSTOMIZE | 5",
@@ -174,10 +174,9 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 11",
-                "🇩🇪DE | 🔴 | vless | @proxystore11 | 12",
                 "🇳🇱NL | 🔴 | vless | @free1_vpn | 4",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 6",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 9",
@@ -213,7 +212,7 @@
                 "🇺🇸US | 🔴 | vless | @NIM_VPN_ir | 6",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 3",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 4",
-                "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
+                "🇩🇪DE | 🔴 | vless | @VlessConfig | 15",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 16",
                 "🇺🇸US | 🔴 | vless | @VPNCUSTOMIZE | 4",
                 "🇺🇸US | 🔴 | vless | @VPNCUSTOMIZE | 5",
@@ -272,10 +271,9 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 11",
-                "🇩🇪DE | 🔴 | vless | @proxystore11 | 12",
                 "🇳🇱NL | 🔴 | vless | @free1_vpn | 4",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 6",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 9",
@@ -561,9 +559,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
+            "tag": "🇩🇪DE | 🔴 | vless | @VlessConfig | 15",
             "type": "vless",
-            "server": "51.44.198.145",
+            "server": "63.178.125.65",
             "server_port": 22224,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -594,7 +592,7 @@
         {
             "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "52.47.67.30",
+            "server": "51.44.198.145",
             "server_port": 22224,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1831,47 +1829,44 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
             "type": "vless",
-            "server": "91.99.220.150",
-            "server_port": 8443,
-            "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
+            "server": "104.17.147.22",
+            "server_port": 8880,
+            "uuid": "6ec52bc7-fcd7-4841-ab69-70d6e03a6eda",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "104.18.12.229",
-            "server_port": 2087,
-            "uuid": "90c7ad5e-cd15-4314-b39b-aeabd397d592",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "vl.hongkong6.qzz.io",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Join---planB_proxy---BIA---planB_proxy---BIA---planB_proxy---BIA---planB_proxy?ed=2560",
+                "path": "\/",
                 "headers": {
-                    "Host": "vl.hongkong6.qzz.io"
+                    "Host": "104.17.147.22"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
+            "type": "vless",
+            "server": "172.66.40.99",
+            "server_port": 8080,
+            "uuid": "8d15b73e-da60-4d4e-a76f-cea00cc68085",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE?ed=80",
+                "headers": {
+                    "Host": "172.66.40.99"
                 }
             }
         },
@@ -1903,35 +1898,6 @@
                 "path": "\/prx11",
                 "headers": {
                     "Host": "prx11.proxystore11.news"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @proxystore11 | 12",
-            "type": "vless",
-            "server": "vip1.proxystore11.news",
-            "server_port": 10358,
-            "uuid": "a5816688-3c6b-465b-b4f6-54c1cdcebbce",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "zula.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "axD7U8DCmchSVZemN_DTRYdnNZ141CxTSkTabDdzNEk",
-                    "short_id": "b373044d"
                 }
             }
         },
