@@ -112,7 +112,6 @@
                 "❔XX | 🟢 | vless | @prrofile_purple | 149",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 34",
                 "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 10",
-                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 19",
                 "❔XX | 🔴 | vless | @proxystore11 | 11",
                 "🇳🇱NL | 🟢 | vless | @FreakConfig | 17",
                 "🇩🇪DE | 🔴 | vless | @mehrosaboran | 11",
@@ -132,7 +131,6 @@
                 "❔XX | 🟢 | vless | @prrofile_purple | 149",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 34",
                 "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 10",
-                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 19",
                 "❔XX | 🔴 | vless | @proxystore11 | 11",
                 "🇳🇱NL | 🟢 | vless | @FreakConfig | 17",
                 "🇩🇪DE | 🔴 | vless | @mehrosaboran | 11",
@@ -339,35 +337,6 @@
                     "enabled": true,
                     "public_key": "oRDRYCRgGMbdf0Vw2qxYZm65qED5k8sFjLxAisMU6W8",
                     "short_id": "7487b1"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "194.87.80.9",
-            "server_port": 8081,
-            "uuid": "f8be92b6-b31f-4d8b-ba7d-20781595fa0e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "nID_kfSoZPfWS1XZUT1dZnR2mwaoRtUROtBpmqCWEiQ",
-                    "short_id": "d0a3f84aabd21574"
                 }
             }
         },
