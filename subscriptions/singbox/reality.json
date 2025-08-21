@@ -109,7 +109,6 @@
                 "🇩🇪DE | 🔴 | vless | @Parsashonam | 3",
                 "🇩🇪DE | 🔴 | vless | @Parsashonam | 8",
                 "🇩🇪DE | 🔴 | vless | @Parsashonam | 12",
-                "🇩🇪DE | 🔴 | vless | @Parsashonam | 14",
                 "❔XX | 🔴 | vless | @v2_team | 0",
                 "❔XX | 🔴 | vless | @v2_team | 3",
                 "🇺🇸US | 🔴 | vless | @v2_team | 4",
@@ -192,7 +191,6 @@
                 "🇩🇪DE | 🔴 | vless | @Parsashonam | 3",
                 "🇩🇪DE | 🔴 | vless | @Parsashonam | 8",
                 "🇩🇪DE | 🔴 | vless | @Parsashonam | 12",
-                "🇩🇪DE | 🔴 | vless | @Parsashonam | 14",
                 "❔XX | 🔴 | vless | @v2_team | 0",
                 "❔XX | 🔴 | vless | @v2_team | 3",
                 "🇺🇸US | 🔴 | vless | @v2_team | 4",
@@ -351,35 +349,6 @@
             "server": "91.99.16.244",
             "server_port": 443,
             "uuid": "Parsashonam-298",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8",
-                    "short_id": "61e683d41fdb"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @Parsashonam | 14",
-            "type": "vless",
-            "server": "91.99.16.244",
-            "server_port": 443,
-            "uuid": "Parsashonam-297",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
