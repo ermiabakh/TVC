@@ -156,7 +156,7 @@
                 "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 11",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 9",
-                "🇬🇧GB | 🔴 | vless | @ShadowProxy66 | 2",
+                "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 2",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 1",
@@ -173,8 +173,8 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "❔XX | 🔴 | vless | @proxystore11 | 11",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 4",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 4",
@@ -252,7 +252,7 @@
                 "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 11",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 9",
-                "🇬🇧GB | 🔴 | vless | @ShadowProxy66 | 2",
+                "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 2",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 1",
@@ -269,8 +269,8 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "❔XX | 🔴 | vless | @proxystore11 | 11",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 4",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 4",
@@ -1373,7 +1373,7 @@
             "type": "vless",
             "server": "cumhuriyet.com.tr",
             "server_port": 80,
-            "uuid": "799ed52a-3974-42d7-94c0-916c0c66fc47",
+            "uuid": "52bb1620-f57a-432d-b8fc-4db175ff3f63",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1394,7 +1394,7 @@
             "type": "vless",
             "server": "cumhuriyet.com.tr",
             "server_port": 80,
-            "uuid": "d10a51d6-53ea-49af-eb73-8c7e61d6b3be",
+            "uuid": "d1bf6696-c690-49d8-8af5-3ba51a55bd3b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1489,7 +1489,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | @ShadowProxy66 | 2",
+            "tag": "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 2",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 8443,
@@ -1834,25 +1834,32 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "44.245.23.161",
-            "server_port": 2222,
-            "uuid": "7fc993f5-7cd7-4485-9e6f-1f7c5160c910",
+            "server": "grounded-brother.seotoolsforyou.co.uk",
+            "server_port": 80,
+            "uuid": "52adc6ba-b1c7-4541-a594-08fc698be640",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "grounded-brother.seotoolsforyou.co.uk"
+                }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "104.21.24.0",
+            "server": "104.26.0.108",
             "server_port": 443,
-            "uuid": "260cc7e4-1e11-44e8-81fd-b162fbb1c83e",
+            "uuid": "3d7dd548-5456-4f28-8019-393fbfab3312",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1862,7 +1869,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "lgoin.persianmizban.com",
+                "server_name": "app-stg.gopay.co.id.servpn.my.id",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1872,9 +1879,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/sg3?ed=2560\/",
                 "headers": {
-                    "Host": "lgoin.persianmizban.com"
+                    "Host": "app-stg.gopay.co.id.servpn.my.id"
                 }
             }
         },
