@@ -153,14 +153,11 @@ proxies:
   - {"name":"🇩🇪DE | 🟢 | trojan | @DirectVPN | 14","type":"trojan","server":"3.122.222.158","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇩🇪DE | 🟢 | trojan | @DirectVPN | 15","type":"trojan","server":"63.176.188.155","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | 🟢 | trojan | @DirectVPN | 16","type":"trojan","server":"15.237.242.48","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🚩CF | 🔴 | trojan | @ConfigsHUB | 9","type":"trojan","server":"104.20.26.77","port":443,"udp":false,"password":"NISHIKUITAN111","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🚩CF | 🔴 | trojan | @ConfigsHUB | 10","type":"trojan","server":"104.16.127.23","port":443,"udp":false,"password":"blue2024","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"ha.lii2010.us.kg"}
-  - {"name":"🚩CF | 🔴 | trojan | @ConfigsHUB | 11","type":"trojan","server":"104.17.181.146","port":443,"udp":false,"password":"NISHIKUITAN111","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🚩CF | 🔴 | trojan | @ConfigsHUB | 12","type":"trojan","server":"104.18.243.10","port":443,"udp":false,"password":"blue2024","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"ha.lii2010.us.kg"}
-  - {"name":"🇬🇧GB | 🟢 | trojan | @ConfigsHUB | 13","type":"trojan","server":"3.8.230.30","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇮🇪IE | 🟢 | trojan | @ConfigsHUB | 14","type":"trojan","server":"3.255.33.42","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🚩CF | 🟢 | trojan | @ConfigsHUB | 15","type":"trojan","server":"104.17.148.22","port":443,"udp":false,"password":"bpb-trojan","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"g3-Dld.PAGEs.DEV"}
-  - {"name":"🚩CF | 🔴 | trojan | @ConfigsHUB | 16","type":"trojan","server":"104.16.58.50","port":443,"udp":false,"password":"blue2024","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"ha.lii2010.us.kg"}
+  - {"name":"🚩CF | 🔴 | trojan | @ConfigsHUB | 2","type":"trojan","server":"104.18.117.191","port":443,"udp":false,"password":"blue2024","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"ha.lii2010.us.kg"}
+  - {"name":"🚩CF | 🔴 | trojan | @ConfigsHUB | 3","type":"trojan","server":"104.18.93.219","port":443,"udp":false,"password":"blue2024","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"ha.lii2010.us.kg"}
+  - {"name":"🚩CF | 🔴 | trojan | @ConfigsHUB | 5","type":"trojan","server":"104.18.12.229","port":8443,"udp":false,"password":"trojan","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"mav2flyng.pages.dev"}
+  - {"name":"❔XX | 🟢 | trojan | @ConfigsHUB | 6","type":"trojan","server":"127.0.0.1","port":1080,"udp":false,"password":"aabcbac-caab-acba-dbac-baaaccaccbbb","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"🚩CF | 🔴 | trojan | @ConfigsHUB | 7","type":"trojan","server":"172.67.133.143","port":443,"udp":false,"password":"blue2024","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"ha.lii2010.us.kg"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -202,14 +199,11 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 14'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 15'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 16'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 9'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 10'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 11'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 12'
-      - '🇬🇧GB | 🟢 | trojan | @ConfigsHUB | 13'
-      - '🇮🇪IE | 🟢 | trojan | @ConfigsHUB | 14'
-      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 15'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 16'
+      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 2'
+      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 3'
+      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 5'
+      - '❔XX | 🟢 | trojan | @ConfigsHUB | 6'
+      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 7'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -251,14 +245,11 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 14'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 15'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 16'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 9'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 10'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 11'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 12'
-      - '🇬🇧GB | 🟢 | trojan | @ConfigsHUB | 13'
-      - '🇮🇪IE | 🟢 | trojan | @ConfigsHUB | 14'
-      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 15'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 16'
+      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 2'
+      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 3'
+      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 5'
+      - '❔XX | 🟢 | trojan | @ConfigsHUB | 6'
+      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 7'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -299,14 +290,11 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 14'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 15'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 16'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 9'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 10'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 11'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 12'
-      - '🇬🇧GB | 🟢 | trojan | @ConfigsHUB | 13'
-      - '🇮🇪IE | 🟢 | trojan | @ConfigsHUB | 14'
-      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 15'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 16'
+      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 2'
+      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 3'
+      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 5'
+      - '❔XX | 🟢 | trojan | @ConfigsHUB | 6'
+      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 7'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
