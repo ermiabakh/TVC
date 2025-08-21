@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇨🇦CA | 🔴 | vless | @EliV2ray | 18",
                 "🇨🇦CA | 🔴 | vless | @EliV2ray | 19",
-                "🇸🇪SE | 🔴 | vless | @Parsashonam | 17",
+                "🇩🇪DE | 🔴 | vless | @Parsashonam | 14",
                 "🇩🇪DE | 🟢 | vless | @v2_team | 5",
                 "🇺🇸US | 🔴 | vless | @v2_team | 6",
                 "🇺🇸US | 🔴 | vless | @NIM_VPN_ir | 5",
@@ -172,15 +172,15 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
+                "🇮🇷IR | 🔴 | vless | @ConfigsHUB | 17",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
                 "❔XX | 🔴 | vless | @proxystore11 | 11",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 4",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 4",
-                "🇮🇳IN | 🔴 | vless | @Outlinev2rayNG | 5",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
+                "🇨🇭CH | 🟢 | vless | @Outlinev2rayNG | 6",
+                "🇮🇳IN | 🔴 | vless | @Outlinev2rayNG | 7",
                 "🇺🇸US | 🔴 | vless | @Capoit | 11",
                 "🇺🇸US | 🔴 | vless | @Capoit | 12",
-                "🇨🇭CH | 🟢 | vless | @FreakConfig | 16",
                 "🇳🇱NL | 🟢 | vless | @FreakConfig | 17",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 8",
                 "🇬🇧GB | 🔴 | vless | @flyv2ray | 9",
@@ -202,7 +202,7 @@
             "outbounds": [
                 "🇨🇦CA | 🔴 | vless | @EliV2ray | 18",
                 "🇨🇦CA | 🔴 | vless | @EliV2ray | 19",
-                "🇸🇪SE | 🔴 | vless | @Parsashonam | 17",
+                "🇩🇪DE | 🔴 | vless | @Parsashonam | 14",
                 "🇩🇪DE | 🟢 | vless | @v2_team | 5",
                 "🇺🇸US | 🔴 | vless | @v2_team | 6",
                 "🇺🇸US | 🔴 | vless | @NIM_VPN_ir | 5",
@@ -266,15 +266,15 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
+                "🇮🇷IR | 🔴 | vless | @ConfigsHUB | 17",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
                 "❔XX | 🔴 | vless | @proxystore11 | 11",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 4",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 4",
-                "🇮🇳IN | 🔴 | vless | @Outlinev2rayNG | 5",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
+                "🇨🇭CH | 🟢 | vless | @Outlinev2rayNG | 6",
+                "🇮🇳IN | 🔴 | vless | @Outlinev2rayNG | 7",
                 "🇺🇸US | 🔴 | vless | @Capoit | 11",
                 "🇺🇸US | 🔴 | vless | @Capoit | 12",
-                "🇨🇭CH | 🟢 | vless | @FreakConfig | 16",
                 "🇳🇱NL | 🟢 | vless | @FreakConfig | 17",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 8",
                 "🇬🇧GB | 🔴 | vless | @flyv2ray | 9",
@@ -362,17 +362,32 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @Parsashonam | 17",
+            "tag": "🇩🇪DE | 🔴 | vless | @Parsashonam | 14",
             "type": "vless",
-            "server": "185.146.173.39",
-            "server_port": 8880,
-            "uuid": "Parsashonam-296",
-            "flow": "",
+            "server": "91.99.16.244",
+            "server_port": 443,
+            "uuid": "Parsashonam-297",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8",
+                    "short_id": "61e683d41fdb"
+                }
             }
         },
         {
@@ -1793,11 +1808,25 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
+            "tag": "🇮🇷IR | 🔴 | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "creative-computer.oneeat.co",
+            "server": "fra.iranbuildings.com",
+            "server_port": 2096,
+            "uuid": "01860891-2645-420f-a494-a653d960f58d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "CHARMInG-proceSs.sEotOOlSFoRyoU.cO.uK",
             "server_port": 80,
-            "uuid": "f1fe4963-66f7-4f71-a038-9e07ea6cf20f",
+            "uuid": "43791e7f-8e02-4189-9533-4f842bcacd79",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1807,9 +1836,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/\/@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN",
                 "headers": {
-                    "Host": "creative-computer.oneeat.co"
+                    "Host": "CHARMInG-proceSs.sEotOOlSFoRyoU.cO.uK"
                 }
             }
         },
@@ -1871,7 +1900,36 @@
             }
         },
         {
-            "tag": "🇮🇳IN | 🔴 | vless | @Outlinev2rayNG | 5",
+            "tag": "🇨🇭CH | 🟢 | vless | @Outlinev2rayNG | 6",
+            "type": "vless",
+            "server": "5.182.36.251",
+            "server_port": 16331,
+            "uuid": "d7dbeb1e-268c-465c-8f59-489f14703efd",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "wYtc0dMr5fw5bBQkbLNpTqtu0m4B9NKnOyEWjRJUmzk",
+                    "short_id": "910aab"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇳IN | 🔴 | vless | @Outlinev2rayNG | 7",
             "type": "vless",
             "server": "45.88.183.158",
             "server_port": 44629,
@@ -1882,27 +1940,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
-            "type": "vless",
-            "server": "light-presence.oneeat.co",
-            "server_port": 80,
-            "uuid": "7e74ff43-3a90-48b3-8372-7d92a045c2d4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "light-presence.oneeat.co"
-                }
             }
         },
         {
@@ -1944,35 +1981,6 @@
                 "path": "\/Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
                 "headers": {
                     "Host": "172.66.40.99"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇭CH | 🟢 | vless | @FreakConfig | 16",
-            "type": "vless",
-            "server": "5.182.36.251",
-            "server_port": 16331,
-            "uuid": "d7dbeb1e-268c-465c-8f59-489f14703efd",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "wYtc0dMr5fw5bBQkbLNpTqtu0m4B9NKnOyEWjRJUmzk",
-                    "short_id": "910aab"
                 }
             }
         },
