@@ -106,10 +106,10 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇩🇪DE | 🔴 | vless | @Parsashonam | 16",
                 "❔XX | 🔴 | vless | @v2_team | 1",
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 14",
-                "🇷🇺RU | 🟢 | vless | @Outline_Vpn | 18",
-                "🇩🇪DE | 🔴 | vless | @free1_vpn | 3",
+                "🇩🇪DE | 🔴 | vless | @free1_vpn | 4",
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 14",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -122,10 +122,10 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇩🇪DE | 🔴 | vless | @Parsashonam | 16",
                 "❔XX | 🔴 | vless | @v2_team | 1",
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 14",
-                "🇷🇺RU | 🟢 | vless | @Outline_Vpn | 18",
-                "🇩🇪DE | 🔴 | vless | @free1_vpn | 3",
+                "🇩🇪DE | 🔴 | vless | @free1_vpn | 4",
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 14",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -152,6 +152,35 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @Parsashonam | 16",
+            "type": "vless",
+            "server": "91.99.16.244",
+            "server_port": 443,
+            "uuid": "Parsashonam-299",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8",
+                    "short_id": "61e683d41fdb"
+                }
+            }
         },
         {
             "tag": "❔XX | 🔴 | vless | @v2_team | 1",
@@ -219,36 +248,7 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vless | @Outline_Vpn | 18",
-            "type": "vless",
-            "server": "ru.maviks.eu",
-            "server_port": 443,
-            "uuid": "0a947205-01a0-4634-8e78-daf200d02def",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "maviks.eu",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "cGzNRbN_zruI3CVTDukB2nOqWWEj7kgkay24f2fdLmQ",
-                    "short_id": "0f917152a871e9c0"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @free1_vpn | 3",
+            "tag": "🇩🇪DE | 🔴 | vless | @free1_vpn | 4",
             "type": "vless",
             "server": "87.120.205.207",
             "server_port": 2025,
