@@ -144,16 +144,15 @@
                 "❔XX | 🟢 | vless | @prrofile_purple | 124",
                 "🇫🇮FI | 🟢 | vless | @prrofile_purple | 128",
                 "🇩🇪DE | 🔴 | vless | @prrofile_purple | 133",
-                "🇹🇷TR | 🔴 | vless | @prrofile_purple | 135",
+                "❔XX | 🔴 | vless | @prrofile_purple | 135",
                 "🇺🇸US | 🟢 | vless | @customv2ray | 3",
                 "🇱🇻LV | 🟢 | vless | @customv2ray | 10",
                 "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 0",
                 "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 0",
-                "🇦🇱AL | 🔴 | vless | @ConfigsHUB | 4",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 6",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 14",
-                "🇵🇱PL | 🟢 | vless | @Outlinev2rayNG | 2",
-                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 10",
+                "🇯🇵JP | 🟢 | vless | @ConfigsHUB | 13",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
+                "🇵🇱PL | 🟢 | vless | @Outlinev2rayNG | 3",
+                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 11",
                 "🇦🇱AL | 🟢 | vless | @FreakConfig | 0",
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 1",
                 "🇳🇱NL | 🟢 | vless | @FreakConfig | 2",
@@ -225,16 +224,15 @@
                 "❔XX | 🟢 | vless | @prrofile_purple | 124",
                 "🇫🇮FI | 🟢 | vless | @prrofile_purple | 128",
                 "🇩🇪DE | 🔴 | vless | @prrofile_purple | 133",
-                "🇹🇷TR | 🔴 | vless | @prrofile_purple | 135",
+                "❔XX | 🔴 | vless | @prrofile_purple | 135",
                 "🇺🇸US | 🟢 | vless | @customv2ray | 3",
                 "🇱🇻LV | 🟢 | vless | @customv2ray | 10",
                 "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 0",
                 "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 0",
-                "🇦🇱AL | 🔴 | vless | @ConfigsHUB | 4",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 6",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 14",
-                "🇵🇱PL | 🟢 | vless | @Outlinev2rayNG | 2",
-                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 10",
+                "🇯🇵JP | 🟢 | vless | @ConfigsHUB | 13",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
+                "🇵🇱PL | 🟢 | vless | @Outlinev2rayNG | 3",
+                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 11",
                 "🇦🇱AL | 🟢 | vless | @FreakConfig | 0",
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 1",
                 "🇳🇱NL | 🟢 | vless | @FreakConfig | 2",
@@ -1456,7 +1454,7 @@
             }
         },
         {
-            "tag": "🇹🇷TR | 🔴 | vless | @prrofile_purple | 135",
+            "tag": "❔XX | 🔴 | vless | @prrofile_purple | 135",
             "type": "vless",
             "server": "rep.tr.xpnvip.ir",
             "server_port": 2689,
@@ -1615,11 +1613,11 @@
             }
         },
         {
-            "tag": "🇦🇱AL | 🔴 | vless | @ConfigsHUB | 4",
+            "tag": "🇯🇵JP | 🟢 | vless | @ConfigsHUB | 13",
             "type": "vless",
-            "server": "al.spirako.com",
+            "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,
-            "uuid": "f2a4624b-4efc-4409-bf2f-c7ec5f77503a",
+            "uuid": "4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1629,7 +1627,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "spirako.com",
+                "server_name": "store.steampowered.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1638,17 +1636,17 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "0hH6R90pSxwm7nZPGtJJcJFhwCXU3Rvf-wcEHE7hczo",
-                    "short_id": ""
+                    "public_key": "TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4",
+                    "short_id": "f5"
                 }
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 6",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "45.133.251.77",
-            "server_port": 34045,
-            "uuid": "d8dd94fd-540e-461d-b5d4-acebef02c22a",
+            "server": "91.98.76.73",
+            "server_port": 2052,
+            "uuid": "797d8132-6c08-4d5f-accc-eba1d6fdc9c5",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1658,58 +1656,22 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me",
+                "server_name": "cp7.cloudflare.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": null
+                    "fingerprint": "random"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA",
-                    "short_id": "e8ab71d0"
+                    "public_key": "B4bL5jZotLi91qBuoZjrl5wI4txIa5GmgS2ifinc7VA",
+                    "short_id": "6a"
                 }
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 14",
-            "type": "vless",
-            "server": "my.jasrama.com",
-            "server_port": 2096,
-            "uuid": "f82c2052-7411-40e8-96ef-d433127979a6",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "dalfak.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "9LY8_rbDS8zJoZLk9J4BYbdKOYK8vdKg11Wab5IetXY",
-                    "short_id": "a56f693ce784b4cc"
-                }
-            },
-            "transport": {
-                "type": "http",
-                "host": [
-                    "dalfak.com"
-                ],
-                "path": "\/"
-            }
-        },
-        {
-            "tag": "🇵🇱PL | 🟢 | vless | @Outlinev2rayNG | 2",
+            "tag": "🇵🇱PL | 🟢 | vless | @Outlinev2rayNG | 3",
             "type": "vless",
             "server": "2.58.95.16",
             "server_port": 34045,
@@ -1738,7 +1700,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 10",
+            "tag": "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 11",
             "type": "vless",
             "server": "89.116.193.40",
             "server_port": 34045,
