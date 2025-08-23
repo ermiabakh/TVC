@@ -118,10 +118,7 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 14",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 15",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
-                "🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 2",
-                "🚩CF | 🟢 | vmess | @ConfigsHUB | 4",
-                "🇫🇮FI | 🟢 | vmess | @ConfigsHUB | 8",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 10",
+                "🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 3",
                 "🇫🇮FI | 🟢 | vmess | @proxystore11 | 6",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
@@ -134,9 +131,8 @@
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 3",
                 "🇦🇪AE | 🟢 | vmess | @Hope_Net | 4",
                 "🇩🇪DE | 🟢 | vmess | @Hope_Net | 5",
-                "🇧🇪BE | 🟢 | vmess | @Hope_Net | 6",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 1",
-                "🇷🇺RU | 🟢 | vmess | @FreakConfig | 13"
+                "🇷🇺RU | 🟢 | vmess | @FreakConfig | 14"
             ]
         },
         {
@@ -155,10 +151,7 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 14",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 15",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
-                "🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 2",
-                "🚩CF | 🟢 | vmess | @ConfigsHUB | 4",
-                "🇫🇮FI | 🟢 | vmess | @ConfigsHUB | 8",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 10",
+                "🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 3",
                 "🇫🇮FI | 🟢 | vmess | @proxystore11 | 6",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
@@ -171,9 +164,8 @@
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 3",
                 "🇦🇪AE | 🟢 | vmess | @Hope_Net | 4",
                 "🇩🇪DE | 🟢 | vmess | @Hope_Net | 5",
-                "🇧🇪BE | 🟢 | vmess | @Hope_Net | 6",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 1",
-                "🇷🇺RU | 🟢 | vmess | @FreakConfig | 13"
+                "🇷🇺RU | 🟢 | vmess | @FreakConfig | 14"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -400,7 +392,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 2",
+            "tag": "🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 3",
             "type": "vmess",
             "server": "57.129.24.125",
             "server_port": 443,
@@ -431,74 +423,6 @@
                 "headers": {
                     "Host": ""
                 }
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vmess | @ConfigsHUB | 4",
-            "type": "vmess",
-            "server": "172.66.40.99",
-            "server_port": 443,
-            "uuid": "15-telegram-id---vpnf22",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "z.looloolooloo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-v2boxv2,telegram-v2boxv2,telegram-v2boxv2,telegram-v2boxv2,telegram-v2boxv2,telegram-v2boxv2,telegram-v2boxv2,telegram-v2boxv2,telegram-v2boxv2,telegram-v2boxv2,telegram-v2boxv2,telegram-v2boxv2,telegram-v2boxv2,telegram-v2boxv2",
-                "headers": {
-                    "Host": "z.looloolooloo.com"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮FI | 🟢 | vmess | @ConfigsHUB | 8",
-            "type": "vmess",
-            "server": "46.62.132.2",
-            "server_port": 6201,
-            "uuid": "a6d5eabc-ba4f-4dec-aaad-2ac0eda2fe75",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 10",
-            "type": "vmess",
-            "server": "15.204.234.200",
-            "server_port": 41100,
-            "uuid": "c7f169a3-2e9a-4894-ba53-7b2fa6fd08b4",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -829,40 +753,6 @@
             }
         },
         {
-            "tag": "🇧🇪BE | 🟢 | vmess | @Hope_Net | 6",
-            "type": "vmess",
-            "server": "185.193.29.58",
-            "server_port": 443,
-            "uuid": "9b38d152-6b12-4de0-a20d-87a8c9034cc4",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "185.193.29.58",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@RaFaV2Bot",
-                "headers": {
-                    "Host": "185.193.29.58"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | 🟢 | vmess | @fnet00 | 1",
             "type": "vmess",
             "server": "v2ray.codefyinc.com",
@@ -897,7 +787,7 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vmess | @FreakConfig | 13",
+            "tag": "🇷🇺RU | 🟢 | vmess | @FreakConfig | 14",
             "type": "vmess",
             "server": "45.67.230.79",
             "server_port": 11052,
