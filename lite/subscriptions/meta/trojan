@@ -124,7 +124,8 @@ proxies:
   - {"name":"🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 15","type":"trojan","server":"15.236.172.89","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇩🇪DE | 🟢 | trojan | @DirectVPN | 14","type":"trojan","server":"3.127.42.60","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | 🟢 | trojan | @DirectVPN | 15","type":"trojan","server":"15.236.172.89","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇺🇸US | 🟢 | trojan | @ConfigsHUB | 18","type":"trojan","server":"162.159.152.2","port":443,"udp":false,"password":"242a3d8eee5e4ed1a6bfa4141d549a25","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"jobscareerforlawyers.com"}
+  - {"name":"🇺🇸US | 🔴 | trojan | @ConfigsHUB | 3","type":"trojan","server":"188.114.97.88","port":2053,"udp":false,"password":"bpb-trojan","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"G1-21N.paGEs.dev"}
+  - {"name":"🇰🇷KR | 🟢 | trojan | @ConfigsHUB | 4","type":"trojan","server":"129.154.208.219","port":21005,"udp":false,"password":"64f33df2-4f9d-4cf3-bb69-b82b08cf149a","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"alibabashop.com"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -135,7 +136,8 @@ proxy-groups:
       - '🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 15'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 14'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 15'
-      - '🇺🇸US | 🟢 | trojan | @ConfigsHUB | 18'
+      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 3'
+      - '🇰🇷KR | 🟢 | trojan | @ConfigsHUB | 4'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -146,7 +148,8 @@ proxy-groups:
       - '🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 15'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 14'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 15'
-      - '🇺🇸US | 🟢 | trojan | @ConfigsHUB | 18'
+      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 3'
+      - '🇰🇷KR | 🟢 | trojan | @ConfigsHUB | 4'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -156,7 +159,8 @@ proxy-groups:
       - '🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 15'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 14'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 15'
-      - '🇺🇸US | 🟢 | trojan | @ConfigsHUB | 18'
+      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 3'
+      - '🇰🇷KR | 🟢 | trojan | @ConfigsHUB | 4'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
