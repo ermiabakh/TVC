@@ -149,8 +149,10 @@ proxies:
   - {"name":"🇩🇪DE | 🟢 | trojan | @DirectVPN | 12","type":"trojan","server":"63.179.185.244","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | 🟢 | trojan | @DirectVPN | 13","type":"trojan","server":"13.36.179.207","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | 🟢 | trojan | @DirectVPN | 14","type":"trojan","server":"13.37.138.103","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"❔XX | 🟢 | trojan | @ConfigsHUB | 1","type":"trojan","server":"127.0.0.1","port":1080,"udp":false,"password":"cbcabaa-aacb-bcaa-dbac-acaaccbbbcab","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🚩CF | 🟢 | trojan | @ConfigsHUB | 2","type":"trojan","server":"104.18.183.139","port":443,"udp":false,"password":"WOeXShhJpL","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"08jzus.zdzdzd.xyz"}
+  - {"name":"🇨🇾CY | 🟢 | trojan | @ConfigsHUB | 4","type":"trojan","server":"csgo.com","port":8443,"udp":false,"password":"1688c7ee-35b3-4bfb-ab88-f8ce846daeb6","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"🚩CF | 🟢 | trojan | @ConfigsHUB | 9","type":"trojan","server":"104.20.18.34","port":443,"udp":false,"password":"auto","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"b96ef9ae.trojanfree-76s.pages.dev"}
+  - {"name":"🇺🇸US | 🔴 | trojan | @ConfigsHUB | 10","type":"trojan","server":"103.136.185.27","port":5535,"udp":false,"password":"637308bc-fd52-343d-b573-7693835b8e20","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"steampipe.akamaized.net"}
+  - {"name":"❔XX | 🟢 | trojan | @ConfigsHUB | 11","type":"trojan","server":"127.0.0.1","port":1080,"udp":false,"password":"aacbacb-caab-acba-bcda-bcacababbcca","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -188,8 +190,10 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 12'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 13'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 14'
-      - '❔XX | 🟢 | trojan | @ConfigsHUB | 1'
-      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 2'
+      - '🇨🇾CY | 🟢 | trojan | @ConfigsHUB | 4'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 9'
+      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 10'
+      - '❔XX | 🟢 | trojan | @ConfigsHUB | 11'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -227,8 +231,10 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 12'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 13'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 14'
-      - '❔XX | 🟢 | trojan | @ConfigsHUB | 1'
-      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 2'
+      - '🇨🇾CY | 🟢 | trojan | @ConfigsHUB | 4'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 9'
+      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 10'
+      - '❔XX | 🟢 | trojan | @ConfigsHUB | 11'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -265,8 +271,10 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 12'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 13'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 14'
-      - '❔XX | 🟢 | trojan | @ConfigsHUB | 1'
-      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 2'
+      - '🇨🇾CY | 🟢 | trojan | @ConfigsHUB | 4'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 9'
+      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 10'
+      - '❔XX | 🟢 | trojan | @ConfigsHUB | 11'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
