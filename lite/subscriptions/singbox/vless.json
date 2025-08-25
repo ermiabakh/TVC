@@ -173,8 +173,6 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 5",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 11",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 5",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 6",
@@ -270,8 +268,6 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 5",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 11",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 5",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 6",
@@ -1857,34 +1853,6 @@
                 "headers": {
                     "Host": "172.66.40.99"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
-            "type": "vless",
-            "server": "104.16.157.108",
-            "server_port": 8080,
-            "uuid": "cc085cde-f9e7-4d9c-83cb-a6df17392f5a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "91.99.178.25",
-            "server_port": 443,
-            "uuid": "c39a101c-0a7b-4940-8e6a-f8346d70b24b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {

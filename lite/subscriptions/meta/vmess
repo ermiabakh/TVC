@@ -121,6 +121,8 @@ dns:
 
 proxies:
   - {"name":"🇨🇳CN | 🟢 | vmess | @mftizi | 17","type":"vmess","server":"183.236.51.23","port":"53002","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 18","type":"vmess","server":"91.99.2.86","port":"8880","cipher":"auto","uuid":"9a99466d-58ee-4f97-8a8b-cb0bd3d786a1","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇾CY | 🟢 | vmess | @ConfigsHUB | 19","type":"vmess","server":"csgo.com","port":80,"cipher":"auto","uuid":"62e4250a-fe02-40cc-ad32-c847389956cd","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/profile/telegram@ssrsub","headers":{"host":"cdn-node-oss-99.paofu.de"}}}
   - {"name":"❔XX | 🟢 | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
   - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 2","type":"vmess","server":"104.17.147.22","port":"80","cipher":"auto","uuid":"cb8e4fb8-08b7-484d-ad5c-1b55fa539745","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/RACEVPN?telegram-@ISVvpn-telegram-@ISVvpn","headers":{"host":"2.isvvpn-vpnisv-channel-isvvpn-speedtest.net.isvpy.iR."}}}
   - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 3","type":"vmess","server":"38.33.56.45","port":"37000","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
@@ -132,6 +134,8 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 17'
+      - '🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 18'
+      - '🇨🇾CY | 🟢 | vmess | @ConfigsHUB | 19'
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 2'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 3'
@@ -143,6 +147,8 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 17'
+      - '🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 18'
+      - '🇨🇾CY | 🟢 | vmess | @ConfigsHUB | 19'
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 2'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 3'
@@ -153,6 +159,8 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 17'
+      - '🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 18'
+      - '🇨🇾CY | 🟢 | vmess | @ConfigsHUB | 19'
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 2'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 3'

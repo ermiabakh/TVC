@@ -175,8 +175,6 @@ proxies:
   - {"name":"🇮🇷IR | 🔴 | vless | @SafeNet_Server | 4","type":"vless","server":"ppan.cloudpooya.ir","port":29878,"udp":false,"uuid":"51b8e038-d14f-4236-91bf-78ae4d1fb843","tls":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇮🇷IR | 🔴 | vless | @SafeNet_Server | 5","type":"vless","server":"cb6.connectbaash.info","port":4406,"udp":false,"uuid":"0fc95877-cdc3-458f-8b00-d554c99ecbfb","tls":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇺🇸US | 🔴 | vless | @lrnbymaa | 3","type":"vless","server":"HqV2rayNG.fast.hosting-ip.com","port":80,"udp":false,"uuid":"8c248c48-a986-4806-9b8e-835edeb56aea","tls":false,"network":"xhttp","client-fingerprint":"chrome"}
-  - {"name":"🇺🇸US | 🔴 | vless | @ConfigsHUB | 16","type":"vless","server":"104.16.157.108","port":8080,"udp":false,"uuid":"cc085cde-f9e7-4d9c-83cb-a6df17392f5a","tls":false,"network":"httpupgrade","client-fingerprint":"chrome"}
-  - {"name":"🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17","type":"vless","server":"91.99.178.25","port":443,"udp":false,"uuid":"c39a101c-0a7b-4940-8e6a-f8346d70b24b","tls":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇺🇸US | 🔴 | vless | @proxystore11 | 11","type":"vless","server":"cname.proxystore11.news","port":2087,"udp":false,"uuid":"24e0ed76-ae74-4318-9f04-09774dff0df7","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"prx11.proxystore11.news","ws-opts":{"path":"/prx11","headers":{"host":"prx11.proxystore11.news"}}}
   - {"name":"🇩🇪DE | 🔴 | vless | @free1_vpn | 5","type":"vless","server":"87.120.205.207","port":2025,"udp":true,"uuid":"ebac2049-8367-4eab-a1a5-8b742b2fd3b6","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"yahoo.com","grpc-opts":{"grpc-service-name":"das12327gsgsyu"},"reality-opts":{"public-key":"Cnuh4bNEBvRIjrYBEWSVhX8nr5j46lHuyen_IU2rbSk","short-id":"a76e2f1d45"}}
   - {"name":"🇩🇪DE | 🔴 | vless | @free1_vpn | 6","type":"vless","server":"188.245.75.235","port":443,"udp":false,"uuid":"e89ba39d-ae7e-493a-a57b-cdd55b42b4e3","tls":false,"network":"tcp","client-fingerprint":"chrome"}
@@ -254,8 +252,6 @@ proxy-groups:
       - '🇮🇷IR | 🔴 | vless | @SafeNet_Server | 4'
       - '🇮🇷IR | 🔴 | vless | @SafeNet_Server | 5'
       - '🇺🇸US | 🔴 | vless | @lrnbymaa | 3'
-      - '🇺🇸US | 🔴 | vless | @ConfigsHUB | 16'
-      - '🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17'
       - '🇺🇸US | 🔴 | vless | @proxystore11 | 11'
       - '🇩🇪DE | 🔴 | vless | @free1_vpn | 5'
       - '🇩🇪DE | 🔴 | vless | @free1_vpn | 6'
@@ -333,8 +329,6 @@ proxy-groups:
       - '🇮🇷IR | 🔴 | vless | @SafeNet_Server | 4'
       - '🇮🇷IR | 🔴 | vless | @SafeNet_Server | 5'
       - '🇺🇸US | 🔴 | vless | @lrnbymaa | 3'
-      - '🇺🇸US | 🔴 | vless | @ConfigsHUB | 16'
-      - '🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17'
       - '🇺🇸US | 🔴 | vless | @proxystore11 | 11'
       - '🇩🇪DE | 🔴 | vless | @free1_vpn | 5'
       - '🇩🇪DE | 🔴 | vless | @free1_vpn | 6'
@@ -411,8 +405,6 @@ proxy-groups:
       - '🇮🇷IR | 🔴 | vless | @SafeNet_Server | 4'
       - '🇮🇷IR | 🔴 | vless | @SafeNet_Server | 5'
       - '🇺🇸US | 🔴 | vless | @lrnbymaa | 3'
-      - '🇺🇸US | 🔴 | vless | @ConfigsHUB | 16'
-      - '🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17'
       - '🇺🇸US | 🔴 | vless | @proxystore11 | 11'
       - '🇩🇪DE | 🔴 | vless | @free1_vpn | 5'
       - '🇩🇪DE | 🔴 | vless | @free1_vpn | 6'

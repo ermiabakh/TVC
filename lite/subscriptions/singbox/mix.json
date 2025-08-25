@@ -178,8 +178,8 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 5",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
+                "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 18",
+                "🇨🇾CY | 🟢 | vmess | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 11",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
@@ -286,8 +286,8 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 5",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
+                "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 18",
+                "🇨🇾CY | 🟢 | vmess | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 11",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
@@ -1987,13 +1987,16 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
-            "type": "vless",
-            "server": "104.16.157.108",
-            "server_port": 8080,
-            "uuid": "cc085cde-f9e7-4d9c-83cb-a6df17392f5a",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 18",
+            "type": "vmess",
+            "server": "91.99.2.86",
+            "server_port": 8880,
+            "uuid": "9a99466d-58ee-4f97-8a8b-cb0bd3d786a1",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -2001,17 +2004,27 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "91.99.178.25",
-            "server_port": 443,
-            "uuid": "c39a101c-0a7b-4940-8e6a-f8346d70b24b",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇾CY | 🟢 | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "csgo.com",
+            "server_port": 80,
+            "uuid": "62e4250a-fe02-40cc-ad32-c847389956cd",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/profile\/telegram@ssrsub",
+                "headers": {
+                    "Host": "csgo.com"
+                }
             }
         },
         {
