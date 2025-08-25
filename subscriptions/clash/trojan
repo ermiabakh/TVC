@@ -151,9 +151,10 @@ proxies:
   - {"name":"🇫🇷FR | 🟢 | trojan | @DirectVPN | 13","type":"trojan","server":"51.44.89.204","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | 🟢 | trojan | @DirectVPN | 14","type":"trojan","server":"51.44.110.242","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇩🇪DE | 🟢 | trojan | @DirectVPN | 15","type":"trojan","server":"3.127.42.60","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🚩CF | 🟢 | trojan | @ConfigsHUB | 12","type":"trojan","server":"104.20.22.58","port":443,"udp":false,"password":"auto","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"b96ef9ae.trojanfree-76s.pages.dev"}
-  - {"name":"🚩CF | 🟢 | trojan | @ConfigsHUB | 13","type":"trojan","server":"104.19.171.4","port":443,"udp":false,"password":"dba20dcb635e430fa4d3bfc303a149d2","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"jobscareertoday.com"}
-  - {"name":"❔XX | 🟢 | trojan | @ConfigsHUB | 14","type":"trojan","server":"joinv2ngfast-7nr.pages.dev","port":2096,"udp":false,"password":"89b3cbba-e6ac-485a-9481-976a0415eab9","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"joinV2NGFasT-7Nr.pAgeS.DeV"}
+  - {"name":"🚩CF | 🔴 | trojan | @ConfigsHUB | 1","type":"trojan","server":"104.17.148.22","port":443,"udp":false,"password":"3454b8f0-aa56-11ef-b61b-1239d0255272","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"sg-4.test3.net"}
+  - {"name":"🚩CF | 🟢 | trojan | @ConfigsHUB | 2","type":"trojan","server":"198.41.220.10","port":443,"udp":false,"password":"2cba4104747d49d18319e5ade1b93ab5","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"jobscareerforstudent.com"}
+  - {"name":"🇺🇸US | 🟢 | trojan | @ConfigsHUB | 3","type":"trojan","server":"www.speedtest.net","port":443,"udp":false,"password":"ec9406f9-3fc6-442d-b9f6-90c59b64eff2","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"pages.dev"}
+  - {"name":"🚩CF | 🟢 | trojan | @ConfigsHUB | 4","type":"trojan","server":"172.66.47.106","port":443,"udp":false,"password":"bf7e1009-1574-44f7-86df-6cbecd338477","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"pardazeshvpn-tg18.pages.dev"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -193,9 +194,10 @@ proxy-groups:
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 13'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 14'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 15'
-      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 12'
-      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 13'
-      - '❔XX | 🟢 | trojan | @ConfigsHUB | 14'
+      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 1'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 2'
+      - '🇺🇸US | 🟢 | trojan | @ConfigsHUB | 3'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 4'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -235,9 +237,10 @@ proxy-groups:
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 13'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 14'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 15'
-      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 12'
-      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 13'
-      - '❔XX | 🟢 | trojan | @ConfigsHUB | 14'
+      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 1'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 2'
+      - '🇺🇸US | 🟢 | trojan | @ConfigsHUB | 3'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 4'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -276,9 +279,10 @@ proxy-groups:
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 13'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 14'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 15'
-      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 12'
-      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 13'
-      - '❔XX | 🟢 | trojan | @ConfigsHUB | 14'
+      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 1'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 2'
+      - '🇺🇸US | 🟢 | trojan | @ConfigsHUB | 3'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 4'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
