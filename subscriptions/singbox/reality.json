@@ -148,7 +148,8 @@
                 "🇫🇮FI | 🟢 | vless | @prrofile_purple | 143",
                 "🇩🇪DE | 🔴 | vless | @prrofile_purple | 148",
                 "🇺🇸US | 🟢 | vless | @customv2ray | 22",
-                "🇯🇵JP | 🟢 | vless | @ConfigsHUB | 6",
+                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 3",
+                "🇯🇵JP | 🟢 | vless | @ConfigsHUB | 16",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 6",
                 "🇫🇮FI | 🔴 | vless | @Outlinev2rayNG | 0",
                 "🇵🇱PL | 🟢 | vless | @Outlinev2rayNG | 5",
@@ -225,7 +226,8 @@
                 "🇫🇮FI | 🟢 | vless | @prrofile_purple | 143",
                 "🇩🇪DE | 🔴 | vless | @prrofile_purple | 148",
                 "🇺🇸US | 🟢 | vless | @customv2ray | 22",
-                "🇯🇵JP | 🟢 | vless | @ConfigsHUB | 6",
+                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 3",
+                "🇯🇵JP | 🟢 | vless | @ConfigsHUB | 16",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 6",
                 "🇫🇮FI | 🔴 | vless | @Outlinev2rayNG | 0",
                 "🇵🇱PL | 🟢 | vless | @Outlinev2rayNG | 5",
@@ -1564,7 +1566,36 @@
             }
         },
         {
-            "tag": "🇯🇵JP | 🟢 | vless | @ConfigsHUB | 6",
+            "tag": "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 3",
+            "type": "vless",
+            "server": "94.26.228.10",
+            "server_port": 443,
+            "uuid": "1a6fe500-59da-4598-8576-256f06765ffb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ru.sfasti.ru",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
+                    "short_id": "16895459a2c7768d"
+                }
+            }
+        },
+        {
+            "tag": "🇯🇵JP | 🟢 | vless | @ConfigsHUB | 16",
             "type": "vless",
             "server": "amazon-20.cristiano.name.ng",
             "server_port": 443,
