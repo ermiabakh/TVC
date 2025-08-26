@@ -148,9 +148,7 @@
                 "🇩🇪DE | 🔴 | vless | @prrofile_purple | 149",
                 "🇺🇸US | 🟢 | vless | @customv2ray | 22",
                 "🇨🇦CA | 🔴 | vless | @VmessProtocol | 0",
-                "🇬🇧GB | 🟢 | vless | @ConfigsHUB | 13",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 14",
-                "🇨🇦CA | 🟢 | vless | @ConfigsHUB | 15",
+                "🇯🇵JP | 🟢 | vless | @ConfigsHUB | 1",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 9",
                 "🇫🇮FI | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇵🇱PL | 🟢 | vless | @Outlinev2rayNG | 13",
@@ -229,9 +227,7 @@
                 "🇩🇪DE | 🔴 | vless | @prrofile_purple | 149",
                 "🇺🇸US | 🟢 | vless | @customv2ray | 22",
                 "🇨🇦CA | 🔴 | vless | @VmessProtocol | 0",
-                "🇬🇧GB | 🟢 | vless | @ConfigsHUB | 13",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 14",
-                "🇨🇦CA | 🟢 | vless | @ConfigsHUB | 15",
+                "🇯🇵JP | 🟢 | vless | @ConfigsHUB | 1",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 9",
                 "🇫🇮FI | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇵🇱PL | 🟢 | vless | @Outlinev2rayNG | 13",
@@ -1572,65 +1568,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🟢 | vless | @ConfigsHUB | 13",
-            "type": "vless",
-            "server": "51.75.162.3",
-            "server_port": 443,
-            "uuid": "f7d30f9b-e77f-4162-b553-1ca6f816b870",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "aO2tx4kfUpQWIvT5bO7lH6G1GDfnrThtSFigLJXDens",
-                    "short_id": "370dd394052f2386"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 14",
-            "type": "vless",
-            "server": "109.61.16.89",
-            "server_port": 30938,
-            "uuid": "1068814a-6d43-40d9-a127-0f6b6b77ccfc",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "indeed.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "OkwhFGkP6NhXbmfBpBKqJ_HDNEcqbkp0mMc9HeYVBBE",
-                    "short_id": "9f2b1f07"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | 🟢 | vless | @ConfigsHUB | 15",
+            "tag": "🇯🇵JP | 🟢 | vless | @ConfigsHUB | 1",
             "type": "vless",
             "server": "amazon-20.cristiano.name.ng",
             "server_port": 443,
