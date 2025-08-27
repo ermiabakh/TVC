@@ -145,12 +145,8 @@ proxies:
   - {"name":"🇫🇷FR | 🟢 | trojan | @DirectVPN | 11","type":"trojan","server":"35.181.210.214","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇩🇪DE | 🟢 | trojan | @DirectVPN | 12","type":"trojan","server":"63.176.195.158","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇩🇪DE | 🟢 | trojan | @DirectVPN | 13","type":"trojan","server":"3.69.18.215","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🚩CF | 🔴 | trojan | @ConfigsHUB | 2","type":"trojan","server":"104.18.89.137","port":443,"udp":false,"password":"bpb-trojan","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"fcspring.ggff.net"}
-  - {"name":"🇺🇸US | 🔴 | trojan | @ConfigsHUB | 3","type":"trojan","server":"download2hkt.windowsupdate.lol","port":443,"udp":false,"password":"7778e684-f435-4166-bf9e-0256cb28bf10","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"download2hkt.windowsupdate.lol"}
-  - {"name":"🇸🇪SE | 🟢 | trojan | @ConfigsHUB | 14","type":"trojan","server":"51.20.160.239","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇰🇷KR | 🔴 | trojan | @ConfigsHUB | 15","type":"trojan","server":"ent1.imyourdaddy.top","port":20992,"udp":false,"password":"64f33df2-4f9d-4cf3-bb69-b82b08cf149a","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"sale.alibaba.com"}
-  - {"name":"🚩CF | 🔴 | trojan | @ConfigsHUB | 16","type":"trojan","server":"104.17.148.22","port":2052,"udp":false,"password":"4b0915d7-8544-5d48-946a-a708d7288447","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🚩CF | 🔴 | trojan | @ConfigsHUB | 17","type":"trojan","server":"188.114.97.123","port":443,"udp":false,"password":"bpb-trojan","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"adagio.us.kg"}
+  - {"name":"🚩CF | 🟢 | trojan | @ConfigsHUB | 2","type":"trojan","server":"198.41.220.12","port":443,"udp":false,"password":"242a3d8eee5e4ed1a6bfa4141d549a25","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"jobscareerforlawyers.com"}
+  - {"name":"🚩CF | 🟢 | trojan | @ConfigsHUB | 4","type":"trojan","server":"162.159.152.42","port":443,"udp":false,"password":"tg-dns68","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"vip.putata.eu.org"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -184,12 +180,8 @@ proxy-groups:
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 11'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 12'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 13'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 2'
-      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 3'
-      - '🇸🇪SE | 🟢 | trojan | @ConfigsHUB | 14'
-      - '🇰🇷KR | 🔴 | trojan | @ConfigsHUB | 15'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 16'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 17'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 2'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 4'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -223,12 +215,8 @@ proxy-groups:
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 11'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 12'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 13'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 2'
-      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 3'
-      - '🇸🇪SE | 🟢 | trojan | @ConfigsHUB | 14'
-      - '🇰🇷KR | 🔴 | trojan | @ConfigsHUB | 15'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 16'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 17'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 2'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 4'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -261,12 +249,8 @@ proxy-groups:
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 11'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 12'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 13'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 2'
-      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 3'
-      - '🇸🇪SE | 🟢 | trojan | @ConfigsHUB | 14'
-      - '🇰🇷KR | 🔴 | trojan | @ConfigsHUB | 15'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 16'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 17'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 2'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 4'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
