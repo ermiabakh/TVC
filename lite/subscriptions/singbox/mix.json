@@ -175,8 +175,8 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 4",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇺🇸US | 🔴 | trojan | @ConfigsHUB | 16",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 12",
+                "🇺🇸US | 🟢 | trojan | @ConfigsHUB | 13",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 11",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 12",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
@@ -281,8 +281,8 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 4",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇺🇸US | 🔴 | trojan | @ConfigsHUB | 16",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 12",
+                "🇺🇸US | 🟢 | trojan | @ConfigsHUB | 13",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 11",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 12",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
@@ -1954,23 +1954,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | trojan | @ConfigsHUB | 16",
-            "type": "trojan",
-            "server": "104.21.92.73",
-            "server_port": 443,
-            "password": "dns68",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 12",
             "type": "vless",
-            "server": "numberland.ir",
-            "server_port": 2052,
-            "uuid": "a4baa696-9a35-44a4-d354-b61bba5c677a",
+            "server": "151.101.2.133",
+            "server_port": 443,
+            "uuid": "5a7f8259-8e88-47eb-a910-a746d2f58820",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1978,11 +1966,43 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "live.theworldwidewolf.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | trojan | @ConfigsHUB | 13",
+            "type": "trojan",
+            "server": "162.159.128.233",
+            "server_port": 8443,
+            "password": "auto",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "e9464f45.trauma-2r4.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@vmessorg----@vmessorg-----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg?ed=2480",
+                "path": "\/TELEGRAM-@PROXY_MTM-TELEGRAM-@PROXY_MTM\/",
                 "headers": {
-                    "Host": "numberland.ir"
+                    "Host": "e9464f45.trauma-2r4.pages.dev"
                 }
             }
         },

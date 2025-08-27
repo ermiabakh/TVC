@@ -15,11 +15,11 @@ DIRECT = direct
 🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 15 = trojan, 52.29.60.180, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇩🇪DE | 🟢 | trojan | @DirectVPN | 14 = trojan, 63.176.217.80, 22223, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇩🇪DE | 🟢 | trojan | @DirectVPN | 15 = trojan, 52.29.60.180, 22223, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇺🇸US | 🔴 | trojan | @ConfigsHUB | 16 = trojan, 104.21.92.73, 443, password = dns68, udp-delay = true, skip-cert-verify = false, sni = trojan.putata.us.kg, ws = false
+🇺🇸US | 🟢 | trojan | @ConfigsHUB | 13 = trojan, 162.159.128.233, 8443, password = auto, udp-delay = true, skip-cert-verify = false, sni = e9464f45.trauma-2r4.pages.dev, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 14,🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 15,🇩🇪DE | 🟢 | trojan | @DirectVPN | 14,🇩🇪DE | 🟢 | trojan | @DirectVPN | 15,🇺🇸US | 🔴 | trojan | @ConfigsHUB | 16
-URL-TEST = url-test,🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 14,🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 15,🇩🇪DE | 🟢 | trojan | @DirectVPN | 14,🇩🇪DE | 🟢 | trojan | @DirectVPN | 15,🇺🇸US | 🔴 | trojan | @ConfigsHUB | 16
-FALLBACK = fallback,🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 14,🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 15,🇩🇪DE | 🟢 | trojan | @DirectVPN | 14,🇩🇪DE | 🟢 | trojan | @DirectVPN | 15,🇺🇸US | 🔴 | trojan | @ConfigsHUB | 16
+MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 14,🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 15,🇩🇪DE | 🟢 | trojan | @DirectVPN | 14,🇩🇪DE | 🟢 | trojan | @DirectVPN | 15,🇺🇸US | 🟢 | trojan | @ConfigsHUB | 13
+URL-TEST = url-test,🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 14,🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 15,🇩🇪DE | 🟢 | trojan | @DirectVPN | 14,🇩🇪DE | 🟢 | trojan | @DirectVPN | 15,🇺🇸US | 🟢 | trojan | @ConfigsHUB | 13
+FALLBACK = fallback,🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 14,🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 15,🇩🇪DE | 🟢 | trojan | @DirectVPN | 14,🇩🇪DE | 🟢 | trojan | @DirectVPN | 15,🇺🇸US | 🟢 | trojan | @ConfigsHUB | 13
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
